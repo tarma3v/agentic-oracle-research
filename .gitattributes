@@ -1,0 +1,5 @@
+# Preserve downloaded research artifacts and their recorded hashes.
+vendor/reference/** -text
+sources/** -text
+*.csv -text
+*.parquet -text

@@ -1,0 +1,125 @@
+{
+  "run_id": "20260929T224128915577Z",
+  "sample_kind": "convenience_sample_smoke_test_not_benchmark",
+  "started_at": "2026-09-29T22:41:28.915374Z",
+  "completed_at": "2026-09-29T22:41:40.726374Z",
+  "requested_limit": 100,
+  "raw_market_count": 100,
+  "market_count": 100,
+  "excluded_counts": {},
+  "pagination_followed": false,
+  "additional_page_available": true,
+  "api_returned_status_counts": {
+    "finalized": 100
+  },
+  "label_counts": {
+    "no": 67,
+    "yes": 33
+  },
+  "category_counts": {
+    "Sports": 50,
+    "Climate and Weather": 50
+  },
+  "unique_events": 32,
+  "duplicate_event_group_count": 14,
+  "markets_in_duplicate_event_groups": 82,
+  "excess_rows_beyond_one_per_event": 68,
+  "duplicate_event_groups": {
+    "KXTEMPCHIHS-26SEP2917": 10,
+    "KXTEMPLAXHS-26SEP2917": 10,
+    "KXTEMPMIAH-26SEP2917": 10,
+    "KXTEMPNYCHS-26SEP2917": 10,
+    "KXTEMPNYCHS-26SEP2918": 10,
+    "KXTTELITEMATCH-26SEP291700JNOOLU": 2,
+    "KXTTELITEMATCH-26SEP291755MGRSJA": 2,
+    "KXTTELITEMATCH-26SEP291800LMAPKU": 2,
+    "KXTTELITEMATCH-26SEP291810JNOMKO": 2,
+    "KXTTELITEMATCH-26SEP291820AFOGPI": 2,
+    "KXTTSTARMATCH-26SEP291650SZUBRO": 2,
+    "KXUEFANLGOAL-26SEP29CZEENG": 9,
+    "KXUEFANLGOAL-26SEP29ESPCRO": 9,
+    "KXUEFANLTEAMTOTAL-26SEP29LUXISL": 2
+  },
+  "completeness": {
+    "ticker": {
+      "present": 100,
+      "total": 100
+    },
+    "event_ticker": {
+      "present": 100,
+      "total": 100
+    },
+    "series_ticker": {
+      "present": 100,
+      "total": 100
+    },
+    "title": {
+      "present": 100,
+      "total": 100
+    },
+    "rules_primary": {
+      "present": 100,
+      "total": 100
+    },
+    "rules_secondary": {
+      "present": 100,
+      "total": 100
+    },
+    "close_time": {
+      "present": 100,
+      "total": 100
+    },
+    "resolution_sources": {
+      "present": 100,
+      "total": 100
+    },
+    "contract_terms_url": {
+      "present": 69,
+      "total": 100
+    }
+  },
+  "series_linked_count": 19,
+  "series_fetched_count": 5,
+  "series_fetch_limit": 5,
+  "missing_full_series_metadata_market_count": 31,
+  "missing_full_series_metadata_ids": [
+    "KXAFCONSPREAD",
+    "KXAFCONTEAMTOTAL",
+    "KXCONCACAFNLSPREAD",
+    "KXCONCACAFNLTOTAL",
+    "KXDIMAYORSPREAD",
+    "KXDIMAYORTOTAL",
+    "KXENGNLSPREAD",
+    "KXENGNLTOTAL",
+    "KXTEMPMIAH",
+    "KXTTSTARMATCH",
+    "KXUEFANLFIRSTGOAL",
+    "KXUEFANLSPREAD",
+    "KXUEFANLTEAMTOTAL",
+    "KXUEFANLTOTAL"
+  ],
+  "missing_resolution_sources_count": 0,
+  "forbidden_input_key_check": "passed",
+  "cutoff": {
+    "market_positions_last_updated_ts": "2026-07-31T00:00:00Z",
+    "market_settled_ts": "2026-07-31T00:00:00Z",
+    "orders_updated_ts": "2026-09-15T00:00:00Z",
+    "trades_created_ts": "2026-07-31T00:00:00Z"
+  },
+  "request_errors": [],
+  "warnings": [
+    "Convenience sample of recent API results; this is a data-access smoke test, not a benchmark.",
+    "No historical as-of rule versions or dated evidence snapshots were reconstructed.",
+    "close_time and other metadata are retrospective snapshots and can encode operational outcome information; whitelist alone does not make an as-of backtest safe.",
+    "Source URLs identify designated sources; their factual evidence has not been fetched or verified.",
+    "Raw API responses and labels contain outcomes. Do not expose them to a resolver under evaluation.",
+    "Do not randomly split market rows: multiple strikes share the same underlying event.",
+    "Full series metadata was limited to 5 series: absent for 31/100 markets across 14 linked series. Event-level sources may still be present."
+  ],
+  "files": {
+    "inputs": "/Users/shatar/agentic-oracle-research/data/kalshi/inputs.jsonl",
+    "labels": "/Users/shatar/agentic-oracle-research/data/kalshi/labels.jsonl",
+    "manifest": "/Users/shatar/agentic-oracle-research/data/kalshi/manifest.json",
+    "raw_dir": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "question_id": "KXBTCATH",
+  "question_text": "Will Bitcoin be above $124457.12 by Dec 31, 2025 at 11:59PM ET?",
+  "resolution_criteria": "If the Bitcoin spot price according to the CF Bitcoin Real-Time Index is above $124457.12 starting 10/01/2025 10:00 AM ET and before Dec 31, 2025 at 11:59PM ET, then the market resolves to Yes.\nThe market resolves based on the CF Bitcoin Real-Time Index (BRTI) using a trimmed mean calculation. The resolution value is calculated by taking all BRTI values for each minute from market issuance until the specified time on the target date, removing the top 20% and bottom 20% of values, then averaging the remaining 60% of values. If the BRTI crosses the threshold at any point during the measurement period (triggering early expiration), the market immediately resolves. If no data is available at the expiration time, the market resolves to No. The market can resolve early if Bitcoin definitively crosses the threshold before the target date and time.",
+  "resolution_date": "2025-10-05T05:16:51.023237Z",
+  "retrieval_timestamp": "2026-02-23T06:32:18.531410Z",
+  "query_used": "What is the result of this question \"Will Bitcoin be above $124457.12 by Dec 31, 2025 at 11:59PM ET\"",
+  "sources": [
+    {
+      "title": "What price will Bitcoin hit in 2025? Trading Odds & Predictions | Polymarket",
+      "url": "https://polymarket.com/market/will-bitcoin-reach-95000-by-december-31-2025-818-596-821-318-841",
+      "published_date": "2025-05-13T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "price will Bitcoin hit in 2025?\n$188,753,254Vol.\nJan 1, 2026 Polymarket\n\u21911,000,000\n$31,394,608Vol.\nNo\n\u2191250,000\n$15,857,523Vol.\nNo\n\u2191200,000\n$19,275,708Vol.\nNo\n\u2191170,000 ... No\n\u219350,000\n$4,969,077Vol.\nNo\n\u219320,000\n$4,003,570Vol.\nNo\n## Rules\n## Market Context This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Bitcoin (BTCUSDT) between December 2, 2025, 14:30 and December 31, 2025, 23:59 in the ET timezone has a final \"High\" price equal to or greater than the price specified in the title. Otherwise, this market will resolve to \"No.\" ... Created At:Dec 2, 2025, 2:40 PM ET\nVolume\n$188,753,254\nEnd Date\nJan 1, 2026\nCreated At\nDec 2, 2025, 2:40 PM ET\nResolver ... This market will immediately resolve to \"\"Yes\"\" if any Binance 1 minute candle for Bitcoin (BTCUSDT) between December 2, 2025, 14:30 and December 31, 2025, 23:59 in the ET timezone has a final ... Outcome proposed: No\nNo dispute\nFinal outcome: No\n## Comments (5,608)\n## Top Holders\n## Activity\nPost ... Crypto \u00b7 Crypto Prices \n# What price will Bitcoin hit in 2025?\n$188,753,254Vol.\nPolymarket \u21911,000,000\n$31,394,608Vol.\nNo\n\u2191250,000\n$15,857,523Vol.\nNo\n\u2191200,000\n$19,275,708Vol.\nNo\n\u2191170,000\n$7,721,957Vol.\nNo ... Will the Bitcoin Volatility"
+      ]
+    },
+    {
+      "title": "What price will Bitcoin hit in 2025? Trading Odds & Predictions | Polymarket",
+      "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-2025/will-bitcoin-reach-130000-by-december-31-2025-911-832",
+      "published_date": "2024-11-27T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "### \u21911,000,000 $31,394,608Vol.\nNo\ncircle xmark\n### \u2191250,000\n$15,857,523Vol.\nNo\ncircle xmark\n### \u2191200,000\n$19,275,708Vol.\nNo ... This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Bitcoin (BTCUSDT) between December 30, 2024, 20:00 and December 31, 2025, 23:59 in the ET timezone has a final \"High\" price of $130,000 or higher. Otherwise, this market will resolve to \"No.\" ... market. Created At:Dec 30, 2024, 10:06 PM UTC\nVolume\n$188,753,254\nEnd Date\nJan 1, 2026\nCreated At\nDec 30, 2024, 10:06 PM UTC Resolver\n 0x6A9D22261... \nShow more\nOutcome proposed: No\nNo dispute\nFinal outcome: No ... Market icon \n# What price will Bitcoin hit in 2025?\n\u21911,000,000\n$31,394,608Vol.\nNo\ncircle xmark\n\u2191250,000 ... ### What price will Bitcoin hit in 2025?\nGenerate\n### About\nVolume\n$188,753,254\nEnd Date\nJan 1, 2026\nCreated At Dec 30, 2024, 10:06 PM UTC\nResolver\n 0x6A9D22261... \n### Related\nAllCrypto\n \n Market icon Will inflation reach more than 3% in 2025?\n2%\n [\n Market icon Will Bitcoin hit $150k by December 31, 2026?\n27"
+      ]
+    },
+    {
+      "title": "Polymarket | What price will Bitcoin hit in 2025?",
+      "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-2025/will-bitcoin-reach-250000-by-december-31-2025?tid=1752118317862",
+      "published_date": "2024-12-30T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "### \u21911,000,000 $31,394,608Vol.\nNo\ncircle xmark\n### \u2191250,000\n$15,857,523Vol.\nNo\ncircle xmark\n### \u2191200,000\n$19,275,708Vol.\nNo ... This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Bitcoin (BTCUSDT) between December 30, 2024, 20:00 and December 31, 2025, 23:59 in the ET timezone has a final \"High\" price of $250,000 or higher. Otherwise, this market will resolve to \"No.\" ... market. Created At:Dec 30, 2024, 10:06 PM UTC\nVolume\n$188,753,254\nEnd Date\nJan 1, 2026\nCreated At\nDec 30, 2024, 10:06 PM UTC Resolver\n 0x6A9D22261... \nShow more\nOutcome proposed: No\nNo dispute\nFinal outcome: No ... Market icon \n# What price will Bitcoin hit in 2025?\n\u21911,000,000\n$31,394,608Vol.\nNo\ncircle xmark\n\u2191250,000 ... ### What price will Bitcoin hit in 2025?\nGenerate\n### About\nVolume\n$188,753,254\nEnd Date\nJan 1, 2026\nCreated At Dec 30, 2024, 10:06 PM UTC\nResolver\n 0x6A9D22261... \n### Related\nAllCrypto\n \n Market icon Will inflation reach more than 8% in 2025?\n2%\n [\n Market icon Will Bitcoin hit $150k by December 31, 2026?\n28"
+      ]
+    },
+    {
+      "title": "1 Will Bitcoin reach $110,000 by December 31, 2025? prediction market",
+      "url": "https://polymarket.com/search?_q=Will+Bitcoin+reach+%24110%2C000+by+December+31%2C+2025%3F",
+      "published_date": "2024-08-16T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "December 31, 2025?\n0123456789 resultforWill Bitcoin reach $110,000 by December 31, 2025?\n \nAll\n \nYearly\n \nHit Price \nCrypto Prices\n \nBitcoin\n \nCrypto\n \n What price will Bitcoin hit in 2026? \n Crypto Bitcoin What price will Bitcoin hit in 2026?\n$11m Vol.\n$568k today\n$1m Liq.\nEndsin 11 months\n70%\n\u219365,000\n$11m Vol.\n$568k today $1m Liq.\nEndsin 11 months\nSort by\nTrending\nLiquidity\nVolume\nNewest\nEnding soon\nCompetitive\nEvent Status\nActive\nResolved"
+      ]
+    },
+    {
+      "title": "Will Bitcoin reach $150,000 by December 31, 2025? | PredictBase",
+      "url": "https://predictbase.app/market/17",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "How PredictBase Works\n\n## Menu Markets Dashboard Rewards Leaderboard Documentation Create a Market Light Mode\n\n Terms of Use Privacy Careers Contact Will Bitcoin reach $150,000 by December 31, 2025? | PredictBase"
+      ]
+    },
+    {
+      "title": "Bitcoin Price Prediction | Forecast BTC price in 2025, 2026, 2030 & beyond",
+      "url": "https://www.kraken.com/price-prediction/bitcoin",
+      "published_date": "2025-05-22T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "price prediction How much will Bitcoin be worth in 2026, 2030 and beyond? Use our price prediction tool to forecast the price of Bitcoin and see how much your investment could be worth. Price in 5 years with 5% predicted growth\nBTC\n BTC icon \n**+27.63%** increase.\nUSD\nUSD\nCurrent price $68,071\nPrice in 5 years\\*\n$86,877.76\nPrice in 10 years\\*\n$110,880.49\nPrice in 15 years\\*\n$141,514.72 Price in 20 years\\*\n$180,612.63\n Sign up \n Sign up Results are based solely on your predicted price change. They are not indicators of future performance, and do not take ... Return on investment\n Buy BTC \n Buy BTC \n## Bitcoin price prediction by 2040 Based on your prediction that Bitcoin will change at a rate of **5%** every year, the price of Bitcoin would be **$71,474.55** in 2027, **$86,877.76** in 2031, **$110,880.49** in 2036, and **$141,514.72 **in 2041. ... What is the predicted price of Bitcoin tomorrow? With your predicted growth rate of **5%**, the **Bitcoin price prediction for tomorrow** is estimated to be ... What will the price of Bitcoin be when the last Bitcoin is mined (estimated 2140)? According to your growth rate of **5%**, the **Bitcoin ****price prediction for the year 2140** (when the last Bitcoin ... Manage your asset with Kraken Wallet\n] \n \nSign up now\nCreate your free Kraken account\n Bitcoin in 5 years?\nPredicted annual growth\n%\nEnter a percentage between -100% and +1000%\nBTC predicted growth\nCurrent BTC price\n$68,071\nPrice change, 1 yr\n-29.22%\n5 years, 5% predicted growth\\*\n5% predicted price\n$86,877.76 ... TIA\n2.17-3.12% APY\n] \nATOM\n ATOM icon \nCosmos\nATOM\n9.12-9.7% APY\n The graph has been set to 5% by default to show you how data is presented, and is not an indication of future performance.\\* This tool creates a line chart showing your prediction of how the asset price could change over time, starting from the current asset market price on the Kraken spot exchange. Results are based solely on your predicted price change. They ... \\*Past Performance is"
+      ]
+    },
+    {
+      "title": "Bitcoin Extremes: Will 1 bitcoin be worth $100,000 or more before 2025?",
+      "url": "https://www.metaculus.com/questions/3820/bitcoin-extremes-will-1-bitcoin-be-worth-100000-or-more-before-2025/",
+      "published_date": "2020-03-12T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "BTC Worth Over 100k USD by 2025? | Metaculus\n # Metaculus\n \n* Questions \n* Tournaments * Leaderboards \n* News \n* MoreMore\n* * About Metaculus \n* For Journalists * FAQ \n* Track Record \n* The Journal \n* \uff0b Write a Question \n* Account * Log In\n* Dark Mode\nQuestion\n* Approval\n* Notify Me\n* Share private question\n* Unsubscribe from question * Invite Coauthors\n* Remove myself\n* Download CSV \n#### Your submission is now a Draft. Once it's ready, please submit your draft for review by our team of Community Moderators. Thank you! Submit for reviewInvite Co-authors\n#### You have been invited to co-author this question. When it is ready, the author will submit it for review by Community Moderators. Thanks for helping! Remove myself as co-authorApproval\n#### In Review This question now needs to be approved by a Metaculus Moderator. Questions that conform to our Question Writing Guidelines , and concern one of our core topics , have better chances of being approved, and faster. All Metaculus users are encouraged to give feedback on questions during Review, and upvote the questions they find interesting and/or well written. Questions with a positive vote balance will receive priority attention from Administrators. Questions with a significantly negative vote balance will be rejected by default. A question\u2019s author can invite other users to be co-authors, to help with the writing process, or recognize their ... Invite Co-authorsApprovalSend back to Drafts\n#### You have been invited to co-author this question. It now needs to be approved by Community Moderators. Thanks for helping!\nRemove myself as co-authorApproval # {{qctrl.question.title}}\n### Make a Prediction\n### Prediction\nNotify MeEmbed\n* Approval\n* Share private question * Unsubscribe from question\n* Invite Coauthors\n* Remove myself\n* Download CSV"
+      ]
+    },
+    {
+      "title": "What will the price of Bitcoin be on Dec 31, 2025? | Gemini Predictions",
+      "url": "https://exchange.gemini.com/predictions/BTC25/what-will-the-price-of-bitcoin-be-on-dec-31-2025",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "What will the price of Bitcoin be on Dec 31, 2025? | Gemini Predictions Oops! Something went wrong while loading the page. Refresh the page to try again. If the problem persists, please contact support at support@gemini.com ."
+      ]
+    },
+    {
+      "title": "How high will Bitcoin get in 2025",
+      "url": "https://robinhood.com/us/en/prediction-markets/crypto/events/how-high-will-bitcoin-get-in-2025-dec-31-1969/",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "2025\n\n$125,000 or above99\u00a2\n\n$130,000 or above1\u00a2\n\n$140,000 or above1\u00a2\n\n1D\n\n1W\n\nMAX ## Select a contract\n\nShow 10 more\n\n$125,000 or above\n\n99\u00a2\n\n$130,000 or above\n\n1\u00a2\n\n$140,000 or above\n\n1\u00a2\n\n## Timeline Trading hours\n\n24 hours a day, except Thursday 3AM-5AM ET\n\nContract resolves\n\nDetermines the outcome of the contract ... How high will the price of Bitcoin get this year? The Contract is settled by taking an average of CF Benchmarks' Bitcoin Real-Time Index (BRTI) in any sixty second period, excluding the top 20% and bottom 20% of values. Get $1 for every contract you own if your prediction is correct. Or close your position before the event resolves. ... ## Similar events\n\n How low will Solana get in 2026? \n\n How high will Ethereum get in 2026? How high will XRP get in 2026? \n\n Ethereum price on Feb 20, 2026 at 4am EST When will Bitcoin hit $150k \n\n How high will Dogecoin get in February ... When will Dogecoin hit $1? \n\n Bitcoin price on Feb 20, 2026 at 5pm EST Restrictions and eligibility requirements apply. Futures, options on futures and cleared swaps trading involves significant risk and is not appropriate for everyone. Please carefully consider if it is appropriate for you in light ... contracts. Live data is for informational purposes only. It maybe delayed or incorrect. Event contracts"
+      ]
+    },
+    {
+      "title": "Bitcoin Calculator",
+      "url": "https://www.mybitcoinforecast.com/",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "is your go-to tool for mastering Bitcoin-related financial planning. Whether you're forecasting prices, planning investments, or planning for retirement, our calculator delivers insights to empower your ... This calculator is built around a few guiding principles: - Bitcoin always goes up in the long term.\n- Bitcoin is the best store of value and the best investment. - Hold your Bitcoin for at least four years.\n- Don't panic buy or sell your Bitcoin. Make a plan and stick to it. ... \u201cIf you are going to invest in Bitcoin, a short time horizon is four years, a mid-time horizon is ten years, and the ... Choose a Bitcoin forecast model - Michael Saylor's model, Power Law Model, or choose a custom growth rate. ... Choose when to retire and how to draw money - fixed amount, only a % of growth, etc.\n\n## Bitcoin Price Forecasting Collapse Explore future trends with the Bitcoin price forecasting feature. Predict potential price movements using various models, helping you plan your investments. Bitcoin Price\n\nLoading...\n\nForecast Length\n\nyears\n\nForecast Model\n\nSaylor Model\n\nOptimism Level\n\nBase Case ## Saylor Model (Base)\n\nLoading chart...\n\n## Bitcoin Investment Calculator\n\nCollapse Maximize your returns with our bitcoin investment calculator. Enter your initial investment, purchase price, and current or projected price to calculate profits and assess growth potential over time. Lump Sum Investment (USD)\n\n$\n\nDollar-Cost Average Investment\n\n$\n\nMonthly\n\nDollar-Cost Average Length\n\nyears Current BTC Holdings\n\n\u20bf\n\nAverage Purchase Price\n\n$\n\nClear All\n\nLoading chart...\n\nLoading investment data... ... Retirement Strategy\n\nSell\n\nBegin Drawing\n\nCurrent Age\n\nDraw Strategy\n\nFixed Annual Amount\n\nAnnual Draw Inflation Adjustment (%)\n\nLoading chart... | Year | Bitcoin Price | Bitcoin Holdings BTC | Bitcoin Holdings USD | Gain/Loss | Withdrawal BTC | Withdrawal USD | | --- | --- | --- | --- | --- | --- | --- | ... Bitcoin price forecasting is essential for anyone looking to predict future"
+      ]
+    }
+  ]
+}

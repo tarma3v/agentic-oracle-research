@@ -1,0 +1,508 @@
+{
+  "run_id": "20260929T224128915577Z",
+  "sample_kind": "convenience_sample_smoke_test_not_benchmark",
+  "started_at": "2026-09-29T22:41:28.915374Z",
+  "completed_at": "2026-09-29T22:41:40.726374Z",
+  "source": "Kalshi public API",
+  "api_base_url": "https://external-api.kalshi.com/trade-api/v2",
+  "request_policy": "GET only; no credentials; no trading; no paid API",
+  "sampling": {
+    "method": "first API page; server default ordering; convenience sample",
+    "params": {
+      "status": "settled",
+      "limit": 100,
+      "mve_filter": "exclude"
+    },
+    "max_full_series_requests": 5
+  },
+  "cutoff": {
+    "market_positions_last_updated_ts": "2026-07-31T00:00:00Z",
+    "market_settled_ts": "2026-07-31T00:00:00Z",
+    "orders_updated_ts": "2026-09-15T00:00:00Z",
+    "trades_created_ts": "2026-07-31T00:00:00Z"
+  },
+  "historical_api_note": "Older settled markets are in /historical/markets. This smoke test intentionally samples only the live endpoint's recent settled tier.",
+  "input_allowlist": [
+    "ticker",
+    "event_ticker",
+    "title",
+    "yes_sub_title",
+    "no_sub_title",
+    "market_type",
+    "rules_primary",
+    "rules_secondary",
+    "strike_type",
+    "floor_strike",
+    "cap_strike",
+    "functional_strike",
+    "early_close_condition",
+    "can_close_early",
+    "created_time",
+    "open_time",
+    "close_time",
+    "expected_expiration_time",
+    "expiration_time",
+    "latest_expiration_time",
+    "occurrence_datetime"
+  ],
+  "input_metadata_note": "Additional fields are explicit event/series metadata and designated source URLs. No factual evidence documents were downloaded.",
+  "warnings": [
+    "Convenience sample of recent API results; this is a data-access smoke test, not a benchmark.",
+    "No historical as-of rule versions or dated evidence snapshots were reconstructed.",
+    "close_time and other metadata are retrospective snapshots and can encode operational outcome information; whitelist alone does not make an as-of backtest safe.",
+    "Source URLs identify designated sources; their factual evidence has not been fetched or verified.",
+    "Raw API responses and labels contain outcomes. Do not expose them to a resolver under evaluation.",
+    "Do not randomly split market rows: multiple strikes share the same underlying event.",
+    "Full series metadata was limited to 5 series: absent for 31/100 markets across 14 linked series. Event-level sources may still be present."
+  ],
+  "request_errors": [],
+  "requests": [
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXAFCONSPREAD-26SEP29BENMRT?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:31.486360Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:31 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_000.json",
+      "sha256": "eb477e0122e64ec1c3f0e015e4f4aca4e9c88a05129116d8dba621d8750e7744",
+      "bytes": 10864
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXAFCONTEAMTOTAL-26SEP29BENMRT?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:31.707619Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:31 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_001.json",
+      "sha256": "ecb3078e0100552e1ab63fcd9faa7a337a59ec4b183e81eb7564afb05d052ef7",
+      "bytes": 15298
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXAFCONTEAMTOTAL-26SEP29GABNIG?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:31.705569Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:31 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_002.json",
+      "sha256": "6187704f65c83577adc2e4f153225818773e72c657494f119aef487d94e30238",
+      "bytes": 15147
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXCONCACAFNLSPREAD-26SEP29IVBTCA?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:31.471720Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:31 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_003.json",
+      "sha256": "fead9e0dbb92511c959ef20ae39cc221d60723aabc17d39e60ebe8c1f5cdb36c",
+      "bytes": 11599
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXCONCACAFNLSPREAD-26SEP29VIRBAH?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:32.099575Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:32 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_004.json",
+      "sha256": "b385727de2b30be2b1b8581752138cd81f41b8c1369ff4b6a0b5219c3818fdbc",
+      "bytes": 11478
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXCONCACAFNLTOTAL-26SEP29VIRBAH?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:32.298353Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:32 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_005.json",
+      "sha256": "04d65b4d5850081cb4064ffabdfe62f9bb6525b7a1361c0b8825f7efc1446050",
+      "bytes": 14875
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXDIMAYORSPREAD-26SEP29PERSFE?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:32.313135Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:32 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_006.json",
+      "sha256": "bd116c4c21848a52b61b50f461e53a4adce8b89bf0749d442b1d344c502d478e",
+      "bytes": 11125
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXDIMAYORTOTAL-26SEP29PERSFE?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:32.508087Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:32 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_007.json",
+      "sha256": "9f38cf61038351e8ab652f7101ed5401a9416f5bece83fcd981f45698acb579a",
+      "bytes": 14306
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXENGNLSPREAD-26SEP29BAASCU?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:32.717252Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:32 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_008.json",
+      "sha256": "a88563344b8b281c620c82a537744ba87731e685ae41f50ba3c553466a6deaa7",
+      "bytes": 10928
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXENGNLTOTAL-26SEP29HORALD?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:33.149038Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:32 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_009.json",
+      "sha256": "1d158cf4e633c9c2cf40dd4cb3740ce4904076b79e5807b8ab545b0aa8218170",
+      "bytes": 14276
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXENGNLTOTAL-26SEP29WOKSOL?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:33.153281Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:32 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_010.json",
+      "sha256": "0675b7cb25345cf3b48873f14a4ae46a8b25a0f1d6da1ad001aad2d96f58bc53",
+      "bytes": 20099
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXTEMPCHIHS-26SEP2917?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:33.344274Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:33 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_011.json",
+      "sha256": "588f6c4052c0d44ce95f418a068c9590d8cf87a7782c8ff0a88f4f6ba9cd0acf",
+      "bytes": 19969
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXTEMPLAXHS-26SEP2917?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:33.554285Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:33 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_012.json",
+      "sha256": "9586061751fff7eaa766b0ba247972b1121703e90027a60db1b5160763f0f55a",
+      "bytes": 20014
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXTEMPMIAH-26SEP2917?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:33.944926Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:33 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_013.json",
+      "sha256": "84548aa8bf80ddf7e943c3999bc7f91ad00a993bc0c8794967313cdc01760b8c",
+      "bytes": 20026
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXTEMPNYCHS-26SEP2917?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:33.949916Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:33 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_014.json",
+      "sha256": "adfad8871ad0a305f7cf313406fee45aff5d7755d30e6b91d77950936336af5a",
+      "bytes": 19879
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXTEMPNYCHS-26SEP2918?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:34.197282Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:34 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_015.json",
+      "sha256": "c8e6322797f527a90bf00c448cbd2f674eff9d94964d1c776e8e6d3dcead83df",
+      "bytes": 19878
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXTTELITEMATCH-26SEP291700JNOOLU?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:34.201778Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:34 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_016.json",
+      "sha256": "f5eb54f4db7c23075b927b40b59ebdd19a527ea0d8787226a0ce4bf7b9cbdc2d",
+      "bytes": 5168
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXTTELITEMATCH-26SEP291755MGRSJA?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:34.596989Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:34 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_017.json",
+      "sha256": "3ddffc2f98920095b3a65c765d5f8aebb4f1a8c811c9d238eb8e54408be418e8",
+      "bytes": 5201
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXTTELITEMATCH-26SEP291755MSKMBA?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:34.596890Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:34 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_018.json",
+      "sha256": "ec24a2a994fde9da5e236467048e3cea20b14e7fd5dd05e8c683969e08b2afbb",
+      "bytes": 5243
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXTTELITEMATCH-26SEP291800LMAPKU?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:34.772954Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:34 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_019.json",
+      "sha256": "160864d82c4c8a59142f83237afd6181fe33961ca5c715bcb259dc5bc17e5a09",
+      "bytes": 5171
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXTTELITEMATCH-26SEP291810JNOMKO?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:34.778715Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:34 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_020.json",
+      "sha256": "539c2a5371c00734c81a598426b5770a32640bb1a02489ea8bef1c442627ef70",
+      "bytes": 5204
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXTTELITEMATCH-26SEP291820AFOGPI?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:35.249225Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:35 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_021.json",
+      "sha256": "ffc676182764eb90ea0b0f7905aad8bf8b0ec3d2b4f058ad5860a1a0359e3deb",
+      "bytes": 5188
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXTTSTARMATCH-26SEP291650SZUBRO?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:35.248383Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:35 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_022.json",
+      "sha256": "a2bf22881275fbd42ef39cacab2fe5e61726b957b8a9ce2f61efeab93c3ce4a8",
+      "bytes": 5112
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXUEFANLFIRSTGOAL-26SEP29CZEENG?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:35.827036Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:35 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_023.json",
+      "sha256": "5cdaf4675f8e575294dfb782ef1f700c86d8af8138dfce9154b97a62b6a156da",
+      "bytes": 52706
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXUEFANLGOAL-26SEP29CZEENG?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:35.839326Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:35 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_024.json",
+      "sha256": "5a5a9ab616a2d6f3de4d7ffe87833417e1c01472b84d211ebede20efe657c818",
+      "bytes": 69287
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXUEFANLGOAL-26SEP29ESPCRO?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:36.326765Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:35 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_025.json",
+      "sha256": "2e05466e94f9cefcc5efb4ab01c8e648532c6da98f870d78f61a5b2d4f46e2b4",
+      "bytes": 71452
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXUEFANLSPREAD-26SEP29LUXISL?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:35.855577Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:35 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_026.json",
+      "sha256": "6a5bb4c1ab045f41d5e9c2c80766a8639c271dbe28b2fc753569a3e4bbd688f2",
+      "bytes": 10952
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXUEFANLTEAMTOTAL-26SEP29CZEENG?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:36.727342Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:36 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_027.json",
+      "sha256": "41edc2dd5c688505cbd11a78182ecb9d7dbefe0ef4e2d1b216d87ded16fd55eb",
+      "bytes": 17495
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXUEFANLTEAMTOTAL-26SEP29ESPCRO?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:36.722462Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:36 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_028.json",
+      "sha256": "08f586792a35bd71d4e99dcbef12ff59325358db9e107cf44c1fd9ac63e98f34",
+      "bytes": 19531
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXUEFANLTEAMTOTAL-26SEP29LUXISL?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:36.719006Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:36 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_029.json",
+      "sha256": "ae38895196963e4082840463d70f0e662168ee95f4445e7263b2d47e6e00b751",
+      "bytes": 17567
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXUEFANLTEAMTOTAL-26SEP29SLOMKD?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:37.114512Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:37 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_030.json",
+      "sha256": "7d1184acf967fb0725255d36a4245275a6f652cbd7fb85f32b0a0f01b2e1a616",
+      "bytes": 15622
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/events/KXUEFANLTOTAL-26SEP29SVKKAZ?with_nested_markets=false",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:37.556247Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:37 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/event_031.json",
+      "sha256": "7359a29d55d7e0f70737b34a8490f831a32292761692b100653cf572b1d81b7b",
+      "bytes": 14210
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/historical/cutoff",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:29.652471Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:29 GMT",
+      "content_type": "application/json; charset=utf-8",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/cutoff.json",
+      "sha256": "7fae17e75608f410aed8a27c4490caf85d689f5b6eab495739a55ea394eea447",
+      "bytes": 188
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/markets?status=settled&limit=100&mve_filter=exclude",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:30.868896Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:30 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/markets.json",
+      "sha256": "ba64df08d2d1a2e3cbb441961594a2005f7ab65cf4f3838924bfbd892ae5ff23",
+      "bytes": 208788
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/series/KXTEMPCHIHS",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:40.058977Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:40 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/series_03.json",
+      "sha256": "0e6ee2648e8e8543e5e151384ecc40da1ffc8ed4abf4aadf7125892917073e9a",
+      "bytes": 815
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/series/KXTEMPLAXHS",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:40.714965Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:40 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/series_04.json",
+      "sha256": "0f489068fe65ecf248365d71f56b0f14d2a26a76d4c8794b8d13a7509d00e30e",
+      "bytes": 814
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/series/KXTEMPNYCHS",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:38.164150Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:38 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/series_00.json",
+      "sha256": "50bee63e91bff111fe7d64d0859a69ec32d829f0275dbc34e605963ab83cf871",
+      "bytes": 809
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/series/KXTTELITEMATCH",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:39.447077Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:39 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/series_02.json",
+      "sha256": "d29b7824dc5ac2df07bea87afc3281a46f29bf5ce5708115db523e040c8766ab",
+      "bytes": 2143
+    },
+    {
+      "url": "https://external-api.kalshi.com/trade-api/v2/series/KXUEFANLGOAL",
+      "method": "GET",
+      "retrieved_at": "2026-09-29T22:41:38.786146Z",
+      "http_status": 200,
+      "response_date": "Tue, 29 Sep 2026 22:41:38 GMT",
+      "content_type": "application/json",
+      "raw_file": "/Users/shatar/agentic-oracle-research/data/kalshi/raw/20260929T224128915577Z/series_01.json",
+      "sha256": "7f5825ede021467bcd0bb24ac8581b30195b069e78319c658a2f1c4431bf5265",
+      "bytes": 1929
+    }
+  ],
+  "artifacts": {
+    "/Users/shatar/agentic-oracle-research/data/kalshi/inputs.jsonl": {
+      "sha256": "098e7d0c15fffa0a0bfdd2c45740822ab910d78e438a6358bd257f6ec255d636",
+      "bytes": 181740
+    },
+    "/Users/shatar/agentic-oracle-research/data/kalshi/labels.jsonl": {
+      "sha256": "3ac9895fee914c33dfdf753f74ade7f86661fdce8b65c01535c0c9f48f039f80",
+      "bytes": 24804
+    },
+    "/Users/shatar/agentic-oracle-research/results/data_smoke_test.json": {
+      "sha256": "d5674ab86024a1bb64c022384cde6510adbf5066f831af52c673b9bd124302ca",
+      "bytes": 3939
+    },
+    "/Users/shatar/agentic-oracle-research/src/collect_kalshi.py": {
+      "sha256": "50188a786694577f370abafc2d5e511ee89cdb29fadbec2dc80a6cd075114fc8",
+      "bytes": 15064
+    }
+  }
+}

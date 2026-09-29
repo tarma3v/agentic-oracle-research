@@ -1,0 +1,2629 @@
+
+
+
+Design and Evaluation of Multi-Agent AI Oracle Systems for Prediction Market Resolution
+
+
+
+ 
+
+  // Restore the saved color scheme preference, or
+  // enact the browser preference if "automatic", 
+  // without expecting DOM load to have completed.
+  //
+  // Also restore any saved readingmode and ToC display preferences.
+  function initializeReadingPreferences() {
+    let saved_theme = localStorage.getItem("ar5iv_theme") || "automatic";
+    if (saved_theme === "automatic") {
+      if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        saved_theme = "dark";
+      }
+    }
+    if (saved_theme == "dark") {
+      document.documentElement.setAttribute("data-theme", "dark");
+    } else {
+      document.documentElement.setAttribute("data-theme", "light");
+    }
+
+    const tocDisplay = localStorage.getItem('arxiv_html_paper_toc_display');
+    if (tocDisplay) {
+      document.documentElement.setAttribute("data-toc-display", tocDisplay);
+    }
+    const readingMode = localStorage.getItem('arxiv_html_paper_reading_mode');
+    if (readingMode) {
+      document.documentElement.setAttribute("data-reading-mode", readingMode);
+    }
+    // Pre-apply spinout-banner dismissal here, before the banner paints, so it
+    // never flashes in only to be hidden later by the deferred arxiv-header.js.
+    // Key matches arxiv-header.js: "arxiv-banner-dismissed:" + data-banner-name.
+    if (localStorage.getItem('arxiv-banner-dismissed:spinout-nonprofit')) {
+      document.documentElement.setAttribute("data-banner-dismissed", "");
+    }
+  }
+  // Run as soon as JS starts, to minimize repainting
+  initializeReadingPreferences();
+
+
+
+
+
+
+
+  /* Banner pre-dismissal (set above before paint -> no flash-then-hide) and
+     reading-mode chrome hiding. */
+  html[data-banner-dismissed] .ds-announcement { display: none; }
+  html[data-reading-mode="enabled"] .ds-announcement,
+  html[data-reading-mode="enabled"] .ds-site-footer { display: none; }
+  /* Keep the announcement text dark on the Open-Blue band in both colour themes
+     (otherwise it inherits the paper's warm-wash text in dark mode and washes out). */
+  .ds-announcement-text { color: var(--arxiv-ink, #1c1a17); }
+
+
+
+
+
+  
+    
+      Report GitHub Issue
+      ×
+    
+
+    
+      Title:
+      
+
+      Content selection saved. Describe the issue below:
+
+      Description:
+      
+    
+
+    
+      Submit without GitHub
+      Submit in GitHub
+    
+  
+
+    
+    arXiv is now an independent nonprofit!
+    Learn more
+    ×
+  
+
+
+  
+    
+      Back to arXiv
+    
+  
+  
+  
+    Why HTML?
+    
+      
+        
+      
+      Report Issue
+    
+    
+      
+        
+        
+      
+      Back to Abstract
+    
+    
+    
+      
+        
+      
+      Download PDF
+    
+    
+      
+        
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+          
+          
+        
+      
+      
+        
+          
+          
+        
+      
+      
+        
+          
+          
+        
+      
+    
+  
+
+
+
+Abstract
+1 Introduction
+
+1.1 Motivation and Context
+1.2 Research Question
+1.3 Problem and Literature Gap
+1.4 Contributions
+1.5 Research Methodology
+1.6 Overview of Findings
+
+2 Background
+
+2.1 Prediction Markets and Information Aggregation
+2.2 The Oracle Problem
+2.3 Existing Oracle Resolution Systems
+
+2.3.1 Chainlink’s Decentralized Oracle Networks
+2.3.2 Kalshi’s Centralized Resolution
+2.3.3 UMA’s Optimistic Oracle
+2.3.4 The Automation–Arbitration Tradeoff
+
+2.4 LLMs as an Intermediate Resolution Layer
+
+2.4.1 The Forecasting–Resolution Distinction
+2.4.2 LLM Failure Modes Relevant to Oracle Resolution
+
+
+3 Methodology
+
+3.1 Evaluation Dataset
+3.2 Evidence Retrieval Layer
+3.3 LLM Agent Design
+3.4 Architecture A: Independent Aggregation
+3.5 Architecture B: Deliberative Consensus
+3.6 Single-LLM Baselines
+3.7 Evaluation Metrics
+3.8 Failure Mode Taxonomy
+3.9 Escalation Analysis
+3.10 Implementation
+
+4 Results
+
+4.1 Overall Accuracy: Independent Aggregation Outperforms Both Single-Model Baselines and Deliberative Consensus
+
+4.1.1 Robustness Check: Unique-Market Accuracy and Multi-Instance Consistency
+
+4.2 Category-Level Performance Reveals Consistent Gains on Well-Covered
+Domains and Fundamental Difficulty in Ambiguous Ones
+4.3 Correlated Errors: Why Aggregation Gains Fall Short of the Theoretical Ceiling
+4.4 Failure Mode Taxonomy
+
+4.4.1 Retrieval Failure
+4.4.2 Temporal Reasoning Error
+4.4.3 Hallucination
+4.4.4 Shared Bias
+4.4.5 Persuasive Error Propagation
+
+4.5 Escalation Criteria for Hybrid Oracle Systems
+
+5 Related Work
+
+5.1 LLM-Based Oracle Systems
+5.2 Multi-Agent Architectures for Improved Reasoning
+5.3 When Multi-Agent Approaches Fail
+5.4 Correlated Errors and the Limits of Aggregation
+5.5 Hybrid AI-Human Systems and Principled Escalation
+5.6 Gaps in Existing Research
+
+6 Conclusion
+7 Future Work
+
+7.1 Pipeline Architecture Improvements
+
+7.1.1 Specialized Retrieval for Domain-Specific Questions
+7.1.2 Source Quality Weighting and Learned Source Ranking
+7.1.3 Principled Abstention as a Third Resolution Output
+7.1.4 Asymmetric Model Weighting and Ensemble Diversity
+
+7.2 Adversarial Robustness and Evidence Injection Attacks
+7.3 Formal Learning-to-Defer Integration
+
+References
+A Appendix
+
+A.1 Prompt Templates
+A.2 Command-Line Interface Reference
+A.3 Code Availability
+
+
+
+
+
+  
+    License: CC BY 4.0
+  
+  
+arXiv:2605.30802v1 [cs.MA] 29 May 2026
+
+
+Design and Evaluation of Multi-Agent AI Oracle Systems for Prediction Market Resolution
+
+
+Tarun Kota
+
+Affiliation: Yale University
+
+Email: Tkota0910@gmail.com
+
+
+Abstract
+    
+Prediction markets aggregate collective intelligence to forecast uncertain events, but their utility depends on reliable resolution of outcomes. Current oracle systems force a tradeoff between fast but brittle automation and accurate but costly human arbitration. Recent work has shown that single-LLM oracles can achieve meaningful accuracy, but these systems inherit all failure modes of their underlying model with no mechanism for self-correction. This thesis evaluates whether multi-agent LLM architectures can improve oracle resolution accuracy over single-model baselines. We compare two architectures, independent aggregation and deliberative consensus, against single-LLM baselines using three diverse models (GPT-5 Nano, DeepSeek V3, Llama-3.3-70B) on 1,189 resolved prediction market questions from KalshiBench. All agents share a common evidence layer through Exa, with retrieval filtered by publication date to isolate reasoning capability from retrieval quality. Independent aggregation with confidence-weighted voting achieves the highest accuracy at 83.43%, outperforming the best individual model by 1.01 percentage points. Deliberative consensus degrades accuracy to approximately 76%, below every single-model baseline, a result we attribute to persuasive error propagation, where confidently wrong models flip correct ones during debate. Moderate-to-high error correlations across models (r=0.529r=0.529–0.6890.689) explain why aggregation gains fall well short of the theoretical Condorcet ceiling and place a fundamental limit on ensemble-based approaches. A substantial fraction of questions resist correction by any multi-agent architecture, motivating principled escalation to human arbitration. Based on these findings, we propose routing criteria for hybrid AI-human oracle systems: auto-resolving only unanimous, high-confidence questions yields 97.87% accuracy on 47% of the dataset, with inter-agent disagreement flagging the remainder for human arbitration.
+  
+
+
+1 Introduction
+
+
+1.1 Motivation and Context
+
+
+Prediction markets are financial instruments that allow participants to trade contracts whose payoffs depend on the outcome of real-world events, such as election results, economic indicators, or sporting outcomes. Because traders with superior information can profit by correcting mispriced contracts, market prices aggregate dispersed knowledge into probability estimates that have been shown to outperform polls, expert panels, and statistical models across a range of domains [3, 6]. Platforms such as Polymarket, Kalshi, and Metaculus have grown rapidly in recent years. Polymarket processed over $33 billion in trading volume in 2025, and Kalshi’s revenue grew 994% year-over-year after winning a landmark court case against the CFTC in September 2024 [12].
+
+
+The utility of a prediction market, however, depends entirely on the reliability of its oracle, the mechanism that determines whether a real-world event actually occurred and settles contracts accordingly. This is an instance of the broader oracle problem in blockchain systems: smart contracts cannot natively access off-chain information, so some trusted process must bridge the gap between on-chain logic and real-world state [8, 15]. Existing oracle designs occupy two extremes. Fully automated oracles such as Chainlink’s decentralized oracle networks provide fast, inexpensive resolution for structured data feeds like asset prices, but struggle with subjective or ambiguous outcomes [7]. Human arbitration systems such as UMA’s optimistic oracle and Kalshi’s internal operations team achieve higher accuracy on complex questions, but incur significant latency and escalation costs that scale poorly [32, 24]. The scale of value at risk is substantial: DeFi protocols lost over $400 million to oracle manipulation attacks in 2022 alone [8], and prediction market volumes now routinely exceed billions of dollars per month.
+
+
+Recent work has demonstrated that large language models can serve as an intermediate resolution layer between full automation and human arbitration. Chainlink Labs validated a DSPy-based single-LLM oracle achieving 99.7% accuracy on sports questions but only 84–85% on politics and cryptocurrency [35], while UMA’s OOTruthBot achieves approximately 90% accuracy at roughly $0.005 per resolution [33]. These results are promising, but single-LLM systems inherit all failure modes of their underlying model, including hallucinations, temporal reasoning errors, and sycophantic tendencies, with no mechanism for self-correction. A natural extension is to employ multi-LLM architectures for oracle resolution. Yet this space remains largely unexplored.
+
+
+
+1.2 Research Question
+
+
+This paper addresses the oracle reliability gap through the following central research question:
+
+
+Can multi-agent LLM architectures improve oracle resolution accuracy over single-model baselines for prediction markets, and under what conditions do such improvements occur?
+
+
+This question gives rise to several focused sub-questions that structure the evaluation:
+
+
+
+1. 
+
+Aggregation Effectiveness: Does combining multiple LLMs into an independent-aggregation ensemble improve oracle accuracy relative to a single-model system?
+
+2. 
+
+Deliberation versus Independent Voting: Does structured debate among LLMs outperform independent aggregation, or does it introduce conformity effects that degrade performance?
+
+3. 
+
+Failure Mode Correlation: Are oracle-specific errors independent across models, or do they exhibit systematic correlation, and what distinct failure mechanisms produce the errors that aggregation fails to correct?
+
+4. 
+
+Escalation Design: Can model confidence and inter-agent disagreement serve as principled routing signals for deferring uncertain questions to human arbitration?
+
+
+
+
+By answering these questions, this work provides empirical evidence on multi-agent oracle performance and develops a structured framework for hybrid AI-human resolution systems.
+
+
+
+1.3 Problem and Literature Gap
+
+
+Despite promising results from single-LLM oracle systems, no prior work has applied multi-agent techniques to prediction market resolution, where correctness directly impacts financial outcomes and system trust. Existing studies on multi-agent debate focus on general reasoning benchmarks, leaving unclear whether reported improvements transfer to the distinct challenges of oracle resolution: interpreting natural-language resolution criteria, verifying time-bounded real-world events, and adjudicating inherently ambiguous outcomes.
+
+
+Moreover, no prior work has characterized error correlation specifically in oracle settings. While correlated failures across LLMs are documented in general reasoning tasks [25], it remains unknown whether oracle-specific failure modes (source verification errors, misinterpretation of resolution criteria, temporal reasoning mistakes) exhibit similar or distinct correlation patterns. Without this understanding, aggregating multiple models may offer little robustness benefit and may instead amplify shared biases.
+
+
+Finally, current hybrid AI-human oracle systems rely on ad-hoc escalation policies, with no principled framework for determining when model confidence is insufficient and human arbitration justifies its cost and latency. This lack of structure limits the scalability and reliability of hybrid oracle designs.
+
+
+
+1.4 Contributions
+
+
+This work makes three contributions:
+
+
+
+• 
+
+We provide the first empirical comparison of multi-agent oracle architectures, independent aggregation and deliberative consensus, against single-LLM baselines for prediction market resolution, a domain where correctness has direct financial consequences.
+
+• 
+
+We develop a failure mode taxonomy that characterizes the distinct
+mechanisms by which the system fails, identifying five failure types and
+measuring the degree to which errors are shared across models versus
+architecture-specific.
+
+• 
+
+We propose escalation criteria for hybrid AI-human oracle systems, defining principled decision rules based on confidence levels and inter-agent disagreement for routing between automated and human resolution.
+
+
+
+
+
+1.5 Research Methodology
+
+
+We evaluate two multi-agent architectures using GPT-5-Nano, Deepseek V3, and Llama-3.3-70b-turbo:
+
+
+Architecture A: Independent Aggregation. Three diverse LLMs resolve questions independently, with outcomes determined by majority voting and confidence-weighted voting. This mirrors how Chainlink aggregates price feeds from multiple node operators and tests whether the same logic applies to subjective outcomes.
+
+
+Architecture B: Deliberative Consensus. The same three models participate in structured multi-round debate: each generates an answer with reasoning, then reviews the other models’ responses and may revise its position before submitting a final answer.
+
+
+Both architectures are evaluated against single-LLM baselines on KalshiBench, a benchmark of over 1,500 prediction market questions from Kalshi with verified real-world outcomes occurring after model training cutoffs [28]. Crucially, all agents share a common evidence layer through Exa, an embeddings-based search engine, with retrieval filtered by publication date to prevent training data contamination. This design isolates reasoning capability from retrieval capability, enabling controlled comparison of the architectures.
+
+
+
+1.6 Overview of Findings
+
+
+Independent aggregation with confidence-weighted voting achieves the highest overall accuracy at 83.43%, a modest but significant improvement over the best single-model baseline (DeepSeek, 82.42%). Deliberative consensus, contrary to expectations from the multi-agent debate literature, degrades performance to approximately 76%, below every single-model baseline, a result we attribute to persuasive error propagation and LLM sycophancy, where confidently wrong models flip correct ones during debate. Error correlations across models are moderate to high (r=0.529r=0.529–0.6890.689), explaining why majority-vote accuracy falls well short of the theoretical Condorcet ceiling and placing a fundamental limit on aggregation-based approaches. Category-level analysis reveals a clear tier structure, with well-documented domains like Sports and Financials exceeding 92% while ambiguous domains like Crypto and Companies remain below 67% across all architectures, and 14% of questions resist correction by any multi-agent approach. These findings inform a principled escalation framework: unanimous, high-confidence resolutions achieve 97.87% accuracy while covering nearly half of all questions, enabling hybrid oracle systems to
+auto-resolve straightforward cases while routing genuinely uncertain
+questions to human arbitration.
+
+
+
+
+2 Background
+
+
+This section provides the foundational context necessary to understand the design space for AI-based oracle systems. We introduce prediction markets, explain the oracle problem that constrains their reliability, survey existing resolution mechanisms, and motivate why large language models represent a natural intermediate solution.
+
+
+2.1 Prediction Markets and Information Aggregation
+
+
+A prediction market is a marketplace for contracts whose payoff depends on a future event. In a common binary design, a contract pays $1 if the event occurs and $0 otherwise. If such a contract trades at price p∈[0,1]p\in[0,1], practitioners often interpret pp as an implied probability, because a trader who believes the true probability is higher than pp has an incentive to buy, while a trader who believes it is lower has an incentive to sell or short. As new information arrives, profit-motivated traders update their positions, and the price moves to reflect the market’s aggregated belief. At the market’s end, the contract cash-settles based on an externally verified outcome, so correctness hinges on the integrity of the resolution process. This settlement step creates the oracle problem. The market can only function if a trusted mechanism can map real-world outcomes into an unambiguous on-chain or off-chain final result.
+
+
+The intellectual foundation traces to Hayek’s insight that market
+prices aggregate dispersed knowledge held by individuals throughout
+society [19, 3]. Empirically, prediction
+markets have been closer to eventual outcomes than polls 74% of the
+time across five U.S. presidential elections [6],
+and a meta-analysis of 160 publications concluded that prediction
+markets are 79% more accurate than alternative forecast
+methods [21].
+
+
+
+2.2 The Oracle Problem
+
+
+The oracle problem refers to the fundamental challenge of injecting reliable
+off-chain data into deterministic blockchain systems. Smart contracts cannot
+natively access external information because blockchain consensus requires
+all nodes to independently verify computations. External API calls would
+return different results at different times, breaking deterministic
+execution [15, 8]. Despite its
+centrality to blockchain applications, of 142 journal papers on blockchain
+applications, only 15% considered the role of oracles, and fewer than
+10% discussed oracle limitations [8].
+
+
+The financial consequences of oracle failures are severe. DeFi protocols
+lost over $400 million across 41 oracle manipulation attacks in 2022
+alone [10]. No blockchain oracle protocol can
+simultaneously optimize scalability, decentralization, and truthfulness,
+a constraint formalized as the Oracle Trilemma [13].
+This impossibility result motivates hybrid approaches that combine automated
+AI resolution with human oversight, rather than relying on either alone.
+
+
+
+2.3 Existing Oracle Resolution Systems
+
+
+Existing oracle systems can be understood along a spectrum from full automation to full human adjudication, with each design making different tradeoffs among speed, cost, accuracy, and trust assumptions.
+
+
+2.3.1 Chainlink’s Decentralized Oracle Networks
+
+
+Chainlink introduced a two-layer architecture with on-chain aggregation of oracle node responses and off-chain data sourcing [15]. The Chainlink 2.0 whitepaper expanded this to Decentralized Oracle Networks (DONs), committees of nodes providing oracle services alongside off-chain computation, enabling hybrid smart contracts that combine on-chain logic with off-chain processing [7]. Key innovations include Off-Chain Reporting (OCR) for reduced gas costs and super-linear staking security, where the bribe required to corrupt the network grows faster than the sum of individual deposits. Chainlink dominates the oracle market, facilitating over $25 trillion in transaction value and securing nearly $100 billion in DeFi total value locked. However, its architecture is optimized for structured, objective data feeds, asset prices, temperature readings, and sports scores with official APIs. It is less well suited to resolving subjective or ambiguous prediction market outcomes.
+
+
+
+2.3.2 Kalshi’s Centralized Resolution
+
+
+Kalshi, the first CFTC-regulated Designated Contract Market for event contracts, represents the opposite end of the oracle spectrum from Chainlink’s automated approach. An internal operations team resolves markets by verifying outcomes against pre-specified authoritative sources such as official government statistics, league results, and regulatory announcements, with an Outcome Review Committee for ambiguous cases [24]. This provides fast, reliable resolution with clear accountability. Kalshi’s resolution decisions carry the weight of a regulated financial institution. However, the approach introduces single-entity trust assumptions and does not scale to the thousands of simultaneous markets that decentralized platforms support. Kalshi’s resolution process is particularly relevant to this thesis because KalshiBench, our evaluation benchmark, is derived from Kalshi markets with verified outcomes. The ground truth labels therefore reflect Kalshi’s authoritative resolution judgments [28].
+
+
+
+2.3.3 UMA’s Optimistic Oracle
+
+
+UMA Protocol operates on an assume correct unless challenged principle [32]. Asserters submit bonded assertions. If undisputed during a configurable liveness period of 2 hours to 2 days, assertions are accepted automatically. Only approximately 1.5% of proposals are disputed. Disputes escalate to the Data Verification Mechanism (DVM), a commit-reveal vote by UMA token holders that resolves within 48 to 96 hours, with incorrect voters slashed. The system is designed so that corrupting the oracle by acquiring a supermajority of UMA tokens would cost more than any potential profit from corruption. Polymarket uses UMA’s optimistic oracle for resolution of billions of dollars in trading volume [30]. The optimistic oracle’s design embodies a natural tiered architecture consisting of cheap automation in the common case and expensive human arbitration in the rare disputed case. This structure directly informs our escalation framework.
+
+
+
+2.3.4 The Automation–Arbitration Tradeoff
+
+
+The fundamental tension in oracle design is between automation, which is fast, cheap, and scalable but limited to structured data and vulnerable to edge cases, and human arbitration, which handles ambiguity and subjectivity but is slow and expensive. As prediction markets grow in volume and complexity, particularly for subjective outcomes such as political events or regulatory decisions, neither pure automation nor human-only adjudication scales. This motivates the use of large language models as an intermediate resolution layer that can interpret natural-language resolution criteria, verify time-bounded events, and provide structured reasoning, while still deferring to human arbitration for genuinely ambiguous cases.
+
+
+
+
+2.4 LLMs as an Intermediate Resolution Layer
+
+
+The application of large language models to oracle resolution is a recent development driven by two capabilities. LLMs can interpret natural-language resolution criteria, such as ”Will the Federal Reserve raise interest rates before March 2025?” Retrieval-augmented generation allows them to ground their reasoning in current evidence rather than relying solely on training data.
+
+
+2.4.1 The Forecasting–Resolution Distinction
+
+
+A critical conceptual distinction for this thesis is that forecasting and resolution impose different requirements on AI systems. Forecasting requires probabilistic reasoning about uncertain future events, where calibration, defined as the alignment between stated probabilities and empirical frequencies, is the central evaluation criterion. Oracle resolution, by contrast, requires determining whether a past event did occur, given available evidence and specific resolution criteria. Resolution is architecturally closer to fact verification, as in the FEVER benchmark [31], which evaluates claim-level evidence retrieval and binary classification, than to probabilistic forecasting. Our thesis bridges both modes by using KalshiBench questions that have already resolved and evaluating models’ ability to determine what happened given retrieved evidence rather than to predict what will happen.
+
+
+
+2.4.2 LLM Failure Modes Relevant to Oracle Resolution
+
+
+Several failure modes directly threaten oracle accuracy and motivate the
+move from single-LLM to multi-agent architectures. Hallucination,
+defined as generating plausible but incorrect outputs, has been extensively
+studied, with a key distinction between intrinsic hallucination, which
+contradicts the source, and extrinsic hallucination, which is unverifiable
+from the source [22]. RLHF training can exacerbate
+hallucination by rewarding plausible-sounding but incorrect answers, and
+RAG alone is insufficient to prevent it [20].
+Sycophancy, the tendency to agree with social pressure rather than
+reason independently, is particularly concerning for multi-agent designs:
+sycophantic behavior has been observed in 58% of cases across multiple
+frontier models, with a 78.5% persistence rate once
+triggered [17]. In multi-agent systems, sycophancy
+could cause agents to agree with majority positions rather than reasoning
+independently, directly undermining the diversity assumption underlying
+aggregation benefits. Temporal reasoning errors, identified as the
+primary bottleneck by both Chainlink and UMA systems, represent a
+category-specific challenge where LLMs struggle with date arithmetic,
+relative time expressions, and determining whether evidence predates or
+postdates an event of interest.
+
+
+These failure modes, including hallucination without self-correction, sycophantic convergence, and temporal confusion, cannot be addressed by single-model improvements alone. They motivate the multi-agent architectures evaluated in this thesis, where cross-model critique and independent verification can potentially catch errors that a single model would propagate unchecked.
+
+
+
+
+
+3 Methodology
+
+
+This section describes the system architecture, dataset, retrieval pipeline, multi-agent resolution architectures, and evaluation framework used in this study. The overall pipeline is shown in Figure 1.
+
+
+Figure 1: System architecture for multi-agent oracle resolution.
+
+
+3.1 Evaluation Dataset
+
+
+We evaluate on KalshiBench v2, a publicly available benchmark of prediction market questions from Kalshi with verified real-world outcomes [28]. Each record contains a question, natural-language resolution criteria, a category label, a close time, and a binary ground-truth outcome (YES or NO).
+
+
+Table 1: Summary statistics for the filtered KalshiBench v2 evaluation dataset (markets closed after May 2025).
+
+
+
+Statistic
+Value
+
+Total questions
+1,189
+
+YES outcomes
+488 (41.0%)
+
+NO outcomes
+701 (59.0%)
+
+Number of categories
+16
+
+Filter criterion
+Markets closed after May 2025
+
+
+
+
+Table 2: Category distribution in the filtered KalshiBench v2 evaluation dataset (1,189 questions).
+
+
+
+Category
+Count
+Percentage
+
+
+
+Politics
+311
+26.16%
+
+Sports
+269
+22.62%
+
+Entertainment
+230
+19.34%
+
+Elections
+80
+6.73%
+
+Crypto
+59
+4.96%
+
+Mentions
+52
+4.37%
+
+Companies
+50
+4.21%
+
+Financials
+30
+2.52%
+
+World
+29
+2.44%
+
+Climate and Weather
+27
+2.27%
+
+Economics
+21
+1.77%
+
+Social
+13
+1.09%
+
+Science and Technology
+10
+0.84%
+
+Transportation
+4
+0.34%
+
+Education
+2
+0.17%
+
+Health
+2
+0.17%
+
+
+
+
+To reduce the risk of training-data contamination, we filter the dataset to include only markets that closed on or after May 1, 2025, a date chosen to fall beyond the training cutoff of the frontier models used in our experiments. After filtering, the evaluation set contains 1,189 questions, with 488 YES outcomes (41.0%) and 701 NO outcomes (59.0%). The dataset spans 16 categories, with Politics, Sports, and Entertainment accounting for the majority of questions and the remaining 13 categories providing broad topical coverage for category-level analysis.
+
+
+
+3.2 Evidence Retrieval Layer
+
+
+All agents receive identical evidence for each question. This shared-evidence control isolates differences in reasoning capability from differences in information access.
+
+
+We use Exa as the retrieval backend. For each question, the system constructs a search query using the template "What is the result of this question <question_text>" and retrieves up to 10 sources. A temporal filter restricts results to documents published on or before one day after the market’s resolution date, ensuring the evidence set reflects information that would have been available at the time of resolution.
+
+
+Retrieved content is packaged into a structured EvidencePacket containing the question metadata, retrieval timestamp, query text, and a list of sources with titles, URLs, publication dates, and extracted highlights. The same packet is passed verbatim to every agent in both architectures. Evidence packets are cached locally by retrieval mode and question ID to ensure deterministic reruns and reduce API cost across experimental iterations.
+
+
+
+3.3 LLM Agent Design
+
+
+We employ three LLM agents selected for architectural diversity: GPT-5 nano (OpenAI), DeepSeek-V3 (DeepSeek, served via Together AI), and Llama-3.3-70B-Instruct-Turbo (Meta, served via Together AI). This selection spans a proprietary frontier model, a large open-weights reasoning model, and an open-weights instruction-tuned model, providing diversity in training data, architecture, and optimization approach.
+
+
+Each agent is implemented as a subclass of a shared base class that enforces a standardized output schema. For every question, each agent returns a binary decision (YES or NO), a confidence score between 0 and 1, a natural-language reasoning trace, latency in milliseconds, and token usage statistics. If an agent encounters an error, it returns a structured failure record rather than crashing the pipeline, allowing partial results to be analyzed.
+
+
+All agents receive the same system and user prompt templates. The system prompt establishes the agent’s role as a prediction market oracle resolver, and the user prompt injects the question text, resolution criteria, resolution date, and the formatted evidence packet. Structured output is enforced through provider-specific mechanisms. Prompt templates for the single-agent baseline (used in Architecture A and the standalone baselines) are provided in Appendix Figure 8. The deliberation prompts used in Architecture B are provided in Appendix Figures 9 and 9.
+
+
+The OpenAI agent uses JSON schema enforcement, while the Together-hosted models (DeepSeek and Llama) attempt JSON schema enforcement and fall back to JSON object mode if the schema is rejected. All agents use a retry strategy of up to 3 attempts with exponential backoff.
+
+
+
+
+
+Agent 1Agent 2Agent 3Majority VoteFinal Resolution
+
+(a) Independent aggregation.
+
+
+Agent 1(Round 1)Agent 2(Round 1)Agent 3(Round 1)Round 2:Cross-ExaminationMajority VoteFinal Resolution
+
+(b) Two-round deliberation before aggregation.
+
+Figure 2: Resolution architectures evaluated in this study. Architecture A aggregates independent agent decisions. Architecture B adds a cross-examination round before aggregation.
+
+
+
+3.4 Architecture A: Independent Aggregation
+
+
+In Architecture A, each of the three agents resolves every question independently and in parallel. No agent has access to the decisions or reasoning of the others. The system then aggregates their binary decisions by majority vote. The final outcome is YES if at least two of the three agents vote YES, and NO otherwise. If one or more agents fail (returning no valid decision), the vote is computed over the remaining successful responses. If the vote is tied, the system defaults to NO.
+
+
+This architecture mirrors the logic of decentralized oracle networks such as Chainlink, which aggregate independent data feeds from multiple node operators.
+
+
+
+3.5 Architecture B: Deliberative Consensus
+
+
+Architecture B extends the independent setup with a structured deliberation phase. Resolution proceeds in two rounds. A structural comparison of Architectures A and B is shown in Figure 2(b).
+
+
+In Round 1, each agent independently resolves the question, producing a decision, confidence score, and reasoning trace, identical to the process in Architecture A.
+
+
+In Round 2, each agent receives the anonymized reasoning and decisions from the other two agents alongside the original evidence. Agents are prompted to consider the peer arguments and may revise their position or reaffirm their original decision. Each agent produces a new decision, confidence score, and updated reasoning trace.
+
+
+The final aggregation uses a tiered rule. The system first checks for a majority among the Round 2 decisions. If Round 2 produces a tie, the system falls back to the Round 1 majority. If both rounds tie, the system defaults to NO. The tie-break method used is recorded in the output for every question. A tie can only occur when an API failure reduces the agent pool to two.
+
+
+
+3.6 Single-LLM Baselines
+
+
+To contextualize the multi-agent results, we evaluate each of the three models as a standalone resolver. Each baseline uses the same evidence retrieval, prompting, and structured output pipeline as the multi-agent architectures. The only difference is that a single model’s decision is taken as the final answer with no aggregation. This allows us to measure the marginal accuracy gain (or loss) from multi-agent aggregation and deliberation relative to the best, worst, and average individual model.
+
+
+
+3.7 Evaluation Metrics
+
+
+We evaluate the system along several dimensions. First, we measure overall resolution accuracy against the ground-truth outcome for each question, reporting both aggregate performance and category-level breakdowns across single-LLM baselines, Architecture A, and Architecture B. Second, we analyze inter-agent agreement rates to characterize how often the three models independently converge on the same answer and how frequently aggregation changes the final outcome. Third, for the deliberative architecture, we measure convergence dynamics across rounds, including how often agents revise their decisions, whether revisions improve or degrade correctness, and the rate at which deliberation produces unanimous consensus.
+
+
+
+3.8 Failure Mode Taxonomy
+
+
+To characterize the qualitative nature of resolution errors, we define five failure types based on inspection of incorrect resolutions: retrieval failure, temporal reasoning error, hallucination, shared bias, and persuasive error propagation. We use the taxonomy to identify and illustrate distinct mechanisms by which the system fails, with representative examples drawn from the reasoning traces and evidence packets of incorrect resolutions.
+
+
+
+3.9 Escalation Analysis
+
+
+To inform the design of hybrid AI-human oracle systems, we analyze whether signals observable at resolution time can reliably distinguish questions the system will answer correctly from those it will get wrong. We define two escalation signals derived from the multi-agent output of both architectures. The first is inter-agent agreement: whether all three models produced the same binary decision (unanimous) or whether the vote was 2-1 (split). The second is average confidence: the arithmetic mean of the three models’ self-reported confidence scores for each question. We combine these signals into a composite escalation score defined as:
+
+
+
+
+
+
+composite_score=𝟏​[unanimous]+confidence¯\text{composite\_score}=\mathbf{1}[\text{unanimous}]+\overline{\text{confidence}}
+
+
+
+
+This score ranges from 0 to 2, with higher values indicating greater system certainty. To evaluate the practical utility of these signals, we construct a coverage-accuracy tradeoff curve by ranking all questions in descending order of composite score and computing cumulative accuracy at each coverage level, where coverage is the fraction of questions auto-resolved rather than escalated to human arbitration. This analysis follows the selective prediction framework introduced by [11] and later formalized by [18], in which a system that declines to answer uncertain questions achieves higher accuracy on those it does answer, at the cost of resolving fewer questions automatically.
+
+
+
+3.10 Implementation
+
+
+The system is implemented in Python, with modules for data loading,
+evidence retrieval, agent orchestration, and result aggregation. All
+per-question outputs and cached evidence packets are retained to
+support reproducibility; command-line entry points and exact
+invocations are documented in Appendix A.2.
+
+
+
+
+4 Results
+
+
+We evaluated two multi-agent oracle architectures on 1,189 resolved prediction market questions from KalshiBench. Three LLMs served as oracle agents: GPT-5 Nano, DeepSeek-V3, and
+Llama-3.3-70B. All agents received identical retrieved evidence for each question, isolating reasoning capability from retrieval quality. Architecture A (Independent Aggregation) has each model resolve independently, with outcomes determined by majority vote or confidence-weighted vote. Architecture B (Deliberative Consensus) has models engage in structured debate over two rounds, viewing each other’s reasoning before submitting final answers.
+
+
+4.1 Overall Accuracy: Independent Aggregation Outperforms Both Single-Model Baselines and Deliberative Consensus
+
+
+
+
+
+Group
+System
+Accuracy (%)
+
+Single-LLM Baselines
+GPT-4o
+82.34
+
+DeepSeek
+82.42
+
+Llama
+81.24
+
+Architecture A
+Majority Vote
+82.93
+
+Confidence-Weighted Vote
+83.43
+
+Architecture B
+Final-Round GPT-4o
+74.35
+
+Final-Round DeepSeek
+76.70
+
+Final-Round Llama
+76.37
+
+Deliberative Final
+76.11
+
+Prior Work (KalshiBench)
+Claude Opus 4.5
+69.3
+
+
+Table 3: Overall resolution accuracy across all 1,189 questions.
+
+
+Table 3 presents overall resolution accuracy across all 1,189 questions. Architecture A’s confidence-weighted vote achieves the highest accuracy at 83.43%, representing a +1.01 percentage point improvement over the best individual model (DeepSeek, 82.42%). Majority voting also outperforms every single-model baseline at 82.93%. Architecture B’s deliberative process, by contrast, degrades performance substantially: all final-round outputs fall below every single-model baseline, with the best deliberative result (Final-Round DeepSeek, 76.70%) trailing the worst individual model (Llama, 81.24%) by over four percentage points. As shown in Figure 3, independent aggregation consistently outperforms both single-model baselines and deliberative consensus.
+
+
+Figure 3: Overall resolution accuracy on 1,189 KalshiBench questions. Confidence-weighted independent aggregation (Architecture A) achieves the highest accuracy at 83.43%, outperforming the best single-model baseline by 1.01 percentage points. Deliberative consensus (Architecture B) degrades accuracy to 76.11%, below all single-model baselines. The hatched bar shows the best previously published KalshiBench result
+
+
+All systems substantially outperform the best previously reported result on KalshiBench, Claude Opus 4.5 at 69.3%, though this comparison should be interpreted cautiously, as our pipeline uses a different retrieval layer (Exa with date-filtered evidence) than the original KalshiBench evaluation (which relied on the Model’s general web search API). The improvement likely reflects the combined effect of better retrieval and multi-agent reasoning rather than model superiority alone.
+
+
+To confirm that Architecture A’s advantage over Architecture B is not an artifact of variance, we conducted McNemar’s test for paired differences and a head-to-head comparison on the 1,170 overlapping questions evaluated by both architectures (Table 4 and Table 5).
+
+
+Table 4: McNemar’s test for paired accuracy differences. Each row compares two systems on the same question set. “A only” and “B only” indicate the number of questions each system answered correctly that the other missed. Significant results (p<0.05p<0.05) are bolded.
+
+
+
+System A
+System B
+A only
+B only
+Discordant
+pp-value
+
+
+
+A Majority
+A Weighted
+1
+7
+8
+0.070
+
+A Majority
+B Deliberative
+117
+37
+154
+7.2×𝟏𝟎−𝟏𝟏\mathbf{7.2\times 10^{-11}}
+
+A Weighted
+B Deliberative
+123
+37
+160
+5.5×𝟏𝟎−𝟏𝟐\mathbf{5.5\times 10^{-12}}
+
+
+
+
+Architecture A significantly outperforms Architecture B (p<10−10p<10^{-10}), and the asymmetry is stark: Architecture A correctly resolves 117 questions that B gets wrong, while B captures only 37 that A misses, a roughly 3:1 ratio. Within Architecture A, the difference between majority and confidence-weighted voting is not statistically significant (p=0.07p=0.07), though weighted voting trends better by picking up 7 additional correct resolutions at the cost of only 1.
+
+
+Table 5: Head-to-head comparison between Architecture A (confidence-weighted vote) and Architecture B (deliberative final) on the n=1,170n=1{,}170 overlapping questions evaluated by both systems. “A correct, B wrong” indicates questions where only independent aggregation produced the correct resolution.
+
+
+
+Outcome
+Count (%)
+
+
+
+Both correct
+852 (72.8%)
+
+A correct, B wrong
+117 (10.0%)
+
+B correct, A wrong
+37 (3.2%)
+
+Both wrong
+164 (14.0%)
+
+Architecture A accuracy
+82.8%
+
+Architecture B accuracy
+76.0%
+
+
+
+
+The 164 questions (14.0%) wrong under both architectures represent a “hard core” of failures that multi-agent reasoning alone cannot resolve. These questions likely require either higher-quality evidence retrieval or human judgment, a finding we revisit in the Escalation Analysis (Section 4.5).
+
+
+4.1.1 Robustness Check: Unique-Market Accuracy and Multi-Instance Consistency
+
+
+Because KalshiBench contains multi-instance markets, where a single market (e.g., “Which company will IPO in 2026?”) is decomposed into multiple binary rows, one per possible outcome (e.g., “Did Stripe IPO in 2026?”, “Did Klarna IPO in 2026?”), the 1,189 rows correspond to only 703 unique markets. Of these, 486 markets appear in more than one row. To ensure our headline results are not inflated by over-counting repeated instances, we also evaluated accuracy at the unique-market level, keeping one row per question_id. Architecture A achieves 81.9% accuracy on unique markets (95% Wilson CI: [0.789, 0.846]), and Architecture B achieves 75.5% (95% Wilson CI: [0.722, 0.786]). These numbers are consistent with the full-dataset results, confirming that the accuracy gap between architectures is not an artifact of repeated market weighting.
+
+
+The multi-instance markets also reveal an important finding about resolution consistency. For these 486 markets, each architecture resolves multiple binary outcomes drawn from the same parent market with the same retrieved evidence. Table 6 shows how often each architecture produces consistent outcomes across all instances of a given market.
+
+
+Table 6: Resolution consistency across 486 multi-instance markets (markets with more than one binary outcome row in the dataset). “All correct” means every outcome for that market was resolved correctly. “Mixed” means at least one outcome was correct and at least one was incorrect within the same market, despite shared underlying evidence. “All incorrect” means every outcome was resolved incorrectly.
+
+
+
+Architecture
+All Correct
+Mixed
+All Incorrect
+
+
+
+A (Independent)
+380 (78.2%)
+67 (13.8%)
+39 (8.0%)
+
+B (Deliberative)
+338 (69.5%)
+90 (18.5%)
+58 (11.9%)
+
+
+
+
+Architecture A resolves all outcomes correctly for 78.2% of multi-instance markets compared to 69.5% for Architecture B. More notably, Architecture B produces mixed-consistency outcomes on 90 markets (18.5%) versus 67 (13.8%) for Architecture A. These mixed cases are particularly concerning for oracle design: given the same parent market and the same retrieved evidence, the system correctly resolves some outcomes but not others. In a deployed oracle, this inconsistency could create exploitable discrepancies across related contracts within the same market. The finding suggests that deliberation not only reduces accuracy but also introduces additional variance into the resolution process, likely because the multi-round debate amplifies sensitivity to how individual outcomes within a market are framed.
+
+
+These results partially align with prior multi-agent literature. The Iterative Consensus Ensemble (ICE) framework reported 7–15 percentage point improvements from multi-agent aggregation on medical reasoning benchmarks [29]. Our independent aggregation gains are more modest (+1.01 pp), likely because our single-model baselines already achieve over 82% accuracy, leaving less room for improvement. More critically, our deliberation architecture reduces accuracy, the opposite of what Du et al. [14] found for arithmetic tasks, where three-agent debate improved accuracy from roughly 70% to 95%. The difference likely reflects the nature of oracle resolution: unlike arithmetic where a correct derivation can be verified step-by-step, prediction market outcomes depend on evidence interpretation where confident-sounding but incorrect reasoning can be persuasive enough to flip correct initial judgments, a dynamic we analyze in Section 4.3.
+
+
+
+
+4.2 Category-Level Performance Reveals Consistent Gains on Well-Covered
+Domains and Fundamental Difficulty in Ambiguous Ones
+
+
+Table 7 breaks down accuracy by question category. Categories are sorted by Architecture A’s confidence-weighted accuracy, with disagreement rate (the percentage of questions where at least one model dissented from the majority) shown in the rightmost column. Figure 4 visualizes this breakdown.
+
+
+Figure 4: Category-level accuracy for Architecture A (confidence-weighted), best single-LLM baseline, and Architecture B (deliberative). Categories are sorted by Architecture A accuracy. Alternating shaded bands delineate the tier structure discussed in the text. Categories with n<10n<10 should be interpreted with caution.
+
+
+
+
+
+Category
+nn
+A Wtd
+A Maj
+Best Baseline
+B Delib
+Disagree %
+
+
+
+Education
+2
+100.0
+100.0
+100.0
+100.0
+0.0
+
+Health
+2
+100.0
+100.0
+50.0
+50.0
+50.0
+
+Financials
+30
+93.3
+93.3
+90.0
+86.7
+13.3
+
+Sports
+269
+92.9
+91.4
+92.2
+82.9
+13.0
+
+Social
+13
+92.3
+92.3
+76.9
+69.2
+30.8
+
+Elections
+80
+91.3
+91.3
+95.0
+85.0
+13.8
+
+Entertainment
+230
+87.8
+87.8
+87.8
+79.6
+11.7
+
+World
+29
+86.2
+86.2
+86.2
+89.7
+6.9
+
+Mentions
+52
+80.8
+80.8
+76.9
+75.0
+19.2
+
+Politics
+311
+79.4
+79.1
+76.2
+73.0
+24.4
+
+Climate & Weather
+27
+70.4
+74.1
+77.8
+66.7
+25.9
+
+Economics
+21
+66.7
+66.7
+57.1
+42.9
+28.6
+
+Crypto
+59
+66.1
+62.7
+67.8
+59.3
+18.6
+
+Sci & Tech
+10
+60.0
+60.0
+40.0
+40.0
+40.0
+
+Companies
+50
+58.0
+58.0
+62.0
+68.0
+20.0
+
+Transportation
+4
+50.0
+50.0
+75.0
+25.0
+75.0
+
+
+Table 7: Accuracy by category for the top-performing systems. nn = number of questions per category. A Wtd = Architecture A confidence-weighted vote. A Maj = Architecture A majority vote. Best Baseline = highest single-model accuracy in each category. B Delib = Architecture B deliberative final. Disagree % = proportion of questions where at least one of the three models produced a different answer from the other two.
+
+
+A clear tier structure emerges across categories. The top tier includes Sports (n=269n=269, 92.9%), Financials (n=30n=30, 93.3%), and Elections (n=80n=80, 91.3%). These are well-covered domains where retrieved evidence tends to be unambiguous and authoritative. In these categories, inter-model disagreement is low (11–14%), and Architecture A either matches or slightly exceeds the best single-model baseline. This pattern is consistent with Chainlink’s findings, which reported 99.7% accuracy on sports questions where outcomes are well-documented in public sources [35]. Our somewhat lower sports accuracy (92.9% vs. 99.7%) may reflect that KalshiBench includes more temporally nuanced sports questions, such as season-level outcomes and conditional events, compared to Chainlink’s simpler game-result format.
+
+
+The middle tier includes Politics (n=311n=311, 79.4%), Mentions (n=52n=52, 80.8%), and Entertainment (n=230n=230, 87.8%). These categories show moderate difficulty with higher disagreement rates (12–24%). In Politics, which constitutes the largest single category, Architecture A’s weighted vote outperforms the best single baseline by 3.2 percentage points (79.4% vs. 76.2%), suggesting that aggregation provides meaningful benefit precisely when questions involve interpretive ambiguity. This aligns with the theoretical motivation for multi-agent approaches: diverse models are most valuable when no single model reliably dominates.
+
+
+The bottom tier includes Crypto (n=59n=59, 66.1%), Companies (n=50n=50, 58.0%), and Economics (n=21n=21, 66.7%). These categories exhibit low accuracy across all systems, indicating that these failures stem from fundamental difficulty rather than any architecture-specific weakness. Crypto and Companies questions often involve rapidly evolving market conditions, ambiguous resolution criteria (e.g., “Will token X reach price Y by date Z?”), and thin or contradictory evidence. These are challenges that neither additional models nor deliberation can overcome if the underlying evidence is insufficient. Notably, Companies is the one category where Architecture B (68.0%) meaningfully outperforms Architecture A (58.0%), suggesting that deliberation may occasionally help on information-rich questions where models benefit from synthesizing multiple interpretive frames. World events show a similar but smaller pattern (B at 89.7% vs. A at 86.2%).
+
+
+One finding that merits caution is Elections. It shows an unusual case where the best single-model baseline (95.0%) exceeds Architecture A (91.3%). Manual inspection revealed that one model occasionally held the correct minority position on election questions, and aggregation overrode it. This illustrates a known limitation of majority-rule systems: when one model is systematically better-calibrated on a specific domain, aggregation can dilute its advantage. A potential mitigation would be category-aware weighting, where models receive different influence based on domain-specific track records, though this introduces the risk of overfitting to historical category performance.
+
+
+Several categories (Education n=2n=2, Health n=2n=2, Transportation n=4n=4, Sci & Tech n=10n=10) have sample sizes too small to draw reliable conclusions. We report their results for completeness but caution against over-interpreting apparent patterns in these categories.
+
+
+
+4.3 Correlated Errors: Why Aggregation Gains Fall Short of the Theoretical Ceiling
+
+
+The central promise of multi-agent architectures is that diverse models will make different errors, allowing aggregation to filter out individual mistakes. To test this premise, we computed pairwise error correlations and conditional error probabilities across the three oracle agents (Tables 8 and 9).
+
+
+Error correlations range from moderate to high (r=0.529r=0.529–0.6890.689). GPT-4o exhibits the lowest correlation with the other two models (r=0.53r=0.53 with Llama, r=0.58r=0.58 with DeepSeek), making it the most independently-minded oracle agent. DeepSeek and Llama are the most correlated pair (r=0.689r=0.689), consistent with the hypothesis that open-source models sharing overlapping training data or architectural lineage may inherit similar reasoning blind spots. The conditional error probabilities reinforce this pattern: when DeepSeek is wrong, Llama is also wrong 77.0% of the time, compared to 63.3% for GPT-4o when Llama errs.
+
+
+These correlations have direct implications for the theoretical ceiling of aggregation-based approaches. Under an independence assumption, three models each achieving ∼\sim82% accuracy would be expected to reach approximately 91% accuracy under majority voting according to the Condorcet Jury Theorem. However, the observed majority-vote accuracy of 82.93% falls substantially short of this theoretical ceiling. This gap is consistent with the moderate-to-high error correlations observed across models: when one model fails, the others are often failing on the same question for the same underlying reason, typically because the retrieved evidence is ambiguous, incomplete, or misleading.
+
+
+Table 8: Pearson correlation of binary error vectors across oracle agents. Higher values indicate models tend to make mistakes on the same questions. A correlation of 1.0 would mean perfectly overlapping errors; 0.0 would mean fully independent error patterns.
+
+
+
+
+GPT-4o
+DeepSeek
+Llama
+
+
+
+GPT-4o
+1.000
+0.580
+0.529
+
+DeepSeek
+0.580
+1.000
+0.689
+
+Llama
+0.529
+0.689
+1.000
+
+
+
+
+These correlated errors manifest in two ways within our evaluation. First, they explain why Architecture A’s accuracy gains over single-model baselines are modest (+1.01 pp rather than the ∼\sim9 pp that independence would predict). Second, they create the conditions under which Architecture B’s deliberation actively degrades performance, a dynamic we analyze as persuasive error propagation in Section 4.4.5.
+
+
+
+4.4 Failure Mode Taxonomy
+
+
+The preceding sections quantify accuracy differences across architectures and measure error correlations across models. This section complements those results by analyzing incorrect resolutions to understand why the system fails. We identify five failure modes, four shared across architectures and one specific to Architecture B’s deliberation process.
+
+
+These failure modes differ primarily in where the error originates. Retrieval failures stem from missing evidence upstream of the resolution pipeline. Temporal reasoning errors arise from misinterpreting the time-relevance of available evidence. Hallucinations involve fabricated claims or criteria interpretations not grounded in the evidence packet. Shared bias reflects correlated misinterpretation of evidence that is present but systematically misread across all models. Finally, persuasive error propagation is unique to Architecture B, emerging not from individual reasoning but from inter-agent interaction during deliberation.
+
+
+Table 9: Conditional error probability: P⁡(B wrong∣A wrong)P(\text{B wrong}\mid\text{A wrong}). Each cell shows the probability that model B also answers incorrectly, given that model A answered incorrectly. Values above 0.50 indicate positively correlated failure patterns.
+
+
+
+Given A wrong
+B = DeepSeek
+B = Llama
+
+
+
+GPT-4o
+0.652
+0.633
+
+DeepSeek
+—
+0.770
+
+Llama
+0.722
+—
+
+
+
+
+4.4.1 Retrieval Failure
+
+
+A retrieval failure occurs when the evidence packet lacks the information needed to resolve the question correctly, so that agents reach the wrong conclusion despite sound reasoning. The error is upstream of the resolution pipeline, and no amount of multi-agent aggregation or deliberation can compensate.
+
+
+A representative example is the question (Row 0189) “If Glen Powell hosts an episode of Saturday Night Live Season 51, then the market resolves to Yes” (ground truth: YES). The evidence packet contained ten sources listing confirmed SNL Season 51 hosts, but none mentioned Glen Powell. All three agents independently concluded NO, citing his absence from multiple credible host lists. The Exa query returned articles that were either published before Powell’s hosting was announced or simply did not mention it, leaving the agents with a systematically incomplete evidence set.
+
+
+Retrieval failures are particularly difficult to detect at resolution time because the evidence packet appears substantive, agents receive multiple sources, cite them confidently, and produce coherent reasoning chains, yet the critical piece of information is simply absent. This distinguishes retrieval failure from shared bias, where evidence is present but misinterpreted, and from hallucination, where agents fabricate information beyond what the evidence contains.
+
+
+
+4.4.2 Temporal Reasoning Error
+
+
+A temporal reasoning error occurs when agents misinterpret the relationship between evidence timestamps and the resolution window, treating the absence of contemporaneous reporting as a negative signal rather than recognizing an evidence gap.
+
+
+A representative example is the question (Row 0726) “If the value of the S&P 500 index value starting Mar 19, 2025 and ending on Jan 1, 2026 is above 6699.99, then the market resolves to Yes” (ground truth: YES). The evidence packet contained ten sources, all forecasts or projections published in 2023–2024, with none providing actual observed index values from the resolution window. All three agents converged on NO, reasoning that “forecasts do not count as evidence of an actual crossing.” This logic is correct in isolation, but the agents conflated two distinct situations: “the event has not yet occurred” and “the event occurred but our evidence does not include post-event reporting.” The resolution window had already closed and the S&P 500 had exceeded the threshold, but the evidence packet contained only pre-event forecasts. Rather than expressing appropriate uncertainty, the agents treated the absence of observed data as affirmative evidence that the threshold was never crossed.
+
+
+This failure mode is particularly insidious because each individual reasoning step is defensible. The error lies in the implicit temporal assumption that if an event had occurred, the evidence packet would contain confirmation. This assumption is violated whenever the retrieval layer returns temporally misaligned sources, a pattern that recurs across Crypto and Financials questions requiring precise price data at specific timestamps.
+
+
+
+4.4.3 Hallucination
+
+
+A hallucination occurs when an agent generates claims or interpretations not supported by the evidence packet or resolution criteria, fabricating content that is presented with the same confidence as legitimate reasoning.
+
+
+A representative example is the question “If Star appears on Taylor Swift’s album ‘The Life of a Showgirl’ before Jan 1, 2026, then the market resolves to Yes” (ground truth: YES). The resolution criteria specify rules for matching words in lyrics, establishing that the question asks whether the word “Star” appears in the album’s lyrics. The evidence packet contained multiple sources with titles such as “Lyrics Revealed” and “Lyrics and Track Listing,” providing extensive lyrical coverage. However, one model reframed the question entirely, interpreting the resolution criterion as asking whether “a person/entity named ‘Star’ appears on Taylor Swift’s album” as a performer or contributor. From this fabricated premise, the model concluded NO with 0.75 confidence. The other two models similarly concluded NO, reporting that the word “Star” was not mentioned across the lyric sources despite the evidence packet containing articles that comprehensively covered the album’s lyrics.
+
+
+This example illustrates two distinct hallucination patterns. The first is criteria fabrication, where the model invents an interpretation of the resolution criteria that diverges from the actual text. The second is negative assertion from incomplete extraction, where models claim a word does not appear in sources whose full content they may not have fully processed. Both patterns produce reasoning grounded in fabricated premises rather than actual evidence.
+
+
+
+4.4.4 Shared Bias
+
+
+A shared bias occurs when all three agents independently arrive at the same incorrect answer due to a common interpretive tendency, despite the relevant evidence being present in the packet. Unlike persuasive error propagation, no inter-agent interaction is involved. This failure mode is the direct cause of the correlated errors measured in Section 4.3 and explains why majority voting cannot correct a substantial fraction of errors.
+
+
+A representative example is the question “If the first budget reconciliation bill to become law before Jan 1, 2027 cuts at least $800 billion from Medicaid, then the market resolves to Yes” (ground truth: YES). The evidence packet contained sources estimating approximately $625 billion in Medicaid cuts under the House bill and indicating the Senate bill would cut over $200 billion more, implying roughly $825 billion in total reductions. All three models correctly identified these figures and recognized that the Senate bill would likely exceed the threshold. Yet all three independently concluded NO, applying identical reasoning: because no source explicitly confirmed that a reconciliation bill had been signed into law, the resolution criterion requiring a bill to “become law” was not satisfied. Each model treated the absence of explicit enactment confirmation as decisive, despite the evidence strongly suggesting the threshold would be met.
+
+
+Because this conservative disposition is shared across model families, neither majority voting nor confidence weighting can surface a correct minority opinion. The error is invisible to the aggregation layer precisely because every agent agrees.
+
+
+
+4.4.5 Persuasive Error Propagation
+
+
+The four failure modes above apply to both architectures. Persuasive error propagation is unique to Architecture B and represents the mechanism by which deliberation degrades rather than improves accuracy.
+
+
+Table 10: Accuracy by convergence stage in Architecture B’s deliberative process. Round 1 consensus = all three models agreed after initial independent answers. Round 2 consensus = models converged after viewing each other’s reasoning. No consensus = models still disagreed after both rounds. nn = number of questions reaching each stage.
+
+
+
+Stage
+nn
+Accuracy (%)
+
+
+
+Round 1 consensus
+1,002
+80.24
+
+Round 2 consensus
+58
+56.90
+
+No consensus reached
+129
+52.71
+
+
+
+
+Table 10 shows accuracy stratified by when consensus was reached during Architecture B’s deliberative process. The vast majority of questions (84.3%, n=1,002n=1{,}002) reached consensus after Round 1 with 80.24% accuracy, close to the single-model baseline range, since initial agreement essentially reflects that all three models independently arrived at the same answer. The remaining 187 questions (15.7%) are substantially harder, with accuracy near chance regardless of whether Round 2 deliberation achieved consensus (56.9%) or not (52.7%). The marginal difference between these two groups is 4.2 percentage points, which indicates that when models initially disagree on genuinely difficult questions, further debate rarely resolves the disagreement correctly.
+
+
+To directly measure the effect of deliberation on individual agent decisions, we tracked all revisions between Round 1 and Round 2 of Architecture B. Of 3,567 agent-round pairs, only 88 (2.47%) resulted in a revision, affecting 83 of 1,189 questions (6.98%). Critically, these revisions were no better than random: 45 flipped a correct answer to incorrect, while 43 flipped an incorrect answer to correct, yielding a net loss of 2 correct predictions. Per-model analysis reveals an asymmetry consistent with the error correlation findings from Section 4.3. GPT-4o, the most independently-minded model with the lowest pairwise error correlations, was the most harmed by deliberation, flipping 26 correct answers to incorrect against only 16 in the opposite direction. DeepSeek, which shares the highest error correlation with Llama (r=0.689r=0.689), was the only model to benefit from revisions (3 correct-to-incorrect versus 9 incorrect-to-correct). This pattern suggests that the most independent model is disproportionately vulnerable to being talked out of correct minority positions by a correlated majority, precisely the dynamic that undermines the theoretical promise of multi-agent deliberation. Figure 5 visualizes these revision flows for each model.
+
+
+The mechanism behind this failure appears to be what we term persuasive error propagation. During deliberation, a model that is confidently wrong can present compelling but flawed reasoning that causes a correct model to revise its answer. Because the questions where models initially disagree are precisely the ambiguous ones where evidence supports multiple interpretations, a well-articulated wrong argument is often indistinguishable from a right one. This dynamic is the opposite of what Du et al. [14] observed in arithmetic tasks, where correct reasoning is verifiable step-by-step and errors are easy to identify during debate. Oracle resolution lacks this verifiability: the correct interpretation of ambiguous evidence cannot be derived through logic alone, making deliberation vulnerable to confident miscalibration.
+
+
+Figure 5: Answer revision flows between Round 1 and Round 2 in Architecture B. Red indicates correct-to-incorrect flips, and green indicates incorrect-to-correct flips. Deliberation yields a net loss in accuracy for GPT-4o (–10) and gains for DeepSeek (+6).
+
+
+This finding carries practical design implications. For oracle systems where fast, reliable resolution is the priority, independent aggregation with confidence weighting is both simpler and more accurate than deliberation. Deliberation’s computational cost, which requires multiple rounds of inference with full context windows containing other models’ reasoning, is not justified by improved accuracy. If anything, the additional expense buys worse outcomes. The one exception, as noted in Section 4.2, is that deliberation occasionally helps on information-dense categories like Companies and World events, where synthesizing multiple interpretive perspectives may add genuine value. A potential hybrid design could route questions through independent aggregation by default, reserving deliberation only for categories where it has demonstrated benefit. This would require sufficient category-level data to calibrate routing decisions reliably.
+
+
+
+
+4.5 Escalation Criteria for Hybrid Oracle Systems
+
+
+In a deployed oracle system, auto-resolving all questions with Architecture A yields 82.93% accuracy. While this represents a meaningful improvement over single-model baselines, the remaining 17% error rate is substantial for a system settling financial contracts. Human arbitration can achieve higher accuracy but at significant cost and latency. UMA’s dispute resolution mechanism requires 48 to 96 hours and involves token-holder voting, while Kalshi’s internal operations team provides reliable resolution but is extremely time intensive when scaled to thousands of simultaneous markets. A practical hybrid system needs principled routing rules that auto-resolve high-confidence questions while escalating uncertain ones to human review.
+
+
+We find that inter-agent agreement is the single strongest predictor of resolution accuracy in Architecture A. Table 11 shows accuracy stratified by agreement status across all 1,189 questions. When all three models independently produce the same answer, accuracy reaches 88.34%. When the vote splits 2-1, accuracy drops to 57.82%, barely above chance for a binary task. This 30.5 percentage point gap demonstrates that disagreement among independently reasoning models is a highly informative signal that a question is likely to be resolved incorrectly.
+
+
+Table 11: Architecture A resolution accuracy by inter-agent agreement status across all 1,189 questions. Unanimous indicates all three models produced the same binary decision; Split indicates a 2-1 vote.
+
+
+
+Agreement Status
+nn
+Accuracy (%)
+
+
+
+Unanimous (3-0)
+978
+88.34
+
+Split (2-1)
+211
+57.82
+
+
+
+
+Average model confidence provides additional discriminative power, particularly within the unanimous group. Table 12 combines agreement status with confidence, splitting questions at the median average confidence of 0.91. The unanimous and high-confidence cell achieves 97.87% accuracy on 563 questions, representing the system’s most reliable operating regime. Within unanimous questions, confidence separates near-perfect resolution (97.87%) from substantially weaker performance (75.42%). However, for split questions, confidence provides almost no additional signal: accuracy is 56.52% for high-confidence splits and 58.18% for low-confidence splits. This asymmetry indicates that agreement is the primary escalation signal, with confidence serving as a useful refinement only when models agree.
+
+
+Table 12: Architecture A resolution accuracy by combined agreement status and average confidence. Confidence is split at the median average confidence score (0.91) across all 1,189 questions.
+
+
+
+
+High Confidence
+Low Confidence
+
+
+nn
+Accuracy (%)
+nn
+Accuracy (%)
+
+Unanimous
+563
+97.87
+415
+75.42
+
+Split
+46
+56.52
+165
+58.18
+
+
+
+
+Figure 6 presents the coverage-accuracy tradeoff curve for both architectures, constructed by ranking questions in descending order of composite escalation score and computing cumulative accuracy as coverage expands. Architecture A achieves 100% accuracy when auto-resolving only the top 10% of questions, 97.47% at 50% coverage, and 90.12% at 75% coverage. Architecture A dominates Architecture B across most of the operating range, with the gap reaching 10.44 percentage points at 50% coverage. Architecture B is marginally better at the extreme top of the ranking (100% vs. 99.15% at 10% coverage), but this advantage disappears by 20% coverage and Architecture A is consistently superior thereafter.
+
+
+Figure 6: Coverage-accuracy tradeoff curves for Architecture A and Architecture B. Each point represents the cumulative accuracy when auto-resolving the top kk questions ranked by composite escalation score. Architecture A dominates across most of the operating range.
+
+
+These results suggest a practical escalation policy for deployed oracle systems. If a system auto-resolves only unanimous, high-confidence questions, it covers 47.4% of the dataset at 97.87% accuracy, escalating the remaining 52.6% to human arbitration. Relaxing the threshold to include all unanimous questions regardless of confidence increases coverage to 82.3% at 88.34% accuracy. An oracle designer can select a point on the coverage-accuracy curve that matches their accuracy tolerance and arbitration budget. For context, at 50% coverage Architecture A approaches the accuracy levels that Chainlink reported for sports questions (99.7%) while handling a much broader range of question categories.
+
+
+This analysis treats escalation as a post-hoc empirical investigation rather than a trained decision system. Formal learning-to-defer approaches jointly optimize a classifier and a rejection function to maximize system-level performance [27]. Recent work [23] has extended this to cascaded LLM systems with provable guarantees of human agreement at user-specified risk tolerances. Applying these formal frameworks to oracle resolution, where the deferral target is human arbitration with known cost and accuracy characteristics, represents a natural direction for future work.
+
+
+
+
+5 Related Work
+
+
+The intersection of large language models, multi-agent systems, and blockchain oracle design has seen rapid development, but no prior work has systematically evaluated multi-LLM oracle architectures for prediction market resolution. This section surveys the most relevant research threads and identifies gaps in existing literature.
+
+
+5.1 LLM-Based Oracle Systems
+
+
+The most directly relevant prior work is Chainlink Labs’ 2025 study evaluating a single-LLM oracle built with the DSPy framework [35]. Their system uses GPT-4o across three modules: a Question Transformer employing chain-of-thought reasoning, an Information Gathering module performing web scraping with full webpage content retrieval, and a Fact Extraction module producing explicit reasoning traces. Evaluated on 1,660 resolved Polymarket outcomes each with over $100,000 in trading volume, the system achieved 89.3% overall accuracy, with dramatic category-dependent variation: 99.7% on sports, 85.0% on cryptocurrency, and 84.3% on political outcomes. The primary bottleneck identified was temporal cognition: LLMs struggle with relative time expressions and maintaining awareness of when information was created relative to events being verified. Sports questions, with their discrete temporal endpoints, dramatically outperform politics and cryptocurrency, where temporal boundaries are fuzzy and developments are ongoing. Notably, the study did not filter for potential training data contamination, leaving open the possibility that some accuracy reflects memorized rather than retrieved information. Additionally, their results are also possible skewed given the fact that they only resolved markets with high trading volumes, meaning there are a plethora of information about these markets
+
+
+UMA’s OOTruthBot represents a deployed AI oracle integration that evolved from a single Perplexity API call to a three-layer architecture [33]. A lightweight Router dispatches questions to specialized solvers: a Code-Runner for deterministic API queries and a Perplexity-based solver for open-ended questions. An Overseer cross-references outputs against Polymarket live prices as a quality filter. The system achieves approximately 78% overall accuracy (up to 95% on objective events with clear data) at roughly $0.005 per resolution, orders of magnitude cheaper than human-mediated resolution. A notable safety feature is the “Too Early” output when evidence is insufficient, implementing a principled abstention mechanism that prevents the system from guessing when it lacks confidence.
+
+
+
+5.2 Multi-Agent Architectures for Improved Reasoning
+
+
+The use of multiple LLM instances to improve accuracy has been explored through
+several architectural paradigms that differ in how agents interact: independently
+(ensemble voting), iteratively (debate and consensus), or hierarchically (layered
+aggregation).
+
+
+The foundational work on multi-agent debate by Du et al. demonstrated that
+structured argumentation between LLM instances improves factual accuracy and
+reasoning [14]. Using three agents over two rounds of debate, they
+observed arithmetic accuracy improvements from approximately 70% to 95%. Two
+findings are particularly relevant to oracle design. First, providing full reasoning
+chains during debate substantially outperforms sharing only final answers, as agents
+benefit from understanding why other agents reached their conclusions. Second,
+cross-model debate is effective: ChatGPT and Bard, each producing incorrect
+individual answers, reached correct solutions through debate. Both observations
+motivate our deliberative consensus architecture, which shares full reasoning traces
+across diverse model families.
+
+
+Omar et al. introduced the Iterative Consensus Ensemble (ICE), where three LLMs
+critique each other iteratively until convergence [29]. ICE improved
+overall accuracy from 60.2% to 74.0% across over 4,000 questions, with most
+questions settling within 2–3 rounds. This convergence behavior suggests that
+extended deliberation yields diminishing returns, an observation relevant to the
+cost-accuracy tradeoffs central to oracle system design.
+
+
+
+5.3 When Multi-Agent Approaches Fail
+
+
+The most important counterpoints to multi-agent enthusiasm come from recent empirical investigations of failure modes. Recent work formalized a “tyranny of the majority” effect: as the number of agents providing the same answer increases, whether correct or not, minority agents conform, creating echo chambers rather than enabling error correction [16]. Three interventions were proposed: diversity-pruning, quality-pruning, and misconception-refutation. Complementary work found that group accuracy frequently degrades over debate rounds, and that even introducing a weaker model into a majority of stronger models can diminish overall performance [1]. A large-scale trace analysis examined over 1,600 annotated traces across seven multi-agent frameworks, identifying 14 unique failure modes in three categories, with inter-agent misalignment as the dominant failure type [9]. Using 16×\times more compute reduced failure rates by only 43%, while hierarchical structures outperformed flat architectures by 10–15%.
+
+
+The connection to group decision-making theory is instructive. A foundational distinction separates “demonstrable” tasks, where a correct answer can be logically proven, from “judgmental” tasks where no objectively verifiable solution exists [26]. For demonstrable tasks, a “Truth Wins” dynamic allows even a single correct minority member to persuade the group; for judgmental tasks, a “Majority Wins” dynamic dominates regardless of correctness. Oracle resolution straddles both categories: sports outcomes with official results resemble demonstrable tasks, while politically ambiguous questions resemble judgmental ones where convergence may reflect shared biases rather than accuracy.
+
+
+
+5.4 Correlated Errors and the Limits of Aggregation
+
+
+Ensemble methods rely on error independence. The Condorcet Jury Theorem guarantees that majority voting improves accuracy only when individual errors are uncorrelated. However, Kim et al. find that LLMs frequently agree on the same incorrect answer, indicating substantial error correlation across models [25]. Related work documents homogenization effects introduced by alignment training [34, 4].
+
+
+These results imply that naive majority voting may yield limited robustness gains. A key question is whether structured deliberation can reduce correlated error or whether it amplifies shared blind spots.
+
+
+
+5.5 Hybrid AI-Human Systems and Principled Escalation
+
+
+The question of when an AI system should defer to human judgment is formalized in the learning-to-defer literature, which provides the theoretical grounding for our escalation framework.
+
+
+Mozannar and Sontag provided a consistent surrogate loss that jointly learns a classifier and rejector [27]. The Bayes-optimal deferral rule has an intuitive form: defer when the probability that the expert is correct exceeds the model’s maximum posterior probability for any class. In oracle terms, this means deferring to human arbitration when the AI system’s confidence is lower than expected human accuracy, a principled cost-benefit calculation rather than an ad-hoc threshold.
+
+
+Bansal et al. found that AI explanations did not increase human-AI team accuracy beyond simply showing confidence scores, as explanations increased acceptance of AI recommendations regardless of correctness [5]. This finding cautions against assuming that providing LLM reasoning traces to human arbitrators in an escalation pipeline will improve their judgment; confidence signals and disagreement patterns may be more actionable.
+
+
+Selective prediction formalizes the tradeoff between accuracy and coverage: a system that declines to answer uncertain questions will be more accurate on those it does answer, but at the cost of resolving fewer questions automatically [11, 18]. UMA’s OOTruthBot already implements principled abstention through its “Too Early” output [33]. Recent work formalizes three-tier LLM-human architectures where a base model routes to a large model which routes to a human expert [2], a pattern that maps directly to oracle system design. Our escalation framework builds on these approaches by using multi-agent disagreement and confidence as principled routing signals.
+
+
+
+5.6 Gaps in Existing Research
+
+
+Across these threads, no work has systematically evaluated multi-LLM
+architectures for prediction market resolution, characterized error
+correlation in oracle settings specifically, or developed principled
+escalation criteria grounded in the learning-to-defer framework. The
+methodology in Section 3 addresses these gaps through a controlled
+comparison of independent aggregation and deliberative consensus, an
+error correlation analysis across model pairs, and an escalation framework
+that uses inter-agent disagreement and confidence as routing signals.
+
+
+
+
+6 Conclusion
+
+
+This paper evaluated whether multi-agent LLM architectures can
+improve oracle resolution accuracy over single-model baselines.
+Using 1,189 resolved prediction market questions from KalshiBench,
+we compared two architectures, independent aggregation and
+deliberative consensus, against single-model baselines in a domain
+where correctness has direct financial consequences.
+
+
+This work makes three contributions to the intersection of multi-agent
+AI systems and decentralized oracle design: (1) empirical evidence
+that independent aggregation offers modest but consistent accuracy
+gains while deliberation degrades performance in evidence-based
+resolution; (2) a characterization of error correlation patterns
+specific to oracle resolution, showing that shared training data and
+architectural lineage produce failures that fundamentally limit
+aggregation benefits; and (3) escalation criteria that use inter-agent
+disagreement and confidence as principled routing signals for hybrid
+AI-human systems. The remainder of this chapter develops each in turn.
+
+
+The results yield a nuanced answer to the central research question.
+Independent aggregation with confidence-weighted voting achieves the
+highest accuracy at 83.43%, a statistically significant improvement
+over the best single-model baseline, with the largest gains in
+interpretively ambiguous categories like Politics (+3.2 percentage
+points). Yet these gains fall well short of the theoretical Condorcet
+ceiling of approximately 90%, a gap explained by moderate-to-high
+error correlations across model pairs (r=0.529r=0.529–0.6890.689): when
+one model fails, the others typically fail on the same question for
+the same underlying reason. The same bound shows up at the category
+level. Well-documented domains like Sports (92.9%) and Financials
+(93.3%) approach the ceiling reported by prior single-LLM studies,
+while ambiguous domains like Crypto (66.1%) and Companies (58.0%)
+resist improvement from any architecture. Together, these findings
+leave a 14% hard core of questions that no multi-agent approach
+resolves, motivating principled escalation to human arbitration.
+
+
+The most striking finding is that deliberative consensus degrades performance rather than improving it. All final-round outputs in Architecture B fall below every single-model baseline, with the best deliberative result trailing the worst individual model by over four percentage points. We attribute this to persuasive error propagation and LLM sycophancy: on genuinely difficult questions where models initially disagree, a confidently wrong model can present compelling but flawed reasoning that causes a correct model to revise its answer. This stands in contrast to prior work on multi-agent debate for arithmetic and logical reasoning tasks, where correct derivations are verifiable step-by-step. Oracle resolution lacks this verifiability, making deliberation vulnerable to confident miscalibration.
+
+
+These findings carry practical implications for the design of oracle systems as prediction markets continue to grow in volume and complexity. For deployed systems where fast, reliable resolution is the priority, independent aggregation with confidence weighting is both simpler and more accurate than deliberation. The escalation framework provides a structured alternative to ad-hoc human override policies: unanimous, high-confidence resolutions achieve 97.87% accuracy while covering nearly half of all questions, enabling oracle systems to auto-resolve the easy cases while routing genuinely uncertain questions to human arbitration.
+
+
+More broadly, these findings suggest that the benefits of multi-agent LLM systems may be fundamentally constrained by correlated reasoning errors across models. In domains where correctness depends on interpreting ambiguous real-world evidence rather than deriving verifiable logical conclusions, debate-based architectures risk amplifying persuasive but incorrect arguments rather than correcting them. As decision-making systems increasingly operate as human-AI hybrids, designing reliable AI oracle systems may require architectures that prioritize independence and calibrated escalation over deliberative consensus.
+
+
+
+7 Future Work
+
+
+7.1 Pipeline Architecture Improvements
+
+
+We identify several complementary directions for improving the oracle pipeline that extend its retrieval, evidence selection, and aggregation layers. Figure 7 illustrates the proposed modifications.
+
+
+7.1.1 Specialized Retrieval for Domain-Specific Questions
+
+
+A recurring source of error in our evaluation was questions requiring precise, structured data that general-purpose search engines are poorly suited to retrieve. For example, a question such as ”Will the price of Bitcoin be above $80,000 on March 24th, 2025?” requires a single authoritative price observation at a specific timestamp. This information is trivially available through a cryptocurrency price API like CoinGecko but difficult to extract reliably from web search results, which may return commentary, forecasts, or prices from neighboring dates. Our use of Exa as a uniform retrieval backend for all question types meant that such domain-specific queries often received evidence packets that were insufficient for confident resolution. A more robust system would combine a general-purpose retrieval layer for open-ended questions with specialized API integrations dispatched based on question category or content. For categories like Crypto or Financials, a routing layer could detect that the question requires a structured data lookup and query the appropriate domain API directly, using cheap and deterministic lookups for questions that warrant them and general search for everything else.
+
+
+Figure 7: Extended system flow with proposed future-work updates.
+The pipeline introduces domain-specific retrieval routing, learned source ranking, and domain-aware aggregation to improve retrieval quality, evidence prioritization, and ensemble performance.
+
+
+
+7.1.2 Source Quality Weighting and Learned Source Ranking
+
+
+Our current pipeline treats all retrieved sources equally, passing the same unweighted evidence packet to every agent. However, not all sources are equally informative or reliable for a given question: a primary government data release carries more evidentiary weight than a speculative blog post. A natural extension would be to introduce a learned source-ranking layer that scores and weights retrieved documents before they reach the resolution agents. One promising approach would train an embedding model to reproduce quality rankings generated by LLM judges applied to oracle resolution traces. Specifically, for a set of resolved questions with known ground-truth outcomes, one could use one or more LLM judges to rank the sources in each evidence packet by their contribution to a correct resolution. These ranked preferences would then serve as training signal for a lightweight source-ranking model that could be applied at inference time without the cost of repeated LLM judge calls. Evaluation of such a system is straightforward in principle. By holding the resolution architecture fixed, one can measure whether accuracy improves when agents receive source-weighted evidence compared to the uniform-weight baseline used in this study. Beyond accuracy, source weighting could also improve calibration by allowing agents to express lower confidence when their highest-weighted sources are weak, providing a more informative signal for the escalation framework developed in this thesis.
+
+
+
+7.1.3 Principled Abstention as a Third Resolution Output
+
+
+Our current agent schema forces a binary decision. Every agent must output YES or NO for every question, regardless of evidence quality. While agents can express low confidence, they cannot explicitly signal that the evidence is insufficient to resolve the question. This constraint is a direct contributor to several failure modes identified in Section 4.4. In retrieval failures, agents produce confident but wrong answers because the evidence packet appears substantive even when the critical piece of information is absent. In temporal reasoning errors, agents correctly recognize that their evidence contains only forecasts rather than observed outcomes, but are forced to pick a side rather than flag the evidence gap.
+
+
+Adding abstention changes the aggregation logic in meaningful ways. Under the current majority-vote scheme, a 2-1 split triggers escalation while a 3-0 unanimous answer proceeds automatically. With abstention, new configurations arise. If two agents abstain and one votes YES, the system should escalate rather than treat a single vote as a resolution. More importantly, abstention could surface failure cases that the current escalation framework cannot detect. The unanimous-but-wrong resolutions in our evaluation, which account for a substantial portion of errors, appear indistinguishable from unanimous correct resolutions under the current routing policy. If agents could abstain when evidence is thin, some of these cases would produce mixed vote-abstain patterns that trigger human review rather than proceeding to automatic settlement.
+
+
+
+7.1.4 Asymmetric Model Weighting and Ensemble Diversity
+
+
+The current aggregation mechanism treats all three oracle agents as equals, applying a uniform confidence-weighted vote regardless of domain. However, the category-level results suggest this is suboptimal. In Elections, a single model occasionally held the correct minority position that majority aggregation overrode, diluting a well-calibrated signal with noisier ones. A natural extension within Architecture A would be to assign per-model influence based on demonstrated category-level accuracy, effectively building a domain-aware ensemble that up-weights the historically strongest model for each question type. Such a weighting scheme could be derived from held-out validation data and applied at inference time without additional LLM calls. A related question is whether expanding the ensemble with a fourth, more architecturally distinct model would meaningfully reduce the error correlations that limit aggregation gains. The moderate-to-high pairwise correlations observed between DeepSeek and Llama (r=0.689r=0.689) suggest that open-weight models sharing overlapping training lineages inherit shared reasoning blind spots, and introducing a model trained with a fundamentally different optimization objective could widen ensemble diversity and push majority-vote accuracy closer to the Condorcet ceiling that correlated errors currently prevent.
+
+
+
+
+7.2 Adversarial Robustness and Evidence Injection Attacks
+
+
+A limitation not addressed in this study is the robustness of multi-agent oracle architectures to adversarial manipulation of the retrieval layer. If a bad actor plants misleading but plausible sources in the web index, both architectures receive the same poisoned evidence packet, since all agents share a common retrieval layer. Under independent aggregation, correlated errors from a shared adversarial source would propagate directly into the majority vote. Under deliberative consensus, the concern is more subtle. A persuasively written but fabricated source could anchor one agent’s reasoning and then influence the others during deliberation, amplifying rather than containing the attack. Future work could evaluate robustness by injecting synthetic adversarial documents into evidence packets at varying rates and measuring accuracy degradation across architectures. A secondary question is whether inter-agent disagreement, which serves as an escalation signal in this thesis, also functions as an adversarial detection signal. A poisoned source that convinces two of three agents but not the third would surface as a split vote and trigger human review under the routing policy proposed in Section 4.5, suggesting that the escalation framework may provide partial robustness against certain classes of evidence injection attacks even without explicit defenses.
+
+
+
+7.3 Formal Learning-to-Defer Integration
+
+
+The escalation framework developed in Section 4.5 treats routing as a post-hoc empirical analysis, constructing a composite score from inter-agent agreement and average confidence and evaluating its discriminative power on the same dataset used for resolution. While this approach yields interpretable and practically useful routing thresholds, it does not jointly optimize the resolution and deferral functions. [27] provide a consistent surrogate loss that jointly learns a classifier and a rejector, where the Bayes-optimal deferral rule defers to the human expert whenever the probability that the expert is correct exceeds the model’s maximum posterior probability for any class. Applying this framework to oracle resolution would mean training a rejector that takes multi-agent outputs as features and learns directly from resolution outcomes and human arbitration accuracy, rather than relying on a hand-crafted composite score. A natural evaluation would compare the coverage-accuracy tradeoff curve achieved by a trained rejector against the empirical curve reported in Figure 6, measuring whether principled joint optimization meaningfully outperforms the agreement-plus-confidence heuristic. This direction is particularly promising for oracle system design because the deferral target, human arbitration via mechanisms like UMA’s Data Verification Mechanism, has known and measurable accuracy and cost characteristics, satisfying the conditions under which the Bayes-optimal deferral rule yields provable guarantees.
+
+
+
+
+Acknowledgments
+
+
+I would first like to thank Professor Fan Zhang for his immeasurable support and valuable guidance throughout this process. His expertise in oracle design was invaluable to this project.
+
+
+I would also like to thank the Yale Department of Computer Science for fostering an environment that sparked my curiosity and encouraged a lifelong pursuit of exploration in the field.
+
+
+Finally, I am deeply grateful to my parents, whose unwavering love and early academic inspiration shaped me into the student I am today, and to my twin sister, for sharing so much of my academic journey with me and for being a damn good friend.
+
+
+
+References
+
+
+[1]
+Anonymous (2025)
+
+Talk isn’t always cheap: understanding failure modes in multi-agent debate.
+
+arXiv preprint arXiv:2509.05396.
+
+Cited by: §5.3.
+
+[2]
+Anonymous (2025)
+
+Three-tier LLM-human cascaded architectures for scalable decision systems.
+
+arXiv preprint arXiv:2506.11887.
+
+Cited by: §5.5.
+
+[3]
+K. J. Arrow, R. Forsythe, M. Gorham, R. Hahn, R. Hanson, J. O. Ledyard, S. Levmore, R. Litan, P. Milgrom, F. D. Nelson, et al. (2008)
+
+The promise of prediction markets.
+
+Science 320 (5878), pp. 877–878.
+
+Cited by: §1.1,
+§2.1.
+
+[4]
+Y. Bai et al. (2025)
+
+Measuring and addressing systematic bias in LLM decision-making.
+
+Proceedings of the National Academy of Sciences 122 (9).
+
+Cited by: §5.4.
+
+[5]
+G. Bansal, T. Wu, J. Zhou, R. Fok, B. Nushi, E. Kamar, M. T. Ribeiro, and D. Weld (2021)
+
+Does the whole exceed its parts? the effect of AI explanations on complementary team performance.
+
+In Proceedings of the ACM CHI Conference on Human Factors in Computing Systems,
+
+Cited by: §5.5.
+
+[6]
+J. E. Berg, F. D. Nelson, and T. A. Rietz (2008)
+
+Prediction market accuracy in the long run.
+
+International Journal of Forecasting 24 (2), pp. 283–298.
+
+Cited by: §1.1,
+§2.1.
+
+[7]
+L. Breidenbach, C. Cachin, B. Chan, A. Coventry, S. Ellis, A. Juels, F. Koushanfar, A. Miller, B. Magauran, D. Moroz, et al. (2021)
+
+Chainlink 2.0: next steps in the evolution of decentralized oracle networks.
+
+Note: https://research.chain.link/whitepaper-v2.pdf
+
+Cited by: §1.1,
+§2.3.1.
+
+[8]
+G. Caldarelli (2020)
+
+Understanding the blockchain oracle problem: a call for action.
+
+Information 11 (11), pp. 509.
+
+Cited by: §1.1,
+§2.2.
+
+[9]
+M. Cemri et al. (2025)
+
+Multi-agent failure mode analysis.
+
+arXiv preprint arXiv:2503.13657.
+
+Note: NeurIPS 2025 Spotlight
+
+Cited by: §5.3.
+
+[10]
+Chainalysis Team (2023)
+
+Oracle manipulation attacks rising: a unique concern for DeFi.
+
+Note: Chainalysis Blog
+
+External Links: Link
+
+Cited by: §2.2.
+
+[11]
+C. Chow (1970)
+
+On optimum recognition error and reject tradeoff.
+
+IEEE Transactions on Information Theory 16 (1), pp. 41–46.
+
+Cited by: §3.9,
+§5.5.
+
+[12]
+CoinDesk (2024)
+
+US election betting: CFTC loses last-minute bid to halt Kalshi contract.
+
+Note: https://www.coindesk.com/policy/2024/09/12/us-election-betting-cftc-loses-last-minute-bid-to-halt-kalshi-contract
+
+Cited by: §1.1.
+
+[13]
+L. W. Cong, B. Fox, Y. Li, and Z. Zhou (2025)
+
+A primer on oracle economics.
+
+Journal of Corporate Finance.
+
+Cited by: §2.2.
+
+[14]
+Y. Du, S. Li, A. Torralba, J. B. Tenenbaum, and I. Mordatch (2024)
+
+Improving factuality and reasoning in language models through multiagent debate.
+
+In Proceedings of the 41st International Conference on Machine Learning (ICML),
+
+Note: arXiv preprint arXiv:2305.14325
+
+Cited by: §4.1.1,
+§4.4.5,
+§5.2.
+
+[15]
+S. Ellis, A. Juels, and S. Nazarov (2017)
+
+Chainlink: a decentralized oracle network.
+
+Technical report
+
+ Chainlink Labs.
+
+Note: https://research.chain.link/whitepaper-v1.pdf
+
+Cited by: §1.1,
+§2.2,
+§2.3.1.
+
+[16]
+A. Estornell and Y. Liu (2024)
+
+On the Tyranny of the Majority: how multi-agent debate can improve upon majority voting.
+
+In Advances in Neural Information Processing Systems (NeurIPS),
+
+Cited by: §5.3.
+
+[17]
+A. Fanous et al. (2025)
+
+Sycophancy in LLMs: causes, consequences, and mitigation strategies.
+
+In Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society,
+
+Vol. 8, pp. 893–900.
+
+Cited by: §2.4.2.
+
+[18]
+Y. Geifman and R. El-Yaniv (2017)
+
+Selective classification for deep neural networks.
+
+In Advances in Neural Information Processing Systems (NeurIPS),
+
+Cited by: §3.9,
+§5.5.
+
+[19]
+F. A. Hayek (1945)
+
+The use of knowledge in society.
+
+American Economic Review 35 (4), pp. 519–530.
+
+Cited by: §2.1.
+
+[20]
+L. Huang, W. Yu, W. Ma, W. Zhong, Z. Feng, H. Wang, Q. Chen, W. Peng, X. Feng, B. Qin, and T. Liu (2025)
+
+A survey on hallucination in large language models: principles, taxonomy, challenges, and open questions.
+
+ACM Transactions on Information Systems 43 (2), pp. 1–44.
+
+Cited by: §2.4.2.
+
+[21]
+ICEB Conference (2020)
+
+A meta-analysis of prediction markets accuracy.
+
+In Proceedings of the International Conference on Electronic Business,
+
+Cited by: §2.1.
+
+[22]
+Z. Ji, N. Lee, R. Frieske, T. Yu, D. Su, Y. Xu, E. Ishii, Y. J. Bang, A. Madotto, and P. Fung (2023)
+
+Survey of hallucination in natural language generation.
+
+ACM Computing Surveys 55 (12), pp. 1–38.
+
+Cited by: §2.4.2.
+
+[23]
+J. Jung et al. (2025)
+
+Trust or escalate: LLM judges with provable guarantees for human agreement.
+
+Cited by: §4.5.
+
+[24]
+Kalshi (2024)
+
+Market outcomes.
+
+Note: https://help.kalshi.com/markets/markets-101/market-outcomes
+
+Cited by: §1.1,
+§2.3.2.
+
+[25]
+E. Kim, N. Garg, K. Peng, and S. Garg (2025)
+
+Correlated errors in large language models.
+
+arXiv preprint arXiv:2506.07962.
+
+Note: ICML 2025
+
+Cited by: §1.3,
+§5.4.
+
+[26]
+P. R. Laughlin (2011)
+
+Group problem solving.
+
+ Princeton University Press.
+
+Cited by: §5.3.
+
+[27]
+H. Mozannar and D. Sontag (2020)
+
+Consistent estimators for learning to defer to an expert.
+
+119, pp. 7076–7087.
+
+Cited by: §4.5,
+§5.5,
+§7.3.
+
+[28]
+E. Nel (2025)
+
+Do large language models know what they don’t know?.
+
+arXiv preprint arXiv:2512.16030.
+
+Note: KalshiBench benchmark
+
+Cited by: §1.5,
+§2.3.2,
+§3.1.
+
+[29]
+M. Omar, B. S. Glicksberg, and G. N. Nadkarni (2025)
+
+Refining LLM outputs with iterative consensus ensemble (ICE).
+
+Computers in Biology and Medicine 196.
+
+Cited by: §4.1.1,
+§5.2.
+
+[30]
+Polymarket (2024)
+
+Polymarket UMA CTF adapter.
+
+Note: https://github.com/Polymarket/uma-ctf-adapter
+
+Cited by: §2.3.3.
+
+[31]
+J. Thorne, A. Vlachos, C. Christodoulopoulos, and A. Mittal (2018)
+
+FEVER: a large-scale dataset for fact extraction and verification.
+
+In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL),
+
+Cited by: §2.4.1.
+
+[32]
+UMA Protocol (2024)
+
+How does UMA’s oracle work?.
+
+Note: https://docs.uma.xyz/protocol-overview/how-does-umas-oracle-work
+
+Cited by: §1.1,
+§2.3.3.
+
+[33]
+UMA Protocol (2025)
+
+Inside UMA’s optimistic truth bot.
+
+Note: https://blog.uma.xyz/articles/inside-umas-optimistic-truth-bot
+
+Cited by: §1.1,
+§5.1,
+§5.5.
+
+[34]
+T. Wu et al. (2024)
+
+Generative monoculture in large language models.
+
+arXiv preprint.
+
+Cited by: §5.4.
+
+[35]
+K. Zintus-art, B. Vass, and J. Ward (2025)
+
+Empirical evidence in AI oracle development.
+
+Note: https://blog.chain.link/ai-oracles/
+
+Cited by: §1.1,
+§4.2,
+§5.1.
+
+
+
+
+Appendix A Appendix
+
+
+A.1 Prompt Templates
+
+
+⬇
+SYSTEM PROMPT:
+
+
+
+You are an expert prediction market resolution agent. Your task is to determine whether a prediction market question should resolve to YES or NO based on the provided evidence.
+
+
+
+Instructions:
+
+1. Read the question and resolution criteria carefully.
+
+2. Analyze ALL provided sources for relevant information.
+
+3. Make your decision based on definitive evidence. Prioritize information describing outcomes that have already occurred.
+
+4. If evidence is ambiguous, use your best judgment.
+
+5. Rate your confidence from 0.0 (very uncertain) to 1.0 (absolutely certain).
+
+
+
+Output Format:
+
+- decision: YES or NO
+
+- confidence: 0.0 to 1.0
+
+- reasoning: Explanation referencing specific sources
+
+
+
+USER MESSAGE TEMPLATE:
+
+
+
+Please analyze the following prediction market question and evidence, then provide your resolution decision.
+
+
+
+{evidence_text}
+
+
+
+Based on the evidence above, should this question resolve to YES or NO?
+
+
+Figure 8: System prompt used for single-LLM oracle resolution in Architecture A. The model receives structured evidence and is required to output a binary decision, calibrated confidence score, and source-grounded reasoning.
+
+
+
+⬇
+ROUND_1_SYSTEM_PROMPT:
+
+You are an expert prediction market resolution agent. Your task is to determine whether a prediction market question should resolve to YES or NO based on the provided evidence.
+
+
+
+Determine whether the question should resolve to YES or NO based only on the evidence provided.
+
+
+
+ROUND_1_USER_TEMPLATE:
+
+QUESTION: {question}
+
+
+
+RESOLUTION CRITERIA: {criteria}
+
+
+
+EVIDENCE PROVIDED from reputable sources:
+
+{exa_evidence}
+
+
+
+Provide your answer in JSON with these fields:
+
+- decision: YES or NO
+
+- confidence: number between 0.0 and 1.0
+
+- reasoning: detailed step-by-step reasoning that cites relevant evidence and criteria interpretation
+
+
+
+Think carefully about:
+
+1. Read the question and resolution criteria carefully
+
+2. Analyze ALL provided sources for relevant information
+
+3. Make your decision based on definitive evidence. You should prioritize information that describes an outcome that happened.
+
+4. If evidence is ambiguous, use your best judgment
+
+5. Rate your confidence in your decision from 0.0 (very uncertain) to 1.0 (absolutely certain)
+
+
+
+Figure 9: Architecture B (Deliberative Consensus), Round 1 prompt. Each agent independently resolves the market using a shared evidence packet and outputs a structured JSON decision, confidence score, and evidence-grounded reasoning.
+
+
+
+⬇
+ROUND_2_SYSTEM_PROMPT:
+
+You are in the final cross-examination round of a multi-agent resolution debate.
+
+You will see how other agents reasoned about the same question. Your job is to CRITICALLY EVALUATE their reasoning against the evidence -- not to defer to them.
+
+
+
+IMPORTANT: You should only change your answer if you identify a SPECIFIC factual error in your own round 1 reasoning, or if another agent points to SPECIFIC EVIDENCE in the shared packet that you misread or overlooked. Do NOT change your answer simply because other agents disagree with you or sound confident.
+
+
+
+ROUND_2_USER_TEMPLATE:
+
+You previously resolved this prediction market question.
+
+Now you will see how two other expert agents reasoned about the same question.
+
+
+
+QUESTION: {question}
+
+
+
+RESOLUTION CRITERIA: {criteria}
+
+
+
+EVIDENCE (SAME SHARED PACKET FROM ROUND 1):
+
+{exa_evidence}
+
+
+
+YOUR PREVIOUS ANSWER:
+
+{your_round_1_response}
+
+
+
+OTHER AGENTS’ REASONING:
+
+{other_agents_section}
+
+
+
+This is the FINAL round. Critically evaluate the other agents’ reasoning:
+
+
+
+1. For each agent that DISAGREES with you: Do they cite specific evidence from the shared packet that contradicts your reasoning? Or are they asserting a conclusion without evidentiary support?
+
+2. Re-read the specific pieces of evidence that are most relevant to the disagreement.
+
+3. ONLY change your decision if you can identify a concrete error in your own round 1 analysis, for example, you misread a date, overlooked a source, or misinterpreted the resolution criteria.
+
+4. If agents agree with you, do NOT increase your confidence unless they provide additional evidence-based reasoning you hadn’t considered.
+
+
+
+DEFAULT BEHAVIOR: Change your decision ONLY if another agent identifies specific evidence
+
+or because there is a concrete flaw in your reasoning, not simply because they reached
+
+a different conclusion.
+
+
+
+Provide your FINAL answer in JSON with these fields:
+
+- decision: YES or NO
+
+- confidence: number between 0.0 and 1.0
+
+- reasoning: explain your final reasoning, explicitly addressing each disagreeing agent’s key claim
+
+- revised: true if you changed your decision from round 1, else false
+
+- convergence_notes: short note on agreement/disagreement and why
+
+
+
+
+
+Figure 11: Architecture B (Deliberative Consensus), Round 2 prompt. Each agent performs a final cross-examination using the same evidence packet, explicitly evaluates other agents’ claims, and revises its decision only if it identifies a concrete evidence-based error in its prior reasoning.
+
+
+
+A.2 Command-Line Interface Reference
+
+
+The evaluation pipeline exposes two main entry points, scripts/test_architecture_a.py and scripts/test_architecture_b.py. Both scripts share a common set of command-line flags for dataset selection, evidence retrieval, model configuration, and output control. Table 13 documents all available flags. To reproduce the main experimental results, a typical invocation for Architecture A is:
+
+python scripts/test_architecture_a.py \
+    --questions-csv results/kalshibench_subset_450_seed42.csv \
+    --retrieval-mode highlights \
+    --num-results 10 \
+    --cache-dir cache/evidence \
+    -n 1189 \
+    -o results/architecture_a_results.csv
+
+
+
+and for Architecture B:
+
+python scripts/test_architecture_b.py \
+    --questions-csv results/kalshibench_subset_450_seed42.csv \
+    --retrieval-mode highlights \
+    --num-results 10 \
+    --cache-dir cache/evidence \
+    -n 1189 \
+    -o results/architecture_b_results.csv
+
+
+
+The --cache-only flag can be passed on subsequent runs to avoid re-issuing Exa queries for questions whose evidence packets are already cached locally.
+
+
+Table 13: Command-line flags for the Architecture A and Architecture B evaluation scripts.
+“A” and “B” in the Applies To column indicate which script(s) expose the flag.
+
+
+
+
+
+Flag
+
+
+
+Applies To
+
+
+
+Default
+
+
+
+Description
+
+
+
+
+
+
+-n
+
+
+
+A, B
+
+
+
+10
+
+
+
+Number of questions to evaluate
+
+
+
+
+--questions-csv
+
+
+
+A, B
+
+
+
+results/kalshi- 
+bench_subset_ 
+450_seed42.csv
+
+
+
+Path to the input questions CSV
+
+
+
+
+--start-row
+
+
+
+A, B
+
+
+
+1
+
+
+
+1-based row number to begin evaluation
+
+
+
+
+--cache-start-row
+
+
+
+A, B
+
+
+
+None
+
+
+
+1-based row for cache-key lookup, independent of --start-row
+
+
+
+
+--question-ids
+
+
+
+A, B
+
+
+
+None
+
+
+
+Specific question IDs to evaluate, bypassing sequential sampling
+
+
+
+
+--category
+
+
+
+A, B
+
+
+
+None
+
+
+
+Filter the dataset to a single category, such as Politics or Sports
+
+
+
+
+--retrieval-mode
+
+
+
+A, B
+
+
+
+highlights
+
+
+
+Exa retrieval mode: full_text or highlights
+
+
+
+
+--num-results
+
+
+
+A, B
+
+
+
+10
+
+
+
+Number of Exa sources retrieved per question
+
+
+
+
+--fulltext-max-
+characters
+
+
+
+A, B
+
+
+
+4000
+
+
+
+Character cap per source in full-text mode
+
+
+
+
+--highlights-
+max-characters
+
+
+
+A, B
+
+
+
+2000
+
+
+
+Character cap for Exa highlight snippets
+
+
+
+
+--cache-only
+
+
+
+A, B
+
+
+
+false
+
+
+
+Use local cache only; do not issue live Exa queries
+
+
+
+
+--cache-dir
+
+
+
+A, B
+
+
+
+cache/evidence
+
+
+
+Directory for cached evidence packets
+
+
+
+
+--use-claude
+
+
+
+A, B
+
+
+
+false
+
+
+
+Substitute Claude for the DeepSeek agent slot
+
+
+
+
+--use-gemini
+
+
+
+A, B
+
+
+
+false
+
+
+
+Substitute Gemini for the Llama agent slot
+
+
+
+
+-o / --output
+
+
+
+A
+
+
+
+auto-generated timestamped path
+
+
+
+Output path for per-question results CSV; auto-generates a timestamped filename if omitted
+
+
+
+
+-o / --output
+
+
+
+B
+
+
+
+arch_b_ 
+results.csv
+
+
+
+Output path for the per-question results CSV
+
+
+
+
+--json
+
+
+
+A, B
+
+
+
+None
+
+
+
+Optional path for aggregate summary JSON
+
+
+
+
+--dry-run
+
+
+
+A, B
+
+
+
+false
+
+
+
+Print the planned configuration without executing API calls
+
+
+
+
+-v / --verbose
+
+
+
+A, B
+
+
+
+false
+
+
+
+Enable per-question progress logging
+
+
+
+
+
+
+A.3 Code Availability
+
+
+The full implementation of the multi-agent oracle system, including evaluation scripts, retrieval pipeline, and experiment configurations, is publicly available on GitHub:
+
+
+Paper Repository
+
+
+
+
+
+
+
+  
+    Experimental support, please
+    view the build logs
+    for errors. Generated by
+    
+      
+        L
+        A
+        T
+        E
+      
+      xml
+      
+    .
+  
+  
+    Instructions for reporting errors
+    We are continuing to improve HTML versions of papers, and your feedback helps enhance accessibility and mobile
+      support. To report errors in the HTML that will help us improve conversion and rendering, choose any of the
+      methods listed below:
+    
+      Click the "Report Issue" (
+            
+          ) button, located in the page header.
+    
+    Tip: You can select the relevant text first, to include it in your report.
+    Our team has already identified the following issues. We appreciate your time reviewing and reporting rendering errors we
+      may not have found yet. Your efforts will help us improve the HTML versions for all readers, because disability
+      should not be a barrier to accessing research. Thank you for your continued support in championing open access for
+      all.
+    Have a free development cycle? Help support accessibility at arXiv! Our collaborators at LaTeXML maintain a list of packages that need conversion, and welcome developer contributions.
+  
+
+  
+    
+      
+        We gratefully acknowledge support from
+        our major funders,
+        member institutions, ,
+        and all contributors.
+      
+      
+        About
+        ·
+        Help
+        ·
+        Contact
+        ·
+        Subscribe
+        ·
+        Copyright
+        ·
+        Privacy
+        ·
+        Accessibility
+        ·
+        Operational Status (opens in new tab)
+      
+    
+
+    
+      Major funding support from
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+  
+
+  
+    
+      
+    
+  
+

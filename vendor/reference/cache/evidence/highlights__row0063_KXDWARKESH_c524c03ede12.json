@@ -1,0 +1,100 @@
+{
+  "question_id": "KXDWARKESH",
+  "question_text": "Will Andrej Karpathy go on the Dwarkesh Podcast before Jan 1, 2026?",
+  "resolution_criteria": "If Andrej Karpathy goes on the Dwarkesh Podcast between Dec 7, 2024 and Jan 1, 2026, then the market resolves to Yes.",
+  "resolution_date": "2025-10-20T14:05:16.767461Z",
+  "retrieval_timestamp": "2026-02-21T22:59:50.877861Z",
+  "query_used": "What is the result of this question \"Will Andrej Karpathy go on the Dwarkesh Podcast before Jan 1, 2026\"",
+  "sources": [
+    {
+      "title": "Dwarkesh just dropped a 2.5-hour deep dive with AI pioneer Andrej Karpathy on the Dwarkesh Podcast, and it\u2019s a must-listen, even if it\u2019s a long one.",
+      "url": "https://www.linkedin.com/posts/sachaghi_andrej-karpathy-were-summoning-ghosts-activity-7385061440841256960-dzfj",
+      "published_date": "2025-10-17T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "was summarized by AI from the post below. Sacha Ghiglione \n\n4mo Dwarkesh just dropped a 2.5-hour deep dive with AI pioneer Andrej Karpathy on the Dwarkesh Podcast, and it\u2019s a must-listen, even if it\u2019s a long one. Karpathy is by far has the best and most sober takes on AI progress in the ... \ud83d\udd39\ufe0fAGI might be a decade away, but it\u2019s not going to be a dramatic shift\u2014it\u2019ll weave into our lives gradually. \ud83d\udd39\ufe0fHe dove ... Just listened to the new Dwarkesh Patel podcast with Andrej Karpathy,what a fascinating deep dive, especially for ... what you don't know. 4.\ud835\uddd4 \"\ud835\udde1\ud835\uddfc\ud835\ude01 \ud835\uddea\ud835\uddee\ud835\uddf9\ud835\uddf9-\ud835\uddd8\" \ud835\uddd9\ud835\ude02\ud835\ude01\ud835\ude02\ud835\uddff\ud835\uddf2: His \"gym analogy\" for education was brilliant. In a world with AGI, we'll still learn and \"work out\" our brains, not to survive, but to be better. It was a grounded, honest, and ultimately ... Like Comment \n\nTo view or add a comment, sign in \n\n Adam Pascarella \n\n3mo This past week, Andrej Karpathy appeared on Dwarkesh Patel\u2019s podcast. Karpathy, if you don\u2019t know, is one of the most ... AI and Autopilot Vision. While many podcasts are more entertaining than informative, I found this conversation to be ... analogy between education and going to the gym. In a post-AGI world, learning won\u2019t just be a means to get a job\u2014it\u2019ll ... Cooling my AI FOMO after the Karpathy - Dwarkesh interview. I watched Dwarkesh Podcast with [Andrej ... work, I\u2019ve been stuck between panic-learning for myself and panic-teaching for my kids. Karpathy argues that \u201cthe year of agents\u201d is more like \u201cthe decade of agents\u201d, meaning today\u2019s agents still lack the intelligence, multimodality, ... Like Comment \n\nTo view or add a comment, sign in \n\n Mingjia Guan \n\n3mo If anyone is looking for a podcast to listen to in 2025 on the state of AI, then they have to listen to Andrej Karpathy sitting down and giving the most signal-rich and high-level overview of where we are headed. At least for me, the key takeaways are: - We are not headed towards AGI anytime soon. In fact, we struggle to even teach ... \ud835\udc09\ud835\udc2e\ud835\udc2c\ud835\udc2d"
+      ]
+    },
+    {
+      "title": "Dwarkesh Podcast",
+      "url": "https://www.dwarkesh.com/p/andrej-karpathy",
+      "published_date": "2025-10-17T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "decade away\n\n# Dwarkesh Podcast\n\nSubscribeSign in\n\nPlayback speed\n\n\u00d7\n\nShare post Share post at current time\n\nShare from 0:00\n\n0:00\n\n/\n\n0:00\n\nTranscript\n\n345\n\n17\n\n63 ## Andrej Karpathy \u2014 AGI is still a decade away\n\n\"The problems are tractable, but they're still difficult\u201d Dwarkesh Patel \n\nOct 17, 2025\n\n345\n\n17\n\n63\n\nShare\n\nTranscript\n\nThe Andrej Karpathy episode. Andrej explains why reinforcement learning is terrible (but everything else is much worse), why model collapse prevents LLMs from learning the way humans do, why AGI will just blend into the previous ~2.5 centuries of 2% GDP growth, why self driving took so long to crack, and what he sees as the future of education. Watch on YouTube ; listen on Apple Podcasts or Spotify .\n\n### Sponsors ... ### Timestamps\n\n (00:00:00) \u2013 AGI is still a decade away \n\n (00:29:45) \u2013 LLM cognitive deficits (00:40:05) \u2013 RL is terrible \n\n (00:49:38) \u2013 How do humans learn? (01:06:25) \u2013 AGI will blend into 2% GDP growth \n\n (01:17:36) \u2013 ASI ... (01:56:20) - Future of education \n\n### Transcript\n\n### 00:00:00 \u2013 AGI is still a decade away Dwarkesh Patel 00:00:00 Today I\u2019m speaking with Andrej Karpathy . Andrej, why do you say that this will be the decade of agents and not the year of agents? ... on\u2014but I still feel there\u2019s so much work to be done. My reaction is we\u2019ll be working with these things for a decade. ... experience in the field. I\u2019ve been in AI for almost two decades. It\u2019s going to be 15 years"
+      ]
+    },
+    {
+      "title": "Andrej Karpathy \u2014 AGI is still a decade away - Dwarkesh Podcast | Listen Notes",
+      "url": "https://www.listennotes.com/podcasts/dwarkesh-podcast/andrej-karpathy-agi-is-still-Gs4TnRQpJMh/",
+      "published_date": "2025-10-17T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "decade away - Dwarkesh Podcast | Listen Notes\n\n Dwarkesh Podcast \u2713 \n\nTOP 0.5%\n\n# Andrej Karpathy \u2014 AGI is still a decade away\n\nOct. 17, 2025\n\n02:25:19\n\nPodcasts\n\nRSS\n\nLink SAVE\n\nSHARE\n\nEPISODE\n\nCOMMUNITY\n\nEMBED\n\nEDIT\n\n## ABOUT THIS EPISODE\n\nThe Andrej Karpathy episode. During this interview, Andrej explains why reinforcement learning is terrible (but everything else is much worse), why AGI will just blend into the previous ~2.5 centuries of 2% GDP growth, why self driving took so long to crack, and what he sees as the future of education. It was a pleasure chatting with him.\n\nWatch on YouTube ; read the transcript .\n\nSponsors ... Timestamps\n\n(00:00:00) \u2013 AGI is still a decade away\n\n(00:29:45) \u2013 LLM cognitive deficits\n\n(00:40:05) \u2013 RL is terrible (00:49:38) \u2013 How do humans learn?\n\n(01:06:25) \u2013 AGI will blend into 2% GDP growth\n\n(01:17:36) \u2013 ASI (01:32:50) \u2013 Evolution of intelligence & culture\n\n(01:42:55) - Why self driving took so long (01:56:20) - Future of education\n\nGet full access to Dwarkesh Podcast at www.dwarkesh.com/subscribe ... Search past episodes of Dwarkesh Podcast.\n\n Embed this search bar to your website ... Disclaimer: The podcast and artwork embedded on this page are from Dwarkesh Patel, which is the property of its owner ... ## EDIT\n\nThank you for helping to keep the podcast database up to date. Report inappropriate content or request to remove this page\n\n PROMOTED [The best Podcast API to search all podcasts and episodes. Trusted by 11,500+ companies and developers. ... After logging in, you agree to accept Terms of Services and Privacy Policies . Questions? hello@listennotes.com \n\nSelect Your Language\n\nClose\n\n\u2713 English (en)\n\n \u0627\u0644\u0639\u0631\u0628\u064a\u0651\u0629 (ar) ... What is Listen Score? Listen Score (LS) is a metric that shows the estimated popularity of this podcast compared to other rss-based public podcasts in the world on a scale from 0 to 100. The higher, the more popular. Calculated from 1st and 3rd party data. Updated monthly. What is Global Rank? This podcast"
+      ]
+    },
+    {
+      "title": "Andrej Karpathy \u2014 AGI is still a decade away",
+      "url": "https://pod.wave.co/podcast/dwarkesh-podcast/andrej-karpathy-agi-is-still-a-decade-away",
+      "published_date": "2025-10-17T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Andrej Karpathy \u2014 AGI is still a decade away - Dwarkesh Podcast | Wave AI Podcast Notes"
+      ]
+    },
+    {
+      "title": "Dwarkesh Podcast",
+      "url": "https://www.dwarkeshpatel.com/p/andrej-karpathy",
+      "published_date": "2025-10-17T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "decade away\n \n Dwarkesh Podcast \n \n# Dwarkesh Podcast SubscribeSign in\nPlayback speed\n\u00d7Share post\nShare post at current time\nShare from 0:00\n0:00\n/\n0:00\nTranscript\n334\n17\n63 ## Andrej Karpathy \u2014AGI is still a decade away\n\"The problems are tractable, but they're still difficult\u201d\n Dwarkesh Patel's avatar \n \n Dwarkesh Patel \nOct 17, 2025\n334\n17\n63\nShare\nTranscript The Andrej Karpathy episode. Andrej explains why reinforcement learning is terrible (but everything else is much worse), why model collapse prevents LLMs from learning the way humans do, why AGI will just blend into the previous \\~2.5 centuries of 2% GDP growth, why self driving took so long to crack, and what he sees as the future of education. Watch on YouTube ; listen on Apple Podcasts or Spotify . ... * Labelbox helps you get data that is more detailed, more accurate, and higher signal than you could get by ... ### Timestamps\n (00:00:00) \u2013AGI is still a decade away \n (00:29:45) \u2013LLM cognitive deficits ... (01:06:25) \u2013AGI will blend into 2% GDP growth \n (01:17:36) \u2013ASI ... (01:56:20) - Future of education \n### Transcript\n### 00:00:00 \u2013AGI is still a decade away **Dwarkesh Patel***00:00:00* Today I\u2019m speaking with Andrej Karpathy . Andrej, why do you say that this will be the decade of agents and not the year of agents? ... experience in the field. I\u2019ve been in AI for almost two decades. It\u2019s going to be 15 years or so, not that long. You ... That\u2019s a really good question. Sutton was on your"
+      ]
+    },
+    {
+      "title": "Dwarkesh Podcast",
+      "url": "https://www.dwarkesh.com/p/andrej-karpathy?publication_id=69345&amp;post_id=176425744&amp;triedRedirect=true",
+      "published_date": "2025-10-17T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "decade away\n\n# Dwarkesh Podcast\n\nSubscribeSign in\n\nPlayback speed\n\n\u00d7\n\nShare post Share post at current time\n\nShare from 0:00\n\n0:00\n\n/\n\n0:00\n\nTranscript\n\n344\n\n17\n\n63 ## Andrej Karpathy \u2014 AGI is still a decade away\n\n\"The problems are tractable, but they're still difficult\u201d Dwarkesh Patel \n\nOct 17, 2025\n\n344\n\n17\n\n63\n\nShare\n\nTranscript\n\nThe Andrej Karpathy episode. Andrej explains why reinforcement learning is terrible (but everything else is much worse), why model collapse prevents LLMs from learning the way humans do, why AGI will just blend into the previous ~2.5 centuries of 2% GDP growth, why self driving took so long to crack, and what he sees as the future of education. Watch on YouTube ; listen on Apple Podcasts or Spotify .\n\n### Sponsors ... ### Timestamps\n\n (00:00:00) \u2013 AGI is still a decade away \n\n (00:29:45) \u2013 LLM cognitive deficits (00:40:05) \u2013 RL is terrible \n\n (00:49:38) \u2013 How do humans learn? (01:06:25) \u2013 AGI will blend into 2% GDP growth \n\n (01:17:36) \u2013 ASI ... (01:56:20) - Future of education \n\n### Transcript\n\n### 00:00:00 \u2013 AGI is still a decade away Dwarkesh Patel 00:00:00 Today I\u2019m speaking with Andrej Karpathy . Andrej, why do you say that this will be the decade of agents and not the year of agents? ... on\u2014but I still feel there\u2019s so much work to be done. My reaction is we\u2019ll be working with these things for a decade. ... experience in the field. I\u2019ve been in AI for almost two decades. It\u2019s going to be 15 years"
+      ]
+    },
+    {
+      "title": "Andrej Karpathy \u2014 AGI is still a decade away",
+      "url": "https://www.dwarkesh.com/i/176425744/llm-cognitive-deficits",
+      "published_date": "2025-10-17T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "decade away\n \n Dwarkesh Podcast \n ... 0:00\n/\n0:00\nTranscript\n346\n17\n63\n## Andrej Karpathy \u2014 AGI is still a decade away \"The problems are tractable, but they're still difficult\u201d\n \n Dwarkesh Patel's avatar \n Dwarkesh Patel \nOct 17, 2025\n346\n17\n63\nShare\nTranscript\nThe Andrej Karpathy episode. Andrej explains why reinforcement learning is terrible (but everything else is much worse), why model collapse prevents LLMs from learning the way humans do, why AGI will just blend into the previous \\~2.5 centuries of 2% GDP growth, why self driving took so long to crack, and what he sees as the future of education. Watch on YouTube ; listen on Apple Podcasts or Spotify . ... * Labelbox helps you get data that is more detailed, more accurate, and higher signal than you could get by ... * Mercury helps you run your business better. It\u2019s the banking platform we use for the podcast \u2014 we love ... ### Timestamps\n (00:00:00) \u2013 AGI is still a decade away \n (00:29:45) \u2013 LLM cognitive deficits (00:40:05) \u2013 RL is terrible \n (00:49:38) \u2013 How do humans learn? (01:06:25) \u2013 AGI will blend into 2% GDP growth \n (01:17:36) \u2013 ASI ... (01:56:20) - Future of education \n### Transcript\n### 00:00:00 \u2013 AGI is still a decade away **Dwarkesh Patel ***00:00:00* Today I\u2019m speaking with Andrej Karpathy . Andrej, why do you say that this will be the decade of agents and not the year of agents? ... just tell them something and they\u2019ll remember it. They\u2019re cognitively lacking and it\u2019s just not working. It will take ... experience in the field. I\u2019ve been in AI for almost two decades. It\u2019s going to be 15 years"
+      ]
+    },
+    {
+      "title": "Andrej Karpathy \u2014 AGI is still a decade away",
+      "url": "https://open.substack.com/pub/dwarkesh/p/andrej-karpathy?comments=true",
+      "published_date": "2025-10-17T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Comments - Andrej Karpathy \u2014 AGI is still a decade away\n\n# Dwarkesh Podcast\n\nSubscribeSign in # Andrej Karpathy \u2014 AGI is still a decade away\n\n346\n\n17\n\n63\n\n\"The problems are tractable, but they're still difficult\u201d | Listen \u2192 |\n| --- |\n\n17 Comments\n\nTop first \u00a9 2026 Dwarkesh Patel \u00b7 Privacy \u2219 Terms \u2219 Collection notice Start your Substack Get the app \n\n Substack is the home for great culture"
+      ]
+    },
+    {
+      "title": "Andrej Karpathy \u2014 AGI is still a decade away",
+      "url": "https://www.podscan.fm/podcasts/dwarkesh-podcast/episodes/andrej-karpathy-agi-is-still-a-decade-away-1",
+      "published_date": "2025-10-17T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "25 min\n\nDuration\n\nOct 17, 2025\n\nPublished\n\n### Topics andrej karpathy AGI timeline AI evolution neural networks in-context learning representation power self-driving cars AI ... \"The problems are tractable, but they're still difficult\u201d\n\n### About this Podcast\n\n#### Dwarkesh Podcast Dwarkesh Patel\n\nDeeply researched interviews\n\n View podcast details \u2192 ... Today, I'm speaking with Andrej Karpathy. Andrej, why do you say that this will be the decade of agents and not the year of agents? Well, first of all, thank you for having me here. I'm excited to be here. So the quote that you've just ... feel like there's so much work to be done. And so I think my reaction is like, we'll be working with these things for a decade. They're going to get better and it's going to be wonderful. ... Yeah. And they're just cognitively lacking and it's just not working. And I just think that it will take about a decade ... Why not 50 years? Yeah, I guess this is where you get into, like, a bit of, I guess, my own intuition a little bit. And ... I've been in AI for almost two decades. I mean, it's going to be maybe 15 years or so. Not that long. You had Richard ... So, I guess I kind of have just a general intuition that I have left from that. And I feel like the problems are ... ... 289 more lines\n\nShowing first 20 lines View Full Transcript \u2192 \n\n### More Episodes from Dwarkesh Podcast #### Hiring scouts to help me find guests\n\nJanuary 15, 2026\n\n#### What I've been reading recently - Jan 10, 2026 January 10, 2026\n\n#### Adam Marblestone \u2013 AI is missing something fundamental about the brain\n\nDecember 30, 2025 #### An audio version of my blog post, Thoughts on AI progress (Dec 2025)\n\nDecember 23, 2025 View all episodes \u2192 Unlock full access to podcast analytics, audience demographics, contact information, and more for Dwarkesh Podcast and ... Sign up for free access \n\nFound an issue with this page"
+      ]
+    },
+    {
+      "title": "On Dwarkesh Patel\u2019s Podcast With Andrej Karpathy",
+      "url": "https://thezvi.wordpress.com/2025/10/21/on-dwarkesh-patels-podcast-with-andrej-karpathy/",
+      "published_date": "2025-10-21T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "dig out from minus a million points\n Skip to content \n* Home \n* About \n \u2190Bubble, Bubble, Toil andTrouble AI #139: The OverreachMachines\u2192 ## On Dwarkesh Patel\u2019\u2019s Podcast With AndrejKarpathy Posted on October 21, 2025 by TheZvi Some podcasts are self-recommending on the \u2018yep, I\u2019m going to be breaking this one down\u2019 level. This was very clearly one of those. So here we go. As usual for podcast posts, the baseline bullet points describe key points made, and then the nested statements are my ... Rather than worry about timestamps, I\u2019ll use YouTube\u2019s section titles, as it\u2019s not that hard to find things via the transcript as needed. This was a fun one in many places, interesting throughout, frustrating in similar places to where other recent Dwarkesh interviews have been frustrating. It gave me a lot of ideas, some of which might even be good. Double click to interact with video\n#### AGI Is Still a Decade Away 1. Andrej calls this the \u2018decade of agents\u2019 contrary to (among others who have said it) the Greg Brockman declaration ... 1. I agree that 2025 as the year of the agent is at least premature. ... 4. 2026 might be the proper \u2018year of the agent\u2019 as when people start using AI agents for a variety of tasks and getting ... 5. On the margin and especially outside of coding, I think context and inability to handle certain specific tasks ... 6. Dwarkesh points to lack of continual learning or multimodality, but notes it\u2019s hard to tell how long it will take. Andrej says \u2018well I have 15 years of prediction experience and intuition and I average things out and it feels like a decade to me.\u2019 1. A decade seems like an eternity to me on this. 2. If it\u2019s to full AGI it is slow but less crazy. So perhaps this is Andrej saying that to count as an agent for this ... 1. Andrej found LLMs of little help when assembling his new repo nanochat, which is a an 8k-line set of all the things ... the alignment problem,\u2019 you would need a way to automatically spot when you\u2019re invoking one.####"
+      ]
+    }
+  ]
+}

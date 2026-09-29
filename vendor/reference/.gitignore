@@ -1,0 +1,66 @@
+# Environment variables
+.env
+
+# Local AI-assistant configuration
+.claude/
+CLAUDE.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Cache and data
+cache/
+experiments/runs/
+results/reproduced/
+*.log
+*.bak_*
+
+# Temporary files
+*.tmp
+.cache/
+
+# Retired local test and pilot artifacts
+test_exa.py
+test_date_filtering.py
+results/test.json
+results/ab50_*
+results/Master_450_markets_ArchitectureB.*
+results/architecture_b_results/
+results/architecture_b_results_complement_filtered.csv
+results/architecture_b_results_complement_filtered.json

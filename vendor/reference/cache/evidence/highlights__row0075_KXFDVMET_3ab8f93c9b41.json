@@ -1,0 +1,100 @@
+{
+  "question_id": "KXFDVMET",
+  "question_text": "What will MET FDV be 1 day after launch?",
+  "resolution_criteria": "If Meteora (MET)'s fully diluted valuation (FDV) as displayed on CoinGecko is above 8999999999.99 at exactly 10:00 AM on 1 day after launch, then the market resolves to Yes.\nThe FDV must be the value shown in the \"FDV\" field on the coin's main CoinGecko page, not calculated from other metrics. If no data is available at the specified time, the last FDV value shown before that time on the date will be used. If the coin is delisted from CoinGecko before the measurement date, the last recorded FDV will be used and the market will resolve immediately. Token migrations to new smart contract addresses are tracked continuously. If CoinGecko changes its FDV calculation methodology, the value displayed at the measurement time under the FDV label will be used regardless. Post-redenomination FDV values (after splits/reverse splits) will be used. All values are in USD as shown on CoinGecko. Values can be expressed in millions (M), billions (B), or trillions (T) format.",
+  "resolution_date": "2025-10-27T17:20:51.986394Z",
+  "retrieval_timestamp": "2026-02-22T21:42:15.894720Z",
+  "query_used": "What is the result of this question \"What will MET FDV be 1 day after launch\"",
+  "sources": [
+    {
+      "title": "Polymarket | Meteora FDV above ___ one day after launch?",
+      "url": "https://polymarket.com/event/meteora-fdv-above-one-day-after-launch",
+      "published_date": "2025-09-10T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "765,398 Vol.\n\nJan 1, 2026\n\n$500M\n\n$434,117 Vol.\n\nYes\n\n$750M $441,722 Vol.\n\nNo\n\n$1B\n\n$1,447,784 Vol.\n\nNo\n\n$2B\n\n$786,910 Vol.\n\nNo\n\n$4B\n\n$223,309 Vol.\n\nNo\n\n$6B\n\n$65,387 Vol.\n\nNo ... This market will resolve to \"Yes\" if the Fully Diluted Valuation of Meteora's token is greater than the value specified in the title 1 day after launch. Otherwise, the market will resolve to \"No.\" The token must be actively, publicly transferable and tradable to be considered a launch. \"1 day after launch\" is defined as 4:00 PM ET on the calendar day following launch. The resolution source for this market is the most liquid price source available. If Meteora doesn't launch a token by December 31, 2025, 11:59 PM ET, this market will resolve to \"No\". Outcome proposed: Yes\n\nNo dispute\n\nFinal outcome: Yes\n\nPost\n\nBeware of external links.\n\nNewest Crypto \u00b7 Pre-Market \n\n# Meteora FDV above ___ one day after launch?\n\n$3,765,398 Vol.\n\n$500M $434,117 Vol.\n\nYes\n\n$750M\n\n$441,722 Vol.\n\nNo\n\n$1B\n\n$1,447,784 Vol.\n\nNo\n\n$2B\n\n$786,910 Vol.\n\nNo"
+      ]
+    },
+    {
+      "title": "Meteora FDV above ___ one day after launch? Predictions &... | Polymarket",
+      "url": "https://polymarket.com/event/meteora-fdv-above-one-day-after-launch/meteora-fdv-above-500m-one-day-after-launch",
+      "published_date": "2025-09-10T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "eora FDV above ___ one day after launch?\n\n$3,765,398 Vol.\n\nJan 1, 2026\n\n$500M\n\n$434,117 Vol.\n\nYes\n\n$750M $441,722 Vol.\n\nNo\n\n$1B\n\n$1,447,784 Vol.\n\nNo\n\n$2B\n\n$786,910 Vol.\n\nNo\n\n$4B\n\n$223,309 Vol.\n\nNo\n\n$6B\n\n$65,387 Vol.\n\nNo ... This market will resolve to \"Yes\" if the Fully Diluted Valuation of Meteora's token is greater than the value specified in the title 1 day after launch. Otherwise, the market will resolve to \"No.\" The token must be actively, publicly transferable and tradable to be considered a launch. \"1 day after launch\" is defined as 4:00 PM ET on the calendar day following launch. The resolution source for this market is the most liquid price source available. If Meteora doesn't launch a token by December 31, 2025, 11:59 PM ET, this market will resolve to \"No\". Outcome proposed: Yes\n\nNo dispute\n\nFinal outcome: Yes\n\nPost\n\nBeware of external links.\n\nNewest ... \"Meteora FDV above ___ one day after launch?\" is a prediction market on Polymarket with 8 possible outcomes where traders buy and sell shares based on what they believe will happen. The current leading outcome is \"$500M\" at 100%, followed by \"$750M\" at 0%. Prices reflect real-time crowd-sourced probabilities. For example, a share priced at 100\u00a2 ... View more\n\n Crypto \u00b7 Pre-Market \n\n# Meteora FDV above ___ one day after launch?\n\n$3,765,398 Vol. $500M\n\n$434,117 Vol.\n\nYes\n\n$750M\n\n$441,722 Vol.\n\nNo\n\n$1B\n\n$1,447,784 Vol.\n\nNo\n\n$2B\n\n$786,910 Vol.\n\nNo\n\n$4B ... traders buy and sell shares based on what they believe will happen. The current leading outcome is \"$500M\" at 100%, ... The \""
+      ]
+    },
+    {
+      "title": "Meteora FDV above ___ one day after launch? Predictions &... | Polymarket",
+      "url": "https://pam.polymarket.com/event/meteora-fdv-above-one-day-after-launch/meteora-fdv-above-1b-one-day-after-launch-938-285",
+      "published_date": "2023-11-02T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "398 Vol.\n\nJan 1, 2026\n\n$500M\n\n$434,117 Vol.\n\nYes\n\n$750M $441,722 Vol.\n\nNo\n\n$1B\n\n$1,447,784 Vol.\n\nNo\n\n$2B\n\n$786,910 Vol.\n\nNo\n\n$4B\n\n$223,309 Vol.\n\nNo\n\n$6B\n\n$65,387 Vol.\n\nNo ... This market will resolve to \"Yes\" if the Fully Diluted Valuation of Meteora's token is greater than the value specified in the title 1 day after launch. Otherwise, the market will resolve to \"No.\" The token must be actively, publicly transferable and tradable to be considered a launch. \"1 day after launch\" is defined as 4:00 PM ET on the calendar day following launch. The resolution source for this market is the most liquid price source available. If Meteora doesn't launch a token by December 31, 2025, 11:59 PM ET, this market will resolve to \"No\". Outcome proposed: No\n\nNo dispute\n\nFinal outcome: No\n\nPost\n\nBeware of external links.\n\nNewest Crypto \u00b7 Pre-Market \n\n# Meteora FDV above ___ one day after launch?\n\n$3,765,398 Vol.\n\n$500M $434,117 Vol.\n\nYes\n\n$750M\n\n$441,722 Vol.\n\nNo\n\n$1B\n\n$1,447,784 Vol.\n\nNo\n\n$2B\n\n$786,910 Vol.\n\nNo"
+      ]
+    },
+    {
+      "title": "Kinetiq FDV above ___ one day after launch? Predictions &... | Polymarket",
+      "url": "https://polymarket.com/event/kinetiq-fdv-above-one-day-after-launch/kinetiq-fdv-above-100m-one-day-after-launch",
+      "published_date": "2025-09-30T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "M $391,948 Vol. Yes\n\n### $100M $418,034 Vol. Yes\n\n### $150M $1,172,578 Vol. Yes\n\n### $200M $1,322,005 Vol. No ... This market will resolve to \"Yes\" if the Fully Diluted Valuation of Kinetiq's token is greater than the value specified in the title 1 day after launch. Otherwise, the market will resolve to \"No.\"The token must be actively, publicly transferable and tradable to be considered a launch.\"1 day after launch\" is defined as 4:00 PM ET on the calendar day following launch. The resolution source for this market is the most liquid price source available. If Kinetiq ( http://kinetiq.xyz/ ) doesn't launch a token by December 31, 2026, 11:59 PM ET, this market will resolve to \"No\". Created At: Nov 26, 2025, 4:25 PM UTC\n\nVolume\n\n$5,305,883\n\nEnd Date\n\nJan 1, 2027\n\nCreated At Nov 26, 2025, 4:25 PM UTC\n\nResolver\n\n 0x65070BE91... \n\nShow more\n\nOutcome proposed: Yes\n\nNo dispute Final outcome: Yes\n\nComments (181)Top HoldersActivity\n\nPost\n\nBeware of external links.\n\nNewest Beware of external links.\n\n$5,305,883 Vol.\n\nJan 1, 2027\n\n# Kinetiq FDV above \\_\\_\\_ one day after launch?\n\n$50M $391,948 Vol.\n\nYes\n\n$100M\n\n$418,034 Vol.\n\nYes\n\n$150M\n\n$1,172,578 Vol.\n\nYes\n\n$200M\n\n$1,322,005 Vol.\n\nNo\n\n$250M ... ### Kinetiq FDV above \\_\\_\\_ one day after launch?\n\nGenerate\n\n### About\n\nVolume\n\n$"
+      ]
+    },
+    {
+      "title": "Polymarket | Opensea FDV above ___ one day after launch?",
+      "url": "https://polymarket.com/event/opensea-fdv-above-one-day-after-launch",
+      "published_date": "2025-09-30T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "FDV above \\_\\_\\_ one day after launch?\n$2,887,136Vol.\nJan 1, 2027 Polymarket\n$500M\n$805,730Vol.\n75%\nBuyYes75.4\u00a2BuyNo25.4\u00a2\n$1B\n$1,093,397Vol.\n38%\nBuyYes39\u00a2BuyNo63\u00a2\n$2B\n$282,679Vol.\n13% ... This market will resolve to \"Yes\" if the Fully Diluted Valuation of Opensea's token is greater than the value specified in the title 1 day after launch. Otherwise, the market will resolve to \"No.\" The token must be actively, publicly transferable and tradable to be considered a launch. \"1 day after launch\" is defined as 4:00 PM ET on the calendar day following launch. The resolution source for this market is the most liquid price source available. If Opensea doesn't launch a token by December 31, 2026, ... Created At:Sep 30, 2025, 1:18 PM ET\nVolume\n$2,887,136\nEnd Date\nJan 1, 2027\nCreated At\nSep 30, 2025, 1:18 PM ET\nResolver 0x65070BE91... \n Propose resolution This market will resolve to \"Yes\" if the Fully Diluted Valuation of Opensea's token is greater than the value specified in the title 1 day after launch. Otherwise, the market will resolve to \"No.\" The token must be actively, publicly transferable and tradable to be considered a launch. \"1 day after launch\" is defined as 4:00 PM ET on the calendar day following launch. The resolution source for ... Market icon \n Crypto \u00b7 Pre-Market \n# Opensea FDV above \\_\\_\\_ one day after launch? $2,887,136Vol.\nPolymarket\n$500M\n$805,730Vol.\n75%\nBuy Yes 75.4\u00a2Buy No 25.4\u00a2\n$1B\n$1,093,397Vol.\n38%\nBuy Yes 39\u00a2Buy No 63\u00a2 ... Buy Yes 2.7\u00a2Buy No 97.6\u00a2\n## Market Context\nGenerate\n### Related\nAllCryptoPre-Market\n \n Market icon Opinion FDV above $500M one day after launch?\n77%\n [\n Market icon ... Base FD"
+      ]
+    },
+    {
+      "title": "Extended FDV above ___ one day after launch?",
+      "url": "https://polymarket.com/event/extended-fdv-above-one-day-after-launch",
+      "published_date": "2025-07-09T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "### $300M $28,902Vol.\n78%\nbuyYes79\u00a2buyNo24\u00a2\n### $500M\n$81,760Vol.\n47%\nbuyYes48\u00a2buyNo54\u00a2\n### $800M\n$13,659Vol.\n34% ... This market will resolve to \"Yes\" if the Fully Diluted Valuation of Extended's token is greater than the value specified in the title 1 day after launch. Otherwise, the market will resolve to \"No.\" The token must be actively, publicly transferable and tradable to be considered a launch. The FDV will be determined using the total token supply multiplied by the token price. \"1 day after launch\" is defined as 4:00 PM ET on the calendar day following launch. The resolution source for ... Created At:Dec 9, 2025, 11:51 PM UTC\nVolume\n$153,216\nEnd Date\nJan 1, 2027\nCreated At\nDec 9, 2025, 11:51 PM UTC\nResolver ... # Extended FDV above \\_\\_\\_ one day after launch?\nOUTCOME\n% CHANCE\n$300M\n$28,902Vol.\n78%\nBuy Yes 79\u00a2Buy No 24\u00a2\n$500M $81,760Vol.\n47%\nBuy Yes 48\u00a2Buy No 54\u00a2\n$800M\n$13,659Vol.\n34%\nBuy Yes 35\u00a2Buy No 68\u00a2\n$1B\n$22,845Vol.\n20% Buy Yes 21\u00a2Buy No 82\u00a2\n$2B\n$3,326Vol.\n6%\nBuy Yes 6.5\u00a2Buy No 94.3\u00a2\n$3B\n$2,725Vol.\n4%\nBuy Yes 4.9\u00a2Buy No 96.7\u00a2 ### Market Context\n### Extended FDV above \\_\\_\\_ one day after launch?\nGenerate\n### About\nVolume\n$153,216\nEnd Date Jan 1, 2027\nCreated"
+      ]
+    },
+    {
+      "title": "Extended FDV above ___ one day after launch?",
+      "url": "https://polymarket.com/event/extended-fdv-above-one-day-after-launch/extended-fdv-above-800m-one-day-after-launch-299",
+      "published_date": "2025-07-09T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Context ### Extended FDV above ___ one day after launch?\n\nGenerate\n\n### Rules This market will resolve to \"Yes\" if the Fully Diluted Valuation of Extended's token is greater than the value specified in the title 1 day after launch. Otherwise, the market will resolve to \"No.\"The token must be actively, publicly transferable and tradable to be considered a launch.The FDV will be determined using the total token supply multiplied by the token price.\"1 day after launch\" is defined as 4:00 PM ET on the calendar day following launch. The resolution source for this market is the most liquid price source available. If Extended ( https://x.com/extendedapp ) doesn't launch a token by December 31, 2026, 11:59 PM ET, this market will resolve to \"No\". Volume\n\n$307,533\n\nEnd Date\n\nJan 1, 2027\n\nCreated At\n\nNov 27, 2025, 12:26 PM ET\n\nResolver\n\n 0x65070BE91... Propose resolution \n\nShow more\n\nPost\n\nBeware of external links.\n\nNewest\n\n$307,533 Vol.\n\n$300M\n\n$50,180 Vol. 71%\n\nBuy Yes 72\u00a2Buy No 31\u00a2\n\n$500M\n\n$184,218 Vol.\n\n39%\n\nBuy Yes 40\u00a2Buy No 63\u00a2\n\n$800M\n\n$28,158 Vol.\n\n21% ... $3B\n\n$8,419 Vol.\n\n2%\n\nBuy Yes 2.3\u00a2Buy No 98.0\u00a2\n\n### Market Context\n\n### Extended FDV above ___ one day after launch? Generate\n\n### About\n\nVolume\n\n$307,533\n\nEnd Date\n\nJan 1, 2027\n\nCreated At\n\nNov 27, 2025, 12:26 PM ET\n\nResolver 0x65070BE91... \n\n### Related\n\nAllCryptoPre-Market\n\n[Base FDV above"
+      ]
+    },
+    {
+      "title": "Moonbirds FDV above ___ one day after launch?",
+      "url": "https://polymarket.com/event/moonbirds-fdv-above-one-day-after-launch",
+      "published_date": "2025-07-09T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "### Market Context ### Moonbirds FDV above ___ one day after launch?\n\nGenerate\n\n### Rules This market will resolve to \"Yes\" if the Fully Diluted Valuation of Moonbirds's governance token is greater than the value specified in the title 1 day after launch. Otherwise, the market will resolve to \"No.\"The token must be actively, publicly transferable and tradable to be considered a launch.The FDV will be determined using the total token supply multiplied by the token price.\"1 day after launch\" is defined as 4:00 PM ET on the calendar day following launch. The resolution source for this market is the most liquid price source available. If Moonbirds doesn't launch a token by December 31, 2026, 11:59 PM ET, this market will resolve to \"No\". Volume\n\n$150,843\n\nEnd Date\n\nJan 1, 2027\n\nCreated At\n\nJan 24, 2026, 5:37 PM ET\n\nResolver\n\n 0x65070BE91... Propose resolution \n\nShow more\n\nPost\n\nBeware of external links.\n\nNewest\n\n$150,843 Vol.\n\n$50M\n\n$13,278 Vol. ... Buy Yes 4.8\u00a2Buy No 98.1\u00a2\n\n$700M\n\n$2,316 Vol.\n\n3%\n\nBuy Yes 3.8\u00a2Buy No 98.7\u00a2\n\n### Market Context ### Moonbirds FDV above ___ one day after launch?\n\nGenerate\n\n### About\n\nVolume\n\n$150,843\n\nEnd Date\n\nJan 1, 2027 Created At\n\nJan 24, 2026, 5:37 PM ET\n\nResolver\n\n 0x65070BE91... \n\n### Related\n\nAllCryptoPre-Market Base FDV above $2B one day after launch?88% [Flying Tulip FD"
+      ]
+    },
+    {
+      "title": "What will Rainbow FDV be 1 day after launch?",
+      "url": "https://markets.bitcoin.com/prediction/kalshi/what-will-rainbow-fdv-be-1-day-after-launch--KXFDVRAINBOW-25DEC31",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "#\n\nCoin\n\nPrice\n\n24h\n\nMarket Cap\n\nVolume\n\n7 day trend\n\nActions What will Rainbow FDV be 1 day after launch? Odds & Market Details | Bitcoin.com Markets"
+      ]
+    },
+    {
+      "title": "Variational FDV above ___ one day after launch? \u00b7 Market Ahead",
+      "url": "https://www.marketahead.com/event/variational-fdv-above-one-day-after-launch",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "Variational FDV above ___ one day after launch? \u00b7 Market Ahead\n\nLoading event\u2026"
+      ]
+    }
+  ]
+}

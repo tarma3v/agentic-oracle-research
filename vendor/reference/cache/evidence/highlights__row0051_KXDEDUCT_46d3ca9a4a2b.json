@@ -1,0 +1,100 @@
+{
+  "question_id": "KXDEDUCT",
+  "question_text": "What will the standard deduction be in the Republican reconciliation bill?",
+  "resolution_criteria": "If the first budget reconciliation bill to become law before Jan 1, 2027 sets the standard deduction for married couples filing jointly to be at least $30 thousand, then the market resolves to Yes.",
+  "resolution_date": "2025-07-07T20:39:53.107175Z",
+  "retrieval_timestamp": "2026-02-20T19:19:01.980760Z",
+  "query_used": "What is the result of this question \"What will the standard deduction be in the Republican reconciliation bill\"",
+  "sources": [
+    {
+      "title": "\u201cOne Big Beautiful Bill Act\u201d House GOP Tax Plan: Details and Analysis",
+      "url": "https://taxfoundation.org/research/all/federal/big-beautiful-bill-house-gop-tax-plan/",
+      "published_date": "2025-06-06T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "a Bigger Tax Refund. But That\u2019s Not the Whole Story.\n\n### Double Taxation\n\nTable of Contents ... The House passed the \u201c One, Big, Beautiful \u201d reconciliation bill on Thursday, May 22, addressing the expirations of the 2017 Tax A tax is a mandatory payment or charge collected by local, ... - Temporarily increase the additional standard deduction for seniors by $4,000 for tax years 2025 through 2028 and extend the increase to itemizers; larger deduction phases out at a 4 percent rate when modified adjusted gross income exceeds $75,000 for single filers and $150,000 for joint filers - Temporarily make auto loan interest deductible for itemizers and non-itemizers for autos with final assembly in the ... the amount of principal and limited the types of loans that qualify for the deduction. permanent\\ - Make the personal exemption elimination permanent - Make the expiring standard deduction The standard deduction reduces a taxpayer\u2019s taxable income by a set amount determined by the government. Taxpayers who take the standard deduction cannot also itemize their deductions; it serves as an alternative. levels permanent and temporarily boost the standard deduction by $2,000 for joint filers, $1,500 for head of household filers, and $1,000 for all other filers from 2025 through the end of 2028 - Make the expiring rate and bracket changes of the TCJA permanent and increase the inflation Inflation is ... - Make the Section 199A pass-through deduction permanent; increase the deduction percentage from 20 percent to 23 ... | Larger standard deduction and inflation adjustments | -0.1% | 0.0% | -0.6% | -0.2% | 72,000 | | No personal exemptions | -0"
+      ]
+    },
+    {
+      "title": "What\u2019s in the 2025 House Republican Tax Bill | Bipartisan Policy Center",
+      "url": "https://bipartisanpolicy.org/explainer/whats-in-the-2025-house-republican-tax-bill/",
+      "published_date": "2025-05-23T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "This explainer covers the House-proposed version only. For an explainer on the tax provisions of the final law, see here . The following is a section-by-section for the tax title of H.R. 1, the One Big Beautiful Bill Act that passed the House of Representatives on May 22, 2025. Cost estimates reflect the Joint Committee on Taxation\u2019s June 2 score. On net, the tax title is projected to add approximately $3.8 trillion to federal deficits over the next decade (fiscal years 2025-2034). The tax cuts are partially offset by spending cuts and fee revenue in other parts of the bill. See more from BPC on the reconciliation package here . ... | 5th bracket | 33.0% | $498,200 | 32% | $409,400 |\n| 6th bracket | 35.0% | $541,550 | 35% | $519,850 | | 7th bracket | 39.6% | $611,750 | 37% | $767,150 | Sec. 110002: Standard deduction - For more on TCJA\u2019s changes to the standard deduction, see here .\n- Costs $1.3 trillion from FY2025-2034. - Adds $1,000 to the standard deduction for single taxpayers and $2,000 for married couples from 2025-2028, which results in lower tax bills for taxpayers taking the standard deduction. - Provides an extra inflation adjustment to the standard deduction, which results in lower tax bills for taxpayers taking the standard deduction. - Permanently extends the doubled standard deduction from TCJA, currently scheduled to revert to approximately half its ... ### Table 3. 2025-2026 Standard Deduction, TCJA Expiration vs. House Republican Tax Bill | Year | Filing Status | Current Law (TCJA Expires) | House Republican Tax Bill |\n| --- | --- | --- | --- | | 2025 | Single | $15,000 | $16,000"
+      ]
+    },
+    {
+      "title": "Summary of key provisions in House reconciliation bill",
+      "url": "https://www.aoshearman.com/insights/house-ways-and-means-committee-releases-draft-tax-amendments-for-2025-reconciliation-bill",
+      "published_date": "2025-05-27T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "> On May 22, 2025, the U.S. House of Representatives narrowly passed the House budget reconciliation bill (H.R. 1) (the \u201cHouse Bill\u201d) by a party-line vote of 215 \u2013 214. The House Bill, which includes significant tax law changes, now moves ... deduction for qualified business income (\u201cQBI\u201d) under section 199A of the Internal Revenue Code of 1986, as amended ... Despite its passage in the House, the House Bill faces significant hurdles in the Senate, where Republicans hold only a ... This client alert summarizes in more detail the key individual, business, and international tax provisions, as well as ... deductions for casualty or theft losses, charitable deductions, and deductions for medical expenses. ### Temporary increase to standard deduction and permanent limitations on itemized deductions (Sections 63, 67, 163, 165, 275, and more) The House Bill permanently extends the increased standard deduction, which was slated to sunset for taxable years beginning after December 31, 2025, and further provides for both a temporary increase to the standard deduction for taxable years beginning after December 31, 2024 and before December 31, 2028 and an adjustment for an extra year of inflation. The temporary increase will amount to USD1,000 for single filers and USD2,000 for individuals who are married filing jointly, resulting in an aggregate standard deduction of USD16,300 for individual filing single and USD32,600 for individuals who are married filing jointly in 2026. Additionally, for taxable years beginning after December 31, 2025, the House Bill imposes additional limitations on itemization such as, among numerous other limitations, (i) permanently eliminating personal exemptions, which under ... from USD10,000 to USD40,"
+      ]
+    },
+    {
+      "title": "Summary of key provisions in House reconciliation bill",
+      "url": "https://www.aoshearman.com/en/insights/house-ways-and-means-committee-releases-draft-tax-amendments-for-2025-reconciliation-bill",
+      "published_date": "2025-05-27T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Article # Summary of key provisions in House reconciliation bill\nSummary of key provisions in House reconciliation bill\nPrint SHARE\nEMAIL\nCOPY LINK\nLINKEDIN\nPublished Date\nMay 28 2025\nRelated people\n \n Image of Ryan Bray Ryan BrayPartner, Dallas\n \n Image of Larry Crouch \nLarry CrouchPartner, New York\n ... \n Image of Christopher Torikoglu \nChristopher TorikogluAssociate, New York\n On May 22, 2025, the U.S. House of Representatives narrowly passed the House budget reconciliation bill (H.R. 1) (the ... Despite its passage in the House, the House Bill faces significant hurdles in the Senate, where Republicans hold only a ... deductions for casualty or theft losses, charitable deductions, and deductions for medical expenses. ### Temporary increase to standard deduction and permanent limitations on itemized deductions (Sections 63, 67, 163, 165, 275, and more) The House Bill permanently extends the increased standard deduction, which was slated to sunset for taxable years beginning after December 31, 2025, and further provides for both a temporary increase to the standard deduction for taxable years beginning after December 31, 2024 and before December 31, 2028 and an adjustment for an extra year of inflation. The temporary increase will amount to USD1,000 for single filers and USD2,000 for individuals who are married filing jointly, resulting in an aggregate standard deduction of USD16,300 for individual filing single and USD32,600 for individuals who are married filing jointly in 2026. Additionally,"
+      ]
+    },
+    {
+      "title": "Summary of key provisions in House reconciliation bill",
+      "url": "https://www.aoshearman.com/insights/summary-of-key-provisions-in-house-reconciliation-bill",
+      "published_date": "2025-05-27T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Article # Summary of key provisions in House reconciliation bill\nSummary of key provisions in House reconciliation bill\nPrint SHARE\nEMAIL\nCOPY LINK\nLINKEDIN\nPublished Date\nMay 28 2025\nRelated people\n \n Image of Ryan Bray Ryan BrayPartner, Dallas\n \n Image of Larry Crouch \nLarry CrouchPartner, New York\n ... \n Image of Christopher Torikoglu \nChristopher TorikogluAssociate, New York\n On May 22, 2025, the U.S. House of Representatives narrowly passed the House budget reconciliation bill (H.R. 1) (the ... Despite its passage in the House, the House Bill faces significant hurdles in the Senate, where Republicans hold only a ... deductions for casualty or theft losses, charitable deductions, and deductions for medical expenses. ### Temporary increase to standard deduction and permanent limitations on itemized deductions (Sections 63, 67, 163, 165, 275, and more) The House Bill permanently extends the increased standard deduction, which was slated to sunset for taxable years beginning after December 31, 2025, and further provides for both a temporary increase to the standard deduction for taxable years beginning after December 31, 2024 and before December 31, 2028 and an adjustment for an extra year of inflation. The temporary increase will amount to USD1,000 for single filers and USD2,000 for individuals who are married filing jointly, resulting in an aggregate standard deduction of USD16,300 for individual filing single and USD32,600 for individuals who are married filing jointly in 2026. Additionally,"
+      ]
+    },
+    {
+      "title": "2025 Reconciliation Debate: What\u2019s in the Ways and Means Bill? | Bipartisan Policy Center",
+      "url": "https://bipartisanpolicy.org/explainer/2025-reconciliation-whats-in-the-ways-and-means-bill/",
+      "published_date": "2025-05-14T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "# 2025 Reconciliation Debate: What\u2019s in the Ways and Means Bill?\n \nMay 14, 2025 ... Congress met a major milestone of the 2025 tax debate with the House\u2019s May 22 passage of H.R. 1, the One Big Beautiful Bill Act . Republicans are using the budget reconciliation process to extend ... While the reconciliation bill\u2019s ultimate deficit impact is yet to be determined, the current projected cost of the Ways and Means provisions is $3.8 trillion\u2014$7.7 trillion in tax cuts and $3.9 trillion in tax offsets \u2014over 10 ... *Extension and Expansion of TCJA* The legislation extends most of the expiring portions of TCJA\u2014including individual rates, at a cost of $2.2 trillion\u2014and expands several individual and corporate provisions. Scores shown in parentheses ... baseline] . Expansions to individual provisions include increasing the: * **Standard deduction**from $15,000 to $16,000 for single filers, from $22,500 to $24,000 for head of household filers, and from $30,000 to $32,000 for joint filers in 2025. Adjusted for inflation after 2025. A $1,000 boost to the deduction ($2,000 for joint filers) applies annually 2025 (-$1.3T) * **Child Tax Credit (** **CTC** ) from $2,000 to $2,500 per child until 2028; returns to $2,000 thereafter ... * The**Pass-Through Deduction,**or Section 199A , the qualified business income (QBI) deduction, from 20% to 23%, and modifying the wage and investment limitation and specified service trade or business (SSTB) phase-in. (-$820B) ... through 2028. (-$124B) * **Expanded standard deduction for seniors**: An enhanced deduction for seniors aged 65 or older of $4,000 per eligible filer, from 2025 through 2028, phasing out at a 4% rate for modified AGI of $75,000 for single filers and $150,000 for joint filers. (-$72B"
+      ]
+    },
+    {
+      "title": "Insights | Elliott Davis | Updated Tax Alert: House Republicans Narrowly Pass Tax Bill",
+      "url": "https://www.elliottdavis.com/insights/tax-alert-house-republicans-release-first-draft-of-tax-bill",
+      "published_date": "2025-05-22T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        ":****this article has been replaced by a more up to date version which includes Senate Draft Proposals.* *The latest version can be found here.* On the morning of Thursday, May 22, 2025, the U.S. House of Representatives passed President Trump\u2019s expansive tax-and-spending bill by a vote of 215 to 214. \u00a0After nearly two weeks of negotiations between House Republican factions and resulting modifications to the initial draft of their tax legislation, the One, Big, Beautiful Bill will head to the U.S. Senate for consideration. Medicaid work requirements, renewable energy provisions, and the cap on the state and local tax deduction (\u201cSALT cap\u201d) were among the key items of contention that certain House Republicans bargained for and revised before the tax-and-spending measure could advance. \u00a0Specifically, Republican hard-liners who wanted deeper spending cuts ... cap from $30,000 in the draft bill to now $40,000, with a phase out for those making more than $500,000. Aside from the hot-button items above, the key provisions introduced in the draft tax package and featured in the final House bill include: * Increasing the section 199A qualified business income (\u201cQBI\u201d) deduction to 23%; * Increasing the estate tax exemption to $15 million;\n* Returning to 100% bonus depreciation; ... While the final House bill includes a broad set of proposals, it notably omits several anticipated or rumored items, ... Many Senate Republicans have made clear that they will push for extensive changes before approving a final tax package, and some of the omitted items above could find their way into the Senate\u2019s version of the bill. \u00a0There are still significant legislative hurdles to overcome in the budget reconciliation process, but the House vote marks an important step toward a bill reaching President Trump\u2019s desk. As we anticipate any changes brought by the Senate, please consider the following deeper dive into many of the ... A table detailing the house republican proposed changes to"
+      ]
+    },
+    {
+      "title": "GOP Offers Boosted Deductions in Tax Bill Legislation (1)",
+      "url": "https://news.bloombergtax.com/daily-tax-report/house-tax-writers-to-begin-consideration-of-tax-bill-may-13",
+      "published_date": "2025-05-10T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Report \u00ae] ... # GOP Offers Boosted Deductions in Tax Bill Legislation (1) May 10, 2025, 12:46\u202fAM UTC;Updated: May 10, 2025, 1:48\u202fAM UTC\n Chris Cioffi \nChris Cioffi\nSenior Reporter \n \n Zach C. Cohen \nZach C. Cohen\nReporter \n \n \nThe US Capitol in Washington, D.C. ... * Text released Friday is portion of larger tax package House Republicans Friday released a portion of their draft tax legislation that would temporarily increase the standard deduction and allow for more business deductions. The House Ways and Means Committee will hold a markup next week to consider its mammoth tax proposal. House Republicans in their initial rollout proposed increasing the standard deduction until Jan. 1, 2029 by $2,000 for joint returns, $1,500 for heads of households, and $1,000 for individual filers, amounting to a tax cut for most American taxpayers for the duration of the Trump\u2019s second term. Pass-through entities will also be allowed to deduct more of the... ... From research to software to news, find what you"
+      ]
+    },
+    {
+      "title": "Analyzing Congressional Republicans\u2019 Budget Proposal For The 2025 TCJA Extension",
+      "url": "https://www.kitces.com/blog/tax-cuts-and-jobs-act-tcja-sunset-budget-resolution-reconciliation-salt-cap-qbi-deduction-congress-republication-house-senate-bill/",
+      "published_date": "2025-04-30T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "** # Analyzing Congressional Republicans\u2019 Budget Proposal For The 2025 TCJA Extension April 30, 2025 07:02 am 0 Comments CATEGORY: Taxes ... Executive Summary [TCJA's Sunset Date Means Tax Cuts Are The Biggest GOP Legislative Priority For ... *(Note: For an updated discussion of the final 2025 \"One Big Beautiful Bill Act\", see Breaking Down The \u201cOne Big ... In recent years, there's been uncertainty over whether the Tax Cuts and Jobs Act (TCJA) will be allowed to'sunset' at ... Although the 2024 U.S. elections resulted in a Republican 'trifecta' that made a TCJA extension in some form likely, ... legislators, including raising the $10,000 limit on State And Local Tax (SALT) deductions and eliminating taxes on tip ... The key point, however, is that even though there may be significant disagreements to overcome among Republicans before ... ## TCJA's Sunset Date Means Tax Cuts Are The Biggest GOP Legislative Priority For 2025 The Tax Cuts and Jobs Act (TCJA) of 2017 was a sprawling piece of legislation that touched many parts of the U.S. tax system. The marginal tax brackets that are in use today (both the tax rates themselves and the thresholds between brackets) were set by TCJA, as were the current standard deduction, Child Tax Credit, Alternative Minimum Tax (AMT) exemption, and Gift & Estate Tax exemption amounts. TCJA also eliminated personal exemptions for each taxpayer and their dependents, created a $10,000 limit on the State And Local Tax (SALT) itemized deduction, and eliminated miscellaneous itemized deductions such as investment management fees and unreimbursed employee ... 2017. Which makes it a big deal that most of TCJA's provisions are scheduled to expire under current law on January 1, 2026. If TCJA is allowed to'sunset' as scheduled, then most of the Internal Revenue Code \u2013 including all of the areas described above \u2013 will revert to how it existed before TCJA was signed into law on December 22, 2017. That would result in at least a moderate tax"
+      ]
+    },
+    {
+      "title": "2025 Standard Deduction Changes Under New Trump Tax Bill",
+      "url": "https://www.kiplinger.com/taxes/the-new-standard-deduction-is-here",
+      "published_date": "2024-10-22T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "A New Standard Deduction for 2025 is Here: What to Know Now | Kiplinger\n\nUseful links\n\nSubscribe - Kiplinger Newsletters \n- Kiplinger App \n- My Subscriptions - Subscriptions Store Kiplinger - Ask the Editor \n- Kiplinger Puzzles \n- Readers' Choice Awards - About Kiplinger Featured - Tools and Calculators \n- Adviser Intel \n- Economic Forecasts - Stock Market Today"
+      ]
+    }
+  ]
+}

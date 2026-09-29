@@ -1,0 +1,100 @@
+{
+  "question_id": "KXNFLWINS-NE",
+  "question_text": "Will the New England pro football team win more than 15 times this season?",
+  "resolution_criteria": "If the New England pro football team has more than 15 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+  "resolution_date": "2025-09-23T14:28:20.961446Z",
+  "retrieval_timestamp": "2026-02-21T22:55:02.880862Z",
+  "query_used": "What is the result of this question \"Will the New England pro football team win more than 15 times this season\"",
+  "sources": [
+    {
+      "title": "Predicting win-loss records for all 32 NFL teams",
+      "url": "https://www.washingtonpost.com/sports/2025/09/04/nfl-win-total-projections-2025/",
+      "published_date": "2025-09-04T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "are any number of ways that the 2025 NFL season can unfold \u2014 which is why we simulated every game 25,000 times to come up with our best prediction for how things will play out. The result is below \u2014 win-total projections for all 32 NFL teams, broken down by division. And if you want to keep up with our model all season long, check back on Tuesdays when we update each team\u2019s playoff odds, division titles and expected final records. **Comments**\n\nNFL\n\nHAND CURATED - Neil Greenberg\\\n\\\nRanking all 32 NFL teams entering Week 18 of the season\\\n\\\nDecember 30, 2025 - Adam Kilgore\\\n\\\nWhat to know from NFL Week 17: Browns stun the Steelers to save Week 18\\\n\\ December 29, 2025 \n- Mark Maske\\\n\\\nDrake Maye looks like the MVP, and the Patriots rule the AFC East again\\ \\\nDecember 28, 2025 View 3 more storiesView 3 more stories\n\nSign up"
+      ]
+    },
+    {
+      "title": "NFL playoff projections: Win totals and Super Bowl odds for every team",
+      "url": "https://www.washingtonpost.com/sports/interactive/2025/nfl-playoff-odds-standings-predictions-2025-26/",
+      "published_date": "2025-09-09T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "projections model has the answers you seek, in the form of season forecasts for all 32 teams, which we produced by simulating every game 25,000 times. (Our full methodology can be found at the bottom of this article.) ... By divisionAll NFL\n\n# American Football Conference\n\nScroll for more information \u2192\n\nAFC East\n\nNEUTRAL MoV*\n\nAVG. WINS MAKE PLAYOFFS\n\nWIN DIVISION\n\nTOP SEED\n\nWIN SB\n\n2\n\nNew England\n\nPatriots (16-3)\n\n10\n\nBuffalo\n\nBills (13-6)\n\n26\n\nMiami Dolphins (7-10)\n\n32\n\nNew York\n\nJets (3-14) | +8 | 14.0 | 100% | 100% | 0% | 30% |\n| --- | --- | --- | --- | --- | --- |\n| +3.5 | 12.0 | 100% | 0% | 0% | 0% | | -4.5 | 7.0 | 0% | 0% | 0% | 0% |\n| -12.5 | 3.0 | 0% | 0% | 0% | 0% | ... *Neutral MoV is a team\u2019s predicted margin of victory against an average opponent on a neutral field. ... *Neutral MoV is a team\u2019s predicted margin of victory against an average opponent on a neutral field.\n\nAbout this story The teams\u2019 power rating measures are based on point differential and strength of schedule, adjusted for league-average performance. The ratings are expressed in points per game, with higher values indicating stronger teams. To get an estimated point spread between two teams, subtract the lower team\u2019s power rating from the higher team\u2019s and add 1\u00bd points for home-field advantage. To determine the chances each team has to win the division and make the playoffs, we ... heavily. Illustrations by Artur Galocha . Comments"
+      ]
+    },
+    {
+      "title": "How Many Games Will the Patriots Win in 2025? Win Total Betting Odds and Prediction",
+      "url": "https://www.fanduel.com/research/how-many-games-will-the-new-england-patriots-win-in-2025-win-total-betting-odds-and-prediction",
+      "published_date": "2025-06-13T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "> START YOUR OWN\u00a0WINNING\u00a0STREAK\n\n NFL # How Many Games Will the Patriots Win in 2025? Win Total Betting Odds and Prediction Jim Sannes \u2022 @JimSannes \n\n7mo\n\nSubscribe to our newsletter\n\nSubscribe ... With the 2025 NFL season now just around the corner, we've got a good idea of what each roster will look like this fall. What should we expect from the New England Patriots , and how are the betting markets viewing them? We're going to dive into that today, checking out FanDuel Sportsbook's NFL betting odds for the Patriots and then discussing what my win total model says is in store. _NOTE: Win total projection is as of publication on June 13th. All betting odds are subject to change. To see ... As fun as Drake Maye is, I think expectations for the Patriots have gotten a smidge high. My model has them projected at 6.7 wins. There are a couple of reasons for that. First, the supporting cast around Maye still isn't _that_ good. They're heavily dependent on a 31-year-old [Stefon ... their pass defense numbers were poor. I'm baking in progression across the board defensively thanks to key reinforcements in **Milton Williams**, **Harold Landry**, and others, but they had a lot of ground to make up. Thus, as scary as it is, I do think there's good value in under 7.5 wins at +135. Maybe May"
+      ]
+    },
+    {
+      "title": "Patriots\u2019 win total for 2025 season opens between 7.5 and 8.5 wins at multiple sportsbooks. Is it too high, too low, or the right total?",
+      "url": "https://www.boston.com/sports/new-england-patriots/2025/03/29/patriots-2025-betting-win-total-opening-line/",
+      "published_date": "2025-03-29T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "win total for the 2025 season has been set at 7.5 wins at FanDuel Sportsbook. Meanwhile, the Patriots\u2019 win total is at 8.5 wins at DraftKings Sportsbook. The over for the number of games the Patriots win has a higher value ... It also doesn\u2019t seem to be too big of a surprise that oddsmakers are projecting the Patriots to win at least three more games in 2025 than they have in each of the last two seasons, when they finished 4-13. The hiring of Mike Vrabel was ... Spotrac). That\u2019s typically a good sign for an improvement, as the team that has spent the most money in free agency has gone on to win at least three more games in the following season since 2017. The 2021 Patriots were among those teams, ... going to be a different team. I think they will double their win total, no question.\u201d >. @ColinCowherd reveals his AFC Playoff predictions pic.twitter.com/WPgZHMhtXW \n> ... The Ringer\u2019s Bill Simmons thinks the win total for the Patriots sounds about right, believing that it could go up if ... lining up for them to be the Washington team this year.\u201d As Simmons mentioned, the Patriots\u2019 schedule for 2025 is relatively favorable. They have five games against teams that ... teams that had five wins or fewer last year. The spread for individual games isn\u2019t available just yet, as those are typically released when the full schedule is unveiled later in the spring. However, it\u2019s tough to envision that they won\u2019t be favorites in at least a handful of ... of the year . Oddsmakers were mostly proven correct in their projections for the Patriots in 2024, falling just short of their 4.5 win total. So, this time around, New England is hoping oddsmakers are correct in their initial projections again. Want to leave a comment?\n\n Create an Account Or sign in to your account #### To comment, please create a screen name in your profile #### To comment, please verify your email address \n\n### Conversation ... Netflix right now (January 2026)] Cam Newton: Patriots' \u2018Drake Maye is a game"
+      ]
+    },
+    {
+      "title": "Patriots win-loss predictions after 2025 NFL schedule release \u2013 NBC Sports Boston",
+      "url": "https://www.nbcsportsboston.com/nfl/new-england-patriots/patriots-2025-schedule-win-loss-predictions/709842/",
+      "published_date": "2025-05-15T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "May 15, 2025\u2022Updated on May 16, 2025 at 8:42 am\n\nBOOKMARKER\n\nShare NBC Universal, Inc.\n\nChristian Barmore discusses his high hope for this Patriots\u2019 defense under Mike Vrabel. The 2025 NFL regular season schedule was released Wednesday , and the New England Patriots have a great ... Subscribe] \\| Watch on YouTube \"They won basically two games at home the last two years combined,\" Perry said. \"It's actually three, but the third was a meaningless game in the season finale last year. They've (essentially) won two games at home in two years. They should, in my opinion, certainly match that, if not exceed it, in the first month of the season.\" The schedule eventually gets tougher for the Patriots, but the first half of the campaign isn't loaded with difficult ... \"I think there's a real chance for 7-2 to start the season,\" Perry said. \"Raiders, (Dolphins), Steelers, Panthers, ... The Patriots have the third-easiest schedule in the league based on the 2024 win percentage of their 2025 ... This schedule, as a whole, is a great opportunity for the Patriots to right the ship and build some genuine momentum as a franchise after back-to-back 4-13 seasons. \"If they struggle against this schedule, that's a problem,\" Perry said. \"The time is now. We talk about urgency, the time is now to be good. You have a young quarterback.\" What will be the Patriots' final record? Both Curran and Perry see the Patriots finishing at 9-8, which might be good enough to earn one of the final wild card playoff spots in the AFC. \"I have them at 9-8 also,\" Perry said. \"I have them at 8-5 going into the bye. I think they'll lose to Buffalo (in Week 15), and my guess is they'd split that Jets-Dolphins stretch at the end (in Weeks 17 and 18).\" **In this episode:** - Breaking down the first four games for the Patriots\n- Win/loss predictions for the full schedule - Pats face a stretch going against rookie QBs\n- What games will the Patriots be favorites in? #### This"
+      ]
+    },
+    {
+      "title": "2025 New England Patriots Schedule: Win-loss record prediction and full list of games",
+      "url": "https://www.foxsports.com/stories/nfl/2025-new-england-patriots-schedule-win-loss-record-prediction-full-list-games",
+      "published_date": "2025-05-15T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "With the 2025 NFL schedule officially released, it's time to analyze each team's prospects heading into the NFL season. Check out the full 2025 New England Patriots schedule as well as a record prediction: ... - Week 1 (Sun, Sep 7): vs Las Vegas Raiders (1:00 PM ET \u2013 CBS) ... ## **New England Patriots 2025 Record Prediction** **Henry McKenna** : It won\u2019t be the progress that Patriots fans want to see, given the massive spending in free agency and the analysts\u2019 rave reviews for New England\u2019s draft. But Patriots fans had it so dang good for so long that they don\u2019t understand how long it can take to get out of the basement. Ask the Jaguars. Ask the Browns. They can\u2019t get out. Ask the Lions. Ask the Texans. It seemed they\u2019d never get out. Point is, Mike Vrabel is a good coach. Quarterback Drake Maye is a good prospect. The Patriots now have more talent than last year. That\u2019s good for a few more wins than last year. But it does not a playoff contender make. Not in one year. **Record Prediction: 7-10** What did you think of this story?\n\nshare\n\nrecommended ... in this topic\n\n National Football League \n\n New England Patriots \n\nNEXT STORY"
+      ]
+    },
+    {
+      "title": "New England Patriots",
+      "url": "https://www.teamrankings.com/nfl/team/new-england-patriots/projections",
+      "published_date": "2025-05-15T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "adanew hampshirenew jerseynew mexiconew yorknorth carolinanorth dakotaohiooklahomaoregonpennsylvaniarhode islandsouth carolinasouth dakotatennesseetexasutahvermontvirginiawashingtonwashington dcwest virginiawisconsinwyoming ... # New England Patriots Projections\n## Team Menu: New England Patriots\n* Overview \n* Overview ... * Results & Trends \n* Game Log \n* ATS Results \n* Over/Under Results ... JetsPhiladelphiaPittsburghSan FranciscoSeattleTampa BayTennesseeWashington #### Final Record\n13.4 - 3.6\n|\n#### Make Playoffs\n99.8%\n|\n#### Win Super Bowl\n7.0%\n| ## Projected Record (Currently Scheduled Games Only)\n## Record Forecast |Scenario|overall W|L|Playoffs|Win Division|Top Seed|\nMiracle (90th %ile)|15|2|Y|Y|Y|\nGood Luck (70th %ile)|14|3|Y|Y|Y| Most Likely (50th %ile)|13|4|Y|Y|N|\nBad Luck (30th %ile)|13|4|Y|Y|N|\nMelt Down (10th %ile)|12|5|Y|N|N|\n## Playoff Odds ... AFC East|W|L|T|W|L|T|Win Div|\n New England |11|2|0|13.4|3.6|0.0|81.5%| Buffalo |9|4|0|11.8|5.2|0.0|18.5%|\n Miami |6|7|0|7.7|9.3|0.0|0.0%| ... 12/21 |Baltimore|Away|47.3%|\n 12/14 |Buffalo|Home|47.8%|\n 1/4 |Miami|Home|71.1%| ... * Los Angeles Rams \n* Minnesota Vikings \n* [New England Patriots"
+      ]
+    },
+    {
+      "title": "2024-25 New England Patriots Odds: Odds to win Super Bowl, NFL Playoffs, Division",
+      "url": "https://www.foxsports.com/articles/nfl/2024-25-new-england-patriots-odds-odds-to-win-super-bowl-nfl-playoffs-division",
+      "published_date": "2025-05-01T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "now the New England Patriots have been given +100000 odds of winning the Super Bowl. In their last outing, the Patriots lost 25-24 to the Indianapolis Colts . Drake Maye had 238 yards on 24-of-30 passing (80.0%), with one touchdown and one interception. He also carried the ball five times for 59 ... ## Patriots Postseason Odds\n\nADVERTISEMENT\n\nAd\n\nLearn More - **Odds to Win the Super Bowl:** +100000 (Bet $100 to win $100,000) ... - While our computer ranking puts the Patriots 29th in the league in terms of winning the Super Bowl, the team's Super ... - The Patriots have worse Super Bowl odds now (+100000) than they did during the preseason (+25000). Their worsened odds represent the 10th-biggest change among all NFL teams this year. - At +100000, the Patriots sport a 0.1% chance of winning the Super Bowl. ... - The Patriots have compiled a 5-7-1 ATS record this year. - So far this season, eight of New England's 13 games have hit the over. - The Patriots have not played as the moneyline favorite this season. - New England has been an underdog in 13 games this season and won three (23.1%) of those contests. ... | Chargers | 17 | TBD | 11th | Chargers (-2.5) | 41 |\n| Bills | 18 | TBD | 2nd | Bills (-3.5) | 44.5 | FOX Sports created this story using technology provided by Data Skrive and data from Sportradar. ... in this topic\n\n National Football League \n\n New England Patriots \n\n Gambling NEXT STORY\n\n **Falcons, DC Jeff Ulbrich fined for Shedeur Sanders prank call** \n\nrecommended ... UFL Top Shows ... Deportes] We have no updates for you at this time."
+      ]
+    },
+    {
+      "title": "What are the odds on the Patriots to make the playoffs, win the Super Bowl?",
+      "url": "https://patriotswire.usatoday.com/story/sports/nfl/patriots/2025/03/19/2026-new-england-patriots-nfl-playoff-superbowl-odds/82536714007/",
+      "published_date": "2025-03-19T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "The New England Patriots are +6000 to win the Super Bowl, the 20th-ranked odds in the league as of Aug. 11. Watch the 2025 NFL season on Fubo! On Sunday, Sept. 7 at 1 p.m. ET, the Patriots host the Las Vegas Raiders as part of Week 1. New England is a 3-point favorite, and the over/under is 42.5. _NFL odds courtesy of ** BetMGM Sportsbook **. Odds updated Monday at 5:19 a.m. ET. For a full list of sports betting odds, access USA TODAY Sports Betting Scores Odds Hub ._ ## New England Patriots NFL futures odds\n\n- **Odds to win the Super Bowl:** +6000 ## New England Patriots 2024 stat leaders - Drake Maye had 15 TD passes and 10 interceptions in 13 games last year, completing 66.6% of his throws for 2,276 yards (175.1 per game). ... - On the ground, Rhamondre Stevenson scored seven touchdowns and picked up 801 yards (53.4 per game). ... - Keion White collected 56 tackles, 7.0 TFL, five sacks, and five passes defended in 16 games played. ## New England Patriots schedule & odds - **Week 1:** **Raiders** \\| **Favorite:** Patriots (-3)\n- **Week 2:** @ Dolphins \\| **Favorite:** Dolphins (-2.5) - **Week 3:** Steelers \\| **Favorite:** Patriots (-1.5)\n- **Week 4:** Panthers - **Week 5:** @ Bills \\| **Favorite:** Bills (-8.5)\n- **Week 6:** @ Saints\n- **Week 7:** @ Titans\n- **Week 8:** Browns - **Week 9:** Falcons\n- **Week 10:** @ Buccaneers\n- **Week 11:** Jets \\| **Favorite:** Patriots (-5.5) - **Week 12:** @ Bengals\n- **Week 13:** Giants\n- **Week 14:** BYE\n- **Week 15:** Bills \\| **Favorite:** Bills (-4.5) ... Buy Patriots tickets on StubHub Watch the NFL on Fubo! _Our team of savvy editors independently handpicks all recommendations. If you purchase through our links, the USA Today Network may earn a commission. Prices were accurate at the time of publication but may change._ _Gambling involves risk. Please only gamble with funds that you can comfortably afford to lose.\u202f While we do our utmost ... gambling.\u202f We do our best to make sure all the information that we provide on"
+      ]
+    },
+    {
+      "title": "2025 New England Patriots Win Total Over/Under Odds",
+      "url": "https://www.foxsports.com/articles/nfl/2025-new-england-patriots-win-total-over-under-odds",
+      "published_date": "2025-06-11T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "> # 2025 New England Patriots Win Total Over/Under Odds\nUpdatedSep. 5, 2025 6:30 a.m. ET\nshare ... Bookmakers are anticipating the New England Patriots to improve significantly in 2025, as the team's over/under is set at 8.5 wins, compared to the four games they won last season. Currently, the New England Patriots sport +8000 odds to win the Super Bowl . ### \u2018Alarms sounding\u2019 for Cowboys, Are they falling behind? | The Herd\n ... ## Patriots Postseason Odds\n* **Odds to win the AFC East:**+550\n* **Odds to win the Super Bowl:**+8000 Get more odds for the New England Patriots on FOX Sports!\n## Patriots: Win Total Odds & Over/Under |Over/Under|Over Payout|Under Payout|\n8.5|+120|-140|\nLearn more about the New England Patriots on FOX Sports! ## Patriots 2024 Performance\n* Last season the Patriots went 4-13 and failed to make the postseason. * Last year New England won only two games at home and two on the road. * New England won only twice in the AFC East (2-4) and went 3-9 in the AFC overall. ... * According to their opponents' combined win total last season (124), the Patriots have the third-easiest schedule in ... FOX Sports created this story using technology provided by Data Skrive and data from Sportradar. ... \nArrow pointing to the leftArrow pointing to the right\n1. 2. 3. Item 1 of 3\nin this topic National Football League National Football League New England Patriots New England Patriots \n Gambling \nNEXT STORY [ Next Story Image: NFL Playoff Bracket, Schedule: Divisional Round Set With 49ers-Seahawks on ... Basketball NASCAR Image NASCAR Top Sh"
+      ]
+    }
+  ]
+}

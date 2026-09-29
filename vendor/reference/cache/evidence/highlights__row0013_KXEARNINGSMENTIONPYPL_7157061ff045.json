@@ -1,0 +1,100 @@
+{
+  "question_id": "KXEARNINGSMENTIONPYPL",
+  "question_text": "What will PayPal Holdings, Inc. say during their next earnings call?",
+  "resolution_criteria": "If Stablecoin / Stable Coin is said by any PayPal Holdings, Inc. representative (including the operator of the call) during the next PayPal Holdings, Inc. earnings call (including the Q+A), then the market resolves to Yes.\nVideo of the PayPal Holdings, Inc. earnings call will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the PayPal Holdings, Inc. earnings call will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details.",
+  "resolution_date": "2025-10-28T22:26:42.876999Z",
+  "retrieval_timestamp": "2026-02-22T20:41:31.605342Z",
+  "query_used": "What is the result of this question \"What will PayPal Holdings, Inc. say during their next earnings call\"",
+  "sources": [
+    {
+      "title": "PayPal (PYPL) Q4 2025 Earnings Call Transcript - The Globe and Mail",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/PYPL-Q/pressreleases/37384020/paypal-pypl-q4-2025-earnings-call-transcript/",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "This section contains press releases and other materials from third parties (including paid content). The Globe and Mail has not reviewed this content. Please see disclaimer . # PayPal (PYPL) Q4 2025 Earnings Call Transcript\n\nImage source: The Motley Fool. Tuesday, Feb. 3, 2026 at 8:00 a.m. ET\n\n## CALL PARTICIPANTS ... - 2026 Financial Guidance -- Management projects transaction margin dollars to be slightly down or roughly flat, excluding interest and customer balances; non-GAAP EPS guidance is for low single-digit decline to slightly positive ... - CEO Transition -- Enrique Lopez will assume the roles of president and CEO on March 1, with board member David Dorman ... strategy. Need a quote from a Motley Fool analyst? Email pr@fool.com\n\n## RISKS - Non\u2011GAAP EPS of $1.23 in Q4 came in $0.04 below the low end of management's prior guidance range, attributed mainly ... - Management rescinded the multiyear 2027 financial outlook cited at the previous Investor Day, reducing guidance to a single-year (2026) horizon due to macroeconomic headwinds, more intense competition, and slower-than-expected merchant adoption of new products. ## SUMMARY PayPal Holdings, Inc. (NASDAQ:PYPL) announced a CEO transition effective March 1, explicitly positioned as a response to slow execution rather than strategic misalignment, with Enrique Lopez stepping into the role. The management team disclosed broad-based growth led by Venmo, buy now pay later, and enterprise payments, each posting double-digit gains or higher. Despite this, branded checkout growth slowed sharply to 1% on a currency-neutral basis in the fourth ... - The company launched its first quarterly dividend and reaffirmed its focus on balanced capital return and growth ... PayPal-specific disclosure. ## Full Conference Call Transcript Jamie Miller: Before we turn to our full year and fourth quarter, I want to address the leadership announcement we made earlier this morning. The board has appointed Enrique Lopez, who was"
+      ]
+    },
+    {
+      "title": "PayPal (PYPL) Q4 2025 Earnings Call Transcript | Nasdaq",
+      "url": "https://www.nasdaq.com/articles/paypal-pypl-q4-2025-earnings-call-transcript",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        ">\n\n NVDA \n\n PEP \n\n COST ADBE \n\n GOOG \n\n AMGN \n\n HON \n\n INTC \n\n INTU ... AMZN \n\n META \n\n AMD \n\n NVDA \n\n PEP \n\n COST ADBE \n\n GOOG \n\n AMGN \n\n HON \n\n INTC \n\n INTU NFLX \n\n ADP \n\n SBUX \n\n MRNA \n\n AAPL \n\n TSLA ... ADBE \n\n GOOG \n\n AMGN \n\n HON \n\n INTC \n\n INTU NFLX \n\n ADP \n\n SBUX \n\n MRNA \n\n Markets \n\n PYPL # PayPal (PYPL) Q4 2025 Earnings Call Transcript\n\nFebruary 03, 2026 \u2014 09:37 am EST Written by Motley Fool Transcribing for The Motley Fool-> The views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc. ### Tags\n\n Markets \n\n The Motley Fool Founded in 1993 in Alexandria, VA., by brothers David and Tom Gardner, The Motley Fool is a multimedia ... Visit Fool.com for more market news-> More articles by this source-> \n\n### Stocks mentioned PYPL\n\n## More Related Articles\n\nThis data feed is not available at this time.\n\nData"
+      ]
+    },
+    {
+      "title": "PayPal Holdings, Inc. (NASDAQ:PYPL) Q1 2025 Earnings Call Transcript - Insider Monkey",
+      "url": "https://www.insidermonkey.com/blog/paypal-holdings-inc-nasdaqpypl-q1-2025-earnings-call-transcript-1520900/",
+      "published_date": "2025-04-30T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        ", no results has been found matching your query.] ### Share\n\nPayPal Holdings, Inc. (NASDAQ: PYPL ) Q1 2025 Earnings Call Transcript April 29, 2025 PayPal Holdings, Inc. beats earnings expectations. Reported EPS is $1.33, expectations were $1.16. **Operator:** Good morning and welcome to PayPal\u2019s first quarter 2025 earnings conference call. My name is Pauly and I ... **Steve Winoker:** Thanks Pauly. Welcome to PayPal\u2019s first quarter earnings call. I\u2019m joined by CEO, Alex Chriss and Chief Financial and Operating Officer, Jamie Miller. Our remarks today include forward-looking statements that involve risks and uncertainties. Actual results may differ materially from these statements. Our commentary is based on our ... **Alex Chriss:** Thanks Steve. We had a strong first quarter as we begin to execute on the strategy we laid out during ... we\u2019re just getting started. As you can here, I\u2019m encouraged by the momentum we are driving. We had a great start to the year and expect a solid second quarter, which would result in the first half coming in above our prior expectations. ... we\u2019ve achieved in years. Our execution muscle is growing stronger by the day and we\u2019re just getting started. To recap, we had a great first quarter. We are confident in our ability to execute the strategy we laid out as we entered the ... **Jamie Miller:** Thanks Alex. Moving to Slide 5, PayPal delivered a strong quarter to start the year. Our results reflect another positive step forward with multiple drivers contributing to an acceleration in profitable growth. We ... value proposition for consumers and merchants. Excluding interest on customer balances, transaction margin dollars grew 7% or 8% ex-leap day, accelerating from last quarter. We outperformed the TM dollars and EPS guidance we provided in ... expense improvement, and a more favorable tax rate. Non-GAAP earnings per share were $1.33 in the quarter, up 23%, and PayPal generated $1 billion of free cash flow in the ... around the globe,"
+      ]
+    },
+    {
+      "title": "PayPal Introduces Outlook for Accelerating Growth at Investor Day | Nasdaq",
+      "url": "https://www.nasdaq.com/press-release/paypal-introduces-outlook-accelerating-growth-investor-day-2025-02-25",
+      "published_date": "2025-02-25T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "expects high single-digit transaction margin dollar (TM $) growth1 and low teens+ non-GAAP EPS growth by 2027 SAN JOSE, Calif., Feb. 25, 2025 /PRNewswire/ -- PayPal Holdings, Inc. (NASDAQ: PYPL) will host an Investor Day today in New York City beginning at 8:30 a.m. EST. The previously announced event will feature presentations from PayPal senior leadership and an overview of its strategic and growth plans for the next several years. In conjunction with the event, the company is providing its medium-term growth outlook (2025 to 2027) and longer-term ambitions. \"Our vision is for PayPal to be the commerce platform powering the global economy, and we have the scale, ubiquity, and data advantages to make that happen,\" said Alex Chriss, President and CEO, PayPal. \"In 2024, we returned PayPal to profitable growth. We have increased our innovation velocity and are consolidating to one platform to meet the evolving needs of both consumers and merchants. Looking ahead, we expect high single-digit transaction margin dollar growth1 and ... come.\" Outlook for Accelerating GrowthDuring today's event, PayPal will reaffirm its 2025 financial guidance, initiate its 2027 outlook, and share its longer-term growth ambitions: Financial Metric\n\n2025 Guidance (reaffirmed)\n\nOutlook by 2027\n\nLonger-term Ambition TM $s ex interest on customer balances1\n\nAt least 5% growth\n\nHigh single-digit growth\n\n10%+ growth Non-GAAP Earnings Per Share\n\n6-10% growth\n\nLow teens+ growth\n\n20%+ growth ... Investor Day Materials and WebcastThe event will be broadcast live on PayPal's Investor Relations website today at ... About PayPal PayPal has been revolutionizing commerce globally for more than 25 years. Creating innovative experiences ... speaks as of February 25, 2025. For the reasons discussed above, you should not place undue reliance on the ... [https://www.prnewswire.com/news-releases/paypal-introduces-outlook-for-accelerating-growth-at-investor-day-302384665.h ... SOURCE PayPal Holdings, Inc. The"
+      ]
+    },
+    {
+      "title": "PayPal Holdings, Inc. - Events",
+      "url": "https://investor.pypl.com/news-and-events/events/default.aspx",
+      "published_date": "2025-02-14T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "> 52.69$0.42 (0.79% )January 30, 20264:00 PMEST\n# Events Home >> News & events >>Events\n Back to Corporate Site ## Upcoming events\nFebruary 3, 202608:00 AM ET\n PayPal\u2019s Fourth Quarter 2025 Earnings Call \nAdd to Calendar** * **Add to Apple Calendar \n* **Add to Google Calendar \n* **Add to Microsoft Outlook * **Add to iCalendar \n Webcast(opens in new window)** \n## Events archive Select Year:202620252024202320222021202020192018\n**No items found.\n Steve WinokerChief Investor Relations Officer Follow Steve on Linkedin \n## IR contact For investor inquiries, please\nsend us an email at\n investorrelations@paypal.com \n## Quick links * Annual reports & proxies \n* SEC filings \n* Stock information ... option. After submitting your request, you will receive an activation email to the requested email address. You must ... time. At PayPal, we promise to treat your data with respect and will not share your full financial information with third ... Email address\\*|\n\\* required\nMailing lists\\*|\nNews|\nEvents & presentations|\nQuarterly reports|\nAnnual reports| ... * Visit PayPal \n* Help \n* Contact \n* Fees \n* Security * Apps \n* Shop \n* See all countries, current language:English \n* About * Jobs \n* Sitemap \n* Partners \n* \u00a91999 -2026\n* Accessibility ... [Powered By Q4 Inc.5.172.0."
+      ]
+    },
+    {
+      "title": "PayPal Holdings, Inc. - Financials",
+      "url": "https://investor.pypl.com/financials/quarterly-results/default.aspx",
+      "published_date": "2025-08-29T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "PayPal Holdings, Inc. - Financials - Quarterly results"
+      ]
+    },
+    {
+      "title": "PYPL 4Q-24 Earnings Release",
+      "url": "https://s205.q4cdn.com/875401827/files/doc_financials/2024/q4/PYPL-4Q-24-Earnings-Release.pdf",
+      "published_date": "2025-02-03T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "2025 with strong foundation for continued ... SAN JOSE, Calif., (February 4, 2025) \u2013 PayPal Holdings, Inc. (NASDAQ: PYPL) today reported results for the fourth quarter and full year ending December 31, 2024. \u201cPayPal had a strong finish to a successful 2024 with results that were better than we expected. We set out at the beginning of 2024 to narrow our focus, improve execution, and reposition the business. One year later, I\u2019m proud that we\u2019ve laid a strong ... The strong momentum we\u2019ve created sets us up well for 2025, which is about scaling adoption. I\u2019m excited to share more at our Investor Day later this month.\u201d\nAlex Chriss\nPresident and CEO\n\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014 4Q'24 Financial Results \n\u2022 Net revenues increased 4% to $8.4 billion; 4% currency-neutral (\u201cFXN\u201d). ... stock. \u2022 Announced today that PayPal\u2019s Board of Directors has authorized a new $15 billion stock repurchase program. This new ... Free cash flow $6,767 $4,220 60%\nAdjusted free cash flow $6,634 $4,554 46%\n4Q & FY 2024 Results 3 Conference Call & Webcast PayPal Holdings, Inc. will host a conference call to discuss fourth quarter and full year 2024 results at 8:00 a.m. Eastern Time today. A live webcast of the conference call, together with a slide presentation that includes supplemental financial information and reconciliations of certain non-GAAP measures to their most directly comparable GAAP measures, can be accessed through the company\u2019s Investor Relations website at https://investor.pypl.com. In addition, an archive of the webcast will be ... through the same link.\nDisclosure Channels ... This press release contains forward-looking statements relating to, among other things, the future results"
+      ]
+    },
+    {
+      "title": "PayPal Holdings, Inc. - News",
+      "url": "https://investor.pypl.com/news-and-events/news/default.aspx",
+      "published_date": "2025-02-11T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "# News\n\n Home > News & events > News\n\n Back to Corporate Site Selecting a year value will change the news content\n\nSelect Year: 2026202520242023202220212020201920182017201620152014\n\nFebruary 3, 2026 PayPal Reports Fourth Quarter and Full Year 2025 Results \n\n Read More \n\n- Download February 3, 2026 PayPal Appoints Enrique Lores as Chief Executive Officer and David W. Dorman as Independent Board Chair Read More \n\n- Download \n\nJanuary 22, 2026 PayPal to Acquire Cymbio, Accelerating Agentic Commerce Capabilities \n\n Read More - Download \n\nJanuary 20, 2026 PayPal Introduces Free DIY Tax Filing for PayPal Debit Card Customers \n\n Read More - Download \n\nJanuary 11, 2026 From Search to Checkout: PayPal Supports Trusted AI Checkout with Google \n\n Read More - Download \n\nJanuary 8, 2026\n\n PayPal Powers Microsoft\u2019s Launch of Copilot Checkout Read More \n\n- Download \n\nJanuary 6, 2026 PayPal Ads Launches Transaction Graph Insights and Measurement to Improve Commerce Advertising Outcomes Read More \n\n- Download"
+      ]
+    },
+    {
+      "title": "PayPal Issues Disappointing 2026 Outlook, Citing Competitive Pressures and Macro Headwinds; Investigation Probes Timing of Risk Disclosures | Nasdaq",
+      "url": "https://www.nasdaq.com/press-release/paypal-issues-disappointing-2026-outlook-citing-competitive-pressures-and-macro",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "YORK, Feb. 11, 2026 /PRNewswire/ -- Levi & Korsinsky, LLP is investigating PayPal Holdings, Inc. (NASDAQ: PYPL) concerning the company's dismal 2026 financial outlook and whether investors received timely information about the headwinds that necessitated the weak guidance. Those who own PayPal shares and suffered losses may learn more by clicking here. PayPal's weaker-than-expected 2026 guidance represents a substantial reset of investor expectations. The company now projects a decline in transaction margin dollars in the first quarter of fiscal 2026 and throughout the full year. Earnings per share guidance of revenue growth of just 3-4% for the full year, a marked deceleration from historical growth rates. Earnings per share guidance of a mid-single digit decline in the first quarter represents a continued ... Management attributed the soft outlook to several factors: weaker checkout growth, a challenging macroeconomic ... & Co Redburn cited the \"marginal consumer\" moving away from PayPal's platform. The investigation will examine when PayPal's management first became aware of the severity of these competitive and macro pressures. The company's third quarter 2025 earnings call occurred on October 28, 2025, approximately 98 days before the current disclosure. The investigation seeks to determine whether material information about deteriorating ... PayPal shares fell 19-20% on February 3, 2026, erasing billions in market capitalization and reaching a 12-month low. ... [https://www.prnewswire.com/news-releases/paypal-issues-disappointing-2026-outlook-citing-competitive-pressures-and-mac ro-headwinds-investigation-pro"
+      ]
+    },
+    {
+      "title": "News details",
+      "url": "https://investor.paypal-corp.com/news-and-events/news-details/2025/PayPal-Introduces-Outlook-for-Accelerating-Growth-at-Investor-Day/default.aspx",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "2026 4:00 PM EST\n\n# News details Home > News & events > News details\n\n Back to Corporate Site ### PayPal Introduces Outlook for Accelerating Growth at Investor Day\n\nFebruary 25, 2025 - Download (opens in new window) Announces New Unified Merchant Offering, Strategic Partnership with Verifone, and Fastlane Expansion to International ... Company expects high single-digit transaction margin dollar (TM $) growth1 and low teens+ non-GAAP EPS growth by 2027 SAN JOSE, Calif., Feb. 25, 2025 /PRNewswire/ -- PayPal Holdings, Inc. (NASDAQ: PYPL) will host an Investor Day today in New York City beginning at 8:30 a.m. EST. The previously announced event will feature presentations from PayPal senior leadership and an overview of its strategic and growth plans for the next several years. In conjunction with the event, the company is providing its medium-term growth outlook (2025 to 2027) and longer-term ambitions. \"Our vision is for PayPal to be the commerce platform powering the global economy, and we have the scale, ubiquity, and data advantages to make that happen,\" said Alex Chriss, President and CEO, PayPal. \"In 2024, we returned PayPal to ... needs of both consumers and merchants. Looking ahead, we expect high single-digit transaction margin dollar growth1 and ... Outlook for Accelerating GrowthDuring today's event, PayPal will reaffirm its 2025 financial guidance, initiate its 2027 outlook, and share its longer-term growth ambitions: Financial Metric\n\n2025 Guidance (reaffirmed)\n\nOutlook by 2027\n\nLonger-term Ambition TM $s ex interest on customer balances1\n\nAt least 5% growth\n\nHigh single-digit growth\n\n10%+ growth Non-GAAP Earnings Per Share\n\n6-10% growth\n\nLow teens+ growth\n\n20%+ growth ... About PayPal PayPal has been revolutionizing commerce globally for more than 25 years. Creating innovative experiences ... PresentationAll growth rates represent year-over-year comparisons, except as otherwise noted. All amounts in tables are ... speaks as of February 25, 2025"
+      ]
+    }
+  ]
+}

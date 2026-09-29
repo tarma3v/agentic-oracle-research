@@ -1,0 +1,13 @@
+{
+  "python": "3.11.4 (v3.11.4:d2340ef257, Jun  6 2023, 19:15:51) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "executable": "/Library/Frameworks/Python.framework/Versions/3.11/bin/python3",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "packages": {
+    "nbformat": "5.9.2",
+    "nbclient": "0.8.0",
+    "ipykernel": "6.24.0",
+    "matplotlib": "3.7.2"
+  },
+  "notebook_code_cells_executed": 7,
+  "model_inference_executed": false
+}

@@ -1,0 +1,1581 @@
+{
+  "features": [
+    {
+      "feature_idx": 0,
+      "name": "id",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 1,
+      "name": "question",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 2,
+      "name": "description",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 3,
+      "name": "category",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 4,
+      "name": "close_time",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 5,
+      "name": "ground_truth",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 6,
+      "name": "market_probability",
+      "type": {
+        "dtype": "null",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 7,
+      "name": "series_ticker",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 8,
+      "name": "source",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "row_idx": 400,
+      "row": {
+        "id": "KXLEAVITTMENTIONDURATION",
+        "question": "How long will Karoline Leavitt speak for at next Press Briefing?",
+        "description": "If Karoline Leavitt speaks for 65 or above minutes at the next Press Briefing before Jan 2, 2026, then the market resolves to Yes.\nSpeaking will be measured from first word audibly said by Karoline Leavitt to the last word audibly said by Karoline Leavitt. Pauses in speech will be included in the speech time if they are between those two points. *If additional speaker(s) participate in the Press Briefing and become the primary speaker, the length of Karoline Leavitt's Press Briefing speech will include the other speaker(s) if Karoline Leavitt regains the primary speaker position. *",
+        "category": "Mentions",
+        "close_time": "2025-10-23T19:32:39.92128Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXLEAVITTMENTIONDURATION",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 401,
+      "row": {
+        "id": "KXLEAVITTMENTIONDURATION",
+        "question": "How long will Karoline Leavitt speak for at next Press Briefing?",
+        "description": "If Karoline Leavitt speaks for 60 or above minutes at the next Press Briefing before Jan 2, 2026, then the market resolves to Yes.\nSpeaking will be measured from first word audibly said by Karoline Leavitt to the last word audibly said by Karoline Leavitt. Pauses in speech will be included in the speech time if they are between those two points. *If additional speaker(s) participate in the Press Briefing and become the primary speaker, the length of Karoline Leavitt's Press Briefing speech will include the other speaker(s) if Karoline Leavitt regains the primary speaker position. *",
+        "category": "Mentions",
+        "close_time": "2025-10-23T19:32:31.064212Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXLEAVITTMENTIONDURATION",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 402,
+      "row": {
+        "id": "KXIRS",
+        "question": "Who will be confirmed as IRS Commissioner?",
+        "description": "If Billy Long is the first person confirmed by the Senate to be IRS Commissioner before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-06-12T21:33:04.344202Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXIRS",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 403,
+      "row": {
+        "id": "KXGPT5",
+        "question": "Will GPT-5 be released by January 01, 2026?",
+        "description": "If GPT-5 has been released before 2026, then the market resolves to Yes.\nThe model must be named GPT-5. GPT-4.9999, for example, would resolve to No.",
+        "category": "Science and Technology",
+        "close_time": "2025-08-07T18:23:17.768875Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXGPT5",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 404,
+      "row": {
+        "id": "KXGOVSHUTLENGTH",
+        "question": "Will the federal government shut down for more than 54 days?",
+        "description": "If the ongoing federal government shutdown (starting October 1) lasts for Above 54 days (through 10:00 AM ET November 24), then the market resolves to Yes.\nA shutdown is determined by notices on the U.S. Office of Personnel Management website indicating the federal government is at least partially shut down due to a lapse in appropriations. Days are counted based on notices checked at 10:00 AM ET each day. If there are multiple government shutdowns during the relevant period, this market only applies to the first shutdown, as the market will resolve after the end of the first shutdown. Notices of emergency furloughs or impacted government operations count toward the shutdown days. Office closures due to holidays or inclement weather do not count. If no shutdown occurs during the period, markets asking for counts above zero resolve to No, while markets asking for zero days resolve to Yes. Clarification (10/11/25): Days count toward the total when OPM's website indicates an ongoing shutdown due to lapsed appropriations, regardless of whether such days are also federal holidays. For example, if a shutdown notice remains on October 13, 2025 (Columbus Day), that day will count.",
+        "category": "Politics",
+        "close_time": "2025-11-13T15:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXGOVSHUTLENGTH",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 405,
+      "row": {
+        "id": "KXGOVSHUTLENGTH",
+        "question": "Will the federal government shut down for more than 53 days?",
+        "description": "If the ongoing federal government shutdown (starting October 1) lasts for Above 53 days (through 10:00 AM ET November 23), then the market resolves to Yes.\nA shutdown is determined by notices on the U.S. Office of Personnel Management website indicating the federal government is at least partially shut down due to a lapse in appropriations. Days are counted based on notices checked at 10:00 AM ET each day. If there are multiple government shutdowns during the relevant period, this market only applies to the first shutdown, as the market will resolve after the end of the first shutdown. Notices of emergency furloughs or impacted government operations count toward the shutdown days. Office closures due to holidays or inclement weather do not count. If no shutdown occurs during the period, markets asking for counts above zero resolve to No, while markets asking for zero days resolve to Yes. Clarification (10/11/25): Days count toward the total when OPM's website indicates an ongoing shutdown due to lapsed appropriations, regardless of whether such days are also federal holidays. For example, if a shutdown notice remains on October 13, 2025 (Columbus Day), that day will count.",
+        "category": "Politics",
+        "close_time": "2025-11-13T15:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXGOVSHUTLENGTH",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 406,
+      "row": {
+        "id": "KXGOVREOPEN2025",
+        "question": "Will the federal government shut down for fewer than 92 days?",
+        "description": "If the ongoing federal government shutdown (starting October 1) lasts for less than 92 days (ends before 10:00 AM ET January 1, 2026), then the market resolves to Yes.\nA shutdown is determined by notices on the U.S. Office of Personnel Management website indicating the federal government is at least partially shut down due to a lapse in appropriations. Days are counted based on notices checked at 10:00 AM ET each day. If there are multiple government shutdowns during the relevant period, this market only applies to the first shutdown, as the market will resolve after the end of the first shutdown. Notices of emergency furloughs or impacted government operations count toward the shutdown days. Office closures due to holidays or inclement weather do not count. If no shutdown occurs during the period, markets asking for counts above zero resolve to No, while markets asking for zero days resolve to Yes. Days count toward the total when OPM's website indicates an ongoing shutdown due to lapsed appropriations, regardless of whether such days are also federal holidays. For example, if a shutdown notice remains on October 13, 2025 (Columbus Day), that day will count.",
+        "category": "Politics",
+        "close_time": "2025-11-13T15:41:25.922519Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXGOVREOPEN2025",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 407,
+      "row": {
+        "id": "KXFRANCEAMB",
+        "question": "Who will be confirmed as Ambassador to France?",
+        "description": "If Charles Kushner is the first person confirmed by the Senate to be Ambassador to France before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-05-20T16:29:32.084342Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXFRANCEAMB",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 408,
+      "row": {
+        "id": "KXDOGEMAX1",
+        "question": "When will Dogecoin hit $1?",
+        "description": "If the price of Dogecoin is above 0.99999999 before Sep 1, 2025, then the market resolves to Yes.\nThe Contract is settled by taking an average of CF Benchmarks' Dogecoin Real-Time Index (DOGEUSD_RTI) in any sixty second period starting November 21, 2024, and ending Sep 1, 2025. Prices from outside traditional market hours (e.g. nights and weekends) do count towards the Contract's expiration.",
+        "category": "Crypto",
+        "close_time": "2025-09-01T14:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXDOGEMAX1",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 409,
+      "row": {
+        "id": "KXDOGEMAX1",
+        "question": "When will Dogecoin hit $1?",
+        "description": "If the price of Dogecoin is above 0.99999999 before Mar 1, 2025, then the market resolves to Yes.\nThe Contract is settled by taking an average of CF Benchmarks' Dogecoin Real-Time Index (DOGEUSD_RTI) in any sixty second period starting November 21, 2024, and ending Mar 1, 2025. Prices from outside traditional market hours (e.g. nights and weekends) do count towards the Contract's expiration.",
+        "category": "Crypto",
+        "close_time": "2025-03-01T15:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXDOGEMAX1",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 410,
+      "row": {
+        "id": "KXDEPUTYDODCONF",
+        "question": "Who will be confirmed as Deputy Secretary of Defense?",
+        "description": "If Stephen Feinberg is the first person confirmed by the Senate to be Deputy Secretary of Defense before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-03-15T05:27:59.280722Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXDEPUTYDODCONF",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 411,
+      "row": {
+        "id": "KXDCUSATTORNEY",
+        "question": "Who will be confirmed as DC US Attorney?",
+        "description": "If Ed Martin is the first person confirmed by the Senate to be DC US Attorney before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-11-01T18:40:45.550878Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXDCUSATTORNEY",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 412,
+      "row": {
+        "id": "KXDCUSATTORNEY",
+        "question": "When will Trump's nominee for DC US Attorney be confirmed?",
+        "description": "If Jeanine Pirro is the first person confirmed by the Senate to be DC US Attorney before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-09-19T20:13:04.386301Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXDCUSATTORNEY",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 413,
+      "row": {
+        "id": "KXCRYPTOREG",
+        "question": "Crypto regulation before Jan 1, 2026?",
+        "description": "If a bill becomes law before Jan 1, 2026 that grants authority to to regulate digital assets to any federal agency, the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-07-21T18:15:57.513271Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXCRYPTOREG",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 414,
+      "row": {
+        "id": "KXBLSCOMMISSIONER",
+        "question": "When will Trump's nominee for BLS Commissioner be confirmed?",
+        "description": "If EJ Antoni is the first person confirmed by the Senate to be BLS Commissioner before Jan 1, 2026, then the market resolves to Yes.\nIf EJ Antoni has a nomination that's withdrawn, then the market immediately resolves to No.",
+        "category": "Politics",
+        "close_time": "2025-10-01T14:22:21.028713Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXBLSCOMMISSIONER",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 415,
+      "row": {
+        "id": "KXAWARDSCOUNTWHI",
+        "question": "The White Lotus  wins?",
+        "description": "If  The White Lotus has won exactly 23 awards at the 2025 Emmy Awards, then the market resolves to Yes.",
+        "category": "Entertainment",
+        "close_time": "2025-09-15T15:05:31.914469Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXAWARDSCOUNTWHI",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 416,
+      "row": {
+        "id": "KXAWARDSCOUNTWHI",
+        "question": "The White Lotus  wins?",
+        "description": "If  The White Lotus has won exactly 22 awards at the 2025 Emmy Awards, then the market resolves to Yes.",
+        "category": "Entertainment",
+        "close_time": "2025-09-15T15:05:31.914469Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXAWARDSCOUNTWHI",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 417,
+      "row": {
+        "id": "KXAWARDSCOUNTSTU",
+        "question": "The Studio  wins?",
+        "description": "If  The Studio has won exactly 23 awards at the 2025 Emmy Awards, then the market resolves to Yes.",
+        "category": "Entertainment",
+        "close_time": "2025-09-15T14:55:33.203609Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXAWARDSCOUNTSTU",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 418,
+      "row": {
+        "id": "KXAWARDSCOUNTSTU",
+        "question": "The Studio  wins?",
+        "description": "If  The Studio has won exactly 22 awards at the 2025 Emmy Awards, then the market resolves to Yes.",
+        "category": "Entertainment",
+        "close_time": "2025-09-15T14:55:33.203609Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXAWARDSCOUNTSTU",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 419,
+      "row": {
+        "id": "KXAWARDSCOUNTSEV",
+        "question": "Severance  wins?",
+        "description": "If  Severance has won exactly 27 awards at the 2025 Emmy Awards, then the market resolves to Yes.",
+        "category": "Entertainment",
+        "close_time": "2025-09-15T14:56:05.501194Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXAWARDSCOUNTSEV",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 420,
+      "row": {
+        "id": "KXAWARDSCOUNTSEV",
+        "question": "Severance  wins?",
+        "description": "If  Severance has won exactly 26 awards at the 2025 Emmy Awards, then the market resolves to Yes.",
+        "category": "Entertainment",
+        "close_time": "2025-09-15T14:56:05.501194Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXAWARDSCOUNTSEV",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 421,
+      "row": {
+        "id": "KXAWARDSCOUNTPEN",
+        "question": "The Penguin  wins?",
+        "description": "If  The Penguin has won exactly 24 awards at the 2025 Emmy Awards, then the market resolves to Yes.",
+        "category": "Entertainment",
+        "close_time": "2025-09-15T14:56:25.502516Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXAWARDSCOUNTPEN",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 422,
+      "row": {
+        "id": "KXAWARDSCOUNTPEN",
+        "question": "The Penguin  wins?",
+        "description": "If  The Penguin has won exactly 23 awards at the 2025 Emmy Awards, then the market resolves to Yes.",
+        "category": "Entertainment",
+        "close_time": "2025-09-15T14:56:25.502516Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXAWARDSCOUNTPEN",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 423,
+      "row": {
+        "id": "KXAWARDSCOUNTLAS",
+        "question": "The Last Of Us  wins?",
+        "description": "If  The Last Of Us has won exactly 9 awards at the 2025 Emmy Awards, then the market resolves to Yes.",
+        "category": "Entertainment",
+        "close_time": "2025-09-15T15:05:51.445931Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXAWARDSCOUNTLAS",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 424,
+      "row": {
+        "id": "KXAWARDSCOUNTLAS",
+        "question": "The Last Of Us  wins?",
+        "description": "If  The Last Of Us has won exactly 8 awards at the 2025 Emmy Awards, then the market resolves to Yes.",
+        "category": "Entertainment",
+        "close_time": "2025-09-15T15:05:51.445931Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXAWARDSCOUNTLAS",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 425,
+      "row": {
+        "id": "KXAMBMALAY",
+        "question": "When will Trump's nominee for Ambassador of Malaysia be confirmed?",
+        "description": "If Nick Adams is the first person confirmed by the Senate to be Ambassador of Malaysia before Sep 1, 2025, then the market resolves to Yes.\nIf Nick Adams has a nomination that's withdrawn, then the market immediately resolves to No.",
+        "category": "Politics",
+        "close_time": "2025-09-01T14:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXAMBMALAY",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 426,
+      "row": {
+        "id": "KXAMBMALAY",
+        "question": "When will Trump's nominee for Ambassador of Malaysia be confirmed?",
+        "description": "If Nick Adams is the first person confirmed by the Senate to be Ambassador of Malaysia before Nov 1, 2025, then the market resolves to Yes.\nIf Nick Adams has a nomination that's withdrawn, then the market immediately resolves to No.",
+        "category": "Politics",
+        "close_time": "2025-11-01T14:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXAMBMALAY",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 427,
+      "row": {
+        "id": "KXAISPIKE",
+        "question": "Will any AI model have an elo of at least 1400 before Jan 1, 2026",
+        "description": "If an AI model has an Elo score of at least 1400 before Jan 1, 2026 on the LMSYS leaderboard, then the market resolves to Yes.",
+        "category": "Science and Technology",
+        "close_time": "2025-02-18T16:45:05.455205Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXAISPIKE",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 428,
+      "row": {
+        "id": "KXAISPIKE",
+        "question": "Will any AI model have an elo of at least 1375 before Jan 1, 2026",
+        "description": "If an AI model has an Elo score of at least 1375 before Jan 1, 2026 on the LMSYS leaderboard, then the market resolves to Yes.",
+        "category": "Science and Technology",
+        "close_time": "2025-01-24T17:24:52.376906Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXAISPIKE",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 429,
+      "row": {
+        "id": "KXAIOPEN",
+        "question": "Will there be an open-source AI model before Jan 1, 2026?",
+        "description": "If an open-source AI model is in the top 3 ranked AI models before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Science and Technology",
+        "close_time": "2025-01-24T15:12:51.672917Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXAIOPEN",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 430,
+      "row": {
+        "id": "KXTEXASDHS",
+        "question": "Texas loses border fight with Feds",
+        "description": "If Fifth Circuit Court of Appeals rules that the federal government did not unlawfully destroy Texan property (its border wire), then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2024-11-29T16:42:06.849756Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXTEXASDHS",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 431,
+      "row": {
+        "id": "KXAAAGASMINCA",
+        "question": "Will average **gas prices** be above or below $4.50 by Dec 31, 2025?",
+        "description": "If average regular gas prices for CA are strictly lower than $4.50 by Dec 31, 2025 according to AAA,  the market resolves to Yes.",
+        "category": "Economics",
+        "close_time": "2025-07-22T00:31:56.044876Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXAAAGASMINCA",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 432,
+      "row": {
+        "id": "KXJREPODCAST",
+        "question": "Will the Joe Rogan Experience fall from its #1 spot before Jan 1, 2026?",
+        "description": "If the Joe Rogan Experience is ever not the #1 podcast on Spotify in the United States, then the market resolves to Yes.\nThe chart will be checked daily at 10:00 AM ET.",
+        "category": "Entertainment",
+        "close_time": "2024-12-09T00:48:00.463836Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXJREPODCAST",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 433,
+      "row": {
+        "id": "KXTIKTOKBAN",
+        "question": "Will TikTok be banned by December 31, 2025?",
+        "description": "If TikTok is banned before Jan 1, 2026, then the market resolves to Yes.\nThe ban must be in effect before Jan 1, 2026. \"Ban\" includes banning transactions with ByteDance/TikTok or making it illegal to maintain or distribute TIkTok.",
+        "category": "Companies",
+        "close_time": "2025-01-19T05:49:06.991823Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXTIKTOKBAN",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 434,
+      "row": {
+        "id": "KXXRPMINY",
+        "question": "How low will XRP get this year?",
+        "description": "If the price of XRP is below 1.9 starting Mar 28, 2025 and before  Dec 31, 2025, then the market resolves to Yes.\nThe Contract is settled by taking an average of CF Benchmarks' XRP-Dollar Real-Time Index in any sixty second period. Data is used 24/7 to resolve the contract.",
+        "category": "Crypto",
+        "close_time": "2025-04-07T23:29:29.86762Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXXRPMINY",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 435,
+      "row": {
+        "id": "KXXRPMINY",
+        "question": "How low will XRP get this year?",
+        "description": "If the price of XRP is below 1.8 starting Mar 28, 2025 and before  Dec 31, 2025, then the market resolves to Yes.\nThe Contract is settled by taking an average of CF Benchmarks' XRP-Dollar Real-Time Index in any sixty second period. Data is used 24/7 to resolve the contract.",
+        "category": "Crypto",
+        "close_time": "2025-04-07T23:29:35.494816Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXXRPMINY",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 436,
+      "row": {
+        "id": "KXXRPMAXY",
+        "question": "How high will XRP get this year?",
+        "description": "If the price of XRP is above 3.49999 starting Mar 28, 2025 and before  Dec 31, 2025, then the market resolves to Yes.\nThe Contract is settled by taking an average of CF Benchmarks' XRP-Dollar Real-Time Index in any sixty second period. Data is used 24/7 to resolve the contract.",
+        "category": "Crypto",
+        "close_time": "2025-07-18T06:26:59.713666Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXXRPMAXY",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 437,
+      "row": {
+        "id": "KXXRPMAXY",
+        "question": "How high will XRP get this year?",
+        "description": "If the price of XRP is above 3.39999 starting Mar 28, 2025 and before  Dec 31, 2025, then the market resolves to Yes.\nThe Contract is settled by taking an average of CF Benchmarks' XRP-Dollar Real-Time Index in any sixty second period. Data is used 24/7 to resolve the contract.",
+        "category": "Crypto",
+        "close_time": "2025-07-18T06:27:14.926365Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXXRPMAXY",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 438,
+      "row": {
+        "id": "KXXPASSPORT",
+        "question": "Will the State Department stop allowing for a nonbinary option on passports?",
+        "description": "If the State Department restricts new passport applicants to either Male or Female options on passports before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-01-27T17:55:42.857578Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXXPASSPORT",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 439,
+      "row": {
+        "id": "KXXLMMAXY",
+        "question": "How high will XLM get this year?",
+        "description": "If the price of XLM is above 0.4999999 starting Mar 28, 2025 and before Jan 1, 2026, then the market resolves to Yes.\nThe Contract is settled by taking an average of CF Benchmarks' XLM-Dollar Real-Time Index in any sixty second period. Data is used 24/7 to resolve the contract.",
+        "category": "Crypto",
+        "close_time": "2025-07-16T15:29:44.292417Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXXLMMAXY",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 440,
+      "row": {
+        "id": "KXXAISUEAPPLE",
+        "question": "Will xAI sue Apple before 2026?",
+        "description": "If X.AI Corp sues Apple Inc. before Jan 1, 2026, then the market resolves to Yes.\nA lawsuit or some other formal adversarial legal process (such as pre-complaint discovery or an arbitration claim) is encompassed by the Payout Criterion.",
+        "category": "Politics",
+        "close_time": "2025-08-26T23:20:47.319192Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXXAISUEAPPLE",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 441,
+      "row": {
+        "id": "KXWTIMAX",
+        "question": "Will the maximum WTI front month settle price reach $75 by Dec 31, 2025?",
+        "description": "If ICE reports that the maximum price of oil (as defined exclusively by the set of WTI front-month settle prices) is Above $75 between Issuance and Dec 31, 2025, then the market resolves to Yes.",
+        "category": "Financials",
+        "close_time": "2025-09-07T02:07:58.092765Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXWTIMAX",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 442,
+      "row": {
+        "id": "KXWHVISIT",
+        "question": "Will Volodymyr Zelenskyy visit the White House before Jan 1, 2026?",
+        "description": "If Volodymyr Zelenskyy visits the White House after May 2, 2025 and before Jan 1, 2026, then the market resolves to Yes.\nThis means a physical visit to any of: The Executive Residence, the West Wing, the East Wing, the Eisenhower Executive Office Building, and all gardens, lawns, and outdoor spaces within the secured perimeter of the White House, including the Rose Garden and the South Lawn. The announcement must occur after Issuance and before Jan 1, 2026 and so must the actual visit.",
+        "category": "Politics",
+        "close_time": "2025-08-23T18:38:52.146315Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXWHVISIT",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 443,
+      "row": {
+        "id": "KXVPBREAKS",
+        "question": "Will J.D. Vance cast above 0 tie-breaking vote in the Senate in Dec 31, 2025?",
+        "description": "If the Vice President breaks more than 0 ties from January 20th, 2025 at 12:00 PM ET to Dec 31, 2025 at 11:59 PM ET, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-01-25T05:37:10.361615Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXVPBREAKS",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 444,
+      "row": {
+        "id": "KXVOTETULSI",
+        "question": "Will Jon Ossoff vote for Tulsi Gabbard?",
+        "description": "If Jon Ossoff votes Yea for Tulsi Gabbard for Director of National Intelligence before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-02-12T23:31:34.543239Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXVOTETULSI",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 445,
+      "row": {
+        "id": "KXVOTETULSI",
+        "question": "Will John Fetterman vote for Tulsi Gabbard?",
+        "description": "If John Fetterman votes Yea for Tulsi Gabbard for Director of National Intelligence before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-02-12T23:31:27.138127Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXVOTETULSI",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 446,
+      "row": {
+        "id": "KXVOTESTEFANIK",
+        "question": "Will Chris Murphy vote for Elise Stefanik?",
+        "description": "If Chris Murphy votes Yea for Elise Stefanik for UN Ambassador before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-03-28T17:55:24.790031Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXVOTESTEFANIK",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 447,
+      "row": {
+        "id": "KXVOTESTEFANIK",
+        "question": "Will Mark Warner vote for Elise Stefanik?",
+        "description": "If Mark Warner votes Yea for Elise Stefanik for UN Ambassador before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-03-28T17:55:08.152547Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXVOTESTEFANIK",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 448,
+      "row": {
+        "id": "KXVOTESHUTDOWNH",
+        "question": "Will Greg Steube vote for the next omnibus spending bill, minibus, or government-wide continuing resolution (CR)?",
+        "description": "If Greg Steube votes for the next omnibus spending bill, minibus, or government-wide continuing resolution (CR) in the House before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-11-13T03:36:10.632501Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXVOTESHUTDOWNH",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 449,
+      "row": {
+        "id": "KXVOTESHUTDOWNH",
+        "question": "Will Don Davis vote for the next omnibus spending bill, minibus, or government-wide continuing resolution (CR)?",
+        "description": "If Don Davis votes for the next omnibus spending bill, minibus, or government-wide continuing resolution (CR) in the House before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-11-13T03:35:57.411476Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXVOTESHUTDOWNH",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 450,
+      "row": {
+        "id": "KXVOTERFK",
+        "question": "Will Kirsten Gillibrand vote for Robert F. Kennedy Jr.?",
+        "description": "If Kirsten Gillibrand votes Yea for Robert F. Kennedy Jr. before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-02-13T17:49:21.089687Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXVOTERFK",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 451,
+      "row": {
+        "id": "KXVOTERFK",
+        "question": "Will Peter Welch vote for Robert F. Kennedy Jr.?",
+        "description": "If Peter Welch votes Yea for Robert F. Kennedy Jr. before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-02-13T17:49:15.709859Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXVOTERFK",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 452,
+      "row": {
+        "id": "KXVOTERECNCS",
+        "question": "Will Thom Tillis vote for the next budget reconciliation bill?",
+        "description": "If Thom Tillis votes for the next budget reconciliation bill in the Senate before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-07-02T20:44:53.492366Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXVOTERECNCS",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 453,
+      "row": {
+        "id": "KXVOTERECNCS",
+        "question": "Will Susan Collins vote for the next budget reconciliation bill?",
+        "description": "If Susan Collins votes for the next budget reconciliation bill in the Senate before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-07-02T20:43:28.331039Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXVOTERECNCS",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 454,
+      "row": {
+        "id": "KXVOTERECNCH",
+        "question": "Will Rich McCormick vote for the next budget reconciliation bill?",
+        "description": "If Rich McCormick votes for the next budget reconciliation bill in the House before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-05-22T15:25:54.238351Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXVOTERECNCH",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 455,
+      "row": {
+        "id": "KXVOTERECNCH",
+        "question": "Will Eli Crane vote for the next budget reconciliation bill?",
+        "description": "If Eli Crane votes for the next budget reconciliation bill in the House before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-05-22T15:32:25.114684Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXVOTERECNCH",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 456,
+      "row": {
+        "id": "KXVOTEPATEL",
+        "question": "Will Thom Tillis vote for Kash Patel?",
+        "description": "If Thom Tillis votes Yea for Kash Patel for FBI Director before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-02-20T19:31:12.257061Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXVOTEPATEL",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 457,
+      "row": {
+        "id": "KXVOTEPATEL",
+        "question": "Will John Fetterman vote for Kash Patel?",
+        "description": "If John Fetterman votes Yea for Kash Patel for FBI Director before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-02-20T19:31:04.204195Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXVOTEPATEL",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 458,
+      "row": {
+        "id": "KXVOTEMIRAN",
+        "question": "Will Ruben Gallego vote for Stephen Miran?",
+        "description": "If Ruben Gallego votes Yea for Stephen Miran for Council of Economic Advisors before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-03-12T19:46:36.771613Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXVOTEMIRAN",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 459,
+      "row": {
+        "id": "KXVOTEMIRAN",
+        "question": "Will Mike Lee vote for Stephen Miran?",
+        "description": "If Mike Lee votes Yea for Stephen Miran for Council of Economic Advisors before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-03-12T19:47:22.904143Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXVOTEMIRAN",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 460,
+      "row": {
+        "id": "KXVOTEMCMAHON",
+        "question": "Will Thom Tillis vote for Linda McMahon?",
+        "description": "If Thom Tillis votes Yea for Linda McMahon for Department of Education before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-03-03T23:44:47.322684Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXVOTEMCMAHON",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 461,
+      "row": {
+        "id": "KXVOTEMCMAHON",
+        "question": "Will Susan Collins vote for Linda McMahon?",
+        "description": "If Susan Collins votes Yea for Linda McMahon for Department of Education before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-03-03T23:45:27.322173Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXVOTEMCMAHON",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 462,
+      "row": {
+        "id": "KXVOTEHEGSETH",
+        "question": "Will John Fetterman vote for Pete Hegseth?",
+        "description": "If John Fetterman votes Yea for Pete Hegseth for Secretary of Defense before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-01-25T05:43:24.731676Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXVOTEHEGSETH",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 463,
+      "row": {
+        "id": "KXVOTEHEGSETH",
+        "question": "Will James Lankford vote for Pete Hegseth?",
+        "description": "If James Lankford votes Yea for Pete Hegseth for Secretary of Defense before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-01-25T05:43:12.559211Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXVOTEHEGSETH",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 464,
+      "row": {
+        "id": "KXVOTEGREER",
+        "question": "Will Ruben Gallego vote for Jamieson Greer?",
+        "description": "If Ruben Gallego votes Yea for Jamieson Greer for US Trade Representative before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-02-26T17:54:47.186486Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXVOTEGREER",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 465,
+      "row": {
+        "id": "KXVOTEGREER",
+        "question": "Will Mike Lee vote for Jamieson Greer?",
+        "description": "If Mike Lee votes Yea for Jamieson Greer for US Trade Representative before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-02-26T17:55:45.290857Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXVOTEGREER",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 466,
+      "row": {
+        "id": "KXVOTECHAVEZDEREMER",
+        "question": "Will John Hickenlooper vote for Lori Chavez-DeRemer?",
+        "description": "If John Hickenlooper votes Yea for Lori Chavez-DeRemer for Secretary of Labor before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-03-11T03:03:59.551169Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXVOTECHAVEZDEREMER",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 467,
+      "row": {
+        "id": "KXVOTECHAVEZDEREMER",
+        "question": "Will John Hoeven vote for Lori Chavez-DeRemer?",
+        "description": "If John Hoeven votes Yea for Lori Chavez-DeRemer for Secretary of Labor before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-03-11T03:03:52.497835Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXVOTECHAVEZDEREMER",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 468,
+      "row": {
+        "id": "KXVIOLENCEW",
+        "question": "above 282 or above members of the House vote for Violence Against Women by Illegal Aliens Act?",
+        "description": "If 282 or above members of the House vote Yea in favor of Violence Against Women by Illegal Aliens Act before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-01-16T16:13:37.635304Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXVIOLENCEW",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 469,
+      "row": {
+        "id": "KXVIOLENCEW",
+        "question": "between 278 to 281 members of the House vote for Violence Against Women by Illegal Aliens Act?",
+        "description": "If 278 to 281 members of the House vote Yea in favor of Violence Against Women by Illegal Aliens Act before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-01-16T16:13:37.635304Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXVIOLENCEW",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 470,
+      "row": {
+        "id": "KXVANCE",
+        "question": "Will Warren Davidson replace JD Vance as Ohio Senator?",
+        "description": "If Warren Davidson is announced by the Governor of Ohio to be the replacement Senator for JD Vance, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-01-18T16:39:05.268571Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXVANCE",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 471,
+      "row": {
+        "id": "KXVANCE",
+        "question": "Will Vivek Ramaswamy replace JD Vance as Ohio Senator?",
+        "description": "If Vivek Ramaswamy is announced by the Governor of Ohio to be the replacement Senator for JD Vance, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-01-18T16:39:05.268571Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXVANCE",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 472,
+      "row": {
+        "id": "KXUSDHVOTE",
+        "question": "Will Multiple teams win the Hyperliquid validator vote for the USDH ticker?",
+        "description": "If Multiple teams is selected through the Hyperliquid validator vote to receive the USDH ticker designation before Jan 1, 2026, then the market resolves to Yes.\nResolution is based on which team receives the most stake-weighted validator votes during the official voting period. If Hyperliquid Foundation validators abstain and align with the non-Foundation majority, their stake counts toward the team with the most non-Foundation support. If no team receives votes or the vote is cancelled, all markets resolve to No unless \"None/No team selected\" is listed. Ties resolve to No unless Hyperliquid implements an official tiebreaker. Only the initial official announcement determines resolution; subsequent disputes or reversals after expiration do not affect the outcome.",
+        "category": "Crypto",
+        "close_time": "2025-09-26T16:32:57.008882Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXUSDHVOTE",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 473,
+      "row": {
+        "id": "KXUSDHVOTE",
+        "question": "Will Native Markets win the Hyperliquid validator vote for the USDH ticker?",
+        "description": "If Native Markets is selected through the Hyperliquid validator vote to receive the USDH ticker designation before Jan 1, 2026, then the market resolves to Yes.\nResolution is based on which team receives the most stake-weighted validator votes during the official voting period. If Hyperliquid Foundation validators abstain and align with the non-Foundation majority, their stake counts toward the team with the most non-Foundation support. If no team receives votes or the vote is cancelled, all markets resolve to No unless \"None/No team selected\" is listed. Ties resolve to No unless Hyperliquid implements an official tiebreaker. Only the initial official announcement determines resolution; subsequent disputes or reversals after expiration do not affect the outcome.",
+        "category": "Crypto",
+        "close_time": "2025-09-26T16:32:57.008882Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXUSDHVOTE",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 474,
+      "row": {
+        "id": "KXUSALITHIUM",
+        "question": "Will the United States announce it has taken a stake in Lithium Americas before Jan 1, 2026?",
+        "description": "If the United States has agreed to or announced it has taken a stake in Lithium Americas before Jan 1, 2026, then the market resolves to Yes.\nAn agreement or announcement qualifies if it involves formal signing of treaties, parliamentary approval with binding effect, official ratification, formal commitment by the head of state/government with constitutional authority, official statements by authorized ministers, official press releases, formal declarations during government proceedings, or official statements to international bodies. Phased implementation announcements and multi-party agreements where the country is a signatory qualify. Preliminary discussions, conditional agreements contingent on circumstances, opposition party statements, leaked documents, think-tank recommendations, general aspirations without specific commitment, draft legislation without approval, and regional actions (unless specified) do NOT qualify. Retraction of previously announced commitments also does not satisfy the criterion.",
+        "category": "Politics",
+        "close_time": "2025-10-02T14:24:52.707871Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXUSALITHIUM",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 475,
+      "row": {
+        "id": "KXUSAINTEL",
+        "question": "Will the United States take a stake in Intel in 2025?",
+        "description": "If the United States take a stake in Intel before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-08-30T16:47:24.740712Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXUSAINTEL",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 476,
+      "row": {
+        "id": "KXTSUNAMI",
+        "question": "Tsunami before 2026?",
+        "description": "If a tsunami of at least 1m high maximum waves occurs by Dec 31, 2025, then the market resolves to Yes.",
+        "category": "Climate and Weather",
+        "close_time": "2024-12-05T21:50:03.55323Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXTSUNAMI",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 477,
+      "row": {
+        "id": "KXTRUMPSETTLECBS",
+        "question": "Will Trump settle his lawsuit with CBS before 2026?",
+        "description": "If Donald Trump settles his lawsuit regarding 60 Minutes' interview with Kamala Harris with CBS before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-07-03T15:20:12.023572Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXTRUMPSETTLECBS",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 478,
+      "row": {
+        "id": "KXTRUMPPARDON",
+        "question": "Who will President Trump pardon before Jan 1, 2026?",
+        "description": "If the President of the United States pardons Rudy Giuliani before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-11-10T13:20:26.431386Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXTRUMPPARDON",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 479,
+      "row": {
+        "id": "KXTRUMPPARDON",
+        "question": "Who will President Trump pardon before Jan 1, 2026?",
+        "description": "If the President of the United States pardons Kentrell DeSean Gaulden before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-05-29T00:46:03.291426Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXTRUMPPARDON",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 480,
+      "row": {
+        "id": "KXTRUMPOSC",
+        "question": "Will Paul Ingrassia be confirmed as Special Counsel, Office of Special Counsel before Jan 1, 2026?",
+        "description": "If Paul Ingrassia is confirmed as Special Counsel, Office of Special Counsel before Jan 1, 2026, then the market resolves to Yes.\nThe nominee must be confirmed by the U.S. Senate for the specific position listed. Acting appointments without Senate confirmation do not satisfy the Payout Criterion. If a nomination is withdrawn before the deadline, that market immediately resolves to No. Recess appointments do not count as confirmation unless explicitly ratified by the Senate. The confirmation vote must be the final vote on the nomination, not procedural votes or cloture motions. If the nominee is confirmed to a different position than specified, the market resolves to No.",
+        "category": "Politics",
+        "close_time": "2025-10-23T16:26:58.403694Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXTRUMPOSC",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 481,
+      "row": {
+        "id": "KXTRUMPMEET",
+        "question": "Will Donald Trump meet with Recep Tayyip Erdoğan before Jan 2026?",
+        "description": "If Donald Trump meets with Recep Tayyip Erdoğan before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Social",
+        "close_time": "2025-10-15T22:37:55.639385Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXTRUMPMEET",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 482,
+      "row": {
+        "id": "KXTRUMPMEET",
+        "question": "Will Donald Trump meet with Xi Jinping before Jan 2026?",
+        "description": "If Donald Trump meets with Xi Jinping before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Social",
+        "close_time": "2025-10-15T22:47:28.004351Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXTRUMPMEET",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 483,
+      "row": {
+        "id": "KXTRUMPFOOTBALL",
+        "question": "Will Donald Trump attend any pro or college football game?",
+        "description": "If Donald Trump attends any pro or college football game before Jan 1, 2026, then the market resolves to Yes.\nAttendance is confirmed if the person is reported present at the event by any Source Agency, including social media posts by the person themselves. Virtual attendance counts as attendance unless the event is explicitly in-person only. Brief appearances or partial attendance count as attendance. The event must occur in the specified year. If the event is cancelled, postponed beyond the expiration date, or does not occur in the specified year, the market resolves to No.",
+        "category": "Entertainment",
+        "close_time": "2025-11-09T23:58:08.622456Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXTRUMPFOOTBALL",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 484,
+      "row": {
+        "id": "KXTRUMPCALI",
+        "question": "Will Trump sue California before 2026?",
+        "description": "If Trump or the Trump Administration sues The State of California before Jan 1, 2026, then the market resolves to Yes.\nA lawsuit or some other formal adversarial legal process (such as pre-complaint discovery or an arbitration claim) is encompassed by the Payout Criterion.",
+        "category": "Politics",
+        "close_time": "2025-10-23T23:22:17.221741Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXTRUMPCALI",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 485,
+      "row": {
+        "id": "KXTRUMPATTEND",
+        "question": "Will Trump attend the UFC 318?",
+        "description": "If Trump attends UFC 318, then the market resolves to Yes.",
+        "category": "Entertainment",
+        "close_time": "2025-07-20T21:07:16.891603Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXTRUMPATTEND",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 486,
+      "row": {
+        "id": "KXTRANSMILITARY",
+        "question": "Will Trump issue an executive order or sign a bill about transgender members of the military in the first 100 days?",
+        "description": "If the White House signs an executive order or signs a bill regarding transgender members of the military before May 1, 2025, then the market resolves to Yes.\nAn executive action could also take the form of an executive memorandum.",
+        "category": "Politics",
+        "close_time": "2025-01-22T15:16:27.493528Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXTRANSMILITARY",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 487,
+      "row": {
+        "id": "KXTOPSONGRECORDORDINARY",
+        "question": "How long will Ordinary be #1?",
+        "description": "If Ordinary has had the #1 spot on the Billboard Hot 100 for more than 9 consecutive weeks, then the market resolves to Yes.\n**This market and these products have not been endorsed by Billboard. Any references to \"Billboard\", the \"Hot 100,\" or any other associated marks are descriptive only, and do not indicate an endorsement of this product or any affiliation between Billboard and Kalshi.** If this event occurs, or the streak ends, the market will close the following 10am ET. This market specifically encompasses the first streak Ordinary holds.",
+        "category": "Entertainment",
+        "close_time": "2025-08-12T15:34:30.236983Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXTOPSONGRECORDORDINARY",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 488,
+      "row": {
+        "id": "KXTOPSONGRECORDORDINARY",
+        "question": "How long will Ordinary be #1?",
+        "description": "If Ordinary has had the #1 spot on the Billboard Hot 100 for more than 8 consecutive weeks, then the market resolves to Yes.\n**This market and these products have not been endorsed by Billboard. Any references to \"Billboard\", the \"Hot 100,\" or any other associated marks are descriptive only, and do not indicate an endorsement of this product or any affiliation between Billboard and Kalshi.** If this event occurs, or the streak ends, the market will close the following 10am ET. This market specifically encompasses the first streak Ordinary holds.",
+        "category": "Entertainment",
+        "close_time": "2025-08-12T15:34:16.995391Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXTOPSONGRECORDORDINARY",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 489,
+      "row": {
+        "id": "KXTOPALBUMMORGANWALLEN",
+        "question": "Morgan Wallen has a #1 album in 2025?",
+        "description": "If Morgan Wallen has a #1 album on the Billboard 200 by Dec 31, 2025, then the market resolves to Yes.",
+        "category": "Entertainment",
+        "close_time": "2025-05-28T17:09:04.127306Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXTOPALBUMMORGANWALLEN",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 490,
+      "row": {
+        "id": "KXTOPALBUMBYTAYLORSWIFT",
+        "question": "Taylor Swift has a #1 album in 2025?",
+        "description": "If Taylor Swift has a #1 album on the Billboard 200 by Dec 31, 2025, then the market resolves to Yes.",
+        "category": "Entertainment",
+        "close_time": "2024-12-09T17:10:37.409662Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXTOPALBUMBYTAYLORSWIFT",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 491,
+      "row": {
+        "id": "KXTOPALBUMBYKENDRICK",
+        "question": "Kendrick Lamar has a #1 album in 2025?",
+        "description": "If Kendrick Lamar has a #1 album on the Billboard 200 by Dec 31, 2025, then the market resolves to Yes.",
+        "category": "Entertainment",
+        "close_time": "2024-12-02T14:18:03.392573Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXTOPALBUMBYKENDRICK",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 492,
+      "row": {
+        "id": "KXTOPALBUMBYDRAKE",
+        "question": "Drake has a #1 album in 2025?",
+        "description": "If Drake has a #1 album on the Billboard 200 by Dec 31, 2025, then the market resolves to Yes.",
+        "category": "Entertainment",
+        "close_time": "2025-02-24T01:15:11.9396Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXTOPALBUMBYDRAKE",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 493,
+      "row": {
+        "id": "KXTOPALBUMBYARI",
+        "question": "Ariana Grande has a #1 album in 2025?",
+        "description": "If Ariana Grande has a #1 album on the Billboard 200 by Dec 31, 2025, then the market resolves to Yes.",
+        "category": "Entertainment",
+        "close_time": "2025-04-08T15:23:30.509835Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXTOPALBUMBYARI",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 494,
+      "row": {
+        "id": "KXTIPTAX",
+        "question": "Will 'no tax on tips' become law before Jan 1, 2026?",
+        "description": "If a bill becomes law that establishes 'no tax on tips' before 2026 then the market resolves to Yes.\nThe Payout Criterion for the Contract encompasses the Expiration Values that\na bill has become law which:\n(1) Changes the definition of tips in the Internal Revenue Code so they are not considered\nincome at all; (2) Continue to define tips as income, but provide for a tax exemption or exclusion; or\n(3) Continue to define tips as income and initially include tips in taxable income, but provide\nfor a deduction when the taxpayer files their taxes in the spring.",
+        "category": "Politics",
+        "close_time": "2025-07-07T19:52:27.430804Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXTIPTAX",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 495,
+      "row": {
+        "id": "KXTEXASBTC",
+        "question": "Will the Texas Strategic Bitcoin Reserve Act become law before 2026?",
+        "description": "If Texas creates a strategic bitcoin reserve before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-06-24T14:45:24.569446Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXTEXASBTC",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 496,
+      "row": {
+        "id": "KXTCJAPERMANENT",
+        "question": "Will the Trump tax cut on the highest earners be extended before 2026?",
+        "description": "If a bill has become law before January 1, 2026 which extends the maximum individual tax rate of 37% past December 31, 2025, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-07-07T19:53:01.347781Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXTCJAPERMANENT",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 497,
+      "row": {
+        "id": "KXTAYLORSWIFT",
+        "question": "Will Taylor Swift release another album this year?",
+        "description": "If Taylor Swift releases another album on Spotify before Jan 1, 2026, then the market resolves to Yes.\n**For the purposes of this market, The Life of a Showgirl (scheduled for release on October 3, 2025) does not count toward resolution. Resolution depends on whether Taylor Swift releases another album before the Expiration Date.\n\nTo qualify, the release must appear as a separate album entry under Taylor Swift’s “Albums” section on Spotify. Deluxe editions, extended versions, or bonus-track albums qualify only if they are released as distinct albums, not merely updates to an existing album entry. Singles, previews, EPs, compilations, and live albums do not qualify.**",
+        "category": "Entertainment",
+        "close_time": "2025-10-03T04:04:55.89373Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXTAYLORSWIFT",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 498,
+      "row": {
+        "id": "KXTARIFFSPRC",
+        "question": "Will Trump impose new tariffs on China before 2026?",
+        "description": "If new tariffs are imposed (or tariffs are raised) on People's Republic of China by an executive action before 2026, then the market resolves to Yes.\nThe tariffs must actually be in effect for at least some businesses to resolve the market to Yes.",
+        "category": "Politics",
+        "close_time": "2025-02-04T14:34:19.79559Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXTARIFFSPRC",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 499,
+      "row": {
+        "id": "KXTARIFFSMEX",
+        "question": "Will Trump impose new tariffs on Mexico before 2026?",
+        "description": "If new tariffs are imposed (or tariffs are raised) on Mexico by an executive action before 2026, then the market resolves to Yes.\nThe tariffs must actually be in effect for at least some businesses to resolve the market to Yes.",
+        "category": "Politics",
+        "close_time": "2025-03-04T15:19:31.718544Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXTARIFFSMEX",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    }
+  ],
+  "num_rows_total": 1531,
+  "num_rows_per_page": 100,
+  "partial": false
+}

@@ -1,0 +1,66 @@
+\subsection{Motivation and Context}
+
+Prediction markets are financial instruments that allow participants to trade contracts whose payoffs depend on the outcome of real-world events, such as election results, economic indicators, or sporting outcomes. Because traders with superior information can profit by correcting mispriced contracts, market prices aggregate dispersed knowledge into probability estimates that have been shown to outperform polls, expert panels, and statistical models across a range of domains~\cite{arrow2008promise, berg2008prediction}. Platforms such as Polymarket, Kalshi, and Metaculus have grown rapidly in recent years. Polymarket processed over \$33 billion in trading volume in 2025, and Kalshi's revenue grew 994\% year-over-year after winning a landmark court case against the CFTC in September 2024~\cite{kalshi2024cftc}.
+
+The utility of a prediction market, however, depends entirely on the reliability of its oracle, the mechanism that determines whether a real-world event actually occurred and settles contracts accordingly. This is an instance of the broader \emph{oracle problem} in blockchain systems: smart contracts cannot natively access off-chain information, so some trusted process must bridge the gap between on-chain logic and real-world state~\cite{caldarelli2020oracle, ellis2017chainlink}. Existing oracle designs occupy two extremes. Fully automated oracles such as Chainlink's decentralized oracle networks provide fast, inexpensive resolution for structured data feeds like asset prices, but struggle with subjective or ambiguous outcomes~\cite{chainlink2021v2}. Human arbitration systems such as UMA's optimistic oracle and Kalshi's internal operations team achieve higher accuracy on complex questions, but incur significant latency and escalation costs that scale poorly~\cite{uma2024oracle, kalshi_outcomes}. The scale of value at risk is substantial: DeFi protocols lost over \$400 million to oracle manipulation attacks in 2022 alone~\cite{caldarelli2020oracle}, and prediction market volumes now routinely exceed billions of dollars per month.
+
+Recent work has demonstrated that large language models can serve as an intermediate resolution layer between full automation and human arbitration. Chainlink Labs validated a DSPy-based single-LLM oracle achieving 99.7\% accuracy on sports questions but only 84--85\% on politics and cryptocurrency~\cite{chainlink2025aioracles}, while UMA's OOTruthBot achieves approximately 90\% accuracy at roughly \$0.005 per resolution~\cite{uma2025truthbot}. These results are promising, but single-LLM systems inherit all failure modes of their underlying model, including hallucinations, temporal reasoning errors, and sycophantic tendencies, with no mechanism for self-correction. A natural extension is to employ multi-LLM architectures for oracle resolution. Yet this space remains largely unexplored.
+
+\subsection{Research Question}
+
+This paper addresses the oracle reliability gap through the following central research question:
+
+\emph{Can multi-agent LLM architectures improve oracle resolution accuracy over single-model baselines for prediction markets, and under what conditions do such improvements occur?}
+
+This question gives rise to several focused sub-questions that structure the evaluation:
+
+\begin{enumerate}
+    \item \textbf{Aggregation Effectiveness:} Does combining multiple LLMs into an independent-aggregation ensemble improve oracle accuracy relative to a single-model system?
+    
+    \item \textbf{Deliberation versus Independent Voting:} Does structured debate among LLMs outperform independent aggregation, or does it introduce conformity effects that degrade performance?
+    
+    \item \textbf{Failure Mode Correlation:} Are oracle-specific errors independent across models, or do they exhibit systematic correlation, and what distinct failure mechanisms produce the errors that aggregation fails to correct?
+    
+    \item \textbf{Escalation Design:} Can model confidence and inter-agent disagreement serve as principled routing signals for deferring uncertain questions to human arbitration?
+\end{enumerate}
+
+By answering these questions, this work provides empirical evidence on multi-agent oracle performance and develops a structured framework for hybrid AI-human resolution systems.
+
+\subsection{Problem and Literature Gap}
+
+Despite promising results from single-LLM oracle systems, no prior work has applied multi-agent techniques to prediction market resolution, where correctness directly impacts financial outcomes and system trust. Existing studies on multi-agent debate focus on general reasoning benchmarks, leaving unclear whether reported improvements transfer to the distinct challenges of oracle resolution: interpreting natural-language resolution criteria, verifying time-bounded real-world events, and adjudicating inherently ambiguous outcomes.
+
+Moreover, no prior work has characterized error correlation specifically in oracle settings. While correlated failures across LLMs are documented in general reasoning tasks~\cite{kim2025correlated}, it remains unknown whether oracle-specific failure modes (source verification errors, misinterpretation of resolution criteria, temporal reasoning mistakes) exhibit similar or distinct correlation patterns. Without this understanding, aggregating multiple models may offer little robustness benefit and may instead amplify shared biases.
+
+Finally, current hybrid AI-human oracle systems rely on ad-hoc escalation policies, with no principled framework for determining when model confidence is insufficient and human arbitration justifies its cost and latency. This lack of structure limits the scalability and reliability of hybrid oracle designs.
+
+\subsection{Contributions}
+
+This work makes three contributions:
+
+\begin{itemize}
+    \item We provide the first empirical comparison of multi-agent oracle architectures, independent aggregation and deliberative consensus, against single-LLM baselines for prediction market resolution, a domain where correctness has direct financial consequences.
+    
+    \item We develop a failure mode taxonomy that characterizes the distinct 
+mechanisms by which the system fails, identifying five failure types and 
+measuring the degree to which errors are shared across models versus 
+architecture-specific.
+    
+    \item We propose escalation criteria for hybrid AI-human oracle systems, defining principled decision rules based on confidence levels and inter-agent disagreement for routing between automated and human resolution.
+\end{itemize}
+
+\subsection{Research Methodology}
+
+We evaluate two multi-agent architectures using GPT-5-Nano, Deepseek V3, and Llama-3.3-70b-turbo:
+
+\textbf{Architecture A: Independent Aggregation.} Three diverse LLMs resolve questions independently, with outcomes determined by majority voting and confidence-weighted voting. This mirrors how Chainlink aggregates price feeds from multiple node operators and tests whether the same logic applies to subjective outcomes.
+
+\textbf{Architecture B: Deliberative Consensus.} The same three models participate in structured multi-round debate: each generates an answer with reasoning, then reviews the other models' responses and may revise its position before submitting a final answer.
+
+Both architectures are evaluated against single-LLM baselines on KalshiBench, a benchmark of over 1,500 prediction market questions from Kalshi with verified real-world outcomes occurring after model training cutoffs~\cite{nel2025kalshibench}. Crucially, all agents share a common evidence layer through Exa, an embeddings-based search engine, with retrieval filtered by publication date to prevent training data contamination. This design isolates reasoning capability from retrieval capability, enabling controlled comparison of the architectures.
+
+\subsection{Overview of Findings}
+
+Independent aggregation with confidence-weighted voting achieves the highest overall accuracy at 83.43\%, a modest but significant improvement over the best single-model baseline (DeepSeek, 82.42\%). Deliberative consensus, contrary to expectations from the multi-agent debate literature, degrades performance to approximately 76\%, below every single-model baseline, a result we attribute to persuasive error propagation and LLM sycophancy, where confidently wrong models flip correct ones during debate. Error correlations across models are moderate to high ($r = 0.529$--$0.689$), explaining why majority-vote accuracy falls well short of the theoretical Condorcet ceiling and placing a fundamental limit on aggregation-based approaches. Category-level analysis reveals a clear tier structure, with well-documented domains like Sports and Financials exceeding 92\% while ambiguous domains like Crypto and Companies remain below 67\% across all architectures, and 14\% of questions resist correction by any multi-agent approach. These findings inform a principled escalation framework: unanimous, high-confidence resolutions achieve 97.87\% accuracy while covering nearly half of all questions, enabling hybrid oracle systems to 
+auto-resolve straightforward cases while routing genuinely uncertain 
+questions to human arbitration.

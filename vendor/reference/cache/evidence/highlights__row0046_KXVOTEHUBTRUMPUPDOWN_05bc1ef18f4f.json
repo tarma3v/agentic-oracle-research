@@ -1,0 +1,100 @@
+{
+  "question_id": "KXVOTEHUBTRUMPUPDOWN",
+  "question_text": "Will Trump's approval rating increase this week?",
+  "resolution_criteria": "If the VoteHub time-adjusted average for Donald Trump's approval rating is above 43.8% at 10:00 AM November 7, then the market resolves to Yes.\nThe market resolves based on the VoteHub time-adjusted average displayed at 10:00 AM ET on November 7. The value must match exactly as displayed on VoteHub's platform, including subject name formatting. Values are compared using one decimal place precision. If VoteHub doesn't display data for the specified date, the most recent prior time-adjusted average is used. Only the time-adjusted average counts, not raw polling averages.",
+  "resolution_date": "2025-11-07T04:59:00Z",
+  "retrieval_timestamp": "2026-02-20T19:16:55.816634Z",
+  "query_used": "What is the result of this question \"Will Trump's approval rating increase this week\"",
+  "sources": [
+    {
+      "title": "Trump's Approval Polling Averages",
+      "url": "https://votehub.com/polls/",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "Polling Averages - VoteHub\n \nSearch\n \n \n--\n--\n--\n \nDashboard\n \nLog Out\n# Confidence intervals \n VoteHub logo \n \n*Our methodology.*\n |Date Range|Sample Size|Pollster|Sponsor|"
+      ]
+    },
+    {
+      "title": "Political News",
+      "url": "https://projects.fivethirtyeight.com/trump-approval-ratings/",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "Philadelphia sues Trump admin over removal of slavery memorial\n] \n* 2 days ago\n \nJonathan Ernst/Reuters | Denis Balibouse/Reuters\n \n ## Trump rescinds Canada's invite to join his Board of Peace amid feud with Carney\n \n* 2 days ago\n \nLeon Neal/Getty Images\n \n ## UK PM, others outraged at Trump's comments downplaying NATO role in Afghanistan war Prince Harry and the British Prime Minister slammed Trump over his comments.\n \n* 1 day ago\n \n Jose Luis Magana/AP\n \n ## Vance addresses criticism that Trump admin hasn't done enough on anti-abortion rights\n \n* 2 days ago ... ### 'Donald Trump is the person who caused Jan. 6,' Jack Smith tells House committee\n] \n* Jan 22\n ### US exits World Health Organization, says agency strayed from 'core mission'\n \n* Jan 22\n ### RNC moves ahead with efforts to have midterms convention\n \n* 2 days ago\n### Latest Videos\n ... ## JD Vance asked about detention of 5-year-old asylum seeker\n* Jan 23\n \n4:42 ## GOP Rep. Maria Elvira Salazar on Greenland: \u2018we are defending the Western world\u2019\n* Jan 22\n \n3:10 ... ## Rep. Jasmine Crockett shares details from former special counsel Jack Smith's report\n* Jan 22\n 1:45\n## Dem. Rep. Eric Swalwell says 'history will harshly judge' Republican colleagues\n* Jan 22 \n4:44\n## GOP Rep. Pete Sessions on Jack Smith testimony, Greenland threats and Epstein files\n* Jan 22 \n5:11\n## VP Vance heading to Minneapolis amid federal immigration crackdown\n* Jan 22\n ... ## Will a federal judge halt construction of the White House ballroom? The National Trust for Historic Preservation has filed a lawsuit aiming to halt the Trump administration's ... ] \n* 21 hours ago\n \n \n \n ## White House ballroom: Judge signals skepticism of Trump administration arguments ... \n \n## Here's what we know about Trump's 'framework' of a Greenland deal A U.S. source said it would give the U.S.\u00a0\"total access\"\u00a0to parts of Greenland.\n \n* Jan 22\n \n \n[\n## Vance, in Minneapolis, calls on local officials to 'lower the temperature' At"
+      ]
+    },
+    {
+      "title": "How high will Trump's approval rating go in 2026?",
+      "url": "https://polymarket.com/event/how-high-will-trumps-approval-rating-go-in-2026",
+      "published_date": "2023-11-02T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "How high will Trump's approval rating go in 2026?\nPast \nDec 31\n \nNEW\nDec 31, 2026\nPolymarket\n\u2191 44% $1,675 Vol.\n26%\nBuy Yes27\u00a2Buy No76\u00a2\n\u2191 45%\n$21 Vol.\n11%\nBuy Yes17\u00a2Buy No96\u00a2\n\u2191 46%\n$217 Vol.\n11%\nBuy Yes12\u00a2Buy No90\u00a2 ... This market will resolve to \u201cYes\u201d if Donald Trump\u2019s approval rating according to Silver Bulletin is equal to or higher than the listed value for any date between January 1 and December 31, 2026. Otherwise, this market will resolve to \u201cNo\u201d. Note that the approval ratings for this date must be finalized before it is considered for this market (namely, once ... Created At: Dec 11, 2025, 7:33 PM ET\nVolume\n$2,872\nEnd Date\nDec 31, 2026\nCreated At\nDec 11, 2025, 7:33 PM ET\nResolver 0x65070BE91... \n Propose resolution This market will resolve to \u201cYes\u201d if Donald Trump\u2019s approval rating according to Silver Bulletin is equal to or higher ... \u201cNo\u201d. Note that the approval ratings for this date must be finalized before it is considered for this market (namely, once ... # How high will Trump's approval rating go in 2026?\nPast \nDec 31\n \n$2,872 Vol.\nPolymarket\n\u2191 44% $1,675 Vol.\n26%\nBuy Yes 27\u00a2Buy No 76\u00a2\n\u2191 45%\n$21 Vol.\n11%\nBuy Yes 17\u00a2Buy No 96\u00a2\n\u2191 46%\n$217 Vol.\n11% Buy Yes 12\u00a2Buy No 90\u00a2\n\u2191 47%\n$276 Vol.\n9%\nBuy Yes 9.9\u00a2Buy No 91.9\u00a2\n\u2191 48"
+      ]
+    },
+    {
+      "title": "What will Trump's approval rating be on Saturday?",
+      "url": "https://kalshi.com/markets/kxtrumppolldaily/what-will-trumps-approval-rating-be-today/kxtrumppolldaily-26feb21",
+      "published_date": "2026-02-21T08:16:55.457Z",
+      "text": "",
+      "highlights": [
+        "Trending Politics Sports Culture Crypto Climate Econo mics Mentions Companies Financials Tech & Science What will Trump's approval rating be tomorrow? Odds & Predictions 2026"
+      ]
+    },
+    {
+      "title": "Donald Trump : Approval Polls",
+      "url": "https://projects.fivethirtyeight.com/polls/approval/donald-trump/",
+      "published_date": "2025-02-28T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "link> ## Partial government shutdown could cause Spring Break woes\n\n5 hours ago\n\n Chip Somodevilla/Getty Images ## Trump says he\u2019ll announce $5 billion in donations from members of his Board of Peace Members will also provide personnel for a stabilization force in Gaza, he said. \n\n4 hours ago ... ### Bondi, lawmakers spar over DOJ\u2019s Epstein document release\n\n1 day ago ### Trump State Department nominee confirmation in jeopardy after past Holocaust comments\n\nFeb 13 ### US and Iran to hold 2nd round of talks\n\n7 hours ago\n\n### Latest Videos\n\n1:29 ## ICE to spend nearly $40B on detention centers, documents show\n\n5 hours ago\n\n6:38 ## How Trump has transformed the presidential office\n\n7 hours ago\n\n1:50\n\n## Partial government shutdown hits DHS 10 hours ago\n\n1:33\n\n## 'Deeply troubling': Obama responds to Trump racist video post\n\n1 day ago\n\n5:04 ## Sen. Murkowski: 'There has been a shift' in conversation about US-European alliance\n\nFeb 13\n\n1:24 ## CA Gov. Gavin Newsom calls Pres. Trump \u201ctemporary\u201d in message to world leaders\n\nFeb 13\n\n4:05 ## Partial DHS shutdown looms as lawmakers leave without deal\n\nFeb 13\n\n4:02 ## Trump overturns EPA\u2019s climate change regulations\n\nFeb 13\n\n4:42 ## Newsom to world leaders: 'Donald Trump is temporary'\n\nFeb 13\n\n6:12 ... ## Rep. Massie says he doesn't have confidence in Bondi as attorney general \"She hasn\u2019t got any sort of accountability there at the DOJ,\" he said. \n\n1 day ago ... ## 'Deeply troubling': Obama responds to Trump racist video post The video was taken down after growing calls from both sides of the aisles. \n\n2 days ago ... Trump said he will be involved in the DHS funding negotiations. \n\nFeb 14 ## Trump says he will issue executive order on voter ID if legislation fails [Trump promised"
+      ]
+    },
+    {
+      "title": "Tracking Public Opinion of Trump's Washington",
+      "url": "https://pro.morningconsult.com/trackers/donald-trump-congress-policy-republicans-polling?amp=",
+      "published_date": "2025-02-18T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "'s approval rating nears second-term low \nBy Eli Yokley \nShare\nShare\n###### In This Tracker\n* Trump's approval ratings ... Morning Consult is tracking what voters across the country think about how President Donald Trump and Republicans in Congress are governing the United States ahead of the 2026 midterm elections. Each week, we\u2019ll update this page with fresh and timely data on all of the major questions facing Washington, including views about the people in charge, the ... ### Key Takeaways * **Trump's approval rating continues to slide**: Voters are 9 points more likely to disapprove than approve of Trump's job performance, nearing a second-term record low. Nationally, his Republican base remains stable, but that's not enough to offset the erosion elsewhere as Democrats harden against him and independents continue drifting negative. * **Republicans are losing ground on immigration trust**: Congressional Republicans still hold an edge over Democrats ... xlsx\n\u2022702Kb\n## # People\n### Trump's approval ratings\nMorning Consult Logo Latest survey conducted Feb. 6-9, 2026, among registered U.S. voters. ## * Trump began his second term by matching a record-high 52% approval from March 2017 . But voters soured on his job performance during the most disruptive part of his trade war, and he\u2019s yet to return to a net positive approval rating. * At a similar point in Trump\u2019s first term, 47% of voters approved and 47% disapproved of his job performance, making ... Latest survey conducted Feb. 6-9, 2026, among registered U.S. voters. Net favorability is the share of voters with favorable views minus the share with unfavorable views. ## * Trump\u2019s favorability ratings remain underwater, which has been the case more often than not since he took office. * Senate Majority Leader John Thune (R-S.D.), House Minority Leader Hakeem Jeffries (D-N.Y.) and House Speaker Mike ... ## * Voters are 27 points more likely to say they\u2019ve heard something negative about Trump than positive over the"
+      ]
+    },
+    {
+      "title": "President Trump Approval Rating: Latest Polls  - The New York Times",
+      "url": "https://www.nytimes.com/interactive/polls/donald-trump-approval-rating-polls.html?campaign_id=56&emc=edit_cn_20260215&instance_id=171126&nl=on-politics&regi_id=142617001&segment_id=215301&user_id=049617f19163dcc12640d16f8cf37f1d",
+      "published_date": "2025-03-17T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "U.S. attacksIran\n\n Trump policybill passed \u203a \n\nShutdownbegins Madurocaptured \u203a \n\nMay\n\nSept.\n\n2026\n\n40%\n\n50%\n\n60%\n\nFeb. 19\n\nCaroline SolerPolling researcher President Trump continues to face low approval ratings, which for the first time have fallen below where they stood at the same point in his first term. Much of the recent erosion appears tied to immigration issues, which were once one of his most popular policy areas. In a recent Quinnipiac survey , Trump\u2019s approval on immigration fell to its lowest point this term, while a Marist poll found that 65 percent of Americans say ICE has \u201cgone too far\u201d ... It is not uncommon for polls to show a fairly broad range of support on an issue. Results can vary because of the inherent challenges of polling \u2014 surveys can only be expected to be accurate within a couple of percentage points \u2014 or because polls were conducted using different methods and at different times. One of the reasons examining an average of ... Through current day Four years\n\n### Joe Biden vs. Trump\n\n### Trump: first term vs. second\n\n### Barack Obama vs. Trump ... President Trump\u2019s approval ratings were remarkably stable in the first year of his second term, even amid a number of polarizing issues. After an initial period of decline during his first 100 days in office, Trump\u2019s first-year approval ratings showed less variability than those of any presidential term since Bill Clinton, save those of his own first term. ### Latest polls\n\n- 2026 Congressional ballot \n- Presidential approval \n\n### U.S. Senate polls ... here . Presidential approval"
+      ]
+    },
+    {
+      "title": "329 days into  Donald\n          Trump's term",
+      "url": "https://www.economist.com/interactive/trump-approval-tracker",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "Last updated on December 10th 2025\n## Net approval rating, % points\n### By state\nBy demographic\nMost important issues Donald Trumpre-entered the Oval Office in January with a net approval rating of positive 6. Since then it has fallen, interrupted only by brief upticks. By early December it had dropped to -18. His polling numbers had only been that low once in his second term, back in October. This week it climbed back a bit, to -16. Americans are especially dissatisfied with Mr Trump\u2019s handling of inflation and the economy. Democrats have had some success focusing on \u201caffordability\u201d. Mr Trump has decried it as a \u201ccon job\u201d. On December 9th he held a rally in Monroe County\u2014 Pennsylvania, which voted for him in 2024 but for Joe Biden, his rival, in 2020\u2014during which he was supposed to ... Mr Trump was re-elected on a wave of economic pessimism, telling voters that \u201cincomes will skyrocket, inflation will ... second term. So far they have been disappointed. Ratings of his handling of the economy and inflation were net positive shortly after his inauguration. They have since fallen to strongly negative in the wake of his declarations of trade war and the ensuing response of investors. YouGov\u2019s data also suggest Americans now disapprove of his handling of ... Using YouGov\u2019s data,*The Economist*has projected Mr Trump\u2019s approval rating state by state. As you might expect, approval of Mr Trump is lowest in states that tend to vote for Democrats and highest in those that tend to vote for Republicans. Mr Trump\u2019s voters still overwhelmingly approve of his performance as president. But the projection also shows how dissatisfaction with Mr Trump is widespread even in states that voted for him just a few months ago. The numbers will make anxious reading for Republicans facing competitive races in next year\u2019s midterm elections. Trump\u2019s net approval rating by demographic, %-points\n50% confidence interval\n-80-60-40-20020ApproveDisapprove ... What is the most"
+      ]
+    },
+    {
+      "title": "President Trump\u2019s Approval Rating: Latest Polls",
+      "url": "https://www.nytimes.com/interactive/polls/donald-trump-approval-rating-polls.html",
+      "published_date": "2025-03-17T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "May Sept.\n\n2026\n\n40%\n\n50%\n\n60%\n\nJan. 7\n\n54%DisapproveDisapprove\n\n**Ruth Igielnik** Staff editor, polling President Trump faces low approval ratings overall, though even after a recent decline his ratings are still a bit above where they were a year into his first term. On the economy, a majority of Americans \u2014 including roughly one-third of Republicans \u2014 now say Trump is more responsible than former President Joe Biden for the current state of the economy, according to polls from Quinnipiac University and CBS/YouGov. ... It is not uncommon for polls to show a fairly broad range of support on an issue. Results can vary because of the ... because polls were conducted using different methods and at different times. One of the reasons examining an average of polls can be so useful is it can balance out these differences and make it easier to analyze change over time. Through current day Four years\n\n### Joe Biden vs. Trump\n\n### Trump: first term vs. second\n\n### Barack Obama vs. Trump ... Both of Trump\u2019s presidential terms began with historically low approval ratings. While his second term has been somewhat better reviewed by voters than his first, Trump started his current term with a net approval rating lower than any other presidents\u2019 going back to Bill Clinton. Several other recent presidents have seen their approval ratings go negative in the first six months of one of their terms, meaning that more people disapproved than approved of their ... here . Presidential approval"
+      ]
+    },
+    {
+      "title": "Trump Job Approval",
+      "url": "https://news.gallup.com/poll/203207/trump-job-approvalweekly.aspx",
+      "published_date": "2017-01-25T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "# Trump Job Approval\n|Date(s)|% Approve|% Disapprove| |12/1-15/2025|36%|59%|\n|11/3-25/2025|36%|60%|\n|10/1-16/2025|41%|54%|\n|09/2-16/2025|40%|56%|\n|08/1-20/2025|40%|56%| |07/7-21/2025|37%|58%|\n|06/2-19/2025|40%|57%|\n|05/1-18/2025|43%|53%|\n|04/1-14/2025|44%|53%|\n|03/3-16/2025|43%|53%| The approval ratings reported here are based on Gallup Daily tracking averages for President Donald Trump in 2017 and 2018, and periodic multiday Gallup polls for Trump starting in 2019. Learn more . Explore President Trump's approval ratings in depth and compare them with those of past presidents in the Gallup ... \n## Recommended\n \n Politics \nApr 12, 2019 ### Post-Mueller Report, Trump Approval Back at 45% High President Trump's job approval rating increased relatively sharply over the past month to 45% in April, matching his record high. \n Politics \nMar 29, 2019 ### Subgroup Differences in Trump Approval Mostly Party-Based Differences in Trump's job"
+      ]
+    }
+  ]
+}

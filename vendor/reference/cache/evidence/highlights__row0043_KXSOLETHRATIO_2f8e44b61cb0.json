@@ -1,0 +1,100 @@
+{
+  "question_id": "KXSOLETHRATIO",
+  "question_text": "Will the SOL/ETH ratio be above .05 before Jan 1, 2026?",
+  "resolution_criteria": "If the SOL/ETH ratio is above .05 at 10:00 AM ET on Jan 1, 2026, then the market resolves to Yes.\nThe SOL/ETH ratio is calculated as the SOL price in USD divided by the ETH price in USD at the specified time. The ratio check occurs once at the specified time on the target date. If the primary source (CoinGecko) is unavailable at the specified time, the most recent available data point within the 1 hour prior will be used. If no data is available within 1 hour prior, fallback sources will be consulted in hierarchical order: CoinMarketCap, CryptoCompare, and Binance. For the \"above\" operator, the ratio must be strictly greater than the threshold value. For the \"below\" operator, the ratio must be strictly less than the threshold value. If either SOL or ETH experiences a chain halt lasting more than 6 hours that includes the check time, the last available price before the halt will be used.",
+  "resolution_date": "2025-09-12T21:36:00.905817Z",
+  "retrieval_timestamp": "2026-02-23T06:31:13.183415Z",
+  "query_used": "What is the result of this question \"Will the SOL/ETH ratio be above .05 before Jan 1, 2026\"",
+  "sources": [
+    {
+      "title": "Kalshi Prediction Market Odds &amp; Market Details | Bitcoin.com Markets",
+      "url": "https://markets.bitcoin.com/prediction/kalshi/how-high-will-the-sol-eth-ratio-be-in-2025-KXSOLETHRATIO-26JAN01",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "# Top Coins\n\n#\n\nCoin\n\nPrice\n\n24h\n\nMarket Cap\n\nVolume\n\n7 day trend\n\nActions Kalshi Events Polymarket Events"
+      ]
+    },
+    {
+      "title": "Price of Solana by end of 2026? Odds &amp; Predictions",
+      "url": "https://kalshi.com/markets/kxsold26/sol-price-end-of-2026/kxsold26-27jan0100",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "Price of Solana by end of 2026? Odds & Predictions\"}\""
+      ]
+    },
+    {
+      "title": "SOL price range on Jan 20, 2026 at 3pm EST? Odds & Predictions",
+      "url": "https://kalshi.com/markets/kxsole/sol-range/kxsole-26jan2015",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "SOL price range on Jan 20, 2026 at 3pm EST? Odds & Predictions"
+      ]
+    },
+    {
+      "title": "SOL price range on Jan 11, 2026 at 3pm EST? Odds & Predictions",
+      "url": "https://kalshi.com/markets/kxsole/sol-range/kxsole-26jan1115",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "SOL price range on Jan 11, 2026 at 3pm EST? Odds & Predictions"
+      ]
+    },
+    {
+      "title": "What price will Solana hit in January?",
+      "url": "https://polymarket.com/event/what-price-will-solana-hit-in-january-2026/will-solana-reach-170-in-january-2026",
+      "published_date": "2025-02-01T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "price will Solana hit in January?\n$12,118,230Vol.\nFeb 1, 2026\nPolymarket ### \u2191210\n$1,563,298Vol.\nNo\n### \u2191200\n$618,583Vol.\nNo\n### \u2191190\n$275,543Vol.\nNo\n### \u2191180\n$382,029Vol.\nNo\n### \u2191170 ... This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for SOL/USDT during the month specified in the title (from 00:00 AM ET on the first day to 11:59 PM ET on the last), has a final High price equal to or greater than the price specified in the title. Otherwise, this market will resolve to \"No.\" ... Please note that the outcome of this market depends solely on the price data from the Binance SOL/USDT trading pair. ... market. Created At:Jan 1, 2026, 2:39 PM ET\nVolume\n$12,118,230\nEnd Date\nFeb 1, 2026\nCreated At\nJan 1, 2026, 2:39 PM ET\nResolver ... This market will immediately resolve to \"\"Yes\"\" if any Binance 1 minute candle for SOL/USDT during ... market. Outcome proposed: No\nNo dispute\nFinal outcome: No\nComments(602)Top HoldersActivity\nPost\nBeware of external links. ... # What price will Solana hit in January?\n$12,118,230Vol.\nPolymarket\n\u2191210\n$1,563,298Vol.\nNo\n\u2191200\n$618,583Vol.\nNo\n\u2191190 $275,543Vol.\nNo\n\u2191180\n$382,029Vol.\nNo\n\u2191170\n$472,778Vol.\nNo\n\u2191160\n$609,487Vol.\nNo\n\u2191150\n$1,068,586Vol.\nNo\n\u2191140\n$220,554Vol. ... ### Market Context\n### What price will Solana hit in January?\nGenerate\n### About\nVolume\n$12,118,230\nEnd Date Feb 1, 2026\nCreated At\nJan"
+      ]
+    },
+    {
+      "title": "What price will Solana hit before 2026? Betting Odds & Predictions | Polymarket",
+      "url": "https://polymarket.com/event/what-price-will-solana-hit-before-2026/will-solana-reach-260-before-2026-327-264-879-598",
+      "published_date": "2025-02-01T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "price will Solana hit before 2026?\n$9,373,960Vol.\nDec 31, 2025 Polymarket\n\u2191580\n$1,342,551Vol.\nNo\n\u2191500\n$630,355Vol.\nNo\n\u2191400\n$768,071Vol.\nNo\n\u2191310\n$713,759Vol.\nNo\n\u2191260\n$1,737,633Vol.\nNo ... $23,542Vol.\nYes\n\u2193140\n$394,289Vol.\nYes\n\u2193130\n$242,941Vol.\nYes\n\u2193120\n$1,192,366Vol.\nYes\n\u219390\n$1,480,323Vol.\nNo\n\u219370 $648,757Vol.\nNo\n## Rules\n## Market Context This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Solana (SOL/USDT) between July 10, 2025, 10:00 and December 31, 2025, 23:59 in the ET timezone has a final \"High\" price equal to or greater than the price specified in the title. Otherwise, this market will resolve to \"No.\" The resolution source for this market is Binance, specifically the SOL/USDT \"High\" prices available ... Please note that the outcome of this market depends solely on the price data from the Binance SOL/USDT trading pair. ... Created At:Jul 10, 2025, 11:42 AM ET\nVolume\n$9,373,960\nEnd Date\nDec 31, 2025\nCreated At\nJul 10, 2025, 11:42 AM ET Resolver\n 0x157Ce2d67... This market will immediately resolve to \"\"Yes\"\" if any Binance 1 minute candle for Solana ... market. Outcome proposed: No\nNo dispute\nFinal outcome: No\n## Comments (603)\n## Top Holders\n## Activity\nPost ... Crypto \u00b7 Recurring \n# What price will Solana hit before 2026?\n$9,373,960Vol.\nPolymarket\n\u2191580 $1"
+      ]
+    },
+    {
+      "title": "What price will Solana hit before 2026?",
+      "url": "https://polymarket.com/event/what-price-will-solana-hit-before-2026",
+      "published_date": "2025-02-01T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "What price will Solana hit before 2026?\n$9,373,960Vol.\nDec 31, 2025 Polymarket\n### \u2191580\n$1,342,551Vol.\nNo\n### \u2191500\n$630,355Vol.\nNo\n### \u2191400\n$768,071Vol.\nNo\n### \u2191310\n$713,759Vol.\nNo ... ### \u2193120\n$1,192,366Vol.\nYes\n### \u219390\n$1,480,323Vol.\nNo\n### \u219370\n$648,757Vol.\nNo\n### Market Context ### What price will Solana hit before 2026?\nGenerate\n### Rules This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Solana (SOL/USDT) between July 10, 2025, 10:00 and December 31, 2025, 23:59 in the ET timezone has a final \"High\" price equal to or greater than the price specified in the title. Otherwise, this market will resolve to \"No.\" ... Please note that the outcome of this market depends solely on the price data from the Binance SOL/USDT trading pair. ... market. Created At:Aug 16, 2025, 9:54 AM ET\nVolume\n$9,373,960\nEnd Date\nDec 31, 2025\nCreated At\nAug 16, 2025, 9:54 AM ET ... This market will immediately resolve to \"\"Yes\"\" if any Binance 1 minute candle for Solana ... Please note that the outcome of this market depends solely on the price data from the Binance SOL/USDT trading pair. ... market. Outcome proposed: No\nNo dispute\nFinal outcome: No\nComments(601)Top HoldersActivity\nPost\nBeware of external links. ... # What price will Solana hit before 2026?\n$9,373,960Vol.\nPolymarket\n\u2191580\n$1,342,551Vol.\nNo\n\u2191500\n$630,355Vol.\nNo\n\u2191400 ... ### What price will Solana hit before 2026?\nGenerate\n### About\nVolume\n$9,373,960\nEnd Date\nDec 31, 2025\nCreated At ... Will Zcash dip to $100 by December 31, 2026?\n49%\n] [\n Market icon Will UNI reach"
+      ]
+    },
+    {
+      "title": "Polymarket Odds: What price will Solana hit in 2026? (AI Predictions)",
+      "url": "https://polychances.com/polymarket-events/what-price-will-solana-hit-before-2027/",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "Date:November 24, 2025\nEnd Date:January 1, 2027 View on Polymarket\u2197 \nDescription\nWhat price will Solana hit before 2027? ## Aggregated Probability Analysis\n\u2191320:\n15.54%\n\u2191200:\n30.59%\n\u2191160:\n22.13%\nPredicted on:\nJanuary 21, 2026 4:41 am ET ... **Executive Summary**The analysis predicts that Solana (SOL) will hit the price target of**\u2191 160**(Option 6) before 2027.( polymarket.com , mlq.ai , mlq.ai , coinbase.com ) Current market data as ... event's bullish outcome. Higher targets like**\u2191 200**(Option 5) show probabilities around 45-54%, indicating that while ... The analysis indicates that the most likely final resolution for the question \"What price will Solana hit before 2027?\" is the outcome corresponding to \"\u2191 200\" (option 5). The prediction is that Solana (SOL) will reach or exceed $200 at some point before 2027. This outcome is judged more probable than the alternatives because the on-chain recovery, ... Combining the baseline price (\\~$130\u2013$145 in January 2026), demonstrable ecosystem growth (multi\u2011billion TVL, higher ... **Summary statement** ... The analysis predicts that the Polymarket event \"What price will Solana hit in 2026?\" (resolving based on the highest USD price Solana reaches before 2027, using data from sources like CoinMarketCap) will resolve to outcome 5: \u2191200. This outcome corresponds to Solana reaching a peak price of $200 or higher during 2026, fitting within the event's ... **Executive Summary**: As of January 21, 2026, Solana trades at approximately $127, with a year-to-date high of around $148. The cryptocurrency has already surpassed the $140 threshold (option 15), confirming upward momentum early in the year. Objective forecasts from analysts, historical patterns in crypto bull cycles, and current network fundamentals indicate a high likelihood of reaching $200+ during 2026, though exceeding $240 (option 4) appears less probable amid ... **Historical Patterns and Precedents**: Solana's 2025 all-time high reached \\~$"
+      ]
+    },
+    {
+      "title": "Will SOL flip ETH in 2025?",
+      "url": "https://polymarket.com/event/will-sol-flip-eth-in-2025",
+      "published_date": "2025-02-12T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "?\n\\<1% chance\\<1% chance\nPolymarket ... This is a market on whether the market capitalization of Solana (SOL) will surpass that of Ethereum (ETH) within this market's timeframe, according to CoinGecko. This market will resolve based on CoinGecko's data for each coin, ... tively. This market's timeframe spans from February 12, 2025, 10:00 AM ET, to December 31, 2025, 11:59 PM ET (inclusive). This market will resolve to \"Yes\" if at any point within this market's timeframe SOL has a greater market cap than ETH according to CoinGecko. Otherwise, this market will resolve to \"No\". If CoinGecko stops showing relevant data through January 1, 2026, 12:00 PM ET, data from CoinMarketCap will be used ... Created At:Feb 12, 2025, 3:52 PM ET\nVolume\n$212,157\nEnd Date\nDec 31, 2025\nCreated At\nFeb 12, 2025, 3:52 PM ET\nResolver ... This is a market on whether the market capitalization of Solana (SOL) will surpass that of Ethereum (ETH) within this ... This market will resolve to \"Yes\" if at any point within this market's timeframe SOL has a greater market cap than ETH according to CoinGecko. Otherwise, this market will resolve to \"No\". ... instead. Outcome proposed: No\nNo dispute\nFinal outcome: No\nComments(29)Top HoldersActivity\nPost\nBeware of external links.\nNewest ... # Will SOL flip ETH in 2025?\n\\<1% chance\\<1% chance\nPolymarket\n$212,157Vol.\n$212,157Vol.\nDec 31, 2025 ### Market Context\n### Will SOL flip ETH in 2025?\nGenerate\n### About This is a market on whether the market capitalization of Solana (SOL) will surpass that of Ethereum (ETH) within this market's timeframe, according to CoinGecko. This market will resolve based on CoinGecko's data for each coin, ... This market will resolve to \"Yes\" if at any point within this market's timeframe SOL has a greater ... This is a market on whether the market capitalization of Solana (SOL) will surpass that of Ethereum (ETH) within this ... This market will resolve to \"Yes\" if at any point within this market's timeframe SOL has a greater"
+      ]
+    },
+    {
+      "title": "Will SOL flip ETH before May? Predictions & Odds | Polymarket",
+      "url": "https://polymarket.com/event/will-sol-flip-eth-before-may",
+      "published_date": "2025-01-22T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Context This is a market on whether the market capitalization of Solana (SOL) will surpass that of Ethereum (ETH) within this market's timeframe, according to CoinGecko. This market will resolve based on CoinGecko's data for each coin, currently available at https://www.coingecko.com/en/coins/solana and https://www.coingecko.com/en/coins/ethereum respectively. This market's timeframe spans from January 22, 2025, 3:00 PM ET, to April 30, 2025, 11:59 PM ET (inclusive). This market will resolve to \"Yes\" if at any point within this market's timeframe SOL has a greater market cap than ETH according to CoinGecko. Otherwise, this market will resolve to \"No\". If CoinGecko stops showing relevant data through May 1, 2025, 12:00 PM ET, data from CoinMarketCap will be used instead. Outcome proposed: No\n\nNo dispute\n\nFinal outcome: No\n\nPost\n\nBeware of external links.\n\nNewest ... This is a market on whether the market capitalization of Solana (SOL) will surpass that of Ethereum (ETH) within this market's timeframe, according to CoinGecko. This market will resolve based on CoinGecko's data for each coin, currently ... This market's timeframe spans from January 22, 2025, 3:00 PM ET, to April 30, 2025, 11:59 PM ET (inclusive). This market will resolve to \"Yes\" if at any point within this market's timeframe SOL has a greater market cap than ETH according to CoinGecko. Otherwise, this market will resolve to \"No\". If CoinGecko stops showing relevant data through May 1, 2025, 12:00 PM ET, data from CoinMarketCap will be used instead. Outcome proposed: No\n\nNo dispute\n\nFinal outcome: No"
+      ]
+    }
+  ]
+}

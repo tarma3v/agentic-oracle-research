@@ -1,0 +1,100 @@
+{
+  "question_id": "KXNFLWINS-NYG",
+  "question_text": "Will the New York G pro football team win more than 16 times this season?",
+  "resolution_criteria": "If the New York G pro football team has more than 16 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+  "resolution_date": "2025-09-23T16:30:30.108822Z",
+  "retrieval_timestamp": "2026-02-23T05:58:05.450530Z",
+  "query_used": "What is the result of this question \"Will the New York G pro football team win more than 16 times this season\"",
+  "sources": [
+    {
+      "title": "NFL playoff projections: Win totals and Super Bowl odds for every team",
+      "url": "https://www.washingtonpost.com/sports/interactive/2025/nfl-playoff-odds-standings-predictions-2025-26/",
+      "published_date": "2025-09-09T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "projections model has the answers you seek, in the form of season forecasts for all 32 teams, which we produced ... MAKE PLAYOFFS\n\nWIN DIVISION\n\nTOP SEED\n\nWIN SB\n\n2\n\nNew England\n\nPatriots (16-3)\n\n10\n\nBuffalo\n\nBills (13-6)\n\n26\n\nMiami Dolphins (7-10)\n\n32\n\nNew York\n\nJets (3-14) | +8 | 14.0 | 100% | 100% | 0% | 30% |\n| --- | --- | --- | --- | --- | --- |\n| +3.5 | 12.0 | 100% | 0% | 0% | 0% | | -4.5 | 7.0 | 0% | 0% | 0% | 0% |\n| -12.5 | 3.0 | 0% | 0% | 0% | 0% | ... WIN DIVISION\n\nTOP SEED\n\nWIN SB\n\n11\n\nPhiladelphia\n\nEagles (11-7)\n\n20\n\nDallas\n\nCowboys (7-9-1)\n\n21\n\nNew York Giants (4-13)\n\n29\n\nWashington\n\nCommanders (5-12) | +3.5 | 11.0 | 100% | 100% | 0% | 0% |\n| --- | --- | --- | --- | --- | --- |\n| -3 | 7.5 | 0% | 0% | 0% | 0% | ... *Neutral MoV is a team\u2019s predicted margin of victory against an average opponent on a neutral field.\n\nAbout this story The teams\u2019 power rating measures are based on point differential and strength of schedule, adjusted for league-average performance. The ratings are expressed in points per game, with higher values indicating stronger teams. To get an ... points for home-field advantage. To determine the chances each team has to win the division and make the playoffs, we ... heavily. Illustrations by Artur Galocha . Comments"
+      ]
+    },
+    {
+      "title": "Predicting win-loss records for all 32 NFL teams",
+      "url": "https://www.washingtonpost.com/sports/2025/09/04/nfl-win-total-projections-2025/",
+      "published_date": "2025-09-04T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "There are any number of ways that the 2025 NFL season can unfold \u2014 which is why we simulated every game 25,000 times to come up with our best prediction for how things will play out. The result is below \u2014 win-total projections for all 32 NFL teams, broken down by division. And if you want to keep up with our model all season long, check back on Tuesdays when we update each team\u2019s playoff odds, division titles and expected final records. **Comments**\n\nNFL\n\nHAND CURATED - Neil Greenberg\\\n\\\nRanking all 32 NFL teams entering Week 18 of the season\\\n\\\nDecember 30, 2025 - Adam Kilgore\\\n\\\nWhat to know from NFL Week 17: Browns stun the Steelers to save Week 18\\\n\\ December 29, 2025 \n- Mark Maske\\\n\\\nDrake Maye looks like the MVP, and the Patriots rule the AFC East again\\ \\\nDecember 28, 2025 View 3 more storiesView 3 more stories\n\nSign up"
+      ]
+    },
+    {
+      "title": "Giants Playoff Chances, Prediction for 2025",
+      "url": "https://sports.betmgm.com/en/blog/nfl/new-york-giants-playoff-chances-betting-odds-bm16/",
+      "published_date": "2025-08-13T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "More...\n Football # Giants Playoff Chances: Will New York Make the Postseason?\n Nick Hennion Nov 04, 2024, 3:21 PM\nmin read ![New York Giants defensive tackle Dexter Lawrence (97) takes the field for an NFL football game against the ... (AP Photo/Adam Hunger)\n * Based on preseason odds, the New York Giants are +400 to make the postseason in 2024-25. * New York reached the divisional round in 2022, but missed the postseason in 2023. * Why a lackluster offense means the Giants will miss this year\u2019s postseason. Based on NFL odds and Giants playoff odds , the New York Giants are predicted to miss the postseason this year. Following an offseason where New York lost Saquon Barkley, the Giants are +400 to make the NFL playoffs. That implies a probability of 20%. ... off the board\n \noff the board### Prediction: Will the New York Giants Make the Playoffs? I predict the New York Giants will miss the postseason. If their fate was decided entirely by their front seven, they might have a chance of making the playoffs. However, a Barkley-less offense featuring a bad offensive line means the Giants, who are a favorite three times based on lookahead lines, are likely to miss the postseason. ### New York Giants Week-by-Week Playoff Chances\n|Week Number|Odds to Make Playoffs|Implied Probability| Preseason|+400|20%|\nWeek 2|+600|14.3%|\nWeek 3|+2000|4.76%|\nWeek 4|+750|11.8%|\nWeek 5|+1100|8.33%|\nWeek 6|+750|11.8%| ... ### When Was the Last Time the New York Giants Won the Super Bowl? ... ## Related Articles\n* Giants Over Under Wins, 2025 NFL Win Totals ... Nick"
+      ]
+    },
+    {
+      "title": "Giants win total and playoff odds",
+      "url": "https://sports.yahoo.com/article/giants-win-total-playoff-odds-234517800.html#:~:text=Odds%20to%20make%20the%20playoffs&text=This%20is%20in%20line%20with%20a%20recent%20projection%20from%20The,chance%20of%20making%20the%20playoffs.",
+      "published_date": "2025-08-25T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "New York Giants quarterback Russell Wilson (3) celebrates a touchdown during the first quarter against the New England ... Chris Pflum\n\nAugust 25, 2025 at 11:45 PM UTC\u00b7\n\n3 min read\n\nJust how many games will the New York Giants win in 2025? The Giants are coming off one of their best pre-season performances in recent memory. And while preseason results should always be taken with a grain of salt, the Giants largely played hard and executed well. They even showed growth and improvement over the course of the three games. ... But how will that translate into the regular season? There\u2019s obviously excitement How is the Giants\u2019 unexpected ... We decided to look to the betting odds to see what the perception of the Giants is from the people who have money on the line. ## Giants\u2019 win total\n\n**Fanduel odds**: 6 wins (-105) This is in line with the over/under we saw during the off-season. Throughout the spring and summer the over/under line was at 5.5 wins, and most slightly favoring the \u201cunder\u201d. Now though, the betting markets seem to have coalesced around ... FanDuel lists the money line for over 5.5 wins at -110, while the line for over 6.5 wins is +165. Combined with their line on a 6-win season being an almost even -105, that pretty much succinctly suggests that most in the betting market are expecting a 6-11 season from the Giants. Advertisement\n\nAdvertisement\n\nAdvertisement For what it\u2019s worth, that\u2019s my prediction as well, though I\u2019d add that I would not be surprised to see them exceed ... still miss the playoffs. The NFC is expected to be formidable in 2025 and produce several very good teams. It\u2019s ... For what it\u2019s worth, the Giants are the fifth least likely team to win the Super Bowl at +17,500. They lead the ... tokens around various futures markets throughout the day."
+      ]
+    },
+    {
+      "title": "2025 New York Giants Win Total Over/Under Odds",
+      "url": "https://foxsports.com/articles/nfl/2025-new-york-giants-win-total-over-under-odds",
+      "published_date": "2025-09-11T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "picking up wins in three games last season, the New York Giants could take a leap forward in 2025, as they have an over/under of 5.5 wins. The New York Giants, as of Sept. 5, are +20000 to win the Super Bowl , the fourth-worst odds in the NFL . ### Jalen Hurts and Dak Prescott are Under Duress ahead of 2025 season opener \\| First Things First ... ## Giants Postseason Odds\n\n- **Odds to win the NFC East:** +1700\n- **Odds to win the Super Bowl:** +20000 ADVERTISEMENT\n\nGet more odds for the New York Giants on FOX Sports! ## Giants: Win Total Odds & Over/Under | Over/Under | Over Payout | Under Payout |\n| --- | --- | --- |\n| 5.5 | -120 | +100 | Learn more about the New York Giants on FOX Sports!\n\n## Giants 2024 Performance - Last season the Giants finished 3-14 and failed to make the playoffs. - Last year New York won only once at home and twice on the road. - When favored, the Giants lost each time (0-1). As underdogs, they were 3-13. - With the division, New York went winless (0-6), and was 1-11 in the conference. ... - The Giants have 10 games this season against teams that went over.500 in 2024. That schedule includes seven teams ... | Jason Pinnock | SAF | 16 | 49ers | FOX Sports created this story using technology provided by Data Skrive and data from Sportradar. ... National Football League New York Giants \n\nWhat did you think of this story?\n\nshare ... Item 1 of 3\n\nin this topic\n\n National Football League \n\n New York Giants \n\n Gambling ... Top Sh"
+      ]
+    },
+    {
+      "title": "How Many Games Will the Giants Win in 2025? Win Total Betting Odds and Prediction",
+      "url": "https://www.fanduel.com/research/how-many-games-will-the-new-york-giants-win-in-2025-win-total-betting-odds-and-prediction",
+      "published_date": "2025-06-17T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "START YOUR OWN WINNING STREAK\n\n NFL # How Many Games Will the Giants Win in 2025? Win Total Betting Odds and Prediction Jim Sannes \u2022 @JimSannes \n\n8mo\n\nSubscribe to our newsletter\n\nSubscribe I confirm I am 21+ years of age With the 2025 NFL season now just around the corner, we've got a good idea of what each roster will look like this fall. What should we expect from the New York Giants , and how are the betting markets viewing them? We're going to dive into that today, checking out FanDuel Sportsbook's NFL betting odds for the Giants and then discussing what my win total model says is in store. NOTE: Win total projection is as of publication on June 17th. All betting odds are subject to change. To see ... ## Giants 2025 Win Total Prediction The outlook for Joe Schoen and Brian Daboll as they try to salvage their jobs this year isn't great. I've got the Giants projected at 5.5 wins, in line with the betting markets. Not all of that is the Giants' fault. They have the toughest schedule in the league by my numbers, one that docks them 0.82 wins versus where they'd be against a league-average slate of opponents"
+      ]
+    },
+    {
+      "title": "Jets Over Under Wins, 2025 NFL Win Totals",
+      "url": "https://sports.betmgm.com/en/blog/nfl/new-york-jets-win-total-over-under-wins-this-season-sgc/",
+      "published_date": "2025-08-20T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "otions] \nSearch For More...\n Football \n New York Jets # Jets Over Under Wins, 2025 NFL Win Totals\n Nick Hennion May 08, 2025, 4:07 PM\nmin read \n \n * The Jets\u2019 2025 win total is set at 5.5 wins at BetMGM. * New York, with a 2024 win total set at 9.5, earned only five wins. * Based on historical precedent, I predict the Jets clear their win total in 2025. For the 2025 NFL season, the Jets\u2019 win total sits at 5.5 wins at the BetMGM online sportsbook . New York entered last season with a bright outlook. Aaron Rodgers returned from injury, and the Jets closed with a win ... ## Jets Win Total Odds\nThe Jets\u2019 season win total is set at 5.5 games. The odds for New York to win at least six games is -150, an implied probability of 60%. ... For those reasons, I like the over on the Jets\u2019 season win total.\n \n## Most Wins in Jets History The Jets\u2019 franchise record for most regular season wins is 12. In 1998, the Jets posted a 12-4 record before ... BetMGM is the premier destination for NFL futures throughout the year. Whether you\u2019re a new bettor browsing win totals in May, a casual fan placing a conference champion bet in August, ... Nick Hennion is a senior content writer for BetMGM. His previous stops include VSiN, NBC Sports, The Action Network and ... New York Jets NFL Football Sports \n \n ## Lat"
+      ]
+    },
+    {
+      "title": "How Many Games Will the Jets Win in 2025? Win Total Betting Odds and Prediction",
+      "url": "https://www.fanduel.com/research/how-many-games-will-the-new-york-jets-win-in-2025-win-total-betting-odds-and-prediction",
+      "published_date": "2025-06-17T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Odds] ... - Casino \n- Canada \n- TV & Podcasts - NFL - Home \n - News \n - Teams \n - Scores/Schedule \n - Odds ... - TV & Podcasts \n- Email Sign-Up\n\n\nNFL News Home News Teams Scores/Schedule Odds Daily ... Prop Bets NFL Predictions START YOUR OWN\u00a0WINNING\u00a0STREAK\n\n NFL # How Many Games Will the Jets Win in 2025? Win Total Betting Odds and Prediction Jim Sannes \u2022 @JimSannes \n\n7mo\n\nSubscribe to our newsletter\n\nSubscribe I confirm I am 21+ years of age With the 2025 NFL season now just around the corner, we've got a good idea of what each roster will look like this fall. What should we expect from the New York Jets , and how are the betting markets viewing them? We're going to dive into that today, checking out FanDuel Sportsbook's NFL betting odds for the Jets and then discussing what my win total model says is in store. _NOTE: Win total projection is as of publication on June 17th. All betting odds are subject to change. To see ... Odds/lines subject to change\n\nOdds not available at this time.\n\nPlease check back later. ... In order to bet the over on the Jets at 5.5 wins, you have to lay -160 as things stand. I understand why that's the case, though, as my model has them at 6.6 this year. A lot of the infrastructure around Justin Fields is decent. He has a solid top pass-catcher in [Garrett ... Which NFL bets stand out to you"
+      ]
+    },
+    {
+      "title": "2025 New York Jets Win Total Over/Under Odds",
+      "url": "https://www.foxsports.com/articles/nfl/2025-new-york-jets-win-total-over-under-odds",
+      "published_date": "2025-06-11T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "# 2025 New York Jets Win Total Over/Under Odds\nUpdatedSep. 5, 2025 6:30 a.m. ET\nshare ... Bookmakers are anticipating the New York Jets to improve slightly in 2025, as the team's over/under is set at 6.5 wins, compared to the five games they won last season. The New York Jets as of now have the fourth-longest odds to win the Super Bowl in the NFL (+20000). ### TOP 5 NFL BETS TO MAKE FOR WEEK 1\n \n TOP 5 NFL BETS TO MAKE FOR WEEK 1 ... ## Jets Postseason Odds\n* **Odds to win the AFC East:**+1700\n* **Odds to win the Super Bowl:**+20000 Get more odds for the New York Jets on FOX Sports!\n## Jets: Win Total Odds & Over/Under |Over/Under|Over Payout|Under Payout|\n6.5|+125|-145|\nLearn more about the New York Jets on FOX Sports! ## Jets 2024 Performance * Last year the Jets did not qualify for the postseason after finishing the regular season at 5-12. ... Haason Reddick |OLB|9| Buccaneers |\n Brandin Echols |CB|12|Steelers| FOX Sports created this story using technology provided by Data Skrive and data from Sportradar. Want great stories delivered right to your inbox? Create or log in to your FOX Sports account, follow leagues, teams ... \nArrow pointing to the leftArrow pointing to the right\n1. 2. 3. Item 1 of 3\nin this topic National Football League National Football League New York Jets New York Jets \n Gambling \nNEXT STORY [ Next Story Image: NFL Playoff Bracket, Schedule: Divisional Round Set With 49ers-Seahawks on ... Basketball NASCAR Image NASCAR Top Shows"
+      ]
+    },
+    {
+      "title": "New York Giants Projections",
+      "url": "https://www.teamrankings.com/nfl/team/new-york-giants/projections",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "email here for exclusive New York predictions and analysis. It's free.\n\nEmail # New York Giants Projections\n\n## Team Menu: NY Giants Giants - Overview \n - Overview \n - Player Stats \n - Team Stats - Power Ratings \n - Projections \n- Results & Trends \n - Game Log - ATS Results \n - Over/Under Results \n - Win-Loss Trends \n - ATS Trends ... | | | |\n| --- | --- | --- |\n| #### Final Record 3.5 - 13.5 | #### Make Playoffs 0.0% | #### Win Super Bowl 0.0% | ## Projected Record (Currently Scheduled Games Only)\n\n## Record Forecast | Scenario | overall W | L | Playoffs | Win Division | Top Seed |\n| --- | --- | --- | --- | --- | --- | | Miracle (90th %ile) | 4 | 13 | N | N | N |\n| Good Luck (70th %ile) | 4 | 13 | N | N | N | ... | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% |\n| Make Div Round | Make Conf Champ | Make SB | Win SB | 1-Week Change | ... | --- | --- | --- | --- | --- | --- | --- | --- |\n| Philadelphia | 11 | 5 | 0 | 11.8 | 5.2 | 0.0 | 100.0% | ... | Washington | 4 | 12 | 0 | 4.2 | 12.8 | 0.0 | 0.0% | | NY Giants | 3 | 13 | 0 | 3.5 | 13.5 | 0.0 | 0.0% | ... - Matchups & SchedulesMatchups \n - Season Schedule \n - New Orleans @ Atlanta ... - New York Giants \n - New York Jets \n - Philadelphia Eagles ... Printed from TeamRankings.com - \u00a9 2005-2026 Team"
+      ]
+    }
+  ]
+}

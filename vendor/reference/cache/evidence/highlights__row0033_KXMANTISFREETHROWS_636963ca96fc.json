@@ -1,0 +1,100 @@
+{
+  "question_id": "KXMANTISFREETHROWS",
+  "question_text": "How long will it take for Young Mantis to hit 100 free throws in a row?",
+  "resolution_criteria": "If it takes Young Mantis 345 or above hours to make 100 consecutive free throws, then the market resolves to Yes.\nIf it takes 12 hours and 59 minutes, for example, the market called \"7 to 12 hours\" will resolve to Yes. Only one market can resolve to Yes (at most).",
+  "resolution_date": "2025-08-05T02:02:55.963188Z",
+  "retrieval_timestamp": "2026-02-23T06:28:30.665955Z",
+  "query_used": "What is the result of this question \"How long will it take for Young Mantis to hit 100 free throws in a row\"",
+  "sources": [
+    {
+      "title": "LOCKING MYSELF IN A GYM FOR 82 HOURS (MADE OVER 7,500 FREE THROWS)",
+      "url": "https://www.youtube.com/watch?v=Yb9V3gR4xHw",
+      "published_date": "2024-04-02T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "iframe About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket \u00a9 2024 Google LLC"
+      ]
+    },
+    {
+      "title": "This Man Has Locked Himself in a Gym for 60 Hours to Make Free Throw History\u2014And He's Still Going",
+      "url": "https://www.dimers.com/news/this-man-has-locked-himself-in-a-gym-for-60-hours-to-make-free-throw-history-and-still-going",
+      "published_date": "2024-03-26T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "the nation dives into college basketball, Indiana's own Austin Taylor, better known as \"Young Mantis,\" has embarked on an ambitious challenge that has lasted 60 hours and counting. JUST MISSED SHOT 100 FOR THE 4TH TIME \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d pic.twitter.com/o0eG1NUVNF \u2014 Mantis (@YoungMantis2) March 25, 2024 The Man, The Myth, The Mantis Content creator Young Mantis, who boasts over 150,000 subscribers on YouTube, has been in a gym since Saturday in a bid to achieve a basketball feat as remarkable as it is wild. Young Mantis, is currently undertaking the Herculean task of making 100 consecutive free throws, with a twist for the final shot: he will attempt it blindfolded. MORE: Improve your odds with Dimers Pro. Subscribers get hundreds of data-driven bets daily across thousands of games. Join now to get instant access. Impressive Stats That Rival the Pros At the time of writing, Mantis has attempted an astonishing 6,888 shots. Out of these, he successfully made 6,261 shots. The tally of shots missed stands at 627. Despite these misses, his success rate of 90.9% is impressive, with only Steph Curry, at 91.0%, having a better record ... and shots missed at 150.5, all of which have already gone higher. The Final Hurdle However, the most gripping part of Mantis' journey is his repeated face-offs with the final hurdle\u2014the 100th shot, taken blindfolded. He has reached this milestone four times, only to falter at the last moment, and he won't leave the gym ... and maybe, just maybe, the moment when history is made. Will he make the 100th shot? Strap in, folks\u2014this is the real March Madness. Please note"
+      ]
+    },
+    {
+      "title": "Probability of making 10 free-throw shots in a row only one time in 100 attempts, assuming 75% success rate",
+      "url": "https://math.stackexchange.com/questions/2146826/probability-of-making-10-free-throw-shots-in-a-row-only-one-time-in-100-attempts",
+      "published_date": "2017-02-16T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Probability of making 10 free-throw shots in a row only one time in 100 attempts, assuming 75% success rate] ... $\\\\begingroup$ > What is the probability of a basketball player making 10 free-throw shots in a row and only doing so _once_ in 100 attempts, assuming the player has a 75% success rate? The \"in a row\" part is what caused me to have trouble applying the binomial distribution. At least we all know that the probability of making the first 10 shots in a row would be\n$$ P(\\\\text{achieve first 10 shots in a row})=\\\\left(\\\\frac 34 \\\\right)^{10}\n$$ But if we were given 100 attempts, then the basketball player can begin his 10-shot streak in, e.g. his first 10 ... Since beginning a 10-in-a-row streak at his $n$-th attempt, I was thinking that these were disjoint events. Since there are $90$ possible events, I thought I could simply multiply by $90$ and \"conclude\" that $$\nP(\\\\text{achieve 10 shots in a row one time in 100 attempts})=\\\\left(\\\\frac 34 \\\\right)^{10} \\\\cdot 90\n$$...except that $\\\\left(\\\\frac 34 \\\\right)^{10} \\\\cdot 90 > 1$. I believe I have yet to apply the binomial distribution here somehow?\n\n- probability \n\n Share ... $\\\\begingroup$Your reasoning is almost correct. But you have to have in mind that within the 90 tries you have to fail each time. So you have to multiply by $(\\\\frac{1}{4})^{90}$.$\\\\endgroup$ ... 18 [$66$ points"
+      ]
+    },
+    {
+      "title": "Chances a 90% free throw shooter makes 106 straight baskets?",
+      "url": "https://math.stackexchange.com/questions/211951/chances-a-90-free-throw-shooter-makes-106-straight-baskets",
+      "published_date": "2016-05-17T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Chances a 90% free throw shooter makes 106 straight baskets? \\[closed\\]] \n\n Ask Question Asked11 years, 8 months ago\n\nModified 11 years, 7 months ago \n\nViewed\n580 times\n\n0\n\n$\\\\begingroup$ If a basketball player is a 90% free-throw shooter what are the chances he makes 106 in a row? - probability \n\n Share \n\nCite\n\nFollow\n\n edited Oct 29, 2012 at 18:04 \n\njim\\_shook ... - $\\\\begingroup$If all the free throws are independent of one another, this is a binomial process. Since you're asking for the conjunction of events, 0.9^k is the probability of making k straight shots, so 0.9^106=0.0000141158 is the probability of making 106. Probability&statistics 101.$\\\\endgroup$ ... \u2013\u00a0 jim\\_shook \n\nCommentedOct 28, 2012 at 22:48\n\n\n\\|\u00a0 Show **5** more comments \n\n## 1 Answer 1 ... Highest score (default)Date modified (newest first)Date created (oldest first)\n\n1\n\n$\\\\begingroup$ Given that the shooter makes 90% of its shots, the odds it makes $n$ shots in a row is given by the formula $p = 0.9^n$. Therefore, the odds of it making 106 shots in a row is simply $0.9^{106}$, which equals roughly 0.000014, or 0.0014%. Share \n\nCite\n\nFollow\n\nanswered Oct 13, 2012 at 15:24\n\n Ben's user avatar ... ## Not the answer you're looking for? Browse other questions tagged - probability . ... 2 [Free Throw"
+      ]
+    },
+    {
+      "title": "Probability Question About Basketball Free Throws and Distributions",
+      "url": "https://math.stackexchange.com/questions/1953068/probability-question-about-basketball-free-throws-and-distributions",
+      "published_date": "2023-01-18T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "[Probability Question About Basketball Free Throws and Distributions [closed]] \n Ask Question ... **Closed**. This question needs to be more focused . It is not currently accepting answers. ... Closedlast year.\n Improve this question I was trying to solve the following question from the Harvard Stat $110$ course, from the book Introduction to Probability by Blitzstein and Hwang, but could not wrap my head around it. Any and all help is appreciated, especially with part (b): > > A certain basketball player practices shooting free throws over and over again. The shots are independent, with probability p of success. > > > * **> (a) **> In $n$ shots, what is the expected number of streaks of $7$ consecutive successful shots? (Note that, for example, $9$ in a row counts as $3$ streaks.) ... **> Now suppose that the player keeps shooting until making $7$ shots in a row for the first time. Let $X$ be the number of shots taken. Show that $E(X) \u22647/p^7.$ ... Let $E(n)$ be the expected number of shots taken until $n$ shots are made in a row. We have the following recursive relationship: $$E(n) = E(n-1) + p + (1-p)(1+E(n)).$$\nSimplifying this, we get:\n$$E(n) = \\\\frac{1}{p} + \\\\frac{E(n-1)}{p}$$ Knowing $E(0) = 0$, we can prove that $E(7) = \\\\frac{1}{p}+\\\\frac{1}{p^2}+\\\\frac{1}{p^3}+\\\\frac{1}{p^4}+\\\\frac{1}{p^5}+\\\\frac{1}{p^6}+\\\\frac{1}{p^7}\\\\leq ... (b) has already been answered very well, so here is my take on (a):\nLet us use linearity of expected value. ... ] $50$% lifetime basketball free throw shooter with $5$% confidence boost if he makes a shot. \n \n1 ... Probability of Hitting 5 shots out of 20 shots in a row \n \n1 ... [A probablility puzzle of"
+      ]
+    },
+    {
+      "title": "Probability of basketball shots in a row",
+      "url": "https://math.stackexchange.com/questions/1815698/probability-of-basketball-shots-in-a-row",
+      "published_date": "2016-06-06T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Probability of basketball shots in a row \n Ask Question Asked8 years ago\nModified 8 years ago \nViewed1k times\n0\n \n$\\\\begingroup$ I've read some of the answer with this related question but it's not somewhat the answer I'm looking for. A player has a $75\\\\%$ free throw percentage. Can someone explain to me why the probability of shooting $10$ consecutive shots would be $0,75^{10}$? ... $\\\\begingroup$Let $A\\_i$ be the event of the ith successful shot. The events a are independent. Therefore $P(A\\_1\\\\cap A\\_2 \\\\cap \\\\ldots \\\\cap A\\_{10})=P(A\\_1)\\\\cdot P(A\\_2)\\\\cdot \\\\ldots P(A\\_{10})$ And $P(A\\_i)=0.75 \\\\forall \\\\ i$ Thus we get $(P(A\\_i))^{10}=0.75^{10}$$\\\\endgroup$ ... * $\\\\begingroup$It assumes independence, so no \"hot hand\" or things like that$\\\\endgroup$ \u2013\u2013 Henry \nCommentedJun 6, 2016 at 11:31\n Add a comment | \n## 1 Answer1 Sorted by: Reset to default \nHighest score (default)Date modified (newest first)Date created (oldest first)\n1 \n$\\\\begingroup$\nEverytime the person throws, he has a 0.75 chance of scoring. So when he throws 2 times, he needs to score on the first throw (0.75) and on the second throw (0.75 again). The probability of that happening is $0.75 \\\\cdot 0.75 = 0.75^2$. Now you can cascade this for any amount of consecutive throws.\n Share \nCite\nFollow ... ## You must log in to answer this question. ## Not the answer you're looking for? Browse other questions tagged\n* probability ... 1\n] Binomial Distribution word problem (basketball) \n \n1 ... [Probability of Hitting 5 shots out of 20 shots in a row"
+      ]
+    },
+    {
+      "title": "Free throws in basketball game about probability",
+      "url": "https://math.stackexchange.com/questions/3166442/free-throws-in-basketball-game-about-probability",
+      "published_date": "2024-04-27T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Free throws in basketball game about probability [closed]] ... Someone shoots free throws. He/She made the first one and missed the second one. From the third shot, the probability of hitting the ball equals to the free throw percentage he/she made before it. For example, if the made 87 out of 100 tries. Then the probability of making the next one is 87/100. What is the probability of the person making the n th? Does it matter whether he makes the n-1 th free throws? ... * $\\\\begingroup$I modelled the system with a matrix, and found two things: The number of hits after $n$ throws is always uniformly distributed! (I tested up to $n=9$). This implies that $P(H\\_n|H\\_{n-1}) = 2/3$ for all $n$. (This I ... ## 2 Answers2\nSorted by: Reset to default Highest score (default)Date modified (newest first)Date created (oldest first)\n3\n \n$\\\\begingroup$ I will work out the probability of making the$(n+1)$'th throw, given that they made the$n$'th thow. Let$H\\_n$be the ... Technically if he made the first one, he could not fail the next one since he did 1 out 1 and this success probability was$100\\\\%$. ... $\\\\begingroup$The rule starts from the third shot.$\\\\endgroup$\n\u2013\u2013 YellowRiver ... ## Not the answer you're looking for? Browse other questions tagged\n* probability .\n* Featured on Meta ... ] Limit Theorem applicability \n#### Related\n \n1 [Probability that out of their next 100 free throws, they will make between $75$ and $80$, inclusive in basketball game.]<web"
+      ]
+    },
+    {
+      "title": "Probability that out of their next 100 free throws, they will make between $75$ and $80$, inclusive in basketball game.",
+      "url": "https://math.stackexchange.com/questions/1052622/probability-that-out-of-their-next-100-free-throws-they-will-make-between-75",
+      "published_date": "2014-12-05T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Probability that out of their next 100 free throws, they will make between $75$ and $80$, inclusive in ... # Probability that out of their next 100 free throws, they will make between $75$ and $80$, inclusive in basketball game. Ask Question \nAsked9 years, 6 months ago\nModified 9 years, 6 months ago \nViewed1k times\n1 \n$\\\\begingroup$\nState Tech's basketball team, the Fighting Logarithms, have 70% foul-shooting percentage. **(a)**Write a formula for the exact probability that out of their next 100 free throws, they will make between $75$ and $80$, inclusive. Solution: Let X = the number they will make. Then the formula for probability that out of their next $100$ free throws, they will make between $75$ and $80$, ... Solution: Using our formula and the appendix/table for cumulative areas under the standard normal distributions we ... F\\_{Z}[\\\\frac{10.5}{\\\\sqrt21}] - F\\_{Z}[\\\\frac{4.5}{\\\\sqrt21}] = F\\_{Z}[2.2912] - F\\_{Z}[0.98198] = 0.9890 - 0.8365 = 0.1525$. Can anyone please verify this? Any feedback/help would be helpful. Thank you.\n* probability ... askedDec 5, 2014 at 6:21\n \n Mahidevran's user avatar \n \n Mahidevran Mahidevran ... ## 1 Answer1\nSorted by: Reset to default ... What you have calculated for a and b is the solution for b. This is o.k. To get the formula for the excact probability, you have to use the binomial distribution: $$P(75 \\\\leq X \\\\leq 80)=\\\\sum\\_{k=75}^{80} {100 \\\\choose k} 0.7^k\\\\cdot 0.3^{100-k}$$ ... (with the normal distribution). The (exact) result is $$P(75 \\\\leq X \\\\leq 80)=\\\\sum\\_{k=75}^{80} {100 \\\\choose k} ... ## You must log in to answer this question. ## Not the answer you're looking for? Browse other questions tagged\n* probability ... ] What is the probability that the most successful out of these twenty will be right at least 9 times out of ... [What is the chance a team will have"
+      ]
+    },
+    {
+      "title": "",
+      "url": "https://www.youtube.com/watch?v=lRF9kDmn0Qk",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "iframe About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features \u00a9 2025 Google LLC"
+      ]
+    },
+    {
+      "title": "Will The Neurotic Basketball Player Make His Next Free Throw?",
+      "url": "https://fivethirtyeight.com/features/will-the-neurotic-basketball-player-make-his-next-free-throw/",
+      "published_date": "2016-01-15T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Will The Neurotic Basketball Player Make His Next Free Throw? | FiveThirtyEight"
+      ]
+    }
+  ]
+}

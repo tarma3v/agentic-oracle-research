@@ -1,0 +1,100 @@
+{
+  "question_id": "KXVOTEHUBTRUMPUPDOWN",
+  "question_text": "Will Trump's approval rating increase this week?",
+  "resolution_criteria": "If the VoteHub time-adjusted average for Donald Trump's approval rating is above 43.0% at 10:00 AM November 14, then the market resolves to Yes.\nThe market resolves based on the VoteHub time-adjusted average displayed at 10:00 AM ET on November 14. The value must match exactly as displayed on VoteHub's platform, including subject name formatting. Values are compared using one decimal place precision. If VoteHub doesn't display data for the specified date, the most recent prior time-adjusted average is used. Only the time-adjusted average counts, not raw polling averages.",
+  "resolution_date": "2025-11-14T04:59:00Z",
+  "retrieval_timestamp": "2026-02-23T16:56:39.031686Z",
+  "query_used": "What is the result of this question \"Will Trump's approval rating increase this week\"",
+  "sources": [
+    {
+      "title": "What will Trump's approval rating be on Feb 21, 2026? - Kalshi",
+      "url": "https://kalshi.com/markets/kxtrumppolldaily/what-will-trumps-approval-rating-be-today/kxtrumppolldaily-26feb21",
+      "published_date": "2026-02-22T16:56:38.583Z",
+      "text": "",
+      "highlights": [
+        "Trending Politics Sports Culture Crypto Climate Econo mics Mentions Companies Financials Tech & Science What will Trump's approval rating be tomorrow? Odds & Predictions 2026"
+      ]
+    },
+    {
+      "title": "What is Donald Trump\u2019s approval rating?",
+      "url": "https://www.reuters.com/data/trumps-approval-rating-2025-01-21/",
+      "published_date": "2025-01-21T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "# What is Donald Trump\u2019s approval rating? Reuters/Ipsos polling on the U.S. president\u2019s popularity By Jason Lange , Iris Lee and Ben Welsh October 8, 20254:34 PM UTCUpdated January 26, 2026\nText\n*\nSmall Text\n*\nMedium Text\n*\nLarge Text\nShare\n*\nX\n*\nFacebook\n* ... Reuters/Ipsos polls regularly ask Americans nationwide to weigh in on President Donald Trump's job performance. This dashboard will update with the latest results. ## By race and ethnicity Political views in the United States sometimes skew sharply along racial and ethnic lines. Hispanic voters have often favored the Democratic Party but exit polls show Donald Trump captured a larger share of the Hispanic vote in the 2024 ... Americans often rate the health of the economy as the most pressing issue facing the nation. Steep price increases or a weak job market can bring down a president's approval rating on this crucial question. ... population has risen. Ahead of the 2024 presidential election , Donald Trump stressed that he would ramp up ... ## Net approval The difference between approval and disapproval ratings, known as net approval, measures the balance of public opinion. When approval exceeds disapproval, the number is positive. When disapproval is higher, the number sinks below zero. Here'"
+      ]
+    },
+    {
+      "title": "Will Trump's approval rating increase this week? - Politics - Solflare",
+      "url": "https://www.solflare.com/prediction/politics/event/KXVOTEHUBTRUMPUPDOWN-26JAN29/",
+      "published_date": "2026-01-29T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Politics\n# Will Trump's approval rating increase this week?\nFor Jan 29, 2026\nMarkets\nRules Outcome verified from VoteHub .\nLegal By trading on this market, you agree to the Trading prohibitions , Member agreement , and DFlow terms of service . Select a market to trade\nWill Trump's approval rating increase this week? | Politics Prediction Markets | Solflare"
+      ]
+    },
+    {
+      "title": "Do Americans approve of Donald Trump? - VoteHub",
+      "url": "https://votehub.com/polls/",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "Polling Averages - VoteHub\n \nSearch\n \n \n--\n--\n--\n \nDashboard\n \nLog Out\n# Confidence intervals \n VoteHub logo \n \n*Our methodology.*\n |Date Range|Sample Size|Pollster|Sponsor|"
+      ]
+    },
+    {
+      "title": "Tracking Public Opinion of Trump's Washington",
+      "url": "https://pro.morningconsult.com/trackers/donald-trump-congress-policy-republicans-polling?amp=",
+      "published_date": "2025-02-18T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "'s approval rating nears second-term low \nBy Eli Yokley \nShare\nShare\n###### In This Tracker\n* Trump's approval ratings ... Morning Consult is tracking what voters across the country think about how President Donald Trump and Republicans in Congress are governing the United States ahead of the 2026 midterm elections. Each week, we\u2019ll update this page with fresh and timely data on all of the major questions facing Washington, including views about the people in charge, the ... ### Key Takeaways * **Trump's approval rating continues to slide**: Voters are 9 points more likely to disapprove than approve of Trump's job performance, nearing a second-term record low. Nationally, his Republican base remains stable, but that's not enough to offset the erosion elsewhere as Democrats harden against him and independents continue drifting negative. * **Republicans are losing ground on immigration trust**: Congressional Republicans still hold an edge over Democrats ... xlsx\n\u2022702Kb\n## # People\n### Trump's approval ratings\nMorning Consult Logo Latest survey conducted Feb. 6-9, 2026, among registered U.S. voters. ## * Trump began his second term by matching a record-high 52% approval from March 2017 . But voters soured on his job performance during the most disruptive part of his trade war, and he\u2019s yet to return to a net positive approval rating. * At a similar point in Trump\u2019s first term, 47% of voters approved and 47% disapproved of his job performance, making ... Latest survey conducted Feb. 6-9, 2026, among registered U.S. voters. Net favorability is the share of voters with favorable views minus the share with unfavorable views. ## * Trump\u2019s favorability ratings remain underwater, which has been the case more often than not since he took office. * Senate Majority Leader John Thune (R-S.D.), House Minority Leader Hakeem Jeffries (D-N.Y.) and House Speaker Mike ... ## * Voters are 27 points more likely to say they\u2019ve heard something negative about Trump than positive over the"
+      ]
+    },
+    {
+      "title": "329 days into  Donald\n          Trump's term",
+      "url": "https://www.economist.com/interactive/trump-approval-tracker",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "Last updated on December 10th 2025\n## Net approval rating, % points\n### By state\nBy demographic\nMost important issues Donald Trumpre-entered the Oval Office in January with a net approval rating of positive 6. Since then it has fallen, interrupted only by brief upticks. By early December it had dropped to -18. His polling numbers had only been that low once in his second term, back in October. This week it climbed back a bit, to -16. Americans are especially dissatisfied with Mr Trump\u2019s handling of inflation and the economy. Democrats have had some success focusing on \u201caffordability\u201d. Mr Trump has decried it as a \u201ccon job\u201d. On December 9th he held a rally in Monroe County\u2014 Pennsylvania, which voted for him in 2024 but for Joe Biden, his rival, in 2020\u2014during which he was supposed to ... Mr Trump was re-elected on a wave of economic pessimism, telling voters that \u201cincomes will skyrocket, inflation will ... second term. So far they have been disappointed. Ratings of his handling of the economy and inflation were net positive shortly after his inauguration. They have since fallen to strongly negative in the wake of his declarations of trade war and the ensuing response of investors. YouGov\u2019s data also suggest Americans now disapprove of his handling of ... Using YouGov\u2019s data,*The Economist*has projected Mr Trump\u2019s approval rating state by state. As you might expect, approval of Mr Trump is lowest in states that tend to vote for Democrats and highest in those that tend to vote for Republicans. Mr Trump\u2019s voters still overwhelmingly approve of his performance as president. But the projection also shows how dissatisfaction with Mr Trump is widespread even in states that voted for him just a few months ago. The numbers will make anxious reading for Republicans facing competitive races in next year\u2019s midterm elections. Trump\u2019s net approval rating by demographic, %-points\n50% confidence interval\n-80-60-40-20020ApproveDisapprove ... What is the most"
+      ]
+    },
+    {
+      "title": "Trump Job Approval",
+      "url": "https://news.gallup.com/poll/203207/trump-job-approvalweekly.aspx",
+      "published_date": "2017-01-25T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "# Trump Job Approval\n|Date(s)|% Approve|% Disapprove| |12/1-15/2025|36%|59%|\n|11/3-25/2025|36%|60%|\n|10/1-16/2025|41%|54%|\n|09/2-16/2025|40%|56%|\n|08/1-20/2025|40%|56%| |07/7-21/2025|37%|58%|\n|06/2-19/2025|40%|57%|\n|05/1-18/2025|43%|53%|\n|04/1-14/2025|44%|53%|\n|03/3-16/2025|43%|53%| The approval ratings reported here are based on Gallup Daily tracking averages for President Donald Trump in 2017 and 2018, and periodic multiday Gallup polls for Trump starting in 2019. Learn more . Explore President Trump's approval ratings in depth and compare them with those of past presidents in the Gallup ... \n## Recommended\n \n Politics \nApr 12, 2019 ### Post-Mueller Report, Trump Approval Back at 45% High President Trump's job approval rating increased relatively sharply over the past month to 45% in April, matching his record high. \n Politics \nMar 29, 2019 ### Subgroup Differences in Trump Approval Mostly Party-Based Differences in Trump's job"
+      ]
+    },
+    {
+      "title": "Do Americans approve of President Trump? Here's what polls say a month into office",
+      "url": "https://www.usatoday.com/story/news/politics/2025/02/21/donald-trump-approval-ratings/78967657007/",
+      "published_date": "2025-02-21T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Donald Trump approval ratings: What recent polls say after one month\n Find us on Google \ud83d\udccc Is college worthwhile? Start the day smarter \u2600\ufe0f Get the USA TODAY app \n \n POLITICS \nDonald Trump\nAdd Topic # Do Americans approve of President Trump? Here's what polls say a month into office Portrait of Kinsey Crowley Kinsey Crowley \nUSA TODAY\nFeb. 21, 2025, 4:52 p.m. ET Hear this story\n []("
+      ]
+    },
+    {
+      "title": "President Trump\u2019s approval ratings | CNN Politics",
+      "url": "https://www.cnn.com/polling/approval/trump-polls",
+      "published_date": "2025-04-29T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "CNN Poll Tracking: President Trump\u2019s approval ratings\n \n \nLink Copied! The chart below tracks President Donald Trump\u2019s approval and disapproval ratings across polls. It includes all national-level results on this question which meet CNN\u2019s standards for reporting. * Return to CNN\u2019s Poll of Polls for Trump\u2019s approval rating \n|\nPoll |Dates|Approve|Disapprove|Change in Approval\n|Sample Size|Sample Type|Margin of Error|\n|\nReuters/Ipsos\n |February 13-16, 2026|38%\n|60%\n|0|1,117|Adults|+/-3.0% pts.|\n|\nAP-NORC\n \n|February 5-8, 2026|36%\n|62% |-4|1,156|Adults|+/-3.9% pts.|\n|\nNBC News/SurveyMonkey\n \n|January 27\u2013February 6, 2026|39%\n|61% |-3|21,995|Adults|+/-2.4% pts.|\n|\nNPR/PBS News/Marist College\n \n|January 27-30, 2026|39%\n|56% |+1|1,462|Adults|+/-2.9% pts.|\n|\nQuinnipiac University\n \n|January 29\u2013February 2, 2026|37%\n|56"
+      ]
+    },
+    {
+      "title": "Daily Presidential Tracking Poll",
+      "url": "https://www.rasmussenreports.com/public_content/politics/trump_administration_second_term/prez_track_may02",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "who Strongly Approve of the job Trump is doing and 41% who Strongly Disapprove. This gives him a Presidential Approval Index rating of -7.\u00a0( see trends) Sign up: Free daily newsletter Rasmussen Reports is the only nationally recognized public opinion firm that still tracks President Trump's job approval ratings on a daily basis. If your organization is interested in a weekly or longer sponsorship of Rasmussen ... Total Approval 1,500 likely voters +/- 3% \n \n \n \n Total Approve \n \n Total Approval 1,500 likely voters +/- 3% Date,Total Approve\n1737608400,56,\n1737694800,53,\n1737781200,53,\n1737867600,53,\n1737954000,52, ... 1745640000,47,\n1745726400,47,\n1745812800,47,\n1745899200,47,\n1745985600,48,\n1746072000,50,\n1746158400,50, Approval Index 1,500 likely voters +/- 3% \n \n \n \n \n Approval Index 1,500 likely voters +/- 3% Strongly Disapprove \n Strongly Approve \n \n \n \n \n \n \n \n Date,Strongly Disapprove,Strongly Approve\n1737608400,34,40 1737694800,35,39\n1737954000,35,38\n1738040400,36,38\n1738126800,36,37\n1738213200,37,37\n1738299600,37,39\n1738558800,37,39 ... 1746158400,41,34 Some readers wonder\u00a0 how we come up with our job approval ratings for the president \u00a0since they often don\u2019t show as dramatic a change as some other pollsters do. It depends on how you ask the question and whom you ask.To get a sense of longer-term job approval trends for the president, Rasmussen Reports compiles our tracking data on a ... Daily tracking results"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "question_id": "KXNORWAYLABOUR",
+  "question_text": "Will the Labour Party (Ap) win fewer than 47 seats in the 2025 Norwegian general election?",
+  "resolution_criteria": "If the Labour Party (Ap) has won below 47 seats in the 2025 Norwegian general election, then the market resolves to Yes.\nA seat is considered \"won\" when a candidate affiliated with the specified party has been declared elected by the relevant electoral authority and either the time for legal challenges has expired, challenges have been resolved, or the member has taken their seat. Party affiliation is determined by the party under whose banner the candidate was elected, regardless of subsequent changes. The count is determined when the new legislature takes their seats, even if some seats remain vacant or challenged. If the election is postponed beyond one year from the original date or cancelled entirely, the market resolves to the last fair market price. Only seats actually contested and filled are counted in partial elections. By-elections after the main election are included only if seated simultaneously with the rest of the legislature.",
+  "resolution_date": "2025-09-22T03:35:11.104296Z",
+  "retrieval_timestamp": "2026-02-20T19:16:43.064049Z",
+  "query_used": "What is the result of this question \"Will the Labour Party (Ap) win fewer than 47 seats in the 2025 Norwegian general election\"",
+  "sources": [
+    {
+      "title": "Norwegians vote with Labour Party narrowly favoured to win re-election | FMT",
+      "url": "https://freemalaysiatoday.com/category/world/2025/09/08/norwegians-vote-with-labour-party-narrowly-favoured-to-win-re-election",
+      "published_date": "2025-09-08T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "e lection Norwegians vote with Labour Party narrowly favoured to win re-election\nReuters\n2025-09-08T00:00:00Z # Norwegians vote with Labour Party narrowly favoured to win re-election A left-wing bloc of the Labour Party and four smaller parties is seen winning 88 seats in parliament. (EPA Images pic) OSLO:Norway voted today on the final day of a parliamentary election dominated by concerns over rising living costs at home and turmoil in international politics, with the ruling Labour Party narrowly favoured to remain in office. A left-wing bloc of Labour and four smaller parties is seen winning 88 seats in parliament, three more than the minimum needed to secure a majority and down from a combined 100 seats in 2021, according to an average of recent opinion polls. On the right, the populist Progress Party, the centre-right Conservatives and two smaller groups look set to win the remaining 81 seats, but opinion poll forecasts were within the margin of error and the outcome could depend on how some ... himself as a safe pair of hands. Voting in the two-day election concludes at 7pm, followed by immediate exit polls and with final results expected by ... frutti\u201d coalition. Demands from Greens and Communists could include tougher restrictions on oil and gas exploration, more tax on the wealthy and high earners, and more overall spending from the country\u2019s sovereign wealth fund. Labour is seen winning some 27% of the vote, this month\u2019s pollofpolls.no average showed. ... However, as in other Western countries, voters are increasingly turning to more populist right-wing options. ... comfortably ahead of the Conservatives on 14%. Stay current - Follow FMT on"
+      ]
+    },
+    {
+      "title": "Norway Parliamentary Election Winner | Polymarket Analytics",
+      "url": "https://polymarketanalytics.com/markets/22793",
+      "published_date": "2025-09-08T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "inner Parliamentary elections are scheduled to be held in Norway on September 8, 2025. This market will resolve to the political party that wins the greatest number of seats in the 167th Storting of Norway. If voting in the Norwegian election for the 167th Storting does not occur by February 28, 2026, this market will resolve to \"Other\". In the case of a tie between this party and any other for the most seats won, this market will resolve in favor of the party whose listed abbreviation comes first in alphabetical order. This market's resolution will be based solely on the number of seats won by the named party or coalition. This market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by Norway's government (e.g. via https://www.valg.no/en/)."
+      ]
+    },
+    {
+      "title": "Norway votes in a closely fought election with the future of a wealth tax in focus",
+      "url": "https://www.thetimes-tribune.com/2025/09/08/norway-election/",
+      "published_date": "2025-09-08T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "OV** OSLO, Norway (AP) \u2014 Norway\u2019s Labor Party of\u00a0 Prime Minister Jonas Gahr St\u00f8re has claimed victory in Monday\u2019s general election with most votes now counted and with a narrow but clear win by the center-left block over the right-wing parties. ... Addressing the crowd, Prime Minister Gahr St\u00f8re thanked his supporters and said the victory showed it\u2019s possible for ... The Labour Party\u2019s election vigil at the People\u2019s House during the 2025 general election in Oslo, Norway, Monday, Sept. ... 8, 2025. (Javad Parsa/NTB Scanpix via AP) Show Caption\n\n1 of 8 ... Expand About 4.3 million people in\u00a0 the Scandinavian nation \u00a0were eligible to vote for the new 169-member parliament, or Storting. With almost all votes now counted, center-left parties have won just over the 85 seats needed to form a majority. Final results are expected Tuesday, and they are likely to be followed by weeks of negotiations to build a coalition ... Monday\u2019s result was never expected to have major implications for Norway\u2019s foreign policy. The country is a stalwart ... the Arctic north. It isn\u2019t a member of the European Union but has close economic ties with the 27-nation bloc. Norway is one of the richest countries in the world. It has a generous welfare state, sits on billions of barrels of ... It is also one of the world\u2019s most egalitarian countries, sharing its wealth much more evenly than many others. Labor campaigned to keep the wealth tax that has been a mainstay of Norwegian policy since 1892 \u2014 a levy of up to 1.1% on assets and shares worth more than 1.76 million kroner (around $176,000), though there are various reductions and ... Originally Published: September 8, 2025 at 12:55 PM EDT\n\n### Share this: ... ## RevContent Feed\n\n## More"
+      ]
+    },
+    {
+      "title": "2025 Norwegian parliamentary election",
+      "url": "https://en.wikipedia.org/wiki/2025_Norwegian_parliamentary_election",
+      "published_date": "2025-09-10T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "25 Norwegian parliamentary election \n| ... \u2190\u00a0 outgoing members \n elected members \u00a0\u2192\n|\n| All 169 seats in the Storting \n85 seats needed for a majority|\n Opinion\u00a0polls | ... Party| Labour | Progress | Conservative | ... Last\u00a0election|48 seats, 26.3%|21 seats, 11.6%|36 seats, 20.4%|\nSeats\u00a0won|**53**|47|24| Seat\u00a0change| Increase 5| Increase 26| Decrease 12| ... |**Prime Minister after election**\n Jonas Gahr St\u00f8re \n Labour \n|\n| Parliamentary elections were held in Norway on 8 September 2025 to elect all 169 members of ... September. [3] The election resulted in incumbent Prime Minister Jonas Gahr St\u00f8re 's Labour Party winning the most seats. The opposition Conservative Party , led by former Prime Minister Erna Solberg , fell to third place for the first time since 2009 . The right-wing populist Progress Party gained seats in the Storting and ended up with 47 seats, the highest seat count in the party's history; this made it the largest ... since 1989 . [5] The red-green bloc won a majority with 88 seats, [6] allowing St\u00f8re to continue as Prime Minister in his minority government . [7] [8] The victory came after years of ... In the 2021 Norwegian parliamentary election , the Labour Party emerged victorious, defeating ... ## Electoral system\n[ edit ] The election was held using party-list proportional representation in ... The table below lists political parties elected to the Storting in the 2021 parliamentary election. |Name|Ideology|Position|Leader| 2021 result|\nVotes (%)| Seats |\n|**Ap**| Labour Party *Arbeiderpartiet*| Social democracy [47] | Centre-left [48] |[Jonas Gahr ... | Labour Party |*Trygghet for fremt"
+      ]
+    },
+    {
+      "title": "Opinion polling for the 2025 Norwegian parliamentary election",
+      "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2025_Norwegian_parliamentary_election",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "polling for the 2025 Norwegian parliamentary election\nAdd languages\n Add links ... In the run up to the 2025 Norwegian parliamentary election , various organisations carry out opinion polling to gauge voting intention in Norway . The date range for these opinion polls are from the 2021 Norwegian parliamentary election , held on 13 September, to the present day. Unlike most nations, ... ## National poll results\n[ edit ] This section includes national voter intention polls listed on the Poll of Polls website. [3] The projected seat distribution for each poll, as listed on the website, is shown below the percentages. 85 seats are needed for a majority. ### Averages\n[ edit ] The following is the average of all polls published in September 2025. [4] |Parties|Vote share|Seats|\n| Labour Party |27.1%|52|\n| Progress Party |21.0%|42| | Conservative Party |14.4%|26|\n| Green Party |6.2%|9|\n| Red Party |6.0%|9| ... size|Resp.| R | SV | MDG | Ap | Sp | V | KrF |[H] ... ||||||||||||\n 2025 election |8 Sep|\u2014N/a|79.1|5.3\n9|5.6\n9|4.7\n8|**28.0**\n53|5.6\n9|3.7\n3|4.2\n7|14.6\n24|23.9 47|0.6\n0|3.8\n0|4.3|**49.2**\n88|46."
+      ]
+    },
+    {
+      "title": "Norwegian Poll Tracker",
+      "url": "https://www.estimite.com/post/norwegian-poll-tracker/",
+      "published_date": "2025-05-13T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "If an election were held today, the vote share of the conservative block would be expected to lie between 48.9 and 53.3% with a 90% probability. The Labor Party (Ap), the Centre Party (Sp), and the Socialist Left Party (SV) would be expected to receive between 34 and 38.2% of the votes. Adding the Green Party (MDG) and the Red Party (R) to this ... given week. To show or hide a group, click on it in the list above the plot. The conservative block would have had a 87.4% probability of winning a parliamentary majority if an election were held today. The equivalent probability for a coalition consisting of the Labor Party (Ap), the Centre Party (Sp), and the ... If an election were held today, the Progress Party (Frp), at 24.4 to 28.4%, would likely receive the largest vote share, ahead of the Labor Party (Ap), at 23.4 to 27.3%. ... Party (KrF) it is 26.3%, and for the Liberal Party (V) 13.2%. ### How many seats will each party get? The plot shows weekly levels of support in the form of predicted parliamentary seats. Uncertainty is illustrated by 90% prediction intervals. If an election were held today, the Progress Party (Frp) would likely become the largest party in parliament, winning 46 to 53 seats, ahead of the Labor Party (Ap), at 45 to 51 seats. ### How do the polls look? The reported date for each poll is the midpoint between the start and end of the data collection. The trend lines ... In addition to national polls, the plot above shows the estimated trends of public support. Because the model corrects ... The Norwegian party"
+      ]
+    },
+    {
+      "title": "Opinion polling for the 2025 Norwegian parliamentary election",
+      "url": "https://grokipedia.com/page/Opinion_polling_for_the_2025_Norwegian_parliamentary_election",
+      "published_date": "2025-09-08T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "1] These polls, aggregated in sources like Politico's poll of polls, consistently indicated a narrow lead for the Labour Party (Ap) at around 28-29% support, challenged by the Progress Party (FrP) gaining to ... sustainability .[2][3] The surveys highlighted bloc dynamics, with the centre-left alliance hovering near a ... firms such as Norstat, Opinion , and Ipsos , as compiled prior to the vote, estimated the Labour Party (Ap) at 25.2% support, compared to the official result of 26.3%; the Conservative Party (H) at 20.8% versus ... Overall, while no polling method eliminates sampling variability\u2014typically yielding margins of error of \u00b12-3% at 95% ... Aggregated national opinion polls for the 2025 Norwegian parliamentary election , as compiled by Poll of Polls, showed the Labour Party (Ap) maintaining a lead as the largest single party at 27.1% in the final September averages, sufficient for an estimated 51 seats in the 169-seat Storting .[14] The Progress Party (FrP) surged to 21.0%, positioning it as a key contender with 39 projected seats, while the Conservative ... Liberal Party (V) at 4.3% (7 seats), and Christian Democrats (KrF) at 4.7% (7 seats), with others at 4.4%.[14] | Party | Percentage | Projected Seats |\n| --- | --- | --- |\n| Ap | 27.1 | 51 |\n| FrP | 21.0 | 39 |\n| H | 14.4 | 26 | | SV | 6.0 | 10 |\n| MDG | 6.2 | 10 |\n| R\u00f8dt | 6.0 | 10 |\n| Sp | 5.9 | 9 |\n| KrF | 4.7 | 7 |\n| V | 4.3 | 7 | | Others | 4.4 | 0 | These aggregates reflected a razor-thin divide between blocs, with the red-green alliance (Ap, Sp, SV, R\u00f8dt) totaling approximately 45% compared to 44.4% for the center-right (H, FrP, V , KrF), leaving the outcome hinging on ... surveys from firms like Norstat and Opinion .[5] Ap's support stabilized around 27% after dipping below 25% ... to September 8, 2025. These visualizations highlight trends in support for major parties, with the Labour Party (Ap) maintaining a consistent lead averaging 28-30% in the final months, as shown in aggregated data"
+      ]
+    },
+    {
+      "title": "Norway: Polls and trends for the 2025 election",
+      "url": "https://politpro.eu/en/norway",
+      "published_date": "2025-05-08T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Trend for Norway\n\nFrP\n\n26.5\n\nAp\n\n24.7\n\nH\n\n17.0\n\nR\n\n6.5\n\nSP\n\n5.2\n\nSV\n\n5.1\n\nMDG\n\n4.3\n\nKrF\n\n3.9\n\nOthers ... In the current poll trend, the governing parties in Norway secure 27.8% of the seats. ### Who is leading in the PolitPro Poll Trend for Norway? The frontrunner in the current PolitPro Poll Trend for the Norway election is Fremskrittspartiet with 26.5%. This is ... ### Would the incumbent government in Norway currently still hold a majority? The incumbent coalition in Norway currently secures only 27.8% of the seats and would thus lose its parliamentary ... 79Verian\u00b74 days ago Ap 27.2 FrP 25.1 H 16.5 R 6.9 SP 5.7 SV 4.5 MDG 3.6 KrF 3.4 V 3.4 Sonst. 3.7 ... ## Possible Coalitions & Alliances\n\n169\n\nMajority requires 85 seats - MDG 84.7% \n- SV 95.3% \n- SP 95.3% \n- R 127.1% \n- H 3319.5% - Ap 4727.8% \n- FrP 5130.2% ### Electoral Threshold\n\nThe electoral threshold for Norway's election is 4%.\n\nFremskrittspartiet + H\u00f8yre + SP Centre-Right\n\n55.0%\n\nArbeiderpartiet + H\u00f8yre + SP\n\nCentre-Left\n\n52.7%\n\nArbeiderpartiet + H\u00f8yre + De Gr\u00f8nne ... Based on the poll trend, 7 parties would enter the parliament of Norway: Fremskrittspartiet with 51 representatives, Arbeiderpartiet with 47 representatives, H\u00f8yre with 33 representatives, R\u00f8dt with 12 representatives, SP with 9 ... ## Poll Trend History: Political Developments in Norway\n\n## Latest Election Results ### General election in Norway 20"
+      ]
+    },
+    {
+      "title": "Norwegian Parliamentary Election 2025 Forecast - autodok.no",
+      "url": "https://autodok.no/report/1",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "Summary The 2025 Norwegian parliamentary election, scheduled for September 8, 2025, is poised to be a pivotal moment in ... Key findings include: - Current projections suggest a likely continuation of Labour Party leadership, potentially in a new coalition ... Based on our analysis of current polling data, historical voting patterns, and the evolving political context, we project that the Labour Party is well-positioned to maintain its leadership role after the September election, though ... particularly after the addition of Stoltenberg's high-profile international experience to the government. With projected 52 seats in the Storting, the Labour Party is positioned as the dominant political force heading into the ... ## 5. Most Likely Outcome Based on current polling data, political developments, and historical patterns, the most likely outcome of the 2025 Norwegian parliamentary election is a Labour-led government, potentially in a new coalition configuration. ### Key Factors Supporting This Forecast: ... - Labour Party's Strong Position: At 30.9% in recent polling, the Labour Party holds a commanding lead over other parties, bolstered by Jens Stoltenberg's return to Norwegian politics. This represents an increase from their 2021 election result of 26.3% and translates to a projected 52 seats in the 169-seat Storting. ### Projected Government Composition: ... ### Electoral Implications: The 2025 election appears likely to reinforce the Labour Party's position as Norway's dominant political force while ... 13.9% and the Progress Party's surge from 11.6% to 22%. The Labour Party has also seen a meaningful increase from 26.3% ... | Party | March 2025 Polling (%) | June 2025 Polling (%) | 2021 Election Result (%) | Change (June 2025 vs 2021) | | --- | --- | --- | --- | --- |\n| Labour Party | 30.1 | 30.9 | 26.3 | +4."
+      ]
+    },
+    {
+      "title": "",
+      "url": "https://www.metaculus.com/questions/20174/which-party-will-win-the-most-seats/?sub-question=20177",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "Which party will win the most seats in the Storting in the 2025 Norwegian election?\n\n3\n\n 4 comments4 29 forecasters\n\n### Forecast Timeline\n\nTotal Forecasters **22**\n\n1d1w2mall\n\nLabour\n\nConservative\n\nProgress Socialist Left\n\nRed Party\n\nCentre\n\n4 others\n\n### Make a Prediction | Party | My Prediction | Me |\n| --- | --- | --- |\n| Centre | 1% |\n| Labour | 50% |\n| Conservative | 28% | | Progress | 20% |\n| Socialist Left | 2% |\n| Red Party | 1% |\n| Liberal | 0.8% |\n| Green | 0.5% | | Christian Democratic | 0.5% |\n| Patient Focus | 0.1% | Sign Up to Predict\n\nAdditional Scores\n\nResolution Criteria\n\nKey Factors ... rcoaster2000 \n\nOpened:Dec 10, 2023\n\nCloses:Oct 1, 2025\n\nScheduled resolution:Oct 1, 2025 Elections \n\n Politics \n\n 2021-2025 Leaderboard \n\nNews Match Will the Tasmanian election put an end to the island\u2019s parliamentary chaos?\\\n\\\nGuardian\u2022Jul 6, 2025 Learn more about Metaculus NewsMatch\n\nSimilar Questions **How many seats in the Canadian House of Commons will these parties win in the 2025 federal election?** \\\n\\ 0.995 **Which party will win the most seats in the Chamber of Deputies in the next Italian election?** [**How many seats will each party win in the 2025 Czech legislative election?** \\ ... Show More Questions\n\nFollowembed\n\nAuthors:\n\n rcoaster2000 \n\nOpened:Dec 10, 2023\n\nCloses:Oct 1, 2025 ... **How many seats in the Canadian House of Commons will these parties win in the 2025 federal election?** \\\n\\ 0.995 [**Which party will win the most seats in the Chamber of Dep"
+      ]
+    }
+  ]
+}

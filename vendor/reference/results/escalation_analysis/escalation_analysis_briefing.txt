@@ -1,0 +1,163 @@
+Escalation Analysis Briefing
+
+Purpose
+This file consolidates the key quantitative results for the escalation-analysis section so they can be fed directly into another AI model for drafting thesis text.
+
+Data Sources
+- Architecture B final results: results/Final_Architecture_B_results.csv
+- Architecture A final results: results/Final_Architecture_A_results.csv
+- Generated analysis folder: results/escalation_analysis
+
+Method Summary
+- Architecture A step 1-4 analysis uses the full 1,189-question file: results/Final_Architecture_A_results.csv
+- For Architecture A step 1, each question is labeled Unanimous if all three base models agree, otherwise Split if the vote is 2-1.
+- For Architecture A step 2, average the three model confidence scores per question and split into High vs. Low using the median average confidence across all 1,189 questions.
+- For Architecture A step 4, the exact requested composite score is used:
+  composite_score = (1 if unanimous else 0) + average_confidence
+- Architecture A questions are sorted in descending order by this composite score to build the coverage-accuracy curve.
+- Architecture B agreement-status and confidence analyses use the final round of deliberation.
+- For Architecture B confidence bins, average the three models' round-2 confidence scores per question, then split questions into high vs. low confidence using a median split.
+- The Architecture B coverage-accuracy curve sorts questions by signal strength:
+  1. unanimous final-round votes first
+  2. then descending average round-2 confidence
+- The Architecture A coverage-accuracy curve uses an analogous ranking:
+  1. unanimous base-model votes first
+  2. then descending average model confidence
+- The Architecture A vs. B comparison uses the full 1,189-question final result files for both systems.
+
+Architecture A: Step 1, Accuracy by Agreement Status
+- Total questions: 1,189
+- Median average confidence threshold for step 2: 0.9100
+- Unanimous questions: n = 978, accuracy = 88.34%
+- Split questions: n = 211, accuracy = 57.82%
+
+Interpretation
+- Agreement status is a very strong reliability signal in Architecture A.
+- Unanimous cases are dramatically more accurate than split cases.
+
+Architecture A: Step 2, Accuracy by Average Confidence
+- High-confidence questions: n = 609, accuracy = 94.75%
+- Low-confidence questions: n = 580, accuracy = 70.52%
+
+Interpretation
+- Average confidence is also a strong discriminator for Architecture A.
+- High-confidence cases are substantially more accurate than low-confidence cases.
+
+Architecture A: Step 3, Combined 2x2 Table
+- Unanimous + high confidence: n = 563, accuracy = 97.87%
+- Unanimous + low confidence: n = 415, accuracy = 75.42%
+- Split + high confidence: n = 46, accuracy = 56.52%
+- Split + low confidence: n = 165, accuracy = 58.18%
+
+Interpretation
+- The highest-quality Architecture A bucket is unanimous + high confidence, reaching 97.87% accuracy.
+- Nearly all of the highly reliable cases are concentrated in that cell.
+- Split cases remain weak even when average confidence is relatively high, which suggests agreement is the more important escalation signal.
+
+Architecture A: Step 4, Coverage-Accuracy Curve
+- Composite score definition:
+  composite_score = (1 if unanimous else 0) + average_confidence
+- Coverage-accuracy checkpoints:
+  - Top 10% auto-resolved: n = 118, accuracy = 100.00%
+  - Top 20% auto-resolved: n = 237, accuracy = 99.58%
+  - Top 25% auto-resolved: n = 297, accuracy = 99.66%
+  - Top 50% auto-resolved: n = 594, accuracy = 97.47%
+  - Top 75% auto-resolved: n = 891, accuracy = 90.12%
+  - Top 100% auto-resolved: n = 1,189, accuracy = 82.93%
+
+Interpretation
+- Architecture A supports a very strong selective-automation policy.
+- Using the exact composite ranking, the highest-signal half of cases achieves 97.47% accuracy.
+- This provides a strong basis for recommending Architecture A with escalation on low-score cases.
+
+Architecture B: Agreement Status Accuracy
+- Total questions: 1,189
+- Unanimous 3-0 questions: n = 1,052, accuracy = 78.99%
+- Split 2-1 questions: n = 137, accuracy = 54.01%
+
+Interpretation
+- Final-round unanimity is a strong signal of reliability in Architecture B.
+- Split decisions are much less reliable than unanimous ones.
+
+Architecture B: Confidence Bin Accuracy
+- Confidence split method: median split on average round-2 confidence
+- Median average confidence threshold: 0.8067
+- High-confidence questions: n = 600, accuracy = 85.83%
+- Low-confidence questions: n = 589, accuracy = 66.21%
+
+Interpretation
+- Average confidence meaningfully separates easier vs. harder Architecture B cases.
+- High-confidence cases are substantially more accurate than low-confidence cases.
+
+Architecture B: 2x2 Table Combining Agreement and Confidence
+- Unanimous + high confidence: n = 522, accuracy = 89.85%
+- Unanimous + low confidence: n = 530, accuracy = 68.30%
+- Split + high confidence: n = 78, accuracy = 58.97%
+- Split + low confidence: n = 59, accuracy = 47.46%
+
+Interpretation
+- The strongest Architecture B auto-resolution bucket is unanimous + high confidence.
+- The weakest bucket is split + low confidence.
+- This supports an escalation policy where low-signal cases are routed to human review instead of auto-resolved.
+
+Architecture B: Coverage-Accuracy Curve Checkpoints
+- Top 10% auto-resolved: n = 118, accuracy = 100.00%
+- Top 20% auto-resolved: n = 237, accuracy = 99.16%
+- Top 25% auto-resolved: n = 297, accuracy = 97.64%
+- Top 50% auto-resolved: n = 594, accuracy = 87.04%
+- Top 75% auto-resolved: n = 891, accuracy = 80.58%
+- Top 100% auto-resolved: n = 1,189, accuracy = 76.11%
+
+Interpretation
+- Architecture B can achieve very high accuracy on its strongest-signal subset.
+- Accuracy declines as coverage expands, which is the standard pattern expected in selective-prediction or escalation settings.
+- This curve supports the argument that signal-aware escalation can improve deployed reliability relative to resolving every case automatically.
+
+Architecture A vs. B Coverage-Accuracy Comparison
+- Comparison figure: results/escalation_analysis/coverage_accuracy_comparison.png
+- Architecture A overall accuracy: 82.93%
+- Architecture B overall accuracy: 76.11%
+- Prefixes where Architecture A has higher cumulative accuracy: 980
+- Prefixes where Architecture B has higher cumulative accuracy: 127
+- Tied prefixes: 82
+
+Checkpoint Comparison
+- Top 10% auto-resolved: A = 99.15%, B = 100.00%, gap = -0.85 percentage points
+- Top 20% auto-resolved: A = 99.58%, B = 99.16%, gap = +0.42 percentage points
+- Top 25% auto-resolved: A = 99.66%, B = 97.64%, gap = +2.02 percentage points
+- Top 50% auto-resolved: A = 97.47%, B = 87.04%, gap = +10.44 percentage points
+- Top 75% auto-resolved: A = 90.24%, B = 80.58%, gap = +9.65 percentage points
+- Top 100% auto-resolved: A = 82.93%, B = 76.11%, gap = +6.81 percentage points
+
+Interpretation
+- Architecture A is the better-performing deployment candidate overall.
+- Architecture A is better than Architecture B across most coverage thresholds, especially at moderate and high coverage.
+- Architecture A does not strictly dominate Architecture B at every single prefix, because Architecture B is slightly better at the very top 10% slice.
+- The defensible claim is therefore:
+  Architecture A yields higher overall accuracy and better coverage-accuracy tradeoffs across most of the operating range, which supports recommending independent aggregation over deliberative debate for deployment.
+
+Suggested Thesis Framing
+- The escalation analysis shows that model agreement and confidence provide usable signals for selective automation.
+- In Architecture A specifically, agreement and confidence separate high-reliability and low-reliability cases very sharply.
+- Within Architecture B, unanimous and high-confidence cases are substantially more reliable than split and low-confidence cases.
+- However, when comparing deployment-oriented coverage-accuracy curves, Architecture A remains the stronger system overall and across most practical coverage thresholds.
+- Therefore, even if Architecture B admits a useful escalation policy, the stronger recommendation is to deploy Architecture A with selective escalation rather than Architecture B.
+
+File References
+- results/escalation_analysis/architecture_a_agreement_status.csv
+- results/escalation_analysis/architecture_a_confidence_bins.csv
+- results/escalation_analysis/architecture_a_signal_2x2.csv
+- results/escalation_analysis/architecture_a_coverage_accuracy_curve.csv
+- results/escalation_analysis/architecture_a_coverage_accuracy_curve.png
+- results/escalation_analysis/architecture_a_summary.json
+- results/escalation_analysis/unanimous_vs_split.csv
+- results/escalation_analysis/confidence_bins.csv
+- results/escalation_analysis/signal_2x2.csv
+- results/escalation_analysis/coverage_accuracy_curve.csv
+- results/escalation_analysis/coverage_accuracy_curve.png
+- results/escalation_analysis/architecture_a_coverage_accuracy_curve.csv
+- results/escalation_analysis/architecture_b_coverage_accuracy_curve.csv
+- results/escalation_analysis/coverage_accuracy_comparison.csv
+- results/escalation_analysis/coverage_accuracy_comparison.png
+- results/escalation_analysis/summary.json
+- results/escalation_analysis/comparison_summary.json

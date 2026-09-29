@@ -1,0 +1,1581 @@
+{
+  "features": [
+    {
+      "feature_idx": 0,
+      "name": "id",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 1,
+      "name": "question",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 2,
+      "name": "description",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 3,
+      "name": "category",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 4,
+      "name": "close_time",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 5,
+      "name": "ground_truth",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 6,
+      "name": "market_probability",
+      "type": {
+        "dtype": "null",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 7,
+      "name": "series_ticker",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 8,
+      "name": "source",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "row_idx": 1200,
+      "row": {
+        "id": "KXXRP",
+        "question": "Ripple price at Nov 16, 2025 at 5pm EST?",
+        "description": "If the simple average of the sixty seconds of CF Benchmarks' Ripple-Dollar Real Time Index (XRPUSD_RTI) before 5 PM EST is above 2.5799 at 5 PM EST on Nov 16, 2025, then the market resolves to Yes.\nThe market resolves based on a simple average of the CF Benchmarks index for the 60 seconds prior to the specified time. The price must meet the criterion at exactly the specified time on the target date. If no data is available or incomplete at the expiration time, affected strikes resolve to No. For cryptocurrencies with multiple versions, the Exchange will specify which version or ticker is being tracked. The CF Benchmarks Real-Time Index provides continuous pricing data for major cryptocurrencies.",
+        "category": "Crypto",
+        "close_time": "2025-11-16T22:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXXRP",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1201,
+      "row": {
+        "id": "KXXRP",
+        "question": "Ripple price at Nov 16, 2025 at 5pm EST?",
+        "description": "If the simple average of the sixty seconds of CF Benchmarks' Ripple-Dollar Real Time Index (XRPUSD_RTI) before 5 PM EST is below 1.82000 at 5 PM EST on Nov 16, 2025, then the market resolves to Yes.\nThe market resolves based on a simple average of the CF Benchmarks index for the 60 seconds prior to the specified time. The price must meet the criterion at exactly the specified time on the target date. If no data is available or incomplete at the expiration time, affected strikes resolve to No. For cryptocurrencies with multiple versions, the Exchange will specify which version or ticker is being tracked. The CF Benchmarks Real-Time Index provides continuous pricing data for major cryptocurrencies.",
+        "category": "Crypto",
+        "close_time": "2025-11-16T22:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXXRP",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1202,
+      "row": {
+        "id": "KXSHIBAD",
+        "question": "Shiba Inu price  on Nov 16, 2025?",
+        "description": "If the simple average of the 60 seconds of CF Benchmarks' Shiba Inu-Dollar Spot Rate (SHIBUSD_RTI) before 5 PM EST is above 0.000018499 at 5 PM EST on Nov 16, 2025, then the market resolves to Yes.\nNot all cryptocurrency price data is the same. While checking a source like Google or Coinbase may help guide your decision, the price used to determine this market is based on CF Benchmarks' corresponding Real Time Index (RTI). At the last minute before expiration, 60 RTI prices are collected. The official and final value is the average of these prices.",
+        "category": "Crypto",
+        "close_time": "2025-11-16T22:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXSHIBAD",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1203,
+      "row": {
+        "id": "KXSHIBAD",
+        "question": "Shiba Inu price  on Nov 16, 2025?",
+        "description": "If the simple average of the 60 seconds of CF Benchmarks' Shiba Inu-Dollar Spot Rate (SHIBUSD_RTI) before 5 PM EST is above 0.000017999 at 5 PM EST on Nov 16, 2025, then the market resolves to Yes.\nNot all cryptocurrency price data is the same. While checking a source like Google or Coinbase may help guide your decision, the price used to determine this market is based on CF Benchmarks' corresponding Real Time Index (RTI). At the last minute before expiration, 60 RTI prices are collected. The official and final value is the average of these prices.",
+        "category": "Crypto",
+        "close_time": "2025-11-16T22:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXSHIBAD",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1204,
+      "row": {
+        "id": "KXSHIBA",
+        "question": "Shiba Inu price range  on Nov 16, 2025?",
+        "description": "If the simple average of the 60 seconds of CF Benchmarks' Shiba Inu-Dollar Spot Rate (SHIBUSD_RTI) before 5 PM EST is above 0.000018499 at 5 PM EST on Nov 16, 2025, then the market resolves to Yes.\nNot all cryptocurrency price data is the same. While checking a source like Google or Coinbase may help guide your decision, the price used to determine this market is based on CF Benchmarks' corresponding Real Time Index (RTI). At the last minute before expiration, 60 RTI prices are collected. The official and final value is the average of these prices.",
+        "category": "Crypto",
+        "close_time": "2025-11-16T22:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXSHIBA",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1205,
+      "row": {
+        "id": "KXSHIBA",
+        "question": "Shiba Inu price range  on Nov 16, 2025?",
+        "description": "If the simple average of the 60 seconds of CF Benchmarks' Shiba Inu-Dollar Spot Rate (SHIBUSD_RTI) before 5 PM EST is below 0.000000500 at 5 PM EST on Nov 16, 2025, then the market resolves to Yes.\nNot all cryptocurrency price data is the same. While checking a source like Google or Coinbase may help guide your decision, the price used to determine this market is based on CF Benchmarks' corresponding Real Time Index (RTI). At the last minute before expiration, 60 RTI prices are collected. The official and final value is the average of these prices.",
+        "category": "Crypto",
+        "close_time": "2025-11-16T22:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXSHIBA",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1206,
+      "row": {
+        "id": "KXDOGED",
+        "question": "Dogecoin price  on Nov 16, 2025?",
+        "description": "If there is a 60 second average of CF Benchmarks' Dogecoin Real-Time Index (DOGEUSD_RTI) before 5 PM EST is above 0.2549999 at 5 PM EST on Nov 16, 2025, then the market resolves to Yes.\nNot all cryptocurrency price data is the same. While checking a source like Google or Coinbase may help guide your decision, the price used to determine this market is based on CF Benchmarks' corresponding Real Time Index (RTI).",
+        "category": "Crypto",
+        "close_time": "2025-11-16T22:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXDOGED",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1207,
+      "row": {
+        "id": "KXDOGED",
+        "question": "Dogecoin price  on Nov 16, 2025?",
+        "description": "If there is a 60 second average of CF Benchmarks' Dogecoin Real-Time Index (DOGEUSD_RTI) before 5 PM EST is above 0.2499999 at 5 PM EST on Nov 16, 2025, then the market resolves to Yes.\nNot all cryptocurrency price data is the same. While checking a source like Google or Coinbase may help guide your decision, the price used to determine this market is based on CF Benchmarks' corresponding Real Time Index (RTI).",
+        "category": "Crypto",
+        "close_time": "2025-11-16T22:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXDOGED",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1208,
+      "row": {
+        "id": "KXDOGE",
+        "question": "Dogecoin price range  on Nov 16, 2025?",
+        "description": "If there is a 60 second average of CF Benchmarks' Dogecoin Real-Time Index (DOGEUSD_RTI) before 5 PM EST is above 0.2549999 at 5 PM EST on Nov 16, 2025, then the market resolves to Yes.\nNot all cryptocurrency price data is the same. While checking a source like Google or Coinbase may help guide your decision, the price used to determine this market is based on CF Benchmarks' corresponding Real Time Index (RTI).",
+        "category": "Crypto",
+        "close_time": "2025-11-16T22:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXDOGE",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1209,
+      "row": {
+        "id": "KXDOGE",
+        "question": "Dogecoin price range  on Nov 16, 2025?",
+        "description": "If there is a 60 second average of CF Benchmarks' Dogecoin Real-Time Index (DOGEUSD_RTI) before 5 PM EST is below 0.0650000 at 5 PM EST on Nov 16, 2025, then the market resolves to Yes.\nNot all cryptocurrency price data is the same. While checking a source like Google or Coinbase may help guide your decision, the price used to determine this market is based on CF Benchmarks' corresponding Real Time Index (RTI).",
+        "category": "Crypto",
+        "close_time": "2025-11-16T22:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXDOGE",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1210,
+      "row": {
+        "id": "KXNCAAMBGAME",
+        "question": "UMass Lowell at Wake Forest Winner?",
+        "description": "If Wake Forest wins the UMass Lowell at Wake Forest men's college basketball game originally scheduled for Nov 16, 2025, then the market resolves to Yes.\nThe following market refers to the team who wins the UMass Lowell at Wake Forest men's college basketball game originally scheduled for Nov 16, 2025. If this game is postponed or delayed, the market will remain open and close after the rescheduled game has finished (within two weeks). If the cancelled game is not played or is rescheduled further than two weeks out, the market will resolve to a fair price for each team in accordance with the rules. Kalshi is not affiliated,  associated,  authorized, endorsed by, or in any way officially connected with the NCAA. All trademarks, logos, and brand names are the property of their respective owners.",
+        "category": "Sports",
+        "close_time": "2025-11-16T21:49:48.76161Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXNCAAMBGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1211,
+      "row": {
+        "id": "KXNCAAMBGAME",
+        "question": "UMass Lowell at Wake Forest Winner?",
+        "description": "If UMass Lowell wins the UMass Lowell at Wake Forest men's college basketball game originally scheduled for Nov 16, 2025, then the market resolves to Yes.\nThe following market refers to the team who wins the UMass Lowell at Wake Forest men's college basketball game originally scheduled for Nov 16, 2025. If this game is postponed or delayed, the market will remain open and close after the rescheduled game has finished (within two weeks). If the cancelled game is not played or is rescheduled further than two weeks out, the market will resolve to a fair price for each team in accordance with the rules. Kalshi is not affiliated,  associated,  authorized, endorsed by, or in any way officially connected with the NCAA. All trademarks, logos, and brand names are the property of their respective owners.",
+        "category": "Sports",
+        "close_time": "2025-11-16T21:49:48.76161Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNCAAMBGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1212,
+      "row": {
+        "id": "KXNFLTOTAL",
+        "question": "Tampa Bay at Buffalo: Total Points",
+        "description": "If the teams in the Tampa Bay at Buffalo professional football game originally scheduled for Nov 16, 2025 collectively score more than 61.5 points, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-16T21:39:55.506741Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXNFLTOTAL",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1213,
+      "row": {
+        "id": "KXNFLTOTAL",
+        "question": "Tampa Bay at Buffalo: Total Points",
+        "description": "If the teams in the Tampa Bay at Buffalo professional football game originally scheduled for Nov 16, 2025 collectively score more than 58.5 points, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-16T21:39:55.279119Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXNFLTOTAL",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1214,
+      "row": {
+        "id": "KXNFLSPREAD",
+        "question": "Tampa Bay wins by over 14.5 points?",
+        "description": "If Tampa Bay wins the Tampa Bay at Buffalo professional football game originally scheduled for Nov 16, 2025 by more than 14.5 points, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-16T21:40:03.385453Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLSPREAD",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1215,
+      "row": {
+        "id": "KXNFLSPREAD",
+        "question": "Tampa Bay wins by over 9.5 points?",
+        "description": "If Tampa Bay wins the Tampa Bay at Buffalo professional football game originally scheduled for Nov 16, 2025 by more than 9.5 points, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-16T21:40:03.618973Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLSPREAD",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1216,
+      "row": {
+        "id": "KXNFLRSHYDS",
+        "question": "Rachaad White records 70+ rushing yards",
+        "description": "If Rachaad White records 70+ Rushing Yards in the Tampa Bay at Buffalo professional football game originally scheduled for Nov 16, 2025, then the market resolves to Yes.\nThe following market refers to a player in the Tampa Bay at Buffalo professional football game originally scheduled for Nov 16, 2025. If a player is active but never takes a snap, the market settles to the last fair market price before game start. Once a player takes at least one snap, even if nullified by penalty, the market settles based on Rushing Yards.",
+        "category": "Sports",
+        "close_time": "2025-11-16T21:39:55.913486Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLRSHYDS",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1217,
+      "row": {
+        "id": "KXNFLRSHYDS",
+        "question": "Rachaad White records 60+ rushing yards",
+        "description": "If Rachaad White records 60+ Rushing Yards in the Tampa Bay at Buffalo professional football game originally scheduled for Nov 16, 2025, then the market resolves to Yes.\nThe following market refers to a player in the Tampa Bay at Buffalo professional football game originally scheduled for Nov 16, 2025. If a player is active but never takes a snap, the market settles to the last fair market price before game start. Once a player takes at least one snap, even if nullified by penalty, the market settles based on Rushing Yards.",
+        "category": "Sports",
+        "close_time": "2025-11-16T21:39:55.824749Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLRSHYDS",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1218,
+      "row": {
+        "id": "KXNFLRECYDS",
+        "question": "Tez Johnson records 60+ receiving yards",
+        "description": "If Tez Johnson records 60+ Receiving Yards in the Tampa Bay at Buffalo professional football game originally scheduled for Nov 16, 2025, then the market resolves to Yes.\nThe following market refers to a player in the Tampa Bay at Buffalo professional football game originally scheduled for Nov 16, 2025. If a player is active but never takes a snap, the market settles to the last fair market price before game start. Once a player takes at least one snap, even if nullified by penalty, the market settles based on Receiving Yards.",
+        "category": "Sports",
+        "close_time": "2025-11-16T21:49:53.056837Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLRECYDS",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1219,
+      "row": {
+        "id": "KXNFLRECYDS",
+        "question": "Tez Johnson records 50+ receiving yards",
+        "description": "If Tez Johnson records 50+ Receiving Yards in the Tampa Bay at Buffalo professional football game originally scheduled for Nov 16, 2025, then the market resolves to Yes.\nThe following market refers to a player in the Tampa Bay at Buffalo professional football game originally scheduled for Nov 16, 2025. If a player is active but never takes a snap, the market settles to the last fair market price before game start. Once a player takes at least one snap, even if nullified by penalty, the market settles based on Receiving Yards.",
+        "category": "Sports",
+        "close_time": "2025-11-16T21:49:52.963364Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLRECYDS",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1220,
+      "row": {
+        "id": "KXNFLREC",
+        "question": "Tez Johnson records 5+ receptions",
+        "description": "If Tez Johnson records 5+ Receptions in the Tampa Bay at Buffalo professional football game originally scheduled for Nov 16, 2025, then the market resolves to Yes.\nThe following market refers to a player in the Tampa Bay at Buffalo professional football game originally scheduled for Nov 16, 2025. If a player is active but never takes a snap, the market settles to the last fair market price before game start. Once a player takes at least one snap, even if nullified by penalty, the market settles based on Receptions.",
+        "category": "Sports",
+        "close_time": "2025-11-16T21:49:51.115908Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLREC",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1221,
+      "row": {
+        "id": "KXNFLREC",
+        "question": "Tez Johnson records 4+ receptions",
+        "description": "If Tez Johnson records 4+ Receptions in the Tampa Bay at Buffalo professional football game originally scheduled for Nov 16, 2025, then the market resolves to Yes.\nThe following market refers to a player in the Tampa Bay at Buffalo professional football game originally scheduled for Nov 16, 2025. If a player is active but never takes a snap, the market settles to the last fair market price before game start. Once a player takes at least one snap, even if nullified by penalty, the market settles based on Receptions.",
+        "category": "Sports",
+        "close_time": "2025-11-16T21:49:51.029753Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLREC",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1222,
+      "row": {
+        "id": "KXNFLPASSYDS",
+        "question": "Baker Mayfield records 350+ passing yards",
+        "description": "If Baker Mayfield records 350+ Passing Yards in the Tampa Bay at Buffalo professional football game originally scheduled for Nov 16, 2025, then the market resolves to Yes.\nThe following market refers to a player in the Tampa Bay at Buffalo professional football game originally scheduled for Nov 16, 2025. If a player is active but never takes a snap, the market settles to the last fair market price before game start. Once a player takes at least one snap, even if nullified by penalty, the market settles based on Passing Yards.",
+        "category": "Sports",
+        "close_time": "2025-11-16T21:39:47.516465Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLPASSYDS",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1223,
+      "row": {
+        "id": "KXNFLPASSYDS",
+        "question": "Baker Mayfield records 325+ passing yards",
+        "description": "If Baker Mayfield records 325+ Passing Yards in the Tampa Bay at Buffalo professional football game originally scheduled for Nov 16, 2025, then the market resolves to Yes.\nThe following market refers to a player in the Tampa Bay at Buffalo professional football game originally scheduled for Nov 16, 2025. If a player is active but never takes a snap, the market settles to the last fair market price before game start. Once a player takes at least one snap, even if nullified by penalty, the market settles based on Passing Yards.",
+        "category": "Sports",
+        "close_time": "2025-11-16T21:39:47.394709Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLPASSYDS",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1224,
+      "row": {
+        "id": "KXNFLGAME",
+        "question": "Tampa Bay at Buffalo Winner?",
+        "description": "If Tampa Bay wins the Tampa Bay at Buffalo professional football game originally scheduled for Nov 16, 2025, then the market resolves to Yes.\nThe following market refers to the team who is the winner (or participant awarded a tie) in the Tampa Bay at Buffalo professional football game originally scheduled for Nov 16, 2025. If this game is postponed or delayed, the market will remain open and close after the rescheduled game has finished (within two weeks). If the cancelled game is not played or is rescheduled further than two weeks out, the market will resolve to a fair price for each team in accordance with the rules. If the game is declared a tie, the market will resolve to 50/50 for both teams.",
+        "category": "Sports",
+        "close_time": "2025-11-16T21:19:45.514988Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1225,
+      "row": {
+        "id": "KXNFLGAME",
+        "question": "Tampa Bay at Buffalo Winner?",
+        "description": "If Buffalo wins the Tampa Bay at Buffalo professional football game originally scheduled for Nov 16, 2025, then the market resolves to Yes.\nThe following market refers to the team who is the winner (or participant awarded a tie) in the Tampa Bay at Buffalo professional football game originally scheduled for Nov 16, 2025. If this game is postponed or delayed, the market will remain open and close after the rescheduled game has finished (within two weeks). If the cancelled game is not played or is rescheduled further than two weeks out, the market will resolve to a fair price for each team in accordance with the rules. If the game is declared a tie, the market will resolve to 50/50 for both teams.",
+        "category": "Sports",
+        "close_time": "2025-11-16T21:19:45.514988Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXNFLGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1226,
+      "row": {
+        "id": "KXNFL2TD",
+        "question": "Tampa Bay at Buffalo: Two or More Touchdowns Scorer: Rachaad White",
+        "description": "If Rachaad White scores two or more touchdowns in Buffalo at Tampa Bay professional football game originally scheduled for Nov 16, 2025, then the market resolves to Yes.\nThe following market refers to a player or team in Buffalo at Tampa Bay professional football game originally scheduled for Nov 16, 2025. If a player is active but never takes a snap, the market settles to the last fair market price before game start. Once a player takes at least one snap, even if nullified by penalty, the market settles based on touchdowns scored.",
+        "category": "Sports",
+        "close_time": "2025-11-16T21:40:02.19151Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFL2TD",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1227,
+      "row": {
+        "id": "KXNHLTOTAL",
+        "question": "Nashville vs Pittsburgh: Total Points",
+        "description": "If Nashville and Pittsburgh collectively score over 7.5 total goals in the Nashville at Pittsburgh professional hockey game originally scheduled for Nov 16, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-16T17:19:43.228965Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNHLTOTAL",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1228,
+      "row": {
+        "id": "KXNHLTOTAL",
+        "question": "Nashville vs Pittsburgh: Total Points",
+        "description": "If Nashville and Pittsburgh collectively score over 6.5 total goals in the Nashville at Pittsburgh professional hockey game originally scheduled for Nov 16, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-16T17:19:43.145539Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNHLTOTAL",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1229,
+      "row": {
+        "id": "KXNHLSPREAD",
+        "question": "Pittsburgh wins by over 2.5 goals?",
+        "description": "If Pittsburgh wins by more than 2.5 goals in the Nashville at Pittsburgh professional hockey game originally scheduled for Nov 16, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-16T17:19:44.298728Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXNHLSPREAD",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1230,
+      "row": {
+        "id": "KXNHLSPREAD",
+        "question": "Pittsburgh wins by over 1.5 goals?",
+        "description": "If Pittsburgh wins by more than 1.5 goals in the Nashville at Pittsburgh professional hockey game originally scheduled for Nov 16, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-16T17:19:44.413586Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXNHLSPREAD",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1231,
+      "row": {
+        "id": "KXNHLGAME",
+        "question": "Nashville vs Pittsburgh Winner?",
+        "description": "If PIT Penguins wins the Nashville vs Pittsburgh professional hockey game scheduled for Nov 16, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-16T17:19:43.18767Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXNHLGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1232,
+      "row": {
+        "id": "KXNHLGAME",
+        "question": "Nashville vs Pittsburgh Winner?",
+        "description": "If NSH Predators wins the Nashville vs Pittsburgh professional hockey game scheduled for Nov 16, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-16T17:19:43.18767Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNHLGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1233,
+      "row": {
+        "id": "KXSPOTIFY2D",
+        "question": "Will the top Song on Nov 15, 2025 be Travelin' Soldier?",
+        "description": "If Travelin' Soldier is #2 on the Daily Top Songs USA chart for the chart dated Nov 15, 2025, then the market resolves to Yes.",
+        "category": "Entertainment",
+        "close_time": "2025-11-16T04:59:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXSPOTIFY2D",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1234,
+      "row": {
+        "id": "KXSPOTIFY2D",
+        "question": "Will the top Song on Nov 15, 2025 be The Fate of Ophelia?",
+        "description": "If The Fate of Ophelia is #2 on the Daily Top Songs USA chart for the chart dated Nov 15, 2025, then the market resolves to Yes.",
+        "category": "Entertainment",
+        "close_time": "2025-11-16T04:59:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXSPOTIFY2D",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1235,
+      "row": {
+        "id": "KXRAINNYC",
+        "question": "Will it **rain** in New York City on Saturday?",
+        "description": "If the number of inches of precipitation recorded at Central Park, New York on November 15, 2025 is strictly greater than 0, then the market resolves to Yes.\nThe Payout Criterion only encompasses Expiration Values that are strictly greater than  inches. If the Expiration Value is T (when the target is 0) for Trace or R for Record (where the record set is strictly greater than ), then the market resolves to Yes.\n\nThis market will close and expire the sooner of the first 10:00 AM ET following the release of data for November 15, 2025 or November 22, 2025.\n\nIf the Climatological Report is still inconclusive on November 22, 2025, Kalshi will reference the columns titled \"Weather\" and \"1 Hour Precip (in)\" in the NWS time series (https://www.weather.gov/wrh/timeseries?site=knyc) for determination via rule 7.2 of the rulebook.",
+        "category": "Climate and Weather",
+        "close_time": "2025-11-16T04:59:00Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXRAINNYC",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1236,
+      "row": {
+        "id": "KXPMKICKINGCONTEST",
+        "question": "Will Participant Successfully Make First Field Goal Attempt",
+        "description": "If the Selected Participant successfully makes their first field goal attempt in the Pat McAfee Kicking Contest at College Gameday on November 15th, then the market resolves to Yes.\nThis market resolves to Yes if the Selected Participant successfully makes their first field goal attempt. If the Selected Participant misses their first attempt and is granted another opportunity, the market will resolve to No. Only the Selected Participant’s kick is considered for this market; any attempts made by guests other than the Selected Participant during the broadcast will not count toward resolution.",
+        "category": "Social",
+        "close_time": "2025-11-15T16:28:32.790067Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXPMKICKINGCONTEST",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1237,
+      "row": {
+        "id": "KXMAYORBOSTON",
+        "question": "Will Domingos DaRosa win the election for the Mayor of Boston in 2025?",
+        "description": "If Domingos DaRosa wins the election for Mayor in Boston in 2025, then the market resolves to Yes.",
+        "category": "Elections",
+        "close_time": "2025-11-07T16:58:40.470276Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXMAYORBOSTON",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1238,
+      "row": {
+        "id": "KXMAYORBOSTON",
+        "question": "Will William G. Gross win the election for the Mayor of Boston in 2025?",
+        "description": "If William G. Gross wins the election for Mayor in Boston in 2025, then the market resolves to Yes.",
+        "category": "Elections",
+        "close_time": "2025-11-07T16:58:40.470276Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXMAYORBOSTON",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1239,
+      "row": {
+        "id": "KXHIGHPHIL",
+        "question": "Will the **high temp in Philadelphia** be >61° on Nov 15, 2025?",
+        "description": "If the highest temperature recorded at Philadelphia International Airport for November 15, 2025 as reported by the National Weather Service's Climatological Report (Daily), is greater than 61°, then the market resolves to Yes.\nNot all weather data is the same. While checking a source like AccuWeather or Google Weather may help guide your decision, the official and final value used to determine this market is the highest temperature as reported by the corresponding NWS Climatological Report (Daily) linked in the rules above. Preliminary NWS reporting and measurement methods may be subject to underlying rounding and conversion nuances. Traders should exercise caution when interpreting preliminary NWS data.",
+        "category": "Climate and Weather",
+        "close_time": "2025-11-16T04:59:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXHIGHPHIL",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1240,
+      "row": {
+        "id": "KXHIGHPHIL",
+        "question": "Will the **high temp in Philadelphia** be <54° on Nov 15, 2025?",
+        "description": "If the highest temperature recorded at Philadelphia International Airport for November 15, 2025 as reported by the National Weather Service's Climatological Report (Daily), is less than 54°, then the market resolves to Yes.\nNot all weather data is the same. While checking a source like AccuWeather or Google Weather may help guide your decision, the official and final value used to determine this market is the highest temperature as reported by the corresponding NWS Climatological Report (Daily) linked in the rules above. Preliminary NWS reporting and measurement methods may be subject to underlying rounding and conversion nuances. Traders should exercise caution when interpreting preliminary NWS data.",
+        "category": "Climate and Weather",
+        "close_time": "2025-11-16T04:59:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXHIGHPHIL",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1241,
+      "row": {
+        "id": "KXHIGHNY",
+        "question": "Will the **high temp in NYC** be >56° on Nov 15, 2025?",
+        "description": "If the highest temperature recorded in Central Park, New York for November 15, 2025 as reported by the National Weather Service's Climatological Report (Daily), is greater than 56°, then the market resolves to Yes.\nNot all weather data is the same. While checking a source like AccuWeather or Google Weather may help guide your decision, the official and final value used to determine this market is the highest temperature as reported by the corresponding NWS Climatological Report (Daily) linked in the rules above. Preliminary NWS reporting and measurement methods may be subject to underlying rounding and conversion nuances. Traders should exercise caution when interpreting preliminary NWS data.",
+        "category": "Climate and Weather",
+        "close_time": "2025-11-16T04:59:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXHIGHNY",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1242,
+      "row": {
+        "id": "KXHIGHNY",
+        "question": "Will the **high temp in NYC** be <49° on Nov 15, 2025?",
+        "description": "If the highest temperature recorded in Central Park, New York for November 15, 2025 as reported by the National Weather Service's Climatological Report (Daily), is less than 49°, then the market resolves to Yes.\nNot all weather data is the same. While checking a source like AccuWeather or Google Weather may help guide your decision, the official and final value used to determine this market is the highest temperature as reported by the corresponding NWS Climatological Report (Daily) linked in the rules above. Preliminary NWS reporting and measurement methods may be subject to underlying rounding and conversion nuances. Traders should exercise caution when interpreting preliminary NWS data.",
+        "category": "Climate and Weather",
+        "close_time": "2025-11-16T04:59:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXHIGHNY",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1243,
+      "row": {
+        "id": "KXHIGHMIA",
+        "question": "Will the **high temp in Miami** be >83° on Nov 15, 2025?",
+        "description": "If the highest temperature recorded at Miami International Airport for November 15, 2025 as reported by the National Weather Service's Climatological Report (Daily), is greater than 83°, then the market resolves to Yes.\nNot all weather data is the same. While checking a source like AccuWeather or Google Weather may help guide your decision, the official and final value used to determine this market is the highest temperature as reported by the corresponding NWS Climatological Report (Daily) linked in the rules above. Preliminary NWS reporting and measurement methods may be subject to underlying rounding and conversion nuances. Traders should exercise caution when interpreting preliminary NWS data.",
+        "category": "Climate and Weather",
+        "close_time": "2025-11-16T04:59:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXHIGHMIA",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1244,
+      "row": {
+        "id": "KXHIGHMIA",
+        "question": "Will the **high temp in Miami** be <76° on Nov 15, 2025?",
+        "description": "If the highest temperature recorded at Miami International Airport for November 15, 2025 as reported by the National Weather Service's Climatological Report (Daily), is less than 76°, then the market resolves to Yes.\nNot all weather data is the same. While checking a source like AccuWeather or Google Weather may help guide your decision, the official and final value used to determine this market is the highest temperature as reported by the corresponding NWS Climatological Report (Daily) linked in the rules above. Preliminary NWS reporting and measurement methods may be subject to underlying rounding and conversion nuances. Traders should exercise caution when interpreting preliminary NWS data.",
+        "category": "Climate and Weather",
+        "close_time": "2025-11-16T04:59:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXHIGHMIA",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1245,
+      "row": {
+        "id": "KXHIGHLAX",
+        "question": "Will the **high temp in LA** be >67° on Nov 15, 2025?",
+        "description": "If the highest temperature recorded in Los Angeles Airport, CA for November 15, 2025 as reported by the National Weather Service's Climatological Report (Daily), is greater than 67°, then the market resolves to Yes.\nNot all weather data is the same. While checking a source like AccuWeather or Google Weather may help guide your decision, the official and final value used to determine this market is the highest temperature as reported by the corresponding NWS Climatological Report (Daily) linked in the rules above. Preliminary NWS reporting and measurement methods may be subject to underlying rounding and conversion nuances. Traders should exercise caution when interpreting preliminary NWS data.",
+        "category": "Climate and Weather",
+        "close_time": "2025-11-16T07:59:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXHIGHLAX",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1246,
+      "row": {
+        "id": "KXHIGHLAX",
+        "question": "Will the **high temp in LA** be <60° on Nov 15, 2025?",
+        "description": "If the highest temperature recorded in Los Angeles Airport, CA for November 15, 2025 as reported by the National Weather Service's Climatological Report (Daily), is less than 60°, then the market resolves to Yes.\nNot all weather data is the same. While checking a source like AccuWeather or Google Weather may help guide your decision, the official and final value used to determine this market is the highest temperature as reported by the corresponding NWS Climatological Report (Daily) linked in the rules above. Preliminary NWS reporting and measurement methods may be subject to underlying rounding and conversion nuances. Traders should exercise caution when interpreting preliminary NWS data.",
+        "category": "Climate and Weather",
+        "close_time": "2025-11-16T07:59:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXHIGHLAX",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1247,
+      "row": {
+        "id": "KXHIGHDEN",
+        "question": "Will the **high temp in Denver** be >74° on Nov 15, 2025?",
+        "description": "If the highest temperature recorded in Denver, CO for November 15, 2025 as reported by the National Weather Service's Climatological Report (Daily), is greater than 74°, then the market resolves to Yes.\nNot all weather data is the same. While checking a source like AccuWeather or Google Weather may help guide your decision, the official and final value used to determine this market is the highest temperature as reported by the corresponding NWS Climatological Report (Daily) linked in the rules above. Preliminary NWS reporting and measurement methods may be subject to underlying rounding and conversion nuances. Traders should exercise caution when interpreting preliminary NWS data.",
+        "category": "Climate and Weather",
+        "close_time": "2025-11-16T06:59:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXHIGHDEN",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1248,
+      "row": {
+        "id": "KXHIGHDEN",
+        "question": "Will the **high temp in Denver** be <67° on Nov 15, 2025?",
+        "description": "If the highest temperature recorded in Denver, CO for November 15, 2025 as reported by the National Weather Service's Climatological Report (Daily), is less than 67°, then the market resolves to Yes.\nNot all weather data is the same. While checking a source like AccuWeather or Google Weather may help guide your decision, the official and final value used to determine this market is the highest temperature as reported by the corresponding NWS Climatological Report (Daily) linked in the rules above. Preliminary NWS reporting and measurement methods may be subject to underlying rounding and conversion nuances. Traders should exercise caution when interpreting preliminary NWS data.",
+        "category": "Climate and Weather",
+        "close_time": "2025-11-16T06:59:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXHIGHDEN",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1249,
+      "row": {
+        "id": "KXHIGHCHI",
+        "question": "Will the high temp in Chicago be >71° on Nov 15, 2025?",
+        "description": "If the highest temperature recorded at Chicago Midway, IL for November 15, 2025, is greater than 71° according to the National Weather Service's Climatological Report (Daily), then the market resolves to Yes.\nNot all weather data is the same. While checking a source like AccuWeather or Google Weather may help guide your decision, the official and final value used to determine this market is the highest temperature as reported by the corresponding NWS Climatological Report (Daily) linked in the rules above. Preliminary NWS reporting and measurement methods may be subject to underlying rounding and conversion nuances. Traders should exercise caution when interpreting preliminary NWS data.",
+        "category": "Climate and Weather",
+        "close_time": "2025-11-16T05:59:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXHIGHCHI",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1250,
+      "row": {
+        "id": "KXHIGHCHI",
+        "question": "Will the high temp in Chicago be <64° on Nov 15, 2025?",
+        "description": "If the highest temperature recorded at Chicago Midway, IL for November 15, 2025, is less than 64° according to the National Weather Service's Climatological Report (Daily), then the market resolves to Yes.\nNot all weather data is the same. While checking a source like AccuWeather or Google Weather may help guide your decision, the official and final value used to determine this market is the highest temperature as reported by the corresponding NWS Climatological Report (Daily) linked in the rules above. Preliminary NWS reporting and measurement methods may be subject to underlying rounding and conversion nuances. Traders should exercise caution when interpreting preliminary NWS data.",
+        "category": "Climate and Weather",
+        "close_time": "2025-11-16T05:59:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXHIGHCHI",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1251,
+      "row": {
+        "id": "KXHIGHAUS",
+        "question": "Will the **high temp in Austin** be >90° on Nov 15, 2025?",
+        "description": "If the highest temperature recorded in Austin Bergstrom for November 15, 2025 as reported by the National Weather Service's Climatological Report (Daily), is greater than 90°, then the market resolves to Yes.\nNot all weather data is the same. While checking a source like AccuWeather or Google Weather may help guide your decision, the official and final value used to determine this market is the highest temperature as reported by the corresponding NWS Climatological Report (Daily) linked in the rules above. Preliminary NWS reporting and measurement methods may be subject to underlying rounding and conversion nuances. Traders should exercise caution when interpreting preliminary NWS data.",
+        "category": "Climate and Weather",
+        "close_time": "2025-11-16T05:59:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXHIGHAUS",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1252,
+      "row": {
+        "id": "KXHIGHAUS",
+        "question": "Will the **high temp in Austin** be <83° on Nov 15, 2025?",
+        "description": "If the highest temperature recorded in Austin Bergstrom for November 15, 2025 as reported by the National Weather Service's Climatological Report (Daily), is less than 83°, then the market resolves to Yes.\nNot all weather data is the same. While checking a source like AccuWeather or Google Weather may help guide your decision, the official and final value used to determine this market is the highest temperature as reported by the corresponding NWS Climatological Report (Daily) linked in the rules above. Preliminary NWS reporting and measurement methods may be subject to underlying rounding and conversion nuances. Traders should exercise caution when interpreting preliminary NWS data.",
+        "category": "Climate and Weather",
+        "close_time": "2025-11-16T05:59:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXHIGHAUS",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1253,
+      "row": {
+        "id": "KXMARATHON",
+        "question": "Will Yemane Haileselassie win the New York City Marathon?",
+        "description": "If Yemane Haileselassie wins the 2025 TCS New York City Marathon Men's Division, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-02T16:45:04.676335Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXMARATHON",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1254,
+      "row": {
+        "id": "KXMARATHON",
+        "question": "Will Yudai Fukuda win the New York City Marathon?",
+        "description": "If Yudai Fukuda wins the 2025 TCS New York City Marathon Men's Division, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-02T16:45:04.676335Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXMARATHON",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1255,
+      "row": {
+        "id": "KXATPMATCH",
+        "question": "Will Jannik Sinner win the Alcaraz vs Sinner match?",
+        "description": "If Jannik Sinner wins the Alcaraz vs Sinner professional tennis match in the 2025 ATP World Tour Finals Men Singles Final after a ball has been played, then the market resolves to Yes.\nThe following market refers to the Alcaraz vs Sinner professional tennis match in the 2025 ATP World Tour Finals Men Singles Final after a ball has been played. If the match does not occur (signaled by a ball being played) due to a player injury, walkover, forfeiture, or any other cancellation (all before the match starts), the market will resolve to a fair price in accordance with the rules. If this match is postponed or delayed, the market will remain open and close after the rescheduled match has finished (within two weeks).",
+        "category": "Sports",
+        "close_time": "2025-11-16T19:30:00.793258Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXATPMATCH",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1256,
+      "row": {
+        "id": "KXATPMATCH",
+        "question": "Will Carlos Alcaraz win the Alcaraz vs Sinner match?",
+        "description": "If Carlos Alcaraz wins the Alcaraz vs Sinner professional tennis match in the 2025 ATP World Tour Finals Men Singles Final after a ball has been played, then the market resolves to Yes.\nThe following market refers to the Alcaraz vs Sinner professional tennis match in the 2025 ATP World Tour Finals Men Singles Final after a ball has been played. If the match does not occur (signaled by a ball being played) due to a player injury, walkover, forfeiture, or any other cancellation (all before the match starts), the market will resolve to a fair price in accordance with the rules. If this match is postponed or delayed, the market will remain open and close after the rescheduled match has finished (within two weeks).",
+        "category": "Sports",
+        "close_time": "2025-11-16T19:30:00.793258Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXATPMATCH",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1257,
+      "row": {
+        "id": "KXATPDOUBLES",
+        "question": "Will Salisbury J / Skupski N win the Heliovaara H / Patten H vs Salisbury J / Skupski N match?",
+        "description": "If Salisbury J / Skupski N wins the Heliovaara H / Patten H vs Salisbury J / Skupski N professional tennis match in the 2025 ATP World Tour Finals Men Doubles Final after a ball has been played, then the market resolves to Yes.\nThe following market refers to the Heliovaara H / Patten H vs Salisbury J / Skupski N professional tennis match in the 2025 ATP World Tour Finals Men Doubles Final after a ball has been played. If the match does not occur (signaled by a ball being played) due to a player injury, walkover, forfeiture, or any other cancellation (all before the match starts), the market will resolve to a fair price in accordance with the rules. If this match is postponed or delayed, the market will remain open and close after the rescheduled match has finished (within two weeks).",
+        "category": "Sports",
+        "close_time": "2025-11-16T16:19:50.258593Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXATPDOUBLES",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1258,
+      "row": {
+        "id": "KXATPDOUBLES",
+        "question": "Will Heliovaara H / Patten H win the Heliovaara H / Patten H vs Salisbury J / Skupski N match?",
+        "description": "If Heliovaara H / Patten H wins the Heliovaara H / Patten H vs Salisbury J / Skupski N professional tennis match in the 2025 ATP World Tour Finals Men Doubles Final after a ball has been played, then the market resolves to Yes.\nThe following market refers to the Heliovaara H / Patten H vs Salisbury J / Skupski N professional tennis match in the 2025 ATP World Tour Finals Men Doubles Final after a ball has been played. If the match does not occur (signaled by a ball being played) due to a player injury, walkover, forfeiture, or any other cancellation (all before the match starts), the market will resolve to a fair price in accordance with the rules. If this match is postponed or delayed, the market will remain open and close after the rescheduled match has finished (within two weeks).",
+        "category": "Sports",
+        "close_time": "2025-11-16T16:19:50.258593Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXATPDOUBLES",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1259,
+      "row": {
+        "id": "KXUFCFIGHT",
+        "question": "Will Islam Makhachev win the Maddalena vs Makhachev professional MMA fight scheduled for Nov 15, 2025?",
+        "description": "If Islam Makhachev wins the Maddalena vs Makhachev professional MMA fight originally scheduled for Nov 15, 2025, then the market resolves to Yes.\nThe following market refers to the Maddalena vs Makhachev professional MMA fight originally scheduled for Nov 15, 2025. If this fight is postponed or delayed, the market will remain open and close after the rescheduled fight has finished (within two weeks). If the fight is declared a tie or no contest, the market will resolve to 50/50 for both fighters. If the fight is cancelled or rescheduled to over two weeks away, the market will resolve to a fair price in accordance with the rules.",
+        "category": "Sports",
+        "close_time": "2025-11-16T06:08:18.574951Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXUFCFIGHT",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1260,
+      "row": {
+        "id": "KXUFCFIGHT",
+        "question": "Will Jack Della Maddalena win the Maddalena vs Makhachev professional MMA fight scheduled for Nov 15, 2025?",
+        "description": "If Jack Della Maddalena wins the Maddalena vs Makhachev professional MMA fight originally scheduled for Nov 15, 2025, then the market resolves to Yes.\nThe following market refers to the Maddalena vs Makhachev professional MMA fight originally scheduled for Nov 15, 2025. If this fight is postponed or delayed, the market will remain open and close after the rescheduled fight has finished (within two weeks). If the fight is declared a tie or no contest, the market will resolve to 50/50 for both fighters. If the fight is cancelled or rescheduled to over two weeks away, the market will resolve to a fair price in accordance with the rules.",
+        "category": "Sports",
+        "close_time": "2025-11-16T06:08:18.574951Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXUFCFIGHT",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1261,
+      "row": {
+        "id": "KXNCAAFTOTAL",
+        "question": "Wyoming at Fresno St.: Total Points",
+        "description": "If the teams in the Wyoming at Fresno St. college football game originally scheduled for Nov 15, 2025 collectively score more than 51.5 points, then the market resolves to Yes.\nKalshi is not affiliated,  associated,  authorized, endorsed by, or in any way officially connected with the NCAA. All trademarks, logos, and brand names are the property of their respective owners.",
+        "category": "Sports",
+        "close_time": "2025-11-16T08:29:33.607101Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNCAAFTOTAL",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1262,
+      "row": {
+        "id": "KXNCAAFTOTAL",
+        "question": "Wyoming at Fresno St.: Total Points",
+        "description": "If the teams in the Wyoming at Fresno St. college football game originally scheduled for Nov 15, 2025 collectively score more than 48.5 points, then the market resolves to Yes.\nKalshi is not affiliated,  associated,  authorized, endorsed by, or in any way officially connected with the NCAA. All trademarks, logos, and brand names are the property of their respective owners.",
+        "category": "Sports",
+        "close_time": "2025-11-16T08:29:33.521821Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNCAAFTOTAL",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1263,
+      "row": {
+        "id": "KXNCAAFSPREAD",
+        "question": "Wyoming wins by over 9.5 points?",
+        "description": "If Wyoming wins the Wyoming at Fresno St. college football game originally scheduled for Nov 15, 2025 by more than 9.5 points, then the market resolves to Yes.\nKalshi is not affiliated,  associated,  authorized, endorsed by, or in any way officially connected with the NCAA. All trademarks, logos, and brand names are the property of their respective owners.",
+        "category": "Sports",
+        "close_time": "2025-11-16T08:29:33.536085Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNCAAFSPREAD",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1264,
+      "row": {
+        "id": "KXNCAAFSPREAD",
+        "question": "Wyoming wins by over 7.5 points?",
+        "description": "If Wyoming wins the Wyoming at Fresno St. college football game originally scheduled for Nov 15, 2025 by more than 7.5 points, then the market resolves to Yes.\nKalshi is not affiliated,  associated,  authorized, endorsed by, or in any way officially connected with the NCAA. All trademarks, logos, and brand names are the property of their respective owners.",
+        "category": "Sports",
+        "close_time": "2025-11-16T08:29:33.618337Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNCAAFSPREAD",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1265,
+      "row": {
+        "id": "KXNCAAFGAME",
+        "question": "Boise St. at San Diego St. Winner?",
+        "description": "If San Diego St. wins the Boise St. at San Diego St. college football game originally scheduled for Nov 15, 2025, then the market resolves to Yes.\nThe following market refers to the team who is the winner (or participant awarded a tie) in the Boise St. at San Diego St. college football game originally scheduled for Nov 15, 2025. If this game is postponed or delayed, the market will remain open and close after the rescheduled game has finished (within two weeks). If the cancelled game is not played or is rescheduled further than two weeks out, the market will resolve to a fair price for each team in accordance with the rules. If the game is declared a tie, the market will resolve to 50/50 for both teams.",
+        "category": "Sports",
+        "close_time": "2025-11-16T06:39:33.204382Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXNCAAFGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1266,
+      "row": {
+        "id": "KXNCAAFGAME",
+        "question": "Boise St. at San Diego St. Winner?",
+        "description": "If Boise St. wins the Boise St. at San Diego St. college football game originally scheduled for Nov 15, 2025, then the market resolves to Yes.\nThe following market refers to the team who is the winner (or participant awarded a tie) in the Boise St. at San Diego St. college football game originally scheduled for Nov 15, 2025. If this game is postponed or delayed, the market will remain open and close after the rescheduled game has finished (within two weeks). If the cancelled game is not played or is rescheduled further than two weeks out, the market will resolve to a fair price for each team in accordance with the rules. If the game is declared a tie, the market will resolve to 50/50 for both teams.",
+        "category": "Sports",
+        "close_time": "2025-11-16T06:39:33.204382Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNCAAFGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1267,
+      "row": {
+        "id": "KXTRUMPUFC322",
+        "question": "Will Donald Trump attend UFC 322?",
+        "description": "If Donald Trump attends UFC 322, then the market resolves to Yes.\nAttendance is confirmed if the person is reported present at the event by any Source Agency, including social media posts by the person themselves. Virtual attendance counts as attendance unless the event is explicitly in-person only. Brief appearances or partial attendance count as attendance. The event must occur in the specified year. If the event is cancelled, postponed beyond the expiration date, or does not occur in the specified year, the market resolves to No.",
+        "category": "Entertainment",
+        "close_time": "2025-11-16T04:59:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXTRUMPUFC322",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1268,
+      "row": {
+        "id": "KXNBATOTAL",
+        "question": "Los Angeles L at Milwaukee: Total Points",
+        "description": "If Los Angeles L and Milwaukee collectively score over 247.5 total points in the Los Angeles L at Milwaukee professional basketball game originally scheduled for Nov 15, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-16T04:14:30.228741Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNBATOTAL",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1269,
+      "row": {
+        "id": "KXNBATOTAL",
+        "question": "Los Angeles L at Milwaukee: Total Points",
+        "description": "If Los Angeles L and Milwaukee collectively score over 244.5 total points in the Los Angeles L at Milwaukee professional basketball game originally scheduled for Nov 15, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-16T04:14:30.141519Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNBATOTAL",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1270,
+      "row": {
+        "id": "KXNBASPREAD",
+        "question": "Milwaukee wins by over 8.5 Points?",
+        "description": "If Milwaukee wins by more than 8.5 points in the Los Angeles L at Milwaukee professional basketball game originally scheduled for Nov 15, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-16T04:14:31.98002Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNBASPREAD",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1271,
+      "row": {
+        "id": "KXNBASPREAD",
+        "question": "Milwaukee wins by over 5.5 Points?",
+        "description": "If Milwaukee wins by more than 5.5 points in the Los Angeles L at Milwaukee professional basketball game originally scheduled for Nov 15, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-16T04:14:32.059686Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNBASPREAD",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1272,
+      "row": {
+        "id": "KXNBAGAME",
+        "question": "Los Angeles L vs Milwaukee Winner?",
+        "description": "If Milwaukee wins the Los Angeles L vs Milwaukee professional basketball game originally scheduled for Nov 15, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-16T04:14:29.589633Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNBAGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1273,
+      "row": {
+        "id": "KXNBAGAME",
+        "question": "Los Angeles L vs Milwaukee Winner?",
+        "description": "If Los Angeles L wins the Los Angeles L vs Milwaukee professional basketball game originally scheduled for Nov 15, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-16T04:14:29.589633Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXNBAGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1274,
+      "row": {
+        "id": "KXBRASILEIROGAME",
+        "question": "Santos FC SP vs SE Palmeiras SP Winner?",
+        "description": "If Tie wins the Santos FC SP vs SE Palmeiras SP professional Brasileiro Serie A soccer game originally scheduled for Nov 15, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.\nThe following market refers to the Santos FC SP vs SE Palmeiras SP professional Brasileiro Serie A soccer game originally scheduled for Nov 15, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties). If the game ends in a tie, the market called \"Tie\" resolves to Yes. If the game is cancelled or rescheduled to over two weeks away, the market will resolve to a fair price in accordance with the rules.",
+        "category": "Sports",
+        "close_time": "2025-11-16T02:09:53.879826Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXBRASILEIROGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1275,
+      "row": {
+        "id": "KXBRASILEIROGAME",
+        "question": "Santos FC SP vs SE Palmeiras SP Winner?",
+        "description": "If Santos FC SP wins the Santos FC SP vs SE Palmeiras SP professional Brasileiro Serie A soccer game originally scheduled for Nov 15, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.\nThe following market refers to the Santos FC SP vs SE Palmeiras SP professional Brasileiro Serie A soccer game originally scheduled for Nov 15, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties). If the game ends in a tie, the market called \"Tie\" resolves to Yes. If the game is cancelled or rescheduled to over two weeks away, the market will resolve to a fair price in accordance with the rules.",
+        "category": "Sports",
+        "close_time": "2025-11-16T02:09:53.879826Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXBRASILEIROGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1276,
+      "row": {
+        "id": "KXPGATOUR",
+        "question": "Will Zac Blair win the Butterfield Bermuda Championship?",
+        "description": "If Zac Blair wins the Butterfield Bermuda Championship, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-16T19:21:21.846931Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXPGATOUR",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1277,
+      "row": {
+        "id": "KXPGATOUR",
+        "question": "Will William Mouw win the Butterfield Bermuda Championship?",
+        "description": "If William Mouw wins the Butterfield Bermuda Championship, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-16T19:21:21.846931Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXPGATOUR",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1278,
+      "row": {
+        "id": "KXR6GAME",
+        "question": "Will Wildcard Gaming win the Wildcard Gaming vs. M80 match?",
+        "description": "If Wildcard Gaming wins the Blast R6 Major Munich: Wildcard Gaming vs. M80 R6 match originally scheduled for Nov 15, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-15T20:45:45.580958Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXR6GAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1279,
+      "row": {
+        "id": "KXR6GAME",
+        "question": "Will M80 win the Wildcard Gaming vs. M80 match?",
+        "description": "If M80 wins the Blast R6 Major Munich: Wildcard Gaming vs. M80 R6 match originally scheduled for Nov 15, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-15T20:45:45.580958Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXR6GAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1280,
+      "row": {
+        "id": "KXTOP10BILLBOARDSPOTSTS",
+        "question": "How many spots on the Billboard Hot 100's top 10 will Taylor Swift hold for the week of Nov 15, 2025?",
+        "description": "If Taylor Swift has exactly 9 spots on the Billboard Hot 100's top ten songs by the Billboard chart for Nov 15, 2025, then the market resolves to Yes.\n**This market and these products have not been endorsed by Billboard. Any references to \"Billboard\", the \"Hot 100,\" or any other associated marks are descriptive only, and do not indicate an endorsement of this product or any affiliation between Billboard and Kalshi.**",
+        "category": "Entertainment",
+        "close_time": "2025-11-11T15:39:04.842099Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXTOP10BILLBOARDSPOTSTS",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1281,
+      "row": {
+        "id": "KXTOP10BILLBOARDSPOTSTS",
+        "question": "How many spots on the Billboard Hot 100's top 10 will Taylor Swift hold for the week of Nov 15, 2025?",
+        "description": "If Taylor Swift has exactly 8 spots on the Billboard Hot 100's top ten songs by the Billboard chart for Nov 15, 2025, then the market resolves to Yes.\n**This market and these products have not been endorsed by Billboard. Any references to \"Billboard\", the \"Hot 100,\" or any other associated marks are descriptive only, and do not indicate an endorsement of this product or any affiliation between Billboard and Kalshi.**",
+        "category": "Entertainment",
+        "close_time": "2025-11-11T15:39:04.842099Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXTOP10BILLBOARDSPOTSTS",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1282,
+      "row": {
+        "id": "KXRANKLISTSONGTHRILLER",
+        "question": "Will Thriller by Michael Jackson be Top 10 on The Billboard Hot 100 Chart for the week of November 15, 2025?",
+        "description": "If Thriller by Michael Jackson is the Top 10 on The Billboard Hot 100 Chart for the week of November 15, 2025 before Nov 15, 2025, then the market resolves to Yes.",
+        "category": "Entertainment",
+        "close_time": "2025-11-11T16:06:41.942338Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXRANKLISTSONGTHRILLER",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1283,
+      "row": {
+        "id": "KXRANKLISTAPPREALSPORTS",
+        "question": "Will 'Real Sports' be a top 10 sports app before Nov 15th, 2025?",
+        "description": "If Real Sports is in the Top 10 on the  Top Free iPhone Sports apps on the App Store - Apple before Nov 15, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-15T15:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXRANKLISTAPPREALSPORTS",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1284,
+      "row": {
+        "id": "KXRAINNYC",
+        "question": "Will it **rain** in New York City on Friday?",
+        "description": "If the number of inches of precipitation recorded at Central Park, New York on November 14, 2025 is strictly greater than 0, then the market resolves to Yes.\nThe Payout Criterion only encompasses Expiration Values that are strictly greater than  inches. If the Expiration Value is T (when the target is 0) for Trace or R for Record (where the record set is strictly greater than ), then the market resolves to Yes.\n\nThis market will close and expire the sooner of the first 10:00 AM ET following the release of data for November 14, 2025 or November 21, 2025.\n\nIf the Climatological Report is still inconclusive on November 21, 2025, Kalshi will reference the columns titled \"Weather\" and \"1 Hour Precip (in)\" in the NWS time series (https://www.weather.gov/wrh/timeseries?site=knyc) for determination via rule 7.2 of the rulebook.",
+        "category": "Climate and Weather",
+        "close_time": "2025-11-15T04:59:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXRAINNYC",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1285,
+      "row": {
+        "id": "KXMAYORNOLA",
+        "question": "Who will win New Orleans Mayoral Election?",
+        "description": "If Frank Janusa wins New Orleans Mayoral Election in 2025, then the market resolves to Yes.",
+        "category": "Elections",
+        "close_time": "2025-10-27T22:25:15.80861Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXMAYORNOLA",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1286,
+      "row": {
+        "id": "KXMAYORNOLA",
+        "question": "Who will win New Orleans Mayoral Election?",
+        "description": "If Royce Duplessis wins New Orleans Mayoral Election in 2025, then the market resolves to Yes.",
+        "category": "Elections",
+        "close_time": "2025-10-27T22:25:15.80861Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXMAYORNOLA",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1287,
+      "row": {
+        "id": "KXCSGOMAP",
+        "question": "Will Vitality win Team Falcons vs. Vitality: Map 2?",
+        "description": "If Vitality wins Team Falcons vs. Vitality: Map 2 originally scheduled for Nov 15, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-15T14:45:23.688184Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXCSGOMAP",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1288,
+      "row": {
+        "id": "KXCSGOMAP",
+        "question": "Will Team Falcons win Team Falcons vs. Vitality: Map 2?",
+        "description": "If Team Falcons wins Team Falcons vs. Vitality: Map 2 originally scheduled for Nov 15, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-15T14:45:23.688184Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXCSGOMAP",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1289,
+      "row": {
+        "id": "KXCSGOGAME",
+        "question": "Will Vitality win the Team Falcons vs. Vitality match?",
+        "description": "If Vitality wins the BLAST Rivals 2025: Team Falcons vs. Vitality Counter Strike match originally scheduled for Nov 15, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-15T14:40:53.968863Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXCSGOGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1290,
+      "row": {
+        "id": "KXCSGOGAME",
+        "question": "Will Team Falcons win the Team Falcons vs. Vitality match?",
+        "description": "If Team Falcons wins the BLAST Rivals 2025: Team Falcons vs. Vitality Counter Strike match originally scheduled for Nov 15, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-15T14:40:53.968863Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXCSGOGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1291,
+      "row": {
+        "id": "KXNASDAQ100U",
+        "question": "Will the Nasdaq-100 be above 28399.99 at the end of Nov 14, 2025 at 4pm EST?",
+        "description": "If the end-of-day Nasdaq 100 index value on November 14, 2025 is above 28399.99, then the market resolves to Yes.\nThe market will close on November 14, 2025. The market will expire at the sooner of the first release of the data, or one week after November 14, 2025.\n\nPursuant to the Kalshi Rulebook, the Exchange has modified the Source Agency and Underlying for indices markets. See the rules for more information.",
+        "category": "Financials",
+        "close_time": "2025-11-14T21:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNASDAQ100U",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1292,
+      "row": {
+        "id": "KXNASDAQ100U",
+        "question": "Will the Nasdaq-100 be above 28299.99 at the end of Nov 14, 2025 at 4pm EST?",
+        "description": "If the end-of-day Nasdaq 100 index value on November 14, 2025 is above 28299.99, then the market resolves to Yes.\nThe market will close on November 14, 2025. The market will expire at the sooner of the first release of the data, or one week after November 14, 2025.\n\nPursuant to the Kalshi Rulebook, the Exchange has modified the Source Agency and Underlying for indices markets. See the rules for more information.",
+        "category": "Financials",
+        "close_time": "2025-11-14T21:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNASDAQ100U",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1293,
+      "row": {
+        "id": "KXNASDAQ100",
+        "question": "Will the Nasdaq-100 be above 26499.9900 at the end of Nov 14, 2025 at 4pm EST?",
+        "description": "If the end-of-day Nasdaq 100 index value on November 14, 2025 is above 26499.9900, then the market resolves to Yes.\nThe market will close on November 14, 2025. The market will expire at the sooner of the first release of the data, or one week after November 14, 2025.\n\nPursuant to the Kalshi Rulebook, the Exchange has modified the Source Agency and Underlying for indices markets. See the rules for more information.",
+        "category": "Financials",
+        "close_time": "2025-11-14T21:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNASDAQ100",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1294,
+      "row": {
+        "id": "KXNASDAQ100",
+        "question": "Will the Nasdaq-100 be below 23700 at the end of Nov 14, 2025 at 4pm EST?",
+        "description": "If the end-of-day Nasdaq 100 index value on November 14, 2025 is below 23700, then the market resolves to Yes.\nThe market will close on November 14, 2025. The market will expire at the sooner of the first release of the data, or one week after November 14, 2025.\n\nPursuant to the Kalshi Rulebook, the Exchange has modified the Source Agency and Underlying for indices markets. See the rules for more information.",
+        "category": "Financials",
+        "close_time": "2025-11-14T21:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNASDAQ100",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1295,
+      "row": {
+        "id": "KXINXU",
+        "question": "Will the S&P 500 be above 7574.9999 on Nov 14, 2025 at 4pm EST?",
+        "description": "If the end-of-day S&P 500 index value on November 14, 2025 is above 7574.9999, then the market resolves to Yes.\nThe market will close on November 14, 2025. The market will expire at the sooner of the first release of the data, or one week after November 14, 2025.\n\nPursuant to the Kalshi Rulebook, the Exchange has modified the Source Agency and Underlying for indices markets. See the rules for more information.",
+        "category": "Financials",
+        "close_time": "2025-11-14T21:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXINXU",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1296,
+      "row": {
+        "id": "KXINXU",
+        "question": "Will the S&P 500 be above 7549.9999 on Nov 14, 2025 at 4pm EST?",
+        "description": "If the end-of-day S&P 500 index value on November 14, 2025 is above 7549.9999, then the market resolves to Yes.\nThe market will close on November 14, 2025. The market will expire at the sooner of the first release of the data, or one week after November 14, 2025.\n\nPursuant to the Kalshi Rulebook, the Exchange has modified the Source Agency and Underlying for indices markets. See the rules for more information.",
+        "category": "Financials",
+        "close_time": "2025-11-14T21:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXINXU",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1297,
+      "row": {
+        "id": "KXINX",
+        "question": "Will the S&P 500 be above 7049.9999 on Nov 14, 2025 at 4pm EST?",
+        "description": "If the end-of-day S&P 500 index value on November 14, 2025 is above 7049.9999, then the market resolves to Yes.\nThe market will close on November 14, 2025. The market will expire at the sooner of the first release of the data, or one week after November 14, 2025.\n\nPursuant to the Kalshi Rulebook, the Exchange has modified the Source Agency and Underlying for indices markets. See the rules for more information.",
+        "category": "Financials",
+        "close_time": "2025-11-14T21:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXINX",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1298,
+      "row": {
+        "id": "KXINX",
+        "question": "Will the S&P 500 be below 6350 on Nov 14, 2025 at 4pm EST?",
+        "description": "If the end-of-day S&P 500 index value on November 14, 2025 is below 6350, then the market resolves to Yes.\nThe market will close on November 14, 2025. The market will expire at the sooner of the first release of the data, or one week after November 14, 2025.\n\nPursuant to the Kalshi Rulebook, the Exchange has modified the Source Agency and Underlying for indices markets. See the rules for more information.",
+        "category": "Financials",
+        "close_time": "2025-11-14T21:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXINX",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1299,
+      "row": {
+        "id": "KXEUROLEAGUEGAME",
+        "question": "FC Barcelona vs Virtus Bologna Winner?",
+        "description": "If Virtus Bologna wins the FC Barcelona vs Virtus Bologna professional Euroleague basketball game originally scheduled for Nov 14, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-14T21:34:46.088428Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXEUROLEAGUEGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    }
+  ],
+  "num_rows_total": 1531,
+  "num_rows_per_page": 100,
+  "partial": false
+}

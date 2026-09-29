@@ -1,0 +1,100 @@
+{
+  "question_id": "KXAPRPOTUS",
+  "question_text": "Will the President's approval rating be between 44.0 and 44.3 according to RealClearPolitics?",
+  "resolution_criteria": "If the President's approval rating is between 44.0 and 44.3% at 11:00 AM ET on November 14, 2025 according to RealClearPolitics, then the market resolves to Yes.\nThe market will determine at 11:00 AM ET on November 14, 2025.",
+  "resolution_date": "2025-11-14T16:00:00Z",
+  "retrieval_timestamp": "2026-02-22T20:46:22.193741Z",
+  "query_used": "What is the result of this question \"Will the President's approval rating be between 44.0 and 44.3 according to RealClearPolitics\"",
+  "sources": [
+    {
+      "title": "RealClearPolitics - Approval of President-Elect Trump",
+      "url": "https://www.realclearpolitics.com/epolls/other/approval_of_presidentelect_trump-8650.html",
+      "published_date": "2025-01-01T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Polls\n|\n# Approval of President-Elect Trump Approval of Trump Transition ... ### Polling Data\n|Poll|Date|Sample|\nApprove\n|\nDisapprove\n|Spread|\nRCPAverage|12/3 - 1/16|--|50.0|42.3|+7.7| Harvard-Harris Harris |1/15 - 1/16|2650 RV|53|39|+14| Wall Street Journal Wall St. Journal |1/9 - 1/14|1500 RV|47|46|+1| InsiderAdvantage InsiderAdv |12/3 - 12/4|1000 LV|50|42|+8| All Approval of President-Elect Trump Polling Data \n### Polling Data\n|Poll|Date|Sample|\nApprove\n|\nDisapprove |Spread|\nRCPAverage|12/3 - 1/16|--|50.0|42.3|+7.7| Harvard-Harris Harris |1/15 - 1/16|2650 RV|53|39|+14| Wall Street Journal Wall St. Journal |1/9 - 1/14|1500 RV|47|46|+1| InsiderAdvantage InsiderAdv |12/3 - 12/4|1000 LV|50|42|+8| Harvard-Harris Harris |11/13 - 11/14|1732 RV|54|40"
+      ]
+    },
+    {
+      "title": "RealClearPolitics - President Trump 2nd Term Job Approval",
+      "url": "https://www.realclearpolitics.com/epolls/other/president_trump_2nd_term_job_approval-8656.html",
+      "published_date": "2025-04-25T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Real Clear Polling"
+      ]
+    },
+    {
+      "title": "President Trump Job Approval | RealClearPolling",
+      "url": "https://www.realclearpolitics.com/epolls/other/president_trump_job_approval-6179.html",
+      "published_date": "2025-08-10T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "avorability] | Direction of Country \n\n# President Trump Job Approval Biden Job Approval | Trump First Term Job Approval | Obama Job Approval | Bush Job Approval Trump Approval on Issues: Economy | Foreign Policy | Immigration | Inflation | Crime | Russia/Ukraine | Israel/Hamas Approve\n\nDisapprove\n\n| pollster | date | spread |\n| --- | --- | --- |\n\nRealClearPolitics Poll Average 2024 Post-Election Polling Analysis Why Many Were Correct in Thinking Trump Would Run Away With Electoral College Ken Bensinger & Kaleigh ... So Called Elites Got Election Wrong \u2014 Ignored Those Forecasting Trump\u2019s Win Andy Puzder, New York Post How America\u2019s Accurate Election Polls Were Suppressed in Front of the Election Matt Taibbi, Racket News ... Poll DataFilter by Pollster\n\nApprove\n\nDisapprove | pollster | date | spread |\n| --- | --- | --- |\n| Click Here for President Trump 1st Term Job Approval | ... 58% of Voters Say Democrats Have Moved Too Far Left By Harry Enten ... Every Week\n\nThe Takeaway A special edition RCP newsletter that keeps you in the know on all the latest polls"
+      ]
+    },
+    {
+      "title": "RealClearPolitics - President Biden Job Approval",
+      "url": "https://www1.realclearpolitics.com/epolls/other/president-biden-job-approval-7320.html",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "|\n# President Biden Job Approval ... ### Polling Data\n|Poll|Date|Sample|\nApprove\n|\nDisapprove\n|Spread|\nRCPAverage|5/29 - 6/13|--|39.7|55.8|-16.1| Rasmussen Reports Rasmussen |6/9 - 6/13|1500 LV|45|54|-9| Economist/YouGov YouGov |6/9 - 6/11|1399 RV|40|58|-18| ... All President Biden Job Approval Polling Data \n RealClearPolitics \nRCP Poll Average President Biden Job Approval\nPresident Biden Job Approval\n39.7\nApproveApprove\n|\n55.8\nDisapprove+16.1Disapprove+16.1\n| --\n--\n--\n--\nFrom:\nto:\n | |\n### Polling Data\n|Poll|Date|Sample|\nApprove\n| Disapprove\n|Spread|\nRCPAverage|5/29 - 6/13|--|39.7|55.8|-16.1| Rasmussen Reports Rasmussen |6/9 - 6/13|1500 LV|45|54|-9| Economist/YouGov YouGov |6/9 - 6/11|13"
+      ]
+    },
+    {
+      "title": "RealClearPolitics - President Trump 2nd Term Job Approval",
+      "url": "http://www2.realclearpolitics.com/epolls/other/president_trump_2nd_term_job_approval-8656.html",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "Approval on Issues: Economy | Foreign Policy | Immigration | ... ### Polling Data\n\nApprove\n\nDisapprove | Poll | Date | Sample | Spread |\n| --- | --- | --- | --- |\n| RCP Average | 1/27 - 2/18 | -- | 42.1 | 55.2 | -13.1 | | Morning Consult Morning Consult | 2/13 - 2/16 | 2200 RV | 43 | 55 | -12 | | Reuters/Ipsos Reuters/Ipsos | 2/13 - 2/16 | 1117 A | 38 | 60 | -22 | ... | NPR/PBS/Marist NPR/PBS/Marist | 1/27 - 1/30 | 1326 RV | 39 | 57 | -18 | All President Trump 2nd Term Job Approval Polling Data\n\nRCP Poll Average\n\nPresident Trump 2nd Term Job Approval President Trump 2nd Term Job Approval\n\n42.1\n\nApprove Approve\n\n55.2\n\nDisapprove +13.1Disapprove +13.1\n\n--\n\n--\n\n--\n\n-- From:\n\nto:\n\n### Polling Data\n\nApprove\n\nDisapprove | Poll | Date | Sample | Spread |\n| --- | --- | --- | --- |\n| RCP Average | 1/27 - 2/18 | -- | 42.1 | 55.2 | -13.1 | | Morning Consult Morning Consult | 2/13 - 2/16 | 2200"
+      ]
+    },
+    {
+      "title": "RealClearPolitics - Direction of Country",
+      "url": "https://www1.realclearpolitics.com/epolls/other/direction_of_country-902.html",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "s\n\n|\n\n# Direction of Country President Trump Job Approval | Congressional Job Approval | [Favorability of U.S. Political ... President Trump Job Approval | Congressional Job Approval | [Favorability of U.S. Political ... ### Polling Data\n\nRight Direction\n\nWrong Track | Poll | Date | Sample | Spread |\n| --- | --- | --- | --- |\n| RCP Average | 1/17 - 2/16 | -- | 36.6 | 57.3 | -20.7 | | Economist/YouGov YouGov | 2/13 - 2/16 | 1512 RV | 32 | 60 | -28 | | Reuters/Ipsos Ipsos | 2/13 - 2/16 | 1117 A | 21 | 64 | -43 | ... | Big Data Poll Big Data Poll | 1/22 - 1/24 | 3280 RV | 36 | 53 | -17 | | Emerson Emerson | 1/17 - 1/19 | 1000 LV | 44 | 56 | -12 | All Direction of Country Polling Data\n\nRCP Poll Average\n\nDirection of Country\n\nDirection of Country\n\n36.6 Right DirectionRight Direction\n\n57.3\n\nWrong TrackWrong Track\n\n--\n\n--\n\n--\n\n--\n\nFrom:\n\nto:\n\n### Polling Data ... | Poll | Date | Sample | Spread |\n| --- | --- | --- | --- |\n| RCP Average | 1/17 - 2/16 | -- | 36.6 | 57.3 | -20.7 | | Economist/YouGov YouGov | 2/13 - 2/16 | 1512 RV | 32 | 60 | -28 | | [Reuters"
+      ]
+    },
+    {
+      "title": "RealClearPolitics - Live Opinion, News, Analysis, Video and Polls",
+      "url": "https://realclearpolitics.com./",
+      "published_date": "2024-07-04T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Leaders Favorability] \n* Biden Approval on Issues \n* President Polls * Senate Polls \n* House Polls \n* Generic Congressional Vote ... Set this view as default?YesNo\nSet this view as default?YesNo Democratic Governors Say Biden 'Fit for Office' \nJack Forrest, CNN ... **CBS News:** Trump 50, Biden 48 | Trump 44, Biden 40, Kennedy 11 | More \n**PM Update** President Biden Must Resign, or Be Impeached \nStephen B. Young, RealClearPolitics ... * 5-Way: Trump (R) 42, Biden (D) 37, Kennedy (I) 8, Stein (G) 2, West (I) 1 * Biden Job Approval: 36% \n* Washington ... * Zane: If Character Matters, Biden Flunks the Test \n## Today's Topics\n* President Biden ... * Biden Job Approval: 36% \n* Washington ... * * RealClearPolitics Election 2024\nRCP Poll Averages | Election 2024 | Trump | Biden | Spread | RCP Poll Average | 46.7 | 43.8 | Trump +2.9 \n| ... Favorability Ratings | -11.4 | -16.7 | Trump +5.3 \n| RCP Betting Odds | 55.5 | 13.8 | | ... Generic Ballot | 45.6 | 44.3 | GOP +1.3 | State of the Union Polling\n| President Job Approval |\n Approve | 38.7 | Disapprove | 57.8 |\n| Direction of Country | Right Direction | 23.9 |\n Wrong Track | 66.4 |\nRCP Betting Averages | President |\n Trump | 55.5 |\n Harris | 15.2 | ... \u00a92024 Real"
+      ]
+    },
+    {
+      "title": "RealClearPolitics - President Biden Job Approval on Issues",
+      "url": "https://www1.realclearpolitics.com/epolls/other/sotu/PresidentBidenApprovalIssues.html",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "## Polls # President Biden Job Approval on Issues\n\n| President Job Approval: Biden | Trump | Obama | Bush ... | Poll | Date | Sample | Spread |\n| --- | --- | --- | --- |\n| RCP Average | 9/11 - 1/16 | -- | 38.8 | 59.5 | -20.7 | | Harvard-Harris Harris | 1/15 - 1/16 | 2650 RV | 37 | 63 | -26 | | Economist/YouGov YouGov | 1/12 - 1/14 | 1425 RV | 44 | 51 | -7 | ... | Poll | Date | Sample | Spread |\n| --- | --- | --- | --- |\n| RCP Average | 9/14 - 1/16 | -- | 38.0 | 59.0 | -21.0 | ... ### President Biden Approval on Handling of Russia/Ukraine\n\nApprove\n\nDisapprove | Poll | Date | Sample | Spread |\n| --- | --- | --- | --- |\n| RCP Average | 3/8 - 4/12 | -- | 40.7 | 54.0 | -13.3 | | CBS News CBS News | 4/9 - 4/12 | 2399 A | 39 | 61 | -22 | | Economist/YouGov YouGov | 3/16 - 3/19 | 1510 RV | 42 | 47 | -5 | ... All President Biden Approval on Handling of Russia/Ukraine Polling Data \n\nPartner Videos -- \u00a92025 RealClearPolitics | Go to full site\n\n--"
+      ]
+    },
+    {
+      "title": "realclearpolitics: Latest News & Videos, Photos about realclearpolitics  | The Economic Times - Page 1",
+      "url": "https://economictimes.indiatimes.com/topic/realclearpolitics",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "Donald Trump to win U.S elections and be president? Veteran journalist says early vote totals indicate that US Presidential Elections are scheduled to be held on November 5, but early voting has already begun. Based on the data of early voting, political analysts and poll surveys are forecasting that former US President Donald Trump might emerge out to be victorious in the US Presidential elections. 24 Oct, 2024, ... suggest that the race for the US Presidential Election 2024 is still very close. It is evident by the fact that in RealClearPolitics' report, Harris was leading Trump by just 0.2 %, while according to FiveThirtyEight, she has a lead ... All News Videos Go To Page 1 The underdogs: Republican primary candidates who aren't Trump The former US president leads the chasing pack by at least 50 percentage points and is unlikely to be toppled, save a major shakeup -- like ... Hillary Clinton by one point: Poll According to the poll, Trump now leads Clinton by eight points in the share of ... Donald Trump by 3.1 percentage points: Polls average According to RealClearPolitics, which keeps track of all major ... Clinton's lead over Trump has now come down to 5.4 percentage points in an average of polls. 27 Oct, 2016, 07:06 AM IST Hillary Clinton leads Donald Trump by 5 points in latest poll Clinton is favoured by 49 per cent of likely voters as against Trump's 44 per cent, as per the results of the latest poll released by CNN/ORC. 25 Oct, 2016, 05:08 PM IST ... to 12 percentage points against Trump. 24 Oct, 2016, 10:02 PM IST Hillary Clinton leads Donald Trump by seven points: Poll Hillary Clinton receives 45 per cent to Donald Trump's 38 per cent, Fox news said in its latest poll yesterday. 14 Oct, 2016, 09:52 AM IST Hillary Clinton leads Donald Trump by six points, says new poll Clinton (50%) maintains the same six point lead over Trump (44%) in the two way match up, which remains the same as was in the previous poll ... poll According to RealClearPolitics,"
+      ]
+    },
+    {
+      "title": "Trump Approval Slides During First Year",
+      "url": "https://www.realclearpolling.com/stories/analysis/trump-approval-slides-during-first-year",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "est Analysis] \n# Trump Approval Slides During First Year FacebookLinkedInX\n> By > Jonathan Draeger\nPublished On:01/20/2026Last updated01/20/2026, 06:05 PM ET\nFacebookLinkedInX \n AP News For a moment at the start of his second term, President Trump registered positive job approval in the first RCP Average, something he achieved for only a single day during his first term. However, the positivity was short-lived; his approval has since deteriorated, placing Republicans on a trajectory toward likely midterm defeat. In the Jan. 20, 2026, RCP Average , 42.4% approved of Trump\u2019s performance, while 55.6% disapproved. This net approval of -13.2 is a 19.4-point swing from the initial RCP Average of his second term, where he had 50.5% approved and 44.3% disapproved, giving him a net approval of +6.2. The most significant drag on Trump is inflation , where he faces a -23 net approval rating. Over the past year, inflation has continued to hover around 2.5-3%, roughly where it stood when Biden left office, and still above ... To be fair to Trump, recent presidents heading into the second year of their first term have not polled well either. On Jan. 20 of their second year, Barack Obama and George W. Bush held approval ratings of 43.6% and 42.5%, respectively, only slightly higher than Trump\u2019s current level. Bill Clinton was the last president to perform relatively well at this ... first-term] numbers were similar, with approval at just 40.1% on Jan. 20, 2018. The commonality across these years is that even with approval as high as 60%, as in Clinton\u2019s case, the president\u2019s ... the next Republican nominee, likely J.D. Vance. The last time a presidential candidate from the same party won the presidency was George H.W. Bush, when Ronald Reagan held a 57% approval rating in Gallup polls at the time of the ... Current polling gives Democrats a slight edge in 2028 betting odds, at 54%. This still leaves considerable room for ... 2026-01-20T00:00:00.000Z\nEvery Week\nThe Takeaway ... *"
+      ]
+    }
+  ]
+}

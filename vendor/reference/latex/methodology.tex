@@ -1,0 +1,213 @@
+This section describes the system architecture, dataset, retrieval pipeline, multi-agent resolution architectures, and evaluation framework used in this study. The overall pipeline is shown in Figure~\ref{fig:architecture}.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.9\linewidth]{figure1_system_architecture.png}
+    \caption{System architecture for multi-agent oracle resolution.}
+    \label{fig:architecture}
+\end{figure}
+
+\subsection{Evaluation Dataset}
+
+We evaluate on KalshiBench v2, a publicly available benchmark of prediction market questions from Kalshi with verified real-world outcomes \cite{nel2025kalshibench}. Each record contains a question, natural-language resolution criteria, a category label, a close time, and a binary ground-truth outcome (YES or NO).
+
+\begin{table}[t]
+\centering
+\caption{Summary statistics for the filtered KalshiBench v2 evaluation dataset (markets closed after May 2025).}
+\label{tab:dataset-stats}
+\begin{tabular}{lr}
+\toprule
+\textbf{Statistic} & \textbf{Value} \\
+\midrule
+Total questions & 1,189 \\
+YES outcomes & 488 (41.0\%) \\
+NO outcomes & 701 (59.0\%) \\
+Number of categories & 16 \\
+Filter criterion & Markets closed after May 2025 \\
+\bottomrule
+\end{tabular}
+\vspace{0.5em}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{Category distribution in the filtered KalshiBench v2 evaluation dataset (1,189 questions).}
+\label{tab:category-distribution}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Category} & \textbf{Count} & \textbf{Percentage} \\
+\midrule
+Politics & 311 & 26.16\% \\
+Sports & 269 & 22.62\% \\
+Entertainment & 230 & 19.34\% \\
+Elections & 80 & 6.73\% \\
+Crypto & 59 & 4.96\% \\
+Mentions & 52 & 4.37\% \\
+Companies & 50 & 4.21\% \\
+Financials & 30 & 2.52\% \\
+World & 29 & 2.44\% \\
+Climate and Weather & 27 & 2.27\% \\
+Economics & 21 & 1.77\% \\
+Social & 13 & 1.09\% \\
+Science and Technology & 10 & 0.84\% \\
+Transportation & 4 & 0.34\% \\
+Education & 2 & 0.17\% \\
+Health & 2 & 0.17\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+To reduce the risk of training-data contamination, we filter the dataset to include only markets that closed on or after May 1, 2025, a date chosen to fall beyond the training cutoff of the frontier models used in our experiments. After filtering, the evaluation set contains 1,189 questions, with 488 YES outcomes (41.0\%) and 701 NO outcomes (59.0\%). The dataset spans 16 categories, with Politics, Sports, and Entertainment accounting for the majority of questions and the remaining 13 categories providing broad topical coverage for category-level analysis.
+
+\subsection{Evidence Retrieval Layer}
+
+All agents receive identical evidence for each question. This shared-evidence control isolates differences in reasoning capability from differences in information access.
+
+We use Exa as the retrieval backend. For each question, the system constructs a search query using the template \texttt{"What is the result of this question \allowbreak <question\_text>"} and retrieves up to 10 sources. A temporal filter restricts results to documents published on or before one day after the market's resolution date, ensuring the evidence set reflects information that would have been available at the time of resolution.
+
+Retrieved content is packaged into a structured \texttt{EvidencePacket} containing the question metadata, retrieval timestamp, query text, and a list of sources with titles, URLs, publication dates, and extracted highlights. The same packet is passed verbatim to every agent in both architectures. Evidence packets are cached locally by retrieval mode and question ID to ensure deterministic reruns and reduce API cost across experimental iterations.
+
+\subsection{LLM Agent Design}
+
+We employ three LLM agents selected for architectural diversity: GPT-5 nano (OpenAI), DeepSeek-V3 (DeepSeek, served via Together AI), and Llama-3.3-70B-Instruct-Turbo (Meta, served via Together AI). This selection spans a proprietary frontier model, a large open-weights reasoning model, and an open-weights instruction-tuned model, providing diversity in training data, architecture, and optimization approach.
+
+Each agent is implemented as a subclass of a shared base class that enforces a standardized output schema. For every question, each agent returns a binary decision (YES or NO), a confidence score between 0 and 1, a natural-language reasoning trace, latency in milliseconds, and token usage statistics. If an agent encounters an error, it returns a structured failure record rather than crashing the pipeline, allowing partial results to be analyzed.
+
+All agents receive the same system and user prompt templates. The system prompt establishes the agent's role as a prediction market oracle resolver, and the user prompt injects the question text, resolution criteria, resolution date, and the formatted evidence packet. Structured output is enforced through provider-specific mechanisms. Prompt templates for the single-agent baseline (used in Architecture A and the standalone baselines) are provided in Appendix Figure~\ref{fig:system-prompt}. The deliberation prompts used in Architecture B are provided in Appendix Figures~\ref{fig:archB-round1-prompt} and~\ref{fig:archB-round2-prompt}.
+
+The OpenAI agent uses JSON schema enforcement, while the Together-hosted models (DeepSeek and Llama) attempt JSON schema enforcement and fall back to JSON object mode if the schema is rejected. All agents use a retry strategy of up to 3 attempts with exponential backoff.
+
+\begin{figure*}[t]
+\centering
+
+% ---------- Panel A ----------
+\begin{subfigure}[t]{0.48\textwidth}
+\centering
+\resizebox{\linewidth}{!}{%
+\begin{tikzpicture}[
+    node distance=1.2cm and 2.0cm,
+    box/.style={
+        draw, thick,
+        rounded corners=8pt,
+        minimum width=3.2cm, minimum height=1.1cm,
+        align=center, font=\footnotesize\sffamily
+    },
+    smallbox/.style={
+        draw, thick,
+        rounded corners=8pt,
+        minimum width=2.8cm, minimum height=0.9cm,
+        align=center, font=\footnotesize\sffamily
+    },
+    arrow/.style={-{Latex[length=2.5mm]}, very thick}
+]
+
+\node[smallbox, fill=blue!15, draw=blue!40] (a1) at (-3.8,1.2) {Agent 1};
+\node[smallbox, fill=teal!15, draw=teal!40, below=1.0cm of a1] (a2) {Agent 2};
+\node[smallbox, fill=purple!15, draw=purple!40, below=1.0cm of a2] (a3) {Agent 3};
+
+\node[box, fill=orange!15, draw=orange!45, right=2.4cm of a2] (vote) {Majority Vote};
+\node[box, fill=green!20, draw=green!45, right=2.2cm of vote] (final) {Final Resolution};
+
+\draw[arrow] (a1.east) -- (vote.west);
+\draw[arrow] (a2.east) -- (vote.west);
+\draw[arrow] (a3.east) -- (vote.west);
+\draw[arrow] (vote.east) -- (final.west);
+
+\node[inner sep=0pt, outer sep=0pt] (padA) at ($(final.east)+(4.6,0)$) {};
+
+\end{tikzpicture}
+}%
+\caption{Independent aggregation.}
+\label{fig:archA-diagram}
+\end{subfigure}
+\hfill
+% ---------- Panel B ----------
+\begin{subfigure}[t]{0.48\textwidth}
+\centering
+\resizebox{\linewidth}{!}{%
+\begin{tikzpicture}[
+    node distance=1.2cm and 2.0cm,
+    box/.style={
+        draw, thick,
+        rounded corners=8pt,
+        minimum width=3.2cm, minimum height=1.1cm,
+        align=center, font=\footnotesize\sffamily
+    },
+    smallbox/.style={
+        draw, thick,
+        rounded corners=8pt,
+        minimum width=2.8cm, minimum height=0.9cm,
+        align=center, font=\footnotesize\sffamily
+    },
+    arrow/.style={-{Latex[length=2.5mm]}, very thick}
+]
+
+\node[smallbox, fill=blue!15, draw=blue!40] (b1) at (-4.0,1.2) {Agent 1\\(Round 1)};
+\node[smallbox, fill=teal!15, draw=teal!40, below=1.0cm of b1] (b2) {Agent 2\\(Round 1)};
+\node[smallbox, fill=purple!15, draw=purple!40, below=1.0cm of b2] (b3) {Agent 3\\(Round 1)};
+
+\node[box, fill=red!10, draw=red!35, right=2.2cm of b2] (cross) {Round 2:\\Cross-Examination};
+\node[box, fill=orange!15, draw=orange!45, right=2.2cm of cross] (vote) {Majority Vote};
+\node[box, fill=green!20, draw=green!45, right=2.2cm of vote] (final) {Final Resolution};
+
+\draw[arrow] (b1.east) -- (cross.west);
+\draw[arrow] (b2.east) -- (cross.west);
+\draw[arrow] (b3.east) -- (cross.west);
+\draw[arrow] (cross.east) -- (vote.west);
+\draw[arrow] (vote.east) -- (final.west);
+
+\end{tikzpicture}
+}%
+\caption{Two-round deliberation before aggregation.}
+\label{fig:archB-diagram}
+\end{subfigure}
+
+\caption{Resolution architectures evaluated in this study. Architecture A aggregates independent agent decisions. Architecture B adds a cross-examination round before aggregation.}
+\label{fig:archA-archB-panels}
+\end{figure*}
+
+\subsection{Architecture A: Independent Aggregation}
+
+In Architecture A, each of the three agents resolves every question independently and in parallel. No agent has access to the decisions or reasoning of the others. The system then aggregates their binary decisions by majority vote. The final outcome is YES if at least two of the three agents vote YES, and NO otherwise. If one or more agents fail (returning no valid decision), the vote is computed over the remaining successful responses. If the vote is tied, the system defaults to NO.
+
+This architecture mirrors the logic of decentralized oracle networks such as Chainlink, which aggregate independent data feeds from multiple node operators.
+
+\subsection{Architecture B: Deliberative Consensus}
+
+Architecture B extends the independent setup with a structured deliberation phase. Resolution proceeds in two rounds. A structural comparison of Architectures A and B is shown in Figure~\ref{fig:archB-diagram}.
+
+In Round 1, each agent independently resolves the question, producing a decision, confidence score, and reasoning trace, identical to the process in Architecture A.
+
+In Round 2, each agent receives the anonymized reasoning and decisions from the other two agents alongside the original evidence. Agents are prompted to consider the peer arguments and may revise their position or reaffirm their original decision. Each agent produces a new decision, confidence score, and updated reasoning trace.
+
+The final aggregation uses a tiered rule. The system first checks for a majority among the Round 2 decisions. If Round 2 produces a tie, the system falls back to the Round 1 majority. If both rounds tie, the system defaults to NO. The tie-break method used is recorded in the output for every question. A tie can only occur when an API failure reduces the agent pool to two.
+
+\subsection{Single-LLM Baselines}
+
+To contextualize the multi-agent results, we evaluate each of the three models as a standalone resolver. Each baseline uses the same evidence retrieval, prompting, and structured output pipeline as the multi-agent architectures. The only difference is that a single model's decision is taken as the final answer with no aggregation. This allows us to measure the marginal accuracy gain (or loss) from multi-agent aggregation and deliberation relative to the best, worst, and average individual model.
+
+\subsection{Evaluation Metrics}
+
+We evaluate the system along several dimensions. First, we measure overall resolution accuracy against the ground-truth outcome for each question, reporting both aggregate performance and category-level breakdowns across single-LLM baselines, Architecture A, and Architecture B. Second, we analyze inter-agent agreement rates to characterize how often the three models independently converge on the same answer and how frequently aggregation changes the final outcome. Third, for the deliberative architecture, we measure convergence dynamics across rounds, including how often agents revise their decisions, whether revisions improve or degrade correctness, and the rate at which deliberation produces unanimous consensus.
+
+\subsection{Failure Mode Taxonomy}
+
+To characterize the qualitative nature of resolution errors, we define five failure types based on inspection of incorrect resolutions: retrieval failure, temporal reasoning error, hallucination, shared bias, and persuasive error propagation. We use the taxonomy to identify and illustrate distinct mechanisms by which the system fails, with representative examples drawn from the reasoning traces and evidence packets of incorrect resolutions.
+
+\subsection{Escalation Analysis}
+
+To inform the design of hybrid AI-human oracle systems, we analyze whether signals observable at resolution time can reliably distinguish questions the system will answer correctly from those it will get wrong. We define two escalation signals derived from the multi-agent output of both architectures. The first is inter-agent agreement: whether all three models produced the same binary decision (unanimous) or whether the vote was 2-1 (split). The second is average confidence: the arithmetic mean of the three models' self-reported confidence scores for each question. We combine these signals into a composite escalation score defined as:
+
+\[
+\text{composite\_score} = \mathbf{1}[\text{unanimous}] + \overline{\text{confidence}}
+\]
+
+This score ranges from 0 to 2, with higher values indicating greater system certainty. To evaluate the practical utility of these signals, we construct a coverage-accuracy tradeoff curve by ranking all questions in descending order of composite score and computing cumulative accuracy at each coverage level, where coverage is the fraction of questions auto-resolved rather than escalated to human arbitration. This analysis follows the selective prediction framework introduced by \cite{chow1970optimum} and later formalized by \cite{geifman2017selective}, in which a system that declines to answer uncertain questions achieves higher accuracy on those it does answer, at the cost of resolving fewer questions automatically.
+
+\subsection{Implementation}
+
+The system is implemented in Python, with modules for data loading, 
+evidence retrieval, agent orchestration, and result aggregation. All 
+per-question outputs and cached evidence packets are retained to 
+support reproducibility; command-line entry points and exact 
+invocations are documented in Appendix~\ref{sec:cli-reference}.

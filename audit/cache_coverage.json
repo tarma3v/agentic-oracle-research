@@ -1,0 +1,2598 @@
+{
+  "declared_reference_commit": "f76754b5bcff1a1d7a50c2f1073a4b6d44bd985c",
+  "method": {
+    "unit": "CSV rows; cross-architecture section uses unique row_uid values",
+    "expected_filename": "{retrieval_mode}__{row_uid}.json",
+    "identity_fields": [
+      "question_id",
+      "question_text",
+      "resolution_criteria"
+    ],
+    "normalization": "Replace literal backslash-n with spaces, then collapse whitespace",
+    "excluded_identity_fields": [
+      "ground_truth",
+      "resolution_date"
+    ],
+    "limitation": "A matching filename and identity identify an available candidate packet. Final CSVs do not bind each historical model call to an immutable packet hash; resolution_date is not present in those CSVs. Neither filename nor semantic matches prove which packet was actually consumed or historical availability of source content. ID-only matches are weaker."
+  },
+  "cache": {
+    "json_files": 486,
+    "highlights_row_uid_files": 458,
+    "legacy_id_named_files": 28,
+    "unique_question_ids": 401,
+    "unique_normalized_identities": 436,
+    "packets_without_sources": 0,
+    "retrieval_timestamp_range": [
+      "2026-01-29T18:44:17.053167Z",
+      "2026-02-23T21:49:49.712794Z"
+    ],
+    "manifest_sha256": "045796467e289b1f69993d61afe2bcc671dd14feac0031ac71e0fa999ea95b00",
+    "manifest_hash_encoding": "UTF-8 JSON, sort_keys=True, separators=(',', ':'), no newline",
+    "files": [
+      {
+        "path": "cache/evidence/GOVPARTYNJ.json",
+        "bytes": 20298,
+        "sha256": "571b415943f77197eac9e09b5a37d4613e4bcf25475dd40f83e6163badd936df"
+      },
+      {
+        "path": "cache/evidence/KX1SONGMORGANWALLEN.json",
+        "bytes": 21283,
+        "sha256": "82a06b222f7d0aac00e4cc5e7d205e3ff3345364d6996d264cc13c1ac0e446ac"
+      },
+      {
+        "path": "cache/evidence/KX60MINMENTION.json",
+        "bytes": 20364,
+        "sha256": "47d12b1fe1f00caf3f994dc88c39e2d05f6ac5c692e87328189e0366f7cd1cb0"
+      },
+      {
+        "path": "cache/evidence/KXAAAGASMINCA.json",
+        "bytes": 20206,
+        "sha256": "8651a8be9512773455d9fce2869e82092da64c21549d89c186eb8ef36bfae7e2"
+      },
+      {
+        "path": "cache/evidence/KXAAPLPRICE17OVER16.json",
+        "bytes": 14780,
+        "sha256": "59f167e4c2b2bfa492c06043bbfa16f4171294c71a792c448334f907e02a9e7a"
+      },
+      {
+        "path": "cache/evidence/KXACQUIRECOINBASE.json",
+        "bytes": 21549,
+        "sha256": "80520261a425d1f8a8774b602ef694ab4873696bf99ee185ec6ba1d6ee3dc371"
+      },
+      {
+        "path": "cache/evidence/KXAIRDROPHYPE.json",
+        "bytes": 17851,
+        "sha256": "e9543311a4b9bb7af51c85cde06ebedbde95de0ebcac7670f04ed13b08eb46fd"
+      },
+      {
+        "path": "cache/evidence/KXALEAGUEGAME.json",
+        "bytes": 19202,
+        "sha256": "077805e3f7c4b12e915d17b645a095bdfa702d9d74dcf8e0a3efaf7d2d768f32"
+      },
+      {
+        "path": "cache/evidence/KXAPCALLNJGOV.json",
+        "bytes": 22528,
+        "sha256": "5fecb85e65c7b3376ebdb1eb1db56f141ccf72c327770bcbc4d6fc121513ad87"
+      },
+      {
+        "path": "cache/evidence/KXAVGMEASLESDJT.json",
+        "bytes": 21519,
+        "sha256": "33beeea003b9d81fffe6e8b647ba4dc1fd64364fffae8b0d6778470d3ba70a4a"
+      },
+      {
+        "path": "cache/evidence/KXBALANCESHEET.json",
+        "bytes": 22581,
+        "sha256": "002f5d5bff702df52a3583294f24368b107ce852f410596e145a9c03d82b94f9"
+      },
+      {
+        "path": "cache/evidence/KXBIDENNEBRASKA.json",
+        "bytes": 20970,
+        "sha256": "cbbb3ff278c1565b654b5ffd23d7476d6b3ffde8a1067d75ddddfb39cb1d1b8a"
+      },
+      {
+        "path": "cache/evidence/KXBIGGESTQUAKE.json",
+        "bytes": 19767,
+        "sha256": "dcf3fd7411f660d13e085c4d59bcadd615ce6c43f92df394eee6add5ebf6497b"
+      },
+      {
+        "path": "cache/evidence/KXCARDFEECHASESAPH.json",
+        "bytes": 20542,
+        "sha256": "a42e7ec658f2599694beb2ee4d86ed9712a6e868af0eedc3b831bdaeccb9e21f"
+      },
+      {
+        "path": "cache/evidence/KXEARNINGSMENTIONROKU.json",
+        "bytes": 20874,
+        "sha256": "e939e0e42231f4ab59ba27530862c7c13dabc5f4540dee2d148a14d63f6e7f8b"
+      },
+      {
+        "path": "cache/evidence/KXFIRSTEPSTEINGTA.json",
+        "bytes": 22390,
+        "sha256": "eba382f6d9ba34f2ac975f3ec199d5f0aceafcb7f7132cefbefa29741450a336"
+      },
+      {
+        "path": "cache/evidence/KXFLIGHTLAX.json",
+        "bytes": 20128,
+        "sha256": "bc583f3f978ffb8d0c42967f1a1f1d89bd061613b88e514ac1e219ce16c83c93"
+      },
+      {
+        "path": "cache/evidence/KXG7LEADEROUT.json",
+        "bytes": 43136,
+        "sha256": "a70e51273f228f33a83d0f5984a3410dfca5501e32f4db03a63310daf374be7f"
+      },
+      {
+        "path": "cache/evidence/KXKLARSTRIP.json",
+        "bytes": 37533,
+        "sha256": "5b645f309ecb3adb177888c05de95468d9cdaee924b545d428d25a14a84acabb"
+      },
+      {
+        "path": "cache/evidence/KXNBAGAME.json",
+        "bytes": 13388,
+        "sha256": "4fa8ad9e00f01a11cea7d76cec0b9a289a901c0a6c732980e910e73e60d9b679"
+      },
+      {
+        "path": "cache/evidence/KXNEWCOINLAUNCH.json",
+        "bytes": 21283,
+        "sha256": "9cc5a60cfef98e500f6ee044780b94b1d01592b9c344658e173436744d28b784"
+      },
+      {
+        "path": "cache/evidence/KXNEXTCOINRH.json",
+        "bytes": 18430,
+        "sha256": "4e5854f693640c7c1142ddba9dfbbb1979e45c9fb76fb7cbf8af00cbe3850948"
+      },
+      {
+        "path": "cache/evidence/KXNFLPASSYDS.json",
+        "bytes": 18422,
+        "sha256": "f30c9c8939b4e04dcddc10efb7b37b692858ffb29fb8d6722c560f932cc56a5f"
+      },
+      {
+        "path": "cache/evidence/KXNFLWINS-KC.json",
+        "bytes": 13023,
+        "sha256": "67aecd47b13990ed9bbd460e998c33bbaac222f4195a0f39da10518eb0d8ee74"
+      },
+      {
+        "path": "cache/evidence/KXOSCARINTLFILM.json",
+        "bytes": 23299,
+        "sha256": "14974fc891373cbef1c7ad41d93f5bb250e8d26b7d6d6c7274ba129678f7aaba"
+      },
+      {
+        "path": "cache/evidence/KXSPOTIFYBILLIONS.json",
+        "bytes": 19254,
+        "sha256": "e90649e9d7d43cc03a1198bf2c70aef4a6ed5ffd2c2744a7a044cef5ccbc2f50"
+      },
+      {
+        "path": "cache/evidence/KXTOPSONGRECORDORDINARY.json",
+        "bytes": 22142,
+        "sha256": "fa1c41c844b844970bc087748f7e46e22e698bbfacc6c28c7e747b1b27a8924e"
+      },
+      {
+        "path": "cache/evidence/KXUSDHVOTE.json",
+        "bytes": 21240,
+        "sha256": "6be45666477fcbdafb33686d33a547743f8d527366ee710a5fe1aa016b6f986b"
+      },
+      {
+        "path": "cache/evidence/highlights__row0001_KXAAAGASMINCA_fbcc2088cfc3.json",
+        "bytes": 18937,
+        "sha256": "7753aac4472022818d9cbb1d3dfd0567b3e6c472c6c64ca6a6b8f1e9f82238b3"
+      },
+      {
+        "path": "cache/evidence/highlights__row0001_KXCS2MAP_b4c0fe1649d3.json",
+        "bytes": 18974,
+        "sha256": "32b313037f51af90a8d02172778aeae7af5e886bb7f4f7c77851174ba7d19530"
+      },
+      {
+        "path": "cache/evidence/highlights__row0001_KXLTGOVVA_f6a16c9a2c02.json",
+        "bytes": 18157,
+        "sha256": "aaa21c87e0556d3f5b3556f24a5f9c76c9ecc6cf1a31df86db026cb4653cfe5a"
+      },
+      {
+        "path": "cache/evidence/highlights__row0001_KXNFLWINS-NYG_e0fe9efe31eb.json",
+        "bytes": 17526,
+        "sha256": "4204c5e177333e9a8001f91edad1e788c8b0b4576f22c9caf6f1a5110a4dcb92"
+      },
+      {
+        "path": "cache/evidence/highlights__row0001_KXSHIBAD_6a7fa2e7241a.json",
+        "bytes": 19014,
+        "sha256": "85d0206070172226f19592ca0b5931719139c4cca11b29ef9085b296967c9f71"
+      },
+      {
+        "path": "cache/evidence/highlights__row0001_KXTRUMPMENTIONB_830ebd880268.json",
+        "bytes": 23648,
+        "sha256": "4eeabc76726abe5ba526c13715ed8ac243e86957ffa8b13867ecc22f5a3438f5"
+      },
+      {
+        "path": "cache/evidence/highlights__row0002_KXBILLBOARDRUNNERUPSONG_569f70f3d541.json",
+        "bytes": 16336,
+        "sha256": "421b1b17f4e200d626b9da342817631eb883a67e4465fa8aefe025eacb74ab2c"
+      },
+      {
+        "path": "cache/evidence/highlights__row0002_KXEARNINGSMENTIONSNAP_8c2d4801142d.json",
+        "bytes": 21126,
+        "sha256": "fd29bfbb808f74ffa438186ced73cf136ec801c2745dd9b4d347de10c1700c00"
+      },
+      {
+        "path": "cache/evidence/highlights__row0002_KXGRAMMYNOMCOUNTLG_47a06f7fda56.json",
+        "bytes": 19906,
+        "sha256": "4480957f9b1d8c3d256036499d7df7e91b6dc606dbf78d8d3b66ce626f69cb6b"
+      },
+      {
+        "path": "cache/evidence/highlights__row0002_KXREMITTANCERATE_b00e224ce969.json",
+        "bytes": 19117,
+        "sha256": "0794b016a5fc4cb74609336d91f5899e25fcd57dd26bdeb8c17b049c3e581d94"
+      },
+      {
+        "path": "cache/evidence/highlights__row0002_KXSPOTIFYSONGSTFOO_a440505348f9.json",
+        "bytes": 19872,
+        "sha256": "0a41d0790267748eface6611b07ed2fde2d9b901292eb79a871a7555eec470c7"
+      },
+      {
+        "path": "cache/evidence/highlights__row0002_KXUECLGAME_0fe05299293b.json",
+        "bytes": 18712,
+        "sha256": "add55741785e7f3d06951a193cd7336de3e2f49d7f474b72c9f457181890a967"
+      },
+      {
+        "path": "cache/evidence/highlights__row0003_KXEARNINGSMENTIONMCD_27c0aa9444ee.json",
+        "bytes": 19231,
+        "sha256": "9766ee9714e089012c76d407049fe25a3d78f54404aa84827036b0b90d4ccd1a"
+      },
+      {
+        "path": "cache/evidence/highlights__row0003_KXPERFORMVMA_2e45a13ad336.json",
+        "bytes": 19330,
+        "sha256": "50cc698804f7ff38741839cea4bf492b69563771f98f0710c4afe319fb4a677c"
+      },
+      {
+        "path": "cache/evidence/highlights__row0003_KXSECPRESSMENTION_eb78d142fe48.json",
+        "bytes": 25525,
+        "sha256": "20b2168baf76e786f26764c33fda120d9675db2c81d2b1927d29f3c80705f6b9"
+      },
+      {
+        "path": "cache/evidence/highlights__row0003_KXVOTEHUBTRUMPUPDOWN_5124ab654d96.json",
+        "bytes": 13593,
+        "sha256": "e394ce95bcc8ecc51252e8906049257697b0324a97c5e8918342542d1454d985"
+      },
+      {
+        "path": "cache/evidence/highlights__row0003_KXWALTZCOUNT_92e6a85b1d3e.json",
+        "bytes": 21313,
+        "sha256": "5e4d6254bedd08d30796485aa970ae6b4eb7dbaaa8f3ddc09553c6edb50755c8"
+      },
+      {
+        "path": "cache/evidence/highlights__row0003_KXWRECSS_4a11ece2cc15.json",
+        "bytes": 21684,
+        "sha256": "60e07abdd29ead4a0d04ae0851970bad59c8ca2a4c570624220f0337de99c484"
+      },
+      {
+        "path": "cache/evidence/highlights__row0004_KXAIRDROPMONAD_8ecbc7d6c53f.json",
+        "bytes": 21630,
+        "sha256": "4ff3a820391bec60b88a4823ff4e0436c96a1c0dd8a399dd48cc47d8536efb0e"
+      },
+      {
+        "path": "cache/evidence/highlights__row0004_KXBIGGESTQUAKE_fef956e0617c.json",
+        "bytes": 22158,
+        "sha256": "18902d9dbed9e25928eab0bb1b89505d97134d8df4c2d1fb2810ca8ed7c7e104"
+      },
+      {
+        "path": "cache/evidence/highlights__row0004_KXELONJREGUEST_08e8db4a8c3b.json",
+        "bytes": 17012,
+        "sha256": "c7d8e5da978a2029a4665e11a6631d7245c2149edbc45d157d1d19fc5f9a9314"
+      },
+      {
+        "path": "cache/evidence/highlights__row0004_KXENDOWMENTRATE_98e51fad188d.json",
+        "bytes": 19576,
+        "sha256": "980327e3600d47c10713d8c0efae21ae96af0df0c7ca357302fae9b74efbba6f"
+      },
+      {
+        "path": "cache/evidence/highlights__row0004_KXIPOOPENAI_e66f0b76e985.json",
+        "bytes": 18683,
+        "sha256": "d27413e9fedbe06599aa29be6b8bd96260bc1a580745036da4061c19871914a4"
+      },
+      {
+        "path": "cache/evidence/highlights__row0004_KXUNAMB_3f4155d2c259.json",
+        "bytes": 19865,
+        "sha256": "607a2c4fb8627dcfb0696fa27b00f57dac508ce9b8f1c13bbb2f59d223902cc6"
+      },
+      {
+        "path": "cache/evidence/highlights__row0005_KXCHANCELLOR_a12991199d69.json",
+        "bytes": 24129,
+        "sha256": "caddf273310cb992dbef019bdb47cdf1f87266f9c8053278eaa85ccc7aab496e"
+      },
+      {
+        "path": "cache/evidence/highlights__row0005_KXGOVSHUTLENGTH_1eeb8f6828b8.json",
+        "bytes": 23301,
+        "sha256": "9fb665ed492e5764a7c6276523e8e7bed6097519b6ce33dfbdb9d4b6493556c6"
+      },
+      {
+        "path": "cache/evidence/highlights__row0005_KXMEDIARELEASEJIMMYKIMMEL_0f7ecfca5aa4.json",
+        "bytes": 16599,
+        "sha256": "193b399ea26d21c3ef210dc084d607bbc17ac837cf7635d0290e092b647f2c6e"
+      },
+      {
+        "path": "cache/evidence/highlights__row0005_KXMRBEAST50M_1d4e5e2118ee.json",
+        "bytes": 17070,
+        "sha256": "3d70d1c61d3c80fabeae0f09fc93eb90fa99c9816f4a62e5050fb4f8e1b0bc79"
+      },
+      {
+        "path": "cache/evidence/highlights__row0005_KXNEWCOINCHAIN_e70316b576a3.json",
+        "bytes": 16345,
+        "sha256": "d1dc206ab042df002d8e0d69dc0d79e079525ebbe19afa1bfadcacd1b1a1d9d5"
+      },
+      {
+        "path": "cache/evidence/highlights__row0005_KXOTEWALZ_f3bad08ada83.json",
+        "bytes": 19679,
+        "sha256": "72913eb8a1a251a872c5cd3bbd6c59694a0b3e75f52426ba8e5ec694e5fab98c"
+      },
+      {
+        "path": "cache/evidence/highlights__row0006_KXAWARDSCOUNTSEV_aa4a59f8d141.json",
+        "bytes": 18461,
+        "sha256": "f98daa85caa7e57ce2c2b426c424073fdd6b4aef1446b1f00d2a0fa3ff7d26ad"
+      },
+      {
+        "path": "cache/evidence/highlights__row0006_KXJUULFLAVOR_975f24eccdd1.json",
+        "bytes": 17656,
+        "sha256": "b2fbad56d56efabd28cd8c3ced0bb93a9c9c6be56db55da24b2578822a6528fa"
+      },
+      {
+        "path": "cache/evidence/highlights__row0006_KXNEWAAPLVR_36d7b9412076.json",
+        "bytes": 21374,
+        "sha256": "c7c1db661aed878ee16bcb6d81f72bb3f63bd367020123e6f05c9b1046c9ab01"
+      },
+      {
+        "path": "cache/evidence/highlights__row0006_KXNFLWINS-CLE_882dd6026a3c.json",
+        "bytes": 19511,
+        "sha256": "a68f55771a3efa4fa057e8fd7442e807a418f86948d4dcbdbb0e575ec9491ce7"
+      },
+      {
+        "path": "cache/evidence/highlights__row0006_KXRTWITCHERS4_50033ab8a82e.json",
+        "bytes": 19402,
+        "sha256": "b262781d905796da746205b19e247c82712fc347e2d293805ca8f942f0739c25"
+      },
+      {
+        "path": "cache/evidence/highlights__row0006_KXTOPALBUMTYLERTHECREATOR_c5ab7b096a80.json",
+        "bytes": 20435,
+        "sha256": "dc788016ac0bc64467a35e99d4a5e8793a395d3b528bc9299057a69c944cc1ba"
+      },
+      {
+        "path": "cache/evidence/highlights__row0007_KXDIMONMENTION_510bb40adcc7.json",
+        "bytes": 21438,
+        "sha256": "322b7857634adc9924bafddbf4979e84388630bb6a6056b3bdf7d51523e2f4ca"
+      },
+      {
+        "path": "cache/evidence/highlights__row0007_KXEARNINGSMENTIONCRCL_e4804f082db4.json",
+        "bytes": 23509,
+        "sha256": "8a3db9acfc78c0bc202000ee02bd717767146dbd8c7ec09164a70e9aef8c2965"
+      },
+      {
+        "path": "cache/evidence/highlights__row0007_KXJAMESBOND_6d888bcbcf21.json",
+        "bytes": 18424,
+        "sha256": "d2a66f90cc8773b7e53be52bbb4bbc8746b2ae76a79197771a3c7ab7be4b352a"
+      },
+      {
+        "path": "cache/evidence/highlights__row0007_KXNFLTRADE_bc439646fe22.json",
+        "bytes": 20848,
+        "sha256": "102f565983bd67cd2628c8c180efdc774e19604e6203ffada62d84b01faffdf1"
+      },
+      {
+        "path": "cache/evidence/highlights__row0007_KXROMANIATOP_e3321e635fbc.json",
+        "bytes": 17344,
+        "sha256": "5912c3e074e1a9240434c52ac69335dafa6a9dc4e1c7a3e0a40c71697fab5251"
+      },
+      {
+        "path": "cache/evidence/highlights__row0007_KXUSDHVOTE_36bf6ddb0a5b.json",
+        "bytes": 21398,
+        "sha256": "38067ffd59a922a439ca01795feef3952f6ce6ff9d86bc73c825b2662830e131"
+      },
+      {
+        "path": "cache/evidence/highlights__row0008_KXBTCD_1d750cb20622.json",
+        "bytes": 17665,
+        "sha256": "b105ed30ff9992ae10e764cb4c53a8bc7851af6a31d89bc21dd7e46d96454517"
+      },
+      {
+        "path": "cache/evidence/highlights__row0008_KXCOMMISHCBP_bc6a20c704a1.json",
+        "bytes": 19751,
+        "sha256": "c5a70b17c50012671344a4632de6de7c135110068c669e1fc86f7f9e3a3b3f4d"
+      },
+      {
+        "path": "cache/evidence/highlights__row0008_KXFOMCVOTE_05161dca5c28.json",
+        "bytes": 20935,
+        "sha256": "d44989e8d92aad414736b7dd7165ebc1a88bf1a2c1a6b4029b0996e6ce1c2f11"
+      },
+      {
+        "path": "cache/evidence/highlights__row0008_KXGRAMMYNOMNAOTY_49f9dbe26140.json",
+        "bytes": 19685,
+        "sha256": "4a672acdd84f4f257af61267fe39e801eb89cb6a68cef3c1bc1e5f6ea874b69b"
+      },
+      {
+        "path": "cache/evidence/highlights__row0008_KXNLDFOURTH_874ab2442040.json",
+        "bytes": 20290,
+        "sha256": "5fdbe2732ffe9b9d985b3f37db9945d119157f0578d98efd2d18a95051e379ac"
+      },
+      {
+        "path": "cache/evidence/highlights__row0008_KXTOPALBUMRECORDMWITP_d698346280a1.json",
+        "bytes": 22071,
+        "sha256": "1c0810829df5697e3406bd6e32e21855c1f6358767df4088de3487605a13638f"
+      },
+      {
+        "path": "cache/evidence/highlights__row0009_KXAVENGERSDELAY_f13c93a46055.json",
+        "bytes": 20461,
+        "sha256": "528122a45717052c39c1c6962cfa32d096d323e66827833e21e97794f03f22b9"
+      },
+      {
+        "path": "cache/evidence/highlights__row0009_KXRECOGPALESTINE_6bb2a615a394.json",
+        "bytes": 19800,
+        "sha256": "ea17bc0b6ad9989c3bb11db1b6929fd75e0740e586c388e274ef41ec965ae7f4"
+      },
+      {
+        "path": "cache/evidence/highlights__row0009_KXSHIBAD_d4c79cb87afd.json",
+        "bytes": 19175,
+        "sha256": "1303226e74d4075921bd91f8dbf44a577686e707f069bb22f9c1631f82be55e5"
+      },
+      {
+        "path": "cache/evidence/highlights__row0009_KXUSAMBTOUN_dc06c72ec3af.json",
+        "bytes": 21173,
+        "sha256": "2fcda709cc1e2a478ba06dbaba7f1f86fb8c7d7498afa9c4bb77f57b50b38f2a"
+      },
+      {
+        "path": "cache/evidence/highlights__row0009_KXWALTZCOUNT_ca1c82bbd886.json",
+        "bytes": 23200,
+        "sha256": "b0ea6115648d86325f9b09938f5ec66642b384eca988f7387f761c8f3f1743e9"
+      },
+      {
+        "path": "cache/evidence/highlights__row0010_KXCOLLEGEDROP_cf8ea98f64fc.json",
+        "bytes": 24269,
+        "sha256": "b59a52bdd0b5be46eedb3c500ad2ef2ee1fe34871b4165df23784a900b23e899"
+      },
+      {
+        "path": "cache/evidence/highlights__row0010_KXETHD_268c741ddcd8.json",
+        "bytes": 20031,
+        "sha256": "9ed1b490ca8601e3d93b1a71a37433fd8df088d8498264180d45bc481e2e181a"
+      },
+      {
+        "path": "cache/evidence/highlights__row0010_KXSPOTIFYBILLIONS_fdae76fa55d5.json",
+        "bytes": 21810,
+        "sha256": "2428d3fce7402bec6aa0c785d8a094d743d3a8a367e5d3e9d6c8dc94f2bd4f41"
+      },
+      {
+        "path": "cache/evidence/highlights__row0010_KXUSAMBUNFOODAGRI_b739eb9d2e88.json",
+        "bytes": 18524,
+        "sha256": "0a8f878367c841e3c8dbf88193be71c57846161029e011452e154bbff369b1d3"
+      },
+      {
+        "path": "cache/evidence/highlights__row0010_KXVSFANTASYBRA_b2cd68776f03.json",
+        "bytes": 25851,
+        "sha256": "9a49ad4504d61d02ae41821c7fe8b47eb8f649b47c4973b80dcd7e0ac9743551"
+      },
+      {
+        "path": "cache/evidence/highlights__row0011_KXBTCMINY_5aef9dcf6bba.json",
+        "bytes": 11792,
+        "sha256": "7df9231ebec95d92c8afb0198710575814681667bb5034a17c1f2f3e9745f187"
+      },
+      {
+        "path": "cache/evidence/highlights__row0011_KXCHANCELLOR_b42f8c7ff2f0.json",
+        "bytes": 24129,
+        "sha256": "a07707000844c63755e88a94a5327a970d2f2ec136f87a19c45b71e51bcbcc3b"
+      },
+      {
+        "path": "cache/evidence/highlights__row0011_KXNFLWINS-NO_f1b4e8abab72.json",
+        "bytes": 19783,
+        "sha256": "daed1ecb73939c8486d7886bd804b67f77873078f3b0c5db9bf476b6bfc6f2e6"
+      },
+      {
+        "path": "cache/evidence/highlights__row0011_KXR6GAME_460fc9523b13.json",
+        "bytes": 13339,
+        "sha256": "6d62f1b5009a89bbd05fdfb6db4b320f86da1a04fb70edfbea2a44e06bd864cc"
+      },
+      {
+        "path": "cache/evidence/highlights__row0011_KXTOPSONGRECORDMANCHILD_17f692871ec8.json",
+        "bytes": 22592,
+        "sha256": "50b40c7c2cbe7e1756d70489e3ccd278a15b4f76f806384607e3c99434289441"
+      },
+      {
+        "path": "cache/evidence/highlights__row0012_KXEARNINGSMENTIONNBIS_014f2bad1984.json",
+        "bytes": 19653,
+        "sha256": "cb873d12ca75b3c2358fc5aacbd812dd424db442d6db6eebea737f690e59a7d6"
+      },
+      {
+        "path": "cache/evidence/highlights__row0012_KXEPLBTTS_62e7db4b9f9a.json",
+        "bytes": 17048,
+        "sha256": "dfe7300e2efa5d8cf49eb39101bc0b12f82fd0b23252ed87c512f98425c5ea68"
+      },
+      {
+        "path": "cache/evidence/highlights__row0012_KXEPLGAME_c9e4a936dc00.json",
+        "bytes": 19036,
+        "sha256": "7f51c43022ad75496d7512d9ba9cfe5a9e02fd172134f8dcedb645a7f261a403"
+      },
+      {
+        "path": "cache/evidence/highlights__row0012_KXNYCCOUNCIL4_42539c45b669.json",
+        "bytes": 15436,
+        "sha256": "49920166283afaee1900d1dd1d91af5bdb6978f96c8b84934ad45f4644597a8b"
+      },
+      {
+        "path": "cache/evidence/highlights__row0012_KXWALLSPEND_36260a00c12a.json",
+        "bytes": 21999,
+        "sha256": "647b2186b202f98c8254a31b9c2be1651f71774d6ededf4c8ae23574ac08159c"
+      },
+      {
+        "path": "cache/evidence/highlights__row0013_KXALEAGUEGAME_14e8be256916.json",
+        "bytes": 20915,
+        "sha256": "ef4cccf53ccf05884768705fed22bdb4128c2ed6e4a949f3dd2a28e237b2b0b8"
+      },
+      {
+        "path": "cache/evidence/highlights__row0013_KXDEMINIMIS_4fe3a0c4b540.json",
+        "bytes": 20675,
+        "sha256": "efd713a88c8ae200a51ac2d473d60a71461cf89e833f331e03825397d2b3f2cd"
+      },
+      {
+        "path": "cache/evidence/highlights__row0013_KXEARNINGSMENTIONPYPL_7157061ff045.json",
+        "bytes": 19281,
+        "sha256": "59b3defbc25a37358d698a9b8d4de32d849e17e6b65227794ba5aa8577a1fb03"
+      },
+      {
+        "path": "cache/evidence/highlights__row0013_KXEARNINGSMENTIONRDDT_641d658965c9.json",
+        "bytes": 16967,
+        "sha256": "d968e60b2cd8ed6acf00cb15ed8c4abaf51308329db9f9c442e91c443e53a190"
+      },
+      {
+        "path": "cache/evidence/highlights__row0013_KXNFLWINS-LA_0b128996b4ab.json",
+        "bytes": 16127,
+        "sha256": "6451665d3895d7452d43212c7635fdcd47a87af852995a5cc01a80f53ab2c76a"
+      },
+      {
+        "path": "cache/evidence/highlights__row0014_KXACQUIREPUMPFUN_c67c7ddf0c6b.json",
+        "bytes": 22045,
+        "sha256": "b9ec9d268b96c495f212ed5b2887cf954546a7492502032056010deb8d5787d6"
+      },
+      {
+        "path": "cache/evidence/highlights__row0014_KXDEBTSHRINK_53d153791b97.json",
+        "bytes": 22498,
+        "sha256": "92e3ba1b285ba63b786ccb2aedb66657f14879a171a48329e7a3d49db49d78dd"
+      },
+      {
+        "path": "cache/evidence/highlights__row0014_KXIPOKLARNA_ae2a15b0d0ca.json",
+        "bytes": 19210,
+        "sha256": "8510c85be272874d9eee8b40d9e2950f13020fc87bbe0dbbfdf06218000cce70"
+      },
+      {
+        "path": "cache/evidence/highlights__row0014_KXMUSKDOGE_aeda6fabbcd6.json",
+        "bytes": 24420,
+        "sha256": "9d7b62459d30ccd7c69cbafc02afc11cd8afd2f53fb64e1dbdea32722494630d"
+      },
+      {
+        "path": "cache/evidence/highlights__row0014_KXPUBLICADV_ce1af2b555fc.json",
+        "bytes": 15809,
+        "sha256": "1d31362adaf3e7ece4f7e95e226aa9743a38b5e43f0d25ae0acef01d8cde9191"
+      },
+      {
+        "path": "cache/evidence/highlights__row0015_GOVPARTYVA_8985fb9ca93a.json",
+        "bytes": 18075,
+        "sha256": "1a8c2aa422a8c12bbe13081d5479369b93e123d957c99231267aebe59e344855"
+      },
+      {
+        "path": "cache/evidence/highlights__row0015_KXEUROVISION_1a4f17b066b5.json",
+        "bytes": 20975,
+        "sha256": "99a243bee351083230e3fe6377e13b7da488863c5c68711ada42a6a3e48a6f19"
+      },
+      {
+        "path": "cache/evidence/highlights__row0015_KXGOVREOPEN2025_a690668c62e9.json",
+        "bytes": 20769,
+        "sha256": "de30278665041ab909f31f39c2ad5208bf3ff4042d4a01632a9226790e825ebf"
+      },
+      {
+        "path": "cache/evidence/highlights__row0015_KXINXMAXY_ab74e27a5f6f.json",
+        "bytes": 14022,
+        "sha256": "3c9e0181e71db53c5f3c2526a3bb6cbcd40511eb88498d0bd48e2d8a22b1e6b8"
+      },
+      {
+        "path": "cache/evidence/highlights__row0015_KXMAYORNYCPARTY_ef4f1c66473b.json",
+        "bytes": 19701,
+        "sha256": "ce796488d4da92dcf5f6c94172d2b891291be80b6c449187a037dc24cdefe651"
+      },
+      {
+        "path": "cache/evidence/highlights__row0016_KXAPCALLVAGOV_e0b91d471cb1.json",
+        "bytes": 22586,
+        "sha256": "38ea60ea0fe1e8d607452bc7373147caf4adbdb007f79b0ffacba75e2668c1d6"
+      },
+      {
+        "path": "cache/evidence/highlights__row0016_KXAUSSEATSLABOR_6dfc6496834e.json",
+        "bytes": 16809,
+        "sha256": "0a882bc31a9abf0773900594a1b9be9f5dc1d854a9c7cae405ffdb5ebeb8088c"
+      },
+      {
+        "path": "cache/evidence/highlights__row0016_KXDIMONMENTION_70908ba831c9.json",
+        "bytes": 20542,
+        "sha256": "3d65c04a488434b5dd8baa669fbf32a22b0ea3ba297ad0bcc17dec3a8a2e6993"
+      },
+      {
+        "path": "cache/evidence/highlights__row0016_KXELECTIONMOVIRELAND_c80d7507cd07.json",
+        "bytes": 23300,
+        "sha256": "f678ef3e12fec1772ab1bd87082a1db7d76b5bdd8aac90c93ac1d2856e03cf99"
+      },
+      {
+        "path": "cache/evidence/highlights__row0016_KXSUBWAY_26bf7f83bd74.json",
+        "bytes": 17836,
+        "sha256": "8249e7a343a8db9b7ea32bf7725904f7af34da1bc49113b4d51a02db18c1a4e4"
+      },
+      {
+        "path": "cache/evidence/highlights__row0017_KXIRACUTS_8de4c959b4c0.json",
+        "bytes": 22556,
+        "sha256": "d834d76615b0819046389b888668b55e314227baec86c860ce8ee5e30318ea76"
+      },
+      {
+        "path": "cache/evidence/highlights__row0017_KXMARATHON_cbfee485dd6b.json",
+        "bytes": 22192,
+        "sha256": "a11b42c077a61c8469e32576fca61aa97d0a9d9b1c2569cf2b2239aaee9cf386"
+      },
+      {
+        "path": "cache/evidence/highlights__row0017_KXMLBSERIESEXACT_964e33799abe.json",
+        "bytes": 21008,
+        "sha256": "6289381719b5dd8c7f34af7103a477371bc06e5cab9155e0bd01b5e8553dfc5c"
+      },
+      {
+        "path": "cache/evidence/highlights__row0017_KXNHLTOTAL_9938667836f3.json",
+        "bytes": 14752,
+        "sha256": "9bf996d1a4666df37cb112e4136126315d2e552f064d474825d1ee30bf93f18f"
+      },
+      {
+        "path": "cache/evidence/highlights__row0017_KXNYCCOUNCIL38_c561480e5d33.json",
+        "bytes": 13313,
+        "sha256": "accee26590532e44ba2c28bf09b0a88afbc18c7a00036ccd2dcb74e0918e8b8e"
+      },
+      {
+        "path": "cache/evidence/highlights__row0018_KXADP_d76bc71aebd6.json",
+        "bytes": 23603,
+        "sha256": "faeb8a56f18877acd24d1a88dbbb66be561bed02c083d2752e574c71dae95b41"
+      },
+      {
+        "path": "cache/evidence/highlights__row0018_KXCALIREDISTRICTING_dab49a7dd67b.json",
+        "bytes": 21611,
+        "sha256": "d036c805e3984380df231ed102fff7955e5fd4be7cde4345065d8125ebd1eeee"
+      },
+      {
+        "path": "cache/evidence/highlights__row0018_KXEARNINGSMENTIONROKU_e438232c99ab.json",
+        "bytes": 22718,
+        "sha256": "f6da6d97c6bd4c8ec6f748dbe207beed3538c310aaaacea823acd7f456c1d444"
+      },
+      {
+        "path": "cache/evidence/highlights__row0018_KXNFLWINS-SEA_80282d3fea8d.json",
+        "bytes": 17541,
+        "sha256": "fd3f2f89c3a2bbe1d36ec9491f5aab36b7e76602856d8fa8abd5a121df6973ff"
+      },
+      {
+        "path": "cache/evidence/highlights__row0018_KXTAYLORSWIFT_4e984ee6c270.json",
+        "bytes": 17587,
+        "sha256": "4686574594a09cae3d8d1db974129b474006f385cd7bfb48de7bd83fec011490"
+      },
+      {
+        "path": "cache/evidence/highlights__row0019_KXFEDGOVMENTION_bd9eca1fabba.json",
+        "bytes": 22568,
+        "sha256": "745f0d38041f14f619493d2803d3bad7e3734c337d98ba448eec84d80a723515"
+      },
+      {
+        "path": "cache/evidence/highlights__row0019_KXPGATOUR_f4530a2125f9.json",
+        "bytes": 18249,
+        "sha256": "773edc59c44ebb60daf439bedac8ea569920447f11c9067ba7bb5bf3a981d25a"
+      },
+      {
+        "path": "cache/evidence/highlights__row0019_KXPPFUNDING_2bc41f0b1a0f.json",
+        "bytes": 24631,
+        "sha256": "b099c790b62d66bac7e4254fa3416525d8585a4f0785c3d606f8a0cc819a5df0"
+      },
+      {
+        "path": "cache/evidence/highlights__row0019_KXPRESTALKXI_9440c6632c3b.json",
+        "bytes": 22224,
+        "sha256": "7030e7a6de251629dcd8e82af8245c59f518d5d43acff9eb0adf3fb4c2da2e24"
+      },
+      {
+        "path": "cache/evidence/highlights__row0019_KXSPOTIFYD_5f83f7e605c9.json",
+        "bytes": 14839,
+        "sha256": "721cbaf958d5462aa295bb2fe409beb368229872f4a28a554db7e60260180ffc"
+      },
+      {
+        "path": "cache/evidence/highlights__row0020_KXCHOPINCOMPETITION_b23094d1e59b.json",
+        "bytes": 14771,
+        "sha256": "7e19c8e7f211e99505ddcdae19dafb4faaa63e7cdf015526b57e5d758142dad6"
+      },
+      {
+        "path": "cache/evidence/highlights__row0020_KXIPO_cb7c544c1097.json",
+        "bytes": 20109,
+        "sha256": "c1a1d8e8e0041e9c1dcef422d14038857640b15f2a54d2408495ea3ddc1efd1a"
+      },
+      {
+        "path": "cache/evidence/highlights__row0020_KXMAYORSEATTLE_ae20ee25d0df.json",
+        "bytes": 20704,
+        "sha256": "9cdd19967aff423da4d3247d611ba46a80c6777f8abaf8b020e17fd71d3fc2cf"
+      },
+      {
+        "path": "cache/evidence/highlights__row0020_KXNCAAMBGAME_b9cab139b8b6.json",
+        "bytes": 17382,
+        "sha256": "15986c74ab76285777e0f31e15ca46ca20ff48aa4fb9c117746988899fb7b6f5"
+      },
+      {
+        "path": "cache/evidence/highlights__row0020_KXPRESVISIT_50f23a0278c5.json",
+        "bytes": 20956,
+        "sha256": "d86fcf300253f84dbf8172b2be752bcd47c5b7e500b2cf2ece3beead47d48c75"
+      },
+      {
+        "path": "cache/evidence/highlights__row0021_KXAWARDSCOUNTWHI_4216dccbf1d9.json",
+        "bytes": 20259,
+        "sha256": "131e60701c09e11ac7031a1da51e22e285c2f6cdb6f8792dde7fb6c9ecb0234e"
+      },
+      {
+        "path": "cache/evidence/highlights__row0021_KXDUTCHSECOND_7a1133d73ef1.json",
+        "bytes": 22685,
+        "sha256": "a49ff60cfd75a0f244e4b147ff1fc41221762214fb38cd59041930cc0cd019c9"
+      },
+      {
+        "path": "cache/evidence/highlights__row0021_KXMCMORTALKOMBAT_8023d2701fa3.json",
+        "bytes": 22031,
+        "sha256": "aaaaea070c5192b2f1f2a42ff1f65b003f7d106236f2aeb7b9e9b209af57c099"
+      },
+      {
+        "path": "cache/evidence/highlights__row0021_KXNFLFIRSTTD_1e0967a0b1cd.json",
+        "bytes": 17424,
+        "sha256": "b35821d9893052f04343a225d0df4244ab47a4d78f046118fc3e4a81a45780c6"
+      },
+      {
+        "path": "cache/evidence/highlights__row0021_KXTNFMENTION_14dea2112475.json",
+        "bytes": 21219,
+        "sha256": "0a3f9a699e1af296d2feff498c9245faca0d2a1bdf5f486dc7dfd9490d2ff35f"
+      },
+      {
+        "path": "cache/evidence/highlights__row0022_KXETHMINY_3f318d2b0fcc.json",
+        "bytes": 13199,
+        "sha256": "797ff67a66f4d563a588a8c551eca43f2ac31a436cc29d6bfe55e56270e8ca9e"
+      },
+      {
+        "path": "cache/evidence/highlights__row0022_KXEUROVISIONTELEV_0c8b8d69bc5d.json",
+        "bytes": 21943,
+        "sha256": "35c01b1beeb1e49093c49c695ef54f5fa346f4623c7bfa71ea9d268c9c68dd96"
+      },
+      {
+        "path": "cache/evidence/highlights__row0022_KXHIGHCHI_22bf9b399e90.json",
+        "bytes": 18404,
+        "sha256": "9d37730b144e0d030aeaa3462b5ca41bac273a6c592319c74f0ac174a609f28b"
+      },
+      {
+        "path": "cache/evidence/highlights__row0022_KXMRBEAST50M_946fe3e605aa.json",
+        "bytes": 15013,
+        "sha256": "442317cbd760fdfea4a6f2b7f7232bc0d53fd17a4aa0573690ac385b7f7230c1"
+      },
+      {
+        "path": "cache/evidence/highlights__row0022_KXNFLRSHYDS_f7687e107c01.json",
+        "bytes": 17842,
+        "sha256": "f5d1f2653020885c013c0078a235478feb0ddc2cb16e0c10f955c73883006076"
+      },
+      {
+        "path": "cache/evidence/highlights__row0023_KXFIDECANDIDATES_ebfe82604add.json",
+        "bytes": 22073,
+        "sha256": "3b3fde4c23353812b1e54fc22616f0117e31eba8b9a2a5a60414534ff7829ee5"
+      },
+      {
+        "path": "cache/evidence/highlights__row0023_KXGRAMMYNOMCOUNTSC_e57d01985099.json",
+        "bytes": 21463,
+        "sha256": "d4186ee0f5c54b57e86b5c987cf9b88062e2edfa20f2cf9ecde32adaff358114"
+      },
+      {
+        "path": "cache/evidence/highlights__row0023_KXHIGHPHIL_319c022fcd91.json",
+        "bytes": 17804,
+        "sha256": "8e427b046288fab29f1f4f3630adb4b9c5b6158a183a797a88960a5143381968"
+      },
+      {
+        "path": "cache/evidence/highlights__row0023_KXLALEADEROUT_1ccab1781569.json",
+        "bytes": 18839,
+        "sha256": "d49c1d3aa2234cd2d8859a01f17a4ac6dcefbc00307332158b4d91db6cfa4263"
+      },
+      {
+        "path": "cache/evidence/highlights__row0023_KXNCAAFGAME_ef0987a7ad27.json",
+        "bytes": 17374,
+        "sha256": "f331fc4b4ed1637ce9ebf49afcf96c62ba3396aa09a0f4f06a2d6e9adae95f02"
+      },
+      {
+        "path": "cache/evidence/highlights__row0024_KXBILLS_8ca9e5e27ec5.json",
+        "bytes": 20851,
+        "sha256": "c44c22c66ec0905057c89d010e128c0613837ee1da45f7f871f59eb2b7168f5a"
+      },
+      {
+        "path": "cache/evidence/highlights__row0024_KXLATINGRAMMYAOTY_c95342c1def2.json",
+        "bytes": 19130,
+        "sha256": "926bcfeab606f6694aa1eafc07958dd27aba1207368abcf2dce26cb200c0698f"
+      },
+      {
+        "path": "cache/evidence/highlights__row0024_KXNEXTCOACHOUTNBA_c7025ea50b2c.json",
+        "bytes": 16803,
+        "sha256": "6049081495479898e71a526c4836d392ef2430b61c8529783abf2b1f34b9751a"
+      },
+      {
+        "path": "cache/evidence/highlights__row0024_KXSALTX_f3f5ed831585.json",
+        "bytes": 21035,
+        "sha256": "41c81386b2909d2a6183869ddd5b1deb162d5783f71b4df8c667988fe540bf9e"
+      },
+      {
+        "path": "cache/evidence/highlights__row0024_KXTRUMPNOMMAX_db128e345c46.json",
+        "bytes": 23398,
+        "sha256": "bf12f75467184f53e12b6a0c2846bcacefc6874be4fadc5af70c07f6f73ae61e"
+      },
+      {
+        "path": "cache/evidence/highlights__row0025_KXAPCALLSNYC_1491a09b87ea.json",
+        "bytes": 21104,
+        "sha256": "eff79c1a583265dde0048f8d104e4937bc505aa239b5e9d7890e87761ff40607"
+      },
+      {
+        "path": "cache/evidence/highlights__row0025_KXIRELANDPRES_d79d0f81743a.json",
+        "bytes": 19751,
+        "sha256": "3ba459cddf3213044b1b01657e8c22d943b6aa387333b4767c4c05f75c26d615"
+      },
+      {
+        "path": "cache/evidence/highlights__row0025_KXMILSPEND_56a0ac67ee89.json",
+        "bytes": 22356,
+        "sha256": "4dad1d5d756fee6ff481c0dc1305685751cccbda8e21a2fc5605163945ddee72"
+      },
+      {
+        "path": "cache/evidence/highlights__row0025_KXROMANIATOP_6febc457eb4a.json",
+        "bytes": 21657,
+        "sha256": "decfd315b40ef8d00d8a5ed50ec08d5f7ffc06e603be5e2abf2243941829fc8b"
+      },
+      {
+        "path": "cache/evidence/highlights__row0025_KXSWIFTMENTION_f17a0c1a9907.json",
+        "bytes": 20026,
+        "sha256": "e0aa86560c59a40afd8593036eb13b3cd5a8aa1c12be5bced8a60a47e5a9a3bf"
+      },
+      {
+        "path": "cache/evidence/highlights__row0026_KXAWARDSCOUNTSEV_8340043cedad.json",
+        "bytes": 19399,
+        "sha256": "3b753ca73e7215fc60b249c62516bbf744e4e69218c2be2363b26ade63bb7be9"
+      },
+      {
+        "path": "cache/evidence/highlights__row0026_KXF1RACE_afa3febc3a78.json",
+        "bytes": 19715,
+        "sha256": "cc463f8ea5893e35a95a530b49a44620ff07234c7e90ca4d5e67ef4f77837083"
+      },
+      {
+        "path": "cache/evidence/highlights__row0026_KXMUSKTAGDJT_b0fd13d3840f.json",
+        "bytes": 21463,
+        "sha256": "211c91a5b94dbfc0dacb242cb4f10c0a0532a45e088bcf3208c874b4022ed200"
+      },
+      {
+        "path": "cache/evidence/highlights__row0026_KXNFLRECYDS_d22ac669b084.json",
+        "bytes": 17542,
+        "sha256": "8f88b588d7b734aa7bf6147b8c5cd4ad81cd4992e5864280eb009967b4e75229"
+      },
+      {
+        "path": "cache/evidence/highlights__row0026_KXTCJAPERMANENT_32887be6f525.json",
+        "bytes": 22887,
+        "sha256": "0fb3a79e683526ad33f66ff255a733c45785ceefdd1f60a03de4331365a250ef"
+      },
+      {
+        "path": "cache/evidence/highlights__row0027_KXAPCALLNJGOV_336ebc8d84ac.json",
+        "bytes": 20529,
+        "sha256": "0025b7cce6999d91cb8947fe65c314e12948fb448e02d3e4bd7c2b8f819c441e"
+      },
+      {
+        "path": "cache/evidence/highlights__row0027_KXAPRPOTUS_d0e5a24590aa.json",
+        "bytes": 14389,
+        "sha256": "951f94f721f87e48067d1617dc28b92fc921e46fe0738afe0c63a3036e87df6f"
+      },
+      {
+        "path": "cache/evidence/highlights__row0027_KXETH_559033c226b3.json",
+        "bytes": 20030,
+        "sha256": "0cbeaa05340630f42d4bef416b9f907dfeee4caf723d32f1864c228c29d6fb5e"
+      },
+      {
+        "path": "cache/evidence/highlights__row0027_KXNEWCOINCHAIN_e79de8ed8229.json",
+        "bytes": 16165,
+        "sha256": "2ecbaaec02d7b1d1295878c0a2d713c2f907ed0f5722928d960d7264465534ea"
+      },
+      {
+        "path": "cache/evidence/highlights__row0027_KXSURVIVORELIMINATION_b31115cd3139.json",
+        "bytes": 24089,
+        "sha256": "028e35fb9d85bf61a14654d291ddb38eaa21f98a8b948767e000c8312938a9f8"
+      },
+      {
+        "path": "cache/evidence/highlights__row0028_KX1SONGTAYLORSWIFT_24a9759f4a73.json",
+        "bytes": 20808,
+        "sha256": "2557b63d75c65ae3fc54e1bbb894c74d197fd29a190ce20c7adc81b9111852d3"
+      },
+      {
+        "path": "cache/evidence/highlights__row0028_KXCOACHOUTAUB_797882fb018a.json",
+        "bytes": 20807,
+        "sha256": "f18b25e3f7d720123a5dd7de359b6be67874492fb14953e23a331cb6649113d0"
+      },
+      {
+        "path": "cache/evidence/highlights__row0028_KXDIDDYTRIALATTEND_d577060c94ca.json",
+        "bytes": 22949,
+        "sha256": "8617e4fbe492b827c53cb3a8c46a4c51e70d222510ba6d9e75299cebe09be010"
+      },
+      {
+        "path": "cache/evidence/highlights__row0028_KXFIFAGAME_9c264871c263.json",
+        "bytes": 16515,
+        "sha256": "c9e6dfd54e967c7bc4fd171f47bcb89e280e34771fc2810b7bbd664437d6fcf1"
+      },
+      {
+        "path": "cache/evidence/highlights__row0028_KXQBIDEDUCT_70f5c944f37e.json",
+        "bytes": 21675,
+        "sha256": "f3791143ce00a89ebc78d6cb33e85448d7a6eb38393b829de6a6662dadf13ae6"
+      },
+      {
+        "path": "cache/evidence/highlights__row0029_KXCOMPTROLLER_c0c916622936.json",
+        "bytes": 18204,
+        "sha256": "aa025491d5745778333421acacaec9987b8bf7249eadeab8cf372f14a146657d"
+      },
+      {
+        "path": "cache/evidence/highlights__row0029_KXEULEADEROUT_d75ee1477e4f.json",
+        "bytes": 21491,
+        "sha256": "06439b341b835f6c2d61cd8e2f1b4e923dcf5707d552323875b1bced03c43156"
+      },
+      {
+        "path": "cache/evidence/highlights__row0029_KXNCAAFSPREAD_94b0790119c0.json",
+        "bytes": 16776,
+        "sha256": "fcb9c03a944cb620503418e428c78f1a6591b1a2dc46ac95fe76407af21809de"
+      },
+      {
+        "path": "cache/evidence/highlights__row0029_KXNYCCOUNCIL28_a14c48bf275e.json",
+        "bytes": 14739,
+        "sha256": "f57198a49a52d6773a3e2bef45ff18fd6d35d92a88b58bbedff34e4b74bc8e1a"
+      },
+      {
+        "path": "cache/evidence/highlights__row0029_KXODINVCTFINALS_7edad1bc1e6c.json",
+        "bytes": 21380,
+        "sha256": "f1e52f5ce466378d36cafb77d19bad615b4faecbe43a5b9140fa2eaa01fdc203"
+      },
+      {
+        "path": "cache/evidence/highlights__row0030_KXDCUSATTORNEY_1a6e6d83f6a6.json",
+        "bytes": 21732,
+        "sha256": "c934d1288bc6d3300373d6ec7fe207cc15f1b38e053c718ac062351fa31332c8"
+      },
+      {
+        "path": "cache/evidence/highlights__row0030_KXNASDAQ100U_b636a9fbff0d.json",
+        "bytes": 17991,
+        "sha256": "8f89c9eaa24b91e91fdbbdb189b4824f61d8cf56f452f097ceaa19481ceff475"
+      },
+      {
+        "path": "cache/evidence/highlights__row0030_KXSPOTIFYSONGSTFOO_210f2881da37.json",
+        "bytes": 19785,
+        "sha256": "c38972fc7b87e13d5cc2fdb91fa3996238881f4ebc49930f6b268d4bf4116a6c"
+      },
+      {
+        "path": "cache/evidence/highlights__row0030_KXTNOTED_15a9673f2800.json",
+        "bytes": 20075,
+        "sha256": "f622cf67a597ffd6467a7371199eeea6647faecdc2856fd2d8db8301a32d2e86"
+      },
+      {
+        "path": "cache/evidence/highlights__row0030_KXUCLTOTAL_f3495905dfb1.json",
+        "bytes": 13939,
+        "sha256": "82841968e243a80a1be15a79b9dc77a7236be53a26b103de4c1840b982198548"
+      },
+      {
+        "path": "cache/evidence/highlights__row0031_KXADP_801d5a034dcf.json",
+        "bytes": 22651,
+        "sha256": "d9bbb9b56b577d140ead67c377771195c363d924a9193bccbe7c1b7bc8c2bed6"
+      },
+      {
+        "path": "cache/evidence/highlights__row0031_KXNEWAAPLVR_6c63d7592a48.json",
+        "bytes": 22206,
+        "sha256": "7a9d545a49faf15d87622d299cb8679cfbe09808b6e97f458808e48e1a3ab6c0"
+      },
+      {
+        "path": "cache/evidence/highlights__row0031_KXNEWALBUMBIEBER_330703c8a96d.json",
+        "bytes": 18465,
+        "sha256": "dc176efb7b0f3facfc3c80a3c0e2d1b3e71fd7411cb672d1580c25ae9f727a11"
+      },
+      {
+        "path": "cache/evidence/highlights__row0031_KXNYCCOUNCIL21_8f3436673cc2.json",
+        "bytes": 14937,
+        "sha256": "2ea05102f0062f145e5246b3d6b8b6f2be9283f1b5c9c247a2e9541238ee1d82"
+      },
+      {
+        "path": "cache/evidence/highlights__row0031_KXSENATERUN_b411945cf8e0.json",
+        "bytes": 21285,
+        "sha256": "72a03ab0c50262e18c0b0f004c22bde8e43b085e94a9b04444f1a7e8dbbabd23"
+      },
+      {
+        "path": "cache/evidence/highlights__row0032_KXEARNINGSMENTIONAMC_07cb842ba6e0.json",
+        "bytes": 21759,
+        "sha256": "8b702ff4a2a5b93d1f421fa5c417506eac4026cb36c851e879425b07791581c0"
+      },
+      {
+        "path": "cache/evidence/highlights__row0032_KXEARNINGSMENTIONBLK_f56bafa255c4.json",
+        "bytes": 21346,
+        "sha256": "d6e2ad181bdd747fd7acca0d271fad00eb1195422f36f69661e747511e69c2a3"
+      },
+      {
+        "path": "cache/evidence/highlights__row0032_KXEFLCHAMPIONSHIPGAME_2821b82d5163.json",
+        "bytes": 20361,
+        "sha256": "635268c00420fa5573da414e77ce4fb54b52afa8217483261ef0805a79aa1fc0"
+      },
+      {
+        "path": "cache/evidence/highlights__row0032_KXGRAMMYNOMCOUNTBB_efe83b11153a.json",
+        "bytes": 18995,
+        "sha256": "6010ce11c4954cdd0e07b4c7a7a297c7d0254a67ad89bf04504e79e45b8a68e8"
+      },
+      {
+        "path": "cache/evidence/highlights__row0032_KXSPOTIFYSONG_4bfdc105c54d.json",
+        "bytes": 20393,
+        "sha256": "124bd98cda2926d3bbd5b34ceca217329488a5bf3106aab09031607b4f3e7848"
+      },
+      {
+        "path": "cache/evidence/highlights__row0033_KXFBUSTER_2e8b1e1e6893.json",
+        "bytes": 22354,
+        "sha256": "7b9d9dc73c79cbf20168c4e61b72d31d27f7b20769896446ed26e6d7d3178641"
+      },
+      {
+        "path": "cache/evidence/highlights__row0033_KXMANTISFREETHROWS_636963ca96fc.json",
+        "bytes": 15437,
+        "sha256": "13e1b03e623f3c1c720c6137b71aeb3fa658a0e79860f1bf39f900d45d961458"
+      },
+      {
+        "path": "cache/evidence/highlights__row0033_KXMAYORSEATTLE_9e34947cbcd6.json",
+        "bytes": 21367,
+        "sha256": "a4d3767ae1390006f3fa69d51135e23c9b42cec207760fe96c81a5cf14ad4c04"
+      },
+      {
+        "path": "cache/evidence/highlights__row0033_KXNGASMAX_7be025a23a0b.json",
+        "bytes": 18725,
+        "sha256": "a1802cc4f9ff1e8f5b875a5e41d9270d3af6428bfc01451899be1c10a359bfba"
+      },
+      {
+        "path": "cache/evidence/highlights__row0033_KXTOP10BILLBOARD_807743824223.json",
+        "bytes": 8870,
+        "sha256": "8cd801db8f85312168e7f0247b679c431e3f03f1735dd7253513a7a2fd29cad5"
+      },
+      {
+        "path": "cache/evidence/highlights__row0034_KXATPFINALS_afc01936ef44.json",
+        "bytes": 21215,
+        "sha256": "da624d46015ded890a0a0838293a562475a8504d929856e100f29b8a7baa5c37"
+      },
+      {
+        "path": "cache/evidence/highlights__row0034_KXAWARDSCOUNTLAS_7cd0950de378.json",
+        "bytes": 20858,
+        "sha256": "490266ecd56c1baa5da269364a5c5ccf20d6fc2a4e9405bfd4f04b25fa616629"
+      },
+      {
+        "path": "cache/evidence/highlights__row0034_KXEARNINGSMENTIONRKLB_d5540880546d.json",
+        "bytes": 20253,
+        "sha256": "e688c5a84491a6b349712e3e7ff0d76ca7006659e2e6cfb8a76f9d5724ebef52"
+      },
+      {
+        "path": "cache/evidence/highlights__row0034_KXEVCREDITS_3b6d6dfd8ac4.json",
+        "bytes": 20991,
+        "sha256": "b0273e9e90b160eda2d7d5e6455c2b8a1a4e6e1257ce5040a6efe25d7d4ff725"
+      },
+      {
+        "path": "cache/evidence/highlights__row0034_KXQBIDEDUCT_00d48bb0e1d4.json",
+        "bytes": 21675,
+        "sha256": "9a281e16e1c5c50e1d86bc5851f38a81c8e79ccae928b883860ff1f93cc241f3"
+      },
+      {
+        "path": "cache/evidence/highlights__row0035_KXACQUIRECOINBASE_24d2d5b7924f.json",
+        "bytes": 17758,
+        "sha256": "d4de3d6c108ed75ed7ecc48c6450f53eb964ff49087ffbde2d0adbadf06bc527"
+      },
+      {
+        "path": "cache/evidence/highlights__row0035_KXEARNINGSMENTIONUAL_bb4efe5f7f2b.json",
+        "bytes": 20615,
+        "sha256": "7888b8d636648e7102d82fc9db8f4b2a1c2f7d3aaa34e3ebfc665ff1b59ceb65"
+      },
+      {
+        "path": "cache/evidence/highlights__row0035_KXKLARSTRIP_2a34b3789074.json",
+        "bytes": 18428,
+        "sha256": "fadd7d60b2d24353a4e65aad38de07c4f922a92ca85be8254fb7cd97b88a408f"
+      },
+      {
+        "path": "cache/evidence/highlights__row0035_KXMAYORCHAR_3fdb9587c521.json",
+        "bytes": 18084,
+        "sha256": "b5c1fcca9081279ad63088fba4974e25d200abc1be576e666c58d6c5e8254232"
+      },
+      {
+        "path": "cache/evidence/highlights__row0035_KXNEWROLEVOGUE_6532bce679b1.json",
+        "bytes": 19906,
+        "sha256": "6e2f3a56e961bab678aa80fec533a6f9589e03c2bea94b0f2996b88d33342ee0"
+      },
+      {
+        "path": "cache/evidence/highlights__row0036_KXBRICS_89ab6d795152.json",
+        "bytes": 19752,
+        "sha256": "518fad01660c05262bfc0865cf71a6bda43ddfec4257d25c30ed846049b25bed"
+      },
+      {
+        "path": "cache/evidence/highlights__row0036_KXEARNINGSMENTIONMCD_83dca8c574f2.json",
+        "bytes": 22006,
+        "sha256": "5d88bc0601c2b353a4e8f02f16fc9f55f04168b5ae2e1807344ef1f05a8ecfd5"
+      },
+      {
+        "path": "cache/evidence/highlights__row0036_KXGRAMMYNOMCOUNTKL_9fd649b76836.json",
+        "bytes": 20761,
+        "sha256": "00f06544faa3d786f7c2572120e23d610d65f5ee1328bc935ccfaad31a8747c4"
+      },
+      {
+        "path": "cache/evidence/highlights__row0036_KXMAYORNOLA_e25a073dda7b.json",
+        "bytes": 18853,
+        "sha256": "960b4e830beef7e16aa5cfdc5a35b700abd83da89d032756822ce23197b52e29"
+      },
+      {
+        "path": "cache/evidence/highlights__row0036_KXTOPSONGRECORDGOLDEN_47851223914c.json",
+        "bytes": 21388,
+        "sha256": "6307fba6795bb217ae5da76b9366f25a589e38b40c3ebbca7659f5d60775416c"
+      },
+      {
+        "path": "cache/evidence/highlights__row0037_KXAPRPOTUS_e6af528506eb.json",
+        "bytes": 13410,
+        "sha256": "defb437dfe085c350a8ea402eb2d5eb797636de2bb2f979827c937d00674d4b7"
+      },
+      {
+        "path": "cache/evidence/highlights__row0037_KXAUSCOALITION_6d8c25263ef5.json",
+        "bytes": 20000,
+        "sha256": "a9c7414795e4449b72283f1cd1285a6e3b82a48345255118245f57ec708ca6ca"
+      },
+      {
+        "path": "cache/evidence/highlights__row0037_KXCPBFUNDING_3351d68fe45d.json",
+        "bytes": 21995,
+        "sha256": "1c766bfa4919b216fb2f1e6a06acb9a10daed81d4424df5148b6bbef157f19f8"
+      },
+      {
+        "path": "cache/evidence/highlights__row0037_KXNBATOTAL_01e9ca918278.json",
+        "bytes": 15887,
+        "sha256": "ca2fe6516404fc390491acbdaa50955b84c95b37ed81fe7e010bf1f3c547c662"
+      },
+      {
+        "path": "cache/evidence/highlights__row0037_KXWHVISIT_20159a78ee0b.json",
+        "bytes": 22540,
+        "sha256": "341560d7f1edb0cea1b197c838290a23de51d2c87a71decc639cd38d4d033353"
+      },
+      {
+        "path": "cache/evidence/highlights__row0038_KXCANRESIGNCOUNT_b7605fc387a6.json",
+        "bytes": 23324,
+        "sha256": "10f7d6abafe8048445e9dbb36ab16b075a5bc93ef5aa74f3a2f71005afdc68f5"
+      },
+      {
+        "path": "cache/evidence/highlights__row0038_KXDWTSELIMINATION_f2eb02474733.json",
+        "bytes": 21286,
+        "sha256": "0679a0c5c146451350a558fabc9374b87eae3588a917c9946a58cadb38509cbf"
+      },
+      {
+        "path": "cache/evidence/highlights__row0038_KXIPOSPACEX_401370a9ab13.json",
+        "bytes": 19750,
+        "sha256": "b2737aa51c4144a6c199f372755b2d135ed0bb3111c354161b67567f6fe0abe5"
+      },
+      {
+        "path": "cache/evidence/highlights__row0038_KXNFLTOTAL_1e4a27b5e39d.json",
+        "bytes": 15308,
+        "sha256": "b57bdd7e6d64eaed201d9cb083840885c6f8500d0c76e594cdae3d9807a99cbb"
+      },
+      {
+        "path": "cache/evidence/highlights__row0038_KXNGUARDCITY_f3103189b2ef.json",
+        "bytes": 20076,
+        "sha256": "b0ff22827ef671ccf46a3ea356593c89a88c5e0cfe735699e7d8c99986764727"
+      },
+      {
+        "path": "cache/evidence/highlights__row0039_KXBCHMAXY_fc83abc31e30.json",
+        "bytes": 21059,
+        "sha256": "3e49f7316e0ce748885053349a3cb1de9c6cc51deba1678c4f09f8fc92735213"
+      },
+      {
+        "path": "cache/evidence/highlights__row0039_KXBTC_43cb5724ae5c.json",
+        "bytes": 18803,
+        "sha256": "aa3f2b27421a40408b8f7176860bab0a5f6479a8fe9b2aa44c9e6959718f5ee5"
+      },
+      {
+        "path": "cache/evidence/highlights__row0039_KXLTGOVVA_fd65a69f104c.json",
+        "bytes": 16782,
+        "sha256": "77489a8c5b686df019ab896800315af2c700468a82d0803e9252ed6b2aa825c3"
+      },
+      {
+        "path": "cache/evidence/highlights__row0039_KXUSDJPY_4b91bd0e25db.json",
+        "bytes": 20719,
+        "sha256": "891d380ddb0b20b38a25d1d58373d4bbfb19cf138337c6f1b57a1eece80ab325"
+      },
+      {
+        "path": "cache/evidence/highlights__row0039_KXZIWEMENTION_30235d843c55.json",
+        "bytes": 19622,
+        "sha256": "44e79aed5720f2904c9b409efab678214adfc40484a47cc72c2a00730b59bd49"
+      },
+      {
+        "path": "cache/evidence/highlights__row0040_KXENDOWMENTRATE_cf6e09cea1f2.json",
+        "bytes": 21606,
+        "sha256": "b9f5827d0e9288bd312d61d98809ed6bffe18d34f10021ecd7fb5628b7160847"
+      },
+      {
+        "path": "cache/evidence/highlights__row0040_KXNFLWINS-SF_93a11a0d65db.json",
+        "bytes": 20630,
+        "sha256": "18bc8b32e2a8df9f4b6810a057d87528352ee23d9f94dfa6294e5426c88ce574"
+      },
+      {
+        "path": "cache/evidence/highlights__row0040_KXTOPSONGRECORDLUTHER_aac6e449d61d.json",
+        "bytes": 22473,
+        "sha256": "c6379b0f12e0c0b5e96daf7d5339939f21e91be5085c7c4bacd406c8610e43d9"
+      },
+      {
+        "path": "cache/evidence/highlights__row0040_KXTRUMPFOOTBALL_aa26e8d1fde4.json",
+        "bytes": 21834,
+        "sha256": "edfef90fd1b2d0a8dbf56eb31d6efc4241076c61f5a262b06ae33bab8057b0b9"
+      },
+      {
+        "path": "cache/evidence/highlights__row0040_KXTRUMPMENTION_124be7d77a7f.json",
+        "bytes": 22881,
+        "sha256": "fb1e2876c41eb8a09ede48fae2a8d2c81e58db2eff6383a2e2e841f19bd5320d"
+      },
+      {
+        "path": "cache/evidence/highlights__row0041_KXEARNINGSMENTIONORCL_96ee4115552d.json",
+        "bytes": 21895,
+        "sha256": "058e92881f0ba49cbd8bbecd71978d26236d306e71c668224f6eee814a6b273e"
+      },
+      {
+        "path": "cache/evidence/highlights__row0041_KXEURUSD_da042ed9676c.json",
+        "bytes": 21316,
+        "sha256": "e8b2018c9ebad0615dc3fbd2fc90a9eb766b14b21c697e511e19de45636500c9"
+      },
+      {
+        "path": "cache/evidence/highlights__row0041_KXHIGHPHIL_86b48f5d6457.json",
+        "bytes": 16819,
+        "sha256": "fab3153a60553db154f8e5bcf1ae0e9e76b072cd9f877f8c8e7fd503e1766d98"
+      },
+      {
+        "path": "cache/evidence/highlights__row0041_KXNCAAFTOTAL_2a6cb26cad82.json",
+        "bytes": 15829,
+        "sha256": "2c7d03be4c46296dbd1e167714183eec121f082ebd3aaae8409763aaa4063ba5"
+      },
+      {
+        "path": "cache/evidence/highlights__row0041_KXNEWPOPENAME_9e0cb74156f2.json",
+        "bytes": 20682,
+        "sha256": "11fc9957f3f6b18ab077559124e928ecd1ca01ea4755a3a9d7a2b3a0fe2dc19d"
+      },
+      {
+        "path": "cache/evidence/highlights__row0042_KXFUNDINGBILLS_4c72278e6811.json",
+        "bytes": 23026,
+        "sha256": "10bcf53917a0748c3b7dddc9ec6563ce0ef1425b6ef64f2c2ac1b830d23295d7"
+      },
+      {
+        "path": "cache/evidence/highlights__row0042_KXKLEAGUEGAME_60c300d2c847.json",
+        "bytes": 17252,
+        "sha256": "1c4ecfdf6364662d8903c64ecb6cf0328f3da732fbeb00805dff0191a91a9955"
+      },
+      {
+        "path": "cache/evidence/highlights__row0042_KXNFLWINS-IND_b43637953a30.json",
+        "bytes": 18294,
+        "sha256": "c675ab66c6e818668c8c3fbb76be345ad276ef922683e917fa157fdc035d9349"
+      },
+      {
+        "path": "cache/evidence/highlights__row0042_KXNFLWINS-NYJ_d9dd5d8e0192.json",
+        "bytes": 18792,
+        "sha256": "365891c2ac5ff71e88d18ba419301824456782a21181d1245cdda27ce5dd6e61"
+      },
+      {
+        "path": "cache/evidence/highlights__row0042_KXOAIPROFIT_a66d6283a5de.json",
+        "bytes": 22684,
+        "sha256": "02fe17ade5720115aa1a40ab48a10fd068661ab5a00e0f8c8da856a9b97cf383"
+      },
+      {
+        "path": "cache/evidence/highlights__row0043_KXFLIGHTORD_c3bcc2d7106d.json",
+        "bytes": 21356,
+        "sha256": "65a0e30b65d99678743f54de71c640659cfef26b36d3148d177cc419f1f495aa"
+      },
+      {
+        "path": "cache/evidence/highlights__row0043_KXGRAMMYNOMROTY_edccd26e0200.json",
+        "bytes": 16501,
+        "sha256": "24f83a0879fe66cf53814a6df1cc591d144fcf147d9c4f488aba2a11c81dd517"
+      },
+      {
+        "path": "cache/evidence/highlights__row0043_KXNFLWINS-NO_8f2b4fd58dac.json",
+        "bytes": 19393,
+        "sha256": "47d8b2a1d364e2d50d8183065f89ad288a301c78284e807dc2b25d47a4ed7ac7"
+      },
+      {
+        "path": "cache/evidence/highlights__row0043_KXSOLETHRATIO_2f8e44b61cb0.json",
+        "bytes": 14733,
+        "sha256": "e555af9ae0100d3db513dbdce7aad3601f562a4cea34caf52a698ce16c6ff1f6"
+      },
+      {
+        "path": "cache/evidence/highlights__row0043_KXUECLGAME_bfd0c12472bf.json",
+        "bytes": 18623,
+        "sha256": "387b5d1ea6f4365ee39814083ca253a0f39e7e7b76d14b3a79331942053da172"
+      },
+      {
+        "path": "cache/evidence/highlights__row0044_KXBESTACTRMUS_d67827b815ac.json",
+        "bytes": 22762,
+        "sha256": "b3c9d4d69cd44dc1f849a248424655c54803633e6e7088d0a4cc4d29860bddd6"
+      },
+      {
+        "path": "cache/evidence/highlights__row0044_KXFEATURETAYLORSWIFT_8e4f62192a09.json",
+        "bytes": 20745,
+        "sha256": "d7efb70b559d1fbbd19500fbb852162760febfac8f586844b6a7c3732364962d"
+      },
+      {
+        "path": "cache/evidence/highlights__row0044_KXFEATURETYLERTHECREATOR_4d7a7cbfb56d.json",
+        "bytes": 18193,
+        "sha256": "a26b2e893a651f570dc65f84b82853d306de0f36c98a1813c5e5d444d468f022"
+      },
+      {
+        "path": "cache/evidence/highlights__row0044_KXMLBWSMVP_abbfcf1be36a.json",
+        "bytes": 18820,
+        "sha256": "88f860ef1f160ea462cdc814a47c1758122b550d73e6ea7cc0834abca12b1557"
+      },
+      {
+        "path": "cache/evidence/highlights__row0044_KXNFLWINS-CAR_d89e3fe50394.json",
+        "bytes": 21304,
+        "sha256": "790800f4eb611183cc2c91bb956e476074b64a00720eb6ad1b142ed558defe5f"
+      },
+      {
+        "path": "cache/evidence/highlights__row0045_KXAMERICAPROFIT_6433a22594c7.json",
+        "bytes": 22732,
+        "sha256": "779bc17db4196914a96a58a29ab25158d936608d4898b95a1c6c0e8261bbb038"
+      },
+      {
+        "path": "cache/evidence/highlights__row0045_KXCOLLEGEDROP_bd6eeed8bbd7.json",
+        "bytes": 23081,
+        "sha256": "ddf7fbe14d7a7814fbb96a9dd9e45c33ba3ec73f3d1859a0064d65794324367b"
+      },
+      {
+        "path": "cache/evidence/highlights__row0045_KXCUOMOMENTION_eab97bcca10f.json",
+        "bytes": 19605,
+        "sha256": "6b66f244c0447cad56f36284281c72922b976e0c1b96c2cef1d5aeb9ddcacdc3"
+      },
+      {
+        "path": "cache/evidence/highlights__row0045_KXNORWAYLABOUR_baf059906ec8.json",
+        "bytes": 19888,
+        "sha256": "271973936833379bb3e0b79fd023643640063be7d93ca96d4f297f0dca5e713b"
+      },
+      {
+        "path": "cache/evidence/highlights__row0045_KXRANKLISTAPPREALSPORTS_a21a602c5e77.json",
+        "bytes": 18412,
+        "sha256": "cc7e72bb8fa1612cbda4bc46d779a6c8d3fd3733a72f6fc7d78a8c442c4f535a"
+      },
+      {
+        "path": "cache/evidence/highlights__row0046_KXDOGED_a0097d1f7abc.json",
+        "bytes": 15547,
+        "sha256": "9b3075dc3cafe53334ce6b88099a139651f135ad90a4d15fd0562d25e49e8781"
+      },
+      {
+        "path": "cache/evidence/highlights__row0046_KXGOLDENBACHELOR_ce2aa7807115.json",
+        "bytes": 22725,
+        "sha256": "a3745aa33f1501c11c0866e43121088d5cc5d731d78edda1eaac6d2a9682b4c2"
+      },
+      {
+        "path": "cache/evidence/highlights__row0046_KXMUSKDOGE_653678a26ad5.json",
+        "bytes": 22993,
+        "sha256": "4b48747075e6fff8fd22a223e53d69f977e133cf38615149223d9d2670bde746"
+      },
+      {
+        "path": "cache/evidence/highlights__row0046_KXRESCISSIONBILL_244a3dc1bb38.json",
+        "bytes": 20196,
+        "sha256": "ef761e2bcbb4c0043b4642c3da90c5d0d0ddcbfea67c41308fc0d7b0dbc51381"
+      },
+      {
+        "path": "cache/evidence/highlights__row0046_KXVOTEHUBTRUMPUPDOWN_05bc1ef18f4f.json",
+        "bytes": 17689,
+        "sha256": "1abcc821e65b8c76bcb56af0be38f2791e268c332c974ce21736f0bb4dc7cbb4"
+      },
+      {
+        "path": "cache/evidence/highlights__row0047_KXBLASTRIVALS2_0570a44b0974.json",
+        "bytes": 19224,
+        "sha256": "aab952a8d8be46e7cdf4bde96ad91bab359ee9223d5324281056ca440a5f003a"
+      },
+      {
+        "path": "cache/evidence/highlights__row0047_KXBUNDESLIGAGAME_5b63fb0034f0.json",
+        "bytes": 16840,
+        "sha256": "3ba9e97f1677a2036d68cc21f816f8419ed1ca24166b6303ccba209ce9f53899"
+      },
+      {
+        "path": "cache/evidence/highlights__row0047_KXFLIGHTLAX_ed6119ca102e.json",
+        "bytes": 21623,
+        "sha256": "842e64e488e67cdd0a97829ab77c7074947c5a16131d840592fc783b4f3b993a"
+      },
+      {
+        "path": "cache/evidence/highlights__row0047_KXOVERSIGHTRM_ddf7da64221c.json",
+        "bytes": 21876,
+        "sha256": "f744bc60935a5970a5eb9bf5f660f055173efcc8149a1f3a6cd9cec0a54c3362"
+      },
+      {
+        "path": "cache/evidence/highlights__row0047_KXRADIOHEAD_8c4b1037be30.json",
+        "bytes": 22113,
+        "sha256": "7ca3c79678e45619be4a3de9084b226aa3f7f0d465cf9c0d454c0a9e51cb434a"
+      },
+      {
+        "path": "cache/evidence/highlights__row0048_KX60MINMENTION_52506da0278f.json",
+        "bytes": 20492,
+        "sha256": "adbdeacbaee1ff567d878c87c6d50b097ded2949491309a9ad6f4e449125b492"
+      },
+      {
+        "path": "cache/evidence/highlights__row0048_KXBTCATH_5b1f60ccbfa8.json",
+        "bytes": 16066,
+        "sha256": "37d31752e609e096bc4d7e4e7ffd798ef82f1c3eae3f5374442df74dabdb7c01"
+      },
+      {
+        "path": "cache/evidence/highlights__row0048_KXHULKHOGANATTEND_cf7e5208d5da.json",
+        "bytes": 22085,
+        "sha256": "e6009991d263fa4f6396089d53bb6a9a5be6c3238e2eced9d798e0bc641d568c"
+      },
+      {
+        "path": "cache/evidence/highlights__row0048_KXIRISH1ROUND_8c602bdb7eeb.json",
+        "bytes": 22209,
+        "sha256": "ab297e216659aa63e6d783117900a009a6d57616e8c21ddd5e357943d1eb2475"
+      },
+      {
+        "path": "cache/evidence/highlights__row0048_KXSNFMENTION_7ae69aa8f266.json",
+        "bytes": 21608,
+        "sha256": "b4f414e764123e1da9c3dc7478d9c8c32e330fefe99a52feeaa2b3a451f80378"
+      },
+      {
+        "path": "cache/evidence/highlights__row0049_KXBESTACTORTONYAWARDS_f5b225537473.json",
+        "bytes": 20689,
+        "sha256": "b46f8e69dd8e527877ac9459f3f471c889b1b4ecc93d4d8a02bb8ce58f96cf21"
+      },
+      {
+        "path": "cache/evidence/highlights__row0049_KXBILATERALMENTION_5c3981775b92.json",
+        "bytes": 24473,
+        "sha256": "7f2c18f4aa7aa139302d6d5a07d16fefead9032aa2e70a92169aff14a5be2973"
+      },
+      {
+        "path": "cache/evidence/highlights__row0049_KXNFLWINS-NE_cce1bbbb405b.json",
+        "bytes": 19316,
+        "sha256": "1448114d2ce8339cf2b47898283d753ebc38aa84e6181ccafce8d148cc07ec97"
+      },
+      {
+        "path": "cache/evidence/highlights__row0049_KXRECNCSVOTE_03453756ee7a.json",
+        "bytes": 22440,
+        "sha256": "b73acbf85a314d2d576146d5c94a2d0fde8167ebbb0e33709a4eef0e414157a6"
+      },
+      {
+        "path": "cache/evidence/highlights__row0049_KXWALLSPEND_3d1cce9814a9.json",
+        "bytes": 20882,
+        "sha256": "457097f36d3f56b878bdf02d3942956b2182b681be2451aebf12a8c7f935ce10"
+      },
+      {
+        "path": "cache/evidence/highlights__row0050_KXCOACHOUTNCAAFB_3aa140db7928.json",
+        "bytes": 21223,
+        "sha256": "e5668afc102bdf80c79758321f2019707b408d354f6b788428ccdb2ba9b8509f"
+      },
+      {
+        "path": "cache/evidence/highlights__row0050_KXEARNINGSMENTIONDKNG_0b233cc99695.json",
+        "bytes": 20297,
+        "sha256": "d5cd6ade1da40ee6024c1c5b9f4eeaee00516e7133f9d62f44def84d7f98c099"
+      },
+      {
+        "path": "cache/evidence/highlights__row0050_KXELECTIONMOVIRELAND_d6d4dc85e0e0.json",
+        "bytes": 21334,
+        "sha256": "f4729058bff918149a21f1ae61c63331d6dc6668cc5de994eb8de02ae980e982"
+      },
+      {
+        "path": "cache/evidence/highlights__row0050_KXLEAVITTMENTIONDURATION_1468e74092b9.json",
+        "bytes": 19794,
+        "sha256": "03d49e830f519a68665ffd6455d03fa791c1419004364e5ccecd3efd265f47b9"
+      },
+      {
+        "path": "cache/evidence/highlights__row0050_KXNFLWINS-LV_447862a5209e.json",
+        "bytes": 19576,
+        "sha256": "d86c461a7ed4dacf7eb1fc0bfa48f963b7eb504490f4ce52b55f46c6bf61942d"
+      },
+      {
+        "path": "cache/evidence/highlights__row0051_KXDEDUCT_46d3ca9a4a2b.json",
+        "bytes": 19370,
+        "sha256": "f07fb7bbf9cb9e66d3b19a2f124c2c882b0071d8e75d981cf1a066a7ab169ca8"
+      },
+      {
+        "path": "cache/evidence/highlights__row0051_KXNASDAQ100_84fb68ce8524.json",
+        "bytes": 18558,
+        "sha256": "b3241143d6e45c6caf74dafb1770ed12b7fc29c545ce5504a2fe96d34510ce6a"
+      },
+      {
+        "path": "cache/evidence/highlights__row0051_KXNEWPOPEROUNDS_ea38ea930f6d.json",
+        "bytes": 19957,
+        "sha256": "b863cc3e7fb8a930e7751b665d579ae38aadfa323f3af6d82ac3cda1a3f5e3c1"
+      },
+      {
+        "path": "cache/evidence/highlights__row0051_KXRWAMCAPAVAX_8017dff3137f.json",
+        "bytes": 17505,
+        "sha256": "ecfc399dc852a66ce87cffbf11b48dde31c9ee874f740c18eb9505900033a0a7"
+      },
+      {
+        "path": "cache/evidence/highlights__row0052_KXG7LEADEROUT_dc24e74a5629.json",
+        "bytes": 21751,
+        "sha256": "cda2d4a2956eb810b8b0c8df79d5b700f82e92c1b07f8a1257d2d2baef3fd5c0"
+      },
+      {
+        "path": "cache/evidence/highlights__row0052_KXLINKMAXY_172a61221d1b.json",
+        "bytes": 20901,
+        "sha256": "a41a2f62eb82b8b531171c55dd1e825accdb72f5620ab8b91511b0e1a12004e7"
+      },
+      {
+        "path": "cache/evidence/highlights__row0052_KXSNAPDELAY_2d2d8d235aba.json",
+        "bytes": 20837,
+        "sha256": "161f224fd582ba2efcadd67b4d5df4ef6439cc493be966c41a72d70c698c7dd6"
+      },
+      {
+        "path": "cache/evidence/highlights__row0052_KXXAISUEAPPLE_7dae0f6ff7a2.json",
+        "bytes": 22184,
+        "sha256": "1b8b27e91042fb2152414179bfd13f78a0b0fec75623ffb0de502102ea2d6882"
+      },
+      {
+        "path": "cache/evidence/highlights__row0053_KXBIDENNEBRASKA_f480e49be1dd.json",
+        "bytes": 21923,
+        "sha256": "3f263f030a06965c16e07fc301b5fee0b141a9346a0a9e9042d5d5e4bdc2e56d"
+      },
+      {
+        "path": "cache/evidence/highlights__row0053_KXRANKLISTSONGTHRILLER_1d394ec92b8e.json",
+        "bytes": 19310,
+        "sha256": "43f9f56aecf1ad6d1eb86e095fd0076529c51ccc3f26fd19844fd60b480d146c"
+      },
+      {
+        "path": "cache/evidence/highlights__row0053_KXRECBILL_eed439ae378f.json",
+        "bytes": 22260,
+        "sha256": "3f9b43c440ebbc9bd1c5a5296369ed7fafe59dee8b1fd55749395c71c28475f7"
+      },
+      {
+        "path": "cache/evidence/highlights__row0053_KXSEXYMAN_8c086119b80f.json",
+        "bytes": 20519,
+        "sha256": "e1f24f548f38b3849e144bf44240f222d3730227e993bef19cd4c25df7b34c40"
+      },
+      {
+        "path": "cache/evidence/highlights__row0054_KXETH_1ac721d1e88e.json",
+        "bytes": 16888,
+        "sha256": "ab6119bc8739cc6db57a5d1250f48bb3010cc7f825b30f254ee6527d3637075d"
+      },
+      {
+        "path": "cache/evidence/highlights__row0054_KXNFLWINS-JAC_d02641a31934.json",
+        "bytes": 19167,
+        "sha256": "867c0be0fa0d0f10d328fa4c738a4e3274a28e99ac751616e3cf47693ba8393d"
+      },
+      {
+        "path": "cache/evidence/highlights__row0054_KXNORWAYCON_8561cd76b6f7.json",
+        "bytes": 21911,
+        "sha256": "10f3f8229977212e38e68dcb4000ff77854a9a41d6a57529e4173df41de32eac"
+      },
+      {
+        "path": "cache/evidence/highlights__row0054_KXUCLSPREAD_5462297b8ab2.json",
+        "bytes": 14235,
+        "sha256": "3f1d4360e695fca12326f1ce05554d5e7bd3ec8ec60fd8ba4bf8e3411a52f8e2"
+      },
+      {
+        "path": "cache/evidence/highlights__row0055_KXEULEADEROUT_9cbebc3213a5.json",
+        "bytes": 19432,
+        "sha256": "fd75e0734e6f39bc70d9533e7937ec9d555c6806b665766b791d5b8785f20813"
+      },
+      {
+        "path": "cache/evidence/highlights__row0055_KXMLSGAME_5657f31ee98e.json",
+        "bytes": 17485,
+        "sha256": "dfed0c626e884837fb4d9a0cdb0e850c62ddb84a4866662fcd10713c3b5ae278"
+      },
+      {
+        "path": "cache/evidence/highlights__row0055_KXNEXTCOMPANYSP500_2a6fb26c13f1.json",
+        "bytes": 19246,
+        "sha256": "aa82ebbfa093bc441c2c8d55fe97d63797e064dac3720e2aaaf9ecb6f0a427e1"
+      },
+      {
+        "path": "cache/evidence/highlights__row0055_KXNYCCOUNCIL14_ae1cd724e8c9.json",
+        "bytes": 19499,
+        "sha256": "34c4d7ea7b49dc33f804495bc33944dfa7ce4deddb618fbbc620ac072a9029d6"
+      },
+      {
+        "path": "cache/evidence/highlights__row0056_KXEARNINGSMENTIONDIS_7632c4d14b6d.json",
+        "bytes": 23778,
+        "sha256": "964f3cf10d191e0c9ef2ede73f4e41814277d4cc2110d2ca7d64726dc1980d3a"
+      },
+      {
+        "path": "cache/evidence/highlights__row0056_KXEUROVISIONJURY_e999f66a82fe.json",
+        "bytes": 19131,
+        "sha256": "d07b108554184672917281e046aa24248c8a9e5bd9cda1103cab7af97b98e64d"
+      },
+      {
+        "path": "cache/evidence/highlights__row0056_KXOTEWALZ_1f34c7964ab7.json",
+        "bytes": 20601,
+        "sha256": "d3c0362b83cd2cb4c9a82da480ed2b35a8aaead4ac812e30bdfebb0db6ffa459"
+      },
+      {
+        "path": "cache/evidence/highlights__row0056_KXUSAMBFRANCE_eb185ee9504d.json",
+        "bytes": 17053,
+        "sha256": "802cb620b93e7afc03d4eb3cf8533e82c8e68c92de87d876afe10cac9218a138"
+      },
+      {
+        "path": "cache/evidence/highlights__row0057_KXMUSKRECONCILIATION_ffbc5613d5ca.json",
+        "bytes": 20663,
+        "sha256": "67561e955060d5b85bbdca0046a15878faf0119bf5e0d5ecddc23a5ddb70f41c"
+      },
+      {
+        "path": "cache/evidence/highlights__row0057_KXSPOTIFYGLOBALD_5d1b73390828.json",
+        "bytes": 19742,
+        "sha256": "8eb5329463ba85a328ccfc1d5bbc2ecfc269436b559ef9a6eb87dcf37ec7e8cd"
+      },
+      {
+        "path": "cache/evidence/highlights__row0057_KXUCLBTTS_aae4690b0f2b.json",
+        "bytes": 21567,
+        "sha256": "84841bc16e509687c9d5329d8b176b3ed2b6073088c000b741eaf399d71d78d6"
+      },
+      {
+        "path": "cache/evidence/highlights__row0057_KXUSAMBCHINA_3b3d548f274d.json",
+        "bytes": 19510,
+        "sha256": "31c1fa4531e6fc126b87ce951df833822bbd0b1890abfcb04dba339e7d646e39"
+      },
+      {
+        "path": "cache/evidence/highlights__row0058_KXGRAMMYNOMSOTY_82b0d22765eb.json",
+        "bytes": 18794,
+        "sha256": "a06be754d22a21d920b974101b3d3ce718c9d3a707902e4a4e23cbbdf508ac11"
+      },
+      {
+        "path": "cache/evidence/highlights__row0058_KXLOUVRETHIEVESCHARGE_d0076134c8af.json",
+        "bytes": 24849,
+        "sha256": "9af6c04b5826d4f4ac90bb08fc972bb3a3bf81a4cbb43d0f3e5d0f9bfcf5462a"
+      },
+      {
+        "path": "cache/evidence/highlights__row0058_KXNYCCOUNCIL39_2b4b25905a1f.json",
+        "bytes": 18131,
+        "sha256": "f63daea0042de23008a8d2b429ae33aa9aed8e8dddfb36d4c8b42efe92cf24c4"
+      },
+      {
+        "path": "cache/evidence/highlights__row0058_KXUSELECTIONARIZONA7_f1ec65fdea5f.json",
+        "bytes": 18639,
+        "sha256": "d6d8389ef403469f403b2cfd847e3e43841e5124ec0731a5d985e430646e625e"
+      },
+      {
+        "path": "cache/evidence/highlights__row0059_KXBIDENMENTION_ead727190da2.json",
+        "bytes": 19798,
+        "sha256": "ebb4c83721e0e40fb620e719cc5d8bb041f8a2477da512d7ca69de12366072d2"
+      },
+      {
+        "path": "cache/evidence/highlights__row0059_KXHIGHCHI_91412d4e6963.json",
+        "bytes": 18299,
+        "sha256": "63befab23b4180aeec90d64c5a7e3c3cf3d51c7779d315f4ba91f5c983d506fa"
+      },
+      {
+        "path": "cache/evidence/highlights__row0059_KXSURGEON_e105be3382a9.json",
+        "bytes": 18942,
+        "sha256": "45790f5486243b80aa11e1869241a6d2da75c5ad1a4151b748bdeb115a972fba"
+      },
+      {
+        "path": "cache/evidence/highlights__row0059_KXTOP202025_722b26a4380c.json",
+        "bytes": 13285,
+        "sha256": "4e13a0cc6beee7f9c99413b3333d13718c4efb3e62435fc806b7212ee8cc94d0"
+      },
+      {
+        "path": "cache/evidence/highlights__row0060_KXFDAAPPROVAL_d809415529f8.json",
+        "bytes": 18949,
+        "sha256": "9fdf6517b8be15e2632d4a29600bd0177c7dc3b8386d94f8c69255c88ab79d51"
+      },
+      {
+        "path": "cache/evidence/highlights__row0060_KXLATINGRAMMYBNA_3fa9bcb9c97b.json",
+        "bytes": 19204,
+        "sha256": "58808e7bb809994eab820f8f26e1d9f375358ed90d3036226ca57fd13a4dde02"
+      },
+      {
+        "path": "cache/evidence/highlights__row0060_KXNFLRECYDS_b818acd04857.json",
+        "bytes": 15767,
+        "sha256": "0e4622665afb03c1dbe8691d9b7e566088d86f680c6297b60d3584f1c66dca64"
+      },
+      {
+        "path": "cache/evidence/highlights__row0060_KXTOPALBUMBYTAYLORSWIFT_dd1259badff0.json",
+        "bytes": 22915,
+        "sha256": "d782c8b21746ea2dbac588ee4ac343ff873d8145abcd7541df44744021e98b92"
+      },
+      {
+        "path": "cache/evidence/highlights__row0061_KXAMBMALAY_4af9f45dc3ff.json",
+        "bytes": 21357,
+        "sha256": "de7bb03973fadebc80be6cf310675b7942440f469edd83956f239e17a0923ff8"
+      },
+      {
+        "path": "cache/evidence/highlights__row0061_KXBESTPLAY_4decdd108a9a.json",
+        "bytes": 23549,
+        "sha256": "afb01ad06eeb335148746826e602a99ff67f63c002548571e8e13b2431798ebf"
+      },
+      {
+        "path": "cache/evidence/highlights__row0061_KXEWCDOTA2_ce069b81a391.json",
+        "bytes": 15904,
+        "sha256": "5d13fcee89d56cddb338d2d20e28d607f86c873467dcc20089d3dcb874578058"
+      },
+      {
+        "path": "cache/evidence/highlights__row0061_KXHIGHLAX_e1bb1c9d1f7c.json",
+        "bytes": 17623,
+        "sha256": "c86610357f9f58d147d6b5986b5c30187a3c50603c5717be4d4727ebcc66ebbb"
+      },
+      {
+        "path": "cache/evidence/highlights__row0062_KXCDASEATS_d8db8a3c9a10.json",
+        "bytes": 20959,
+        "sha256": "85bbb5a13d78f96e98eaf7377c4f52d3e17270899ed5e6fdca53334368bfd581"
+      },
+      {
+        "path": "cache/evidence/highlights__row0062_KXNFLWINS-PIT_cd2a8e32843c.json",
+        "bytes": 18747,
+        "sha256": "153644d4ca31b6e8379e0c1b15f259b1d6a4f5df4974ee4aed235d276fee2d2d"
+      },
+      {
+        "path": "cache/evidence/highlights__row0062_KXTOPALBUMBYSABRINA_80d0f8289ba8.json",
+        "bytes": 20895,
+        "sha256": "77ae48f784bd9e0bd6a2e0f826aa49ec7905985386b57867e44aa1f99210dcac"
+      },
+      {
+        "path": "cache/evidence/highlights__row0062_KXTOPALBUMRECORDMWITP_618920ee064f.json",
+        "bytes": 22037,
+        "sha256": "721d3d74591e2f85847a586f0de71739b804bbca54723ff3fb10e053965e0ba1"
+      },
+      {
+        "path": "cache/evidence/highlights__row0063_KXBALLONDORNATION_76e8e73752ee.json",
+        "bytes": 22020,
+        "sha256": "06b28ec37fed6226bbcb7ea17a80e92be058f007f1104ce8a44d4357e3c91705"
+      },
+      {
+        "path": "cache/evidence/highlights__row0063_KXBRASILEIROGAME_73e9c5cbe15b.json",
+        "bytes": 19850,
+        "sha256": "1b92c98509022715c6d4ffc780d18f18d5ce514c9cab4bcd3f570a31759ae482"
+      },
+      {
+        "path": "cache/evidence/highlights__row0063_KXDWARKESH_c524c03ede12.json",
+        "bytes": 18978,
+        "sha256": "c1c6a8e4c5641d2ac306f6f20743490e44992bb8cf742f8379a1fd503f575a85"
+      },
+      {
+        "path": "cache/evidence/highlights__row0063_KXNFLMENTION_e0718bd15a8b.json",
+        "bytes": 23335,
+        "sha256": "7706a09f9fe839600421789714c6ec8d66110c7f3a3464183842b388bea24001"
+      },
+      {
+        "path": "cache/evidence/highlights__row0064_KXEARNINGSMENTIONGOOGL_f06d3318f06f.json",
+        "bytes": 22686,
+        "sha256": "ffdd9052db7010b70615a3c515290f370fb6ca925627fb7967cef9ce997f904f"
+      },
+      {
+        "path": "cache/evidence/highlights__row0064_KXMASSIEDISCHARGE_b82bdedd8afe.json",
+        "bytes": 22989,
+        "sha256": "2c2cb97f245b540c2bcedad6569f530c0f645c82a27e3c8518021e04873f1528"
+      },
+      {
+        "path": "cache/evidence/highlights__row0064_KXNEXTLDPLEADER_27d6d2a60127.json",
+        "bytes": 21985,
+        "sha256": "bea664c27117f9d1a7cb1a6320f6f48598e74396f3c5a4302081c82c4c2c3eef"
+      },
+      {
+        "path": "cache/evidence/highlights__row0064_KXSERIEAGAME_fcc722df1f12.json",
+        "bytes": 41126,
+        "sha256": "b45adfba39aead83ba459855526213ab832ac8f6c760f3f99bddfbaf185982ee"
+      },
+      {
+        "path": "cache/evidence/highlights__row0065_KXAIRDROPPUMPFUN_340bc2f37aff.json",
+        "bytes": 22755,
+        "sha256": "6933927f5bf8a5b2c80e03720e4be18c845425009a574086c135a7035d1c1a28"
+      },
+      {
+        "path": "cache/evidence/highlights__row0065_KXEUROVISIONHOST_dfe3ddf442dc.json",
+        "bytes": 19589,
+        "sha256": "dd018f3ae06cc4eab8be828227f1547de8c3307b1a71867848bcf1838b2910e7"
+      },
+      {
+        "path": "cache/evidence/highlights__row0065_KXFEATUREMETROBOOMIN_b4c51ba9058f.json",
+        "bytes": 20263,
+        "sha256": "dc4a626294232e0ce519506e2dfa7269c626d39838f56c1a214c237ca2669aa6"
+      },
+      {
+        "path": "cache/evidence/highlights__row0065_KXGROENSEATS_74ff67181714.json",
+        "bytes": 18779,
+        "sha256": "e89d5cfb8631552c6e05ffc746fac0a62d5555770a71061d158392dadad9f47f"
+      },
+      {
+        "path": "cache/evidence/highlights__row0066_KXDOGEDONE_d44dcea20378.json",
+        "bytes": 20691,
+        "sha256": "3d216790e182ee70afaaf8903116aa34c10b74346a41e61cf2c0e2154f9f8b3c"
+      },
+      {
+        "path": "cache/evidence/highlights__row0066_KXMOLDOVAPAS_29e647293a65.json",
+        "bytes": 22372,
+        "sha256": "b5f0e04519310402d746146ecd31610e955a49ffe2d4b41f9233e0cf96a1556a"
+      },
+      {
+        "path": "cache/evidence/highlights__row0066_KXTOPALBUMRECORDMBF_3f630426d8b6.json",
+        "bytes": 21063,
+        "sha256": "4b13277f3aa0214b9fef38f355243255117e40005d6db9f7fd2e273db55daead"
+      },
+      {
+        "path": "cache/evidence/highlights__row0066_KXUCLGAME_b858b19b2302.json",
+        "bytes": 15615,
+        "sha256": "3285872d08b1075e1061f1830279bf630ef0fd5fa74267df2f39e4a3789933cf"
+      },
+      {
+        "path": "cache/evidence/highlights__row0067_KXEPSTEINLIST_80626544b32b.json",
+        "bytes": 22500,
+        "sha256": "55c66c4b4f4c2d545ad62b3daabe270f828cec4af3885a8f0aed0b36526ea835"
+      },
+      {
+        "path": "cache/evidence/highlights__row0067_KXIPOKLARNA_9c4632a56ae6.json",
+        "bytes": 20202,
+        "sha256": "43a678d4fe709828ce43e3d9a5fd674fcb207486b4fb20e883bef9ca3970d169"
+      },
+      {
+        "path": "cache/evidence/highlights__row0067_KXUSAINTEL_f47b046cb718.json",
+        "bytes": 21024,
+        "sha256": "c53030fdf365163e102396c472b6d7c0154de161087f2e17da01148b44b44a12"
+      },
+      {
+        "path": "cache/evidence/highlights__row0067_KXUSELECTIONARIZONA7_d630fd604f82.json",
+        "bytes": 18639,
+        "sha256": "412c6aa8c1bed3627c60dab126abb50d266c629f7cb947b6f56849f646cc97a6"
+      },
+      {
+        "path": "cache/evidence/highlights__row0068_KXJAMAICANHOR_ac41c863ed71.json",
+        "bytes": 19811,
+        "sha256": "cc09ad5007e2bdad90b54d36e773d4f0393d2a28c843ae5a58ec1a0e5c8f676e"
+      },
+      {
+        "path": "cache/evidence/highlights__row0068_KXMOSTWINSEMMYS_349bdbc7f4ad.json",
+        "bytes": 22014,
+        "sha256": "4f3bcf75fd83e421ed344784432647783ed6618427dd3bbbd56639bb21ddf13e"
+      },
+      {
+        "path": "cache/evidence/highlights__row0068_KXNORWAYSECOND_0c816ae92b53.json",
+        "bytes": 15907,
+        "sha256": "0b1b7a7bf763b22515f41e192bb7420bbaa4b9483d87b86de47494aa8eef64c2"
+      },
+      {
+        "path": "cache/evidence/highlights__row0068_KXSNLMENTION_2a9b01e19160.json",
+        "bytes": 20411,
+        "sha256": "b7d3326687b4f2c82849fa0842b806af0da34f27695241ce3e45ec1ac0ef3f15"
+      },
+      {
+        "path": "cache/evidence/highlights__row0069_KXCOMPTROLLER_a8f7bd44743c.json",
+        "bytes": 22133,
+        "sha256": "d4bb13531db89777f375428fc9604163b8eb1be6d2fa7f4532300fd8dbca3fcc"
+      },
+      {
+        "path": "cache/evidence/highlights__row0069_KXFLIGHTJFK_dad62952dba6.json",
+        "bytes": 21093,
+        "sha256": "6a45e0a04774246745a3d962ae7c8107edf37afad7a2d1ebc9af283f331d5f3b"
+      },
+      {
+        "path": "cache/evidence/highlights__row0069_KXNFLWINS-DET_2d6b00ee839d.json",
+        "bytes": 19963,
+        "sha256": "2b69899f2a56898621472ef3b0da9ec4e9f23f2f8abf5bc516ef9bc5301c2a9b"
+      },
+      {
+        "path": "cache/evidence/highlights__row0069_KXNYCCOUNCIL2_1788e59557ca.json",
+        "bytes": 16899,
+        "sha256": "9ec2cbac5bce72e3d5e0b8086467db3c3c218fa7ed1a67a3c07990a5e40f31d5"
+      },
+      {
+        "path": "cache/evidence/highlights__row0070_KXAAAGASMINCA_856a6bf048bd.json",
+        "bytes": 19559,
+        "sha256": "fdf1e4e9876ce88a555d6b8ba016e4bfc28018a7cac8a4071dd9695fab3e7d00"
+      },
+      {
+        "path": "cache/evidence/highlights__row0070_KXNFLWINS-CHI_305bcdd61cc0.json",
+        "bytes": 20483,
+        "sha256": "e27cf10a79d0c203e62cc721a01b7f6648cc24ffb6aa2075a42e8b078fdb742c"
+      },
+      {
+        "path": "cache/evidence/highlights__row0070_KXROMANIATOP_508b8b8b2424.json",
+        "bytes": 20024,
+        "sha256": "65ef493e27d6aa56e69f9e2644c71e8d3088fbb4ad23237238f82a53e3a68989"
+      },
+      {
+        "path": "cache/evidence/highlights__row0070_KXTURKEYAMB_d64774974e89.json",
+        "bytes": 19385,
+        "sha256": "2d5cc86a57d87d1594d293cf08f3e058f0bab762425d766b84ecb4e9945821c1"
+      },
+      {
+        "path": "cache/evidence/highlights__row0071_KXEVENTTIMES_ab91b42f57d7.json",
+        "bytes": 16214,
+        "sha256": "2433ceee18b06f9fd7c8ec9287a56202f2daaa93dd5b94a1ede7d1b5377247ee"
+      },
+      {
+        "path": "cache/evidence/highlights__row0071_KXNEXTTEAMWESTBROOK_42efdad5e337.json",
+        "bytes": 20536,
+        "sha256": "09d6c9eddd6a5f7a92a45d0aa5aab2bbd90d71c907b078b3a3fd9c278a236c19"
+      },
+      {
+        "path": "cache/evidence/highlights__row0071_KXTARIFFPHARMA_1967e384c49f.json",
+        "bytes": 23521,
+        "sha256": "10ca2421235b7557eccb6394b25965a805c22a947be4656e4d623d2d71193e1a"
+      },
+      {
+        "path": "cache/evidence/highlights__row0071_KXTRUMPUFC322_58be75e748b6.json",
+        "bytes": 18710,
+        "sha256": "56ec0708712d2e561223685d26dc2c2cad4aaa9ade728e52006d17cdf1552979"
+      },
+      {
+        "path": "cache/evidence/highlights__row0072_KXEARNINGSMENTIONABNB_e5c9ef90a8df.json",
+        "bytes": 20606,
+        "sha256": "9cae5fe63b0bb0f6f0719792aea3ec2fd2211704b8639b72bea5bafa9d48b876"
+      },
+      {
+        "path": "cache/evidence/highlights__row0072_KXEDUCUTS_623a11191b37.json",
+        "bytes": 22196,
+        "sha256": "72ac5026bef84711295f0916d351b2c007fc3d5a9cea0f214729b9020803e900"
+      },
+      {
+        "path": "cache/evidence/highlights__row0072_KXMAYORCHAR_388a40e93749.json",
+        "bytes": 18753,
+        "sha256": "232f30fd2d09ebd0da69229973281fc5be771098127eaecf13f1c0e7622ecaf9"
+      },
+      {
+        "path": "cache/evidence/highlights__row0072_KXMAYORMINN_d78462116e2e.json",
+        "bytes": 19360,
+        "sha256": "51265cad2ab62033bc42da877b12f58b0f65803f08d094dcf09adf665f53a7d5"
+      },
+      {
+        "path": "cache/evidence/highlights__row0073_KXAUSSEATSGREENS_b21fac28af1a.json",
+        "bytes": 17162,
+        "sha256": "14e33fd16f698efa9e4fc59cfb12c1acb4df69537272f788309f7cda49ad42b9"
+      },
+      {
+        "path": "cache/evidence/highlights__row0073_KXGTA6_950371cbabb6.json",
+        "bytes": 19870,
+        "sha256": "555483d9f3d74741a17b0566ac4faee789b1f8652af7275112b8b8fd9a8a2ada"
+      },
+      {
+        "path": "cache/evidence/highlights__row0073_KXKOREABAN_7f4227281e41.json",
+        "bytes": 18848,
+        "sha256": "a57364f94d6dcbbde186d88efd650652fc6d1bba2c0294388aaf50323dc8c27d"
+      },
+      {
+        "path": "cache/evidence/highlights__row0073_KXSEXYMAN_008cbddc34a7.json",
+        "bytes": 20398,
+        "sha256": "212fbe627c5afe02bc7cfe80fa3d3dba18bb813755d2207b4f3548883478dc2a"
+      },
+      {
+        "path": "cache/evidence/highlights__row0074_KXCDASEATS_38af99b0c76b.json",
+        "bytes": 20829,
+        "sha256": "d378bb229f675031b6fc76ca8635c5fe39c988c40600a764d0d9797d8d9aa9fe"
+      },
+      {
+        "path": "cache/evidence/highlights__row0074_KXMRBEASTVIDEOLENGTH_1fa7a058e646.json",
+        "bytes": 18086,
+        "sha256": "6bb836eb7b2a810851d7789c58638a7d5618a15eb365631460bf93bcbc90214a"
+      },
+      {
+        "path": "cache/evidence/highlights__row0074_KXTOPSONGRECORDGOLDEN_bc90b5d0955b.json",
+        "bytes": 17926,
+        "sha256": "5ad569e4d6a584693ff32b662e6fe8a9fde50523bcb075a590982ded4b2d5afa"
+      },
+      {
+        "path": "cache/evidence/highlights__row0074_KXTRUMPSETTLECBS_8f9fd8c5c0c4.json",
+        "bytes": 20014,
+        "sha256": "e20c99283b42be1df0e1d3fc8ec98c49c8a4bb69917bec94bab05a196c59804b"
+      },
+      {
+        "path": "cache/evidence/highlights__row0075_KXEARNINGSMENTIONCRWV_550ad687efe4.json",
+        "bytes": 22803,
+        "sha256": "ed0a8292e8fe1ee92877f2f6745309716d76ef499dc385f4df9d86d6d54704df"
+      },
+      {
+        "path": "cache/evidence/highlights__row0075_KXFDVMET_3ab8f93c9b41.json",
+        "bytes": 15845,
+        "sha256": "807e0df542bf95bb83acce2f3a6971ddab6a5083822950e680d2858ee8f577d0"
+      },
+      {
+        "path": "cache/evidence/highlights__row0075_KXGRAMMYNOMCOUNTKL_e08e3add6100.json",
+        "bytes": 21079,
+        "sha256": "411e16ef1f9c202b1d4c33332a0fff6d54ce7919be8c5a3a73495036dac5f4bb"
+      },
+      {
+        "path": "cache/evidence/highlights__row0075_KXTOPSONGRECORDMANCHILD_0c8983c93017.json",
+        "bytes": 23043,
+        "sha256": "3b67e0baaf231015815291bbdefdff4fb05ca0aa9bf325a057c088a4fb9a8c00"
+      },
+      {
+        "path": "cache/evidence/highlights__row0076_KXCANRESIGNCOUNT_098a2c7265b1.json",
+        "bytes": 23004,
+        "sha256": "3916b72d144bc50d740d5740ffa01e9438d3a8886a9599cb62fc328e9924cbe4"
+      },
+      {
+        "path": "cache/evidence/highlights__row0076_KXCOACHELLA_4aba742b5d0b.json",
+        "bytes": 22385,
+        "sha256": "ed12c4cf1fa6aec032b870ff4b66bd1c05c277872c9afa241fdb227914b5132d"
+      },
+      {
+        "path": "cache/evidence/highlights__row0076_KXCS2MAP_de43684ea908.json",
+        "bytes": 18663,
+        "sha256": "8fef27a215677be2dd82c34abdbf318d0b525e6f1a2bc18d84789b3a44de6c30"
+      },
+      {
+        "path": "cache/evidence/highlights__row0076_KXFERT_9265feaf40db.json",
+        "bytes": 18830,
+        "sha256": "ba2bd6d2d3922786a2d9b4731aed6c3294bd18859a4c82acce1a91b366a17cc7"
+      },
+      {
+        "path": "cache/evidence/highlights__row0077_KXEPLSPREAD_60c663d4c4be.json",
+        "bytes": 16604,
+        "sha256": "c53e880f90372cb2cca7d5ab3ce646857e23e8bea36ac37a4569b054b506691b"
+      },
+      {
+        "path": "cache/evidence/highlights__row0077_KXJONJONESRETIREMENT_5d7664e9dae9.json",
+        "bytes": 21903,
+        "sha256": "4adf2d55818e04b870990f9d656c2ad89d03a284d223d75c574f82dc7762e577"
+      },
+      {
+        "path": "cache/evidence/highlights__row0077_KXMAYORDETROIT_fad63f556b16.json",
+        "bytes": 17863,
+        "sha256": "063fdb3dc7c010f38f90b7ba00da8cab7a489eb73ca31a3a4b87ceb797dfaebf"
+      },
+      {
+        "path": "cache/evidence/highlights__row0077_KXSUPERLIGGAME_e6028cc89548.json",
+        "bytes": 17211,
+        "sha256": "d68c6bb49fdfd4c899a5eb11ef9101868a0c1caed6dc0c4c0adc9e85295d95f1"
+      },
+      {
+        "path": "cache/evidence/highlights__row0078_KXBLSCOMMISSIONER_9da8ae92a2ec.json",
+        "bytes": 18557,
+        "sha256": "797a8632d4124e8f4d6817eeb0995721e3c61d368d7a43cf159f016e81aa294d"
+      },
+      {
+        "path": "cache/evidence/highlights__row0078_KXEOWEEK_eaa59bdb024f.json",
+        "bytes": 19258,
+        "sha256": "24924f53401b6b08409a427b6f2213e56fa45a633fb66d10bc5e09ec5a23fb71"
+      },
+      {
+        "path": "cache/evidence/highlights__row0078_KXGPTFEES_b663b82abdef.json",
+        "bytes": 21873,
+        "sha256": "2c0e069743b1cb0afd46fc9bc5ac108d9b46db1068dfdd7645dc5a2a86b947ac"
+      },
+      {
+        "path": "cache/evidence/highlights__row0078_KXNYCCOUNCIL1_c9e87b35b1cf.json",
+        "bytes": 18786,
+        "sha256": "054641cb8f61c91e4318168ad2fcfc5ff40503bd2f1bbd9f55a6803373119c0c"
+      },
+      {
+        "path": "cache/evidence/highlights__row0079_KXCREDITRATING_50e296c7b110.json",
+        "bytes": 23217,
+        "sha256": "a4177513b6d77da06369d93918bdc137c200cda36286d1c18f8bee04386ab09b"
+      },
+      {
+        "path": "cache/evidence/highlights__row0079_KXEDUCUTS_78fe8ee92822.json",
+        "bytes": 22196,
+        "sha256": "204f4327535973f460c867bf4b14747f42a42e2e49d05f6f7953d375464517b8"
+      },
+      {
+        "path": "cache/evidence/highlights__row0079_KXMIRAGE_6850e11055f3.json",
+        "bytes": 21644,
+        "sha256": "36e9514fdaffc3c8055d2f907de7e8f3bf17f32c2096b8257aaef8a5312fcb26"
+      },
+      {
+        "path": "cache/evidence/highlights__row0079_KXTRUMPNOMMAX_6ec7c4b2a3a3.json",
+        "bytes": 21424,
+        "sha256": "a53bbabacaf546d0692d1aa80376188f6f405ab551b1dc236eb465eb9a1981ee"
+      },
+      {
+        "path": "cache/evidence/highlights__row0080_KXADMINNASA_83d7c59ffe0e.json",
+        "bytes": 22289,
+        "sha256": "f222ce39fb01f4eae76bdf663efa6a23b4e44ab98429717d7e83bfb9782f81d8"
+      },
+      {
+        "path": "cache/evidence/highlights__row0080_KXENDOWMENT_0e02e4b861dc.json",
+        "bytes": 21321,
+        "sha256": "52408b9a5c60d498a2fa1875ae372c431e65b7740ca8d1fe302adc3f339e804e"
+      },
+      {
+        "path": "cache/evidence/highlights__row0080_KXEUROLEAGUEGAME_61335a3b9abc.json",
+        "bytes": 17304,
+        "sha256": "31554c7d03a519cd8617d26d58fe92debb169ec58851734e2cfbb7de871fb241"
+      },
+      {
+        "path": "cache/evidence/highlights__row0080_KXFLIGHTLAX_ba723bdb11ca.json",
+        "bytes": 21623,
+        "sha256": "aadb0762c921a3f3f25eba147b5b65b3b4287f144905fe60b9599279df2bf391"
+      },
+      {
+        "path": "cache/evidence/highlights__row0081_KXAIRDROPHYPE_deedf488f490.json",
+        "bytes": 19927,
+        "sha256": "1678ee0cc44acc0d48ae8f79d4edcb43db1efc3b1b3fdb3744286e5be8e58401"
+      },
+      {
+        "path": "cache/evidence/highlights__row0081_KXLIGAMXGAME_d869bb288e1a.json",
+        "bytes": 19386,
+        "sha256": "1e655b43eeda3c2016a4109696678026b718162659d37c97703219de5fb1ab89"
+      },
+      {
+        "path": "cache/evidence/highlights__row0081_KXNEWVIDEODOBRIK_7b20bd703169.json",
+        "bytes": 18964,
+        "sha256": "0fcb0faaa26704a4a9a24c50cd2ed888169dbcd2375ed30fb13edfd7df75dfdb"
+      },
+      {
+        "path": "cache/evidence/highlights__row0081_KXRECBASELINE_e18157888cce.json",
+        "bytes": 24130,
+        "sha256": "47d6a3adfad4898b858c45f1b23255f16cc094c7d1f70961ce6705c1e7df34d3"
+      },
+      {
+        "path": "cache/evidence/highlights__row0082_KXDUTCHGAIN_ced502d243a2.json",
+        "bytes": 20680,
+        "sha256": "d3411a6e42785dadf432c1da4daa5740ecd86a7fb59b95099dd01f6756a8fd32"
+      },
+      {
+        "path": "cache/evidence/highlights__row0082_KXGAMERELEASE_3ba393c7e0df.json",
+        "bytes": 21606,
+        "sha256": "de888fe5a6679c7fe766f1ad53a390ca881e8de04bc20d6e16191b82cf2d097e"
+      },
+      {
+        "path": "cache/evidence/highlights__row0082_KXMEDICAIDCUTS_2ab1eb012fb9.json",
+        "bytes": 23736,
+        "sha256": "2239a6c3efdb72c421876b51ab33c7510d39d70069ee70a7641138f9013a32a3"
+      },
+      {
+        "path": "cache/evidence/highlights__row0082_KXNFLWINS-JAC_01d6aa65cbde.json",
+        "bytes": 20202,
+        "sha256": "b83cbe11ae79124d075d403944c05b88c8fd975e1913d3c0e9c78bb6590261e9"
+      },
+      {
+        "path": "cache/evidence/highlights__row0083_KXCSGOGAME_3376e7c6e487.json",
+        "bytes": 14512,
+        "sha256": "4c151ac94d4b396147932a7348651da1ebaad35fdda6adebec90c5261ab23a57"
+      },
+      {
+        "path": "cache/evidence/highlights__row0083_KXDEDUCT_3d142ac5ce56.json",
+        "bytes": 22449,
+        "sha256": "1eedc5a66f55606e96e96270b9032ff846191d7e1f0f02839374c736a04207d0"
+      },
+      {
+        "path": "cache/evidence/highlights__row0083_KXKLEAGUEGAME_9dcf5313c48f.json",
+        "bytes": 15108,
+        "sha256": "f698fbd9229145bc139b16ddcd0437c3bde49de29927b4cb8e4c6d522761dd9c"
+      },
+      {
+        "path": "cache/evidence/highlights__row0083_KXNEXTJPNPM_6cf7752ddd34.json",
+        "bytes": 21252,
+        "sha256": "6be734b9d55c8ee95cfea2c40a9155e47cdd11b24b96706016e9b95199876b4d"
+      },
+      {
+        "path": "cache/evidence/highlights__row0084_KXEPSTEINLIST_1a005e745c50.json",
+        "bytes": 22442,
+        "sha256": "adc89548013693bb406b733e57b43a589fe202fc7476735779dacafbe54d6c41"
+      },
+      {
+        "path": "cache/evidence/highlights__row0084_KXIRELANDPRES_91a83055d1e7.json",
+        "bytes": 20354,
+        "sha256": "09ea6f5dd4fc64a8223ee8ae40fea1e453820a7d8c0a517de115af6cbac68a63"
+      },
+      {
+        "path": "cache/evidence/highlights__row0084_KXMISSUSA_d45bf8502008.json",
+        "bytes": 22161,
+        "sha256": "a5fc139d0d4703d73f5a1bf6945af1db1a14214df8a17c810694b1ee9c95aa57"
+      },
+      {
+        "path": "cache/evidence/highlights__row0084_KXNCAAMBSPREAD_bb2058cd4828.json",
+        "bytes": 15985,
+        "sha256": "c96d5989f8acb0caf4d1ddf2f60670ee7ea340cec23254e9ec79835a5e0d6ddc"
+      },
+      {
+        "path": "cache/evidence/highlights__row0085_KXBALLONDOR_b618ee1fe801.json",
+        "bytes": 20976,
+        "sha256": "5116aeee29b3f5bbf80e0e564171ffd46fb3bcb08dedd9216acd70494d94aa08"
+      },
+      {
+        "path": "cache/evidence/highlights__row0085_KXNBASPREAD_c7e16319e6ef.json",
+        "bytes": 15385,
+        "sha256": "5413eba14b8ba965c8f9c024c1687a8d4780d03cf3e14ed60794ad93d7f0a311"
+      },
+      {
+        "path": "cache/evidence/highlights__row0085_KXNEXTCOINRH_6a68be901850.json",
+        "bytes": 18231,
+        "sha256": "3530156f61922430602769fd6f8a439041fbb3cfa7c7d44b0c4361b20de00b5f"
+      },
+      {
+        "path": "cache/evidence/highlights__row0085_KXNFLMENTION_5b114af005cd.json",
+        "bytes": 23552,
+        "sha256": "fc4b9e42140537212f4c6fb2ed51eb82a0e171709f069e8b4d7c5ef642d8980a"
+      },
+      {
+        "path": "cache/evidence/highlights__row0086_KXCOMPANYACTIONYOUTUBE_20d104323689.json",
+        "bytes": 23238,
+        "sha256": "a34efeac77f655cac7a8c9862906cb1129ae58397f2ef1a48f3714acee61b3c0"
+      },
+      {
+        "path": "cache/evidence/highlights__row0086_KXLALIGAGAME_740651317186.json",
+        "bytes": 19966,
+        "sha256": "e767b1f0cadf421e49efd4056c393da217c39f952baf2999af74eb91acdd8333"
+      },
+      {
+        "path": "cache/evidence/highlights__row0086_KXMIRANMENTION_90112d773db2.json",
+        "bytes": 17827,
+        "sha256": "e8f2c0b13ef239ca8addebdf508f8a12c18dd328c526f211f9a3081bfa9d1801"
+      },
+      {
+        "path": "cache/evidence/highlights__row0086_KXNEWSOMMENTION_3faf7007868a.json",
+        "bytes": 24193,
+        "sha256": "2a9313f0056dede1e195229f532522125594a87301b7cc6af890fa337cefe3f2"
+      },
+      {
+        "path": "cache/evidence/highlights__row0087_KXHIGHAUS_2223962f9a51.json",
+        "bytes": 17350,
+        "sha256": "96c163eb5788902d6cbfe266fbdcf812b802a3331dec24213f6913b6441984ac"
+      },
+      {
+        "path": "cache/evidence/highlights__row0087_KXIPODISCORD_5d58b199e0b1.json",
+        "bytes": 19000,
+        "sha256": "7c7483d2e66356f55a4405d67b197dda5a29ee0a37e938f742735ae8922d8a29"
+      },
+      {
+        "path": "cache/evidence/highlights__row0087_KXRWAMCAPAVAX_20ec2ab944a0.json",
+        "bytes": 18616,
+        "sha256": "3040429bb7386fe659bc9f14342aa8f0d15240f8ccfa8f3edc03372c5184c673"
+      },
+      {
+        "path": "cache/evidence/highlights__row0087_KXUSAMBBAHAMAS_ecf549ace0ac.json",
+        "bytes": 19476,
+        "sha256": "6f754f5cd9a172639110f105ddb42bb615ec739e9b759d9f9eedfa2bc1502716"
+      },
+      {
+        "path": "cache/evidence/highlights__row0088_KXCOMPANYBOARDOPENDOOR_f6ab994ebe27.json",
+        "bytes": 18732,
+        "sha256": "22ccb3f85ddffac0dc204227997d24316c2469da9d6f4001d755e2c9d58244d5"
+      },
+      {
+        "path": "cache/evidence/highlights__row0088_KXG7LEADEROUT_e6853aa56ecd.json",
+        "bytes": 21743,
+        "sha256": "59b1964268257546c88a7cf4ad19002b8ea4d3bafb9ade3abd8d41063b415ac7"
+      },
+      {
+        "path": "cache/evidence/highlights__row0088_KXSPOTIFYALBUMRELEASEDATEKANYE_097775d445b6.json",
+        "bytes": 18891,
+        "sha256": "e6fb24d3806f13ffc573165e3dd716c25dd8f01287b3e2ae780939643dd0e0a8"
+      },
+      {
+        "path": "cache/evidence/highlights__row0088_KXUFCFIGHT_76b53003562a.json",
+        "bytes": 20402,
+        "sha256": "04e18bd16e09497e835aabaf472a8c6a2e981e41ec5f3a6a7eb533c5f0eb7760"
+      },
+      {
+        "path": "cache/evidence/highlights__row0089_KXJUULFLAVOR_787eb7545f82.json",
+        "bytes": 16648,
+        "sha256": "b180d14b7b7e365f317f077531f19d4a920bfb35e3b553b2d3f46f9cc03590b9"
+      },
+      {
+        "path": "cache/evidence/highlights__row0089_KXNFLWINS-BUF_8aa3c3c27ed3.json",
+        "bytes": 19884,
+        "sha256": "0ac81f1f119c21389d26d44312f4e37711d71d4e7195b791accc23de5f1f6c7a"
+      },
+      {
+        "path": "cache/evidence/highlights__row0089_KXSNLHOST_ddc2b51a4839.json",
+        "bytes": 16950,
+        "sha256": "b694786a0310bf8597ede5eee83dcb9f0a2571c282262e7fcd77257dcb287afe"
+      },
+      {
+        "path": "cache/evidence/highlights__row0089_KXVOTESHUTDOWNH_92687a213e2d.json",
+        "bytes": 22368,
+        "sha256": "744ae0db0a2e06f6920efc5955616cb8ea02d953e9895486d5e6214bef737f85"
+      },
+      {
+        "path": "cache/evidence/highlights__row0090_KXBALLONDOR_f0a332f95271.json",
+        "bytes": 21126,
+        "sha256": "3b14cc43d7316fd9eb45297c76831114bf4c21ea8cb6a21af59a193f3d10d2ad"
+      },
+      {
+        "path": "cache/evidence/highlights__row0090_KXFERTILITYSK_d26148e83a9d.json",
+        "bytes": 22442,
+        "sha256": "36b0bd4b7d37abd9086f70df62be7cef2ae941af7ac6bd60a450ea75807c4b0b"
+      },
+      {
+        "path": "cache/evidence/highlights__row0090_KXNCAAMBTOTAL_9d9a252d012f.json",
+        "bytes": 16695,
+        "sha256": "e2bdf5f282d203cd47846378c6819a62a7de1ecb82dff19b68b01cddbf9b21ac"
+      },
+      {
+        "path": "cache/evidence/highlights__row0090_KXUSAMBSWISS_62e8ca3a6a70.json",
+        "bytes": 17676,
+        "sha256": "2f64e81b5c3028466fffc8e56c37aed6404fc709536d750c9b41352967573e83"
+      },
+      {
+        "path": "cache/evidence/highlights__row0091_KXDUTCHSECOND_59740d5994c6.json",
+        "bytes": 22685,
+        "sha256": "c579996569f63fe401e18ab9e0f15fcfc2217cd0e432c9ea2e9cbaa9ad9a7532"
+      },
+      {
+        "path": "cache/evidence/highlights__row0091_KXEARNINGSMENTIONRKLB_29440129226b.json",
+        "bytes": 20856,
+        "sha256": "6019c81f69d1acaf0535691b3292baa67047461053da07fc71d7414b3d7ff6a6"
+      },
+      {
+        "path": "cache/evidence/highlights__row0091_KXELECTCONCEDE_a49196c94ba9.json",
+        "bytes": 23126,
+        "sha256": "a77960bbef826636cc903a1ce429491b91cfec53791bd2858adc88cb1c5a6520"
+      },
+      {
+        "path": "cache/evidence/highlights__row0091_KXNEURALINKCOUNT_e0b547cb7729.json",
+        "bytes": 19259,
+        "sha256": "f62e9fa6d2ace017875d9daf94ffdd9d6660b9c0d4936a67bff76a86e6ed6cf3"
+      },
+      {
+        "path": "cache/evidence/highlights__row0092_KXEARNINGSMENTIONAMD_d46ac6c98e51.json",
+        "bytes": 21242,
+        "sha256": "584882b1df3171272760ce11b6ff5b26cf2a20a29a31d25da6a517667858e853"
+      },
+      {
+        "path": "cache/evidence/highlights__row0092_KXMARIOKART9_a1fa0f19a925.json",
+        "bytes": 19107,
+        "sha256": "5eebb709a548ceef5bee3e409bb283dc8d828635ce4822048cf0173770c49611"
+      },
+      {
+        "path": "cache/evidence/highlights__row0092_KXROLLINGLOUD_a756f67dbfb2.json",
+        "bytes": 18736,
+        "sha256": "3812f5af338cd710f924609ba350492851db0a4afb3e618117b911a046666280"
+      },
+      {
+        "path": "cache/evidence/highlights__row0092_KXTOPALBUMMORGANWALLEN_6757bf0491fa.json",
+        "bytes": 18616,
+        "sha256": "661fb5b940437548433a3673ad646da8e986fe9a162b7955b1314145dffb8de9"
+      },
+      {
+        "path": "cache/evidence/highlights__row0093_KXIEMCHEN_adb9901b49a3.json",
+        "bytes": 17954,
+        "sha256": "c43f3b0d6c42222dd698026e1649b58ec9091dedc521cb5cf021667a62710986"
+      },
+      {
+        "path": "cache/evidence/highlights__row0093_KXNFLWINS-KC_42415d9e1772.json",
+        "bytes": 18861,
+        "sha256": "13db8fb601eeb083b2f69caa44d37fbdf77659b506af234181686d1ac5edda1b"
+      },
+      {
+        "path": "cache/evidence/highlights__row0093_KXPARTYWINNL_e5f309f80bc3.json",
+        "bytes": 18588,
+        "sha256": "ee58dcae2742cbb95070245ef6f9648eb98a58835f0b46fa80274d5f75b8975f"
+      },
+      {
+        "path": "cache/evidence/highlights__row0093_KXSAUDIPLGAME_2a7b6462939b.json",
+        "bytes": 16321,
+        "sha256": "9059342e86cdc41883a2c54b1353dd55998dec261ab3b6a9553b2a64e06eee90"
+      },
+      {
+        "path": "cache/evidence/highlights__row0094_KXBILLS_1f3b840a187f.json",
+        "bytes": 23974,
+        "sha256": "9611152c7bd51377fb38bdb665797a277f979ac8eec6e63295dd07d38b3e6d13"
+      },
+      {
+        "path": "cache/evidence/highlights__row0094_KXNGUARDCITY_7a61ef489327.json",
+        "bytes": 20315,
+        "sha256": "6749c3e08220d04ef16b60e2e899fbad0d7fc06ee8777a3103db483623a8d741"
+      },
+      {
+        "path": "cache/evidence/highlights__row0094_KXNORWAYPF_9b20e9c03e42.json",
+        "bytes": 16874,
+        "sha256": "c5308a7754b96b49d161aa1990d06d6ffdb79c4908868a80a5ada4fe281f3c8d"
+      },
+      {
+        "path": "cache/evidence/highlights__row0094_KXROMANIABAN_168753bf1166.json",
+        "bytes": 21719,
+        "sha256": "e181fdd4670e58b0845e5928c302aa9865096177e1fa317775fbe23c4cb2913d"
+      },
+      {
+        "path": "cache/evidence/highlights__row0095_KXDOGEDONE_5267a8dc0a1a.json",
+        "bytes": 21116,
+        "sha256": "41297c201fe53f2319f91806372359f5777a836c674fdc9bf89adb8b2469c6a1"
+      },
+      {
+        "path": "cache/evidence/highlights__row0095_KXINDEXADD_0a8af8a72381.json",
+        "bytes": 18963,
+        "sha256": "d4586cc67c32d5dc87caeba6d5173a3d86aa86298592175e332974e756066507"
+      },
+      {
+        "path": "cache/evidence/highlights__row0095_KXTOPALBUMRECORDMBF_8d2e0160ac65.json",
+        "bytes": 21547,
+        "sha256": "19f144c75a08017990d1a84f46d8c478102ed5b39a996d3c0f2e8dea4c54947d"
+      },
+      {
+        "path": "cache/evidence/highlights__row0095_KXXRPD_b07ddc38287b.json",
+        "bytes": 17588,
+        "sha256": "0cc250d921b35f6a1dbb22d357c5acd96848cd4f5edb14485d684900a78dd36e"
+      },
+      {
+        "path": "cache/evidence/highlights__row0096_KXEURUSDH_fea347316b25.json",
+        "bytes": 21734,
+        "sha256": "80baf512a8cba3a985c587159a68adb10eca449b30bc40d93c06e118b409319e"
+      },
+      {
+        "path": "cache/evidence/highlights__row0096_KXHURCTOT_ee22da6589eb.json",
+        "bytes": 21252,
+        "sha256": "3860e552b61b1561f8975a17e55cf51e40ed73aaeedb5ac979ac6b9c0685df1e"
+      },
+      {
+        "path": "cache/evidence/highlights__row0096_KXMRBEAST100M_efcd78a47696.json",
+        "bytes": 18578,
+        "sha256": "e85d05686eefc8b273374f4c3b2e4f5f2b58423f4635f86fb924b2f00e1ae486"
+      },
+      {
+        "path": "cache/evidence/highlights__row0096_KXSHIBA_591779b2c95a.json",
+        "bytes": 20618,
+        "sha256": "2354fd2af85847478e32da75dcef6c3d65863158ce35dfa87ca03936f628c48c"
+      },
+      {
+        "path": "cache/evidence/highlights__row0097_KX60MINMENTION_7c0bf913a017.json",
+        "bytes": 19966,
+        "sha256": "cc4ebcfce576f4834fc3004a895384775eb10517ea0a720288f5bcb469d8fb53"
+      },
+      {
+        "path": "cache/evidence/highlights__row0097_KXNFLWINS-TB_4a4d82785d26.json",
+        "bytes": 18477,
+        "sha256": "f0ce82c72e9036db26bdf2841d54f0886bd2baf26510658ba10bcfd248398cf4"
+      },
+      {
+        "path": "cache/evidence/highlights__row0097_KXTOPALBUMSTRAYKIDS_1ef504674cc4.json",
+        "bytes": 20558,
+        "sha256": "2c14f7f3ffddcba82298c7499ff7e736037af8cdbc2166d4250e77633f2050b5"
+      },
+      {
+        "path": "cache/evidence/highlights__row0097_KXVSFANTASYBRA_54d02810814a.json",
+        "bytes": 24253,
+        "sha256": "31daa99d89f3a91370d5e9dbc2cdfb04589d2103fe36f4db4359e63c234114f6"
+      },
+      {
+        "path": "cache/evidence/highlights__row0098_KXBESTACTORMUS_ff0dfd5c3328.json",
+        "bytes": 18757,
+        "sha256": "5310fe63cd60cd11fe525f3f154397e2bd6e8fd6485f664c592fa813c1043502"
+      },
+      {
+        "path": "cache/evidence/highlights__row0098_KXIRACUTS_ca3cae653834.json",
+        "bytes": 23423,
+        "sha256": "747ccba4801bc203056084db40cdfa1abf29197393f33a8c4bc5e0fcce6f7451"
+      },
+      {
+        "path": "cache/evidence/highlights__row0098_KXOPENSOURCEOAI_a2422d45cad5.json",
+        "bytes": 20311,
+        "sha256": "487523a848cfa00a1aa8f7c1e79e79421c7e4b5f9a784e3700a9f1839bb76aeb"
+      },
+      {
+        "path": "cache/evidence/highlights__row0098_KXSPOTIFYSONGSOPALITE_0f9b5d9f5185.json",
+        "bytes": 21169,
+        "sha256": "65d3f858db3dfadefe20a07bb3d42053d43cbb9dcd371f2c6749adb4f509ec1a"
+      },
+      {
+        "path": "cache/evidence/highlights__row0099_KXNEWVIDEOOUTDOORBOYS_b5616d064113.json",
+        "bytes": 16466,
+        "sha256": "79064572471dc453c13281e65527182a09c06dd828a900cb40a985a669b5f5b6"
+      },
+      {
+        "path": "cache/evidence/highlights__row0099_KXNFLWINS-DAL_65e639aeaebe.json",
+        "bytes": 21037,
+        "sha256": "15deacf7286b689667cb32284af8948c10c946cf637eb868d3fea63a2c615012"
+      },
+      {
+        "path": "cache/evidence/highlights__row0099_KXNYCCOUNCIL4_ced7a57437fa.json",
+        "bytes": 16683,
+        "sha256": "10b7fe6684c5cb3869905098894cd7d1e5c4036e7dddb6c26b053c7bfa49c784"
+      },
+      {
+        "path": "cache/evidence/highlights__row0099_KXREPSWORNIN_2cf847607d58.json",
+        "bytes": 19986,
+        "sha256": "8ebc4187e769b7b60f31b442ab5fa4ad897918bf962d49e636a5b44020ad1d2f"
+      },
+      {
+        "path": "cache/evidence/highlights__row0100_KXBILLBOARDRUNNERUPSONG_02da520c2699.json",
+        "bytes": 17206,
+        "sha256": "8a79f3e228071dd76b660c3d31fceb67c6e1b0d63a37f8edd05e57e0d3d2a62f"
+      },
+      {
+        "path": "cache/evidence/highlights__row0100_KXFOXONE_478d37a179c5.json",
+        "bytes": 20544,
+        "sha256": "a401d926b2701485dd0363223b17c4a244a9253cf8313744f8bf41c64af94de2"
+      },
+      {
+        "path": "cache/evidence/highlights__row0100_KXSPOTIFY4BILLION_482dd31caa8a.json",
+        "bytes": 21636,
+        "sha256": "aed15e8b1335606040c25359ed0d3e61203026d37b6aa9c4f9afda311f1e6576"
+      },
+      {
+        "path": "cache/evidence/highlights__row0100_KXSWIFTMENTION_7bc9a506085e.json",
+        "bytes": 20278,
+        "sha256": "29f7faf26bf1b24e09dd5be5e6157f6fdbcd26d31c2190b1ff53f7e738d94e12"
+      }
+    ]
+  },
+  "sha256": {
+    "results/Final_Architecture_A_results.csv": "a71c28d1233f5f029322740e761f929782c4a00febc23bf7220892ceb4a0e7cf",
+    "results/Final_Architecture_B_results.csv": "e1900cc73b6663ad9bffd7c4a99c0892f7cc2093bdb28b22a5b9d5e94c18943d",
+    "audit/high_confidence_unanimous_errors.csv": "bd8ae6a5f065150f261a7ebdda0b0585913bff9161be56d90ce4729d5933df37"
+  },
+  "architectures": {
+    "A": {
+      "rows": 1189,
+      "unique_row_uid": 1188,
+      "retrieval_modes": {
+        "highlights": 1189
+      },
+      "expected_filename_exists": 450,
+      "expected_filename_and_normalized_identity_match": 450,
+      "expected_filename_but_identity_mismatch": 0,
+      "any_packet_normalized_identity_match": 465,
+      "any_packet_same_question_id_only": 691
+    },
+    "B": {
+      "rows": 1189,
+      "unique_row_uid": 1189,
+      "retrieval_modes": {
+        "highlights": 1189
+      },
+      "expected_filename_exists": 100,
+      "expected_filename_and_normalized_identity_match": 100,
+      "expected_filename_but_identity_mismatch": 0,
+      "any_packet_normalized_identity_match": 432,
+      "any_packet_same_question_id_only": 691
+    }
+  },
+  "cross_architecture_unique_row_uid": {
+    "intersection": 839,
+    "all_expected_cache_files_exist_for_both": 100,
+    "same_expected_cache_and_all_normalized_identities_match": 100,
+    "duplicate_uid_handling": "Every A/B row with a shared UID must satisfy the condition; no keep-first join"
+  },
+  "high_confidence_unanimous_errors": {
+    "rows": 12,
+    "any_packet_normalized_identity_match": 8,
+    "expected_filename_and_normalized_identity_match": 8,
+    "manual_cause_analysis_performed": false,
+    "candidates": [
+      {
+        "row_uid": "row0021_KXNFLFIRSTTD_1e0967a0b1cd",
+        "question_id": "KXNFLFIRSTTD",
+        "expected_cache_filename": "highlights__row0021_KXNFLFIRSTTD_1e0967a0b1cd.json",
+        "semantic_candidate_filenames": [
+          "highlights__row0021_KXNFLFIRSTTD_1e0967a0b1cd.json"
+        ]
+      },
+      {
+        "row_uid": "row0014_KXDEBTSHRINK_53d153791b97",
+        "question_id": "KXDEBTSHRINK",
+        "expected_cache_filename": "highlights__row0014_KXDEBTSHRINK_53d153791b97.json",
+        "semantic_candidate_filenames": [
+          "highlights__row0014_KXDEBTSHRINK_53d153791b97.json"
+        ]
+      },
+      {
+        "row_uid": "row0071_KXTARIFFPHARMA_1967e384c49f",
+        "question_id": "KXTARIFFPHARMA",
+        "expected_cache_filename": "highlights__row0071_KXTARIFFPHARMA_1967e384c49f.json",
+        "semantic_candidate_filenames": [
+          "highlights__row0071_KXTARIFFPHARMA_1967e384c49f.json"
+        ]
+      },
+      {
+        "row_uid": "row0059_KXBIDENMENTION_ead727190da2",
+        "question_id": "KXBIDENMENTION",
+        "expected_cache_filename": "highlights__row0059_KXBIDENMENTION_ead727190da2.json",
+        "semantic_candidate_filenames": [
+          "highlights__row0059_KXBIDENMENTION_ead727190da2.json"
+        ]
+      },
+      {
+        "row_uid": "row0069_KXFLIGHTJFK_dad62952dba6",
+        "question_id": "KXFLIGHTJFK",
+        "expected_cache_filename": "highlights__row0069_KXFLIGHTJFK_dad62952dba6.json",
+        "semantic_candidate_filenames": [
+          "highlights__row0069_KXFLIGHTJFK_dad62952dba6.json"
+        ]
+      },
+      {
+        "row_uid": "row0098_KXOPENSOURCEOAI_a2422d45cad5",
+        "question_id": "KXOPENSOURCEOAI",
+        "expected_cache_filename": "highlights__row0098_KXOPENSOURCEOAI_a2422d45cad5.json",
+        "semantic_candidate_filenames": [
+          "highlights__row0098_KXOPENSOURCEOAI_a2422d45cad5.json"
+        ]
+      },
+      {
+        "row_uid": "row0039_KXZIWEMENTION_30235d843c55",
+        "question_id": "KXZIWEMENTION",
+        "expected_cache_filename": "highlights__row0039_KXZIWEMENTION_30235d843c55.json",
+        "semantic_candidate_filenames": [
+          "highlights__row0039_KXZIWEMENTION_30235d843c55.json"
+        ]
+      },
+      {
+        "row_uid": "row0025_KXSWIFTMENTION_f17a0c1a9907",
+        "question_id": "KXSWIFTMENTION",
+        "expected_cache_filename": "highlights__row0025_KXSWIFTMENTION_f17a0c1a9907.json",
+        "semantic_candidate_filenames": [
+          "highlights__row0025_KXSWIFTMENTION_f17a0c1a9907.json",
+          "highlights__row0100_KXSWIFTMENTION_7bc9a506085e.json"
+        ]
+      },
+      {
+        "row_uid": "row0566_KXAIRDROPMONAD_3c932b920fe2",
+        "question_id": "KXAIRDROPMONAD",
+        "expected_cache_filename": "highlights__row0566_KXAIRDROPMONAD_3c932b920fe2.json",
+        "semantic_candidate_filenames": []
+      },
+      {
+        "row_uid": "row0720_KXLYRICNEWSWIFT_b5759c17adbd",
+        "question_id": "KXLYRICNEWSWIFT",
+        "expected_cache_filename": "highlights__row0720_KXLYRICNEWSWIFT_b5759c17adbd.json",
+        "semantic_candidate_filenames": []
+      },
+      {
+        "row_uid": "row1076_KXNETFLIXRANKSHOW_86748f9c64a5",
+        "question_id": "KXNETFLIXRANKSHOW",
+        "expected_cache_filename": "highlights__row1076_KXNETFLIXRANKSHOW_86748f9c64a5.json",
+        "semantic_candidate_filenames": []
+      },
+      {
+        "row_uid": "row1135_KXHEGSETHMENTION_faf116fc3485",
+        "question_id": "KXHEGSETHMENTION",
+        "expected_cache_filename": "highlights__row1135_KXHEGSETHMENTION_faf116fc3485.json",
+        "semantic_candidate_filenames": []
+      }
+    ]
+  }
+}

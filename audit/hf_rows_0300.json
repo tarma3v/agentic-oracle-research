@@ -1,0 +1,1581 @@
+{
+  "features": [
+    {
+      "feature_idx": 0,
+      "name": "id",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 1,
+      "name": "question",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 2,
+      "name": "description",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 3,
+      "name": "category",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 4,
+      "name": "close_time",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 5,
+      "name": "ground_truth",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 6,
+      "name": "market_probability",
+      "type": {
+        "dtype": "null",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 7,
+      "name": "series_ticker",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 8,
+      "name": "source",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "row_idx": 300,
+      "row": {
+        "id": "KXAMERICAPROFIT",
+        "question": "Will America profit in any month of 2025?",
+        "description": "If the Monthly Treasury Statement (MTS) reports a surplus for any month in 2025, then the market resolves to Yes.\nThe month surplus can be found in the column labeled \"Current Month Deficit Surplus Amount\" in the the table \"Summary of Receipts, Outlays, and Surplus or Deficit” in the MTS (see: https://fiscaldata.treasury.gov/datasets/monthly-treasury-statement/summary-of-receipts-outlays-and-the-deficit-surplus-of-the-u-s-government).",
+        "category": "Economics",
+        "close_time": "2025-05-21T13:18:02.777381Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXAMERICAPROFIT",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 301,
+      "row": {
+        "id": "KXNEXTCOACHOUTNFL",
+        "question": "Who will be the next coach out in NFL?",
+        "description": "If the head coach of Washington leaves (or announces they will leave) before any other head coach after 3:00 PM Oct 13, 2025 and before Feb 8, 2026, then the market resolves to Yes.\nInterim/temporary coaches are not considered for the purposes of this market.",
+        "category": "Sports",
+        "close_time": "2025-11-10T18:37:21.399099Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNEXTCOACHOUTNFL",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 302,
+      "row": {
+        "id": "KXNEXTCOACHOUTNFL",
+        "question": "Who will be the next coach out in NFL?",
+        "description": "If the head coach of Tampa Bay leaves (or announces they will leave) before any other head coach after 3:00 PM Oct 13, 2025 and before Feb 8, 2026, then the market resolves to Yes.\nInterim/temporary coaches are not considered for the purposes of this market.",
+        "category": "Sports",
+        "close_time": "2025-11-10T18:37:21.399099Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNEXTCOACHOUTNFL",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 303,
+      "row": {
+        "id": "KXSTARSHIPLAUNCH",
+        "question": "At the next SpaceX Starship launch, will The Starship has a successful splash down occur?",
+        "description": "If, at the next SpaceX Starship launch after Feb 12, 2025 and before Feb 1, 2026, The Starship has a successful splash down occurs, then the market resolves to Yes.",
+        "category": "Science and Technology",
+        "close_time": "2025-03-07T16:12:19.06773Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXSTARSHIPLAUNCH",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 304,
+      "row": {
+        "id": "KXSTARSHIPLAUNCH",
+        "question": "At the next SpaceX Starship launch, will The Starship reaches space occur?",
+        "description": "If, at the next SpaceX Starship launch after Feb 12, 2025 and before Feb 1, 2026, The Starship reaches space occurs, then the market resolves to Yes.",
+        "category": "Science and Technology",
+        "close_time": "2025-03-07T16:12:32.080287Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXSTARSHIPLAUNCH",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 305,
+      "row": {
+        "id": "KXFEDEMPLOYEES",
+        "question": "Will there be more than 50000 government employees cut before Jan 2026?",
+        "description": "If there are more than 50,000 federal employees no longer working, relative to the January 2025 employee count before January 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-06-09T14:33:31.78457Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXFEDEMPLOYEES",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 306,
+      "row": {
+        "id": "KXEVENTTIMES",
+        "question": "How many pro football games will Taylor Swift attend this season?",
+        "description": "If Taylor Swift attends at least 4 regular season pro football games in the 2025-26 pro men's football season, then the market resolves to Yes.\nThis market does not encompass playoff games in the 2025-26 pro men's football season.",
+        "category": "Sports",
+        "close_time": "2025-10-14T18:48:56.09953Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXEVENTTIMES",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 307,
+      "row": {
+        "id": "KXEVENTTIMES",
+        "question": "How many pro football games will Taylor Swift attend this season?",
+        "description": "If Taylor Swift attends at least 2 regular season pro football games in the 2025-26 pro men's football season, then the market resolves to Yes.\nThis market does not encompass playoff games in the 2025-26 pro men's football season.",
+        "category": "Sports",
+        "close_time": "2025-10-03T19:34:51.49982Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXEVENTTIMES",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 308,
+      "row": {
+        "id": "KXAIRDROPMONAD",
+        "question": "Will Monad conduct an airdrop before Oct 1, 2025?",
+        "description": "If Monad conducts an airdrop before Oct 1, 2025, then the market resolves to Yes.\nAn airdrop is defined as the distribution of fungible tokens to multiple wallet addresses where recipients receive tokens without paying the full market value. This includes free distributions requiring only gas fees, distributions requiring donations less than 10% of market value, retroactive rewards, task-based distributions, and phased distributions where initial tokens are received before the deadline. Token sales where recipients pay 10% or more of market value, ICOs, IDOs, employee compensation, liquidity mining rewards, staking rewards, NFTs, non-transferable tokens, and unconverted points do not constitute airdrops. The airdrop must be conducted (tokens actually distributed) before the deadline, not merely announced.",
+        "category": "Crypto",
+        "close_time": "2025-10-01T03:59:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXAIRDROPMONAD",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 309,
+      "row": {
+        "id": "KXAIRDROPMONAD",
+        "question": "Will Monad conduct an airdrop before Nov 1, 2025?",
+        "description": "If Monad conducts an airdrop before Nov 1, 2025, then the market resolves to Yes.\nAn airdrop is defined as the distribution of fungible tokens to multiple wallet addresses where recipients receive tokens without paying the full market value. This includes free distributions requiring only gas fees, distributions requiring donations less than 10% of market value, retroactive rewards, task-based distributions, and phased distributions where initial tokens are received before the deadline. Token sales where recipients pay 10% or more of market value, ICOs, IDOs, employee compensation, liquidity mining rewards, staking rewards, NFTs, non-transferable tokens, and unconverted points do not constitute airdrops. The airdrop must be conducted (tokens actually distributed) before the deadline, not merely announced.",
+        "category": "Crypto",
+        "close_time": "2025-11-01T03:59:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXAIRDROPMONAD",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 310,
+      "row": {
+        "id": "KXUSTESTSREADING",
+        "question": "Will US test scores in Reading decline?",
+        "description": "If US average Reading test scores for eighth graders experienced Significant increase in 2024, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-01-30T18:37:51.382795Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXUSTESTSREADING",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 311,
+      "row": {
+        "id": "KXUSTESTSREADING",
+        "question": "Will US test scores in Reading decline?",
+        "description": "If US average Reading test scores for eighth graders experienced No significant difference in 2024, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-01-30T18:37:51.382795Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXUSTESTSREADING",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 312,
+      "row": {
+        "id": "KXBILATERALMENTION",
+        "question": "What will Trump say during Next Bilateral Meeting with a Foreign Leader in the Oval Office?",
+        "description": "If Trump says Hottest as part of the Next Bilateral Meeting with a Foreign Leader in the Oval Office, then the market resolves to Yes.\nVideo of the Next Bilateral Meeting with a Foreign Leader in the Oval Office will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the Next Bilateral Meeting with a Foreign Leader in the Oval Office will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details. If the event does not occur before Jan 29, 2026, then a strike for the event not occurring will resolve to Yes and all other strikes will resolve to No.",
+        "category": "Politics",
+        "close_time": "2025-08-19T19:35:15.776382Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXBILATERALMENTION",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 313,
+      "row": {
+        "id": "KXBILATERALMENTION",
+        "question": "What will Trump say during Next Bilateral Meeting with a Foreign Leader in the Oval Office?",
+        "description": "If Trump says Withdraw / Withdrawal as part of the Next Bilateral Meeting with a Foreign Leader in the Oval Office, then the market resolves to Yes.\nVideo of the Next Bilateral Meeting with a Foreign Leader in the Oval Office will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the Next Bilateral Meeting with a Foreign Leader in the Oval Office will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details. If the event does not occur before Jan 29, 2026, then a strike for the event not occurring will resolve to Yes and all other strikes will resolve to No.",
+        "category": "Politics",
+        "close_time": "2025-08-19T19:33:49.525585Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXBILATERALMENTION",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 314,
+      "row": {
+        "id": "KXLTGOVVA",
+        "question": "Will the Republican party win the Lt. Gov race in Virginia?",
+        "description": "If a representative of the Republican party is sworn in as the Lieutenant Governor of Virginia for the term beginning in 2026, then the market resolves to Yes.",
+        "category": "Elections",
+        "close_time": "2025-11-07T01:46:35.942843Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXLTGOVVA",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 315,
+      "row": {
+        "id": "KXLTGOVVA",
+        "question": "Will the Democratic party win the Lt. Gov race in Virginia?",
+        "description": "If a representative of the Democratic party is sworn in as the Lieutenant Governor of Virginia for the term beginning in 2026, then the market resolves to Yes.",
+        "category": "Elections",
+        "close_time": "2025-11-07T01:46:35.942843Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXLTGOVVA",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 316,
+      "row": {
+        "id": "KXATTYGENVA",
+        "question": "Will Jason Miyares win the 2025 Virginia attorney general election?",
+        "description": "If a representative of the Republican party is sworn in as the Attorney General of Virginia for the term beginning in 2026, then the market resolves to Yes.",
+        "category": "Elections",
+        "close_time": "2025-11-07T03:20:25.348878Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXATTYGENVA",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 317,
+      "row": {
+        "id": "KXATTYGENVA",
+        "question": "Will Jay Jones win the 2025 Virginia attorney general election?",
+        "description": "If a representative of the Democratic party is sworn in as the Attorney General of Virginia for the term beginning in 2026, then the market resolves to Yes.",
+        "category": "Elections",
+        "close_time": "2025-11-07T03:20:25.348878Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXATTYGENVA",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 318,
+      "row": {
+        "id": "GOVPARTYNJ",
+        "question": "Will Jack Ciattarelli win the 2025 New Jersey gubernatorial election?",
+        "description": "If a representative of the Republican party is inaugurated as the governor of New Jersey pursuant to the 2025 election, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-11-07T03:18:14.146204Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "GOVPARTYNJ",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 319,
+      "row": {
+        "id": "GOVPARTYNJ",
+        "question": "Will Mikie Sherrill win the 2025 New Jersey gubernatorial election?",
+        "description": "If a representative of the Democratic party is inaugurated as the governor of New Jersey pursuant to the 2025 election, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-11-07T03:18:14.146204Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "GOVPARTYNJ",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 320,
+      "row": {
+        "id": "GOVPARTYVA",
+        "question": "Will Winsome Earle-Sears win the 2025 Virginia gubernatorial election?",
+        "description": "If a representative of the Republican party is inaugurated as the governor of Virginia pursuant to the 2025 election, then the market resolves to Yes.\nThis market will close early following the first person to be sworn in as governor pursuant to the 2025 gubernatorial election.\n\n<p>Otherwise, this market closes by Nov 4, 2026 at 10:00am EST and will resolve to No for all candidates.</p>\n\n<p>Note that this event is mutually exclusive, meaning at most one market can resolve to Yes.</p>",
+        "category": "Politics",
+        "close_time": "2025-11-07T01:01:16.341747Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "GOVPARTYVA",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 321,
+      "row": {
+        "id": "GOVPARTYVA",
+        "question": "Will Abigail Spanberger win the 2025 Virginia gubernatorial election?",
+        "description": "If a representative of the Democratic party is inaugurated as the governor of Virginia pursuant to the 2025 election, then the market resolves to Yes.\nThis market will close early following the first person to be sworn in as governor pursuant to the 2025 gubernatorial election.\n\n<p>Otherwise, this market closes by Nov 4, 2026 at 10:00am EST and will resolve to No for all candidates.</p>\n\n<p>Note that this event is mutually exclusive, meaning at most one market can resolve to Yes.</p>",
+        "category": "Politics",
+        "close_time": "2025-11-07T01:01:16.341747Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "GOVPARTYVA",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 322,
+      "row": {
+        "id": "KXNFLWINS-WAS",
+        "question": "Will the Washi pro football team win more than 16 times this season?",
+        "description": "If the Washi pro football team has more than 16 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-29T18:56:31.016718Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-WAS",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 323,
+      "row": {
+        "id": "KXNFLWINS-WAS",
+        "question": "Will the Washi pro football team win more than 15 times this season?",
+        "description": "If the Washi pro football team has more than 15 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-30T14:22:35.619902Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-WAS",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 324,
+      "row": {
+        "id": "KXNFLWINS-TEN",
+        "question": "Will the Tennessee pro football team win more than 9 times this season?",
+        "description": "If the Tennessee pro football team has more than 9 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-11-03T08:02:07.705236Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-TEN",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 325,
+      "row": {
+        "id": "KXNFLWINS-TEN",
+        "question": "Will the Tennessee pro football team win more than 16 times this season?",
+        "description": "If the Tennessee pro football team has more than 16 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-23T16:12:13.702595Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-TEN",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 326,
+      "row": {
+        "id": "KXNFLWINS-TB",
+        "question": "Will the Tampa Bay pro football team win more than 16 times this season?",
+        "description": "If the Tampa Bay pro football team has more than 16 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-30T14:22:35.258809Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-TB",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 327,
+      "row": {
+        "id": "KXNFLWINS-TB",
+        "question": "Will the Tampa Bay pro football team win more than 15 times this season?",
+        "description": "If the Tampa Bay pro football team has more than 15 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-10-21T15:12:53.959035Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-TB",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 328,
+      "row": {
+        "id": "KXNFLWINS-SF",
+        "question": "Will the San Francisco pro football team win more than 16 times this season?",
+        "description": "If the San Francisco pro football team has more than 16 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-30T14:22:35.344666Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-SF",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 329,
+      "row": {
+        "id": "KXNFLWINS-SF",
+        "question": "Will the San Francisco pro football team win more than 5 times this season?",
+        "description": "If the San Francisco pro football team has more than 5 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-11-03T08:02:05.218712Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-SF",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 330,
+      "row": {
+        "id": "KXNFLWINS-SEA",
+        "question": "Will the Seattle pro football team win more than 6 times this season?",
+        "description": "If the Seattle pro football team has more than 6 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-11-10T08:01:17.505782Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-SEA",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 331,
+      "row": {
+        "id": "KXNFLWINS-SEA",
+        "question": "Will the Seattle pro football team win more than 5 times this season?",
+        "description": "If the Seattle pro football team has more than 5 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-11-03T08:02:07.720032Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-SEA",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 332,
+      "row": {
+        "id": "KXNFLWINS-PIT",
+        "question": "Will the Pittsburgh pro football team win more than 16 times this season?",
+        "description": "If the Pittsburgh pro football team has more than 16 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-23T16:06:27.289401Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-PIT",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 333,
+      "row": {
+        "id": "KXNFLWINS-PIT",
+        "question": "Will the Pittsburgh pro football team win more than 15 times this season?",
+        "description": "If the Pittsburgh pro football team has more than 15 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-10-17T07:00:55.575117Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-PIT",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 334,
+      "row": {
+        "id": "KXNFLWINS-PHI",
+        "question": "Will the Philadelphia pro football team win more than 6 times this season?",
+        "description": "If the Philadelphia pro football team has more than 6 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-11-11T08:01:15.255489Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-PHI",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 335,
+      "row": {
+        "id": "KXNFLWINS-PHI",
+        "question": "Will the Philadelphia pro football team win more than 16 times this season?",
+        "description": "If the Philadelphia pro football team has more than 16 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-10-07T11:46:37.682578Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-PHI",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 336,
+      "row": {
+        "id": "KXNFLWINS-NYJ",
+        "question": "Will the New York J pro football team win more than 16 times this season?",
+        "description": "If the New York J pro football team has more than 16 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-23T14:28:50.660306Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-NYJ",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 337,
+      "row": {
+        "id": "KXNFLWINS-NYJ",
+        "question": "Will the New York J pro football team win more than 15 times this season?",
+        "description": "If the New York J pro football team has more than 15 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-23T14:29:03.599342Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-NYJ",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 338,
+      "row": {
+        "id": "KXNFLWINS-NYG",
+        "question": "Will the New York G pro football team win more than 16 times this season?",
+        "description": "If the New York G pro football team has more than 16 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-23T16:30:30.108822Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-NYG",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 339,
+      "row": {
+        "id": "KXNFLWINS-NYG",
+        "question": "Will the New York G pro football team win more than 15 times this season?",
+        "description": "If the New York G pro football team has more than 15 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-23T16:30:43.270298Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-NYG",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 340,
+      "row": {
+        "id": "KXNFLWINS-NO",
+        "question": "Will the New Orleans pro football team win more than 9 times this season?",
+        "description": "If the New Orleans pro football team has more than 9 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-11-03T08:01:57.841393Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-NO",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 341,
+      "row": {
+        "id": "KXNFLWINS-NO",
+        "question": "Will the New Orleans pro football team win more than 16 times this season?",
+        "description": "If the New Orleans pro football team has more than 16 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-23T14:09:32.115021Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-NO",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 342,
+      "row": {
+        "id": "KXNFLWINS-NE",
+        "question": "Will the New England pro football team win more than 16 times this season?",
+        "description": "If the New England pro football team has more than 16 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-23T14:27:45.721832Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-NE",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 343,
+      "row": {
+        "id": "KXNFLWINS-NE",
+        "question": "Will the New England pro football team win more than 15 times this season?",
+        "description": "If the New England pro football team has more than 15 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-23T14:28:20.961446Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-NE",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 344,
+      "row": {
+        "id": "KXNFLWINS-MIN",
+        "question": "Will the Minnesota pro football team win more than 16 times this season?",
+        "description": "If the Minnesota pro football team has more than 16 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-23T16:27:00.009919Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-MIN",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 345,
+      "row": {
+        "id": "KXNFLWINS-MIN",
+        "question": "Will the Minnesota pro football team win more than 15 times this season?",
+        "description": "If the Minnesota pro football team has more than 15 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-30T14:22:30.763854Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-MIN",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 346,
+      "row": {
+        "id": "KXNFLWINS-MIA",
+        "question": "Will the Miami pro football team win more than 16 times this season?",
+        "description": "If the Miami pro football team has more than 16 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-23T14:30:05.413408Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-MIA",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 347,
+      "row": {
+        "id": "KXNFLWINS-MIA",
+        "question": "Will the Miami pro football team win more than 15 times this season?",
+        "description": "If the Miami pro football team has more than 15 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-23T14:30:20.209842Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-MIA",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 348,
+      "row": {
+        "id": "KXNFLWINS-LV",
+        "question": "Will the Las Vegas pro football team win more than 16 times this season?",
+        "description": "If the Las Vegas pro football team has more than 16 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-23T16:16:02.527918Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-LV",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 349,
+      "row": {
+        "id": "KXNFLWINS-LV",
+        "question": "Will the Las Vegas pro football team win more than 15 times this season?",
+        "description": "If the Las Vegas pro football team has more than 15 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-23T16:16:13.358788Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-LV",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 350,
+      "row": {
+        "id": "KXNFLWINS-LAC",
+        "question": "Will the Los Angeles C pro football team win more than 16 times this season?",
+        "description": "If the Los Angeles C pro football team has more than 16 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-30T14:22:29.451457Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-LAC",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 351,
+      "row": {
+        "id": "KXNFLWINS-LAC",
+        "question": "Will the Los Angeles C pro football team win more than 15 times this season?",
+        "description": "If the Los Angeles C pro football team has more than 15 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-10-07T11:46:33.869919Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-LAC",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 352,
+      "row": {
+        "id": "KXNFLWINS-LA",
+        "question": "Will the Los Angeles R pro football team win more than 16 times this season?",
+        "description": "If the Los Angeles R pro football team has more than 16 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-22T23:17:15.494134Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-LA",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 353,
+      "row": {
+        "id": "KXNFLWINS-LA",
+        "question": "Will the Los Angeles R pro football team win more than 15 times this season?",
+        "description": "If the Los Angeles R pro football team has more than 15 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-10-03T16:18:22.827334Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-LA",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 354,
+      "row": {
+        "id": "KXNFLWINS-KC",
+        "question": "Will the Kansas City pro football team win more than 4 times this season?",
+        "description": "If the Kansas City pro football team has more than 4 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-10-28T07:01:46.08373Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-KC",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 355,
+      "row": {
+        "id": "KXNFLWINS-KC",
+        "question": "Will the Kansas City pro football team win more than 3 times this season?",
+        "description": "If the Kansas City pro football team has more than 3 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-10-20T15:20:42.270046Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-KC",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 356,
+      "row": {
+        "id": "KXNFLWINS-JAC",
+        "question": "Will the Jacksonville pro football team win more than 16 times this season?",
+        "description": "If the Jacksonville pro football team has more than 16 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-23T16:10:08.696164Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-JAC",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 357,
+      "row": {
+        "id": "KXNFLWINS-JAC",
+        "question": "Will the Jacksonville pro football team win more than 15 times this season?",
+        "description": "If the Jacksonville pro football team has more than 15 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-10-13T14:55:47.447537Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-JAC",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 358,
+      "row": {
+        "id": "KXNFLWINS-IND",
+        "question": "Will the Indianapolis pro football team win more than 16 times this season?",
+        "description": "If the Indianapolis pro football team has more than 16 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-30T14:22:25.907367Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-IND",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 359,
+      "row": {
+        "id": "KXNFLWINS-IND",
+        "question": "Will the Indianapolis pro football team win more than 15 times this season?",
+        "description": "If the Indianapolis pro football team has more than 15 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-11-03T17:25:13.316307Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-IND",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 360,
+      "row": {
+        "id": "KXNFLWINS-HOU",
+        "question": "Will the Houston pro football team win more than 16 times this season?",
+        "description": "If the Houston pro football team has more than 16 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-23T16:10:32.156365Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-HOU",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 361,
+      "row": {
+        "id": "KXNFLWINS-HOU",
+        "question": "Will the Houston pro football team win more than 15 times this season?",
+        "description": "If the Houston pro football team has more than 15 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-23T16:11:43.876494Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-HOU",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 362,
+      "row": {
+        "id": "KXNFLWINS-GB",
+        "question": "Will the Green Bay pro football team win more than 4 times this season?",
+        "description": "If the Green Bay pro football team has more than 4 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-10-27T07:01:59.291332Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-GB",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 363,
+      "row": {
+        "id": "KXNFLWINS-GB",
+        "question": "Will the Green Bay pro football team win more than 16 times this season?",
+        "description": "If the Green Bay pro football team has more than 16 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-23T16:29:42.470521Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-GB",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 364,
+      "row": {
+        "id": "KXNFLWINS-DET",
+        "question": "Will the Detroit pro football team win more than 16 times this season?",
+        "description": "If the Detroit pro football team has more than 16 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-23T16:27:23.427623Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-DET",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 365,
+      "row": {
+        "id": "KXNFLWINS-DET",
+        "question": "Will the Detroit pro football team win more than 15 times this season?",
+        "description": "If the Detroit pro football team has more than 15 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-10-13T15:17:51.700355Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-DET",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 366,
+      "row": {
+        "id": "KXNFLWINS-DEN",
+        "question": "Will the Denver pro football team win more than 7 times this season?",
+        "description": "If the Denver pro football team has more than 7 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-11-07T08:02:11.429414Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-DEN",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 367,
+      "row": {
+        "id": "KXNFLWINS-DEN",
+        "question": "Will the Denver pro football team win more than 16 times this season?",
+        "description": "If the Denver pro football team has more than 16 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-23T16:16:36.058139Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-DEN",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 368,
+      "row": {
+        "id": "KXNFLWINS-DAL",
+        "question": "Will the Dallas pro football team win more than 16 times this season?",
+        "description": "If the Dallas pro football team has more than 16 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-23T16:32:55.155914Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-DAL",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 369,
+      "row": {
+        "id": "KXNFLWINS-DAL",
+        "question": "Will the Dallas pro football team win more than 15 times this season?",
+        "description": "If the Dallas pro football team has more than 15 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-23T16:33:11.213315Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-DAL",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 370,
+      "row": {
+        "id": "KXNFLWINS-CLE",
+        "question": "Will the Cleveland pro football team win more than 16 times this season?",
+        "description": "If the Cleveland pro football team has more than 16 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-23T16:08:55.013832Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-CLE",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 371,
+      "row": {
+        "id": "KXNFLWINS-CLE",
+        "question": "Will the Cleveland pro football team win more than 15 times this season?",
+        "description": "If the Cleveland pro football team has more than 15 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-29T18:39:03.757506Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-CLE",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 372,
+      "row": {
+        "id": "KXNFLWINS-CIN",
+        "question": "Will the Cincinnati pro football team win more than 16 times this season?",
+        "description": "If the Cincinnati pro football team has more than 16 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-23T15:45:38.254462Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-CIN",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 373,
+      "row": {
+        "id": "KXNFLWINS-CIN",
+        "question": "Will the Cincinnati pro football team win more than 15 times this season?",
+        "description": "If the Cincinnati pro football team has more than 15 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-30T14:22:23.581535Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-CIN",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 374,
+      "row": {
+        "id": "KXNFLWINS-CHI",
+        "question": "Will the Chicago pro football team win more than 16 times this season?",
+        "description": "If the Chicago pro football team has more than 16 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-23T15:45:59.637257Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-CHI",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 375,
+      "row": {
+        "id": "KXNFLWINS-CHI",
+        "question": "Will the Chicago pro football team win more than 5 times this season?",
+        "description": "If the Chicago pro football team has more than 5 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-11-10T08:00:53.011827Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-CHI",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 376,
+      "row": {
+        "id": "KXNFLWINS-CAR",
+        "question": "Will the Carolina pro football team win more than 16 times this season?",
+        "description": "If the Carolina pro football team has more than 16 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-24T15:07:39.098004Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-CAR",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 377,
+      "row": {
+        "id": "KXNFLWINS-CAR",
+        "question": "Will the Carolina pro football team win more than 4 times this season?",
+        "description": "If the Carolina pro football team has more than 4 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-11-03T08:01:43.904431Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-CAR",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 378,
+      "row": {
+        "id": "KXNFLWINS-BUF",
+        "question": "Will the Buffalo pro football team win more than 5 times this season?",
+        "description": "If the Buffalo pro football team has more than 5 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-11-03T08:01:39.163877Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-BUF",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 379,
+      "row": {
+        "id": "KXNFLWINS-BUF",
+        "question": "Will the Buffalo pro football team win more than 4 times this season?",
+        "description": "If the Buffalo pro football team has more than 4 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-10-27T07:01:56.814323Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-BUF",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 380,
+      "row": {
+        "id": "KXNFLWINS-BAL",
+        "question": "Will the Baltimore pro football team win more than 16 times this season?",
+        "description": "If the Baltimore pro football team has more than 16 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-23T16:07:09.124269Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-BAL",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 381,
+      "row": {
+        "id": "KXNFLWINS-BAL",
+        "question": "Will the Baltimore pro football team win more than 15 times this season?",
+        "description": "If the Baltimore pro football team has more than 15 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-23T16:08:11.668047Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-BAL",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 382,
+      "row": {
+        "id": "KXNFLWINS-ATL",
+        "question": "Will the Atlanta pro football team win more than 16 times this season?",
+        "description": "If the Atlanta pro football team has more than 16 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-23T14:13:30.646187Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-ATL",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 383,
+      "row": {
+        "id": "KXNFLWINS-ATL",
+        "question": "Will the Atlanta pro football team win more than 15 times this season?",
+        "description": "If the Atlanta pro football team has more than 15 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-23T14:17:34.804224Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-ATL",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 384,
+      "row": {
+        "id": "KXNFLWINS-ARI",
+        "question": "Will the Arizona pro football team win more than 2 times this season?",
+        "description": "If the Arizona pro football team has more than 2 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-11-05T00:40:48.727599Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-ARI",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 385,
+      "row": {
+        "id": "KXNFLWINS-ARI",
+        "question": "Will the Arizona pro football team win more than 16 times this season?",
+        "description": "If the Arizona pro football team has more than 16 wins in the 2025-26 regular season, then the market resolves to Yes.\nTies do not count as wins.",
+        "category": "Sports",
+        "close_time": "2025-09-22T23:26:32.788906Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLWINS-ARI",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 386,
+      "row": {
+        "id": "KXLEAVITTLATE",
+        "question": "Will Karoline Leavitt be more than 15 minutes late to next Press Briefing?",
+        "description": "If Karoline Leavitt is late to the next Press Briefing by above 15 minutes before Jan 2, 2026, then the market resolves to Yes.\nLateness is measured as the difference between scheduled start time and actual arrival time, rounded to the nearest minute (5:30 rounds to 6, 5:15 rounds to 5). Scheduled start time is the last officially published time. Actual start time is when the person first appears at their designated speaking position. If the person is early or exactly on time, all contracts resolve to No except the 0-minute contract. If the event is delayed for reasons beyond the person's control, lateness is measured from when they reach their position. If the person cancels or fails to appear, all contracts resolve to Yes. If the person appears at the venue but doesn't take their position, the contract resolves to No. *For the purpose of this market, rounding down to any of the strike times will not count as \"above.\" For example, if Leavitt is 5:15 minutes late, the 'above 5 minutes' contract resolves to No.*",
+        "category": "Politics",
+        "close_time": "2025-10-23T17:41:42.4108Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXLEAVITTLATE",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 387,
+      "row": {
+        "id": "KXLEAVITTLATE",
+        "question": "Will Karoline Leavitt be more than 10 minutes late to next Press Briefing?",
+        "description": "If Karoline Leavitt is late to the next Press Briefing by above 10 minutes before Jan 2, 2026, then the market resolves to Yes.\nLateness is measured as the difference between scheduled start time and actual arrival time, rounded to the nearest minute (5:30 rounds to 6, 5:15 rounds to 5). Scheduled start time is the last officially published time. Actual start time is when the person first appears at their designated speaking position. If the person is early or exactly on time, all contracts resolve to No except the 0-minute contract. If the event is delayed for reasons beyond the person's control, lateness is measured from when they reach their position. If the person cancels or fails to appear, all contracts resolve to Yes. If the person appears at the venue but doesn't take their position, the contract resolves to No. *For the purpose of this market, rounding down to any of the strike times will not count as \"above.\" For example, if Leavitt is 5:15 minutes late, the 'above 5 minutes' contract resolves to No.*",
+        "category": "Politics",
+        "close_time": "2025-10-23T17:41:31.93283Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXLEAVITTLATE",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 388,
+      "row": {
+        "id": "KXLCPIMAXYOY",
+        "question": "Inflation surge in Dec 10, 2025?",
+        "description": "If year-over-year CPI inflation is above 2.99% in any month in 2025, then the market resolves to Yes.",
+        "category": "Economics",
+        "close_time": "2025-02-14T14:17:39.764403Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXLCPIMAXYOY",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 389,
+      "row": {
+        "id": "KXMEASLES",
+        "question": "Will there be more than 1500 measles cases in 2025?",
+        "description": "If the number of measles in 2025 is above 1500, then the market resolves to Yes.",
+        "category": "Health",
+        "close_time": "2025-09-24T14:56:26.305884Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXMEASLES",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 390,
+      "row": {
+        "id": "KXMEASLES",
+        "question": "Will there be more than 750 measles cases in 2025?",
+        "description": "If the number of measles in 2025 is above 750, then the market resolves to Yes.",
+        "category": "Health",
+        "close_time": "2025-04-18T21:21:32.533657Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXMEASLES",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 391,
+      "row": {
+        "id": "KXUSECDEFPOLICY",
+        "question": "Who will be confirmed as Under Secretary of Defense for Policy?",
+        "description": "If Elbridge Colby is the first person confirmed by the Senate to be Under Secretary of Defense for Policy before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-04-09T13:17:01.301498Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXUSECDEFPOLICY",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 392,
+      "row": {
+        "id": "KXTURKEYAMB",
+        "question": "Who will be confirmed as Ambassador to Turkey?",
+        "description": "If Tom Barrack is the first person confirmed by the Senate to be Ambassador to Turkey before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-05-03T14:44:10.848217Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXTURKEYAMB",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 393,
+      "row": {
+        "id": "KXTURKEYAMB",
+        "question": "Who will be confirmed as Ambassador to Turkey?",
+        "description": "If Eric Adams is the first person confirmed by the Senate to be Ambassador to Turkey before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-05-03T14:44:10.848217Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXTURKEYAMB",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 394,
+      "row": {
+        "id": "KXTRUMP60MINUTES",
+        "question": "Will Donald Trump be on 60 Minutes before Jan 2026?",
+        "description": "If Donald Trump is on 60 Minutes before and before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Entertainment",
+        "close_time": "2025-11-03T01:46:53.806751Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXTRUMP60MINUTES",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 395,
+      "row": {
+        "id": "KXTOPAI",
+        "question": "Will xAI have a top-ranked AI model before 2026?",
+        "description": "If xAI has a sole #1 ranked AI model (checked at 10am ET daily) before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Science and Technology",
+        "close_time": "2025-02-18T15:00:06.701407Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXTOPAI",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 396,
+      "row": {
+        "id": "KXTOPAI",
+        "question": "Will Google have a top-ranked AI model before 2026?",
+        "description": "If Google has a sole #1 ranked AI model (checked at 10am ET daily) before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Science and Technology",
+        "close_time": "2024-12-07T15:02:17.615261Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXTOPAI",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 397,
+      "row": {
+        "id": "KXSURGEON",
+        "question": "Who will be confirmed as Surgeon General?",
+        "description": "If Janette Nesheiwat is the first person confirmed by the Senate to be Surgeon General before Jan 1, 2026, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-11-01T18:43:45.451196Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXSURGEON",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 398,
+      "row": {
+        "id": "KXSALTX",
+        "question": "Will the SALT tax deduction cap be raised or eliminated before Jan 1, 2026?",
+        "description": "If a bill becomes law before Jan 1, 2026 that increases the current limitation in Internal Revenue Code section 164(b) on the amount allowed as a deduction for state and local taxes in Internal Revenue Code section 164(a) for at least some class of taxpayer, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-07-25T15:00:00Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXSALTX",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 399,
+      "row": {
+        "id": "KXOAIPLATEAU",
+        "question": "Will OpenAI not release a significantly better LLM before Jan 1, 2026?",
+        "description": "If OpenAI does not release a model that is at least 100 Elo points better than its top-ranked model as of market creation, then the market resolves to Yes.\nThe top-ranked OpenAI model as of market creation is ChatGPT-4o-latest (2024-09-03) with a score of 1340. An OpenAI model achieving a score of 1440 will resolve the market to No.",
+        "category": "Science and Technology",
+        "close_time": "2025-08-13T18:29:13.475805Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXOAIPLATEAU",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    }
+  ],
+  "num_rows_total": 1531,
+  "num_rows_per_page": 100,
+  "partial": false
+}

@@ -1,0 +1,100 @@
+{
+  "question_id": "KXREMITTANCERATE",
+  "question_text": "How much will the Republicans tax on remittances be in their reconciliation bill?",
+  "resolution_criteria": "If the first budget reconciliation bill to become law before Jan 1, 2027 sets a tax rate on foreign remittances of at least 4%, then the market resolves to Yes.",
+  "resolution_date": "2025-07-06T01:20:00Z",
+  "retrieval_timestamp": "2026-02-19T21:05:15.968830Z",
+  "query_used": "What is the result of this question \"How much will the Republicans tax on remittances be in their reconciliation bill\"",
+  "sources": [
+    {
+      "title": "GOP remittance tax in megabill projected to raise a lot more money, despite lower rate",
+      "url": "https://www.politico.com/live-updates/2025/06/30/congress/gop-remittance-tax-plan-said-to-raise-a-lot-more-money-despite-lower-rate-00433068",
+      "published_date": "2025-06-30T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "18 hours ago A revised plan by Senate Republicans to impose a new one percent tax on remittances is now projected to bring in a lot more money to the Treasury even though lawmakers have slashed the rate. One reason: lawmakers are dropping plans to shield U.S. citizens from the tax on money sent overseas, which had been aimed squarely at undocumented immigrants. The provision, included in the domestic policy megabill before the Senate, is now expected to produce nearly $10 billion \u2014 nearly ten times as much money as a previous draft that would have charged 3.5 percent, according to the nonpartisan Joint Committee on Taxation. That\u2019s partly because Republicans jettisoned provisions that would have compensated American citizens who also pay the levy. Lawmakers had proposed creating a special credit citizens could claim against the charge, though that\u2019s been deleted from the latest version of the tax, defense, immigration and energy package. It\u2019s also because budget forecasters determined a 3.5 percent rate would be high enough to prompt many people to avoid ... generate more revenue for the government. The lowered rate appears to have dampened complaints about the tax, a priority for President Donald Trump who pushed it ... Continue on to view the day's latest updates\n\n5 hours ago ... Lead Art: Sen. Marsha Blackburn (R-Tenn.) is seen during a series of votes on a budget reconciliation bill for President Trump's legislative agenda at the U.S. Capitol June 30, 2025. \\| Francis Chung/POLITICO ... ## The Senate megabill is on a collision course with House fiscal hawks ... Republicans are on the cusp of a breakthrough in their long effort to strip federal funding from Planned Parenthood ... The megabill is expected to clear the Senate Monday or Tuesday using a budgetary tool to bypass a 60-vote filibuster. Bills advanced"
+      ]
+    },
+    {
+      "title": "POLITICO Pro: GOP remittance tax in megabill projected to raise a lot more money, despite lower rate",
+      "url": "https://subscriber.politicopro.com/article/2025/06/gop-remittance-tax-plan-said-to-raise-a-lot-more-money-despite-lower-rate-00433068",
+      "published_date": "2025-06-01T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Skip to Main Content\n\n## Cookie Settings To disable cookies, please use your device settings. You can learn more about our privacy practices by reading our Privacy Policy. More information #### Functional Cookies\n\nAlways Active These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly. ### Cookie List\n\nClear\n\ncheckbox labellabel\n\nApplyCancel\n\nConsentLeg.Interest\n\ncheckbox labellabel checkbox labellabel\n\ncheckbox labellabel\n\nConfirm My Choices"
+      ]
+    },
+    {
+      "title": "Controversial remittance tax shrinks again in new megabill draft",
+      "url": "https://www.politico.com/live-updates/2025/06/28/congress/controversial-remittance-tax-shrinks-again-in-new-megabill-draft-00431123",
+      "published_date": "2025-06-28T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "### Inside Congress newsletter Your first read on Capitol Hill politics and policy.\n\n Sign up \n\n- Follow Us \n\n1 day ago A proposed tax on remittances that\u2019s kicked up a good amount of controversy would further shrink to 1 percent under the latest draft of Senate Republicans\u2019 megabill . That\u2019s down from the 3.5 percent they had previously considered, and well off the 5 percent charge House Republicans approved last month as part of their version of the plan. It\u2019s one of a number of tax increases in the legislation [on undocumented immigrants Republicans are using to help ... But it\u2019s sparked concern it could hit a wide range of other cross-border payments as well, from cash parents send kids ... the government of Mexico to scale it back. The change comes as Senate Republicans attempt to finalize their tax, energy, defense and immigration bill and get it to Trump early next month. A cost estimate of the new iteration was not available, though the 3.5 percent levy Senate Republicans had previously contemplated was estimated to raise $1 billion. The House version is expected to bring in $26 billion. ... Continue on to view the day's latest updates\n\n17 hours ago ## Senate Republicans put megabill on track for likely Monday passage ... Lead Art: Sen. Thom Tillis (R-N.C.) departs a procedural vote on a budget reconciliation bill with President Trump's ... reconciliation bills. ... The cost of Senate Republicans\u2019 tax cuts has grown to $4.45 trillion, congressional forecasters said Saturday night. That\u2019s up more than $200 billion from a previous draft of the plan, and reflects numerous last-minute changes lawmakers have made as they negotiate the details of the domestic policy megabill now before the Senate. The growing price tag could be a problem for some Republicans, especially in the House where many lawmakers have been ... The biggest reason for the increased price tag are provisions demanded by blue-state Republicans in the House to ease a cap on state and local tax"
+      ]
+    },
+    {
+      "title": "Budget Bill\u2019s Tax on Remittances Is Poorly Designed and Drafted",
+      "url": "https://www.aei.org/economics/budget-bills-tax-on-remittances-is-poorly-designed-and-drafted/",
+      "published_date": "2025-06-05T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Budget Bill\u2019s Tax on Remittances Is Poorly Designed and Drafted\n \n Alan Viard \nAlan D. Viard\n ... * 09.05.2025| The Fiscal Impact of Immigration: An Update On May 22, the House of Representatives passed the 1038-page budget reconciliation bill . The bill includes, among other questionable tax and spending policies, a poorly designed and drafted remittances tax. The bill would tax certain remittances sent from the United States (including the US possessions )to foreign countries, starting January 1, 2026. The original bill featured a five percent tax rate, but an amendment lowered the rate to 3.5 percent. The tax would raise an estimated $26 billion over the ... The House-passed \u201cOne Big Beautiful Bill Act\u201d (OBBB) would make numerous changes to the tax code. One of them stands out as particularly harmful. The House version of the OBBB introduces a 3.5 percent excise tax on remittances. ... #### Flawed Budget Bill Would Worsen the US Fiscal Imbalance The House of Representatives is preparing to consider a budget reconciliation bill that would add trillions of dollars to the government debt. The bill\u2019s"
+      ]
+    },
+    {
+      "title": "Senate Budget Bill Dramatically Narrows Proposed Tax on Remittances",
+      "url": "https://www.aei.org/economics/senate-budget-bill-dramatically-narrows-proposed-tax-on-remittances/",
+      "published_date": "2025-06-24T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Senate Budget Bill Dramatically Narrows Proposed Tax on Remittances\n[\n Alan Viard \nAlan D. Viard ... On June 16, Senate Finance Committee chairman Mike Crapo (R-Idaho) released the committee\u2019s 549-page component of the budget reconciliation bill that the Senate will soon consider. The Senate bill dramatically narrows the scope of the remittances tax included in the budget bill passed by the House of Representatives on May 22. Lawmakers should take the next logical step and discard the tax altogether. As I previously discussed , the House-passed bill would impose a 3.5 percent tax on certain remittances sent from the United States (including the US possessions ) to foreign countries, starting January 1, 2026. The corresponding tax in the Senate bill has the same rate and starting date. Unlike the House-passed bill, however, the ... such as cash, a money order, or a cashier\u2019s check. The Joint Committee on Taxation estimates that the tax in the Senate bill would raise only $1 billion over the upcoming decade, a tiny fraction of the $26 billion that ... Although the Senate bill\u2019s narrowing of the tax would greatly diminish these problems, it would not eliminate them. ... On May 22, the House of Representatives passed a budget reconciliation bill. The bill includes, among other questionable tax and spending policies, a poorly designed and drafted remittances tax. The bill would tax certain ... The House of Representatives is preparing to consider a budget reconciliation bill that would add trillions of dollars to the government debt. The"
+      ]
+    },
+    {
+      "title": "GOP Pushes Tax To Pay For Trump Agenda And Depress Illegal Immigration In One Fell Swoop",
+      "url": "https://www.aol.com/gop-pushes-remittance-tax-pay-212423793.html",
+      "published_date": "2025-05-20T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Republicans are pushing a plan to tax money transfers sent by foreigners residing in the U.S. to friends and relatives abroad as part of the party\u2019s major tax and spending bill **,** which they say could help curb illegal immigration and drug smuggling. The current version of the GOP\u2019s reconciliation bill to implement the Trump administration\u2019s policy goals would impose a 5% tax on non-citizen or foreign national senders of remittances outside of the U.S. The Joint Committee on Taxation estimates the tax will generate more than $22 billion in revenue over a decade, which Republicans expect will help fund other parts of President Donald Trump\u2019s agenda , including extending the tax cuts enacted during Trump\u2019s first term. [**(RELATED: Meet The Republicans Standing Between Trump ... Proponents of the measure frame the tax as a tool to combat drug trafficking and illegal immigration. Republican Rep. ... that would have established a 10% tax on remittances. \u201cIt\u2019s a two-fold win: taxing remittances will help slow down the cash flow to cartels and will also create a new ... \u201cThe One Big Beautiful Bill is the most significant immigration legislation in years. Not only will it fund thousands ... In 2019, remittances accounted for approximately 17% of the GDP in Northern Central America, according to World Bank ... told Semafor . \u201cFor relatively little tax revenue, it will make it harder for families to keep their income, ... regulation on financial services companies and law-abiding taxpayers.\u201d The reconciliation package must be passed by the House before it moves to the Senate for further modifications. All content created by the Daily Caller News Foundation, an independent and nonpartisan newswire service, is available without charge to any legitimate news publisher that can provide a large audience. All republished articles must include our logo, our reporter\u2019s byline and their DCNF affiliation. For any questions about our guidelines or ... Finance \n\n[The Motley F"
+      ]
+    },
+    {
+      "title": "Policy Alert: House Republicans Propose Excise Tax on Remittances",
+      "url": "https://www.conference-board.org/research/CED-Newsletters-Alerts/house-republicans-propose-excise-tax-on-remittances",
+      "published_date": "2025-05-21T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "# Policy Alert: House Republicans Propose Excise Tax on Remittances\n\n21 May 2025 / Newsletters & Alerts ... What it does: As part of the budget reconciliation process to advance the President\u2019s legislative agenda, House Republicans have proposed a 5% excise tax on remittance transfers, paid by senders of remittances. Remittance transfer providers are required to collect the tax and transfer tax payments quarterly to the Treasury and have secondary liability for any tax not paid at the time the remittance is made. The provision includes an exception ... qualify. The provision also provides a refundable tax credit for any excise taxes required to be paid by taxpayers with ... with $79 billion in remittances sent from the US to foreign countries in 2022. - The Joint Committee on Taxation estimates that this provision will raise $22.2 billion in revenue between 2025 and 2034 (roughly between $1 billion and $3 billion per fiscal year). ... What it does: As part of the budget reconciliation process to advance the President\u2019s legislative agenda, House Republicans have proposed a 5% excise tax on remittance transfers, paid by senders of remittances. Remittance transfer providers are required to collect the tax and transfer tax payments quarterly to the Treasury and have secondary liability for any tax not paid at the time the remittance is made. The provision includes"
+      ]
+    },
+    {
+      "title": "\u201cOne Big Beautiful Bill Act\u201d House GOP Tax Plan: Details and Analysis",
+      "url": "https://taxfoundation.org/research/all/federal/big-beautiful-bill-house-gop-tax-plan/",
+      "published_date": "2025-06-06T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "in Europe, 2026\n\n4 min read ### Here\u2019s Why Corporate Taxes May Appear Lower After the OBBBA\n\n8 min read ### Testimony: Assessment Limits and Property Taxes in Nebraska ### Yes, You\u2019re Getting a Bigger Tax Refund. But That\u2019s Not the Whole Story.\n\n### Double Taxation\n\nTable of Contents ## Latest Updates 1. Updated analysis of the House-passed \u201cOne, Big, Beautiful\u201d reconciliation bill on May 22, 2025. 2. Updated modeling and analysis of the House-passed \u201cOne, Big, Beautiful\u201d reconciliation bill See Full Timeline\n\n See FINAL Version Launch our FAQ The House passed the \u201c One, Big, Beautiful \u201d reconciliation bill on Thursday, May 22, addressing the expirations of the 2017 Tax A tax is a mandatory payment or charge collected by local, state, and national governments from individuals or businesses to cover the costs of general government services, goods, and activities. Cuts and Jobs Act (TCJA) and making additional changes to US tax policy and spending Our analysis finds the tax provisions included in the House-passed bill would increase long-run GDP by 0.8 percent. The bill\u2019s provisions would reduce federal tax revenue by $4 trillion between 2025 and 2034, on a conventional basis. On a ... Overall, the bill would prevent tax increases on 62 percent of taxpayers that would occur if the TCJA expired as ... - Permanently increase the estate and gift tax A gift tax is a tax on the transfer of property by a living ... | Total | 0.8% | 0.7% | 0.2% | Less than +0.05% | 983,000 | Source: Tax Foundation General Equilibrium Model, May 2025.\n\n## 10-Year Revenue Results We estimate the tax provisions would reduce federal revenues by $4.0 trillion between 2025 and 2034. Most of the ... We model the distributional effects of the major provisions listed above. Overall, the House bill has outlined significant tax cuts that would, on average, increase market incomes by 2.1 percent in 2025 and by 4.0 percent in 20"
+      ]
+    },
+    {
+      "title": "What\u2019s in the 2025 House Republican Tax Bill | Bipartisan Policy Center",
+      "url": "https://bipartisanpolicy.org/explainer/whats-in-the-2025-house-republican-tax-bill/",
+      "published_date": "2025-05-23T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "What\u2019s in the 2025 House Republican Tax Bill\n\nSkip to content President Trump signed H.R. 1, the One Big Beautiful Bill Act, into law on July 4, 2025. This explainer covers the House-proposed version only. For an explainer on the tax provisions of the final law, see here . The following is a section-by-section for the tax title of H.R. 1, the One Big Beautiful Bill Act that passed the House of Representatives on May 22, 2025. Cost estimates reflect the Joint Committee on Taxation\u2019s June 2 score. On net, the tax title is projected to add approximately $3.8 trillion to federal deficits over the next decade (fiscal years 2025-2034). The tax cuts are partially offset by spending cuts and fee revenue in other parts of the bill. See more from BPC on the reconciliation package here . For a summary of when recent changes go into effect, please read more here . ... Sec. 110001: Lower individual tax rates - For more on TCJA\u2019s changes to individual tax rates, see here .\n- Costs $2.2 trillion from FY2025-2034. - Provides an extra inflation adjustment to the bottom six brackets (not the top bracket), which results in lower tax ... ### Table 1. 2026 Federal Tax Rates and Brackets for Single Taxpayers, TCJA Expiration vs. House Republican Tax Bill ... | 1st bracket | 10% | $0 | 10% | $0 |\n| 2nd bracket | 15% | $12,150 | 12% | $12,375 | ... Secs. 110012-110019: Additional tax extensions - Raises a combined $14 billion from FY2025-2034, though the only provision with a budget impact of more than (plus or ... 2025 House"
+      ]
+    },
+    {
+      "title": "What\u2019s in Trump and Republicans\u2019 giant tax and immigration bill?",
+      "url": "https://www.washingtonpost.com/business/2025/05/13/republican-trump-tax-immigration-plan/",
+      "published_date": "2025-05-13T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Democracy Dies in Darkness\n\nIn this article\n\n10 min\n\nBy Jacob Bogage New tax cuts. Massive spending on border security. Cuts to social safety net programs. Pullbacks on investments to fight climate change. New limits on student loans. If it becomes law, President Donald Trump and congressional Republicans\u2019 massive bill will reshape much of the federal government \u2014 and the U.S. economy. The House narrowly passed the legislation Thursday and sent it to the Senate, where Trump wants lawmakers to advance it \u201cAS SOON AS POSSIBLE,\u201d as he put it in a social media post. Republicans are trying to move quickly to reverse many of President Joe Biden\u2019s legislative accomplishments and cement Trump\u2019s legacy in the tax code, on the southern border and in generations-old anti-poverty benefits. **Comments**\n\nSign up"
+      ]
+    }
+  ]
+}

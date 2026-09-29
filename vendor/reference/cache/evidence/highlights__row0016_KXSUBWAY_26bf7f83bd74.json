@@ -1,0 +1,100 @@
+{
+  "question_id": "KXSUBWAY",
+  "question_text": "Will NYC subway ridership reach 85% of the pre-Covid average before Jan 1, 2026?",
+  "resolution_criteria": "If NYC subway ridership reaches a seven-day average of at least 3.95 million riders before Jan 1, 2026, then the market resolves to Yes.\nThe subway had an average daily ridership of 4.65 million persons in 2019.",
+  "resolution_date": "2025-11-06T17:36:19.978106Z",
+  "retrieval_timestamp": "2026-02-23T17:03:02.476483Z",
+  "query_used": "What is the result of this question \"Will NYC subway ridership reach 85% of the pre-Covid average before Jan 1, 2026\"",
+  "sources": [
+    {
+      "title": "Subway Recovery Tracker",
+      "url": "https://osc.ny.gov/osdc/subway-recovery-tracker",
+      "published_date": "2025-08-15T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "The COVID-19 pandemic had a profound and disparate impact on subway ridership in New York City. Initially, the ... five boroughs. Citywide, April 2020 ridership was just 8.3 percent of what it was in April 2019. Ridership only surpassed 70 percent of pre-pandemic levels in September 2024. Since then, ridership has hovered around 73 percent of pre-pandemic levels in most months, rising to more than 75 percent in April and May of 2025. ... and does not include any reporting from the first two years of the pandemic. This data shows that ridership remained mostly flat throughout 2023 and early 2024, with some seasonal variation. Citywide, ridership strengthened to surpass 70 percent of pre-pandemic levels in September 2024 and has remained above this level since. ... #### Ridership at Largest Hub Stations\n\nSources: Metropolitan Transportation Authority; OSC analysis\n\n--- Overall, subway ridership recovery citywide has remained fairly stable since May 2023, fluctuating between 64.8 percent and just under 70 percent of pre-pandemic ridership though August 2024, then between 71.6 percent and 75.8 percent since then to June 2025. The MTA anticipates that ridership will reach 77 percent of 2019 levels by 2028. Ridership levels are currently close to these projections, but returns will need to improve at both major midtown hubs and certain smaller outlying stations for the MTA to reach the farebox recovery rates included in the later years of its financial plan. One key may be improved OMNY adoption at outlying stations (which appear to lag behind OMNY usage at ... Download Data"
+      ]
+    },
+    {
+      "title": "MTA McKinsey Ridership Projections: October 2020 - December 2026 | State of New York",
+      "url": "https://data.ny.gov/Transportation/MTA-McKinsey-Ridership-Projections-October-2020-De/c6y7-ek5e",
+      "published_date": "2024-02-02T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "MTA McKinsey Ridership Projections: October 2020 - December 2026 | State of New York"
+      ]
+    },
+    {
+      "title": "Subway Recovery Tracker",
+      "url": "https://osc.state.ny.us/osdc/subway-recovery-tracker",
+      "published_date": "2025-08-15T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "The COVID-19 pandemic had a profound and disparate impact on subway ridership in New York City. Initially, the ... five boroughs. Citywide, April 2020 ridership was just 8.3 percent of what it was in April 2019. Ridership only surpassed 70 percent of pre-pandemic levels in September 2024. Since then, ridership has hovered around 73 percent of pre-pandemic levels in most months, rising to more than 75 percent in April and May of 2025. ... and does not include any reporting from the first two years of the pandemic. This data shows that ridership remained mostly flat throughout 2023 and early 2024, with some seasonal variation. Citywide, ridership strengthened to surpass 70 percent of pre-pandemic levels in September 2024 and has remained above this level since. ... #### Ridership at Largest Hub Stations\n\nSources: Metropolitan Transportation Authority; OSC analysis\n\n--- Overall, subway ridership recovery citywide has remained fairly stable since May 2023, fluctuating between 64.8 percent and just under 70 percent of pre-pandemic ridership though August 2024, then between 71.6 percent and 75.8 percent since then to June 2025. The MTA anticipates that ridership will reach 77 percent of 2019 levels by 2028. Ridership levels are currently close to these projections, but returns will need to improve at both major midtown hubs and certain smaller outlying stations for the MTA to reach the farebox recovery rates included in the later years of its financial plan. One key may be improved OMNY adoption at outlying stations (which appear to lag behind OMNY usage at ... Download Data"
+      ]
+    },
+    {
+      "title": "MTA Subway Hourly Ridership: Beginning 2025 | State of New York",
+      "url": "https://data.ny.gov/Transportation/MTA-Subway-Hourly-Ridership-Beginning-2025/5wq4-mkjj",
+      "published_date": "2024-11-21T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "MTA Subway Hourly Ridership: Beginning 2025 | State of New York"
+      ]
+    },
+    {
+      "title": "New York by the Numbers Monthly Economic and Fiscal Outlook No. 106",
+      "url": "https://comptroller.nyc.gov/wp-content/uploads/2025/10/Monthly-No.-106-Oct-16-2025.pdf",
+      "published_date": "2025-10-17T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "...11 Transit Ridership.......................................................................................12 ... As far as the numbers that many New Yorkers care about most in the fall: the Mets, Yankees, and ... Locally, there are more positive data points. Modest growth in jobs and transit ridership continues. Tax receipts for FY25 were up 8.3% over the prior year, and 4.2% over projections. ... generations, we\u2019ll keep counting the numbers.\nBrad\nOffice of the New York City Comptroller Brad Lander 5\nHighlights \u2022 September U.S. jobs data have not yet been released due to the government ... \u2022 NYC\u2019s unemployment rate edged up to a 4-month high of 4.9% in August, while ... 12 New York by the Numbers Monthly Economic and Fiscal Outlook No. 106\nChart 4 Sources: Costar, Office of the New York City Comptroller\nTransit Ridership \u2022 Transit ridership picked up noticeably in September, reaching its highest level since early 2020, relative to pre-pandemic seasonal patterns. Subways, Metro North and LIRR (Long Island Railroad) all registered their best month since the pandemic, while ridership on buses and SIR (Staten Island Railroad) continued to lag, as shown in Chart 5 below. [The September level is relative to average ridership in September 2018 and September 2019.] \u2022 Compared with year-earlier (2024) levels, transit ridership in September was up 7% for subways, up roughly 10% for LIRR and Metro North, and up 3% for buses. However, SIR \nsaw a decline of 3%. \n8%\n10%\n12% 14%\n16%\n18%\n20%\n22%\n24%\n26%\n2005 Q3 2007 Q3 2009 Q3 2011 Q3 2013 Q3 2015 Q3 2017 Q3 2019 Q3 2021 Q3 2023 Q3 2025 Q3 ... has been stable, modestly above the historically low levels of 2022, as shown in Chart 6.\n-70"
+      ]
+    },
+    {
+      "title": "",
+      "url": "https://www.osc.ny.gov/files/reports/osdc/pdf/report-17-2025.pdf",
+      "published_date": "2024-10-21T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "full fiscal recovery is reliant on the continued\nreturn of paid ridership across the MTA\u2019s modes of transportation. The COVID-19 \npandemic reached New York City in March 2020 causing steep drop-offs in MTA ridership \nand for transit systems across the country. By May and June 2024, paid subway ridership was \nconsistently around 70 percent of pre-pandemic levels, but has since dipped a few percentage \npoints as some of the ridership increase the MTA projects in July and August has failed to \nmaterialize.\nThe MTA has based its ridership assumptions on those provided by its consultant, McKinsey, \nsince July 2022. McKinsey expects MTA-wide paid utilization trends to reach new baselines at \naround 80 percent of pre-pandemic levels by the end of 2026. In July 2021, an earlier \nestimate prepared by McKinsey was ridership returning to 86 percent of pre-pandemic levels \nby the end of 2024. As shown in Figure 1, actual subway ridership has mostly stayed \nclose to the new McKinsey forecast. However, ... Sources: Metropolitan Transportation Authority; OSC analysis Change Compared to Comparable Pre-Pandemic Day\nFIGURE 1 Weekday MTA Ridership Compared to Pre-Pandemic (2019) Equivalent Day\n4 After peaking at nearly 1.8 billion riders in 2015, \nannual MTA subway ridership experienced three years of steady decline amid deteriorating \nservice and the growing adoption of ride-hailing ... performance, ridership began to recover in \n2019, prior to the pandemic (see Figure 2). ... The July Plan assumes that riders will return to \nthe system slowly, reaching a ridership of just under 1."
+      ]
+    },
+    {
+      "title": "NYC subway ridership hits new milestone, but still far short of pre-pandemic levels - Gothamist",
+      "url": "https://gothamist.com/news/nyc-subway-ridership-hits-new-milestone-but-still-far-short-of-pre-pandemic-levels",
+      "published_date": "2024-10-22T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "NYC subway ridership hits new milestone, but still far short of pre-pandemic levels\n \n \nBy\n Ramsey Khalifeh \nPublished Oct 22, 2024\nModified Oct 22, 2024\nShare ... New York City subway ridership is hitting new milestones as it inches toward pre-pandemic familiarity, but MTA data shows there are still at least 1 million fewer daily entries at turnstiles than there were five years ago. The subway has on five days this fall carried more than 4.3 million paid riders, a benchmark not seen since the city shut down in March 2020 as it became the epicenter of the COVID-19 pandemic. That\u2019s about 75% of the roughly 5.7 ... transit agency, which relies largely on fares to balance its books. By the time COVID vaccines rolled out in 2021, the ... congestion pricing, which was going to drive more people onto the subway.\u201d The rebound of subway ridership is in roughly line with a projection by the consultancy McKinsey that the MTA commissioned in 2022. The group\u2019s midpoint estimate said subway ridership would grow to 80% of pre-pandemic levels by the end of 2026 if there is a \u201ccontinued return to the office, a return of non-work trips and consumer mode shift back to transit.\u201d Wylde said that projection is plausible if Hochul allows a version of congestion pricing to launch and tourism continues to rebound. Nicholas Bloom, a Stanford University economist who studies remote work habits, said more riders would return to the ... \u201cAt this point, growth in ridership is going to really have to come from improved service, better quality, improved ... According to research by Bloom, commuting in general has decreased across the country since the pandemic, but the ... \n \n \nBy\n Giulia Heyward \nPublished Apr 1, 2025 at 5:01 p.m. ET\n \n[ ... The city alleges in a lawsuit that the Geo Group, a private contractor, has failed to secure required city approvals. ... Gothamist is a website"
+      ]
+    },
+    {
+      "title": "Archived Subway Tracker",
+      "url": "https://www.osc.ny.gov/reports/osdc/subway-recovery-tracker-archived",
+      "published_date": "2024-10-21T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "STATE COMPTROLLER] Thomas P. DiNapoli \nLogin ... Close\nSearch\nSearch\n# Archived Subway Tracker\n# blank # Impact of the COVID-19 Pandemic on Subway Ridership in New York City This dashboard contains data from April 2020 through February 2022. It is no longer being maintained. View our new Subway Recovery Tracker for the latest data. The COVID-19 pandemic has had a profound and disparate impact on subway ridership. The emergence of the virus in New York City in March and April 2020 corresponded with a steep drop in subway usage. Citywide, April 2020 ridership was just 8.3 percent of what it was in April 2019. Since then, New Yorkers have slowly returned to the subway system. While many New Yorkers and businesses turned to telecommuting to protect themselves from the virus, others have not had that luxury. As a result, ridership as a percentage of pre-COVID levels has remained higher in lower-income ... For the first two years of the pandemic, subway turnstile data published by the Metropolitan Transportation Authority ... leisure and hospitality sector. After a sharp drop driven by a COVID-19 resurgence at the end of 2021, ridership recovered to pre-Omicron levels quickly before slowing again in April and May 2022. Citywide ridership held steady through the fall and winter of 2022 before ticking upward in January 2023, when it reached the highest level since the pandemic began. This improvement is ... shifts in commuting to work. While ridership at the Times Square-42nd Street station (77.6 percent) has recently risen ... percent in January 2023. Until ridership returns more strongly to these major hubs or new ridership patterns are established, the MTA will continue to have difficulty reaching the higher recovery projections for ridership and farebox revenue included in the later years of the its financial plan, like many systems across the country . To reflect these realities, the MTA revised its ridership projections downward in[its July 2022 Financial ... system,"
+      ]
+    },
+    {
+      "title": "Impact of the COVID-19 Pandemic on Subway Ridership in New York City",
+      "url": "https://www.osc.ny.gov/reports/osdc/impact-covid-19-pandemic-subway-ridership-new-york-city",
+      "published_date": "2024-01-05T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Search\nSearch 1. Home \n2. Reports \n3. Impact of the COVID-19 Pandemic on Subway Ridership in New York City Search\nSearch\nSearch\nSearch\n# Impact of the COVID-19 Pandemic on Subway Ridership in New York City # MTA Train \n# Impact of the COVID-19 Pandemic on Subway Ridership in New York City This dashboard contains data from April 2020 through February 2022. It is no longer being maintained. The COVID-19 pandemic has had a profound and disparate impact on subway ridership. The emergence of the virus in New York City in March and April 2020 corresponded with a steep drop in subway usage. Citywide, April 2020 ridership was just 8.3 percent of what it was in April 2019. Since then, New Yorkers have slowly returned to the subway system. While many New Yorkers and businesses turned to telecommuting to protect themselves from the virus, others have not had that luxury. As a result, ridership as a percentage of pre-COVID levels has remained higher in lower-income ... leisure and hospitality sector. After a sharp drop driven by a COVID-19 resurgence at the end of 2021, ridership recovered to pre-Omicron levels quickly before slowing again in April and May 2022. Citywide ridership held steady through the fall and winter of 2022 before ticking upward in January 2023, when it reached the highest level since the pandemic began. This improvement is ... percent in January 2023. Until ridership returns more strongly to these major hubs or new ridership patterns are established, the MTA will continue to have difficulty reaching the higher recovery projections for ridership and ... To reflect these realities, the MTA revised its ridership projections downward in[its July 2022 Financial ... system, and the 4/5 Wall Street stop has yet to surpass 50 percent"
+      ]
+    },
+    {
+      "title": "",
+      "url": "https://www.osc.ny.gov/files/reports/pdf/report-4-2026.pdf",
+      "published_date": "2025-05-21T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "of the report include: \u2022 Driving has fully returned as evidenced by MTA bridge and tunnel crossings having exceeded the pre-pandemic level in 2023 and continuing to grow in 2024. \u2022 Paid subway ridership continues to improve but remains well below 2019 levels. \u2022 Paid bus ridership trails subway ridership in terms of ridership return. ... subway ridership and both remain above pre-pandemic levels; the Authority has ... rates for subways and led to incremental improvement for buses. Ridership Still Not at 2019 Levels But Crossings Are Higher The subway system provided 640 million trips in 2020, a 62 percent decline compared to 2019\u2019s ridership of 1.7 billion. Bus ridership dropped by a similar percentage while Long Island ... As of 2024, paid transit ridership has not returned for any mode of transit but varies by type. Paid subway ridership in 2024 was still down 30 percent and paid bus ridership was down 42 percent. Commuter rail ridership had recovered faster as LIRR was down only 17 percent ... Longer distance commutation has returned more quickly. Metro-North fare revenue was 83 percent of 2019 in 2024 while LIRR fare revenue was 85 percent. MTA Bus, which is paid for by the City and mostly provides bus service in the outer boroughs, had 2024 fare revenue \nat 82 percent of 2019. The MTA expects utilization and rates of fare payment to continue to increase across all transit services during the next few years reaching 74 percent of pre-pandemic ridership by 2026. Fare and toll revenue is still expected to be below the 2019 level in 2028 unless scheduled ... 2019 levels by 2027, but fare revenue would still be 10 percent below the 2019 level.\n1 \n1 The MTA\u2019s February 2025 financial plan assumes fare and toll increases that are expected to increase fare and toll ... year since October 2024. Aligned with the return of leisure activity, weekend subway ridership in 2024 was on average 80 percent of the 2019 level compared"
+      ]
+    }
+  ]
+}

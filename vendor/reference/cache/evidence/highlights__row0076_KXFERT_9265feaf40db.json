@@ -1,0 +1,100 @@
+{
+  "question_id": "KXFERT",
+  "question_text": "How high will the price of fertilizer get this year?",
+  "resolution_criteria": "If the average price of Urea (46-0-0) fertilizer in dollars per ton according to the United States Department of Agriculture\u2019s Illinois Production Cost Reports is above $550 before January 01, 2026, then the market resolves to Yes.",
+  "resolution_date": "2025-07-02T16:54:39.691882Z",
+  "retrieval_timestamp": "2026-02-21T23:03:43.917939Z",
+  "query_used": "What is the result of this question \"How high will the price of fertilizer get this year\"",
+  "sources": [
+    {
+      "title": "How high will the price of fertilizer get this year? - Bitcoin.com Markets",
+      "url": "https://markets.bitcoin.com/prediction/kalshi/how-high-will-the-price-of-fertilizer-get-this-year-KXFERT-25",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "### Above $600\n\n$1,373 VOL.\n\n92%YES 99\u00a2NO 8\u00a2\n\n### Above $625 $53 VOL.\n\n69%YES 77\u00a2NO 31\u00a2\n\n### Above $650\n\n$282 VOL.\n\n53%YES 61\u00a2NO 47\u00a2\n\n### Above $700\n\n$19 VOL.\n\n18%YES 26\u00a2NO 82\u00a2 ### Above $800\n\n$1 VOL.\n\n6%YES 14\u00a2NO 94\u00a2\n\nShow More (2)\n\n# Rules Summary\n\nAbove $600 If the average price of Urea (46-0-0) fertilizer in dollars per ton according to the United States Department of Agriculture\u2019s Illinois Production Cost Reports is above $600 before January 01, 2026, then the market resolves to Yes. No secondary rules available.\n\n# Timeline and Payout\n\nOpened: May 8, 2025, 3:00 PM\n\nCloses: 2025-12-31T15:00:00Z Pays out: 0.5 hours after closing ... Series KXFERT-25 Event KXFERT-25 Market KXFERT-25-600"
+      ]
+    },
+    {
+      "title": "Fertilizer Price Outlook",
+      "url": "https://agmanager.info/sites/default/files/pdf/FertilizerPriceProjections_2025-02.pdf",
+      "published_date": "2025-02-21T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "hydrous ammonia prices declined during the first half of 2024 before rising during the last half of 2024. Anhydrous prices did end 2024 lower than the end of the previous year. However, the lowest price of 2024 was higher than the lowest price from 2023. With the volatility of fertilizer prices the last several years, farmers and lenders are undoubtably wondering which way prices will trend in 2025. Anhydrous prices are currently above $700/ton and there is some evidence prices may not go below $700 like what happened in 2023 and 2024. Fertilizer is a major expense item for most grain farms so any price increase in fertilizer can ... didn't predict prices dropping all the way to $650/ton,Have Fertilizer Prices Bottomed Out?, ... The purpose of this article is to forecast anhydrous ammonia prices for the next 12 months so that farmers can plan their fertilizer purchases for the coming year. Correctly timing fertilizer ... 12 months. The price forecast uses the futures market price of both oil and corn. Inflation expectations are based on Ibendahl's estimate of an inflation rate of 4% for the next year. Given these model inputs, anhydrous prices of $850 are not unexpected going forward. Higher corn prices and potentially higher inflation expectations may drive anhydrous prices higher.\nDiscussion ... With the model, forecast prices are higher than actual"
+      ]
+    },
+    {
+      "title": "Public Summary \u2013 Medium-Term Fertilizer Outlook 2025-2029",
+      "url": "https://www.fertilizer.org/resource/public-summary-medium-term-fertilizer-outlook-2025-2029/",
+      "published_date": "2025-07-02T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Public Summary - Medium-Term Fertilizer Outlook 2025-2029 - Fertilizer\n\nReport\n\n02 Jul 2025 # Public Summary \u2013 Medium-Term Fertilizer Outlook 2025-2029 World Outlook for Fertilizer Demand, Nitrogen, Phosphates and Potash from 2025 to 2029 Public Summary. Author(s): IFA Market Intelligence Service\n\nPublisher: IFA Annual Conference, Monaco, 12-14 May 2025 Date of publication: 02 Jul 2025\n\nLanguage: English\n\n- Related Documents\n- Publications & Data 02 Jul 2025\n\n#### 2025 IFA Medium Term Outlook Report\n\n Download"
+      ]
+    },
+    {
+      "title": "Fertilizer Price Outlook - August 2024",
+      "url": "https://agmanager.info/sites/default/files/pdf/FertilizerPriceProjections_08-08-24.pdf",
+      "published_date": "2024-08-08T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "have declined from $800/ton to below $700/ton during the first half of 2024. However, anhydrous ammonia prices may have reached a floor based on the analysis provide in this article. With the volatility of fertilizer prices the last several years, farmers and lenders are undoubtably wondering which way prices will trend going into 2025. Fertilizer is a major expense item for most grain farms, so any price increase in fertilizer can have a significant effect on farm profitability. As shown by Ibendahl, fertilizer accounts for 20% of farm ... performing with better predictive power ever since. While Ibendahl didn\u2019t predict prices dropping all the way to $650/ton, (Have Fertilizer Prices Bottomed Out?), Ibendahl did predict most of the 2023 price decline and subsequent increase in price during the last half of 2023. The purpose of this article is to forecast anhydrous ammonia prices for the next 12 months so that farmers can plan their fertilizer purchases for the coming year. Correctly timing fertilizer purchases could improve profitability. 2025 looks to be a challenging year for producers so any cost savings ... months. The price forecast uses the futures market price of both oil and corn. Inflation expectations are based on Ibendahl\u2019s estimate of an inflation rate of 3% for the next year. Given these model inputs, anhydrous prices near $650 are expected going forward.\nDiscussion There are many events happening right now in the world that could easily affect fertilizer prices. ... With the model, forecast prices are slightly higher than actual prices. Part of this is because Ibendahl is using a 3% rate of inflation. If inflation has dropped below this, then the model is likely over estimating anhydrous prices. Keep in mind that any spike in"
+      ]
+    },
+    {
+      "title": "Urea Prices Rise 5% in February 2026 as Fertilizer Costs Stay Elevated",
+      "url": "https://www.agrolatam.com/crops/urea-prices-february-2026-fertilizer-market-update/",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "Urea Prices Jump 5% in Early February as Fertilizer Market Splits ## Retail fertilizer prices opened February 2026 mixed, with urea up 5% month over month while phosphate and potash ... Retail fertilizer prices in the first week of February 2026 were evenly mixed across major nutrients, with urea posting a 5% month-over-month increase to $596 per ton, while several liquid nitrogen products moved slightly lower. The shift matters for U.S. crop producers as fertilizer remains one of the largest input costs ... environment. Four fertilizers moved modestly higher compared to January, while four declined slightly. Urea was the only ... Among dry products, DAP averaged $851 per ton, MAP $879 per ton, and potash $488 per ton in early February. While these products did not show major monthly swings, they remain substantially higher compared to one year ago. Year-over-year comparisons reveal persistent cost pressure:\n\n10-34-0: up 5%\n\nMAP: up 9%\n\nPotash: up 12%\n\nDAP: up 14% ... These increases underscore how fertilizer continues to account for a significant share of total production expenses for corn, soybean and wheat growers. With 2026 commodity prices offering narrower margins than in recent peak ... Grower groups argue that sustained high input costs - especially fertilizer - are straining working capital and ... ## Retail Fertilizer Price Table\n\n### Dry Fertilizers | Date Range | DAP | MAP | Potash | Urea |\n| --- | --- | --- | --- | --- |\n| Feb 3-7, 2025 | 745 | 806 | 436 | 525 | | Mar 3-7, 2025 | 765 | 810 | 447 | 548 |\n| Mar 31-Apr 4, 2025 | 768 | 819 | 462 | 565 | ... ## Fertilizer Prices Mostly Fall Again; Urea the Only One Trending Higher This Week ## USDA Acc"
+      ]
+    },
+    {
+      "title": "Semiannual fertilizer outlook: Poor affordability to pressure global fertilizer demand in 2026",
+      "url": "https://www.rabobank.com/knowledge/q011332992-semiannual-fertilizer-outlook-a-new-cycle-ahead-ushering-in-demand-destruction",
+      "published_date": "2022-07-14T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Global fertilizer markets are entering a new phase of contraction, as rising prices begin to weigh on demand. This shift, first signaled in our April outlook, is now clearly reflected in the continued decline of the fertilizer affordability index. While some regions still show signs of resilience, the broader trend points to weakening demand in 2025 and a more pronounced downturn in 2026. The 12-month moving average of the affordability index has moved deeper into negative territory, confirming the start of a new downcycle. This phase closely resembles the previous contraction, suggesting that the market is entering a ... Regionally, market dynamics remain volatile. In the US, geopolitical tensions and trade tariffs are expected to disrupt the upcoming season. European prices are likely to rise with the implementation of the Carbon Border Adjustment Mechanism (CBAM). In Brazil, farmers face tight margins and limited access to credit, although fertilizer deliveries could reach record levels in 2025. China is prioritizing domestic supply, while India continues to play a central role in global urea trade, influencing prices with each new tender. Urea consumption is forecast to decline in 2026, following a sharp price increase that has already triggered demand contraction \u2013 particularly in Brazil, where farmers are shifting to ammonium sulphate. Phosphate prices remain high, leading to an expected 4% drop in global consumption in 2025, with further declines anticipated in 2026. Chinese ... Potash demand, which rebounded in 2024 due to lower prices, is likely to slow again in 2025 as prices rise. Brazil\u2019s plans for record imports may partially offset declines elsewhere, but if elevated prices persist, global demand is expected to fall in 2026. ## This is an exclusive article\n\nLog in"
+      ]
+    },
+    {
+      "title": "Fertilizer Outlook: Global Risks, Higher Costs, Tighter Margins",
+      "url": "https://www.fb.org/market-intel/fertilizer-outlook-global-risks-higher-costs-tighter-margins",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "# Fertilizer Outlook: Global Risks, Higher Costs, Tighter Margins\n\n#### TOPICS\n\n fertilizer ... Fertilizer costs are having a bigger and bigger impact on farm budgets. In the lead-up to the 2022 crop year, fertilizer prices surged to record highs , driven by tight global supplies, energy shocks and trade ... While prices today remain below the extreme peaks of 2022, prices for several key fertilizers are climbing higher. ... unpredictable fertilizer markets. This Market Intel updates current price levels, revisits the drivers of ... Phosphates have had the sharpest price increase this year. Gulf diammonium phosphate (DAP) prices rose from about $583 per ton in January 2025 to nearly $800 in August. That is a 36% increase in less than eight months, creating new strain ... Potash prices are also rising compared to last year. Global spot values hover around $350 to $360 per ... The return of higher fertilizer prices has direct consequences for farm finances. As of late 2025, fertilizer costs are trending above last year\u2019s levels and are expected to remain elevated into 2026. This increase comes at a time when ... trends. USDA projections show overall production expenses rising in 2025, with fertilizer and lime [counting for 7% of ... Even though conditions differ across regions and commodities, the overarching pattern is clear: farmers are entering another year in which volatile markets and tight, or negative, margins reduce their ability to accommodate rising costs. **Conclusion** Fertilizer markets in 2025 look different than they did in 2022 but carry the same message for farmers: input costs remain highly volatile. Instead of being driven mainly by energy shortages and shipping bottlenecks, today\u2019s increases are rooted in trade uncertainty, natural gas trends and regional conflicts. Concentration of supply in a handful of ... reliable exports, while tensions in the Middle East inject risk into global phosphate and natural gas supplies. For the farm economy, the"
+      ]
+    },
+    {
+      "title": "Fertilizer prices soften but remain constrained by trade policies",
+      "url": "https://blogs.worldbank.org/en/opendata/fertilizer-markets-soften-but-remain-constrained-by-trade-polici",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        ">December 04, 2025\nThis page in:\n* English \nEnglish ... *This blog post is part of a special series based on the October 2025**Commodity Markets Outlook**, a flagship report ... report.*** *Explore the full report here* *.*** *Fertilizer prices eased in October-November after surging nearly 14 percent in 2024Q3 (q/q). In November, diammonium ... percent (m/m). Despite the recent pullback, prices remain elevated\u2014about 17 percent higher than a year earlier\u2014reflecting higher input costs (especially for nitrogen), resilient consumption, and ongoing trade restrictions. The fertilizer price index is projected to rise more than 20 percent this year before moderating in 2026 and 2027 as new capacity comes online. However, it will remain well above the 2015-19 average. Key risks to the outlook include ... **Despite easing fertilizer prices, affordability remains low.**Although prices for urea, DAP, and MOP (muriate of ... raising fertilizer costs. These measures are expected to be fully phased in over the next two years. **The fertilizer price index is expected to ease in 2026 and 2027 after rising 20 percent this year.**Urea prices are projected to jump 30 percent in 2025 amid tighter markets, then decline by 7 percent in 2026 and 9 percent in 2027 as new capacity comes online in East Asia and the Middle East. Upside risks include slower capacity additions, renewed trade restrictions, and higher natural gas prices. Over the longer term, nitrogen fertilizers face structural supply ... as biofertilizers, organic amendments, and regenerative farming technologies. DAP prices are expected to rise 26 percent in 2025 before falling 8 percent in 2026 and again in 2027 as supply pressures ease; the forecast assumes ... spikes in ammonia or gas prices could push prices higher. MOP prices are projected to increase 19"
+      ]
+    },
+    {
+      "title": "Fertilizer prices gain momentum amid strong demand and geopolitical tensions",
+      "url": "https://blogs.worldbank.org/en/opendata/fertilizer-prices-gain-momentum-amid-strong-demand-and-geopoliti",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "based on the**April 2025Commodity Markets Outlook,**a flagship report ... report.*** *Explore the full report here* *.*** *Fertilizer prices continued to rise in the second quarter of 2025, with the World Bank\u2019s fertilizer price index up 15 percent since the start of the year. Triple superphosphate (TSP) and diammonium phosphate (DAP) saw particularly sharp gains, rising 43 and 23 percent, respectively. The increase has been driven by strong demand, trade restrictions, and production shortfalls\u2014especially in the case of urea. For the full year, prices are projected to register a modest increase over 2024, supported by firm demand, before stabilizing in 2026. However, prices are expected to remain well above their 2015\u201319 average, reflecting elevated input costs, resilient consumption, and ongoing export restrictions ... **After returning to pre-pandemic levels, fertilizer affordability has deteriorated**. A recent surge in fertilizer prices\u2014coupled with declining agricultural commodity prices\u2014has made fertilizers less affordable for farmers. For instance, the affordability index for DAP (diammonium phosphate) has surpassed its early 2022 peak, while the indexes for urea and MOP (muriate of potash, or potassium chloride) have reversed their downward trends since the end of 2024. **The fertilizer price index is expected to increase 7 percent in 2025 as demand strengthens\u2014before stabilizing in 2026**. Market conditions are expected to remain tight this year, particularly for urea, whose prices are forecast to increase 15 percent in"
+      ]
+    },
+    {
+      "title": "",
+      "url": "https://www.terrainag.com/wp-content/uploads/2025/09/Terrain-Input-Costs-Q4-25.pdf",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "have risen in 2025, \nand next year may involve more of those global factors. Outlook: Terrain projects slightly higher operating \ncosts for the 2026 corn and soybean crops. Impact: Farmers should pay attention to U.S. tariff \ndevelopments, as import costs for chemicals, parts ... the entire nitrogen complex.\nGiven the current outlook for fertilizer and other input prices, Terrain projects slightly higher operating \ncosts for the 2026 corn and soybean crops. A mix of potential tariff impacts as well as global factors could \npush overall crop production costs higher in 2026 than they were in 2025. Tariffs could impact some \nproduction-cost line items such as chemicals and repairs, while global factors have contributed to higher \nfertilizer costs.\nHIGHER FERTILIZER PRICES A MIX OF TARIFFS ... going into next year. \nCurrently, I project U.S. AA prices to average $760 per ton (range: $740 to $775) and urea to average $620 per \nton (range: $610 to $635) for the 2026 crop. This is up from $744 per ton (AA) and $530 per ton (urea) for the \n2025 crop.\nPhosphate ... on average repair costs.\nOverall, I project operating costs \nto be 4% higher for corn and 6% higher for soybeans in 2026 \nversus 2025.\nOVERALL PRODUCTION COSTS Overall, I project operating costs to be 4% higher \nfor corn and 6% higher for soybeans in 2026 versus ... Corn and Soybean Operating Costs\nSources: USDA ERS, Terrain\n$0\n$100\n$600\n$200\n$300\n$400\n$500 2020 2021 2022 2023 2024 2025 2026 2020 2021 2022 2023 2024 2025 2026\nFertilizer\nChemicals\nFuel, Lube and Electricity ... Disclaimer: While the information contained in this report is accurate to the best of our knowledge, it is presented ... availability, especially for any fall \napplication needs.\nWatch closely the tariff case"
+      ]
+    }
+  ]
+}

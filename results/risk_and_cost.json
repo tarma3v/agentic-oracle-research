@@ -1,0 +1,51 @@
+{
+  "kind": "arithmetic_on_reported_counts_and_hypothetical_costs",
+  "source": "https://arxiv.org/html/2605.30802v1#S4.T12",
+  "n_total": 1189,
+  "n_accepted": 563,
+  "n_errors_accepted": 12,
+  "coverage": 0.4735071488645921,
+  "selective_error_rate": 0.021314387211367674,
+  "one_sided_95pct_binomial_error_upper_bound_assuming_iid_fixed_gate": 0.03430550350120018,
+  "warning": "Post-hoc paper gate and correlated event rows: bound is illustrative, not a certified deployment guarantee.",
+  "zero_error_required_independent_accepted_cases": {
+    "0.05": 59,
+    "0.01": 299,
+    "0.005": 598,
+    "0.001": 2995
+  },
+  "cost_assumptions": {
+    "ai_cost_per_incoming_question_usd": 0.05,
+    "human_cost_per_deferred_question_usd": 5.0,
+    "human_error_rate": 0,
+    "latency_and_disputes_included": false,
+    "status": "illustrative assumptions, not measured market costs"
+  },
+  "break_even_loss_usd": 229.6291666666667,
+  "cost_scenarios": [
+    {
+      "loss_per_wrong_automatic_resolution_usd": 10,
+      "hybrid_cost_per_incoming_question_usd": 2.7833894028595454,
+      "human_only_cost_per_incoming_question_usd": 5.0,
+      "savings_per_incoming_question_usd": 2.2166105971404546
+    },
+    {
+      "loss_per_wrong_automatic_resolution_usd": 100,
+      "hybrid_cost_per_incoming_question_usd": 3.6917157275021024,
+      "human_only_cost_per_incoming_question_usd": 5.0,
+      "savings_per_incoming_question_usd": 1.3082842724978976
+    },
+    {
+      "loss_per_wrong_automatic_resolution_usd": 1000,
+      "hybrid_cost_per_incoming_question_usd": 12.77497897392767,
+      "human_only_cost_per_incoming_question_usd": 5.0,
+      "savings_per_incoming_question_usd": -7.77497897392767
+    },
+    {
+      "loss_per_wrong_automatic_resolution_usd": 10000,
+      "hybrid_cost_per_incoming_question_usd": 103.60761143818334,
+      "human_only_cost_per_incoming_question_usd": 5.0,
+      "savings_per_incoming_question_usd": -98.60761143818334
+    }
+  ]
+}

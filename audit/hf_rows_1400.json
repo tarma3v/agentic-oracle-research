@@ -1,0 +1,1581 @@
+{
+  "features": [
+    {
+      "feature_idx": 0,
+      "name": "id",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 1,
+      "name": "question",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 2,
+      "name": "description",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 3,
+      "name": "category",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 4,
+      "name": "close_time",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 5,
+      "name": "ground_truth",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 6,
+      "name": "market_probability",
+      "type": {
+        "dtype": "null",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 7,
+      "name": "series_ticker",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 8,
+      "name": "source",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "row_idx": 1400,
+      "row": {
+        "id": "KXEPLTOTAL",
+        "question": "Liverpool at Manchester City: Totals",
+        "description": "If Liverpool and Manchester City collectively score more than 2.5 total goals in the Liverpool at Manchester City EPL soccer match originally scheduled for Nov 9, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-09T18:29:46.707739Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXEPLTOTAL",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1401,
+      "row": {
+        "id": "KXEPLSPREAD",
+        "question": "Manchester City wins by over 2.5 goals?",
+        "description": "If Manchester City wins by more than 2.5 goals in the Liverpool at Manchester City EPL soccer match originally scheduled for Nov 9, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-09T18:29:47.737534Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXEPLSPREAD",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1402,
+      "row": {
+        "id": "KXEPLSPREAD",
+        "question": "Manchester City wins by over 1.5 goals?",
+        "description": "If Manchester City wins by more than 1.5 goals in the Liverpool at Manchester City EPL soccer match originally scheduled for Nov 9, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-09T18:29:47.65305Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXEPLSPREAD",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1403,
+      "row": {
+        "id": "KXEPLGAME",
+        "question": "Manchester City vs Liverpool Winner?",
+        "description": "If Tie wins the Manchester City vs Liverpool professional EPL soccer game originally scheduled for Nov 9, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.\nThe following market refers to the Manchester City vs Liverpool professional EPL soccer game originally scheduled for Nov 9, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties). If the game ends in a tie, the market called \"Tie\" resolves to Yes. If the game is cancelled or rescheduled to over two weeks away, the market will resolve to a fair price in accordance with the rules.",
+        "category": "Sports",
+        "close_time": "2025-11-09T18:34:31.24329Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXEPLGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1404,
+      "row": {
+        "id": "KXEPLGAME",
+        "question": "Manchester City vs Liverpool Winner?",
+        "description": "If Manchester City wins the Manchester City vs Liverpool professional EPL soccer game originally scheduled for Nov 9, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.\nThe following market refers to the Manchester City vs Liverpool professional EPL soccer game originally scheduled for Nov 9, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties). If the game ends in a tie, the market called \"Tie\" resolves to Yes. If the game is cancelled or rescheduled to over two weeks away, the market will resolve to a fair price in accordance with the rules.",
+        "category": "Sports",
+        "close_time": "2025-11-09T18:34:31.24329Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXEPLGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1405,
+      "row": {
+        "id": "KXEPLBTTS",
+        "question": "Liverpool at Manchester City: Both Teams to Score",
+        "description": "If Liverpool and Manchester City both score goals in the Liverpool at Manchester City EPL match originally scheduled for Nov 9, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-09T18:29:50.383551Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXEPLBTTS",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1406,
+      "row": {
+        "id": "KXF1RACE",
+        "question": "Sao Paulo Grand Prix Winner?",
+        "description": "If Max Verstappen wins the Sao Paulo Grand Prix, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-09T21:59:40.217383Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXF1RACE",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1407,
+      "row": {
+        "id": "KXF1RACE",
+        "question": "Sao Paulo Grand Prix Winner?",
+        "description": "If Yuki Tsunoda wins the Sao Paulo Grand Prix, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-09T21:59:40.217383Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXF1RACE",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1408,
+      "row": {
+        "id": "KXF1RACEPODIUM",
+        "question": "Sao Paulo Grand Prix Podium Finishers?",
+        "description": "If Max Verstappen has a podium finish (finishes in the top three) of the Sao Paulo Grand Prix, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-09T22:00:58.630048Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXF1RACEPODIUM",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1409,
+      "row": {
+        "id": "KXF1RACEPODIUM",
+        "question": "Sao Paulo Grand Prix Podium Finishers?",
+        "description": "If Yuki Tsunoda has a podium finish (finishes in the top three) of the Sao Paulo Grand Prix, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-09T22:05:25.007776Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXF1RACEPODIUM",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1410,
+      "row": {
+        "id": "KXEPLBTTS",
+        "question": "Leeds United at Nottingham: Both Teams to Score",
+        "description": "If Leeds United and Nottingham both score goals in the Leeds United at Nottingham EPL match originally scheduled for Nov 9, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-09T15:59:53.641053Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXEPLBTTS",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1411,
+      "row": {
+        "id": "KXWTAFINALS",
+        "question": "Will Jessica Pegula win the WTA Finals Women's Singles?",
+        "description": "If Jessica Pegula wins the WTA Finals Women's Singles, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-08T18:19:22.162354Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXWTAFINALS",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1412,
+      "row": {
+        "id": "KXWTAFINALS",
+        "question": "Will Jasmine Paolini win the WTA Finals Women's Singles?",
+        "description": "If Jasmine Paolini wins the WTA Finals Women's Singles, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-08T18:19:22.162354Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXWTAFINALS",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1413,
+      "row": {
+        "id": "KXSNLMENTION",
+        "question": "What will Nikki Glaser say during Saturday Night Live starting on November 8th?",
+        "description": "If Nikki Glaser says Zohran / Mamdani as part of Saturday Night Live starting on November 8th, then the market resolves to Yes.\nVideo of the Saturday Night Live starting on November 8th will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the Saturday Night Live starting on November 8th will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details.",
+        "category": "Mentions",
+        "close_time": "2025-11-09T15:00:00Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXSNLMENTION",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1414,
+      "row": {
+        "id": "KXSNLMENTION",
+        "question": "What will Nikki Glaser say during Saturday Night Live starting on November 8th?",
+        "description": "If Nikki Glaser says Trump as part of Saturday Night Live starting on November 8th, then the market resolves to Yes.\nVideo of the Saturday Night Live starting on November 8th will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the Saturday Night Live starting on November 8th will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details.",
+        "category": "Mentions",
+        "close_time": "2025-11-09T15:00:00Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXSNLMENTION",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1415,
+      "row": {
+        "id": "KXPMKICKINGCONTEST",
+        "question": "Will Participant Successfully Make First Field Goal Attempt",
+        "description": "If the Selected Participant  successfully makes their first field goal attempt in the Pat McAfee Kicking Contest at College Gameday on November 8th, then the market resolves to Yes.\nThis market resolves to Yes if the Selected Participant successfully makes their first field goal attempt. If the Selected Participant misses their first attempt and is granted another opportunity, the market will resolve to No. Only the Selected Participant’s kick is considered for this market; any attempts made by guests other than the Selected Participant during the broadcast will not count toward resolution.",
+        "category": "Social",
+        "close_time": "2025-11-08T16:05:57.970694Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXPMKICKINGCONTEST",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1416,
+      "row": {
+        "id": "KXLOLMAP",
+        "question": "Will T1 win T1 vs. KT Rolster: Game 3 Winner?",
+        "description": "If T1 wins T1 vs. KT Rolster: Game 3, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-09T18:14:26.561762Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXLOLMAP",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1417,
+      "row": {
+        "id": "KXLOLMAP",
+        "question": "Will KT Rolster win T1 vs. KT Rolster: Game 3 Winner?",
+        "description": "If KT Rolster wins T1 vs. KT Rolster: Game 3, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-09T18:14:26.561762Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXLOLMAP",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1418,
+      "row": {
+        "id": "KXKLEAGUEGAME",
+        "question": "Ulsan HD FC vs Suwon FC Winner?",
+        "description": "If Ulsan HD FC wins the Ulsan HD FC vs Suwon FC professional Korea K League 1 soccer game originally scheduled for Nov 9, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.\nThe following market refers to the Ulsan HD FC vs Suwon FC professional Korea K League 1 soccer game originally scheduled for Nov 9, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties). If the game ends in a tie, the market called \"Tie\" resolves to Yes. If the game is cancelled or rescheduled to over two weeks away, the market will resolve to a fair price in accordance with the rules.",
+        "category": "Sports",
+        "close_time": "2025-11-09T09:39:49.865936Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXKLEAGUEGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1419,
+      "row": {
+        "id": "KXKLEAGUEGAME",
+        "question": "Ulsan HD FC vs Suwon FC Winner?",
+        "description": "If Tie wins the Ulsan HD FC vs Suwon FC professional Korea K League 1 soccer game originally scheduled for Nov 9, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.\nThe following market refers to the Ulsan HD FC vs Suwon FC professional Korea K League 1 soccer game originally scheduled for Nov 9, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties). If the game ends in a tie, the market called \"Tie\" resolves to Yes. If the game is cancelled or rescheduled to over two weeks away, the market will resolve to a fair price in accordance with the rules.",
+        "category": "Sports",
+        "close_time": "2025-11-09T09:39:49.865936Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXKLEAGUEGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1420,
+      "row": {
+        "id": "KXJLEAGUEGAME",
+        "question": "Shimizu S-Pulse vs Cerezo Osaka Winner?",
+        "description": "If Tie wins the Shimizu S-Pulse vs Cerezo Osaka professional Japan J1 League soccer game originally scheduled for Nov 9, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.\nThe following market refers to the Shimizu S-Pulse vs Cerezo Osaka professional Japan J1 League soccer game originally scheduled for Nov 9, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties). If the game ends in a tie, the market called \"Tie\" resolves to Yes. If the game is cancelled or rescheduled to over two weeks away, the market will resolve to a fair price in accordance with the rules.",
+        "category": "Sports",
+        "close_time": "2025-11-09T08:04:49.002111Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXJLEAGUEGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1421,
+      "row": {
+        "id": "KXJLEAGUEGAME",
+        "question": "Shimizu S-Pulse vs Cerezo Osaka Winner?",
+        "description": "If Shimizu S-Pulse wins the Shimizu S-Pulse vs Cerezo Osaka professional Japan J1 League soccer game originally scheduled for Nov 9, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.\nThe following market refers to the Shimizu S-Pulse vs Cerezo Osaka professional Japan J1 League soccer game originally scheduled for Nov 9, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties). If the game ends in a tie, the market called \"Tie\" resolves to Yes. If the game is cancelled or rescheduled to over two weeks away, the market will resolve to a fair price in accordance with the rules.",
+        "category": "Sports",
+        "close_time": "2025-11-09T08:04:49.002111Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXJLEAGUEGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1422,
+      "row": {
+        "id": "KXALEAGUEGAME",
+        "question": "Brisbane Roar FC vs Newcastle United Jets Winner?",
+        "description": "If Tie wins the Brisbane Roar FC vs Newcastle United Jets professional Australia A League soccer game originally scheduled for Nov 9, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.\nThe following market refers to the Brisbane Roar FC vs Newcastle United Jets professional Australia A League soccer game originally scheduled for Nov 9, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties). If the game ends in a tie, the market called \"Tie\" resolves to Yes. If the game is cancelled or rescheduled to over two weeks away, the market will resolve to a fair price in accordance with the rules.",
+        "category": "Sports",
+        "close_time": "2025-11-09T08:00:07.685293Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXALEAGUEGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1423,
+      "row": {
+        "id": "KXALEAGUEGAME",
+        "question": "Brisbane Roar FC vs Newcastle United Jets Winner?",
+        "description": "If Newcastle United Jets wins the Brisbane Roar FC vs Newcastle United Jets professional Australia A League soccer game originally scheduled for Nov 9, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.\nThe following market refers to the Brisbane Roar FC vs Newcastle United Jets professional Australia A League soccer game originally scheduled for Nov 9, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties). If the game ends in a tie, the market called \"Tie\" resolves to Yes. If the game is cancelled or rescheduled to over two weeks away, the market will resolve to a fair price in accordance with the rules.",
+        "category": "Sports",
+        "close_time": "2025-11-09T08:00:07.685293Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXALEAGUEGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1424,
+      "row": {
+        "id": "KXSAUDIPLGAME",
+        "question": "Al-Ittihad Club vs Al Ahli Saudi FC Winner?",
+        "description": "If Tie wins the Al-Ittihad Club vs Al Ahli Saudi FC professional Saudi Pro League soccer game originally scheduled for Nov 8, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.\nThe following market refers to the Al-Ittihad Club vs Al Ahli Saudi FC professional Saudi Pro League soccer game originally scheduled for Nov 8, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties). If the game ends in a tie, the market called \"Tie\" resolves to Yes. If the game is cancelled or rescheduled to over two weeks away, the market will resolve to a fair price in accordance with the rules.",
+        "category": "Sports",
+        "close_time": "2025-11-08T19:35:26.427347Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXSAUDIPLGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1425,
+      "row": {
+        "id": "KXSAUDIPLGAME",
+        "question": "Al-Ittihad Club vs Al Ahli Saudi FC Winner?",
+        "description": "If Al-Ittihad Club wins the Al-Ittihad Club vs Al Ahli Saudi FC professional Saudi Pro League soccer game originally scheduled for Nov 8, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.\nThe following market refers to the Al-Ittihad Club vs Al Ahli Saudi FC professional Saudi Pro League soccer game originally scheduled for Nov 8, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties). If the game ends in a tie, the market called \"Tie\" resolves to Yes. If the game is cancelled or rescheduled to over two weeks away, the market will resolve to a fair price in accordance with the rules.",
+        "category": "Sports",
+        "close_time": "2025-11-08T19:35:26.427347Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXSAUDIPLGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1426,
+      "row": {
+        "id": "KXEFLCHAMPIONSHIPGAME",
+        "question": "Wrexham AFC vs Charlton Athletic Winner?",
+        "description": "If Wrexham AFC wins the Wrexham AFC vs Charlton Athletic professional EFL Championship soccer game originally scheduled for Nov 8, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.\nThe following market refers to the Wrexham AFC vs Charlton Athletic professional EFL Championship soccer game originally scheduled for Nov 8, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties). If the game ends in a tie, the market called \"Tie\" resolves to Yes. If the game is cancelled or rescheduled to over two weeks away, the market will resolve to a fair price in accordance with the rules.",
+        "category": "Sports",
+        "close_time": "2025-11-08T17:05:20.325267Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXEFLCHAMPIONSHIPGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1427,
+      "row": {
+        "id": "KXEFLCHAMPIONSHIPGAME",
+        "question": "Wrexham AFC vs Charlton Athletic Winner?",
+        "description": "If Tie wins the Wrexham AFC vs Charlton Athletic professional EFL Championship soccer game originally scheduled for Nov 8, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.\nThe following market refers to the Wrexham AFC vs Charlton Athletic professional EFL Championship soccer game originally scheduled for Nov 8, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties). If the game ends in a tie, the market called \"Tie\" resolves to Yes. If the game is cancelled or rescheduled to over two weeks away, the market will resolve to a fair price in accordance with the rules.",
+        "category": "Sports",
+        "close_time": "2025-11-08T17:05:20.325267Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXEFLCHAMPIONSHIPGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1428,
+      "row": {
+        "id": "KXSPOTIFYALBUMRELEASEDATEKANYE",
+        "question": "Will Kanye West / Ye release BULLY before Nov 8, 2025?",
+        "description": "If Kanye West / Ye releases an album titled 'BULLY' on Spotify before Nov 8, 2025, then the market resolves to Yes.",
+        "category": "Entertainment",
+        "close_time": "2025-11-08T15:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXSPOTIFYALBUMRELEASEDATEKANYE",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1429,
+      "row": {
+        "id": "KXSONGCHARTTSWIFT",
+        "question": "Will Taylor Swift occupy 3 out of the Top 5 spots on the Billboard Hot 100 for the week of November 8th?",
+        "description": "If exactly 3 unique songs credited to Taylor Swift appear on Top 5 songs on the Billboard Hot 100 Chart for the week of Nov 8, 2025 before Nov 8, 2025, then the market resolves to Yes.\nEach unique song title counts only once regardless of weeks on chart or re-entries. Different versions with distinct titles (acoustic, remix) count separately. Songs from before issuance that re-enter during the contract period count toward the total. Collaborations where the artist shares equal billing or is featured count. Songs count only if the artist is credited as primary or featured performer, not as producer/songwriter. Only positions within the chart's standard range qualify (e.g., 1-100 for Hot 100, not \"bubbling under\").",
+        "category": "Entertainment",
+        "close_time": "2025-11-03T19:34:50.70919Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXSONGCHARTTSWIFT",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1430,
+      "row": {
+        "id": "KXRANKLISTSONGTHRILLER",
+        "question": "Will Thriller by Michael Jackson be in the Top 10 on Billboard Hot 100 Chart for the week of November 8, 2025?",
+        "description": "If Thriller by Michael Jackson is in the Top 10 on the Billboard Hot 100 Chart for the week of November 8, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-03T19:32:52.539322Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXRANKLISTSONGTHRILLER",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1431,
+      "row": {
+        "id": "KXMIRANMENTION",
+        "question": "What will Stephen Miran say during speech at the BCVC Summit 2025?",
+        "description": "If Stephen Miran says Trump as part of speech at the BCVC Summit 2025, then the market resolves to Yes.\nVideo of the speech at the BCVC Summit 2025 will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the speech at the BCVC Summit 2025 will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details. For the purpose of this market, Q&A will count.",
+        "category": "Mentions",
+        "close_time": "2025-11-07T21:18:54.209111Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXMIRANMENTION",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1432,
+      "row": {
+        "id": "KXMIRANMENTION",
+        "question": "What will Stephen Miran say during speech at the BCVC Summit 2025?",
+        "description": "If Stephen Miran says Token / Tokenization as part of speech at the BCVC Summit 2025, then the market resolves to Yes.\nVideo of the speech at the BCVC Summit 2025 will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the speech at the BCVC Summit 2025 will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details. For the purpose of this market, Q&A will count.",
+        "category": "Mentions",
+        "close_time": "2025-11-07T21:19:34.742104Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXMIRANMENTION",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1433,
+      "row": {
+        "id": "KXHEGSETHMENTION",
+        "question": "What will Pete Hegseth say during remarks at the National Defense University on November 7th?",
+        "description": "If Pete Hegseth says DEI as part of remarks at the National Defense University on November 7th, then the market resolves to Yes.\nVideo of the remarks at the National Defense University on November 7th will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the remarks at the National Defense University on November 7th will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details. If this event is not opened to the press for a live televised or streamed event this market will resolve to no.",
+        "category": "Mentions",
+        "close_time": "2025-11-07T21:41:35.662555Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXHEGSETHMENTION",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1434,
+      "row": {
+        "id": "KXHEGSETHMENTION",
+        "question": "What will Pete Hegseth say during remarks at the National Defense University on November 7th?",
+        "description": "If Pete Hegseth says Common Sense as part of remarks at the National Defense University on November 7th, then the market resolves to Yes.\nVideo of the remarks at the National Defense University on November 7th will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the remarks at the National Defense University on November 7th will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details. If this event is not opened to the press for a live televised or streamed event this market will resolve to no.",
+        "category": "Mentions",
+        "close_time": "2025-11-07T21:41:52.811409Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXHEGSETHMENTION",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1435,
+      "row": {
+        "id": "KXGRAMMYNOMSOTY",
+        "question": "2026 Grammy nominees for Song of the Year?",
+        "description": "If True Believer has been nominated for Song of the Year at the 68th Grammy Awards, then the market resolves to Yes.",
+        "category": "Entertainment",
+        "close_time": "2025-11-07T17:06:19.071187Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXGRAMMYNOMSOTY",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1436,
+      "row": {
+        "id": "KXGRAMMYNOMSOTY",
+        "question": "2026 Grammy nominees for Song of the Year?",
+        "description": "If Messy has been nominated for Song of the Year at the 68th Grammy Awards, then the market resolves to Yes.",
+        "category": "Entertainment",
+        "close_time": "2025-11-07T17:06:09.918675Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXGRAMMYNOMSOTY",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1437,
+      "row": {
+        "id": "KXGRAMMYNOMNAOTY",
+        "question": "2026 Grammy nominees for New Artist?",
+        "description": "If KATSEYE has been nominated for Best New Artist at the 68th Grammy Awards, then the market resolves to Yes.",
+        "category": "Entertainment",
+        "close_time": "2025-11-07T17:15:45.481243Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXGRAMMYNOMNAOTY",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1438,
+      "row": {
+        "id": "KXGRAMMYNOMNAOTY",
+        "question": "2026 Grammy nominees for New Artist?",
+        "description": "If The Marías has been nominated for Best New Artist at the 68th Grammy Awards, then the market resolves to Yes.",
+        "category": "Entertainment",
+        "close_time": "2025-11-07T17:14:20.800513Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXGRAMMYNOMNAOTY",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1439,
+      "row": {
+        "id": "KXFEDGOVMENTION",
+        "question": "What will Philip Jefferson say during speech at Euro20+?",
+        "description": "If Philip Jefferson says Stock Market as part of speech at Euro20+, then the market resolves to Yes.\nVideo of the speech at Euro20+ will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the speech at Euro20+ will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details. For the purpose of this market, Q&A will count.",
+        "category": "Mentions",
+        "close_time": "2025-11-07T21:16:43.745014Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXFEDGOVMENTION",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1440,
+      "row": {
+        "id": "KXFEDGOVMENTION",
+        "question": "What will Philip Jefferson say during speech at Euro20+?",
+        "description": "If Philip Jefferson says Robot / Robotic as part of speech at Euro20+, then the market resolves to Yes.\nVideo of the speech at Euro20+ will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the speech at Euro20+ will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details. For the purpose of this market, Q&A will count.",
+        "category": "Mentions",
+        "close_time": "2025-11-07T21:15:48.791284Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXFEDGOVMENTION",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1441,
+      "row": {
+        "id": "KXBIDENNEBRASKA",
+        "question": "Will Joe Biden visit Nebraska before Nov 8, 2025?",
+        "description": "If Joe Biden has physically travelled to and been present within the geographic boundaries of Nebraska before Nov 8, 2025, then the market resolves to Yes.\nPhysical presence within the geographic boundaries is required - flying over without landing, airport layovers where the person remains in the airplane or airport, virtual appearances, presence in international waters, or presence solely within embassy/consulate grounds do NOT count as visits. For cities, official municipal boundaries apply. For states/provinces, official boundaries apply. For countries, internationally recognized borders apply. International airports are considered within their host jurisdiction. Evidence must be reported by at least one Source Agency and may include official announcements, news reports with specific location details, verified photographs/videos at identifiable locations, flight records showing arrival, completed official schedules, or social media posts from official accounts. Visits that began before market issuance do not count. For multiple locations with OR logic, visiting any single location satisfies the criterion. For AND logic, all locations must be visited.",
+        "category": "World",
+        "close_time": "2025-11-08T05:21:11.489781Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXBIDENNEBRASKA",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1442,
+      "row": {
+        "id": "KXBIDENMENTION",
+        "question": "What will Joe Biden say during Ben Nelson Gala on November 7th?",
+        "description": "If Joe Biden says King as part of Ben Nelson Gala on November 7th, then the market resolves to Yes.\nVideo of the Ben Nelson Gala on November 7th will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the Ben Nelson Gala on November 7th will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details. If this event is not opened to the press for a live televised or streamed event this market will resolve to no.",
+        "category": "Mentions",
+        "close_time": "2025-11-08T15:00:00Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXBIDENMENTION",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1443,
+      "row": {
+        "id": "KXBIDENMENTION",
+        "question": "What will Joe Biden say during Ben Nelson Gala on November 7th?",
+        "description": "If Joe Biden says China as part of Ben Nelson Gala on November 7th, then the market resolves to Yes.\nVideo of the Ben Nelson Gala on November 7th will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the Ben Nelson Gala on November 7th will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details. If this event is not opened to the press for a live televised or streamed event this market will resolve to no.",
+        "category": "Mentions",
+        "close_time": "2025-11-08T15:00:00Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXBIDENMENTION",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1444,
+      "row": {
+        "id": "KXEOWEEK",
+        "question": "Will the President sign above 0 Executive Orders between Oct 19, 2025 and Oct 25, 2025?",
+        "description": "If the President signs above 0 Executive Orders during Oct 19, 2025 to Oct 25, 2025, then the market resolves to Yes.\nAn Executive Order must be formally titled \"Executive Order\" followed by a number, signed by the President, and published in the Federal Register. Presidential Memoranda, Proclamations, Determinations, and other executive actions that are not formally numbered Executive Orders do not count. The signing date as recorded in the Federal Register determines which period an Executive Order belongs to, using ET timezone. Classified Executive Orders count if acknowledged by number. Executive Orders that are later revoked still count for the period they were signed. The Federal Register is the primary source; alternative sources are used only if the Federal Register explicitly states data is incomplete.",
+        "category": "Politics",
+        "close_time": "2025-10-26T03:59:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXEOWEEK",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1445,
+      "row": {
+        "id": "KXWTAMATCH",
+        "question": "Will Aryna Sabalenka win the Sabalenka vs Rybakina match?",
+        "description": "If Aryna Sabalenka wins the Sabalenka vs Rybakina professional tennis match in the 2025 WTA Finals Women Singles Final after a ball has been played, then the market resolves to Yes.\nThe following market refers to the Sabalenka vs Rybakina professional tennis match in the 2025 WTA Finals Women Singles Final after a ball has been played. If the match does not occur (signaled by a ball being played) due to a player injury, walkover, forfeiture, or any other cancellation (all before the match starts), the market will resolve to a fair price in accordance with the rules. If this match is postponed or delayed, the market will remain open and close after the rescheduled match has finished (within two weeks).",
+        "category": "Sports",
+        "close_time": "2025-11-08T18:04:41.279412Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXWTAMATCH",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1446,
+      "row": {
+        "id": "KXWTAMATCH",
+        "question": "Will Elena Rybakina win the Sabalenka vs Rybakina match?",
+        "description": "If Elena Rybakina wins the Sabalenka vs Rybakina professional tennis match in the 2025 WTA Finals Women Singles Final after a ball has been played, then the market resolves to Yes.\nThe following market refers to the Sabalenka vs Rybakina professional tennis match in the 2025 WTA Finals Women Singles Final after a ball has been played. If the match does not occur (signaled by a ball being played) due to a player injury, walkover, forfeiture, or any other cancellation (all before the match starts), the market will resolve to a fair price in accordance with the rules. If this match is postponed or delayed, the market will remain open and close after the rescheduled match has finished (within two weeks).",
+        "category": "Sports",
+        "close_time": "2025-11-08T18:04:41.279412Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXWTAMATCH",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1447,
+      "row": {
+        "id": "KXMLBSERIESEXACT",
+        "question": "Will the series result in Toronto win 4-3 in the Los Angeles D vs Toronto Series (Starting Oct 24)",
+        "description": "If the professional baseball Los Angeles D vs Toronto Series starting October 24, 2025 results in the following series record: Toronto win 4-3, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-02T04:35:31.987862Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXMLBSERIESEXACT",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1448,
+      "row": {
+        "id": "KXMLBSERIESEXACT",
+        "question": "Will the series result in Toronto win 4-2 in the Los Angeles D vs Toronto Series (Starting Oct 24)",
+        "description": "If the professional baseball Los Angeles D vs Toronto Series starting October 24, 2025 results in the following series record: Toronto win 4-2, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-02T04:35:31.987862Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXMLBSERIESEXACT",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1449,
+      "row": {
+        "id": "KXZIWEMENTION",
+        "question": "What will Eric Adams say during interview with Ziwe Fumudoh?",
+        "description": "If Eric Adams says Zohran / Mamdani as part of interview with Ziwe Fumudoh, then the market resolves to Yes.\nVideo of the interview with Ziwe Fumudoh will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the interview with Ziwe Fumudoh will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details. For the purpose of this market, additional clips or recordings not included in the original release of the interview will not count.",
+        "category": "Mentions",
+        "close_time": "2025-11-07T15:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXZIWEMENTION",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1450,
+      "row": {
+        "id": "KXZIWEMENTION",
+        "question": "What will Eric Adams say during interview with Ziwe Fumudoh?",
+        "description": "If Eric Adams says Wall Street as part of interview with Ziwe Fumudoh, then the market resolves to Yes.\nVideo of the interview with Ziwe Fumudoh will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the interview with Ziwe Fumudoh will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details. For the purpose of this market, additional clips or recordings not included in the original release of the interview will not count.",
+        "category": "Mentions",
+        "close_time": "2025-11-07T15:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXZIWEMENTION",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1451,
+      "row": {
+        "id": "KXVOTEHUBTRUMPUPDOWN",
+        "question": "Will Trump's approval rating increase this week?",
+        "description": "If the VoteHub time-adjusted average for Donald Trump's approval rating is above 43.8% at 10:00 AM November 7, then the market resolves to Yes.\nThe market resolves based on the VoteHub time-adjusted average displayed at 10:00 AM ET on November 7. The value must match exactly as displayed on VoteHub's platform, including subject name formatting. Values are compared using one decimal place precision. If VoteHub doesn't display data for the specified date, the most recent prior time-adjusted average is used. Only the time-adjusted average counts, not raw polling averages.",
+        "category": "Politics",
+        "close_time": "2025-11-07T04:59:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXVOTEHUBTRUMPUPDOWN",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1452,
+      "row": {
+        "id": "KXTBPNMENTION",
+        "question": "What will Vladimir Tenev say during TBPN Podcast on November 6th?",
+        "description": "If Vladimir Tenev says Token / Tokenization as part of TBPN Podcast on November 6th, then the market resolves to Yes.\nVideo of the TBPN Podcast on November 6th will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the TBPN Podcast on November 6th will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details. Previous clips or recordings aired during the livestream will not count.",
+        "category": "Mentions",
+        "close_time": "2025-11-07T15:00:00Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXTBPNMENTION",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1453,
+      "row": {
+        "id": "KXTBPNMENTION",
+        "question": "What will Vladimir Tenev say during TBPN Podcast on November 6th?",
+        "description": "If Vladimir Tenev says Stock Market as part of TBPN Podcast on November 6th, then the market resolves to Yes.\nVideo of the TBPN Podcast on November 6th will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the TBPN Podcast on November 6th will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details. Previous clips or recordings aired during the livestream will not count.",
+        "category": "Mentions",
+        "close_time": "2025-11-07T15:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXTBPNMENTION",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1454,
+      "row": {
+        "id": "KXSPOTIFYSONGSTFOO",
+        "question": "The Fate of Ophelia streams by Nov 7, 2025?",
+        "description": "If The Fate of Ophelia  by Taylor Swift  has above 395 million million total streams on Spotify by Nov 7, 2025 at 10 AM ET, then the market resolves to Yes.\nTotal stream count will be determined using the Spotify desktop app at 10 AM ET, based on the exact number displayed at that time. Any updates or changes after 10 AM ET will NOT be considered.",
+        "category": "Entertainment",
+        "close_time": "2025-11-07T15:00:00Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXSPOTIFYSONGSTFOO",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1455,
+      "row": {
+        "id": "KXSPOTIFYSONGSTFOO",
+        "question": "The Fate of Ophelia streams by Nov 7, 2025?",
+        "description": "If The Fate of Ophelia  by Taylor Swift  has above 400 million million total streams on Spotify by Nov 7, 2025 at 10 AM ET, then the market resolves to Yes.\nTotal stream count will be determined using the Spotify desktop app at 10 AM ET, based on the exact number displayed at that time. Any updates or changes after 10 AM ET will NOT be considered.",
+        "category": "Entertainment",
+        "close_time": "2025-11-07T15:00:00Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXSPOTIFYSONGSTFOO",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1456,
+      "row": {
+        "id": "KXSPOTIFYSONGSOPALITE",
+        "question": "Opalite streams by Nov 7, 2025?",
+        "description": "If Opalite  by Taylor Swift  has above 275 million total streams on Spotify by Nov 7, 2025 at 10 AM ET, then the market resolves to Yes.\nTotal stream count will be determined using the Spotify desktop app at 10 AM ET, based on the exact number displayed at that time. Any updates or changes after 10 AM ET will NOT be considered.",
+        "category": "Entertainment",
+        "close_time": "2025-11-07T15:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXSPOTIFYSONGSOPALITE",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1457,
+      "row": {
+        "id": "KXSPOTIFYSONGSOPALITE",
+        "question": "Opalite streams by Nov 7, 2025?",
+        "description": "If Opalite  by Taylor Swift  has above 265 million total streams on Spotify by Nov 7, 2025 at 10 AM ET, then the market resolves to Yes.\nTotal stream count will be determined using the Spotify desktop app at 10 AM ET, based on the exact number displayed at that time. Any updates or changes after 10 AM ET will NOT be considered.",
+        "category": "Entertainment",
+        "close_time": "2025-11-07T15:00:00Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXSPOTIFYSONGSOPALITE",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1458,
+      "row": {
+        "id": "KXNADALMENTION",
+        "question": "What will Rafael Nadal say during America Business Forum?",
+        "description": "If Rafael Nadal says Clay as part of America Business Forum, then the market resolves to Yes.\nVideo of the America Business Forum will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the America Business Forum will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details. Previous clips or recordings aired during the event will not count. If this event is not opened for a live televised or streamed event this market will resolve to no.",
+        "category": "Mentions",
+        "close_time": "2025-11-07T15:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNADALMENTION",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1459,
+      "row": {
+        "id": "KXNADALMENTION",
+        "question": "What will Rafael Nadal say during America Business Forum?",
+        "description": "If Rafael Nadal says Zel / Hotel as part of America Business Forum, then the market resolves to Yes.\nVideo of the America Business Forum will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the America Business Forum will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details. Previous clips or recordings aired during the event will not count. If this event is not opened for a live televised or streamed event this market will resolve to no.",
+        "category": "Mentions",
+        "close_time": "2025-11-07T15:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNADALMENTION",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1460,
+      "row": {
+        "id": "KXGRIFFINMENTION",
+        "question": "What will Ken Griffin say during America Business Forum?",
+        "description": "If Ken Griffin says Tariff as part of America Business Forum, then the market resolves to Yes.\nVideo of the America Business Forum will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the America Business Forum will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details. Previous clips or recordings aired during the event will not count. If this event is not opened for a live televised or streamed event this market will resolve to no.",
+        "category": "Mentions",
+        "close_time": "2025-11-07T15:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXGRIFFINMENTION",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1461,
+      "row": {
+        "id": "KXGRIFFINMENTION",
+        "question": "What will Ken Griffin say during America Business Forum?",
+        "description": "If Ken Griffin says Regulation / Regulatory as part of America Business Forum, then the market resolves to Yes.\nVideo of the America Business Forum will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the America Business Forum will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details. Previous clips or recordings aired during the event will not count. If this event is not opened for a live televised or streamed event this market will resolve to no.",
+        "category": "Mentions",
+        "close_time": "2025-11-07T15:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXGRIFFINMENTION",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1462,
+      "row": {
+        "id": "KXGRAMMYNOMBRA",
+        "question": "2026 Grammy nominees for Best Rap Album?",
+        "description": "If Glorious has been nominated for Best Rap Album at the 68th Grammy Awards, then the market resolves to Yes.",
+        "category": "Entertainment",
+        "close_time": "2025-11-07T17:21:56.953894Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXGRAMMYNOMBRA",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1463,
+      "row": {
+        "id": "KXGRAMMYNOMBRA",
+        "question": "2026 Grammy nominees for Best Rap Album?",
+        "description": "If Don't Tap the Glass has been nominated for Best Rap Album at the 68th Grammy Awards, then the market resolves to Yes.",
+        "category": "Entertainment",
+        "close_time": "2025-11-07T17:21:42.515217Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXGRAMMYNOMBRA",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1464,
+      "row": {
+        "id": "KXGRAMMYNOMAOTY",
+        "question": "2026 Grammy nominees for Album of the Year?",
+        "description": "If SABLE, fABLE has been nominated for Album of the Year at the 68th Grammy Awards, then the market resolves to Yes.",
+        "category": "Entertainment",
+        "close_time": "2025-11-07T17:01:09.341229Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXGRAMMYNOMAOTY",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1465,
+      "row": {
+        "id": "KXGRAMMYNOMAOTY",
+        "question": "2026 Grammy nominees for Album of the Year?",
+        "description": "If BIG MONEY has been nominated for Album of the Year at the 68th Grammy Awards, then the market resolves to Yes.",
+        "category": "Entertainment",
+        "close_time": "2025-11-07T17:00:55.228061Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXGRAMMYNOMAOTY",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1466,
+      "row": {
+        "id": "KXDIMONMENTION",
+        "question": "What will Jamie Dimon say during America Business Forum?",
+        "description": "If Jamie Dimon says Zohran / Mamdani as part of America Business Forum, then the market resolves to Yes.\nVideo of the America Business Forum will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the America Business Forum will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details. Previous clips or recordings aired during the event will not count. If this event is not opened for a live televised or streamed event this market will resolve to no.",
+        "category": "Mentions",
+        "close_time": "2025-11-06T20:41:27.660794Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXDIMONMENTION",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1467,
+      "row": {
+        "id": "KXDIMONMENTION",
+        "question": "What will Jamie Dimon say during America Business Forum?",
+        "description": "If Jamie Dimon says Unemployment as part of America Business Forum, then the market resolves to Yes.\nVideo of the America Business Forum will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the America Business Forum will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details. Previous clips or recordings aired during the event will not count. If this event is not opened for a live televised or streamed event this market will resolve to no.",
+        "category": "Mentions",
+        "close_time": "2025-11-06T20:44:56.021738Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXDIMONMENTION",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1468,
+      "row": {
+        "id": "KXCOLBERTMENTION",
+        "question": "What will Sydney Sweeney say during The Late Show With Stephen Colbert?",
+        "description": "If Sydney Sweeney says Trump as part of The Late Show With Stephen Colbert, then the market resolves to Yes.\nVideo of the The Late Show With Stephen Colbert will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the The Late Show With Stephen Colbert will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details. This market will resolve based on what Sydney Sweeney says on the live television broadcast of The Late Show With Stephen Colbert. Additional content released or streamed online will not be encompassed by the Payout Criterion.",
+        "category": "Mentions",
+        "close_time": "2025-11-07T15:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXCOLBERTMENTION",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1469,
+      "row": {
+        "id": "KXCOLBERTMENTION",
+        "question": "What will Sydney Sweeney say during The Late Show With Stephen Colbert?",
+        "description": "If Sydney Sweeney says TikTok as part of The Late Show With Stephen Colbert, then the market resolves to Yes.\nVideo of the The Late Show With Stephen Colbert will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the The Late Show With Stephen Colbert will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details. This market will resolve based on what Sydney Sweeney says on the live television broadcast of The Late Show With Stephen Colbert. Additional content released or streamed online will not be encompassed by the Payout Criterion.",
+        "category": "Mentions",
+        "close_time": "2025-11-07T15:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXCOLBERTMENTION",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1470,
+      "row": {
+        "id": "KXCALIREDISTRICTING",
+        "question": "Will California's Redistricting referendum pass?",
+        "description": "If Proposition 50 in California passes, then the market resolves to Yes.",
+        "category": "Elections",
+        "close_time": "2025-11-07T04:29:04.199027Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXCALIREDISTRICTING",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1471,
+      "row": {
+        "id": "KXALBUMSALESSWIFT",
+        "question": "How many sales will The Life of a Showgirl have on the Hits Daily Double Top 50 Chart for Nov 07, 2025?",
+        "description": "If The Life of a Showgirl's sales, on the Hits Daily Double Top 50 Chart for Nov 07, 2025, are at least 50000, then the market resolves to Yes.\nThis event will specifically encompass the number listed under the Albums column on the Hits Daily Double’s Top 50 chart for the relevant week. If data is unavailable or partially unavailable by the Expiration date, then all affected markets resolve to No.",
+        "category": "Entertainment",
+        "close_time": "2025-11-07T04:59:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXALBUMSALESSWIFT",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1472,
+      "row": {
+        "id": "KXALBUMSALESSWIFT",
+        "question": "How many sales will The Life of a Showgirl have on the Hits Daily Double Top 50 Chart for Nov 07, 2025?",
+        "description": "If The Life of a Showgirl's sales, on the Hits Daily Double Top 50 Chart for Nov 07, 2025, are at least 5000, then the market resolves to Yes.\nThis event will specifically encompass the number listed under the Albums column on the Hits Daily Double’s Top 50 chart for the relevant week. If data is unavailable or partially unavailable by the Expiration date, then all affected markets resolve to No.",
+        "category": "Entertainment",
+        "close_time": "2025-11-07T04:59:00Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXALBUMSALESSWIFT",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1473,
+      "row": {
+        "id": "KXEARNINGSMENTIONGOOGL",
+        "question": "What will Alphabet Inc. say during their next earnings call?",
+        "description": "If Shutdown / Shut Down is said by any Alphabet Inc. representative (including the operator of the call) during the next Alphabet Inc. earnings call (including the Q+A), then the market resolves to Yes.\nVideo of the Alphabet Inc. earnings call will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the Alphabet Inc. earnings call will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details.",
+        "category": "Companies",
+        "close_time": "2025-10-30T00:55:22.241691Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXEARNINGSMENTIONGOOGL",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1474,
+      "row": {
+        "id": "KXEARNINGSMENTIONGOOGL",
+        "question": "What will Alphabet Inc. say during their next earnings call?",
+        "description": "If Wiz is said by any Alphabet Inc. representative (including the operator of the call) during the next Alphabet Inc. earnings call (including the Q+A), then the market resolves to Yes.\nVideo of the Alphabet Inc. earnings call will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the Alphabet Inc. earnings call will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details.",
+        "category": "Companies",
+        "close_time": "2025-10-30T01:03:37.726917Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXEARNINGSMENTIONGOOGL",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1475,
+      "row": {
+        "id": "KXUELGAME",
+        "question": "FC Viktoria Plzen vs Fenerbahce Istanbul Winner?",
+        "description": "If FC Viktoria Plzen wins the FC Viktoria Plzen vs Fenerbahce Istanbul professional Europa League soccer game originally scheduled for Nov 6, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.\nThe following market refers to the FC Viktoria Plzen vs Fenerbahce Istanbul professional Europa League soccer game originally scheduled for Nov 6, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties). If the game ends in a tie, the market called \"Tie\" resolves to Yes. If the game is cancelled or rescheduled to over two weeks away, the market will resolve to a fair price in accordance with the rules.",
+        "category": "Sports",
+        "close_time": "2025-11-06T22:06:33.142482Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXUELGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1476,
+      "row": {
+        "id": "KXUELGAME",
+        "question": "FC Viktoria Plzen vs Fenerbahce Istanbul Winner?",
+        "description": "If Tie wins the FC Viktoria Plzen vs Fenerbahce Istanbul professional Europa League soccer game originally scheduled for Nov 6, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.\nThe following market refers to the FC Viktoria Plzen vs Fenerbahce Istanbul professional Europa League soccer game originally scheduled for Nov 6, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties). If the game ends in a tie, the market called \"Tie\" resolves to Yes. If the game is cancelled or rescheduled to over two weeks away, the market will resolve to a fair price in accordance with the rules.",
+        "category": "Sports",
+        "close_time": "2025-11-06T22:06:33.142482Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXUELGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1477,
+      "row": {
+        "id": "KXUECLGAME",
+        "question": "Shkendija Tetovo vs Jagiellonia Bialystok Winner?",
+        "description": "If Tie wins the Shkendija Tetovo vs Jagiellonia Bialystok professional Conference League soccer game originally scheduled for Nov 6, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.\nThe following market refers to the Shkendija Tetovo vs Jagiellonia Bialystok professional Conference League soccer game originally scheduled for Nov 6, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties). If the game ends in a tie, the market called \"Tie\" resolves to Yes. If the game is cancelled or rescheduled to over two weeks away, the market will resolve to a fair price in accordance with the rules.",
+        "category": "Sports",
+        "close_time": "2025-11-06T22:11:21.457909Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXUECLGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1478,
+      "row": {
+        "id": "KXUECLGAME",
+        "question": "Shkendija Tetovo vs Jagiellonia Bialystok Winner?",
+        "description": "If Shkendija Tetovo wins the Shkendija Tetovo vs Jagiellonia Bialystok professional Conference League soccer game originally scheduled for Nov 6, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.\nThe following market refers to the Shkendija Tetovo vs Jagiellonia Bialystok professional Conference League soccer game originally scheduled for Nov 6, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties). If the game ends in a tie, the market called \"Tie\" resolves to Yes. If the game is cancelled or rescheduled to over two weeks away, the market will resolve to a fair price in accordance with the rules.",
+        "category": "Sports",
+        "close_time": "2025-11-06T22:11:21.457909Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXUECLGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1479,
+      "row": {
+        "id": "KXSCOTUSMENTION",
+        "question": "What will any Supreme Court Justice say during Supreme Court cases against Donald Trump on November 5th?",
+        "description": "If any Supreme Court Justice says Worker as part of Supreme Court cases against Donald Trump on November 5th, then the market resolves to Yes.\nVideo of the Supreme Court cases against Donald Trump on November 5th will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the Supreme Court cases against Donald Trump on November 5th will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details.",
+        "category": "Mentions",
+        "close_time": "2025-11-06T15:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXSCOTUSMENTION",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1480,
+      "row": {
+        "id": "KXSCOTUSMENTION",
+        "question": "What will any Supreme Court Justice say during Supreme Court cases against Donald Trump on November 5th?",
+        "description": "If any Supreme Court Justice says Trillion as part of Supreme Court cases against Donald Trump on November 5th, then the market resolves to Yes.\nVideo of the Supreme Court cases against Donald Trump on November 5th will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the Supreme Court cases against Donald Trump on November 5th will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details.",
+        "category": "Mentions",
+        "close_time": "2025-11-06T15:00:00Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXSCOTUSMENTION",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1481,
+      "row": {
+        "id": "KXNYCCOUNCIL8",
+        "question": "Who will win the NYC City Council election in District 8?",
+        "description": "If Wilfredo Lopez wins the New York City Counil race for District 8 in 2025, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-11-07T17:13:15.085625Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNYCCOUNCIL8",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1482,
+      "row": {
+        "id": "KXNYCCOUNCIL8",
+        "question": "Who will win the NYC City Council election in District 8?",
+        "description": "If Rosa Diaz wins the New York City Counil race for District 8 in 2025, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-11-07T17:13:15.085625Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNYCCOUNCIL8",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1483,
+      "row": {
+        "id": "KXMLBSERIESGAMETOTAL",
+        "question": "Pro Baseball Championship: Total Games Played in Series",
+        "description": "If the 2025 Pro Baseball Championship Series results in at least 7 games played, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-01T03:36:16.733292Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXMLBSERIESGAMETOTAL",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1484,
+      "row": {
+        "id": "KXMLBSERIESGAMETOTAL",
+        "question": "Pro Baseball Championship: Total Games Played in Series",
+        "description": "If the 2025 Pro Baseball Championship Series results in at least 6 games played, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-10-29T15:07:26.175347Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXMLBSERIESGAMETOTAL",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1485,
+      "row": {
+        "id": "KXCUOMOMENTION",
+        "question": "What will Andrew Cuomo say during victory / concession speech?",
+        "description": "If Andrew Cuomo says Father / Mario Cuomo as part of victory / concession speech, then the market resolves to Yes.\nVideo of the victory / concession speech will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the victory / concession speech will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details. For the purpose of this market, the event will count as both a victory or concession speech.",
+        "category": "Mentions",
+        "close_time": "2025-11-05T14:46:56.273597Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXCUOMOMENTION",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1486,
+      "row": {
+        "id": "KXCUOMOMENTION",
+        "question": "What will Andrew Cuomo say during victory / concession speech?",
+        "description": "If Andrew Cuomo says Trump as part of victory / concession speech, then the market resolves to Yes.\nVideo of the victory / concession speech will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the victory / concession speech will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details. For the purpose of this market, the event will count as both a victory or concession speech.",
+        "category": "Mentions",
+        "close_time": "2025-11-05T14:47:13.216419Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXCUOMOMENTION",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1487,
+      "row": {
+        "id": "KXMCMORTALKOMBAT",
+        "question": "Mortal Kombat: Legacy Kollection Metacritic score?",
+        "description": "If the Metascore for Mortal Kombat: Legacy Kollection is above 94 seven days after release at 10:00AM ET, then the market resolves to Yes.\nUPDATE 4/29/25: We have filed an amendment effective 5/12, that will extend the determination date to seven days after release, from three days out previously.",
+        "category": "Entertainment",
+        "close_time": "2025-11-06T14:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXMCMORTALKOMBAT",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1488,
+      "row": {
+        "id": "KXMCMORTALKOMBAT",
+        "question": "Mortal Kombat: Legacy Kollection Metacritic score?",
+        "description": "If the Metascore for Mortal Kombat: Legacy Kollection is above 89 seven days after release at 10:00AM ET, then the market resolves to Yes.\nUPDATE 4/29/25: We have filed an amendment effective 5/12, that will extend the determination date to seven days after release, from three days out previously.",
+        "category": "Entertainment",
+        "close_time": "2025-11-06T14:00:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXMCMORTALKOMBAT",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1489,
+      "row": {
+        "id": "KXUCLTOTAL",
+        "question": "Atalanta at Marseille: Totals",
+        "description": "If Atalanta and Marseille collectively score more than 3.5 total goals in the Atalanta at Marseille UCL soccer match originally scheduled for Nov 5, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-05T22:11:16.661126Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXUCLTOTAL",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1490,
+      "row": {
+        "id": "KXUCLTOTAL",
+        "question": "Atalanta at Marseille: Totals",
+        "description": "If Atalanta and Marseille collectively score more than 2.5 total goals in the Atalanta at Marseille UCL soccer match originally scheduled for Nov 5, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-05T22:11:16.514543Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXUCLTOTAL",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1491,
+      "row": {
+        "id": "KXUCLSPREAD",
+        "question": "Marseille wins by over 2.5 goals?",
+        "description": "If Marseille wins by more than 2.5 goals in the Atalanta at Marseille UCL soccer match originally scheduled for Nov 5, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-05T22:16:52.68127Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXUCLSPREAD",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1492,
+      "row": {
+        "id": "KXUCLSPREAD",
+        "question": "Marseille wins by over 1.5 goals?",
+        "description": "If Marseille wins by more than 1.5 goals in the Atalanta at Marseille UCL soccer match originally scheduled for Nov 5, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-05T22:16:52.553277Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXUCLSPREAD",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1493,
+      "row": {
+        "id": "KXUCLGAME",
+        "question": "Marseille vs Atalanta Winner?",
+        "description": "If Tie wins the Marseille vs Atalanta professional UCL soccer game originally scheduled for Nov 5, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.\nThe following market refers to the Marseille vs Atalanta professional UCL soccer game originally scheduled for Nov 5, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties). If the game ends in a tie, the market called \"Tie\" resolves to Yes. If the game is cancelled or rescheduled to over two weeks away, the market will resolve to a fair price in accordance with the rules.",
+        "category": "Sports",
+        "close_time": "2025-11-05T22:07:44.473051Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXUCLGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1494,
+      "row": {
+        "id": "KXUCLGAME",
+        "question": "Marseille vs Atalanta Winner?",
+        "description": "If Marseille wins the Marseille vs Atalanta professional UCL soccer game originally scheduled for Nov 5, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.\nThe following market refers to the Marseille vs Atalanta professional UCL soccer game originally scheduled for Nov 5, 2025 after 90 minutes plus stoppage time (does not include extra time or penalties). If the game ends in a tie, the market called \"Tie\" resolves to Yes. If the game is cancelled or rescheduled to over two weeks away, the market will resolve to a fair price in accordance with the rules.",
+        "category": "Sports",
+        "close_time": "2025-11-05T22:07:44.473051Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXUCLGAME",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1495,
+      "row": {
+        "id": "KXUCLBTTS",
+        "question": "Atalanta at Marseille: Both Teams to Score",
+        "description": "If Atalanta and Marseille both score goals in the Atalanta at Marseille UCL match originally scheduled for Nov 5, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-05T22:11:10.897495Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXUCLBTTS",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1496,
+      "row": {
+        "id": "KXUCLBTTS",
+        "question": "Bilbao at Newcastle: Both Teams to Score",
+        "description": "If Bilbao and Newcastle both score goals in the Bilbao at Newcastle UCL match originally scheduled for Nov 5, 2025, then the market resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-05T22:11:14.125979Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXUCLBTTS",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1497,
+      "row": {
+        "id": "KXPUBLICADV",
+        "question": "Will Jenifer Rajkumar be elected to be NYC Public Advocate in 2025?",
+        "description": "If Jenifer Rajkumar is elected to Public Advocate in New York City in 2025, then the market resolves to Yes.",
+        "category": "Elections",
+        "close_time": "2025-07-23T22:23:15.402955Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXPUBLICADV",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1498,
+      "row": {
+        "id": "KXPUBLICADV",
+        "question": "Will Calvin Sun be elected to be NYC Public Advocate in 2025?",
+        "description": "If Calvin Sun is elected to Public Advocate in New York City in 2025, then the market resolves to Yes.",
+        "category": "Elections",
+        "close_time": "2025-07-23T22:23:15.402955Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXPUBLICADV",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1499,
+      "row": {
+        "id": "KXNYCCOUNCIL4",
+        "question": "Who will win the NYC City Council election in District 4?",
+        "description": "If Vanessa Aronson wins the New York City Counil race for District 4 in 2025, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-11-07T17:12:49.335584Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNYCCOUNCIL4",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    }
+  ],
+  "num_rows_total": 1531,
+  "num_rows_per_page": 100,
+  "partial": false
+}

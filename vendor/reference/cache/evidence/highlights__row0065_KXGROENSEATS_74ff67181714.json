@@ -1,0 +1,100 @@
+{
+  "question_id": "KXGROENSEATS",
+  "question_text": "Will GroenLinks\u2013PvdA win below 20 seats in 2025 Dutch general election?",
+  "resolution_criteria": "If GroenLinks\u2013PvdA has won below 20 seats in 2025 Dutch general election, then the market resolves to Yes.\nA seat is considered \"won\" when a candidate affiliated with the specified party has been declared elected by the relevant electoral authority and either the time for legal challenges has expired, challenges have been resolved, or the member has taken their seat. Party affiliation is determined by the party under whose banner the candidate was elected, regardless of subsequent changes. The count is determined when the new legislature takes their seats, even if some seats remain vacant or challenged. If the election is postponed beyond one year from the original date or cancelled entirely, the market resolves to the last fair market price. Only seats actually contested and filled are counted in partial elections. By-elections after the main election are included only if seated simultaneously with the rest of the legislature.",
+  "resolution_date": "2025-11-07T22:19:40.318666Z",
+  "retrieval_timestamp": "2026-02-21T23:00:32.324061Z",
+  "query_used": "What is the result of this question \"Will GroenLinks\u2013PvdA win below 20 seats in 2025 Dutch general election\"",
+  "sources": [
+    {
+      "title": "GroenLinks-PvdA overtakes Wilders\u2019 PVV in Dutch poll for first time since election",
+      "url": "https://nltimes.nl/2025/04/28/groenlinks-pvda-overtakes-wilders-pvv-dutch-poll-first-time-since-election",
+      "published_date": "2025-04-28T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "GroenLinks-PvdA \n Geert Wilders Pieter Omtzigt \n Nieuw Sociaal Contract \n opinion poll \n\u00bbMore tags\u00ab Less tags Monday, 28 April 2025 - 11:20\n## Share this:\n # GroenLinks-PvdA overtakes Wilders\u2019 PVV in Dutch poll for first time since election Geert Wilders\u2019 far-right PVV has lost its lead in the latest Dutch opinion poll for the first time since the general election 18 months ago, according to new data released by Maurice de Hond through his Peil.nl survey panel. The poll, conducted over the weekend following the agreement on the Voorjaarsnota 2025 on April 16, shows that the left-wing opposition party GroenLinks-PvdA has surpassed the PVV, securing 29 seats, one more than Wilders\u2019 party. The VVD, one of the current coalition partners, stands in third place with 26 seats. Wilders\u2019 PVV, which currently holds 37 seats in the Tweede Kamer, has now dropped by a total of eight seats in projected support. Pollster Maurice de Hond noted that public opinion had shifted significantly since February, when the PVV held an eight-seat advantage over its nearest rivals. Since then, the PVV has declined by four seats, while GroenLinks-PvdA and ... GroenLinks-PvdA. ... ] \n VVD climbing in the polls, support for PVV, BBB faltering \n \nImage ... \n Only 16% of voters still have confidence in Dutch Cabinet \n[\nImage GroenLinks-PvdA leader Frans Timmermans speaking in the first parliamentary debate with the Schoof I Cabinet, 3 July ... \n[GL-PvdA might"
+      ]
+    },
+    {
+      "title": "Support for VVD and GroenLinks\u2013PvdA leaders plummets ahead of elections",
+      "url": "https://nltimes.nl/2025/10/15/support-vvd-groenlinks-pvda-leaders-plummets-ahead-elections",
+      "published_date": "2025-10-15T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Less tags Wednesday, 15 October 2025 - 07:00\n## Share this: # Support for VVD and GroenLinks\u2013PvdA leaders plummets ahead of elections A large share of voters appear to be turning away from their party leaders ahead of the upcoming elections. According to a poll by Ipsos I&O for Nieuwsuur, roughly two-thirds of VVD and GroenLinks\u2013PvdA supporters do not plan to vote for their party\u2019s top candidate. Support for VVD leader Dilan Ye\u015filg\u00f6z has dropped sharply, with only 36 percent of the ... GroenLinks\u2013PvdA has also seen a drop in support for its lead candidate, falling from 46 to 32 percent. Political analyst Arjan Noorlander attributes this partly to the merger between GroenLinks and the PvdA. \u201cFor many voters, ... The history of Dutch politics shows that an unpopular lead candidate can face serious repercussions. In the 2006 ... weaken if the VVD suffers a major loss of seats. The poll also showed that voters don\u2019t necessarily pick the lead candidate out of personal admiration or tactical ... implying that the current lack of popularity largely mirrors how little these leaders resonate with their base. The Tweede Kamer elections, for the lower house of Dutch parliament, will be held on October 29.\n## More like this\n[ Image\n Poster urging Amsterdam residents to vote in the parliamentary election on 29 October 2025 ... ![A pre-fabricated residential space being lifted over a poster for the 2025 parliamentary election to be placed as an ... * [CDA leader Henri Bontenbal says D66, CDA, V"
+      ]
+    },
+    {
+      "title": "DutchNews.nl - DutchNews.nl brings daily news from The Netherlands in English",
+      "url": "https://www.dutchnews.nl/2025/09/cda-inch-ahead-of-groenlinks-pvda-in-latest-election-poll/",
+      "published_date": "2025-09-04T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "# CDA inch ahead of GroenLinks-PvdA in latest election poll\nSeptember 4, 2025 New elections loom. Photo: Dutch News Another new opinion poll has pointed to the decline in support for the right-wing Liberal VVD, while again showing a ... The Ipsos I&O poll says the far-right PVV is set to be the largest party, with around 30 seats in the 150-seat parliament \u2013or 20% of the vote. In second place is the CDA, led by Henri Bontenbal, which voters describe as a \u201cdecent, trustworthy, stable centre ... The poll puts the CDA in second place with 25 seats, the first time since 2006 that the party has ranked in the top two. Support for the GroenLinks-PvdA alliance is down slightly at 23 seats. The Ipsos I&O poll suggests the VVD may win just 15 seats, down 10 on its current total. The party\u2019s fortunes have ... \u201cMuch is still unclear,\u201d Tom Louwerse, who compiles the Peilingwijzer poll of polls, told broadcaster NOS . ... The latest edition of the poll of polls, which combines the results of the Ipsos and EenVandaag rankings, still has the GroenLinks-PvdA alliance slightly ahead of the CDA. The fifth party in the current poll of poll ranking is D66 on 10 to 12 seats, followed by the far-right group JA21 and ... ###### Thank you for donating to DutchNews.nl."
+      ]
+    },
+    {
+      "title": "CDA still climbing in the polls, now equal with GL-PvdA; VVD still losing support",
+      "url": "https://nltimes.nl/2025/09/04/cda-still-climbing-polls-now-equal-gl-pvda-vvd-still-losing-support",
+      "published_date": "2025-09-04T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "2025 parliamentary election parliamentary election \n poll \n\u00bbMore tags\u00ab Less tags\nThursday, 4 September 2025 - 08:16 ... # CDA still climbing in the polls, now equal with GL-PvdA; VVD still losing support With two months to go before the parliamentary election on October 29, the CDA is continuing its steady climb in the polls while the VVD continues to decline . According to the Peilingwijzer, Henri Bontenbal\u2019s Christian Democrats are now about equal to GroenLinks-PvdA, while Dilan Ye\u015filg\u00f6z\u2019s Liberals have dropped well below the 20-seat mark. The Peilingwijzer is a weighted average of the polls by Ipsos I&O and Verian/EenVandaag by political scientist Tom ... The VVD now stands at 14 to 18 seats, a loss of about 8 compared to its current seats in the Tweede Kamer, the lower ... identified him as a favorite for the position among even non-CDA voters. At 22 to 26 seats, the CDA is now about evenly matched with GroenLinks-PvdA, which has 23 to 27 seats. The PVV remains ... again, so that other parties can\u2019t ignore them. The question is whether that hope will remain until election time. The VVD and CDA have already ruled out working with the PVV in the next Cabinet, and a team-up between the far-right party and leftwing GroenLinks-PvdA"
+      ]
+    },
+    {
+      "title": "VVD drops further in the polls; Now about equal to D66, JA21",
+      "url": "https://nltimes.nl/2025/09/18/vvd-drops-polls-now-equal-d66-ja21",
+      "published_date": "2025-09-18T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "VD leader Dilan Ye\u015filg\u00f6z during a parliamentary debate ostensibly about the national budget, but really about the ... Politics \n 2025 parliamentary election \n Ipsos I&O \n poll \n VVD d66 \n JA21 \n NSC \n 50Plus \n GroenLinks-PvdA \n PVV CDA \n\u00bbMore tags\u00ab Less tags\nThursday, 18 September 2025 - 07:38\n## Share this: # VVD drops further in the polls; Now about equal to D66, JA21 The VVD, D66, and JA21 are converging in terms of seats in a new Ipsos I&O poll. The three liberal parties are now roughly equal, with the VVD down to 14 seats in the poll (currently 24 in parliament). The social-liberal D66 is up to ... It is also noteworthy that the NSC is polling at zero seats for the first time and may disappear from the Tweede Kamer, ... Geert Wilders\u2019 PVV remains by far the largest party with 32 seats in the poll (currently 27 seats in parliament), followed by the CDA (24, now 5), and GroenLinks-PvdA (23, now 25 in parliament). The polling agency also looked at undecided voters. A month and a half before the previous parliamentary election in November 2023, more people were already (almost) certain of who they would vote for. Back then, 30 percent already had ... JA21. They consider it undemocratic. Voters of GroenLiks-PvdA, CDA, and D66 consider it acceptable if there\u2019s a good reason. VVD leader Dilan Ye\u015filg\u00f6z\u2019s decision not to govern again with the PVV divides her voters: 30 percent support ... The survey was conducted in collaboration with Pauw & De Wit and included 2,228 Dutch voters.\n*Reporting by ANP* ... * [CDA leader Henri Bontenbal says D66, CDA, VVD, and JA21 likely to form"
+      ]
+    },
+    {
+      "title": "",
+      "url": "https://media.marketnews.com/MNIPOLITICALRISK_Netherlands_Election_Preview_Oct25_add1c6bd94.pdf",
+      "published_date": "2025-10-28T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "seats won in 2023 election. Those with party names underlined were ... \u2022 Party for Freedom (Partij voor de Vrijheid) \u2013 PVV \u2013 Right-wing, populist, eurosceptic \u2013 Lead Candidate (Lijsttrekker): Geert Wilders \u2013 Founded: 2006 \u2013 2023 Vote Share \n23.4% \u2013 2023 Seats: 37/150 \u2022 GreenLeft-Labour Party (GroenLinks-Partij van de Arbeid) \u2013 GL-PvdA \u2013Centre-left, social democracy, environmentalism, republicanism, progressive \u2013 Lead Candidate: Frans Timmermans \u2013 Founded: 1989 (GL), 1946 (PvdA) \u2013 2023 Vote Share: 15.8% \u2013\n2023 Seats: 25/150 \u2022 People\u2019s Party for Freedom and Democracy (Volkspartij voor Vrijheid en ... to divvy out seats, meaning a threshold of 0.67% of the nationwide vote (1/150th of the vote) ... \u2022 After it collapsed the previous government, the main parties of the centre-left (PvdA\u0002GL), centre (CDA, D66), and ... No Workable Coalition, Another Snap Election Required \u2013 5% Probability \u2022 Given the large number of parties likely to win representation in the election (anywhere from 16 to 18 is likely), combined with the prospect even the top four ... coalition government will be formed. \n\u2022 However, we place this as a wildcard outcome. Dutch politics is used to the ... Source: I&O Research, Peil.nl, Ipsos, Kantar, TNS, GfK, MNI. N.b. Dashed line indicates 76 seats required for a majority. ... Volt JA21 SGP DENK\nBBB PvdA-GL NSC 50+\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100 Mar-23 Jun-23 Oct-23 Jan-24 Apr-24 Jul-24 Nov-24 Feb-25 May-25 Aug-25 Grand Coalition - GL-PvdA, D66, CDA, VVD Right-Wing - PVV, VVD, JA21, BBB ... Chart 6. Predictions Market Implied Probability, Party to Win Most Seats in Legislative \nElection, %\nSource: Polymarket Analyst Views\nABN AMRO\n\u2022 Political turmoil has characterized Dutch politics recently. For example, since 2020 ... importance as theme this election. Possibly one reason why the CDA, who \ncampaigns on this, has surged in the polls. ... CDA\u2019s Bontenbal as Prime Minister, rather than under GL-PvdA\u2019s Timmermans. \u2022 \u2026"
+      ]
+    },
+    {
+      "title": "Opinion polling for the 2025 Dutch general election",
+      "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2025_Dutch_general_election",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "polling for the 2025 Dutch general election\n2 languages\n* Nederlands \n* Ze\u00eauws ... In the run-up to the 2025 Dutch general election , various organisations are carrying out opinion polling to gauge voting intentions in the Netherlands . Results of such polls are displayed in this list. ... ## Projections\n[ edit ]\n### Graphical summary\n[ edit ] ... There are 150 seats in total, 76 seats are needed for a majority. Parties are denoted with a dash if no indication is ... size| PVV [a] | GL/PvdA | VVD [b] | NSC [ ... ||||||||||||||||\n 2025 election |29 Oct 2025|\u2013|**26**|20|22|0|**26**|4|18|3|3|3|7|3|3|1|9|2|Tie|| Ipsos I&O|29 Oct ... 2023 election |22 Nov 2023|\u2013|**37**|25|24|20|9|7|5|5|3|3|3|3|3|2|1|0|12|| ** ^ **\u00a0**\\*:**\u00a0Exit poll.\n### Vote share\n[ edit ]\n|Polling firm|Fieldwork date|Sample size| PVV [a] | GL/PvdA | VVD [b] | NSC [ ... Others|Lead|Ref| |||||||||||||||| 2025 election |29 Oct 2025|\u2013|16.7%|12.8%|14.2%|0.4%|**16.9%**|2.6%|11.8%|1.9%|2.4%|2.1%|4.5%|2.3%|1.9%|1.1%|5.9%|1.4%|1.1%|0.2%|| Verian"
+      ]
+    },
+    {
+      "title": "Netherlands seats won by party 2025| Statista",
+      "url": "https://www.statista.com/statistics/1625070/dutch-general-election-results/",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "ista The winner of the Dutch general election of 2025 was the young party D66 that obtained the same amount of votes than the Party of Freedom with 26 seats each. Rob Jetten and his party do not have enough seats to govern by themselves however and must negotiate with the other parties in order to form a governing coalition of at least 76 seats. Even if changing the political sign of the government, the 2025 elections showed a very divided vote across the country. Read more\n\n## Projected number of seats in parliamentary elections in the Netherlands 2025\n\nLoading statistic... ... Additional Information\n\n \u00a9 Statista 2026 \n\nShow source\n\nDownload for free\n\nDownload\n\nPDF+\n\nXLS+\n\nPNG+\n\nPPT+ Source\n\nShow detailed source information? Register for free Already a member? Log in \n\nSources Show sources information Show publisher information Use Ask Statista Research Service \n\nRelease date October 2025\n\nMore information\n\nRegion\n\nNetherlands\n\nSurvey time period\n\nOctober 30, 2025\n\nCitation formats View options\n\n## Other statistics on the topicDutch general election 2021 +Voter turnout in general elections India 1980-2024 Number of seats won in general elections in the UK 1918-2024 ... - Voter turnout of national parliamentary elections in the Netherlands 1971-2017 ... - Share of people in favor of further EU enlargement in the Netherlands 2009-2018 ... - Number of seats won by PVV in House of Representatives in the Netherlands 2006-2017 ... About the region\n\n10 - Voter turnout of national parliamentary elections in the Netherlands 1971-2017 ... - Share of people in favor of further EU enlargement in the Netherlands 2009-2018 ... - Number of seats won by PVV in House of Representatives in the Netherlands 2006-2017 ... [National elections in Indonesia 2024"
+      ]
+    },
+    {
+      "title": "About CoalitieChecker",
+      "url": "https://www.coalitiechecker.nl/english",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "er CoalitieChecker is a tool that quickly calculates all possible coalitions for the 2025 general elections in the Netherlands. In the months leading up to the elections, we use the peilingwijzer poll aggregator as source for the seat distribution. Immediately when the election results are in, we'll switch to using the official count. We list all possible minimal winning coalitions, except for when a cooperation between two parties in a coalition has been ruled out in advance. This is frequently the case for Geert Wilders' PVV, which has been sidelined by all other major party leaders despite the party's popularity in recent polls. In the default view , coalitions are sorted by their seat count, to list the largest majorities on top. However, since forming a coalition is only possible when parties can reach consensus on a wide range of issues, we also offer an overview sorted by compatibility . There, party positions as declared in our country's largest voting aid application are compared and coalitions are ranked higher if all parties in the coalition have compatible views. For additional questions, feel free to reach out using @coalitiechecker@mastodon.nl or email: lars at coalitiechecker nl."
+      ]
+    },
+    {
+      "title": "Netherlands Election Forecast",
+      "url": "https://www.electoralcalculus.co.uk/blogs/ec_neth_20251028.html",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "Summary The upcoming election in the Netherlands (29 October 2025) is likely to reduce the parliamentary influence of Geert Wilders' PVV party, as the party is likely to lose seats and lose access to willing coalition partners. ... The leader of GL/PvdA (Green/Labour Alliance) Frans Timmermans is the other candidate most likely to ... October 2025, Ipsos I&O), puts party leader Rob Jetten in with an outsider chance of pushing for the\npremiership. ### Seat Forecast | Party | PredictedSeats | Seat Range |\n| --- | --- | --- |\n| PVV | 28 | 22\u201334 |\n| CDA | 25 | 20\u201329 | | GL/PvdA | 24 | 21\u201328 |\n| D66 | 18 | 14\u201324 |\n| VVD | 16 | 12\u201321 |\n| JA21 | 13 | 9\u201315 |\n| BBB | 4 | 3\u20136 | ... ### Appendix: Results (added 31 October 2025) At the actual election, the PVV declined in support and seats as we predicted and may not be part of the new government. They won 26 seats which is close to our central prediction of 28 seats, and well within our predicted range for them of 22\u201334 seats. The D66 did better than predicted, also winning 26 seats. We commented"
+      ]
+    }
+  ]
+}

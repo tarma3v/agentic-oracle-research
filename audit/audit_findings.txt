@@ -1,0 +1,145 @@
+Independent public-artifact audit: Agentic Oracle Resolver
+
+Scope and provenance
+The audit recomputes statistics from saved public predictions; it does NOT rerun
+models, retrieval, or the authors' scripts. All audit code uses Python stdlib.
+Repository: https://github.com/Tkota10/Senior-Thesis-Multi-LLM-Resolution
+Commit: f76754b5bcff1a1d7a50c2f1073a4b6d44bd985c
+Commit timestamp: 2026-07-21T21:42:31-05:00
+Hugging Face: https://huggingface.co/datasets/2084Collective/kalshibench-v2
+Revision: e70c1077093e12ca604429d7f7dc7562127e81f2
+Source Parquet was downloaded by revision; public viewer JSON is not revision-
+pinned. The audit verifies identical HF HEAD metadata before/after fetching all
+viewer pages. It checks complete row indices and no truncated cells. Parquet was
+archived but not parsed; equality of its contents with viewer JSON is not proven.
+File SHA-256 values and schemas are in audit_results.json.
+
+Correction before publication (2026-09-30)
+An earlier text incorrectly stated that no evidence cache was committed, based
+on the cache/ ignore rule. The pinned Git tree actually contains 486 JSON packets
+(458 highlights__row_uid files and 28 legacy ID-named files). Tracked files remain
+tracked despite an ignore rule. The correction does not change headline accuracy.
+Independent counts and per-file SHA-256 values are in cache_coverage.json;
+reproduce them with python3 audit_cache_coverage.py from this audit directory.
+
+Reproduce offline
+python3 audit_public_artifacts.py
+Fetch current public viewer data first (read-only network; not paid API):
+python3 audit_public_artifacts.py --fetch-hf
+Run from any directory; paths resolve against the script location.
+
+Confirmed dataset facts
+Upstream: 1531 rows, 894 IDs, 637 IDs with exactly 2 rows and 257 singletons.
+Evaluation: 1189 rows, 703 IDs, 486 IDs with exactly 2 rows and 217 singletons.
+Thus 1189/703/486 is mathematically and empirically correct, not a discrepancy.
+No byte-field-equivalent duplicate rows in either source dataset.
+All 1189 evaluation rows occur in the upstream row multiset; 342 rows excluded.
+In all rows id equals series_ticker. These IDs alone are not sufficient evidence
+that two rows denote the same concrete event or contract. Preserve full criteria,
+time, and platform contract identifiers in a new benchmark.
+Evaluation labels: 701 NO, 488 YES; 16 categories. market_probability is empty in
+every row. close_time ranges 2025-05-01T14:00:00Z to 2025-11-16T23:00:00Z.
+
+Reproduced headline statistics
+A individual saved columns: gpt4o 979/1189 (82.3381%), deepseek 980 (82.4222%),
+llama 966 (81.2447%). The gpt4o column is a historical column name: current code
+and README identify the default model as gpt-5-nano, not GPT-4o.
+A majority: 986/1189 = 82.9268%; confidence-weighted: 992/1189 = 83.4315%.
+B final: 905/1189 = 76.1144%.
+Table 12: average confidence median 0.91; unanimous and >= median selects 563
+rows, with 551 correct and 12 incorrect: 47.3507% coverage, 97.8686% accuracy.
+Naive row-Wilson 95% interval: [96.3117%, 98.7766%]. Correlation and same-sample
+threshold selection limit interpretation; this is not a deployment guarantee.
+The 12 selected errors are exported in high_confidence_unanimous_errors.csv.
+Eight of the twelve have available candidate packets matching normalized ID,
+question and criteria; they support subsequent manual inspection. Error causes
+have not yet been checked against these packets, nor has historical use of each
+candidate packet been established.
+
+Confirmed alignment issues
+Saved B rows match the evaluation input after whitespace and escaped-newline
+normalization. Saved A rows differ on 35 instances in question, criteria and/or
+label; 8 of these also differ in label. Mismatches are in early result batches.
+The semantic multiset has 35 missing and 35 extra A instances relative to input.
+This is a result/input version or extraction mismatch, not evidence of intent.
+See input_result_mismatches.csv; its row numbers are data indices (header excluded).
+A contains 1188 unique row_uid values on 1189 rows; B contains 1189. Across A/B,
+only 839 row_uid values intersect. They are not reliable universal join keys for
+these existing saved artifacts; new work should use immutable contract keys.
+
+The original analysis pairs question_text + ground_truth + occurrence count,
+ignoring criteria. It produces 1170 pairs, including 16 pairs with different
+resolution criteria. Example: Jamie Dimon says 'Unemployment' versus
+'Zohran / Mamdani'; another example is ADP >75000 versus >50000.
+See paper_join_criteria_mismatches.csv; row numbers there include the CSV header.
+This join exactly reproduces A majority vs B 117/37 exclusive correct counts,
+and A weighted vs B 123/37. Table 5's weighted caption is inconsistent with its
+117/37 majority counts. This is a labeling inconsistency, not a changed effect.
+A stricter join (id, question, criteria, label, occurrence) yields 1154 pairs;
+weighted vs B becomes 119/37. The direction of the reported gap remains.
+
+Debate effect needs a controlled ablation
+Within the same saved B run, round-1 majority is 911/1189 = 76.6190%, and final
+majority is 905/1189 = 76.1144%. Ten initially correct rows become wrong, four
+initially wrong become correct: net -6/1189, or -0.5046 percentage points.
+Thus most of the A-vs-B headline gap already exists before B's peer discussion.
+A and B round-1 prompts and input formatting differ. A includes Resolution Date;
+B round-1 template takes question, criteria and formatted sources, without the
+explicit Resolution Date field. The evidence cache is partial: expected cache
+filenames with matching normalized ID, question and criteria cover 450/1189 A rows
+and 100/1189 B rows. One hundred shared row_uid values have the same available
+cache file and matching identity for both architectures. Final CSVs do not bind
+historical invocations to immutable evidence hashes, so complete equality of
+actually consumed evidence remains unverified. These are potential confounds; the
+audit does not establish which factor caused the performance gap.
+
+Error, confidence and cost observations
+All final CSV model decisions are YES/NO, all *_error fields are empty, and saved
+is_correct matches direct scoring. Thus no explicit API failures are visible in
+these artifacts. Historical retries or omitted failed runs cannot be excluded.
+resolution_time_ms exists on only 739/1189 rows in each architecture. For observed
+rows, A mean/median are 21.5747s/18.0422s and B 43.3953s/38.8434s. These are partial
+observations of saved model runtime, not a full economic or wall-clock comparison.
+Final CSVs omit token counts, billed costs, retrieval timing and resolved-at time.
+audit_results.json also includes descriptive Brier/ECE estimates interpreting
+self-reported confidence as P(chosen decision correct). Confidence prompts only
+ask how confident the model is; this probabilistic interpretation is an explicit
+assumption, not proof that those scores were designed or calibrated as probabilities.
+No held-out recalibration was performed.
+
+Code/version and temporal evidence caveats
+Current default model IDs: gpt-5-nano; deepseek-ai/DeepSeek-V3;
+meta-llama/Llama-3.3-70B-Instruct-Turbo. Optional: gemini-2.0-flash and
+claude-haiku-4-5-20251001. These identify current code configuration, not immutable
+provider snapshots for every historical saved result. Dependencies use >= lower
+bounds; no lockfile is committed. Reproducibility requires exact environment,
+provider model version, prompts, inputs and run manifests.
+Retriever sets end_published_date = close_time + 1 day. It records retrieval time
+and a nullable source publication date, but no archived page version/content hash
+or first-seen timestamp. There are 486 committed cache/evidence JSON files despite
+the cache/ ignore rule, covering 401 distinct question IDs. Matching only the ID
+is insufficient because it is a series-level identifier. Semantic matching on
+normalized ID, question and criteria, without row_uid, finds candidates for
+465 A rows and 432 B rows; it does not establish historical packet provenance.
+This mechanism is not sufficient to prove strict as-of access or freedom from
+retroactive page edits. +1 day may be reasonable operational delay if declared;
+it cannot silently stand in for a close-time evaluation cutoff.
+
+Further author clarification, not established causes
+Why does A's saved input differ in 35 rows from the committed evaluation set?
+Which immutable model snapshots and evidence packets generated the final runs?
+How is a series ID mapped to concrete platform contracts/events?
+Which exact ordering/artifact gives B's reported 75.5% unique-first-row accuracy?
+The current file with the repository's keep-first convention gives 520/703 =
+73.9687%, while all-instance consistency counts exactly match the paper.
+Which operational error tolerance and liability model define the economic oracle
+criterion? Public final artifacts alone cannot answer that question.
+
+Primary source code locations at the pinned commit
+scripts/analyze_architecture_results.py:48 weighted aggregation; :135 overlap join.
+src/agents/openai_agent.py:29-31 current default OpenAI model.
+src/retrieval/exa_retriever.py:62-64 cutoff construction.
+src/retrieval/evidence.py:99 prompt includes resolution date.
+src/resolution/debate/prompts.py:5-31 round-1 template.
+src/resolution/debate/runner.py:121 round-1 evidence formatting.
+latex/results.tex:57-75 paired-count table/caption mismatch.

@@ -1,0 +1,100 @@
+{
+  "question_id": "KXNFLTOTAL",
+  "question_text": "Tampa Bay at Buffalo: Total Points",
+  "resolution_criteria": "If the teams in the Tampa Bay at Buffalo professional football game originally scheduled for Nov 16, 2025 collectively score more than 61.5 points, then the market resolves to Yes.",
+  "resolution_date": "2025-11-16T21:39:55.506741Z",
+  "retrieval_timestamp": "2026-02-23T06:30:18.968839Z",
+  "query_used": "What is the result of this question \"Tampa Bay at Buffalo: Total Points\"",
+  "sources": [
+    {
+      "title": "Josh Allen has 3 TDs passing, 3 rushing to outduel Baker Mayfield as Bills beat Buccaneers 44-32",
+      "url": "https://www.cbssports.com/nfl/gametracker/boxscore/NFL_20251116_TB@BUF/",
+      "published_date": "2025-11-16T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "TB\\\n\\\nTampa Bay\\\n\\\nBuccaneers\\\n\\\n6-3 \n\n32\n\nSun Nov. 16\n\n1:00P\n\nINPROGRESS\n\n4th\n\n1:57\n\nCBS\n\n44 ... | |\n| --- |\n| TB |\n\n| |\n| --- |\n| BUF |\n\n# Buccaneers-Bills Preview\n\n- AP\n- Nov 14, 2025 ... It took him five seasons and stops with Carolina and the Rams before finally finding the right fit in Tampa Bay. This year might be Mayfield\u2019s most impressive in working his way into the midseason NFL MVP conversation for his production ... The meeting on Sunday marks just their third, with each splitting the first two, and comes at a critical juncture for their teams\u2019 playoff aspirations. ... Copyright 2025 STATS LLC and Associated Press. Any commercial use or distribution without the express written consent of STATS LLC and Associated Press is strictly prohibited. - PLAYS\n- SCORING\n- SCORING\n- TEAM STATS\n- TB DRIVES\n- BUF DRIVES\n- TWEETS\n\nTB\n\n1 Pass\n\n0 Rush\n\n19 YDS\n\n0:38 POS ... 4th Quarter\n\nPoint After TD2:35\n\n15-M.Prater extra point is GOOD Center-69-R.Ferguson Holder-19-M.Wishnowsky.\n\nplays ... 4-C.McLaughlin 23 yard field goal is GOOD Center-86-E.Deckers Holder-9-R.Dixon.\n\n4\n\nplays\n\n2\n\nyds\n\n1:32\n\npos\n\n3\n\n0 | Team Stats |\n| --- |\n| Time of Pos | 34:16 | 23:47 |\n| 1st Downs | 20 | 19 |\n| Rushing | 13 | 4 | | Passing | 6 | 13 |\n| Penalty | 1 | 2 |\n| 3rd Down Conv | 9-16 | 6-10 |\n| 4th Down Conv | 1-1 | 1-2 | | Total Net Yards | 376 | 405 |\n| Total Plays | 66 | 50 |\n| Avg Gain | 5.7 | 8.1 |\n| Net Yards Rushing | 203 | 88 | | Rush Attempts | 38 | 20 |\n| Avg Rush Yards | 5.3 | 4.4 |\n| Net Yards Passing | 173 | 317 | ... | 1 | 2 | 3 | 4 | T |\n| Buccaneers 6-3 | 3 | 17 | 6 | 6 | 32 | | Bills 6-3 | 7 | 14 | 10 | 13 | 44 | | Highmark Stadium Orchard Park, NY | | | |\n| --- | --- | --- |\n| 173 | PASS YDS | 317 |\n| 203 | RUSH YDS | 88 |\n| 376 | TOTAL YDS | 405 | Tampa Bay \n\nOffense\n\n- Offense\n- Defense\n- Special Teams ... | | | | | | | |\n| --- | --- | --- | --- | --- | --- | --- |\n| B. Mayfield\n6 QB\n\n19\n\nFPTS | | | | | |\n| --- | --- | --- | --- | --- |\n| 57.1% | 173 | 1 | 1 | 72.5 |"
+      ]
+    },
+    {
+      "title": "NFL \u2014 2026-02-08",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401772988/seahawks-patriots",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "# NFL \u2014 2026-02-08\n\n## Snapshot\n- 1 games, 1 final\n\n## Match Results\n| Match | Status | Score / Time | Venue |\n|:------|:-------|:-------------|:------|\n| Seattle Seahawks 29 - New England Patriots 13 | Final | Seattle Seahawks (14-3) 29 (W) - New England Patriots (14-3) 13 | Levi's Stadium |\n\n## Match Details\n### 1. Seattle Seahawks 29 - New England Patriots 13\n- Event: Seattle Seahawks at New England Patriots\n- Status: Final\n- Score / Time: Seattle Seahawks (14-3) 29 (W) - New England Patriots (14-3) 13\n- Start Time: Sun, Feb 8, 11:30 PM UTC\n- Venue: Levi's Stadium\n- Source: https://www.espn.com/nfl/game/_/gameId/401772988/seahawks-patriots\n- Competitors: Seattle Seahawks (14-3) 29 (W) vs New England Patriots (14-3) 13"
+      ]
+    },
+    {
+      "title": "Tampa Bay Buccaneers @ Buffalo Bills",
+      "url": "https://www.espn.com/nfl/boxscore/_/gameId/401772776",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "1 | 2 | 3 | 4 | T |\n| --- | --- | --- | --- | --- |\n| Buccaneers TB | 3 | 17 | 6 | 6 | 32 | | Bills BUF | 7 | 14 | 10 | 13 | 44 | Buffalo BillsBillsBUF \n\n7-3, 5-1 Home\n\n44\n\n7-3, 5-1 Home\n\nTampa Bay Passing ... | C/ATT | YDS | AVG | TD | INT | SACKS | QBR | RTG |\n| --- | --- | --- | --- | --- | --- | --- | --- | | 16/28 | 173 | 6.2 | 1 | 1 | 1-8 | 70.3 | 72.5 |\n| 16/28 | 165 | 6.2 | 1 | 1 | 1-8 | -- | 72.5 | Buffalo Passing\n\n| |\n| --- |\n| Josh Allen #17 |\n| team | | C/ATT | YDS | AVG | TD | INT | SACKS | QBR | RTG |\n| --- | --- | --- | --- | --- | --- | --- | --- | | 19/30 | 317 | 10.6 | 3 | 2 | 0-0 | 70.2 | 104.4 |\n| 19/30 | 317 | 10.6 | 3 | 2 | 0-0 | -- | 104.4 | ... | |\n| --- |\n| Sean Tucker #44 |\n| Rachaad White #1 |\n| Baker Mayfield #6 | ... | 1 | 23 | 23.0 | 0 | 23 | 3 |\n| 2 | 19 | 9.5 | 0 | 14 | 3 |\n| 2 | 17 | 8.5 | 0 | 13 | 5 |\n| 1 | 4 | 4.0 | 0 | 4 | 1 | | 0 | 0 | 0.0 | 0 | 0 | 1 |\n| 1 | -3 | -3.0 | 0 | -3 | 3 |\n| 19 | 317 | 16.7 | 3 | 52 | 30 | ... - Terms of Use \n- Privacy Policy \n- Your US State Privacy Rights - Children's Online Privacy Policy \n- Interest-Based Ads \n- About Nielsen Measurement ... - Work for ESPN \n- Corrections ESPN BET Sportsbook is owned and operated by PENN Entertainment, Inc. and its subsidiaries ('PENN'). ESPN BET is available in states where PENN is licensed to offer sports wagering. Must be 21+ to wager. If you or someone you know ... Copyright: \u00a9 20"
+      ]
+    },
+    {
+      "title": "Tampa Bay Buccaneers at Buffalo Bills 2025 REG 11 - Game Center",
+      "url": "https://www.nfl.com/games/buccaneers-at-bills-2025-reg-11",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "Tampa Bay Buccaneers at Buffalo Bills 2025 REG 11 - Game Center\n\nSkip to main content\n\nPresented By\n\nWinner Indicator Final\n\nWEEK 11\n\nINFORECAPSTATSREPLAYS & HIGHLIGHTS\n\nTEAM\n\n## Game Info\n\nLOCATIONORCHARD PARK, NY STADIUMHIGHMARK STADIUM\n\n## Standings\n\nNFC SOUTHAFC EAST\n\nTEAM\n\n See AllChevron Right \n\n## Previous Matchup Winner IndicatorFINALREPLAY"
+      ]
+    },
+    {
+      "title": "Tampa Bay Buccaneers at Buffalo Bills - November 16th, 2025",
+      "url": "https://www.pro-football-reference.com/boxscores/202511160buf.htm",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "Bay Buccaneers at Buffalo Bills - November 16th, 2025 NFL Scores \u2014 Week 11 NYJ 14 Final NWE 27 CAR 30 Final ATL 27 OT TAM 32 Final BUF 44 BAL 23 Final CLE 16 SFO 41 Final ARI 22 KAN 19 Final DEN 22 LAC 6 Final JAX 35 WAS 13 Final MIA 16 OT CHI 19 Final MIN 17 GNB 27 Final NYG 20 HOU 16 ... via Sports Logos.net \n\n About logos \n\n Tampa Bay Buccaneers \n\n32\n\n6-4 Prev Game Next Game \n\nCoach: Todd Bowles \n\n via Sports Logos.net About logos \n\n Buffalo Bills \n\n44\n\n7-3\n\n Prev Game Next Game ... Team Stats\n\nExpected Points\n\nPlayer Stats\n\nStarting Lineups\n\nSnap Counts\n\nDrives\n\nPlay-by-Play\n\n## Scoring ... ## Expected Points Summary Expected Points Summary Table Offense Defense Special Teams Tm Total Tot Pass Rush TOvr Tot Pass Rush TOvr Tot KO KR P PR FG/XP Bills13.0019.3320.612.06-6.29-5.155.40-13.519.05-0.72-9.3511.040.68-5.912.82 Buccaneers-13.005.15-5.4013.51-9.05-19.33-20.61-2.066.290.72-11.049.355.91-0.68-2.82 -- ... Sacked-Yards1-80-0 Net Pass Yards165317 Total Yards367414 F"
+      ]
+    },
+    {
+      "title": "Buccaneers vs. Bills (Nov 16, 2025) Game Stats - ESPN",
+      "url": "https://www.espn.com/nfl/matchup/_/gameId/401772776",
+      "published_date": "2025-10-22T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "> 6-4,4-2 Away\n32\n6-4,4-2 Away\nFinal\n||1|2|3|4|T|\n Buccaneers \nTB\n|3|17|6|6|32|\n Bills \nBUF |7|14|10|13|44|\n BUF \n Buffalo BillsBillsBUF \n7-3,5-1 Home\n44\n7-3,5-1 Home ... 173\nB. MayfieldQB\n16/28, 1 TD, 1 INT\n173\n] \nPassing Yards\n \n Josh Allen \n317\nJ. AllenQB ... J. PoyerS\n7 SOLO\n15\n \n## Team Stats\n \nTB\n \nBUF\n \n367 Total Yards\n414\n2\nTurnovers\n3\n21\n1st Downs\n19\n2-30\nPenalties\n7-45\n9/16\n3rd Down\n6/11\n1/1\n4th Down\n1/2\n2/4\nRed Zone\n3/4 35:07\nPossession\n24:53\n## Game Information\nOrchard Park,NY\n Highmark Stadium \nCBS\nDown Judge:Dana McKenzie ... 4th down efficiency|1-1|1-2|\nTotal Plays|68|53|\nTotal Yards|367|414|\nTotal Drives|13|11|\nYards per Play|5.4|7.8| Passing|165|317|\nComp/Att|16/28|19/30|\nYards per pass|5.7|10.6|\nInterceptions thrown|1|2|\nSacks-Yards Lost|1-8|0-0| ... Turnovers|2|3|\nFumbles lost|1|1|\nInterceptions thrown|1|2|\nDefensive / Special Teams TDs|0|0|\nPossession|35:07|24:53| ## 2025 Standings\nNational Football Conference\n|NFC South|W|L|T|PCT|PF|PA|\n Tampa Bay |7|7|0|.500|327|354| Carolina |7|7|0|.500|264|317|\n Atlanta |5|9|0|.357|281|341| ... New England |11|3|0|.786|382|276|\n Buffalo |10|4|0|.714|411"
+      ]
+    },
+    {
+      "title": "Buccaneers vs. Bills Game Center - NFL Week 11 2025 | Tampa Bay Buccaneers - Buccaneers.com",
+      "url": "https://www.buccaneers.com/game-day/2025/reg-week11/buccaneers-at-bills/box-score",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "\u2022 11/16\u2022 FINAL\n\nTampa Bay Buccaneers\n6-4\n\n-- | 1 | 2 | 3 | 4 |\n| --- | --- | --- | --- |\n| 3 | 17 | 6 | 6 |\n| 7 | 14 | 10 | 13 |\n\nBuffalo Bills\n7-3\n\n-- Highmark Stadium - Overview \n- Scoring Summary \n- Box Score \n- Depth Chart - Injury Report \n- Roster \n- Matchup History | Tampa Bay BuccaneersTB | Buffalo BillsBUF |\n| --- | --- |\n| 367 | Total Net Yards | 414 | | 2 | Total Penalties | 7 |\n| 30 | Penalty Yards | 45 |\n| 00:35:07 | Time of Possession | 00:24:53 | Team Statistics\n\n### Box Score\n\n- Tampa Bay Buccaneers\nTampa Bay Buccaneers\n\n- Buffalo Bills\nBuffalo Bills ... | Player | CP/ATT | YDS | TD | INT |\n| --- | --- | --- | --- | --- | ... Advertising\nBig left arrow icon\n\nBig right arrow icon\n\nClose icon\nCopy Url\nThree dots icon\n\nDown arrow icon ... PreviousStandingsStarStatsSwapTeamsTicketsVideoVisibility OffVisibility OnVolume HiVolume LowVolume MediumVolume MuteWarningWebsiteCaret downCaret upAtNewsPlayAudioGalleryPromo ... The browser you are using is no longer supported on this site."
+      ]
+    },
+    {
+      "title": "Tampa Bay Buccaneers @ Buffalo Bills",
+      "url": "https://www.espn.com/nfl/recap/_/gameId/401772776",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "Bay BuccaneersBuccaneersTB] 6-4, 4-2 Away\n32\n6-4, 4-2 Away\nFinal\n||1|2|3|4|T|\n|\n Buccaneers \nTB\n|3|17|6|6|32|\n|\n Bills \nBUF |7|14|10|13|44|\n BUF \n Buffalo BillsBillsBUF \n7-3, 5-1 Home\n44\n7-3, 5-1 Home # Josh Allen has 3 TDs passing, 3 rushing to outduel Baker Mayfield as Bills beat Buccaneers 44-32\nByAP Updated: Nov 16, 2025, 08:48 pm\nFacebookFacebook MessengerTwitterEmail ORCHARD PARK, N.Y. -- \u2014 Josh Allen wasn't in an I-told-you-so mood after he threw three touchdown passes ... Following a few clunkers, Allen led the Buffalo Bills to a season high in points in Sunday's 44-32 win over the Tampa Bay Buccaneers \u2014 and afterward, he refused to fall into the trap of riding emotional peaks and ... \u201cStarting off 4-0 and we're the best team in the world. And we lose two in a row and now we're the worst team in the ... Allen became the first NFL\u2019s first player with two games of three TDs passing and rushing. He did it last year in a 44-42 loss at the Los Angeles Rams . He also upped his career total to 290 touchdowns, the most by a quarterback before turning 30 \u2014 passing Peyton Manning\u2019s 288. ... Buffalo (7-3) resembled the team that beat Kanas City 28-21 and Carolina 40-9 coming out of its bye week, rather than ... Meanwhile, the Buccaneers (6-4) let their NFC South lead dwindle to a half-game after Carolina beat Atlanta. ... Injuries\nBuccaneers: CB Jamel Dean did not return after hurting his hip in the first quarter. ... ------\nAP NFL: https://apnews.com/hub/nfl \n## Game Information\nOrchard Park, NY Highmark Stadium \nCBS\nDown Judge:Dana McKenzie\nBack Judge:Terrence Miles\nField Judge:Mearl Robinson ... Highmark Stadium \n## 2025 Standings\nNational Football Conference\n|NFC South|W|L|T|PCT|PF|PA| | Carolina |8|9|0|.471|311|380|\n| Tampa Bay |8|9|0|.471"
+      ]
+    },
+    {
+      "title": "Recap: Sabres 3, Lightning 2 - SO | Tampa Bay Lightning",
+      "url": "https://www.nhl.com/lightning/news/recap-buffalo-sabres-3-tampa-bay-lightning-2-so",
+      "published_date": "2025-04-06T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "The Tampa Bay Lightning took a single standings point on Saturday night with a 3-2 shootout loss to the Buffalo Sabres at KeyBank Center. Tampa Bay, which secured a 2025 Stanley Cup Playoffs berth earlier on Saturday, is now 44-26-6 this season. Brayden Point and Gage Goncalves each scored for the Lightning in the second period to claim a 2-1 lead and offset Tage ... Jason Zucker\u2019s power-play goal tied the game in the third period before the Sabres won the game in the shootout. ... p.m. game against the New York Rangers. Scoring summary\n\nFirst period\n\nNone.\n\nShots on goal: BUF 9, TBL 2\n\nSecond period\n\nTBL 1, BUF 0 1:35 Brayden Point (39) - Nikita Kucherov A won faceoff for the Lightning led to a loose puck in front of the Buffalo net, and Brayden Point scored his ... TBL 1, BUF 1\n\n4:47 Tage Thompson (40) - Zach Benson ... Shots on goal: TBL 13, BUF 12\n\nThird period\n\nTBL 2, BUF 2\n\n5:07 Jason Zucker (20) - Alex Tuch, Rasmus Dahlin - PP ... Shots on goal: BUF 13, TBL 5\n\nOvertime\n\nNone.\n\nShots on goal: BUF 4, TBL 4\n\nShootout\n\nBUF: Quinn, Tuch Total shots: BUF 38, TBL 24\n\n## News Feed **Nuts & Bolts: California trip wraps up Saturday in San Jose** Jan 02, 2026 **Chucky\u2019s back: D\u2019Astous hopes to make a difference after re-upping with Lightning** Jan 02, 2026 [**Lightning sign D Charle-Edouard D\u2019Ast"
+      ]
+    },
+    {
+      "title": "Sports Forecaster",
+      "url": "https://sportsforecaster.com/nhl/boxscore/l.nhl.com-e.20240513",
+      "published_date": "2024-10-04T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "] \n* In Spreadsheet * Transactions \n* News \nThursday, March 06, 2025\n#### Final Buffalo Sabres \n(24-31-5-1)\n### 5\n#### Final\n Tampa Bay Lightning (37-21-3-1)\n### 6\n|Team|P1|P2|P3|Total|\nBuf|3|2|0|5|\nTB|2|3|1|6|\n|Team|Goals||Shots||Power Play| |1|2|3|Total|1|2|3|Total||\nBuf|3|2|0|5|12|8|13|33|1/4|\nTB|2|3|1|6|7|13|6|26|1/3| |**Period 1|Team|Goal/Penalty|Assists1|Assists2|Status|TB|Buf| 05:01|TB| N.Paul (19)| R.McDonagh (18)| B.Hagel (39)|EV|0|1| ... 19:43|TB| R.McDonagh (high-sticking)| | ||||\n##### Buffalo Sabres\n||Forwards|\nGoals\nG| Assists\nA|\nPoints\nPts|+/-|\nShots\nSH|Hits|\nBlocked Shots\nBkS|PPTOI|\nTime On Ice\nTOI|Current Streak| 77| J.Peterka |1|1|2|-1|2|0|0|3:12|21:35|\n|\n71| R.McLeod |0|2|2|0|0|0|0|2:50|21:38|\n| ... 17| J.Zucker (LW)|Lower body injury|\n8| D.Gilbert (D)|Did not play|\n##### Tampa Bay Lightning ||Forwards|\nGoals\nG|\nAssists\nA|\nPoints\nPts|+/-|\nShots\nSH|Hits|\nBlocked Shots\nBkS|PPTOI|\nTime On Ice\nTOI|Current Streak| 59|["
+      ]
+    }
+  ]
+}

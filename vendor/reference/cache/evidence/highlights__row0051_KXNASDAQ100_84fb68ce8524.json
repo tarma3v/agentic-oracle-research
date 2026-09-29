@@ -1,0 +1,100 @@
+{
+  "question_id": "KXNASDAQ100",
+  "question_text": "Will the Nasdaq-100 be below 23700 at the end of Nov 14, 2025 at 4pm EST?",
+  "resolution_criteria": "If the end-of-day Nasdaq 100 index value on November 14, 2025 is below 23700, then the market resolves to Yes.\nThe market will close on November 14, 2025. The market will expire at the sooner of the first release of the data, or one week after November 14, 2025.\n\nPursuant to the Kalshi Rulebook, the Exchange has modified the Source Agency and Underlying for indices markets. See the rules for more information.",
+  "resolution_date": "2025-11-14T21:00:00Z",
+  "retrieval_timestamp": "2026-02-21T22:55:51.476135Z",
+  "query_used": "What is the result of this question \"Will the Nasdaq-100 be below 23700 at the end of Nov 14, 2025 at 4pm EST\"",
+  "sources": [
+    {
+      "title": "Nasdaq 100 (NDX) Up or Down on November 10? Betting Odds & Predictions (Nov. 10, 2025) | Polymarket",
+      "url": "https://polymarket.com/event/ndx-up-or-down-on-november-10-2025",
+      "published_date": "2025-11-14T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "10?\n\nPast Ended: Nov 10, 2025 \n\n 4PM \n\nUp\n\n99% chance\n\n$13,502 Vol.\n\n## Rules\n\n## Market Context This market will resolve to \"Up\" if the official Nasdaq 100 Index closing price for Nasdaq 100 (NDX) on Monday, November 10, 2025 is higher than the official Nasdaq 100 Index closing price for NDX on the most recent prior trading day. This market will resolve to \"Down\" if the official Nasdaq 100 Index closing price for Nasdaq 100 (NDX) on Monday, ... that Friday were a market holiday, in which case it would refer to Thursday, or the next most recent trading day. If the two specified closing prices are exactly equal, this market will resolve 50-50. Note that all figures will be ... Journal, specifically the Close values published by the WSJ under \"Historical Prices\". US: https://www.wsj.com/market-data/stocks EMEA: https://www.wsj.com/market-data/stocks/emea ASIA: https://www.wsj.com/market-data/stocks/asia Outcome proposed: Up\n\nNo dispute\n\nFinal outcome: Up\n\nPost\n\nBeware of external links.\n\nNewest Finance NDX \n\n# Nasdaq 100 (NDX) Up or Down on November 10?\n\nPast Ended: Nov 10, 2025 \n\n 4PM \n\nUp\n\n99% chance\n\n$13,502 Vol.\n\n## Rules\n\n## Market Context This market will resolve to \"Up\" if the official Nasdaq 100 Index closing price for Nasdaq 100 (NDX) on Monday, ... day. This market will resolve to \"Down\" if the official Nasdaq 100 Index closing price for Nasdaq 100 (NDX) on Monday, ... day. E.g., ordinarily, a market on Monday would refer to the previous Friday for its most recent closing price, unless that Friday were a market holiday, in which case it would refer to Thursday, or the next most recent trading day. If the two specified closing prices are exactly equal, this market will resolve 50-50. Note that all figures will be ... Outcome proposed: Up\n\nNo dispute\n\nFinal outcome: Up\n\n### Related Nasdaq round-the-clock trading by June 30?11% Will the S&P 500 Index gain at least 2% on any day in Q1?57% [Will the percentage change in the S&P 500 in Q1 2026 be"
+      ]
+    },
+    {
+      "title": "Nasdaq-100 price on Dec 15, 2025 at 12pm EST? Odds &amp; Predictions",
+      "url": "https://kalshi.com/markets/kxnasdaq100u/nasdaq-abovebelow/kxnasdaq100u-25dec15h1200",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "Nasdaq-100 price on Dec 15, 2025 at 12pm EST? Odds & Predictions\n Markets Live Ideas API"
+      ]
+    },
+    {
+      "title": "NQU25 | E-Mini Nasdaq 100 Index Sep 2025 Overview | MarketWatch",
+      "url": "https://www.marketwatch.com/investing/future/nqu25",
+      "published_date": "2025-06-12T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Dow | 42,967.62 | 101.85 | 0.24% | | S&P 500 | 6,045.26 | 23.02 | 0.38% |\n| Nasdaq | 19,662.48 | 46.61 | 0.24% | ... - 5:44pOpinion\\\nThe stock market wants badly to hit an all-time high. And the S&P 500 can get there. ... - Market Screener \n- Futures Contracts \n- Sectors \n\nSearch Ticker\\|\n\nNQU25U.S.: CME # E-Mini Nasdaq 100 Index Sep 2025\n\n +Watchlist \n\nYou must be logged in to create alerts\n\nLogin NQU25US\nOpen\n\nLast Updated: Jun 12, 2025 6:14 p.m. CDTDelayed quote\n\n## $22,107.25\n\n-51.25-0.23% ... - Open$22,132.25\n- Day Range22,088.00 - 22,134.75\n- 52 Week Range16,608.00 - 22,859.00\n- Open Interest12,260 | | |\n| --- | --- |\n| 5 Day | - 1.70% |\n| 1 Month | - 2.26% |\n| 3 Month | - 12.08% |\n| YTD | - 1.88% | ... | E-Mini Nasdaq 100 Index Jun 2025 | $21,883.00 | -49.50 | $21,909.00 | $21,915.75 | $21,861.75 | Jun 12, 2025 6:15 p.m. | | E-Mini Nasdaq 100 Index Sep 2025 | $22,107.25 | -51.25 | $22,132.25 | $22,134.75 | $22,088.00 | Jun 12, ... | E-Mini Dow Continuous Contract | $43,241 | -75 | -0.17% | | E-Mini S&P 500 Future Continuous Contract | $6,037.00 | -12.50 | -0.21% | | E-Mini Nasdaq 100 Index Continuous Contract | $22,107.25 | -51.25 | -0.23% | Close T"
+      ]
+    },
+    {
+      "title": "NQ00 | E-Mini Nasdaq 100 Index Continuous Contract Overview | MarketWatch",
+      "url": "https://www.marketwatch.com/investing/future/nq00?gaa_at=eafs&gaa_n=ASWzDAhaork5prz7LJbobWP6WLg18xkevoVqzixbC969Z3yu3v6kqkIOEqt6&gaa_ts=68e97991&gaa_sig=Ia8V6CWht4YrWcxhqS7nLqy-LbfPNlkwT3wWocbREQAR1tyjYW4DIi9q4Ix8EXXgaMiph8hf-HGO9L3XQ-g9oA==",
+      "published_date": "2025-10-23T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "SDAQ F] |24,886.75|-69.25|-0.28%|**|\n|| Gold |5,005.00|-4.50|-0.09%|**| || Silver |78.105|0.507|0.65%|**|\n|| Crude Oil |66.23|1.04|1.60%|**|\n Latest News All Times Eastern\n**\nscroll up\n**\nscroll down\n* 7:58a While Wall Street is betting against software, retail investors have poured in \u2014 and done well\n * 7:55a\nOpinion\nSay goodbye to the 4 p.m. closing bell: Your stocks are becoming 24/7 digital cash\n ... * Sectors \nSearch Ticker\n*\n|\nNQ00\nU.S.: CME\n# E-Mini Nasdaq 100 Index Continuous Contract\n \n+\nWatchlist \nNQ00US**\nOpen\nLast Updated: Feb 19, 2026 6:53 a.m. CST\nDelayed quote\n##\n$\n24,886.75\n**\n-69.25\n-0.28% |Settlement Price 02/18/2026|\n|$24,956.00|\n**\nToggle Chart Options\n Advanced Charting \n1D\n5D\n1M\n3M\n6M\nYTD\n1Y 3Y\nAll\n**Range Dropdown\n$\n%\nVol\nVolume: 72.17K\n65 Day Avg: 510.58K\n14% vs Avg\n24,815.00\nDay Range\n25,054.00\n16,460.00 ... * Charts \n* Historical Quotes \n* Premium Tools** \n##\nNQ00 Overview\n##\nKey Data\n* Open $24,943.50\n* Day Range\n24,815.00 - 25,054.00\n* 52 Week Range\n16,460.00 - 26,399.00\n* Open Interest\n270,655\n## Performance\n|5 Day|\n* 0.26%\n* |\n|1 Month|\n* -2.90%\n* |\n|3 Month|\n* 3.37%\n* |\n|YTD|\n* -2.15%\n* |\n|1 Year|\n* 12.43%\n* | ... U.S. stock futures slump as investors digest ongoing tech selloff\n] \nFeb. 16, 2026 at 11:01 p.m. ET ... | E-Mini Nasdaq 100 Index Mar 2026 |$24,886.75|-69.25|$24,943.50|$25,054.00|$24,815.00|Feb 19, 2026 6:53 ... | E-Mini Nasdaq 100 Index Dec 2030 |$29,451.25|0.00|$0.00|$0.00|$0.00|Feb 18, 2026 4:05 p.m.|\n## News From Dow Jones\n \n Read full story \n \n###\n[ ... No Headlines Available\nLoading Results\n##\nFutures Overview\n|Energy|Last|Chg|Chg %| ... | 30-Year U.S. Treasury Bond Continuous Contract |$117.313|-0.313|-0.27%|\n|Indexes|Last|Chg|Chg %| | E-Mini Dow Continuous Contract |$49,625|-97|-0.20%| | E-Mini S&P 500 Future Continuous Contract |$6,883.50|-10.75|-0.16%| | E-Mini Nasdaq 100 Index Continuous Contract |$24,886.75|-69.25|-0.28%|\n##\nAdvertisement\n##\nAdvertisement ... This browser is no longer supported at MarketWatch"
+      ]
+    },
+    {
+      "title": "E-Mini Nasdaq 100 Index Continuous Contract Overview (NQ00) | Barron's",
+      "url": "https://www.barrons.com/market-data/futures/nq00?gaa_at=eafs&gaa_n=ASWzDAi__eVOx-uFMRiBBjTJec7k-4DS9QhGoBnExcWnzhWr_sd1lTRr6r7e&gaa_ts=68e6b6e5&gaa_sig=aJD4mhkBPmz_MTboIJCUAS-pKI5FB2J55RPdi3EnneZGGpOfxeQznd5cZNeq9imeV2TkKATyiyXdGUEMJO57zQ%3D%3D",
+      "published_date": "2025-10-22T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "-Mini Nasdaq 100 Index Continuous Contract\nU.S.: CME\nmarket open\n \nNQ00\n \n0%\nDelayed quote\n## Key Data Open\n$24,943.50\nOpen Interest\n270,655\nDay Range\n24,815.00 - 25,054.00\n52 Wk Range\n16,460.00 - 26,399.00\n## Performance 5 Day\n1 Month\n3 Month\nYTD\n1 Year\n0.26%\n-2.90%\n3.37%\n-2.15%\n12.43%\n$\n1D\nCompare\n## Recent Contracts\nLast\nChg\nOpen\nHigh Low\nDate/Time\n E-Mini Nasdaq 100 Index Mar 2026 \n$24,886.75\n-69.25\n$24,943.50\n$25,054.00\n$24,815.00 Feb 19, 2026 6:52 a.m.\n E-Mini Nasdaq 100 Index Jun 2026 \n$25,104.50\n-70.25\n$25,159.50\n$25,269.50\n$25,034.25 ... Feb 18, 2026 4:05 p.m.\n E-Mini Nasdaq 100 Index Dec 2030 \n$29,451.25\n0.00\n$0.00\n$0.00\n$0.00 Feb 18, 2026 4:05 p.m.\n## Commodities News\nLoading data\n## Futures Overview EnergyMetalsAgricultureCurrenciesInterest RatesIndexes\n||Last|Chg|% Chg| | Crude Oil Continuous Contract |$66.11|1.06|1.63%| | Brent Crude Oil Continuous Contract |$71.40|1.05|1.49%| ... Stocks: Real-time U.S. stock quotes reflect trades reported through Nasdaq only; comprehensive quotes and volume ... Markets Diary: Data on U.S. Overview page represent trading in all U.S. markets and updates until 8 p.m. See Closing Diaries table for 4 p.m. closing data. Sources: FactSet, Dow Jones ... Commodities & Futures: Futures prices are delayed at least 10 minutes as per exchange requirements. Change value during ... Data are provided 'as is' for informational purposes only and are not intended for trading purposes. FactSet (a) does ... Barron's \n### Topics\n* Cryptocurrencies \n* Data ... Community Rules \n Barron's Archive Copyright \u00a9 2026 Dow"
+      ]
+    },
+    {
+      "title": "NVIDIA (NVDA) Up or Down on November 3? Trading Odds & Predictions (Nov. 3, 2025) | Polymarket",
+      "url": "https://polymarket.com/event/nvda-up-or-down-on-november-3-2025",
+      "published_date": "2025-11-14T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Past\n\n Ended: Nov 3, 2025 \n\n 4PM \n\n## Rules ## Market Context This market will resolve to \"Up\" if the official NASDAQ closing price for NVIDIA (NVDA) on Monday, November 3, 2025 is higher than the official NASDAQ closing price for NVDA on the most recent prior trading day. This market will resolve to \"Down\" if the official NASDAQ closing price for NVIDIA (NVDA) on Monday, November 3, 2025 is lower than the official NASDAQ closing price for NVDA on the most recent prior trading day. E.g., ordinarily, a market on Monday would refer to ... refer to Thursday, or the next most recent trading day. If the two specified closing prices are exactly equal, this market will resolve 50-50. Note that all figures will be rounded to the nearest cent using standard rounding. If NVDA ... use the last valid on-exchange trade price of the regular session as the effective closing price. The resolution source for this market is NASDAQ, specifically the exchange-certified Close values published at https://www.nasdaq.com/market-activity/quotes/historical. Outcome proposed: Up\n\nNo dispute\n\nFinal outcome: Up\n\nPost\n\nBeware of external links.\n\nNewest # NVIDIA (NVDA) Up or Down on November 3?\n\nPast\n\n Ended: Nov 3, 2025 \n\n 4PM \n\n## Rules ... This market will resolve to \"Up\" if the official NASDAQ closing price for NVIDIA (NVDA) on Monday, November 3, 2025 is higher than the official NASDAQ closing price for NVDA on the most recent prior trading day. This market will resolve to \"Down\" if the official NASDAQ closing price for NVIDIA (NVDA) on Monday, November 3, 2025 is lower than the official ... refer to Thursday, or the next most recent trading day. If the two specified closing prices are exactly equal, this ... https://www.nasdaq.com/market-activity/quotes/historical. Outcome proposed: Up\n\nNo dispute\n\nFinal outcome: Up\n\n### Related AI Industry Downturn by December 31, 2026?20% \n\n OpenAI IPO closing market cap above $800B?67% Post"
+      ]
+    },
+    {
+      "title": "Nasdaq 100 (NDX) Up or Down on November 21?",
+      "url": "https://polymarket.com/event/ndx-up-or-down-on-november-21-2025",
+      "published_date": "2025-10-15T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Ended: Nov 21, 2025] 4PM Jan 12 \n\nUp\n\n>99% chance\n\n### Market Context ### Nasdaq 100 (NDX) Up or Down on November 21?\n\nGenerate\n\n### Rules This market will resolve to \"Up\" if the official Nasdaq 100 Index closing price for Nasdaq 100 (NDX) on Friday, ... day.This market will resolve to \"Down\" if the official Nasdaq 100 Index closing price for Nasdaq 100 (NDX) on Friday, ... two specified closing prices are exactly equal, this market will resolve 50-50. Note that all figures will be rounded ... regular session as the effective closing price.The resolution source for this market is the Wall Street Journal, specifically the Close values published by the WSJ under \"Historical Prices\".US: https://www.wsj.com/market-data/stocks EMEA: https://www.wsj.com/market-data/stocks/emea ASIA: https://www.wsj.com/market-data/stocks/asia Created At: Nov 20, 2025, 1:00 PM UTC\n\nVolume\n\n$9,070\n\nEnd Date\n\nNov 21, 2025\n\nCreated At\n\nNov 20, 2025, 1:00 PM UTC Resolution Source\n\n https://www.wsj.com/market-data/stocks \n\nResolver\n\n 0x65070BE91... \n\nShow more Outcome proposed: Up\n\nNo dispute\n\nFinal outcome: Up\n\nComments (10)Top HoldersActivity\n\nPost\n\nBeware of external links. Newest\n\nBeware of external links.\n\n# Nasdaq 100 (NDX) Up or Down on November 21?\n\nPast Ended: Nov 21, 2025 4PM Jan 12 \n\nUp\n\n>99% chance\n\n### Market Context ### Nasdaq 100 (NDX) Up or Down on November 21?\n\nGenerate\n\n### About This market will resolve to \"Up\" if the official Nasdaq 100 Index closing price for Nasdaq 100 (NDX) on Friday, November 21, 2025 is higher than the official Nasdaq 100 Index closing price for NDX on the most recent prior trading day.This market will resolve to \"Down\" if the official Nasdaq 100 Index closing price for Nasdaq 100 (NDX) on Friday, ... https://www.wsj.com/market-data/stocks/asia Volume\n\n$9,070\n\nEnd Date\n\nNov 21, 2025\n\nCreated At\n\nNov 20, 2025, 1:00 PM UTC\n\nResolution Source ... Outcome proposed: Up\n\nNo dispute\n\nFinal outcome"
+      ]
+    },
+    {
+      "title": "Probability Calculator: Fidelity Investments",
+      "url": "https://researchtools.fidelity.com/ftgw/mloptions/goto/probCalc?symbol=NNN",
+      "published_date": "2025-05-13T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Market Overview] \n- Quotes & Tools Fidelity Learning Center | Coaching Sessions - Market Commentary \n- Probability Calculator\n- Option Quote & Chart - Key Statistics \n- Option Chain ## Nnn REIT Ord\n\n$43.58-1.21 (-2.70%)\n\nAS OF 4:10:00PM ET 02/18/2026\u0086\n\nMore Quote Information Log in to analyze how future price movements in an underlying position will impact option strategies. - Analyze actual or simulated option positions based on the price fluctuations of an underlying security. - Evaluate price targets for options at specific dates. - Calculate the probability of future price movements for an underlying security. All rights reserved.\n\n- Site Map \n- Security \n- Privacy \n- Terms of Use Insert title here"
+      ]
+    },
+    {
+      "title": "Probability Calculator: Fidelity Investments",
+      "url": "https://researchtools.fidelity.com/ftgw/mloptions/goto/probCalc?symbol=XSHQ",
+      "published_date": "2025-05-13T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        ">\n- Stocks, ETFs, Crypto \n- Mutual Funds - Fixed Income, Bonds & CDs \n- Options Log In Required \n- IPOs ... - Retirement & IRAs \n- Spending & Saving \n- Investing & Trading ... - Research > Content and data provided by various third parties and Fidelity Investments \u2013 [Terms of Use. Opens in a new ... # Options\n\n- Print \n- Help/Glossary - Quotes & Tools \n- Market Overview \n- Trading Ideas ... - Option Chain \n- Key Statistics \n- Option Quote & Chart \n- Probability Calculator - Market Commentary ## Invesco S&P Smallcap Quality ETF\n\n$40.78 up up 0.17\u00a0(0.42%) AS OF 4:10:00PM ET 05/13/2025\u2020\n\nMore Quote Information\n\n \n\n Close Popup ### More Quote Information\n\nBid\n\n36.97 X 1\n\nAsk\n\n44.83 X 1\n\nVol\n\n217,662\n\nIV30\n\n--\n\nIV60\n\n--\n\nIV90\n\n-- Most Recent Distribution Amount\n\n--\n\nEx. Date\n\n--\n\nDistribution Yield (TTM)\n\n-- Log in to analyze how future price movements in an underlying position will impact option strategies. - Calculate the probability of future price movements for an underlying security. - Evaluate price targets for options at specific dates. - Analyze actual or simulated option positions based on the price fluctuations of an underlying security. \n\n Fidelity Investments \n\n\u00a9 1998 - 2018 FMR LLC.\n\nAll rights reserved. - Terms of Use \n- Privacy \n- Security \n- Site Map \n\nPlaceholder Text. Insert title here"
+      ]
+    },
+    {
+      "title": "Nasdaq-100 price end of 2025 Prediction Market",
+      "url": "https://robinhood.com/us/en/prediction-markets/Financial/nasdaq-100-price-end-of-2025-nov-09-2025/",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "100 price end of 2025\n\n25,000 to 25,499.9998\u00a2\n\n29,000 to 29,499.995\u00a2\n\n23,500 to 23,999.993\u00a2\n\n1D\n\n1W\n\nMAX ## Select a contract\n\nShow 22 more\n\n25,000 to 25,499.99\n\n98\u00a2\n\n29,000 to 29,499.99\n\n5\u00a2\n\n23,500 to 23,999.99\n\n3\u00a2 ... Usually within 1 hour of event resolution\n\nContract resolves\n\nDetermines the outcome of the contract\n\n## About Where will the Nasdaq-100 close at the end of 2025? Get $1 for every contract you own if your prediction is correct. Or ... ## Similar events\n\n Will credit card rates be capped this year? How low will the Nasdaq-100 get in 2026? \n\n S&P price on Feb 19, 2026 at 4pm EST S&P close price end of 2026? \n\n Tesla deliveries in Q1 2026 Will the S&P finish positive this year? \n\n Will the NASDAQ-100 finish positive in 2026? Nasdaq-100 price on Feb 19, 2026 at 4pm EST ... Nasdaq-100 close price end of 2026? \n\n How high will the Nasdaq-100 price get in 2026? How low will the S&P get this year? Restrictions and eligibility requirements apply. Futures, options on futures and cleared swaps trading involves significant risk and is not appropriate for everyone. Please carefully consider if it is appropriate for you in light ... contracts. Live data is for informational purposes only. It"
+      ]
+    }
+  ]
+}

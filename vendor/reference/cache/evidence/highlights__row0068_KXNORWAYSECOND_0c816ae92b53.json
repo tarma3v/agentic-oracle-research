@@ -1,0 +1,100 @@
+{
+  "question_id": "KXNORWAYSECOND",
+  "question_text": "Will H finish 2nd in Norway?",
+  "resolution_criteria": "If H finishes in 2nd place in the 2025 Norwegian parliamentary election in Norway according to the certified results, then the market resolves to Yes.\nRanking is determined by the specified counting method. For proportional representation: rank follows the electoral authority's final seat allocation order. In case of exact ties, markets resolve proportionally (1/number of tied entities). If the election is cancelled or postponed beyond expiration, all markets resolve to No.",
+  "resolution_date": "2025-09-22T03:19:28.773189Z",
+  "retrieval_timestamp": "2026-02-23T06:38:07.587127Z",
+  "query_used": "What is the result of this question \"Will H finish 2nd in Norway\"",
+  "sources": [
+    {
+      "title": "Stats - Norway Chess",
+      "url": "https://stats.norwaychess.no/2025/standings",
+      "published_date": "2025-01-01T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Stats - Norway Chess\n \nOfficialStatistics\nLoading...\n Loading... Standings\n## 1.Magnus Carlsen\n## 16\n \nGames:**10**Won:**3**Loss:**1**Draw:**6**Armageddon wins:**2** ## 2.Fabiano Caruana\n## 15.5\n \nGames:**10**Won:**4**Loss:**3**Draw:**3**Armageddon wins:**1** ## 3.Dommaraju Gukesh\n## 14.5\n \nGames:**10**Won:**4**Loss:**4**Draw:**2**Armageddon wins:**1** ## 4.Hikaru Nakamura\n## 14\n \nGames:**10**Won:**2**Loss:**1**Draw:**7**Armageddon wins:**2** ## 5.Arjun Erigaisi\n## 13\n \nGames:**10**Won:**2**Loss:**3**Draw:**5**Armageddon wins:**4**\n## 6.Wei Yi ## 9.5\n \nGames:**10**Won:**0**Loss:**3**Draw:**7**Armageddon wins:**5**"
+      ]
+    },
+    {
+      "title": "Norway Chess - Results",
+      "url": "https://norwaychess.no/en/results-and-pairings/",
+      "published_date": "2025-01-01T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "** | | **1** | **2** | **3** | **4** | **5** | **6** | **7** | **8** | **9** | **10** | **Total** | **_A_** | **_B_** | **_C_** | | **1** | Magnus Carlsen | NOR | | 1,5 | 2 | \u00bd | 1,5 | 1,5 | 1,5 | 1,5 | 1,5 | 2 | **13,5** | _66,5_ | _8_ | _3_ | | **2** | Levon Aronian | ARM | \u00bd | | 1,5 | 0 | 1,5 | 1,5 | 1,5 | \u00bd | 2 | 1,5 | **10,5** | _48_ | _6_ | _4_ | | **3** | Yu Yangyi | CHN | 0 | \u00bd | | 1,5 | 0 | 1,5 | 1,5 | 1,5 | 2 | 2 | **10,5** | _45,5_ | _6_ | _3_ | ... | **10** | Alexander Grischuk | RUS | 0 | \u00bd | 0 | \u00bd | \u00bd | 1,5 | \u00bd | \u00bd | 1,5 | | **5,5** | _14_ | _2_ | _2_ | Ties\u00a0:\n\nA= Sonneborn Berger\n\nB= Most wins\n\nC= Most wins with black\n\n**Pairings and results** | | | |\n| --- | --- | --- |\n| **ROUND 1** |\n| Magnus CARLSEN | 1.5 \u2013 0.5 | Viswanathan ANAND | | Shakhriyar MAMEDYAROV | 1.5 \u2013 0.5 | Fabiano CARUANA |\n| Liren DING | 1.5 \u2013 0.5 | Wesley SO | | Maxime VACHIER-LAGRAVE | 0.5 \u2013 1.5 | Yangyi YU |\n| Levon ARONIAN | 1.5 \u2013 0.5 | Alexander GRISCHUK |\n| **ROUND 2** | | Levon ARONIAN | 0.5 \u2013 1.5 | Magnus CARLSEN |\n| Yangyi YU | 1.5 \u2013 0.5 | Liren DING | | Fabiano CARUANA | 2 \u2013 0 | Maxime VACHIER-LAGRAVE |\n| Viswanathan ANAND | 0 \u2013 2 | Shakhriyar MAMEDYAROV | ... | Shakhriyar MAMEDYAROV | 0 \u2013 2 | Levon ARONIAN |\n| Liren DING | 2 \u2013 0 | Fabiano CARUANA | ... | Alexander GRISCHUK | 0 \u2013 2 | Yangyi YU |\n| **ROUND 5** |\n| Shakhriyar MAMEDYAROV | 0.5 \u2013 1.5 | Alexander GRISCHUK | | Liren DING | 0.5 \u2013 1.5 | Levon ARONIAN |\n| Maxime VACHIER-LAGRAVE | 0.5 \u2013 1.5 | Magnus CARLSEN | ... | Magnus CARLSEN | 1.5 \u2013 0.5 | Liren DING |\n| Shakhriyar MAMEDYAROV | 0.5 \u2013 1.5 | Maxime VACHIER-LAGRAVE | ... | Wesley SO | 1.5 \u2013 0.5 | Maxime VACHIER-LAGRAVE"
+      ]
+    },
+    {
+      "title": "Results & Standings - Norway Chess 2025 - Chess.com",
+      "url": "https://www.chess.com/events/2025-norway-chess-main/results",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "Home Play \n\n Puzzles \n\n Learn \n\n Watch \n\n News Social \n\n Sign Up Log In"
+      ]
+    },
+    {
+      "title": "FIS Nordic World Ski Championships 2025 \u2013 Men's sprint",
+      "url": "https://en.wikipedia.org/wiki/FIS_Nordic_World_Ski_Championships_2025_%E2%80%93_Men%27s_sprint",
+      "published_date": "2025-03-07T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "2 languages\n* Norsk bokm\u00e5l \n* Polski ... at\u00a0the FIS Nordic World Ski Championships 2025|\nVenue| Gran\u00e5sen Ski Centre | Location| Trondheim , Norway|\nDates|27 February|\nCompetitors|187\u00a0from\u00a063\u00a0nations| Winning\u00a0time|2:45.74|\nMedalists| gold medal \u00a0| Johannes H\u00f8sflot Kl\u00e6bo |\u00a0 \u00a0 Norway | ... * e \n| The**Men's sprint**competition at the FIS Nordic World Ski Championships 2025 was held on 27 February 2025. [1] [2] [3] ## Results\n[ edit ]\n### Qualification\n[ edit ] The qualification was started at 10:52. [4] \n|Rank|Bib|Athlete|Country|Time|Deficit|Notes| 1|8| Johannes H\u00f8sflot Kl\u00e6bo | \u00a0 Norway |2:36.32||Q| 2|4| Edvin Anger | \u00a0 Sweden |2:37.42|+1.10|Q| 3"
+      ]
+    },
+    {
+      "title": "FIS | Nordic Combined Results - Trondheim (NOR) 2024/2025",
+      "url": "https://www.fis-ski.com/DB/general/results.html?seasoncode=2025&sectorcode=NK&sector=NK&raceid=3405",
+      "published_date": "2025-03-08T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "2nd Run:\n\n\n\n14:30 ... Normal Hill HS102/5.0 Km \\| WSC07.03.2025 - Men's Team Large Hill HS138/4x5 Km \\| WSC08.03.2025 - Men's Individual ... Local TimeMy Time\n\nCODEX: 4209\n\nInfo.\n\nName\n\nNat.\n\nTechnical Delegate\n\nStegnar Matija\n\nSLO\n\nTechnical Delegate Koziskova Jana\n\nCZE\n\nInfo.\n\nData\n\nNat.\n\nStart Time\n\n09:30\n\nInfo.\n\nData\n\nAddress : World Ski Championship Trondheim 2025\n\nGran\u00e5sen arena\n\n7013 Trondheim,\n\nNOR\n\nPhone :\n\n+47 930 34 542\n\nGeneral Email : ... Social media :\n\n https://www.instagram.com/trondheim2025/ \n\nFile name\n\nReference\n\nFile Size Official Results\n\ndownload\n\n(792.83 kb)\n\nStart List Cross-Country\n\ndownload\n\n(847.86 kb)\n\nResults List Ski Jumping download\n\n(170.41 kb)\n\nStart List\n\ndownload\n\n(206.07 kb)\n\nResults Trial Round\n\ndownload\n\n(158.81 kb) Results List Official Training\n\ndownload\n\n(173.87 kb)\n\nStart List Official Training\n\ndownload\n\n(158.64 kb) ... download\n\n(1.36 MB)\n\nInvitation\n\ndownload\n\n(4.91 MB)\n\n 1st24:57.5\\\n\\\nRIIBER Jarl Magnus 2nd+1:10.7\\\n\\\nGRAABAK Joergen \n\n 3rd+1:11.1\\\n\\\nGEIGER Vinzenz \n\nRank\n\nBib\n\nFIS code\n\nAthlete Year\n\nNation\n\nDistance\n\nPoints\n\nJump\n\nRank\n\nTime\n\nDiff. Time\n\nTime\n\nDiff. 1\\\n\\\n1\\\n\\\n100100\\\n\\\nRIIBER Jarl Magnus\\\n\\\n1997\\\n\\\nNOR\\\n\\\n139.0\\\n\\\n158.5\\\n\\\n1\\\n\\\n24:57.5\\\n\\\n24:57.5 2\\\n\\ ... OFTEBRO Jens Luraas\\\n\\\n2000\\\n\\\nNOR\\\n\\\n133.0\\\n\\\n122.7\\\n\\\n12\\\n\\\n26:09.5\\\n\\\n+1:12.0 5\\\n\\\n8\\\n\\\n100308\\\n\\ ... +16:16.9 Did not"
+      ]
+    },
+    {
+      "title": "Oppdal (NOR)",
+      "url": "https://www.fis-ski.com/DB/general/results.html?sectorcode=AL&competitorid=231747&raceid=125445",
+      "published_date": "2025-02-10T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "- Women's Giant Slalom \\| NJC10.02.2025 - Men's Giant Slalom \\| FIS10.02.2025 - Women's Giant Slalom \\| FIS11.02.2025 - Men's Giant Slalom \\| FIS11.02.2025 - Women's Giant Slalom \\| ... CODEX: 1418\n\nValid for FIS Points: YESValid for FIS Pts: YES\n\nOlympic FIS Points 2026: YESOlympic FIS Pts 2026: YES Info.\n\nName\n\nNat.\n\nTechnical Delegate\n\nWickman Urban\n\nSWE\n\nReferee\n\nFjeldberg Martin\n\nNOR\n\nChief of Race\n\nSande Odin NOR\n\nInfo.\n\nData\n\nStart Altitude\n\n1025 m.\n\nFinish Altitude\n\n645 m.\n\nLength\n\n1150 m.\n\nVertical Drop\n\n380 m ... Oppdal IL Bjoerndalsveien 9 7340 Oppdal, NOR\n\nPhone :\n\n+47 995 75 786\n\nGeneral Email :\n\nDocument\n\nReceived\n\nTD Report: **Yes**\n\nRaces Info:\n\n**Yes**\n\nTiming Report:\n\n**Yes**\n\nFile name\n\nReference\n\nFile Size 1st2:05.91\\\n\\\nHAGAN Sebastian \n\n 2nd+0.48\\\n\\\nAMDAHL Andreas Soensterud 3rd+0.52\\\n\\\nGISKAAS Eirik Schau \n\nRank\n\nBib\n\nFIS code\n\nAthlete\n\nYear\n\nNation\n\nRun 1\n\nRun 2\n\nTot. Time Diff. Time\n\nFIS Points 1\\\n\\\n7\\\n\\\n422950\\\n\\\nHAGAN Sebastian\\\n\\\n2005\\\n\\\nNOR\\\n\\\n1:02.75\\\n\\\n1:03.16\\\n\\\n2:05.91\\\n\\\n2:05.91\\\n\\ 23.00 [2\\\n\\\n14\\\n\\\n422749\\\n\\\nAMDAHL Andreas Soensterud\\\n\\\n2001\\\n\\\nNOR\\\n\\\n1:04.02\\\n\\\n1:02.37\\\n\\\n2:06.39\\\n\\ ... Did not finish 1"
+      ]
+    },
+    {
+      "title": "FIS | Cross-Country Results - Trondheim (NOR) 2024/2025",
+      "url": "https://www.fis-ski.com/DB/general/results.html?competitorid=227688&raceid=46944&sectorcode=CC",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "# Trondheim (NOR)\nWorld Championships\nMen's 50km Mass Start Free\nMarch 08, 2025\nMar 08, 2025\n* 1st Run:\n11:30 ... Local Time\nMy Time\nCODEX: 2408\nValid for FIS Points: YESValid for FIS Pts: YES\n### Jury\nInfo.\nName\nNat. Technical Delegate\nUnterfrauner Thomas\nAUT\nTechnical Delegate\nRosa Anna\nITA\n### Technical data\nInfo.\nData\n Homologation Number\nWC24/21.08/8.3\n \n### Contact\nInfo.\nData\nAddress :\nWorld Ski Championship Trondheim 2025 Gran\u00e5sen arena\n7013 Trondheim,\nNOR\nPhone :\n+47 930 34 542\nGeneral Email :\nEntries Email :\nAccommodation Email : ... https://www.instagram.com/trondheim2025/ \n### Downloads\nFile name\nReference\nFile Size\nResults\ndownload (858.7 kb)\nStart List\ndownload\n(889.63 kb)\nWorld Ranking List\ndownload\n(774.99 kb)\nInvitation\ndownload\n(4.91 MB) Medal Standings\ndownload\n(1.46 MB)\nEvent Program\ndownload\n(47.25 kb)\n### official results\nFilter\nNation\nBirth Year\n 1st1:57:47.1\nKLAEBO Johannes HoesflotFischer\n \n \n2nd+2.1\nPOROMAA WilliamFischer\n \n \n3rd+8.5 KRUEGER Simen HegstadAtomic\n \nRank\nBib\nFIS code\nAthlete\nYear\nNation\nTime\nDiff. Time\nFIS Points\n \n1\n1\n3422819 KLAEBO Johannes Hoesflot\nFischer\n1996\nNOR\n1:57:47.1\n1:57:47.1\n0.00\n \n2\n11\n3501741\nPOROMAA William\nFischer 2000\nSWE\n1:57:49.2\n+2.1\n0.42\n \n3\n2\n3421779\nKRUEGER Simen Hegstad\nAtomic\n1993\nNOR\n1:57:55.6\n+8.5\n1.68 ... GOLBERG Paal\nRossignol\n1990\nNOR\n2:06:57.8\n+9:10.7\n109.09\n [\n28\n24\n3290904\nCAROLLO Martino\nRossignol\n2003\nITA 2:"
+      ]
+    },
+    {
+      "title": "FIS | Statistics - Ranks &amp; Positions",
+      "url": "https://www.fis-ski.com/DB/general/statistics.html?categorycode=WC&competitornationcode=&disciplinecode=&gendercode=W&nationcode=&offset=50&place=&position=4&positionstype=position&seasoncode=2026&sectorcode=NK&statistictype=positions",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "Disciplines] Inside FIS \n| ... ] \n### Statistics\n### Positions Top 3, Top 6, Top 9 or Top 12 per place/year, discipline, category, nation, gender\nFilter\nDiscipline Cross-CountrySki JumpingNordic CombinedAlpine SkiingFreestyleSnowboardSpeed SkiingGrass SkiingTelemarkMastersPara ... Youth Olympic FestivalContinental CupGrand PrixUniversiadeFISJuniorNational ChampionshipsAlpen CupAlpen CupWorld Cup ... SprintHurricane SPMass Start TspCompact SprintSprint Quali FormHurrican Compact SPPenalty Race Gender\nAllWomenMen\nAthlete Nation\nPlace\nPlace Nation\nPosition\nPodiumsTop 6Top 9Top 12\nsearch\nDate\nPlace\nNation\nDisc. Gender\nDisc.\nGender\nPosition\nPosition\nRank 1\nRank 2\nRank 3\n 11-01-2026 Otep\u00e4\u00e4 EST \nICN W\n ICN \nW\n \n \n1.\nHAGEN Ida Marie\nNOR\n \n \n2.\nKORHONEN Minja\nFIN\n \n 3.\nBRABEC Alexa\nUSA\n \n 10-01-2026 Otep\u00e4\u00e4 EST \nGUN\nW ... ARMBRUSTER Nathalie\nGER\n \n 20-12-2025 Ramsau AUT \nGUN\nW ... KORHONEN Minja\nFIN\n \n 06-12-2025 [Trond"
+      ]
+    },
+    {
+      "title": "The semifinals factor for skiing fast in the finals\n       - Department of Mathematics",
+      "url": "https://mn.uio.no/math/english/research/projects/focustat/the-focustat-blog%21/skisprint-semifinals-finals.html",
+      "published_date": "2017-02-24T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "The winners, at the end of the process, seemingly have a tendency to come from the first of the two semifinals. Nikita Kriukov and Aleksandr Panzhinskiy (from the first semifinal) win gold and silver in Vancouver 2010, a small ... 1.5 km distances in highly varying terrain. With Aand B denoting the first and the second of the semifinals, these are the results from the Sochi 2014 Olympics: | 1 | O.V. Hattestad | A | 1 | M.C. Falla | A |\n| --- | --- | --- | --- | --- | --- | | 2 | T. Peterson | A | 2 | I.F. \u00d8stberg | B |\n| 3 | E. J\u00f6nsson | B | 3 | V. Fabjan | A | ... | 6 | M. Hellner | A | 6 | S. Caldwell | B | So the A skiers (and the Norwegian gold medallists) apparently do a bit better than the B skiers... is this merely by chance? Not even a statistician can make any claims that something systematic is taking place here, based on the results from a ... marked against the distribution of such \\\\(Z\\_A\\\\) drawn under the condition of fairness. So Conclusion One is that there's a serious advantage for the A skiers, those coming from the first semifinal: they tend, in a crystal clear statistical sense, over time, to have better ranks, to be more often on the podium, than the B skiers. Conclusion One, though already important, does not yet help us understand to what extentthe Olympic setup is unfair. To ... at via calculations using the parametric model, shows that there is a 64% chance that the winner is an A skier, 36% ... 2015-2016 winter season onwards. P.S. This blog post was written on the day where Maiken Falla, Jessica Diggins, Kikkan Randalph, Frederico Pellegrino, ... Tags: Petter Northug , Olympic unfairness , ski sprint , confidence curve By Nils Lid Hjort PublishedFeb. 24, 2017 8:48 AM \\- Last modifiedMar. 18, 2025 9:50 AM\n\n E-mail this page - Share on Facebook \n- Share on X \n\n Comments (1) \n\n Subscribe to comments 1\\. The FIS didn't follow its own intentions and regulations, for the 23-Feb-2017 Lahti World Championships ski sprint event. Semi-1 skiers had"
+      ]
+    },
+    {
+      "title": "",
+      "url": "https://www.fis-ski.com/DB/general/results.html?sectorcode=NK&raceid=3401",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "Trondheim (NOR)\nWorld Championships Mixed Team Normal Hill HS102/4x5 Km\nFebruary 28, 2025\nFeb 28, 2025\n* 1st Run:\n12:00\n* 2nd Run:\n16:05\n 27.02.2025 - Women's Individual Mass Start Normal Hill HS102/5.0 Km | WSC28.02.2025 - Mixed Team Normal Hill HS102/4x5 ... Local Time\nMy Time\nCODEX: 4205\n### Jury\nInfo.\nName\nNat.\nTechnical Delegate\nStegnar Matija\nSLO\nTechnical Delegate Koziskova Jana\nCZE\n### Contact\nInfo.\nData\nAddress :\nWorld Ski Championship Trondheim 2025\nGran\u00e5sen arena 7013 Trondheim,\nNOR\nPhone :\n+47 930 34 542\nGeneral Email :\nEntries Email :\nAccommodation Email :\nTransportation Email : ... ### Downloads\nFile name\nReference\nFile Size\nOfficial Results\ndownload\n(780.23 kb)\nStart List Cross-Country\ndownload (778.25 kb)\nResults List Ski Jumping\ndownload\n(168.23 kb)\nResults Trial Round\ndownload\n(161.33 kb)\nStart List\ndownload (154.21 kb)\nMedals standing\ndownload\n(1.42 MB)\nInvitation\ndownload\n(4.91 MB)\n### official results\nFilter\nNation Birth Year\n \n1st36:37.5\nNORWAY\n \n \n2nd+1:16.8\nGERMANY\n \n \n3rd+1:55.1\nAUSTRIA\n \nRank\nBib FIS code\nName\nYear\nNation\nJump 1\nRound 1\nPoints\nTime\nDiff. Time\n \n1\n1\n101861\nNORWAY\nNOR\n471.9\n36:37.5\n36:37.5 \n1-1\n100474\nOFTEBRO Jens Luraas\n2000\n99.5\n117.7\n \n1-2\n100845\nWESTVOLD HANSEN Gyda\n2002\n102.0 115.6\n \n1-3\n100733\nHAGEN Ida Marie\n2000\n95.0\n105.5\n \n1-4\n100100\nRIIBER Jarl Magnus\n1997\n107.0 133.1\n [\n2\n3\n101"
+      ]
+    }
+  ]
+}

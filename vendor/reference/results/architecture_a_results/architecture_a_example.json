@@ -1,0 +1,58 @@
+{
+  "run_config": {
+    "retrieval_mode": "highlights",
+    "num_results": 10,
+    "fulltext_max_characters": 4000,
+    "highlights_max_characters": 2000,
+    "cache_only": false,
+    "cache_dir": "cache/evidence",
+    "n": 1,
+    "category": null,
+    "question_ids": [],
+    "use_claude": false,
+    "use_gemini": false
+  },
+  "summary": {
+    "total_questions": 1,
+    "processed_questions": 1,
+    "skipped_questions": 0,
+    "failed_evidence": 0,
+    "accuracy": 1.0,
+    "gpt4o_accuracy": 1.0,
+    "deepseek_accuracy": 1.0,
+    "llama_accuracy": 1.0,
+    "unanimous_rate": 1.0,
+    "majority_rate": 1.0,
+    "average_latency_ms": 7253.0,
+    "runtime_seconds": 7.259412458006409,
+    "estimated_exa_cost_usd": 0.0
+  },
+  "results": [
+    {
+      "row_uid": "row0001_KXLTGOVVA_f6a16c9a2c02",
+      "row_number": 1,
+      "retrieval_mode": "highlights",
+      "question_id": "KXLTGOVVA",
+      "question_text": "Will the Republican party win the Lt. Gov race in Virginia?",
+      "resolution_criteria": "If a representative of the Republican party is sworn in as the Lieutenant Governor of Virginia for the term beginning in 2026, then the market resolves to Yes.",
+      "category": "Elections",
+      "ground_truth": "NO",
+      "gpt4o_decision": "NO",
+      "gpt4o_confidence": 0.92,
+      "gpt4o_reasoning": "Multiple sources confirm the Democratic candidate Ghazala Hashmi defeated Republican John Reid in the 2025 Virginia lieutenant gubernatorial election. Ballotpedia states Hashmi defeated Reid in the general election (Hashmi D 55.7% to Reid R 44.1%). NBC News and NBC\u2019s results page similarly show Hashmi as the winner (Hashmi around mid-50s vs Reid ~44%). BBC reports Hashmi won the lieutenant governor race, noting she will take office in 2026. Virginia Mercury (Democrats sweep) and The Washington Post coverage corroborate Hashmi\u2019s victory and the Democratic sweep of statewide offices. Therefore, no Republican was sworn in as lieutenant governor for the 2026 term, so the resolution criterion (Republican sworn in for 2026 term) did not occur.",
+      "gpt4o_error": null,
+      "deepseek_decision": "NO",
+      "deepseek_confidence": 1.0,
+      "deepseek_reasoning": "Multiple sources (Source 1, Source 4, Source 5, Source 7, Source 8) definitively state that Democrat Ghazala Hashmi won the Virginia lieutenant governor election on November 4, 2025, defeating Republican candidate John Reid. Source 1 (NBC News) explicitly states 'GHAZALA HASHMI wins the Virginia lieutenant governor race' with 55.4% of the vote versus Reid's 44.3%. Source 4 (Wikipedia) confirms Hashmi won by over 11 percentage points and will take office on January 17, 2026. Source 5 (Ballotpedia) shows certified results with Hashmi receiving 55.7% of votes. Source 7 (BBC) and Source 8 (Virginia Mercury) both confirm Hashmi's victory. Since the Republican candidate did not win, the market should resolve to NO.",
+      "deepseek_error": null,
+      "llama_decision": "NO",
+      "llama_confidence": 1.0,
+      "llama_reasoning": "The evidence from multiple sources, including NBC News, The Washington Post, and Ballotpedia, all confirm that Ghazala Hashmi, a Democrat, won the Virginia lieutenant governor's race, defeating Republican John Reid. This outcome is consistently reported across the different sources, leaving no ambiguity. Therefore, since a representative of the Republican party was not sworn in as the Lieutenant Governor of Virginia, the market resolves to NO.",
+      "llama_error": null,
+      "final_decision": "NO",
+      "yes_votes": 0,
+      "no_votes": 3,
+      "is_correct": true
+    }
+  ]
+}

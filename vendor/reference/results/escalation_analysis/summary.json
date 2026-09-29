@@ -1,0 +1,97 @@
+{
+  "source_file": "results/Final_Architecture_B_results.csv",
+  "n_questions": 1189,
+  "confidence_split_method": "median",
+  "confidence_median": 0.8066666666666666,
+  "signal_strength_sort": "Final-round unanimity first, then descending average round-2 confidence.",
+  "unanimous_vs_split": [
+    {
+      "vote_pattern": "split_2_to_1",
+      "n": 137,
+      "accuracy": 0.5401459854014599,
+      "avg_confidence": 0.7919221411192214
+    },
+    {
+      "vote_pattern": "unanimous_3_to_0",
+      "n": 1052,
+      "accuracy": 0.7899239543726235,
+      "avg_confidence": 0.7308903675538656
+    }
+  ],
+  "confidence_bins": [
+    {
+      "confidence_bin": "high",
+      "n": 600,
+      "accuracy": 0.8583333333333333,
+      "avg_confidence": 0.9104222222222222
+    },
+    {
+      "confidence_bin": "low",
+      "n": 589,
+      "accuracy": 0.6621392190152802,
+      "avg_confidence": 0.5622014714204867
+    }
+  ],
+  "signal_2x2": [
+    {
+      "vote_pattern": "split_2_to_1",
+      "confidence_bin": "high",
+      "n": 78,
+      "accuracy": 0.5897435897435898,
+      "avg_confidence": 0.8638888888888888
+    },
+    {
+      "vote_pattern": "split_2_to_1",
+      "confidence_bin": "low",
+      "n": 59,
+      "accuracy": 0.4745762711864407,
+      "avg_confidence": 0.6967796610169491
+    },
+    {
+      "vote_pattern": "unanimous_3_to_0",
+      "confidence_bin": "high",
+      "n": 522,
+      "accuracy": 0.8984674329501916,
+      "avg_confidence": 0.9173754789272031
+    },
+    {
+      "vote_pattern": "unanimous_3_to_0",
+      "confidence_bin": "low",
+      "n": 530,
+      "accuracy": 0.6830188679245283,
+      "avg_confidence": 0.5472201257861635
+    }
+  ],
+  "coverage_accuracy_checkpoints": [
+    {
+      "fraction_auto_resolved": 0.0992430613961312,
+      "rank": 118,
+      "accuracy": 1.0
+    },
+    {
+      "fraction_auto_resolved": 0.19932716568544995,
+      "rank": 237,
+      "accuracy": 0.9915611814345991
+    },
+    {
+      "fraction_auto_resolved": 0.24978973927670312,
+      "rank": 297,
+      "accuracy": 0.9764309764309764
+    },
+    {
+      "fraction_auto_resolved": 0.49957947855340623,
+      "rank": 594,
+      "accuracy": 0.8703703703703703
+    },
+    {
+      "fraction_auto_resolved": 0.7493692178301093,
+      "rank": 891,
+      "accuracy": 0.8058361391694725
+    },
+    {
+      "fraction_auto_resolved": 1.0,
+      "rank": 1189,
+      "accuracy": 0.7611438183347351
+    }
+  ]
+}

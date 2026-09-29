@@ -1,0 +1,222 @@
+% -------------------------------
+% Appendix content: prompts
+% -------------------------------
+
+% Optional but recommended for long prompt listings
+\lstset{
+  breaklines=true,
+  breakatwhitespace=true,
+  basicstyle=\ttfamily\small
+}
+
+\subsection{Prompt Templates}
+
+\begin{figure}[H]
+\centering
+\begin{lstlisting}[style=promptstyle, frame=single]
+SYSTEM PROMPT:
+
+You are an expert prediction market resolution agent. Your task is to determine whether a prediction market question should resolve to YES or NO based on the provided evidence.
+
+Instructions:
+1. Read the question and resolution criteria carefully.
+2. Analyze ALL provided sources for relevant information.
+3. Make your decision based on definitive evidence. Prioritize information describing outcomes that have already occurred.
+4. If evidence is ambiguous, use your best judgment.
+5. Rate your confidence from 0.0 (very uncertain) to 1.0 (absolutely certain).
+
+Output Format:
+- decision: YES or NO
+- confidence: 0.0 to 1.0
+- reasoning: Explanation referencing specific sources
+
+USER MESSAGE TEMPLATE:
+
+Please analyze the following prediction market question and evidence, then provide your resolution decision.
+
+{evidence_text}
+
+Based on the evidence above, should this question resolve to YES or NO?
+\end{lstlisting}
+\caption{\textbf{System prompt used for single-LLM oracle resolution in Architecture A}. The model receives structured evidence and is required to output a binary decision, calibrated confidence score, and source-grounded reasoning.}
+\label{fig:system-prompt}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+
+\begin{tcolorbox}[
+    colback=white,
+    colframe=black,
+    boxrule=0.5pt,
+    arc=0pt,
+    outer arc=0pt,
+    left=4pt,
+    right=4pt,
+    top=4pt,
+    bottom=4pt
+]
+\begin{lstlisting}[
+    style=promptstyle,
+    basicstyle=\ttfamily\scriptsize
+]
+ROUND_1_SYSTEM_PROMPT:
+You are an expert prediction market resolution agent. Your task is to determine whether a prediction market question should resolve to YES or NO based on the provided evidence.
+
+Determine whether the question should resolve to YES or NO based only on the evidence provided.
+
+ROUND_1_USER_TEMPLATE:
+QUESTION: {question}
+
+RESOLUTION CRITERIA: {criteria}
+
+EVIDENCE PROVIDED from reputable sources:
+{exa_evidence}
+
+Provide your answer in JSON with these fields:
+- decision: YES or NO
+- confidence: number between 0.0 and 1.0
+- reasoning: detailed step-by-step reasoning that cites relevant evidence and criteria interpretation
+
+Think carefully about:
+1. Read the question and resolution criteria carefully
+2. Analyze ALL provided sources for relevant information
+3. Make your decision based on definitive evidence. You should prioritize information that describes an outcome that happened.
+4. If evidence is ambiguous, use your best judgment
+5. Rate your confidence in your decision from 0.0 (very uncertain) to 1.0 (absolutely certain)
+\end{lstlisting}
+\end{tcolorbox}
+
+\caption{\textbf{Architecture B (Deliberative Consensus), Round 1 prompt}. Each agent independently resolves the market using a shared evidence packet and outputs a structured JSON decision, confidence score, and evidence-grounded reasoning.}
+\label{fig:archB-round1-prompt}
+\end{figure}
+
+\refstepcounter{figure}\label{fig:archB-round2-prompt}
+
+\noindent
+\begin{tcolorbox}[
+  breakable,
+  colback=white,
+  colframe=black,
+  boxrule=0.5pt,
+  arc=0pt,
+  outer arc=0pt
+]
+\begin{lstlisting}[style=promptstyle]
+ROUND_2_SYSTEM_PROMPT:
+You are in the final cross-examination round of a multi-agent resolution debate.
+You will see how other agents reasoned about the same question. Your job is to CRITICALLY EVALUATE their reasoning against the evidence -- not to defer to them.
+
+IMPORTANT: You should only change your answer if you identify a SPECIFIC factual error in your own round 1 reasoning, or if another agent points to SPECIFIC EVIDENCE in the shared packet that you misread or overlooked. Do NOT change your answer simply because other agents disagree with you or sound confident.
+
+ROUND_2_USER_TEMPLATE:
+You previously resolved this prediction market question.
+Now you will see how two other expert agents reasoned about the same question.
+
+QUESTION: {question}
+
+RESOLUTION CRITERIA: {criteria}
+
+EVIDENCE (SAME SHARED PACKET FROM ROUND 1):
+{exa_evidence}
+
+YOUR PREVIOUS ANSWER:
+{your_round_1_response}
+
+OTHER AGENTS' REASONING:
+{other_agents_section}
+
+This is the FINAL round. Critically evaluate the other agents' reasoning:
+
+1. For each agent that DISAGREES with you: Do they cite specific evidence from the shared packet that contradicts your reasoning? Or are they asserting a conclusion without evidentiary support?
+2. Re-read the specific pieces of evidence that are most relevant to the disagreement.
+3. ONLY change your decision if you can identify a concrete error in your own round 1 analysis, for example, you misread a date, overlooked a source, or misinterpreted the resolution criteria.
+4. If agents agree with you, do NOT increase your confidence unless they provide additional evidence-based reasoning you hadn't considered.
+
+DEFAULT BEHAVIOR: Change your decision ONLY if another agent identifies specific evidence
+or because there is a concrete flaw in your reasoning, not simply because they reached
+a different conclusion.
+
+Provide your FINAL answer in JSON with these fields:
+- decision: YES or NO
+- confidence: number between 0.0 and 1.0
+- reasoning: explain your final reasoning, explicitly addressing each disagreeing agent's key claim
+- revised: true if you changed your decision from round 1, else false
+- convergence_notes: short note on agreement/disagreement and why
+\end{lstlisting}
+\end{tcolorbox}
+
+\captionof{figure}{\textbf{Architecture B (Deliberative Consensus), Round 2 prompt}. Each agent performs a final cross-examination using the same evidence packet, explicitly evaluates other agents' claims, and revises its decision only if it identifies a concrete evidence-based error in its prior reasoning.}
+
+
+\subsection{Command-Line Interface Reference}
+\label{sec:cli-reference}
+
+The evaluation pipeline exposes two main entry points, \texttt{scripts/test\_architecture\_a.py} and \texttt{scripts/test\_architecture\_b.py}. Both scripts share a common set of command-line flags for dataset selection, evidence retrieval, model configuration, and output control. Table~\ref{tab:cli-flags} documents all available flags. To reproduce the main experimental results, a typical invocation for Architecture A is:
+
+\begin{verbatim}
+python scripts/test_architecture_a.py \
+    --questions-csv data/kalshibench_v2_evaluation_Filtered.csv \
+    --retrieval-mode highlights \
+    --num-results 10 \
+    --cache-dir cache/evidence \
+    -n 1189 \
+    -o results/architecture_a_results.csv
+\end{verbatim}
+
+\noindent and for Architecture B:
+
+\begin{verbatim}
+python scripts/test_architecture_b.py \
+    --questions-csv data/kalshibench_v2_evaluation_Filtered.csv \
+    --retrieval-mode highlights \
+    --num-results 10 \
+    --cache-dir cache/evidence \
+    -n 1189 \
+    -o results/architecture_b_results.csv
+\end{verbatim}
+
+\noindent The \texttt{--cache-only} flag can be passed on subsequent runs to avoid re-issuing Exa queries for questions whose evidence packets are already cached locally.
+
+\begin{table}[ht]
+\centering
+\caption{Command-line flags for the Architecture A and Architecture B evaluation scripts.
+``A'' and ``B'' in the \textit{Applies To} column indicate which script(s) expose the flag.}
+\label{tab:cli-flags}
+\renewcommand{\arraystretch}{1.3}
+\small
+\begin{tabular}{p{4cm} p{1.5cm} p{3.5cm} p{5.5cm}}
+\toprule
+\textbf{Flag} & \textbf{Applies To} & \textbf{Default} & \textbf{Description} \\
+\midrule
+\texttt{-n} & A, B & 10 & Number of questions to evaluate \\
+\texttt{--questions-csv} & A, B & \texttt{data/kalshibench\_v2\_} \newline \texttt{evaluation\_Filtered.csv} & Path to the input questions CSV \\
+\texttt{--start-row} & A, B & 1 & 1-based row number to begin evaluation \\
+\texttt{--cache-start-row} & A, B & None & 1-based row for cache-key lookup, independent of \texttt{--start-row} \\
+\texttt{--question-ids} & A, B & None & Specific question IDs to evaluate, bypassing sequential sampling \\
+\texttt{--category} & A, B & None & Filter the dataset to a single category, such as \texttt{Politics} or \texttt{Sports} \\
+\texttt{--retrieval-mode} & A, B & \texttt{highlights} & Exa retrieval mode: \texttt{full\_text} or \texttt{highlights} \\
+\texttt{--num-results} & A, B & 10 & Number of Exa sources retrieved per question \\
+\texttt{--fulltext-max-\newline characters} & A, B & 4000 & Character cap per source in full-text mode \\
+\texttt{--highlights-\newline max-characters} & A, B & 2000 & Character cap for Exa highlight snippets \\
+\texttt{--cache-only} & A, B & false & Use local cache only; do not issue live Exa queries \\
+\texttt{--cache-dir} & A, B & \texttt{cache/evidence} & Directory for cached evidence packets \\
+\texttt{--use-claude} & A, B & false & Substitute Claude for the DeepSeek agent slot \\
+\texttt{--use-gemini} & A, B & false & Substitute Gemini for the Llama agent slot \\
+\texttt{-o} / \texttt{--output} & A & auto-generated timestamped path & Output path for per-question results CSV; auto-generates a timestamped filename if omitted \\
+\texttt{-o} / \texttt{--output} & B & \texttt{arch\_b\_} \newline \texttt{results.csv} & Output path for the per-question results CSV \\
+\texttt{--json} & A, B & None & Optional path for aggregate summary JSON \\
+\texttt{--dry-run} & A, B & false & Print the planned configuration without executing API calls \\
+\texttt{-v} / \texttt{--verbose} & A, B & false & Enable per-question progress logging \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Code Availability}
+\label{sec:code-availability}
+
+The full implementation of the multi-agent oracle system, including evaluation scripts, retrieval pipeline, and experiment configurations, is publicly available on GitHub:
+
+\begin{center}
+\href{https://github.com/Tkota10/Senior-Thesis-Multi-LLM-Resolution}{\underline{\textcolor{blue!70!black}{Paper Repository}}}
+\end{center}

@@ -1,0 +1,253 @@
+Multi-Agent AI Oracle System - Implementation Details (Methodology Input)
+Updated: 2026-02-27
+Workspace: /Users/tarunkota/Desktop/Senior-Thesis-Multi-LLM-Resolution
+
+1) Implementation Language, Platform, and Code Location
+- Language: Python
+- Project Python requirement: >=3.10 (pyproject.toml)
+- Environment used in this repo: Python 3.10.6 (venv)
+- Platform used: macOS 15.7.3, arm64 (Darwin 24.6.0)
+- Core implementation directory: /Users/tarunkota/Desktop/Senior-Thesis-Multi-LLM-Resolution/src
+- Experiment entrypoints: /Users/tarunkota/Desktop/Senior-Thesis-Multi-LLM-Resolution/scripts
+- Outputs/results: /Users/tarunkota/Desktop/Senior-Thesis-Multi-LLM-Resolution/results
+
+2) System Architecture Implemented
+Pipeline:
+KalshiBench question -> Exa retrieval (shared evidence packet) -> 3 LLM agents -> aggregation -> metrics/output
+
+- Architecture A (independent multi-agent voting)
+  - Runner: src/resolution/runner.py (MultiAgentRunner)
+  - Default agents in current code: GPT-5 nano + DeepSeek-V3 + Llama-3.3-70B
+  - Optional swaps: Claude for DeepSeek, Gemini for Llama
+  - Aggregation: majority vote; ties default to NO
+
+- Architecture B (2-round debate + cross-examination)
+  - Runner: src/resolution/debate/runner.py (MultiLLMDebateRunner)
+  - Round 1: independent decisions from identical evidence
+  - Round 2: each agent sees anonymized peer reasoning and may revise
+  - Final aggregation:
+    1) round-2 majority
+    2) if tie, round-1 majority
+    3) if still tie, default NO
+
+3) Final Evaluation Dataset Used (Important)
+This is the final dataset description to report (not the earlier pilot subset-only runs).
+
+Final evaluated set size:
+- 1189 rows/markets
+
+Temporal filtering rationale and boundary:
+- Markets are filtered to close on/after 2025-05-01 to reduce training-period leakage risk for frontier LLMs.
+- Post-filter evaluation set size: 1189 rows.
+- Verified from final evaluation file close_time:
+  - minimum close_time: 2025-05-01 15:27:26.712799+00:00
+  - maximum close_time: 2025-11-16 22:44:43.836516+00:00
+  - rows before 2025-05-01: 0
+
+Class balance in the final 1189-row dataset (ground_truth):
+- YES: 488 (41.04%)
+- NO: 701 (58.96%)
+
+Category distribution in the final 1189-row dataset:
+- Politics: 311 (26.16%)
+- Sports: 269 (22.62%)
+- Entertainment: 230 (19.34%)
+- Elections: 80 (6.73%)
+- Crypto: 59 (4.96%)
+- Mentions: 52 (4.37%)
+- Companies: 50 (4.21%)
+- Financials: 30 (2.52%)
+- World: 29 (2.44%)
+- Climate and Weather: 27 (2.27%)
+- Economics: 21 (1.77%)
+- Social: 13 (1.09%)
+- Science and Technology: 10 (0.84%)
+- Transportation: 4 (0.34%)
+- Health: 2 (0.17%)
+- Education: 2 (0.17%)
+
+4) Data Loading and Representation
+Loader module: src/data/kalshi_loader.py
+- Dataset source ID: 2084Collective/kalshibench-v2
+- Local-first loading behavior:
+  - prefers cache/kalshibench-v2 when present
+  - otherwise loads from Hugging Face datasets API
+- Optional env override: KALSHI_BENCH_DATA_DIR
+
+Question fields used in experiments:
+- id
+- question
+- description (resolution criteria)
+- category
+- close_time (resolution date reference)
+- ground_truth (yes/no, normalized to YES/NO for scoring)
+
+5) Evidence Retrieval Layer (Shared Across Agents)
+Retriever: src/retrieval/exa_retriever.py (ExaOracleRetriever)
+
+Core design control:
+- Every agent receives the same EvidencePacket for a question.
+- This isolates reasoning differences from retrieval differences.
+
+Query construction:
+- Template: What is the result of this question "<question_text_without_trailing_?>"
+
+Retrieval settings (script defaults):
+- retrieval_mode: highlights (default) or full_text
+- num_results: 10
+- full_text max chars/source: 4000
+- highlights max chars: 2000 (or Exa default if CLI sets 0)
+
+Temporal retrieval filter:
+- end_published_date = resolution_date + 1 day
+
+Caching behavior:
+- JSON cache directory default: cache/evidence
+- Cache key in run scripts: <retrieval_mode>__<row_uid>
+
+EvidencePacket schema (src/retrieval/evidence.py):
+- question_id, question_text, resolution_criteria, resolution_date
+- retrieval_timestamp, query_used
+- sources[] where source has title, url, published_date, text, highlights[]
+
+6) LLM Agent Implementations and Structured Output
+Shared base class: src/agents/base.py
+- Standardized output per agent:
+  - decision (YES/NO or null on failure)
+  - confidence [0,1]
+  - reasoning
+  - latency_ms
+  - prompt_tokens/completion_tokens (if API provides)
+  - error field on failure
+- Robust error path returns structured failed records (does not crash run)
+
+Shared prompting:
+- src/agents/prompts.py system + user template
+- Agents consume EvidencePacket.format_for_prompt() output
+
+Agent implementations:
+- OpenAI (src/agents/openai_agent.py)
+  - AGENT_NAME/MODEL: gpt-5-nano
+  - SDK: openai chat.completions
+  - Structured output: json_schema
+  - Retry: 3 attempts (1s, 2s, 4s)
+  - Env key: OPENAI_API_KEY
+
+- DeepSeek via Together (src/agents/deepseek_agent.py)
+  - MODEL: deepseek-ai/DeepSeek-V3
+  - Structured output: tries json_schema, falls back to json_object when rejected
+  - Retry: 3 attempts (1s, 2s, 4s)
+  - Env keys: TOGETHER_API_KEY, optional TOGETHER_BASE_URL
+
+- Llama via Together (src/agents/llama_agent.py)
+  - MODEL: meta-llama/Llama-3.3-70B-Instruct-Turbo
+  - Structured output: same schema->json_object fallback
+  - Retry: 3 attempts (1s, 2s, 4s)
+  - Env keys: TOGETHER_API_KEY, optional TOGETHER_BASE_URL
+
+- Gemini(optional) (src/agents/google_agent.py)
+  - MODEL: gemini-2.0-flash
+  - SDK: google-genai
+  - Structured output: response_mime_type=application/json + Pydantic schema
+  - Retry: 3 attempts (1s, 2s, 4s)
+  - Env key: GOOGLE_API_KEY
+
+- Claude (optional) (src/agents/anthropic_agent.py)
+  - MODEL: claude-haiku-4-5-20251001
+  - Structured output: forced tool-use schema
+  - Retry: 3 attempts (1s, 2s, 4s)
+  - Env key: ANTHROPIC_API_KEY
+
+7) Aggregation and Tie-Break Rules
+Architecture A (src/resolution/aggregation.py):
+- yes_votes = count(successful YES)
+- no_votes = count(successful NO)
+- final_decision = YES if yes_votes > no_votes else NO
+
+Architecture B (src/resolution/debate/runner.py):
+- compute vote totals for round 1 and round 2
+- final decision order:
+  - round 2 majority
+  - else round 1 majority
+  - else default NO
+- tie_break_method persisted in outputs
+
+8) Execution Scripts Used
+- scripts/test_architecture_a.py
+- scripts/test_architecture_b.py
+- scripts/cache_all_evidence.py
+- scripts/download_kalshibench_v2.py
+- scripts/create_kalshibench_subset_and_stats.py
+- scripts/analyze_architecture_results.py
+- scripts/merge_architecture_a_results.py
+- scripts/compare_architecture_a_runs.py
+- scripts/rerun_gemini_for_rows.py
+
+Methodology note on CLI details:
+- Keep only high-level run settings in methodology.
+- Put full CLI flag lists and complete output schemas in appendix/reproducibility section.
+
+9) Output Artifacts and Metrics
+Per-row outputs include:
+- question metadata
+- per-agent decision/confidence/reasoning/error
+- aggregated decision + vote counts
+- correctness flag
+- latency/timing fields
+
+Summary outputs include:
+- processed/skipped/failed counts
+- overall accuracy
+- per-agent accuracy
+- agreement/revision/convergence metrics (architecture-dependent)
+- runtime and estimated retrieval cost
+
+10) Environment Variables and Dependencies
+Environment variables:
+- EXA_API_KEY
+- OPENAI_API_KEY
+- TOGETHER_API_KEY (DeepSeek/Llama)
+- GOOGLE_API_KEY (Gemini)
+- ANTHROPIC_API_KEY (Claude optional)
+- TOGETHER_BASE_URL (optional)
+- KALSHI_BENCH_DATA_DIR (optional)
+
+Declared minimum package dependencies (pyproject.toml):
+- datasets>=2.14.0
+- exa-py>=1.0.0
+- openai>=1.0.0
+- anthropic>=0.18.0
+- google-genai>=1.0.0
+- python-dotenv>=1.0.0
+- pydantic>=2.0.0
+- tqdm>=4.65.0
+- pyyaml>=6.0
+- pandas>=2.0.0
+- numpy>=1.24.0
+- scipy>=1.10.0
+- matplotlib>=3.7.0
+- seaborn>=0.12.0
+
+Observed installed versions in this local venv at update time:
+- datasets==4.5.0
+- exa-py==2.2.0
+- openai==2.16.0
+- anthropic==0.77.0
+- google-genai==1.62.0
+- python-dotenv==1.2.1
+- pydantic==2.12.5
+- tqdm==4.67.1
+- pyyaml==6.0.3
+- pandas==2.3.3
+- numpy==2.2.6
+- scipy==1.15.3
+- matplotlib==3.10.8
+- seaborn==0.13.2
+
+11) Reproducibility/Validity Points to Mention in Methodology
+- Shared-evidence control across agents (same Exa packet per question)
+- Structured output constraints per provider (schema/tool-enforced)
+- Retry/error handling with non-crashing failed-record outputs
+- Deterministic tie behavior (explicit default paths)
+- Explicit post-cutoff market selection (>=2025-05-01)
+- Final evaluated dataset statistics reported with class and category balance

@@ -1,0 +1,100 @@
+{
+  "question_id": "KXBIDENMENTION",
+  "question_text": "What will Joe Biden say during Ben Nelson Gala on November 7th?",
+  "resolution_criteria": "If Joe Biden says King as part of Ben Nelson Gala on November 7th, then the market resolves to Yes.\nVideo of the Ben Nelson Gala on November 7th will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the Ben Nelson Gala on November 7th will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details. If this event is not opened to the press for a live televised or streamed event this market will resolve to no.",
+  "resolution_date": "2025-11-08T15:00:00Z",
+  "retrieval_timestamp": "2026-02-22T21:37:27.961283Z",
+  "query_used": "What is the result of this question \"What will Joe Biden say during Ben Nelson Gala on November 7th\"",
+  "sources": [
+    {
+      "title": "Former President Biden to speak in Omaha at Ben Nelson Gala",
+      "url": "https://www.wowt.com/video/2025/11/07/former-president-biden-speak-omaha-ben-nelson-gala/",
+      "published_date": "2025-11-07T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Former President Biden to speak in Omaha at Ben Nelson Gala Published: Nov. 7, 2025 at 4:44 PM CST|Updated: Nov. 7, 2025 at 5:00 PM CST\n\nUpdated: 2 hours ago Lincoln Fire and Rescue were called to a fire in east Lincoln on Thursday.\n\nUpdated: 2 hours ago The First Alert 6 StormTracker is monitoring road conditions in the Omaha-area as the snow continues to blanket the city. Updated: 2 hours ago There are some people who are excited to get the moisture the snow will bring, but for some businesses the snow is coming a little too late in the season. Updated: 2 hours ago The First Alert StormTracker is monitoring the road conditions in the Omaha area as the snow continues to fall. Updated: 2 hours ago As Thursday's winter storm approaches, Austin Rowser shares city plans for keeping Omaha roads clear Updated: 3 hours ago The First Alert 6 Weathertracker is checking the streets of the Omaha-metro area as snow rolls in."
+      ]
+    },
+    {
+      "title": "Biden talks to Dems in Omaha about cancer, hunger, elections",
+      "url": "https://www.wowt.com/2025/11/07/biden-talks-dems-omaha-about-cancer-hunger-elections",
+      "published_date": "2025-11-07T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "- Former President Joe Biden spoke to democrats in downtown Omaha on Friday night, a rare public appearance since he dropped out of the presidential race last year. Biden spoke at the Ben Nelson Gala at the Omaha Hilton near 10th and Cass streets, emceed by Omaha Mayor John Ewing Jr. Former President Joe Biden spoke to democrats in downtown Omaha on Friday night The energy among democrats was high as a former president came to town. But democrats are also riding a wave of victories across the country. ... Biden recently wrapped up radiation treatments for prostate cancer at age 82. After speaking in Omaha on Friday night, Former President Biden was given the honor of a drum circle song. ... the Jan. 6 attack on the Capitol, also spoke at the event. Kentucky Gov. Andy Beshear stops in Columbia as part of a visit to South Carolina in July 2025.(WIS) Biden explained how he proudly rang that cancer bell after finishing his treatments last month. He also joked that he was the youngest senator to ever serve in Congress - and the oldest president. He shared his concerns with the current administration cutting cancer research funding, food benefits for the nation\u2019s hungry, and doubled down on what Tuesday\u2019s Democratic victories mean. He spoke for about 30 minutes. He goes way back with former Nebraska Governor and Senator Ben Nelson, who was the last democrat to be governor of Nebraska. According to the Nebraska Democratic Party website , the annual fundraiser also celebrates elected officials, candidates, volunteers, and other leaders that further the party. \u2014\n\nGet a first alert to breaking news delivered to your inbox. Sign up for First Alert 6 email alerts. #### Most Read\n\n#### Latest News"
+      ]
+    },
+    {
+      "title": "NDP Press Advisory \u2013 President Joe Biden Announced as Final Speaker at 2025 Ben Nelson Gala",
+      "url": "https://nebraskademocrats.org/blog/ndp-press-advisory-president-joe-biden-announced-as-final-speaker-at-2025-ben-nelson-gala/",
+      "published_date": "2025-10-08T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "# NDP Press Advisory \u2013 President Joe Biden Announced as Final Speaker at 2025 Ben Nelson Gala\n* **October 8, 2025 \n**FOR IMMEDIATE RELEASE**\nOctober 7, 2025 ... **\\*\\*\\*NDP Media Advisory for Friday, November 7 Event\\*\\*\\*** **The Nebraska Democratic Party is Proud to Announce President Joe Biden as a Speaker at the 2025 Ben Nelson Gala** The Nebraska Democratic Party (NDP) is excited and honored to announce that President Joe Biden will be a speaker at our 2025 Ben Nelson Gala. President Biden will join Kentucky Governor Andy Beshear and Capitol Police Officer Harry Dunn as featured speakers. Omaha Mayor John Ewing will be our emcee for the evening. Along with this historic lineup of speakers, elected ... To provide the press with advance information, this press advisory contains details about our gala. Members of the ... **WHAT:** Our annual Ben Nelson Gala is a fundraiser and celebration of local party leaders, supporters, and volunteers who strengthen our party and help elect Democrats. We will honor individuals with awards and provide inspirational speeches. In addition to our featured speakers, we will have elected officials, candidates, and party leaders present. Our theme this year will be: \u201cDiverse, Strong, and Ready.\u201d **WHO:**\nPresident Joe Biden\nKentucky Governor Andy Beshear\nOmaha Mayor John Ewing January 6th Capitol Police Officer Harry Dunn\nNebraska Democratic Party Chair and DNC Vice Chair Jane Kleeb\n**WHEN:** Friday, November 7, 2025 \nReception will be at 5:30 PM. Program & Dinner begin at 6:30 PM.\n**WHERE: ** Hilton Omaha Downtown \u2013 1001 Cass Street, Omaha, NE 68102\n**WHY:** We expect national exposure and want the press to have an opportunity to interview speakers, leaders, and attendees. ... **CONTACT: **\nQuestions about this"
+      ]
+    },
+    {
+      "title": "Biden urges on Nebraska Democrats as underdogs in his return to the\u2026",
+      "url": "https://nationalnewswatch.com/2025/11/07/biden-urges-on-nebraska-democrats-as-underdogs-in-his-return-to-the-political-stage-in-omaha",
+      "published_date": "2025-11-07T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "urges on Nebraska Democrats as underdogs in his return to the political stage in Omaha - Author(s)\nThomas Beaumont, The Associated Press\n\n- Source\nCanadian Press\n\n- Posted\nNovember 7, 2025\n\n- Share Kentucky Gov. Andy Beshear speaks during the Ben Nelson Gala, Friday, Nov. 7, 2025, in Omaha, Neb. (AP Photo/Rebecca S. Gratz) OMAHA, Neb. (AP) -- Joe Biden slowly but steadily walked onto the stage in Omaha on Friday. As he did, 800 people in the downtown Hilton ballroom rose to their feet cheering. \"Did you see the results Tuesday?\" he asked, igniting another round of cheers as he listed [Democratic ... decision in California. It was a joyful return to the political stage for the former president, whose party's effort to remain in the White House was rejected just over a year ago. Biden called for a political comeback, though not for himself, but to an audience hungry for a fight. \"You know what it feels like to be outnumbered,\" he told Democrats in Nebraska, where Republicans have carried the ... about capturing the 2nd District seat in 2026. ... the presidency to Republican Donald Trump. In the summer of 2024, Biden waited more than three weeks from his disastrous debate performance in June with Trump, prompting panic among Democrats, before announcing in July he would not seek another term, and then endorsing ... Tuesday's victories, a boon to Democrats across the country, were a timely lift for Biden. ... Earlier in the program, he remained seated but beamed when the audience stood after Kentucky Gov. Andy Beshear, also a ... Throughout Biden's 30-minute remarks, the audience rose cheering. He returned to well-worn campaign themes promoting ... He called them principles \"we've never walked away from.\" Straining to punctuate by raising his voice, he said, \"We're ... It was Biden's second public appearance in the past week, and second since completing a round of radiation therapy treatment in October for the aggressive form of prostate cancer he was diagnosed with"
+      ]
+    },
+    {
+      "title": "Biden makes an appearance at Ben Nelson Gala, criticizes Trump policies",
+      "url": "https://www.3newsnow.com/central-omaha/biden-makes-first-post-presidency-fundraising-appearance-at-omaha-gala-criticizes-trump-policies",
+      "published_date": "2025-11-08T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Tweet \n- Facebook # Biden makes first post-presidency fundraising appearance at Omaha gala, criticizes Trump policies By: Hannah McIlree \n\nPosted Hundreds gathered at the Hilton in downtown Omaha for the Ben Nelson Gala, where President Joe Biden made his first appearance at a fundraising event since leaving office. ... Biden makes first post-presidency fundraising appearance at Omaha gala, criticizes Trump policies During his remarks, Biden highlighted the stark reality facing American families, telling the crowd that 1 in 5 children go to bed hungry at night. When the audience responded with boos, Biden emphasized the severity of the issue. \"No, it's more than boo. It is a disgrace,\" Biden said. The former president criticized President Trump's Halloween party, the administration's decision to halt SNAP benefits, and a controversial deal providing Argentina with a $40 billion line of credit without congressional approval. ... of them are going bankrupt,\" Biden said. ... telling them that they are rounding up dangerous people,\" Ewing said. The event comes as elections across the country take center stage this week, with Democrats securing victories in Virginia and New Jersey. Local organizer Kimara Snipes believes Biden's visit to Omaha could signal political momentum ... \"Local elections mean so much. We have to seize the opportunity to get people connected to these systems and also to ... To conclude the evening, the Winnebago, Ponca, Omaha, and Santee nations honored Biden with a quilt, signifying service and contribution. This story was reported on-air by a journalist and has been converted to this platform with the assistance of AI. Our editorial team verifies all reporting on all platforms for fairness and accuracy. ### More News In Your Ne"
+      ]
+    },
+    {
+      "title": "Photos: Former President Joe Biden speaks at annual Ben Nelson Gala",
+      "url": "https://omaha.com/news/local/government-politics/collection_de49b82c-e32d-4914-ad10-db62d6355272.html",
+      "published_date": "2025-11-08T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "WhatsApp] * **SMS \n* **Email \nPhotos: Former President Joe Biden speaks at annual Ben Nelson Gala Live chat\nShare this\n* ****Facebook \n* ****Twitter \n* ****Bluesky ... * ****Copy article link\n* ****Save \nTopical # Photos: Former President Joe Biden speaks at annual Ben Nelson Gala\n* Nikos Frazier \n* Nov 7, 2025 * Nov 7, 2025UpdatedNov 11, 2025 * Former President Joe Biden and Kentucky Gov.Andy Beshearattend Nebraska Democratic Praty's annual Ben Nelson Gala. 110725-owh-new-bennelson-nf-26.JPG Former President Joe Biden speaks during the Ben Nelson Gala in Omaha on Friday, Nov. 7, 2025. NIKOS FRAZIER, THE WORLD-HERALD\n 110725-owh-new-bennelson-nf-10.JPG ... Former President Joe Biden speaks during the Ben Nelson Gala in Omaha on Friday, Nov. 7, 2025. NIKOS FRAZIER, THE WORLD-HERALD\n 110725-owh-new-bennelson-nf-24.JPG Former President Joe Biden speaks during the Ben Nelson Gala in Omaha on Friday, Nov. 7, 2025. ... Former President Joe Biden takes the stage during the Ben Nelson Gala in Omaha on Friday, Nov. 7, 2025. ... Omaha Nations during the Ben Nelson Gala in Omaha on Friday, Nov. 7, 2025. ... #### Recap: Former President Joe Biden visits Omaha for Nebraska Democrats' gala Tonight's Nebraska Democratic Party gala in Omaha will feature former President Joe Biden, Kentucky Gov. Andy Beshear ... As the crowd held \"JOMAHA\" signs and chanted, \"USA,\" former President Joe Biden took the stage at the Nebraska ... Former President Joe Biden said in Omaha that America is in a crisis, but Democrats can push the country to emerge ... #### 4 times Nebraska politics came up during Joe Biden's visit to Omaha Much of the Nebraska Democrats' recent gala focused on presidential leadership, but speakers also discussed elections ... \u00d7\n\u00a9 Copyright 2025 Omaha World-Herald , 2301 N 117th Ave., Suite 201 Omaha, NE 68164 ... Powered by BLOX Content Management System from bloxdigital.com .\n \n {{title}}\n{{summary}}\n**\n**\n* Notifications \n* Settings \nYou don't have any notifications. Get up"
+      ]
+    },
+    {
+      "title": "Search location by ZIP code",
+      "url": "https://www.ketv.com/article/omaha-president-joe-biden-ben-nelson-gala/69279471",
+      "published_date": "2025-11-07T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "AKING NEWS. WITHIN THE LAST HOUR, FORMER PRESIDENT BIDEN WRAPPED UP HIS SPEECH TO NEBRASKA DEMOCRATS. THANKS FOR JOINING US. I\u2019M BILL SCHAMMERT. I\u2019M JULIE CORNELL. BIDEN\u2019S APPEARANCE AT THE ANNUAL BEN NELSON GALA COMES JUST AFTER NATIONWIDE ELECTIONS. KETV NEWSWATCH SEVEN\u2019S BETH CARLSON IS LIVE IN DOWNTOWN OMAHA. BETH, WHAT WAS THE FORMER ... HIS TERM IN OFFICE. TODAY, SPEAKING THAT MESSAGE OF MOMENTUM TO THE STATE\u2019S TOP DEMOCRATS. YOU HAVE AN ELECTION COMING ... THE FUNDRAISER WITH A PERFORMANCE FOR THE FORMER PRESIDENT, DRAPING A BLANKET QUILT OVER BIDEN IN HIS HONOR. NOW, TONIGHT, SEVERAL OTHER DEMOCRATS SPEAKING, INCLUDING THE CURRENT GOVERNOR OF KENTUCKY, ANDY BESHEAR, AND FORMER NEBRASKA GOVERNOR BEN NELSON. OMAHA\u2019S MAYOR, JOHN EWING JR, HOSTING TONIGHT\u2019S EVENT AHEAD OF WHAT THEY SAY IS A VERY IMPORTANT GENERAL ELECTION IN NOVEMBER OF 2026. KETV logo \nUpdated: 10:30 PM CST Nov 7, 2025\n Editorial Standards\u24d8 \n \n McKenzy Parsons ** \n Digital Editor \n \n ... Updated: 10:30 PM CST Nov 7, 2025\n Editorial Standards\u24d8 \n \n ... Former President Joe Biden spoke to Nebraska Democrats on Friday evening.His appearance at the annual Ben Nelson Gala comes just days after nationwide elections.It was one of a handful of times we've heard from the former president since he left office and was undergoing radiation therapy for prostate cancer.On Friday, he addressed a crowd of several hundred in downtown Omaha with a message of momentum for the state of Nebraska.\"You have an election soon, an open seat ... former president centered around the future of his party.\"The Democratic Party is back,\" Biden said. \"We hold these ... away from it. And folks, we're not going to walk away from it now. Tuesday night was a good start.\"Biden was honored at ... **OMAHA, Neb. \u2014**\nFormer President Joe Biden spoke to Nebraska Democrats on Friday evening. His appearance at the annual Ben Nelson Gala comes just days after nationwide elections.\nAdvertisement ... \"You have an election soon, an open seat"
+      ]
+    },
+    {
+      "title": "Photos: Former President Joe Biden speaks at annual Ben Nelson Gala",
+      "url": "http://www.statesville.com/news/local/government-politics/collection_5ad86b09-21fd-5707-9d31-96f23a380bda.html",
+      "published_date": "2025-11-08T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "> Former President Joe Biden and Kentucky Gov. Andy Beshear attend Nebraska Democratic Praty's annual Ben Nelson Gala. Former Nebraska Gov. and U.S. Sen. Ben Nelson speaks during the Ben Nelson Gala in Omaha on Friday, Nov. 7, 2025. NIKOS FRAZIER, THE WORLD-HERALD Former President Joe Biden walks into the Ben Nelson Gala in Omaha on Friday, Nov. 7, 2025. ... Members of Omaha Pipes and Drums perform during the Ben Nelson Gala in Omaha on Friday, Nov. 7, 2025. ... NIKOS FRAZIER, THE WORLD-HERALD Former President Joe Biden speaks during the Ben Nelson Gala in Omaha on Friday, Nov. 7, 2025. ... Former President Joe Biden salutes the crowd after speaking during the Ben Nelson Gala in Omaha on Friday, Nov. 7, ... with a guilt by members of the Ponca, Santee, Winnebago and Omaha Nations during the Ben Nelson Gala in Omaha on ... Omaha Nations during the Ben Nelson Gala in Omaha on Friday, Nov. 7, 2025. NIKOS FRAZIER, THE WORLD-HERALD\n\n 0 Comments \n\n#### Locations\n\n- Nebraska ### Related to this collection\n\n#### Former President Joe Biden says Trump taking 'wrecking ball' to America Former President Joe Biden said in Omaha Friday that America is in a crisis, but Democrats can push the country to emerge stronger than ever. \u00a9 Copyright 2026 Statesville Record & Landmark , P.O. Box 968 Hickory, NC 28603 Terms of Use | Privacy Policy | Advertising Terms of Use | [Do Not Sell My ... Powered by BLOX Content Management System from bloxdigital.com .\n\n-"
+      ]
+    },
+    {
+      "title": "Recap: Former President Joe Biden visits Omaha for Nebraska Democrats' gala",
+      "url": "https://omaha.com/news/local/government-politics/article_50297faa-6b87-41da-87d8-07d2beafe832.html",
+      "published_date": "2025-11-08T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "link> Recap: Former President Joe Biden visits Omaha for Nebraska Democrats' gala\n\nLive chat\n\n 0 Comments ... - Facebook \n- Twitter \n- Bluesky \n- WhatsApp \n- SMS ... \u00d7\n\nA look back at Biden's five decades of public service as his political career comes to a close. (AP) ... - Email \n- Print \n- Copy article link\n- Save Former President Joe Biden spoke in Omaha Friday night as part of the Nebraska Democratic Party's annual Ben Nelson Gala to celebrate party leaders, elected officials and volunteers. Former President Joe Biden walks into the Ben Nelson Gala in Omaha on Friday, Nov. 7, 2025. ... kAm~>292 \\|2J@C y@9? tH:?8 6>4665 E96 6G6?E\\[ H9:49 DE2CE65 2E f A\\]>\\] 2E E96 w:=E@? ~>292 s@H?E@H?\\] z6?EF4 6C ... kAmrC@H5 6CFAED :? 2 492?E @7\\[ Q%92?< J@F\\[ y@6\\]Q\u00a0k^Am Former President Joe Biden speaks during the Ben Nelson Gala in Omaha on Friday, Nov. 7, 2025. NIKOS FRAZIER, THE WORLD-HERALD kAm%96 =2DE 9@?@C 7@C q:56? 4@>6D 7C@> >6>36CD @7 }63C2D<2VD EC:32=?2E:@?D\\[ H9@ HC2AA65 E96 7@C>6C AC6D:56?E :? 2 3=2?<6E H9:=6 D:?8:?8 2?5 5CF>>:?8\\]\u00a0k^Am ... Nebraska Democratic Party's gala Nov. 7, 2025. Members of the group Nebraskans for Palestine held signs and ... ### Photos: Former President Joe Biden speaks at annual Ben Nelson Gala Former President Joe Biden speaks during the Ben Nelson Gala in Omaha on Friday, Nov. 7, 2025."
+      ]
+    },
+    {
+      "title": "Former President Joe Biden speaks at Ben Nelson Gala in downtown Omaha",
+      "url": "https://ca.news.yahoo.com/former-president-joe-biden-speaks-041509699.html",
+      "published_date": "2025-11-08T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Advertisement\n\nAdvertisement\n\n Return to Homepage His appearance at the annual Ben Nelson Gala comes just days after nationwide elections.\n\n- About Our Ads Advertisement\n\nAdvertisement\n\nAdvertisement"
+      ]
+    }
+  ]
+}

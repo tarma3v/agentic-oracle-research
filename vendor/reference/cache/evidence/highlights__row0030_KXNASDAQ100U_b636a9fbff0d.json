@@ -1,0 +1,100 @@
+{
+  "question_id": "KXNASDAQ100U",
+  "question_text": "Will the Nasdaq-100 be above 28399.99 at the end of Nov 14, 2025 at 4pm EST?",
+  "resolution_criteria": "If the end-of-day Nasdaq 100 index value on November 14, 2025 is above 28399.99, then the market resolves to Yes.\nThe market will close on November 14, 2025. The market will expire at the sooner of the first release of the data, or one week after November 14, 2025.\n\nPursuant to the Kalshi Rulebook, the Exchange has modified the Source Agency and Underlying for indices markets. See the rules for more information.",
+  "resolution_date": "2025-11-14T21:00:00Z",
+  "retrieval_timestamp": "2026-02-23T17:09:04.072813Z",
+  "query_used": "What is the result of this question \"Will the Nasdaq-100 be above 28399.99 at the end of Nov 14, 2025 at 4pm EST\"",
+  "sources": [
+    {
+      "title": "Nasdaq 100 (NDX) Up or Down on November 10? Betting Odds & Predictions (Nov. 10, 2025) | Polymarket",
+      "url": "https://polymarket.com/event/ndx-up-or-down-on-november-10-2025",
+      "published_date": "2025-11-14T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "10?\n\nPast Ended: Nov 10, 2025 \n\n 4PM \n\nUp\n\n99% chance\n\n$13,502 Vol.\n\n## Rules\n\n## Market Context This market will resolve to \"Up\" if the official Nasdaq 100 Index closing price for Nasdaq 100 (NDX) on Monday, November 10, 2025 is higher than the official Nasdaq 100 Index closing price for NDX on the most recent prior trading day. This market will resolve to \"Down\" if the official Nasdaq 100 Index closing price for Nasdaq 100 (NDX) on Monday, ... that Friday were a market holiday, in which case it would refer to Thursday, or the next most recent trading day. If the two specified closing prices are exactly equal, this market will resolve 50-50. Note that all figures will be ... Journal, specifically the Close values published by the WSJ under \"Historical Prices\". US: ... https://www.wsj.com/market-data/stocks/asia Outcome proposed: Up\n\nNo dispute\n\nFinal outcome: Up\n\nPost\n\nBeware of external links.\n\nNewest Finance NDX \n\n# Nasdaq 100 (NDX) Up or Down on November 10?\n\nPast Ended: Nov 10, 2025 \n\n 4PM \n\nUp\n\n99% chance\n\n$13,502 Vol.\n\n## Rules\n\n## Market Context This market will resolve to \"Up\" if the official Nasdaq 100 Index closing price for Nasdaq 100 (NDX) on Monday, November 10, 2025 is higher than the official Nasdaq 100 Index closing price for NDX on the most recent prior trading day. This market will resolve to \"Down\" if the official Nasdaq 100 Index closing price for Nasdaq 100 (NDX) on Monday, ... that Friday were a market holiday, in which case it would refer to Thursday, or the next most recent trading day. If the two specified closing prices are exactly equal, this market will resolve 50-50. Note that all figures will be ... Outcome proposed: Up\n\nNo dispute\n\nFinal outcome: Up\n\n### Related Nasdaq round-the-clock trading by June 30?11% Will the S&P 500 Index gain at least 2% on any day in Q1?57% [Will the percentage change in the S&P 500 in Q1 2026"
+      ]
+    },
+    {
+      "title": "Nasdaq 100 (NDX) Up or Down on November 21? Trading Odds & Predictions (Nov. 21, 2025) | Polymarket",
+      "url": "https://polymarket.com/event/ndx-up-or-down-on-november-21-2025",
+      "published_date": "2025-10-15T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        ">99% chance\n\n### Market Context ### Nasdaq 100 (NDX) Up or Down on November 21?\n\nGenerate\n\n### Rules This market will resolve to \"Up\" if the official Nasdaq 100 Index closing price for Nasdaq 100 (NDX) on Friday, ... day.This market will resolve to \"Down\" if the official Nasdaq 100 Index closing price for Nasdaq 100 (NDX) on Friday, ... two specified closing prices are exactly equal, this market will resolve 50-50. Note that all figures will be rounded ... regular session as the effective closing price.The resolution source for this market is the Wall Street Journal, specifically the Close values published by the WSJ under \"Historical Prices\".US: https://www.wsj.com/market-data/stocks EMEA: https://www.wsj.com/market-data/stocks/emea ASIA: https://www.wsj.com/market-data/stocks/asia Created At: Nov 20, 2025, 1:00 PM UTC\n\nVolume\n\n$9,070\n\nEnd Date\n\nNov 21, 2025\n\nCreated At\n\nNov 20, 2025, 1:00 PM UTC ... Outcome proposed: Up\n\nNo dispute\n\nFinal outcome: Up\n\nComments (10)Top HoldersActivity\n\nPost\n\nBeware of external links. Newest\n\nBeware of external links.\n\n# Nasdaq 100 (NDX) Up or Down on November 21?\n\nPast Ended: Nov 21, 2025 4PM Jan 12 \n\nUp\n\n>99% chance\n\n### Market Context ### Nasdaq 100 (NDX) Up or Down on November 21?\n\nGenerate\n\n### About This market will resolve to \"Up\" if the official Nasdaq 100 Index closing price for Nasdaq 100 (NDX) on Friday, ... day.This market will resolve to \"Down\" if the official Nasdaq 100 Index closing price for Nasdaq 100 (NDX) on Friday, ... https://www.wsj.com/market-data/stocks/asia Volume\n\n$9,070\n\nEnd Date\n\nNov 21, 2025\n\nCreated At\n\nNov 20, 2025, 1:00 PM UTC\n\nResolution Source https://www.wsj.com/market-data/stocks \n\nResolver\n\n 0x65070BE91... \n\nShow more Outcome proposed: Up\n\nNo dispute\n\nFinal outcome:"
+      ]
+    },
+    {
+      "title": "NQ00 | E-Mini Nasdaq 100 Index Continuous Contract Overview | MarketWatch",
+      "url": "https://www.marketwatch.com/investing/future/nq00?gaa_at=eafs&gaa_n=ASWzDAhaork5prz7LJbobWP6WLg18xkevoVqzixbC969Z3yu3v6kqkIOEqt6&gaa_ts=68e97991&gaa_sig=Ia8V6CWht4YrWcxhqS7nLqy-LbfPNlkwT3wWocbREQAR1tyjYW4DIi9q4Ix8EXXgaMiph8hf-HGO9L3XQ-g9oA==",
+      "published_date": "2025-10-23T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "|| DJIA F |49,623|-99|-0.20%|**|\n|| S&P F |6,883.50|-10.75|-0.16%|**| || NASDAQ F |24,886.75|-69.25|-0.28%|**|\n|| Gold |5,005.00|-4.50|-0.09%|**| ... All Times Eastern\n**\nscroll up\n**\nscroll down\n* 7:58a While Wall Street is betting against software, retail investors have poured in \u2014 and done well\n ... * Sectors \nSearch Ticker\n*\n|\nNQ00\nU.S.: CME\n# E-Mini Nasdaq 100 Index Continuous Contract\n \n+\nWatchlist \nNQ00US**\nOpen\nLast Updated: Feb 19, 2026 6:53 a.m. CST\nDelayed quote\n##\n$\n24,886.75\n**\n-69.25\n-0.28% |Settlement Price 02/18/2026|\n|$24,956.00|\n**\nToggle Chart Options\n Advanced Charting \n1D\n5D\n1M\n3M\n6M\nYTD\n1Y 3Y\nAll\n**Range Dropdown\n$\n%\nVol\nVolume: 72.17K\n65 Day Avg: 510.58K\n14% vs Avg\n24,815.00\nDay Range\n25,054.00\n16,460.00 ... * Charts \n* Historical Quotes \n* Premium Tools** \n##\nNQ00 Overview\n##\nKey Data\n* Open $24,943.50\n* Day Range\n24,815.00 - 25,054.00\n* 52 Week Range\n16,460.00 - 26,399.00\n* Open Interest\n270,655\n## Performance\n|5 Day|\n* 0.26%\n* |\n|1 Month|\n* -2.90%\n* |\n|3 Month|\n* 3.37%\n* |\n|YTD|\n* -2.15%\n* |\n|1 Year|\n* 12.43%\n* | ... U.S. stock futures slump as investors digest ongoing tech selloff\n] \nFeb. 16, 2026 at 11:01 p.m. ET by Mike Murphy\n##\nRecent Contracts\n||Last|Chg|Open|High|Low|Date/Time| | E-Mini Nasdaq 100 Index Mar 2026 |$24,886.75|-69.25|$24,943.50|$25,054.00|$24,815.00|Feb 19, 2026 6:53 ... | E-Mini Nasdaq 100 Index Dec 2030 |$29,451.25|0.00|$0.00|$0.00|$0.00|Feb 18, 2026 4:05 p.m.|\n## ... No Headlines Available\nLoading Results\n##\nFutures Overview\n|Energy|Last|Chg|Chg %| ... | 30-Year U.S. Treasury Bond Continuous Contract |$117.313|-0.313|-0.27%|\n|Indexes|Last|Chg|Chg %| | E-Mini Dow Continuous Contract |$49,625|-97|-0.20%| | E-Mini S&P 500 Future Continuous Contract |$6,883.50|-10.75|-0.16%| | E-Mini Nasdaq 100 Index Continuous Contract |$24,886.75|-69.25|-0.28%|\n##"
+      ]
+    },
+    {
+      "title": "Nasdaq Nov 14 2025 | StatMuse Money",
+      "url": "https://www.statmuse.com/money/ask/nasdaq-nov-14-2025",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "> # The closing price for the Nasdaq Composite (IXIC) on November 14 was $22,900.59. It was up 1.6% for the day (up 0.1% from previous close). The latest price is $22,886.07. |DATE|OPEN|HIGH|LOW|CLOSE|VOLUME|\n|\nNovember 14 2025 21:00\n|\n$22,900.59\n|\n$22,900.59\n|\n$22,900.59\n|\n$22,900.59\n|\n\u2014\n|\n| November 14 2025 20:30\n|\n$22,931.02\n|\n$22,950.26\n|\n$22,875.33\n|\n$22,899.53\n|\n16,892,311,000\n|\n|\nNovember 14 2025 19:30 |\n$22,988.65\n|\n$23,030.48\n|\n$22,974.32\n|\n$23,028.43\n|\n344,144,000\n|\n|\nNovember 14 2025 18:30\n|\n$22,951.08\n|\n$23,000.76 ... November 14 2025 15:30\n|\n$22,820.85\n|\n$23,056.11\n|\n$22,799.55\n|\n$23,033.22\n|\n1,237,813,000\n|\n|\nNovember 14 2025 14:30\n| $22,539.42\n|\n$22,837.23\n|\n$22,437.79\n|\n$22,820.78\n|\n2,119,184,000\n| Daily pricing data for the Nasdaq Composite dates back to 2/5/1971, and may be incomplete.\n### Related Searches ... * **[ What was the highest price for the Nasdaq Composite last month? ]"
+      ]
+    },
+    {
+      "title": "Probability Calculator: Fidelity Investments",
+      "url": "https://researchtools.fidelity.com/ftgw/mloptions/goto/probCalc?symbol=NNN",
+      "published_date": "2025-05-13T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "* Stocks, ETFs, Crypto \n* Mutual Funds * Fixed Income, Bonds & CDs \n* OptionsLog In Required \n* IPOs ... * Spending & Saving \n* Investing & Trading \n* Mutual Funds * Crypto \n* Direct Indexing \n* Fixed Income, Bonds & CDs \n* ETFs ... # Options\n* Print \n* Help/Glossary \n* Quotes & Tools * Market Overview * Trading Ideas Fidelity Learning Center | Coaching Sessions * Option Chain \n* Key Statistics \n* Option Quote & Chart \n* Probability Calculator * Market Commentary \n## Nnn REIT Ord\n$40.83 up up -0.67(-1.61%) AS OF 4:10:00PM ET 05/13/2025\u2020\nMore Quote Information\n### More Quote Information\nBid\n40.50 X 2\nAsk 41.02 X 2\nVol\n896,560\nIV30\n--\nIV60\n--\nIV90\n--\nMost Recent Distribution Amount\n--\nEx. Date\n--\nDistribution Yield (TTM) ... Log in to analyze how future price movements in an underlying position will impact option strategies. * Calculate the probability of future price movements for an underlying security. * Evaluate price targets for options at specific dates. * Analyze actual or simulated option positions based on the price fluctuations of an underlying security. \n Fidelity Investments \n\u00a9 1998 - 2018 FMR LLC.\nAll rights reserved. * Terms of Use \n* Privacy \n* Security \n* Site Map \nPlaceholder Text. Insert title here"
+      ]
+    },
+    {
+      "title": "Probability Calculator: Fidelity Investments",
+      "url": "https://researchtools.fidelity.com/ftgw/mloptions/goto/probCalc?symbol=TTD",
+      "published_date": "2025-05-13T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        ">\n- Stocks, ETFs, Crypto \n- Mutual Funds - Fixed Income, Bonds & CDs \n- Options Log In Required \n- IPOs ... - Research > Content and data provided by various third parties and Fidelity Investments \u2013 [Terms of Use. Opens in a new ... # Options\n\n- Print \n- Help/Glossary - Quotes & Tools \n- Market Overview \n- Trading Ideas ... - Option Chain \n- Key Statistics \n- Option Quote & Chart \n- Probability Calculator ... ## Trade Desk Class A\n\n$43.00-2.90\u00a0(-6.32%)\n\nAS OF 4:00:00PM ET 11/07/2025\u2020\n\nMore Quote Information ### More Quote Information\n\nBid\n\n43.28 X 100\n\nAsk\n\n43.30 X 2600\n\nVol\n\n34,336,157\n\nIV30\n\n--\n\nIV60\n\n--\n\nIV90\n\n-- Most Recent Distribution Amount\n\n--\n\nEx. Date\n\n--\n\nDistribution Yield (TTM)\n\n-- Log in to analyze how future price movements in an underlying position will impact option strategies. - Calculate the probability of future price movements for an underlying security. - Evaluate price targets for options at specific dates. - Analyze actual or simulated option positions based on the price fluctuations of an underlying security. \u00a9 1998 - 2018 FMR LLC.\n\nAll"
+      ]
+    },
+    {
+      "title": "Probability Calculator: Fidelity Investments",
+      "url": "https://researchtools.fidelity.com/ftgw/mloptions/goto/probCalc?symbol=DAX",
+      "published_date": "2025-05-13T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        ">\n- Stocks, ETFs, Crypto \n- Mutual Funds - Fixed Income, Bonds & CDs \n- Options Log In Required \n- IPOs ... - Research > Content and data provided by various third parties and Fidelity Investments \u2013 [Terms of Use. Opens in a new ... # Options\n\n- Print \n- Help/Glossary - Quotes & Tools \n- Market Overview \n- Trading Ideas Fidelity Learning Center \\|\n Coaching Sessions - Option Chain \n- Key Statistics \n- Option Quote & Chart \n- Probability Calculator - Market Commentary ## Global X Dax Germany ETF\n\n$42.65 up up 0.27\u00a0(0.64%)\n\nAS OF 4:15:00PM ET 05/13/2025\u2020 More Quote Information\n\n \n\n Close Popup \n\n### More Quote Information\n\nBid\n\n41.18 X 1\n\nAsk 44.95 X 2\n\nVol\n\n92,806\n\nIV30\n\n--\n\nIV60\n\n--\n\nIV90\n\n--\n\nMost Recent Distribution Amount\n\n--\n\nEx. Date\n\n-- Distribution Yield (TTM)\n\n-- Log in to analyze how future price movements in an underlying position will impact option strategies. - Calculate the probability of future price movements for an underlying security. - Evaluate price targets for options at specific dates. - Analyze actual or simulated option positions based on the price fluctuations of an underlying security. \n\n Fidelity Investments \n\n\u00a9 1998 - 2018 FMR LLC.\n\nAll rights reserved. - Terms of Use \n- Privacy \n- Security \n- Site Map \n\nPlaceholder Text. Insert title here"
+      ]
+    },
+    {
+      "title": "Probability Calculator: Fidelity Investments",
+      "url": "https://researchtools.fidelity.com/ftgw/mloptions/goto/probCalc?symbol=XSHQ",
+      "published_date": "2025-05-13T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        ">\n- Stocks, ETFs, Crypto \n- Mutual Funds - Fixed Income, Bonds & CDs \n- Options Log In Required \n- IPOs ... - Research > Content and data provided by various third parties and Fidelity Investments \u2013 [Terms of Use. Opens in a new ... # Options\n\n- Print \n- Help/Glossary - Quotes & Tools \n- Market Overview \n- Trading Ideas ... - Option Chain \n- Key Statistics \n- Option Quote & Chart \n- Probability Calculator - Market Commentary ## Invesco S&P Smallcap Quality ETF\n\n$40.78 up up 0.17\u00a0(0.42%) AS OF 4:10:00PM ET 05/13/2025\u2020\n\nMore Quote Information\n\n \n\n Close Popup ### More Quote Information\n\nBid\n\n36.97 X 1\n\nAsk\n\n44.83 X 1\n\nVol\n\n217,662\n\nIV30\n\n--\n\nIV60\n\n--\n\nIV90\n\n-- Most Recent Distribution Amount\n\n--\n\nEx. Date\n\n--\n\nDistribution Yield (TTM)\n\n-- Log in to analyze how future price movements in an underlying position will impact option strategies. - Calculate the probability of future price movements for an underlying security. - Evaluate price targets for options at specific dates. - Analyze actual or simulated option positions based on the price fluctuations of an underlying security. \n\n Fidelity Investments \n\n\u00a9 1998 - 2018 FMR LLC.\n\nAll rights reserved. - Terms of Use \n- Privacy \n- Security \n- Site Map \n\nPlaceholder Text. Insert title here"
+      ]
+    },
+    {
+      "title": "Nasdaq-100 price end of 2025 Prediction Market",
+      "url": "https://robinhood.com/us/en/prediction-markets/Financial/nasdaq-100-price-end-of-2025-nov-09-2025/",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "100 price end of 2025\n25,000 to 25,499.9998\u00a2\n29,000 to 29,499.995\u00a2\n23,500 to 23,999.993\u00a2\n1D\n1W\nMAX ## Select a contract\nShow 22 more\n25,000 to 25,499.99\n98\u00a2\n29,000 to 29,499.99\n5\u00a2\n23,500 to 23,999.99\n3\u00a2\n## Timeline Trading hours\n24 hours a day, except Thursday 3AM-5AM ET\nPayout\nUsually within 1 hour of event resolution Contract resolves\nDetermines the outcome of the contract\n## About Where will the Nasdaq-100 close at the end of 2025? Get $1 for every contract you own if your prediction is correct. Or close your position before the event resolves. Additional fees apply. Read the full[contract terms and ... ## Similar events\n \nTesla deliveries in Q1 2026\n [ ... Restrictions and eligibility requirements apply. Futures, options on futures and cleared swaps trading involves ... contracts. Live data is for informational purposes only. It maybe delayed or incorrect. Event contracts are offered by Robinhood Derivatives, LLC through either KalshiEX LLC or ForecastEX, LLC. 25,000 to 25,499.99\nBuy YesBuy No\nQuantity\nPrice\nBid$0.00\u00b7 Ask$0.00\n$0.00\nEst. cost\n$0.00commissions and fees\n$0.00 Payout ifYesis correct\n$0.00"
+      ]
+    },
+    {
+      "title": "Probability Calculator: Fidelity Investments",
+      "url": "https://researchtools.fidelity.com/ftgw/mloptions/goto/probCalc?symbol=QQQ",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "- Stocks, ETFs, Crypto \n- Mutual Funds ... - Research > Content and data provided by various third parties and Fidelity Investments \u2013 [Terms of Use. Opens in a new ... # Options\n\n- Print \n- Help/Glossary - Quotes & Tools \n- Market Overview \n- Trading Ideas Fidelity Learning Center \\|\n Coaching Sessions - Option Chain \n- Key Statistics \n- Option Quote & Chart \n- Probability Calculator - Market Commentary ## Invesco QQQ Trust\n\n$614.275.38\u00a0(0.88%)\n\nAS OF 4:15:00PM ET 11/26/2025\u2020\n\nMore Quote Information ### More Quote Information\n\nBid\n\n615.20 X 200\n\nAsk\n\n615.22 X 600\n\nVol\n\n42,393,598\n\nIV30\n\n--\n\nIV60\n\n--\n\nIV90\n\n-- Most Recent Distribution Amount\n\n--\n\nEx. Date\n\n--\n\nDistribution Yield (TTM)\n\n-- Log in to analyze how future price movements in an underlying position will impact option strategies. - Calculate the probability of future price movements for an underlying security. - Evaluate price targets for options at specific dates. - Analyze actual or simulated option positions based on the price fluctuations of an underlying security. \u00a9 1998 - 2018 FMR LLC.\n\nAll"
+      ]
+    }
+  ]
+}

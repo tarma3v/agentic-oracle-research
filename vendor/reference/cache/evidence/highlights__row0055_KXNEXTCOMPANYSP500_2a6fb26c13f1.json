@@ -1,0 +1,100 @@
+{
+  "question_id": "KXNEXTCOMPANYSP500",
+  "question_text": "Who will join the S&P 500 in the next batch?",
+  "resolution_criteria": "If The Trade Desk (TTD) joins the S&P 500 before Jan 1, 2026, then the market resolves to Yes.",
+  "resolution_date": "2025-07-07T01:00:27.261343Z",
+  "retrieval_timestamp": "2026-02-21T22:57:01.437269Z",
+  "query_used": "What is the result of this question \"Who will join the S&P 500 in the next batch\"",
+  "sources": [
+    {
+      "title": "Which companies will be added to the S&P 500 in Q1 of 2026? Odds & Predictions",
+      "url": "https://kalshi.com/markets/kxsp500addq/quarterly-which-companies-will-be-added-to-sp500-/kxsp500addq-26mar31",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "Which companies will be added to the S&P 500 in Q1 of 2026? Odds & Predictions"
+      ]
+    },
+    {
+      "title": "Which companies will be added to the S&P 500 in Q1 of 2026?",
+      "url": "https://robinhood.com/us/en/prediction-markets/financial/which-companies-will-be-added-to-the-sp-500-in-q1-of-2026-dec-17-2025/",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "Which companies will be added to the S&P 500 in Q1 of 2026?\n\nVertiv Holdings69\u00a2\n\nSoFi39\u00a2\n\nAlnylam Pharmaceuticals18\u00a2 LIVE\n\n1D\n\n1W\n\nMAX\n\n## Select a contract\n\nShow 5 more\n\nVertiv Holdings\n\n69\u00a2\n\nSoFi\n\n39\u00a2\n\nAlnylam Pharmaceuticals\n\n18\u00a2 ... Determines the outcome of the contract\n\nPayout\n\nUsually within 1 hour of event resolution\n\n## About Which companies will be announced to be or officially added to S&P 500 in the time period Jan 1, 2026 to March 31, 2026? The market resolves to Yes if either the index administrator officially announces the membership change OR the change takes effect during the specified time period, whichever occurs first. The effective date of the change need not fall within the time period; only the announcement or implementation must occur within the time period. Temporary ... immediately added in place of the original company, the original company is still considered removed. Regular scheduled rebalancing events count as additions or removals if the company's membership status changes during such rebalancing. ... ## Similar events\n\n How low will the S&P get this year? \n\n Nasdaq-100 close price end of 2026? How high will the Nasdaq-100 price get in 2026? \n\n Will credit card rates be capped this year? ... Will the NASDAQ-100 finish positive in 2026? \n\n Will the S&P finish positive this year? Tesla deliveries in Q1 2026 \n\n How high will the S&P get this year? ... Restrictions and eligibility requirements apply. Futures, options on futures and cleared swaps trading involves ... Live data"
+      ]
+    },
+    {
+      "title": "S&P 500 changes are imminent. Robinhood and these other stocks could join the index.",
+      "url": "https://kessler-prod.reta52d8.eas.morningstar.com/news/marketwatch/20250605250/sp-500-changes-are-imminent-robinhood-and-these-other-stocks-could-join-the-index",
+      "published_date": "2025-06-05T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "# S&P 500 changes are imminent. Robinhood and these other stocks could join the index.\n Provided byDow JonesJun 5, 2025, 4:27:00 PM\nBy Emily Bary ... Investors will soon find out which companies are making it into the big leagues. The S&P 500 SPX gets a shake-up every quarter, and the next announcement is expected to come out after Friday's close. Robinhood Markets Inc. (HOOD), AppLovin Corp. (APP) and Vertiv Holdings (VRT) are among the companies eligible for entry. But that doesn't mean they'll get the nod. Not only do new entrants to the S&P 500 need to sport a market capitalization of at least $20.5 billion and meet various profitability criteria, but they also must be chosen by the ... that don't meet that threshold. About 28% of the companies in the S&P 500 have market values below that level, but historical patterns suggest that only a handful will get kicked out when the rebalance comes later this month. There were four new entrants and four exits with the last quarterly update. ... Vertiv, a play on data-center infrastructure, ranks among the top 10 by market cap. Below is a table showing the 27 U.S.-domiciled companies with market caps of at least $20.5 billion that also meet the profitability requirements for inclusion. The screen, conducted by Dow Jones Market Data using FactSet data, excludes limited partnerships. The announced changes would take effect after the close of trading on June 20.\n``` Company Market"
+      ]
+    },
+    {
+      "title": "S&P 500, Nasdaq-100 are getting an update. Trillions depend on who\u2019s in and who\u2019s out",
+      "url": "https://www.cnbc.com/2024/12/20/trillions-depend-on-whos-in-and-whos-out-of-updated-sp-500-nasdaq-100.html",
+      "published_date": "2024-12-20T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "U.S. Markets ... ETF Strategist \n# S&P 500, Nasdaq-100 are getting an update. Trillions depend on who\u2019s in and who\u2019s out Published Fri, Dec 20 20247:05 AM ESTUpdated Fri, Dec 20 20249:46 AM EST\n Bob Pisani @BobPisani WATCH LIVE \nIn this article\n* NDAQ \nFollow your favorite stocksCREATE FREE ACCOUNT ... The S&P 500 and the Nasdaq-100 indexes get new members added and old ones kicked out on Friday in a quarterly rebalancing mostly based on companies' adjusted market capitalization. Years ago, these index reconstitutions had very little impact on trading.\nNot anymore. ... Bottom line: what stocks are added to or deleted from these large indexes matters a lot.\n### **Palantir gets its wish** ... ### **Coinbase denied** Two companies are being added to the S&P 500: Apollo Global Management and Workday . Qorvo and Amentum are being removed. Most people think the S&&P 500 is the 500 largest companies in the United States, but it's more complicated than that. There are a number of requirements that have to be met to get into the S&&P 500, including a minimum ... capitalization:\"Constituent selection is at the discretion of the Index Committee and is based on the eligibility criteria,\" S&P Global's methodology paper says. For S&&P, adding Apollo (financials) and Workday (technology) are relatively safe choices.At $96 billion and ... Still, many investors were hoping that Coinbase Global , which has a similar market cap to Workday ($68 ... involved. Going into the Nasdaq-100 are MicroStrategy , Palantir and Axon Enterprise .Going out are Illumina , Super Micro Computer and Moderna . To enter the Nasdaq-100, a company has to be listed on the Nasdaq Global Select Market or the Nasdaq Global Market, ... annual reconstitution"
+      ]
+    },
+    {
+      "title": "Analyst predicts stocks likely to join the S&P 500 in 2025",
+      "url": "https://www.thestreet.com/investing/key-analyst-reveals-stock-most-likely-to-get-added-to-the-s-p-500-in-2025",
+      "published_date": "2025-01-29T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "# Analyst predicts stocks likely to join the S&P 500 in 2025\nThe shares may be added as early as March. Jan 28, 2025 10:32 PM EST\n \nBy Charley Blaine \nSenior Editor\n0\n Add us on ... S&P Dow Jones, which operates the Standard & Poor\u2019s 500 Index, tries hard to get the right stocks into the index. Not in a snobby way. Real financial standards come into play. **\ud83d\udcb5\ud83d\udcb0** **Don\u2019t miss the move: Subscribe to TheStreet\u2019s free daily newsletter** ** ****\ud83d\udcb0\ud83d\udcb5** ... Quarterly reports will feature results from some of the biggest technology companies as well as Big Oil. ... ## Here are the changes to the S&P 500 that could happen in March S&P Dow Jones also will change out companies from the S&P 500 as well as S&P Midcap 600 Index and Smallcap 400 Index. The organization looks over the memberships at least quarterly. One of those quarterly examinations will come up in the next month or so. Changes will be made on the third Friday of ... **More Economic Analysis:**\n* **Major fund manager reveals stock market forecast for 2025** ... on research and underwriting financial stocks. It has a list of three financial stocks that could well be added to the S&P 500: * Coinbase Global (** COIN **) operates one of the largest cryptocurrency platforms. It easily meets S&P\u2019s market cap requirements. The shares closed Friday at $298, down 5% but up 20% for the year. Its ... Coinbase signage during the Messari Mainnet summit in New York in Sept. 2023. Bloomberg/Getty Images Keefe Bruyette did not suggest any stocks to be removed, but there are plenty to choose from. As of Friday, 128 S&P ... These include:\n* [M"
+      ]
+    },
+    {
+      "title": "These stocks could be next to join the S&P 500, increasing demand for shares, says Bank of America",
+      "url": "https://cnbc.com/2024/02/06/these-stocks-could-be-next-to-join-the-sp-500-increasing-demand-for-shares-says-bank-of-america.html",
+      "published_date": "2024-02-06T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "quotes, news & videos**\n* Livestream \n Watchlist \n SIGN IN ... PRO \n Join Pro \n Livestream \nMenu\n # These stocks could be next to join the S&P 500, increasing demand for shares, says Bank of America Published Tue, Feb 6 202411:49 AM ESTUpdated Tue, Feb 6 202412:05 PM EST\n Sarah Min @\\_sarahmin WATCH LIVE A slew of companies are primed to join the S & P 500 in the near future, and Bank of America thinks their shares could get a boost from it. The bank expects KKR could be the next investment management firm to join the S & P 500 over the six months following the addition of Blackstone to the index last year. KKR, which has a roughly $78 billion market cap, is the next-largest alternative asset manager after Blackstone, which is valued at about $146 billion. \"We continue to believe that KKR will be the next Alt added to the S & P 500 Index following BX's September 2023 add,\" wrote Craig Siegenthaler, who covers brokers, asset managers and exchanges for the firm. Afterward, the analyst expects ... managers to be added to the index. KKR 1D mountain KKR However, the candidate most likely to get added to the S & P 500 next is enterprise software company Workday, as the index is more underweight tech than it is financials, the analyst said. Workday is valued at about $76 billion. An addition to the S & P 500 is likely to drive up the prices of each of the stocks. The analyst noted the inflows from passive ETFs alone, into what is the \"most replicated index in the world,\" will bolster stock prices. \"The ETFs"
+      ]
+    },
+    {
+      "title": "The next S&P 500 shake-up could usher in Coinbase, Block, or these other stocks",
+      "url": "https://www.marketwatch.com/story/the-next-s-p-500-shake-up-could-usher-in-coinbase-block-or-these-other-stocks-72556108",
+      "published_date": "2024-12-07T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "&P 500\\\n\\\n6173.07\\\n\\\n0.52%] \n\n Nasdaq\\\n\\\n20273.46\\\n\\\n0.52% \n\n VIX\\\n\\\n16.32\\\n\\\n-1.63% ... Bitcoin\\\n\\\n107563.25\\\n\\\n0.26% \n\n## Deep Dive # The next S&P 500 shake-up could usher in Coinbase, Block, or these other stocks ## The S&P 500 index committee makes quarterly changes, with Robinhood and Vertiv among companies that meet the criteria. But choosing new entrants is \u2018more art than science.\u2019 ... - SP1500 \n\n +0.50% \n\n- COIN \n\n -5.77% \n\n- WDAY ... The S&P 500 could be getting a slightly fresh look soon with the index\u2019s quarterly rebalance on the horizon. Based on historical patterns, S&P Dow Jones Indices could announce new entrants to the benchmark large-cap U.S. stock index after Friday\u2019s close. The index provider would then also announce the components set to leave the S&P 500 SPX \n\n +0.52% \n\n. Stocks tend to rise when they are announced as forthcoming S&P 500 constituents, particularly because there are ... \u201cIt means that those index funds have no choice but to buy the stock that is joining the index. so it\u2019s a clear source ... Usually the announced new entrants don\u2019t come as a surprise, because they are buzzy names that just met profitability ... need a market capitalization of $18 billion or more, but the market-cap thresholds are lower for the other indexes. Various names have been floated as candidates for S&P 500 inclusion this time around, including financial-technology plays Coinbase Global Inc. ... The decisions are made by an index committee, and they are \u201cmore art than science,\u201d according to Sosnick. The S&P 500 ... Meanwhile, Oppenheimer\u2019s Owen Lau highlighted Coinbase as a candidate over the summer. It is one of the biggest ... ### Candidates for joining the S&P 500 ... RUA \n\n +0.49% \n\n, which is designed to cover 98% of stocks publicly listed in the U.S. ... companies. Here are the largest 20 companies that might be candidates to be added to the S&P 500: ... It turned out that all 20 companies on the"
+      ]
+    },
+    {
+      "title": "Changes are coming to the S&P 500 and Wall Street speculates these stocks could be added",
+      "url": "https://cnbc.com/2024/05/09/changes-are-coming-to-the-sp-500-and-wall-street-speculates-these-stocks-could-be-added.html",
+      "published_date": "2024-05-09T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Watchlist] \n\n Investing Club \n\n PRO Livestream \n\nMenu These stocks could be poised to join the S & P 500 when the broad index undergoes its quarterly rebalance next month, according to some Wall Street analysts. Along with the esteem, there are some major benefits to inclusion in the index, with Barclays analyst Ramsey El-Assal noting that newly incorporated names experience 7.7% upside on average during the first trading day. Super Micro Computer and Deckers Outdoor were the most recent additions to the index, replacing Whirlpool and Zions Bancorporation, respectively, in March. Block is one contender poised for a spot in the coveted ... believe this underrepresentation makes SQ, with its $45B market cap, a likely candidate for inclusion.\" A potential merger and acquisition of an existing member of the index may also create an opening for the stock, he added. SQ YTD ... views a financial services stock as a likely addition to the S & P 500, citing the sector's underweight position. Analyst Shreyank Gandhi views both Square and Coinbase as potential \"wild card\" entries given their recent eligibility, citing the index's preference toward newly qualified names. Above all, Gandhi views Dell as the most likely name to join given its size. Other candidates, but unlikely additions, include KKR and Apollo Global Management. There's a \"mid to high probability\" that Erie resettles in the S & P 500. The S & P 500 isn't the only index poised for potential changes. Gandhi sees a strong likelihood that Ryan Specialty Holdings joins the S & P Midcap 400, while New York Community Bancorp could drop down to the S & P SmallCap 600. Axis Capital Holdings and BOK Financial could potential join that index, he added. The rebalance is expected to go into effect after the close on June 21. Changes will be ... Spencer Kimball 5 hours ago [Sh"
+      ]
+    },
+    {
+      "title": "F-1/A",
+      "url": "https://content-archive.fast-edgar.com/20250204/AQ2ZHG2CZC2RBZZZ2R2L2ZYJD9Q8ZZ22Z872/",
+      "published_date": "2025-02-04T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "ximate date of commencement of proposed sale to the public: As soon as practicable after the effective date of ... acting pursuant to said Section 8(a), may determine. ---\n\n##### Table of Contents The information in this preliminary prospectus is not complete and may be changed. The selling shareholder may not sell ... preliminary prospectus forms a part is effective. This preliminary prospectus is not an offer to sell these securities, and it is not soliciting an offer to buy these securities in any jurisdiction where the offer or sale is not permitted. SUBJECT TO COMPLETION, DATED FEBRUARY 4, 2025\n\nPRELIMINARY PROSPECTUS\n\n24,000,000 Shares\n\nTitan America SA ... This is an initial public offering of the common shares, no nominal value per share (\u0093common shares\u0094), of Titan America SA (\u0093TASA\u0094). We are offering 9,000,000 common shares. Titan Cement International SA, (the \u0093selling shareholder\u0094), is ... , 2025\n\n---\n\n##### Table of Contents\n\nTABLE OF CONTENTS\n\nBASIS OF PRESENTATION\n\nINDUSTRY AND MARKET DATA ... PROSPECTUS SUMMARY\n\nRISK FACTORS\n\nSPECIAL NOTE REGARDING FORWARD-LOOKING STATEMENTS\n\nUSE OF PROCEEDS\n\nDIVIDEND POLICY CAPITALIZATION\n\nDILUTION\n\nMANAGEMENT\u0092S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS ... INDEX TO CONSOLIDATED FINANCIAL STATEMENTS | 1 |\n| --- |\n| 1 |\n| 1 |\n| 1 |\n| 2 |\n| 3 |\n| 32 |\n| 69 |\n| 71 |\n| 72 |\n| 73 |\n| 75 |\n| 77 |\n| 117 |\n| 128 |\n| 175 | ... have changed since the date on the front cover of this prospectus. ---\n\n##### Table of Contents\n\nBASIS OF PRESENTATION ... We define the Ratio of Net Debt to Adjusted EBITDA as the ratio derived by dividing Net Debt by Adjusted EBITDA.\n\n2 ---\n\n##### Table of Contents\n\nPROSPECTUS SUMMARY\n\nCompany Introduction Titan America is a leading vertically integrated, multi-regional manufacturer and supplier of heavy building materials and services operating primarily on the Eastern Seaboard of the United States"
+      ]
+    },
+    {
+      "title": "S&P 500 stocks: List of additions and removals in 2025",
+      "url": "https://www.bankrate.com/investing/s-p-500-stocks-list-of-additions/",
+      "published_date": "2024-09-11T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "# S&P 500 stocks: List of additions and removals in 2025\n Brian Baker, CFA Brian Beers ... Published on March 25, 2025|2 min read ... The S&P 500 index is one of the most widely followed stock market indexes in the world, with trillions of dollars managed based on its makeup. When companies are added or removed from the index, it forces buying and selling in those companies\u2019 shares by index funds that aim to track the performance of the index. DoorDash and Williams-Sonoma are two of the latest names to join the S&P 500 as part of the index\u2019s quarterly rebalancing. Here are all of the companies that have been added and removed from the S&P 500 in 2025 as of March 24. ## S&P 500 additions in 2025\n|Effective date|Company|Ticker|Sector| March 24, 2025|DoorDash|DASH|Consumer Discretionary|\nMarch 24, 2025|TKO Group Holdings|TKO|Communication Services| March 24, 2025|Williams-Sonoma|WSM|Consumer Discretionary|\nMarch 24, 2025|Expand Energy|EXE|Energy| *Source: S&P Dow Jones Indices*||||\n## S&P 500 removals in 2025\n|Effective date|Company|Ticker|Sector| ... ## How are stocks added or removed from the S&P 500? S&P Dow Jones Indices, which is a division of S&P Global, manages the S&P 500 index and sets the criteria ... **APA:**Baker, CFA, B. (2025, March 25).*S&P 500 stocks: List of additions and removals in 2025.*Bankrate. ... ## You may also"
+      ]
+    }
+  ]
+}

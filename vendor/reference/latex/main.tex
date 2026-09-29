@@ -1,0 +1,95 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{times}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage{url}
+\usepackage{listings}
+\usepackage[most]{tcolorbox}
+\usepackage{tikz}
+\usepackage{abstract}
+\usetikzlibrary{calc, positioning, arrows.meta, shapes.geometric}
+
+\usepackage[colorlinks=true, linkcolor=black, citecolor=black, urlcolor=black]{hyperref}
+
+\usepackage[sorting=none]{biblatex}
+\addbibresource{references.bib}
+
+\graphicspath{{figures/}}
+\urlstyle{same}
+\raggedbottom
+
+\renewcommand{\abstractnamefont}{\normalfont\large\bfseries}
+\renewcommand{\abstracttextfont}{\normalsize}
+
+\lstdefinestyle{promptstyle}{
+  basicstyle=\ttfamily\footnotesize,
+  columns=fullflexible,
+  breaklines=true,
+  breakatwhitespace=true,
+  keepspaces=true,
+  showstringspaces=false
+}
+
+\title{\textbf{Design and Evaluation of Multi-Agent AI Oracle Systems for Prediction Market Resolution}}
+\author{
+Tarun Kota \\
+Yale University \\
+\texttt{Tkota0910@gmail.com}
+}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+\input{abstract}
+\end{abstract}
+
+\section{Introduction}
+\input{introduction}
+
+\section{Background}
+\input{background}
+
+\section{Methodology}
+\label{methodology}
+\input{methodology}
+
+\section{Results}
+\input{results}
+
+\section{Related Work}
+\input{relatedwork}
+
+\section{Conclusion}
+\input{conclusion}
+
+\section{Future Work}
+\input{futurework}
+
+\section*{Acknowledgments}
+
+I would first like to thank Professor Fan Zhang for his immeasurable support and valuable guidance throughout this process. His expertise in oracle design was invaluable to this project.
+
+I would also like to thank the Yale Department of Computer Science for fostering an environment that sparked my curiosity and encouraged a lifelong pursuit of exploration in the field.
+
+Finally, I am deeply grateful to my parents, whose unwavering love and early academic inspiration shaped me into the student I am today, and to my twin sister, for sharing so much of my academic journey with me and for being a damn good friend.
+
+\printbibliography
+
+\appendix
+\section{Appendix}
+\input{appendices}
+
+\end{document}

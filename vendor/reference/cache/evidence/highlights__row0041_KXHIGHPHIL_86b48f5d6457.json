@@ -1,0 +1,100 @@
+{
+  "question_id": "KXHIGHPHIL",
+  "question_text": "Will the **high temp in Philadelphia** be >61\u00b0 on Nov 15, 2025?",
+  "resolution_criteria": "If the highest temperature recorded at Philadelphia International Airport for November 15, 2025 as reported by the National Weather Service's Climatological Report (Daily), is greater than 61\u00b0, then the market resolves to Yes.\nNot all weather data is the same. While checking a source like AccuWeather or Google Weather may help guide your decision, the official and final value used to determine this market is the highest temperature as reported by the corresponding NWS Climatological Report (Daily) linked in the rules above. Preliminary NWS reporting and measurement methods may be subject to underlying rounding and conversion nuances. Traders should exercise caution when interpreting preliminary NWS data.",
+  "resolution_date": "2025-11-16T04:59:00Z",
+  "retrieval_timestamp": "2026-02-23T06:30:44.541369Z",
+  "query_used": "What is the result of this question \"Will the **high temp in Philadelphia** be >61\u00b0 on Nov 15, 2025\"",
+  "sources": [
+    {
+      "title": "Weather in Philadelphia, November 15 \u2014 World-Weather.info",
+      "url": "https://world-weather.info/forecast/usa/philadelphia_1/15-november/",
+      "published_date": "2025-11-15T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Forecast for November 15 in Philadelphia, Pennsylvania - temperature, wind, atmospheric pressure, humidity and precipitations. Detailed hourly weather chart. ... ## November 15, 2025\n\nWeather Forecast is not ready yet\n\n## November 15, 2024 | | | | | | |\n| --- | --- | --- | --- | --- | --- | | | Atmospheric conditions and temperature \u00b0F | RealFeel \u00b0F | Atmospheric pressure inHg | Wind speed mph | Humidity | | | | | | | |\n| --- | --- | --- | --- | --- | --- |\n| Night | +45\u00b0 | +41\u00b0 | 30 | 5.6 | 69% | | Morning | +43\u00b0 | +39\u00b0 | 30 | 5.6 | 58% |\n| Day | +55\u00b0 | +55\u00b0 | 29.8 | 11.6 | 52% | | Evening | +48\u00b0 | +45\u00b0 | 29.8 | 9.8 | 62% | ### Bio-meteorological forecast - Meteorological sensitivity index\n- 3\n- Meteosensitive people are likely to experience weather-related symptoms. ... Find out more about the weather in Philadelphia: air temperature, precipitation, pressure and wind speed. ... ## Weather in large and nearby cities\n\n Weather in Washington, D.C. **+64\u00b0** Harrisburg **+59\u00b0**\n\n Levittown **+61\u00b0**\n\n Lansdale **+59\u00b0** King of Prussia **+59\u00b0**\n\n Malvern **+59\u00b0**\n\n Gilbertsville **+59\u00b0** ... Westville **+61\u00b0**\n\n Fort Dix **+59\u00b0**\n\nMinimum and maximum\n\nworld's temperature today _Greenland_\n\nSiorapalukday+18\u00b0"
+      ]
+    },
+    {
+      "title": "Dry, seasonably mild weekend ahead for the Philadelphia region. Here's the weather forecast - CBS Philadelphia",
+      "url": "https://cbsloc.al/4hzKWpc",
+      "published_date": "2025-11-01T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "weekend! And welcome to November! It felt like October was in a hurry to leave with the gusty winds across the region Friday afternoon where many places experienced gusts between 40-50 mph. It'll be a little breezy again Saturday, but winds will be much less with gusts only between 20-25 mph. Otherwise, conditions will be ideal for early November with plenty of sunshine and high temperatures around 60 degrees. Under clear skies and with calm winds temperatures will be able to cool off a little more tonight with low temps likely settling in the upper 30s and low 40s. As a result, some areas of patchy frost will be possible early Sunday morning. The early-morning chill will not last for long as temperatures rebound into the low 60s once again under mostly sunny ... A side note to this weekend, don't forget THIS SUNDAY we set the clocks back 1 hour, meaning the sun will rise on Sunday morning around 6:30am but set at 4:56pm. Yes, the 4pm hour until January 15th when it sets at 5pm. ## Here's your 7-day forecast:\n\nCBS News Philadelphia\n\nSaturday: Sunny and breezy. High 59, Low 47. Sunday: Pleasant. High 61, Low 42.\n\nMonday: Partly cloudy. High 61, Low 41.\n\nTuesday: Sunny. High 60, Low 47. Wednesday: Sunny. High 63, Low 41.\n\nThursday: Partly cloudy. High 58, Low 42.\n\nFriday: Sunny. High 57, Low 50. NEXT Weather Radars \n\n Hourly Forecast ... #### Above-freezing high temperatures continue in Philadelphia area #### Temperatures in North Texas remain above average ahead of heavy rain on Saturday #### Temperatures to hit mid-60s Wednesday; rain returns Valentine's Day weekend #### High temperatures today are expected to be near 50 degrees\n\nIn: - [Philadelphia"
+      ]
+    },
+    {
+      "title": "Philadelphia, PA Monthly Weather | AccuWeather",
+      "url": "https://www.accuweather.com/en/us/philadelphia/19102/november-weather/350540",
+      "published_date": "2025-05-13T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Storm crawling through Southeast will raise risk for flooding, damaging thunderstorms.Chevron right] # Philadelphia, PA\n71\u00b0F \nLocationChevron down\nLocationNewsVideos ... Today WinterCast Local {stormName} ... Air Quality Health & Activities \n \nCoastal Flood Advisory \n## November January February March April May June [July]<web_link ... ## 2025\n 2024 2025 2026 \n ## Daily\n \nS\nM\nT\nW\nT\nF\nS\n \n26\nHist. Avg.\n63\u00b0 45\u00b0\n \n27\nHist. Avg.\n63\u00b0\n45\u00b0\n \n28\nHist. Avg.\n63\u00b0\n45\u00b0\n \n29 Hist. Avg.\n62\u00b0\n44\u00b0\n \n30\nHist. Avg.\n62\u00b0\n44\u00b0\n \n31\nHist. Avg.\n62\u00b0\n44\u00b0 \n1\nHist. Avg.\n61\u00b0\n43\u00b0\n \n2\nHist. Avg.\n61\u00b0\n43\u00b0\n \n3\nHist. Avg. ... \n## Temperature Graph\n\u00b0F\n70\u00b062\u00b054\u00b046\u00b038\u00b0Nov \\*1\\*2\\*3\\*4\\*5\\*6\\*7\\*8\\*9\\*10\\*11\\*12\\*13\\*14\\*15\\*16\\*17\\*18\\*19\\*20\\*21\\*22\\*23\\*24\\*25\\*26\\*27\\*28\\*29\\*30\nAvg. Hi Avg. Lo\nActual Hi\nActual Lo\nForecast Hi\nForecast Lo\n\\*Temporarily Unavailable\n## Around the Globe ... \u00a9 2025 Acc"
+      ]
+    },
+    {
+      "title": "Philadelphia, PA Daily Weather | AccuWeather",
+      "url": "https://www.accuweather.com/en/us/philadelphia/19102/daily-weather-forecast/350540",
+      "published_date": "2025-05-13T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Storm crawling through Southeast will raise risk for flooding, damaging thunderstorms.Chevron right] # Philadelphia, PA\n20\u00b0C \nLocationChevron down\nLocationNewsVideos Use Current Location\nRecent\n \nPhiladelphia\nPennsylvania\n20\u00b0 \nNo results found. Try searching for a city, zip code or point of interest.\n \n settings \nPhiladelphia, PA Weather Today WinterCast [Local {stormName} ... \nCoastal Flood Advisory \nMay 12 - June 25\n \n## Mon5/12\n29\u00b0/17\u00b0\n96%\n Cloudy with a couple of showers\nRealFeel\u00ae16\u00b0\nCloud Cover99%\nWindS 9 km/h\nWind Gusts22 km/h\n \n## Tue5/13 ... Max UV Index3 (Moderate)\nWindESE 24 km/h\n \n## Thu5/15\n24\u00b0/18\u00b0\n42%\n Remaining cloudy and humid; a thunderstorm in parts of the area in the afternoon\nRealFeel\u00ae27\u00b0 RealFeel Shade\u212225\u00b0\nMax UV Index2 (Low)\nWindSE 6 km/h\n \n## Fri5/16\n28\u00b0/19\u00b0\n40%\n ... ### Radar & Maps\n ### News\n ### Video\n ### Winter Center\n Top Stories\n \nWeather Forecasts\nRain to ease, but flooding problems to continue in southeast US\n6 hours ago \nAstronomy\nFlower Moon is about to light up May's night sky\n4 days ago [\nWeather Forecasts\nWhen will wet weather return to northeast US?\n6 hours ago ... ## Weather Near Philadelphia:\n* Allentown,PA \n* New York,NY \n* Trenton,NJ \nCompany ... \u00a9 2025 Accu"
+      ]
+    },
+    {
+      "title": "City of Philadelphia, Pennsylvania, USA 14 day weather forecast",
+      "url": "https://www.timeanddate.com/weather/@4560347/ext",
+      "published_date": "2025-04-29T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Currently:34\u00b0F. Light snow. Fog. (Weather station: Philadelphia International Airport, USA).[See more ... \u00d7## City of Philadelphia Extended Forecast with high and low temperatures\n **\u00b0F Last 2 weeks of weather \n See weather overview ## 2 Week Extended Forecast in City of Philadelphia, Pennsylvania, USA Scroll right to see more||Conditions|Comfort|Precipitation|Sun| Day||Temperature|Weather|Feels Like|Wind||Humidity|Chance|Amount|UV|Sunrise|Sunset|\nSun Dec 14| |35 / 20\u00b0F|Moderate snow. Cloudy.|18\u00b0F|12 mph|\u2191|51%|86%|4.24\"|0(Low)|7:14 am|4:35 pm|\nMon Dec 15| |30 / 17\u00b0F|Light snow late. Cloudy.|21\u00b0F|9 mph|\u2191|60%|23%|0.26\"|0(Low)|7:15 am|4:36 pm|\nTue Dec 16| |33 / 21\u00b0F|Increasing cloudiness.|28\u00b0F|4 mph|\u2191|64%|0%|0.00\"|0(Low)|7:16 am|4:36 pm|\nWed ... Dec 28| |33 / 25\u00b0F|Mostly sunny.|33\u00b0F|2 mph|\u2191|79%|6%|0.00\"|0(Low)|7:21 am|4:42 pm| \\* Updated Sunday, December 14, 2025 4:23:52 am City of Philadelphia time - Weather by CustomWeather, \u00a9\u00a9 2025| ["
+      ]
+    },
+    {
+      "title": "November 2025 Daily Weather Forecast for 19148 (Philadelphia), Pennsylvania \u2013 Plan Ahead",
+      "url": "https://www.weathertab.com/en/d/11/united-states/pennsylvania/19148-philadelphia/",
+      "published_date": "2025-01-01T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "model, distinct from standard ... clearer and more accurate meteorological insight. >\n>\n\n\n Oct November 2025Nov 2025 Dec | | | | | |\n| --- | --- | --- | --- | --- | | 1 Sat | 54% | 56 to 66 \u00b0F38 to 48 \u00b0F11 to 21 \u00b0C1 to 11 \u00b0C | **Sunrise** 7:29AM **Sunset** 5:57PM | Waxing Gibbous | | 2 Sun | 38% | 56 to 66 \u00b0F38 to 48 \u00b0F11 to 21 \u00b0C1 to 11 \u00b0C | **Sunrise** 6:31AM **Sunset** 4:56PM | Waxing Gibbous | ... | 30 Sun | 69% | 49 to 59 \u00b0F32 to 42 \u00b0F7 to 17 \u00b0C-3 to 7 \u00b0C | **Sunrise** 7:01AM **Sunset** 4:36PM | Waxing Gibbous | Oct Dec \n\nPrecipitation Forecast\n\nAverage Precipitation\n\nRain Frequency 4 to 6 days Temperature Forecast\n\nTemperature Forecast\nNormal\n\nAvg High Temps\n50 to 60 \u00b0F5 to 15 \u00b0C Avg Low Temps\n30 to 45 \u00b0F0 to 10 \u00b0C\n\nWeatherTAB helps you plan activities on days with the least risk of rain. | | |\n| --- | --- |\n| | Low risk of rain/snow. |\n| | Transition Day \u2013 Start or End of a Risky Period | | | Medium risk of rain/snow. |\n| | High risk of rain/snow. |\n| % | Forecast risk of rain/snow. | | Avg High TempsAvg Low Temps |\n| Click or Tap on any day for a detailed"
+      ]
+    },
+    {
+      "title": "National Weather Service",
+      "url": "https://forecast.weather.gov/product.php?format=CI&glossary=1&issuedby=MDH&product=CLI&site=PHI&version=43",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "imatological Report (Daily)\nIssued by NWS Home | Current Version | Previous Version | Text Only | Print | Product List | Glossary Off ... web_link> 45 46 47 48 49 50 ```\n681\nCDUS43 KPAH 222232\nCLIMDH CLIMATE REPORT NATIONAL WEATHER SERVICE PADUCAH KY 432 PM CST THU JAN 22 2026\n......................................THE CARBONDALE IL CLIMATE SUMMARY FOR JANUARY 22 2026... VALID TODAY AS OF 0425 PM LOCAL TIME. CLIMATE NORMAL PERIOD 1991 TO 2020 CLIMATE RECORD PERIOD 1898 TO 2026 WEATHER ITEM OBSERVED TIME RECORD YEAR NORMAL DEPARTURE LAST VALUE (LST) VALUE VALUE FROM YEAR NORMAL ................................................................... TEMPERATURE (F)\nTODAY\nMAXIMUM 40 359 PM 66 1967 42 -2 32\nMINIMUM 20 741 AM -12 1994 24 -4 6\nAVERAGE 30 33 -3 19 PRECIPITATION (IN)\nTODAY 0.00 2.44 1962 0.09 -0.09 0.00\nMONTH TO DATE 0.20 2.01 -1.81 1.69 ... HIGHEST 74\nLOWEST 24\nAVERAGE 49\n.......................................................... THE CARBONDALE IL CLIMATE NORMALS FOR TOMORROW NORMAL RECORD YEAR MAXIMUM TEMPERATURE (F) ... SUNRISE AND SUNSET\nJANUARY 22 2026.......SUNRISE 708 AM CST SUNSET 510 PM CST JANUARY 23 2026.......SUNRISE 707 AM CST SUNSET 511 PM CST - INDICATES NEGATIVE NUMBERS. R INDICATES RECORD WAS SET OR TIED.\nMM INDICATES DATA IS MISSING. T INDICATES TRACE AMOUNT.\n$$\n```"
+      ]
+    },
+    {
+      "title": "19115 (Philadelphia), Pennsylvania Long Range Daily Weather Forecasts for Planning",
+      "url": "https://www.weathertab.com/en/c/united-states/pennsylvania/19115-philadelphia/",
+      "published_date": "2025-01-01T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "# 19115 (Philadelphia) Long Range Daily Weather Forecasts for Planning Get accurate long-range weather forecasts for 19115 (Philadelphia), up to 12 months in advance. Plan vacations, weddings, and outdoor events with greater confidence. Daily \n Calendar \n Trends \n## Choose Forecast Month May 2025 June 2025 July 2025 August 2025 September 2025 October 2025 November 2025 December 2025 January 2026 February 2026 March 2026 April 2026 \u00b0F\n\u00b0C"
+      ]
+    },
+    {
+      "title": "National Weather Service",
+      "url": "https://forecast.weather.gov/MapClick.php?w0=t&w2=wc&w3=sfcwind&w4=sky&w5=pop&w6=rh&w8=rain&w9=snow&w10=fzg&w11=sleet&AheadHour=0&Submit=Submit&FcstType=digital&textField1=39.95250&textField2=-75.16570&site=all",
+      "published_date": "2025-06-08T00:00:00.000Z",
+      "text": "",
+      "highlights": [
+        "Philadelphia PA \u00a039.96N 75.16W (Elev. 26 ft) | Last Update: 10:14 pm EDT Apr 28, 2025 | ... | | | |\n| --- | --- | --- |\n| [\\[hide menu\\]] Get as XML |\n| | | | | | --- | --- | --- |\n| **Weather Elements** | **Fire Weather** | **Aviation Weather** | | **Temperature (\u00b0F)** **Dewpoint (\u00b0F)** **Wind Chill (\u00b0F)** * * * **Surface Wind** ktmphkm/hm/s **Sky Cover (%)** **Precipitation Potential (%)** **Relative Humidity (%)** * * * **Rain** **Thunder** **Snow** **Freezing Rain** ... | **48-Hour Period Starting:** 12am Tue, Apr 29 20251am Tue, Apr 29 20252am Tue, Apr 29 20253am Tue, Apr 29 20254am ... | | | | | | | | | | | | | | | | | | | | | | | | | | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | | * * * |\n| **Date** | **04/29** | | | | | | | | | | | | | | | | | | | | | | | | | **Hour (EDT)** | **00** | **01** | **02** | **03** | **04** | **05** | **06** | **07** | **08** | **09** | **10** | **11** | **12** | **13** | **14** | **15** | **16** | **17** | **18** | **19** | **20** | **21** | **22** | **23** | | Temperature (\u00b0F) | **59** | **58** | **57** | **56** | **55** | **54** | **55** | **56** | **58** | **62** | **66** | **70** | **73** | **75** | **77** | **79** | **80** | **82** | **79** | **77** | **75** | **73** | **72** | **70** | | Wind Chill (\u00b0F) | | | | | | | | | | | | | | | | | | | | | | | | | ... | Rain | **--** | **--** | **--** | **--** | **--** | **--** | **--** | **--** | **--** | **--** | **--** | **--** | ... | Freezing Rain | **--** | **--** | **--** | **--** | **--** | **--** | **--** | **--** | **--** | **--** | **--** | ... | * * * |\n| **Date** | **04/30** | | | | | | | | | | | | | | | | | | | | | | | | | **Hour (EDT)** | **00** | **01** | **02** | **03** | **04** | **05** | **06** | **07** | **08** | **09** | **10** | ... | Temperature (\u00b0F) | **69** | **69** | **69** | **68** | **67** | **67** | **67** | **67** | **68** | **70** | **71** | ..."
+      ]
+    },
+    {
+      "title": "",
+      "url": "https://customercenter.wsj.com/todaysPaper/?gaa_at=eafs&gaa_n=AWEtsqchFGPgkvrh8xqSzb-9fJtr1HmpdNmSv572Ee14dFQX2ajZ3JQuAoCV&gaa_n=AWEtsqeSOjj3BDYTe7qYYCE2Oa__G1S_kWEZXLqRA6uQ1Hja2JiZhpf2YSNL&gaa_n=AWEtsqf5juPxts_9qcciLzq41LpyOXBAjOImM5YkfRcec0WcUYYHjKis-Pao&gaa_sig=ZbT7lGn5pyNsxtKfnAqn-zbGFiG1FUYkjo8A9FCaLyLDuGFBgVIn-WKs5EnBFvuyX4iqnTpgSJsTams6GeqErQ%3D%3D&gaa_sig=mhyhG28AmG0KNwFE69tE5_QGXa93LGlSlqRmsW9G8lY4RH4NcieF6O59J5fap4Rt--DPPpNF_4SxIpxLfC3c-A%3D%3D&gaa_sig=n5oAmAsug-Khwky4nHI8tngxK2NwsOnncptjG5KBH138uqWv55w4YL7Bgjy7YU0ssHmKnYf7vjNxkCV8NUNVVg%3D%3D&gaa_ts=693c1d97&gaa_ts=697b986b&gaa_ts=699b9c04",
+      "published_date": null,
+      "text": "",
+      "highlights": [
+        "The Wall Street Journal Digital Print Edition\n\nSkip to Main ContentSkip to Search\n\n# Print Edition Website A full list of stories arranged just as they appeared in the daily print edition.\n\n Read Stories \n\n--- WSJ.com eReader Browse thumbnails of each printed page, download and print them or click through to the online article. Read WSJ Print Edition \n\n Read WSJ Magazine \n\n---\n\nWSJ Print Edition App Get the print experience in an app. This digital replica brings the print experience online and ensures delivery issues never interrupt your access. ---\n\nNewsletter\n\nGet a PDF of the paper delivered to your email inbox, just as it would appear on your doorstep."
+      ]
+    }
+  ]
+}

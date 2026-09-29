@@ -1,0 +1,89 @@
+This section provides the foundational context necessary to understand the design space for AI-based oracle systems. We introduce prediction markets, explain the oracle problem that constrains their reliability, survey existing resolution mechanisms, and motivate why large language models represent a natural intermediate solution.
+
+\subsection{Prediction Markets and Information Aggregation}
+
+A prediction market is a marketplace for contracts whose payoff depends on a future event. In a common binary design, a contract pays \$1 if the event occurs and \$0 otherwise. If such a contract trades at price $p \in [0, 1]$, practitioners often interpret $p$ as an implied probability, because a trader who believes the true probability is higher than $p$ has an incentive to buy, while a trader who believes it is lower has an incentive to sell or short. As new information arrives, profit-motivated traders update their positions, and the price moves to reflect the market's aggregated belief. At the market's end, the contract cash-settles based on an externally verified outcome, so correctness hinges on the integrity of the resolution process. This settlement step creates the oracle problem. The market can only function if a trusted mechanism can map real-world outcomes into an unambiguous on-chain or off-chain final result.
+
+The intellectual foundation traces to Hayek's insight that market 
+prices aggregate dispersed knowledge held by individuals throughout 
+society~\cite{hayek1945use,arrow2008promise}. Empirically, prediction 
+markets have been closer to eventual outcomes than polls 74\% of the 
+time across five U.S.\ presidential elections~\cite{berg2008prediction}, 
+and a meta-analysis of 160 publications concluded that prediction 
+markets are 79\% more accurate than alternative forecast 
+methods~\cite{iceb2020meta}.
+
+
+\subsection{The Oracle Problem}
+
+The oracle problem refers to the fundamental challenge of injecting reliable 
+off-chain data into deterministic blockchain systems. Smart contracts cannot 
+natively access external information because blockchain consensus requires 
+all nodes to independently verify computations. External API calls would 
+return different results at different times, breaking deterministic 
+execution~\cite{ellis2017chainlink, caldarelli2020oracle}. Despite its 
+centrality to blockchain applications, of 142 journal papers on blockchain 
+applications, only 15\% considered the role of oracles, and fewer than 
+10\% discussed oracle limitations~\cite{caldarelli2020oracle}.
+
+The financial consequences of oracle failures are severe. DeFi protocols 
+lost over \$400 million across 41 oracle manipulation attacks in 2022 
+alone~\cite{chainalysis2023oracle}. No blockchain oracle protocol can 
+simultaneously optimize scalability, decentralization, and truthfulness, 
+a constraint formalized as the Oracle Trilemma~\cite{cong2025oracle}. 
+This impossibility result motivates hybrid approaches that combine automated 
+AI resolution with human oversight, rather than relying on either alone.
+
+\subsection{Existing Oracle Resolution Systems}
+
+Existing oracle systems can be understood along a spectrum from full automation to full human adjudication, with each design making different tradeoffs among speed, cost, accuracy, and trust assumptions.
+
+\subsubsection{Chainlink's Decentralized Oracle Networks}
+
+Chainlink introduced a two-layer architecture with on-chain aggregation of oracle node responses and off-chain data sourcing~\cite{ellis2017chainlink}. The Chainlink 2.0 whitepaper expanded this to Decentralized Oracle Networks (DONs), committees of nodes providing oracle services alongside off-chain computation, enabling hybrid smart contracts that combine on-chain logic with off-chain processing~\cite{chainlink2021v2}. Key innovations include Off-Chain Reporting (OCR) for reduced gas costs and super-linear staking security, where the bribe required to corrupt the network grows faster than the sum of individual deposits. Chainlink dominates the oracle market, facilitating over \$25 trillion in transaction value and securing nearly \$100 billion in DeFi total value locked. However, its architecture is optimized for structured, objective data feeds, asset prices, temperature readings, and sports scores with official APIs. It is less well suited to resolving subjective or ambiguous prediction market outcomes.
+
+\subsubsection{Kalshi's Centralized Resolution}
+
+Kalshi, the first CFTC-regulated Designated Contract Market for event contracts, represents the opposite end of the oracle spectrum from Chainlink's automated approach. An internal operations team resolves markets by verifying outcomes against pre-specified authoritative sources such as official government statistics, league results, and regulatory announcements, with an Outcome Review Committee for ambiguous cases~\cite{kalshi_outcomes}. This provides fast, reliable resolution with clear accountability. Kalshi's resolution decisions carry the weight of a regulated financial institution. However, the approach introduces single-entity trust assumptions and does not scale to the thousands of simultaneous markets that decentralized platforms support. Kalshi's resolution process is particularly relevant to this thesis because KalshiBench, our evaluation benchmark, is derived from Kalshi markets with verified outcomes. The ground truth labels therefore reflect Kalshi's authoritative resolution judgments~\cite{nel2025kalshibench}.
+
+\subsubsection{UMA's Optimistic Oracle}
+
+UMA Protocol operates on an assume correct unless challenged principle~\cite{uma2024oracle}. Asserters submit bonded assertions. If undisputed during a configurable liveness period of 2 hours to 2 days, assertions are accepted automatically. Only approximately 1.5\% of proposals are disputed. Disputes escalate to the Data Verification Mechanism (DVM), a commit-reveal vote by UMA token holders that resolves within 48 to 96 hours, with incorrect voters slashed. The system is designed so that corrupting the oracle by acquiring a supermajority of UMA tokens would cost more than any potential profit from corruption. Polymarket uses UMA's optimistic oracle for resolution of billions of dollars in trading volume~\cite{polymarket_uma_adapter}. The optimistic oracle's design embodies a natural tiered architecture consisting of cheap automation in the common case and expensive human arbitration in the rare disputed case. This structure directly informs our escalation framework.
+
+
+\subsubsection{The Automation--Arbitration Tradeoff}
+
+The fundamental tension in oracle design is between automation, which is fast, cheap, and scalable but limited to structured data and vulnerable to edge cases, and human arbitration, which handles ambiguity and subjectivity but is slow and expensive. As prediction markets grow in volume and complexity, particularly for subjective outcomes such as political events or regulatory decisions, neither pure automation nor human-only adjudication scales. This motivates the use of large language models as an intermediate resolution layer that can interpret natural-language resolution criteria, verify time-bounded events, and provide structured reasoning, while still deferring to human arbitration for genuinely ambiguous cases.
+
+\subsection{LLMs as an Intermediate Resolution Layer}
+
+The application of large language models to oracle resolution is a recent development driven by two capabilities. LLMs can interpret natural-language resolution criteria, such as "Will the Federal Reserve raise interest rates before March 2025?" Retrieval-augmented generation allows them to ground their reasoning in current evidence rather than relying solely on training data.
+
+\subsubsection{The Forecasting--Resolution Distinction}
+
+A critical conceptual distinction for this thesis is that forecasting and resolution impose different requirements on AI systems. Forecasting requires probabilistic reasoning about uncertain future events, where calibration, defined as the alignment between stated probabilities and empirical frequencies, is the central evaluation criterion. Oracle resolution, by contrast, requires determining whether a past event did occur, given available evidence and specific resolution criteria. Resolution is architecturally closer to fact verification, as in the FEVER benchmark~\cite{thorne2018fever}, which evaluates claim-level evidence retrieval and binary classification, than to probabilistic forecasting. Our thesis bridges both modes by using KalshiBench questions that have already resolved and evaluating models' ability to determine what happened given retrieved evidence rather than to predict what will happen.
+
+\subsubsection{LLM Failure Modes Relevant to Oracle Resolution}
+
+Several failure modes directly threaten oracle accuracy and motivate the 
+move from single-LLM to multi-agent architectures. Hallucination, 
+defined as generating plausible but incorrect outputs, has been extensively 
+studied, with a key distinction between intrinsic hallucination, which 
+contradicts the source, and extrinsic hallucination, which is unverifiable 
+from the source~\cite{ji2023hallucination}. RLHF training can exacerbate 
+hallucination by rewarding plausible-sounding but incorrect answers, and 
+RAG alone is insufficient to prevent it~\cite{huang2025hallucination}. 
+Sycophancy, the tendency to agree with social pressure rather than 
+reason independently, is particularly concerning for multi-agent designs: 
+sycophantic behavior has been observed in 58\% of cases across multiple 
+frontier models, with a 78.5\% persistence rate once 
+triggered~\cite{fanous2025sycophancy}. In multi-agent systems, sycophancy 
+could cause agents to agree with majority positions rather than reasoning 
+independently, directly undermining the diversity assumption underlying 
+aggregation benefits. Temporal reasoning errors, identified as the 
+primary bottleneck by both Chainlink and UMA systems, represent a 
+category-specific challenge where LLMs struggle with date arithmetic, 
+relative time expressions, and determining whether evidence predates or 
+postdates an event of interest.
+
+These failure modes, including hallucination without self-correction, sycophantic convergence, and temporal confusion, cannot be addressed by single-model improvements alone. They motivate the multi-agent architectures evaluated in this thesis, where cross-model critique and independent verification can potentially catch errors that a single model would propagate unchecked.

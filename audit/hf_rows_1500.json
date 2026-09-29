@@ -1,0 +1,546 @@
+{
+  "features": [
+    {
+      "feature_idx": 0,
+      "name": "id",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 1,
+      "name": "question",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 2,
+      "name": "description",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 3,
+      "name": "category",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 4,
+      "name": "close_time",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 5,
+      "name": "ground_truth",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 6,
+      "name": "market_probability",
+      "type": {
+        "dtype": "null",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 7,
+      "name": "series_ticker",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 8,
+      "name": "source",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "row_idx": 1500,
+      "row": {
+        "id": "KXNYCCOUNCIL4",
+        "question": "Who will win the NYC City Council election in District 4?",
+        "description": "If Rachel Storch wins the New York City Counil race for District 4 in 2025, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-11-07T17:12:49.335584Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNYCCOUNCIL4",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1501,
+      "row": {
+        "id": "KXNYCCOUNCIL39",
+        "question": "Who will win the NYC City Council election in District 39?",
+        "description": "If Maya Kornberg wins the New York City Counil race for District 39 in 2025, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-11-07T17:21:31.28283Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNYCCOUNCIL39",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1502,
+      "row": {
+        "id": "KXNYCCOUNCIL39",
+        "question": "Who will win the NYC City Council election in District 39?",
+        "description": "If Shahana Hanif wins the New York City Counil race for District 39 in 2025, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-11-07T17:21:31.28283Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXNYCCOUNCIL39",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1503,
+      "row": {
+        "id": "KXNYCCOUNCIL38",
+        "question": "Who will win the NYC City Council election in District 38?",
+        "description": "If Ling Ye wins the New York City Counil race for District 38 in 2025, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-11-07T17:20:44.013306Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNYCCOUNCIL38",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1504,
+      "row": {
+        "id": "KXNYCCOUNCIL38",
+        "question": "Who will win the NYC City Council election in District 38?",
+        "description": "If Alexa Avilés wins the New York City Counil race for District 38 in 2025, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-11-07T17:20:44.013306Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXNYCCOUNCIL38",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1505,
+      "row": {
+        "id": "KXNYCCOUNCIL30",
+        "question": "Who will win the NYC City Council election in District 30?",
+        "description": "If Phil Wong wins the New York City Counil race for District 30 in 2025, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-11-07T17:20:09.114207Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXNYCCOUNCIL30",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1506,
+      "row": {
+        "id": "KXNYCCOUNCIL30",
+        "question": "Who will win the NYC City Council election in District 30?",
+        "description": "If Paul Pogozelski wins the New York City Counil race for District 30 in 2025, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-11-07T17:20:09.114207Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNYCCOUNCIL30",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1507,
+      "row": {
+        "id": "KXNYCCOUNCIL28",
+        "question": "Who will win the NYC City Council election in District 28?",
+        "description": "If Latoya LeGrand wins the New York City Counil race for District 28 in 2025, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-11-07T17:23:48.473198Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNYCCOUNCIL28",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1508,
+      "row": {
+        "id": "KXNYCCOUNCIL28",
+        "question": "Who will win the NYC City Council election in District 28?",
+        "description": "If Japneet Singh wins the New York City Counil race for District 28 in 2025, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-11-07T17:24:00.357581Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNYCCOUNCIL28",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1509,
+      "row": {
+        "id": "KXNYCCOUNCIL2",
+        "question": "Who will win the NYC City Council election in District 2?",
+        "description": "If Sarah Batchu wins the New York City Counil race for District 2 in 2025, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-11-07T17:09:07.991969Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNYCCOUNCIL2",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1510,
+      "row": {
+        "id": "KXNYCCOUNCIL2",
+        "question": "Who will win the NYC City Council election in District 2?",
+        "description": "If Harvey Epstein wins the New York City Counil race for District 2 in 2025, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-11-07T17:09:07.991969Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXNYCCOUNCIL2",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1511,
+      "row": {
+        "id": "KXNYCCOUNCIL21",
+        "question": "Who will win the NYC City Council election in District 21?",
+        "description": "If Yanna Henriquez wins the New York City Counil race for District 21 in 2025, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-11-07T17:17:31.976378Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNYCCOUNCIL21",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1512,
+      "row": {
+        "id": "KXNYCCOUNCIL21",
+        "question": "Who will win the NYC City Council election in District 21?",
+        "description": "If Sandro Stefano Navarro wins the New York City Counil race for District 21 in 2025, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-11-07T17:17:31.976378Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNYCCOUNCIL21",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1513,
+      "row": {
+        "id": "KXNYCCOUNCIL17",
+        "question": "Who will win the NYC City Council election in District 17?",
+        "description": "If Jasmine Uribe wins the New York City Counil race for District 17 in 2025, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-11-07T17:16:59.928461Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNYCCOUNCIL17",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1514,
+      "row": {
+        "id": "KXNYCCOUNCIL17",
+        "question": "Who will win the NYC City Council election in District 17?",
+        "description": "If Justin Sanchez wins the New York City Counil race for District 17 in 2025, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-11-07T17:16:59.928461Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXNYCCOUNCIL17",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1515,
+      "row": {
+        "id": "KXNYCCOUNCIL14",
+        "question": "Who will win the NYC City Council election in District 14?",
+        "description": "If Pierina Sanchez wins the New York City Counil race for District 14 in 2025, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-11-07T17:14:34.228976Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXNYCCOUNCIL14",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1516,
+      "row": {
+        "id": "KXNYCCOUNCIL14",
+        "question": "Who will win the NYC City Council election in District 14?",
+        "description": "If Fernando Cabrera wins the New York City Counil race for District 14 in 2025, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-11-07T17:14:34.228976Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNYCCOUNCIL14",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1517,
+      "row": {
+        "id": "KXNYCCOUNCIL13",
+        "question": "Who will win the NYC City Council election in District 13?",
+        "description": "If Theona Reets-Dupont wins the New York City Counil race for District 13 in 2025, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-11-07T17:13:43.475094Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNYCCOUNCIL13",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1518,
+      "row": {
+        "id": "KXNYCCOUNCIL13",
+        "question": "Who will win the NYC City Council election in District 13?",
+        "description": "If Shirley Aldebol wins the New York City Counil race for District 13 in 2025, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-11-07T17:13:43.475094Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXNYCCOUNCIL13",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1519,
+      "row": {
+        "id": "KXNYCCOUNCIL1",
+        "question": "Who will win the NYC City Council election in District 1?",
+        "description": "If Jess Coleman wins the New York City Counil race for District 1 in 2025, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-11-07T17:08:46.367339Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNYCCOUNCIL1",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1520,
+      "row": {
+        "id": "KXNYCCOUNCIL1",
+        "question": "Who will win the NYC City Council election in District 1?",
+        "description": "If Eric Yu wins the New York City Counil race for District 1 in 2025, then the market resolves to Yes.",
+        "category": "Politics",
+        "close_time": "2025-11-07T17:08:46.367339Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNYCCOUNCIL1",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1521,
+      "row": {
+        "id": "KXNFLTRADE",
+        "question": "Will Bradley Chubb be traded by Miami before Nov 5, 2025?",
+        "description": "If Bradley Chubb is traded before Nov 5, 2025, then the market resolves to Yes.\nThe trade must be officially processed and approved by Pro Football before Nov 5, 2025 for market to resolve to Yes. If Bradley Chubb later fails their physical and/or the trade is rescinded for any reason after being officially processed, the market nonetheless resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-04T23:55:12.459938Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLTRADE",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1522,
+      "row": {
+        "id": "KXNFLTRADE",
+        "question": "Will Tony Pollard be traded by Tennessee before Nov 5, 2025?",
+        "description": "If Tony Pollard is traded before Nov 5, 2025, then the market resolves to Yes.\nThe trade must be officially processed and approved by Pro Football before Nov 5, 2025 for market to resolve to Yes. If Tony Pollard later fails their physical and/or the trade is rescinded for any reason after being officially processed, the market nonetheless resolves to Yes.",
+        "category": "Sports",
+        "close_time": "2025-11-04T23:57:09.777884Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXNFLTRADE",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1523,
+      "row": {
+        "id": "KXMAYORSEATTLE",
+        "question": "Will Joe Molloy win the election for the Mayor of Seattle in 2025?",
+        "description": "If Joe Molloy wins the election for Mayor in Seattle in 2025, then the market resolves to Yes.",
+        "category": "Elections",
+        "close_time": "2025-11-16T10:04:13.847298Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXMAYORSEATTLE",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1524,
+      "row": {
+        "id": "KXMAYORSEATTLE",
+        "question": "Will Thaddeus Whelan win the election for the Mayor of Seattle in 2025?",
+        "description": "If Thaddeus Whelan wins the election for Mayor in Seattle in 2025, then the market resolves to Yes.",
+        "category": "Elections",
+        "close_time": "2025-11-16T10:04:13.847298Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXMAYORSEATTLE",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1525,
+      "row": {
+        "id": "KXELECTCONCEDE",
+        "question": "Will Curtis Sliwa concede defeat in the 2025 New York City mayoral election before Nov 5, 2025?",
+        "description": "If Curtis Sliwa has made a statement conceding defeat in the 2025 New York City mayoral election before Nov 5, 2025, then the market resolves to Yes.\nA concession requires Curtis Sliwa to explicitly acknowledge defeat, loss, or that their opponent has won 2025 New York City mayoral election. This may include statements using words such as \"concede,\" \"congratulate [opponent] on their victory,\" \"accept the results,\" \"will not be [office holder]\" or other unambiguous acknowledgments of defeat.",
+        "category": "Elections",
+        "close_time": "2025-11-05T04:59:00Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXELECTCONCEDE",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1526,
+      "row": {
+        "id": "KXELECTCONCEDE",
+        "question": "Will Zohran Mamdani concede defeat in the their respective race before Nov 5, 2025?",
+        "description": "If Zohran Mamdani has made a statement conceding defeat in the 2025 New York City Mayoral election before Nov 5, 2025, then the market resolves to Yes.\nA concession requires Zohran Mamdani to explicitly acknowledge defeat, loss, or that their opponent has won 2025 New York City Mayoral election. This may include statements using words such as \"concede,\" \"congratulate [opponent] on their victory,\" \"accept the results,\" \"will not be [office holder]\" or other unambiguous acknowledgments of defeat.",
+        "category": "Elections",
+        "close_time": "2025-11-05T04:59:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXELECTCONCEDE",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1527,
+      "row": {
+        "id": "KXCOMPTROLLER",
+        "question": "Will Terrell Miller be elected to be NYC Comptroller in 2025?",
+        "description": "If Terrell Miller is elected to Comptroller in New York City in 2025, then the market resolves to Yes.",
+        "category": "Elections",
+        "close_time": "2025-07-23T22:18:20.458554Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXCOMPTROLLER",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1528,
+      "row": {
+        "id": "KXCOMPTROLLER",
+        "question": "Will Mark Levine be elected to be NYC Comptroller in 2025?",
+        "description": "If Mark Levine is elected to Comptroller in New York City in 2025, then the market resolves to Yes.",
+        "category": "Elections",
+        "close_time": "2025-07-23T22:18:20.458554Z",
+        "ground_truth": "yes",
+        "market_probability": null,
+        "series_ticker": "KXCOMPTROLLER",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1529,
+      "row": {
+        "id": "KXADP",
+        "question": "ADP employment change in Oct 2025?",
+        "description": "If the ADP Employment Change in Oct 2025 is above 75000, then the market resolves to Yes.",
+        "category": "Economics",
+        "close_time": "2025-11-05T13:14:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXADP",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1530,
+      "row": {
+        "id": "KXADP",
+        "question": "ADP employment change in Oct 2025?",
+        "description": "If the ADP Employment Change in Oct 2025 is above 50000, then the market resolves to Yes.",
+        "category": "Economics",
+        "close_time": "2025-11-05T13:14:00Z",
+        "ground_truth": "no",
+        "market_probability": null,
+        "series_ticker": "KXADP",
+        "source": "kalshi"
+      },
+      "truncated_cells": []
+    }
+  ],
+  "num_rows_total": 1531,
+  "num_rows_per_page": 100,
+  "partial": false
+}
