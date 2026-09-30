@@ -8,7 +8,7 @@ md, code = nbf.v4.new_markdown_cell, nbf.v4.new_code_cell
 nb = nbf.v4.new_notebook(cells=[
 md('''# Agentic Oracle Resolver: первые воспроизводимые результаты
 
-**Статус:** независимый пересчёт опубликованных CSV, техническая выгрузка Kalshi и иллюстративная экономика. Новые LLM-запуски не выполнялись. Все вычисления этого ноутбука работают offline по сохранённым файлам.
+**Статус:** независимый пересчёт опубликованных CSV, техническая выгрузка Kalshi и иллюстративная экономика. Новые LLM-запуски не выполнялись. После `make fetch` вычисления этого ноутбука работают offline по закреплённым файлам.
 
 [Полное исследовательское досье](research_dossier.md)
 
@@ -44,6 +44,7 @@ print('Exact two-sided McNemar p, naive row independence:', round(p, 6))
 print('This test does not account for correlated event groups.')'''),
 code('''import matplotlib
 matplotlib.use('Agg')
+matplotlib.rcParams['svg.hashsalt'] = 'oracle-audit'
 import matplotlib.pyplot as plt
 fig, ax = plt.subplots(figsize=(8.4, 4.7), layout='constrained')
 values = [audit['metrics'][k]['accuracy'] * 100 for k in names]
@@ -59,10 +60,31 @@ ax.tick_params(axis='x', labelsize=9)
 fig.text(.02, -.025, 'Saved outputs, n=1189 per run. A/B inputs differ; this is not a controlled causal comparison.', fontsize=9)
 out = ROOT / 'results/audit_comparison.png'
 fig.savefig(out, dpi=170, bbox_inches='tight')
-fig.savefig(ROOT / 'results/audit_comparison.svg', bbox_inches='tight')
+fig.savefig(ROOT / 'results/audit_comparison.svg', bbox_inches='tight', metadata={'Date': None})
 from IPython.display import display, Image
 display(Image(filename=str(out)))
 plt.close(fig)'''),
+md('''## Направление ошибок и формат evidence
+
+FN — ответ NO при label YES. Сырые A/B-таблицы используют разные сохранённые labels; парная декомпозиция должна учитывать это. Сто подходящих файлов кэша не доказывают, что исторические запуски потребляли одинаковое содержимое. Код B использует `text`, тогда как A предпочитает `highlights`.'''),
+code('''subprocess.run([sys.executable, str(ROOT / 'audit/error_direction.py')], capture_output=True, text=True, check=True)
+direction = json.loads((ROOT / 'audit/error_direction.json').read_text())
+for key in ['A_majority', 'B_round1_majority', 'B_final']:
+    m = direction['confusion_matrices'][key]
+    print(key, '| FN:', m['FN'], '| FP:', m['FP'], '| YES labels:', m['truth_yes'],
+          '| balanced accuracy:', round(m['balanced_accuracy'], 4))
+print('Candidate source-format audit:')
+formats = direction['candidate_source_format_audit']
+print(json.dumps({k: v for k, v in formats.items() if k != 'records'}, ensure_ascii=False, indent=2))
+print('Code-level formatting difference is not a reconstructed historical invocation trace.')'''),
+md('''## Сравнение сигналов отбора при равном покрытии
+
+Все варианты принимают 563 из 978 единогласных строк. Ничьи разрешаются исходным порядком CSV, не метками. Диапазоны показывают чувствительность к граничным ничьим и не являются стратегией, доступной без знания labels. Калибровка моделей на независимой выборке ещё не выполнялась.'''),
+code('''selection = direction['escalation_equal_coverage']
+for name, signal in selection['signals'].items():
+    print(name, '| accepted:', signal['accepted'], '| errors:', signal['errors_csv_order_tiebreak'],
+          '| possible tie range:', (signal['min_errors_over_all_boundary_tiebreaks'],
+                                    signal['max_errors_over_all_boundary_tiebreaks']))'''),
 md('''## Сопоставление входов
 
 `question_id` в evaluation равен `series_ticker`. Полный текст условий и стабильный идентификатор контракта необходимы для pairing. Различающиеся входы не следует автоматически объявлять ложными labels: возможны разные версии выгрузки.'''),
@@ -95,7 +117,10 @@ print('Required zero-error independent accepted cases:', risk['zero_error_requir
 print('Illustrative one-sided upper bound:', risk['one_sided_95pct_binomial_error_upper_bound_assuming_iid_fixed_gate'])
 for row in risk['cost_scenarios']:
     print('Error loss:', row['loss_per_wrong_automatic_resolution_usd'], 'hybrid cost:', round(row['hybrid_cost_per_incoming_question_usd'], 2))
-print('Assumed break-even loss:', round(risk['break_even_loss_usd'], 2))'''),
+print('Assumed break-even loss:', round(risk['break_even_loss_usd'], 2))
+print('Accepted n by risk limit and observed errors:')
+print(json.dumps(risk['required_independent_accepted_cases_by_risk_limit_and_observed_errors'], indent=2))
+print('These are conditional sample requirements, not coverage-comparison power.')'''),
 md('''## Реальная выгрузка Kalshi
 
 Это convenience sample для проверки доступа, а не репрезентативный resolution benchmark. Исторические версии правил и доказательств не восстановлены. Прямые outcome-поля удалены из inputs, но timestamps и тексты тоже требуют проверки на утечки.'''),
@@ -111,7 +136,9 @@ for row in inputs:
 print('Direct outcome-field check passed. Temporal eligibility remains unverified.')'''),
 md('''## Следующий проверяемый шаг
 
-Выбрать 10 независимых текстовых контрактов и разметить действовавшие правила, момент доступности источников и достаточность evidence. Затем проверить H1: калибратор с признаками evidence против калибратора только по confidence на одних ответах resolver. Порог, primary error, splits и критерий поддержки заморозить до теста.
+Подготовлена абляция явной даты при фиксированном содержимом: 100 контрактов × 3 модельных слота × 2 условия = 600 запросов. Факторный дизайн «дата × highlights/text-only» содержит 1200 запросов. `src/prepare_date_ablation.py` только формирует inputs и отдельные labels; API не вызывает. До запуска нужны версии моделей, decoding, группы событий и замороженный анализ.
+
+Для H1-P platform agreement оценивается на полном потоке; H1-E с ручной оценкой достаточности evidence — на отдельной подвыборке. Большая платформа-выборка не сертифицирует evidence-risk. Пилот 50–100 событий служит разработке разметки; минимальные принятые n для риска 2% при 0/2/5 ошибках — 149/313/523.
 
 Сохранённые артефакты позволяют уже сейчас обсуждать воспроизводимость, причинные выводы и экономическую постановку. Они не подтверждают качество нового агента или выполнение экономического критерия.''')
 ], metadata={'kernelspec': {'display_name':'Python 3', 'language':'python', 'name':'python3'}, 'language_info': {'name':'python','version':'3.11'}})

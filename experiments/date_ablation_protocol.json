@@ -1,0 +1,43 @@
+{
+  "status": "prepared_not_run",
+  "reference_commit": "f76754b5bcff1a1d7a50c2f1073a4b6d44bd985c",
+  "question": "Does an explicit resolution-date field reduce false NO decisions when actual source text is held fixed?",
+  "sample": "100 unique A/B row_uid values with a shared matching candidate packet; availability-selected diagnostic sample, not representative or proven historical invocation evidence",
+  "primary_design": "100 contracts x 3 model slots x 2 date conditions = 600 requests, with highlights in both conditions",
+  "extended_design": "2 x 2 factorial: explicit date present/absent and highlights/reference B text-only formatter; 1200 requests",
+  "model_slots": [
+    "openai",
+    "deepseek",
+    "llama"
+  ],
+  "model_versions": "Must be frozen to actually available provider versions before execution; historical gpt4o CSV column does not identify an immutable snapshot",
+  "primary_endpoint": "Paired change in missed-YES rate (NO or terminal unresolved/invalid/API failure) among 36 saved YES contracts, averaged across the three predeclared model slots; report FN and unresolved components separately with the same fixed denominator and each model separately",
+  "guardrails": [
+    "False YES rate",
+    "balanced accuracy",
+    "invalid output and API failure rate",
+    "cost and latency"
+  ],
+  "analysis": "Pair treatment/control within contract and model. Do not count the three models as independent contracts. Before inference, manually freeze event groups and use event-group bootstrap intervals for the primary contrast. Per-model exact McNemar is a descriptive sensitivity check under row-independence only. The factorial additionally measures the content-by-date interaction.",
+  "controls": [
+    "Same source order, titles, URLs, publication dates and source content within each date pair",
+    "Only the explicit Resolution Date line changes in the primary experiment; date cues already inside question, criteria and sources remain",
+    "Same provider model, decoding parameters, structured-output schema and token budget per pair; freeze all before inference",
+    "Freeze request order by deterministic hash; retain actual invocation time, all retries and failed outputs",
+    "Resolver receives requests.jsonl only; evaluation labels are stored separately and must be inaccessible to its tools",
+    "No retrieval, no peer discussion, no browsing during this diagnostic experiment"
+  ],
+  "limitations": [
+    "Source publication metadata does not prove historical availability; this is not an as-of performance claim",
+    "The explicit resolution date is not the agent's decision time or proof that the observation window was closed",
+    "Cached source content is untrusted evidence, not instructions; review prompts and use an isolated no-tools execution environment",
+    "A new run on current models cannot by itself establish the cause of the historical A/B gap",
+    "No power claim at n=100 and no inference calls have been made"
+  ],
+  "sample_label_composition": {
+    "YES": 36,
+    "NO": 64,
+    "independent_unit_warning": "Three model outputs on one YES contract are not three independent contracts"
+  },
+  "failure_policy": "At most one retry per failed request with the same fixed model and budget; log both attempts and costs. Terminal failures or invalid structured outputs are UNRESOLVED, never converted to NO or silently omitted. Count them in the missed-YES primary endpoint on YES labels; report unresolved rates separately on YES and NO labels."
+}

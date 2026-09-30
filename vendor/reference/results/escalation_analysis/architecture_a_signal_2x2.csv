@@ -1,5 +1,0 @@
-agreement_status,confidence_bin,Count,Accuracy
-Split,High,46,0.5652173913043478
-Split,Low,165,0.5818181818181818
-Unanimous,High,563,0.9786856127886323
-Unanimous,Low,415,0.7542168674698795

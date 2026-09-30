@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "reference": {
+    "provenance_manifest": "vendor/reference_source.json",
+    "local_path": "vendor/reference",
+    "archive_url": "https://codeload.github.com/Tkota10/Senior-Thesis-Multi-LLM-Resolution/tar.gz/f76754b5bcff1a1d7a50c2f1073a4b6d44bd985c",
+    "integrity": "Every file is verified against the original committed per-file SHA-256 manifest; upstream code is never executed. archive_sha256 in reference_source.json identifies the original local git archive, not the codeload transport archive."
+  },
+  "kalshibench": {
+    "dataset": "2084Collective/kalshibench-v2",
+    "revision": "e70c1077093e12ca604429d7f7dc7562127e81f2",
+    "url": "https://huggingface.co/datasets/2084Collective/kalshibench-v2/resolve/e70c1077093e12ca604429d7f7dc7562127e81f2/data/train-00000-of-00001.parquet",
+    "path": "audit/kalshibench-v2.parquet",
+    "sha256": "d3c3844cbbbc35be62b783f9b25d62c772d15a574e76a36e9f821dfebd88d9bf",
+    "license": "No license declared in the saved dataset card; downloaded locally, not redistributed in the current tree.",
+    "derived_json": {
+      "path": "audit/hf_rows_pinned.json",
+      "sha256": "25e0b37f896225c4284655f96a2a7fcfd2866939e673e2e7537870c710528382",
+      "rows": 1531,
+      "encoding": "UTF-8 JSON; sort_keys=True, indent=2, ensure_ascii=False, trailing newline",
+      "decoder": "pyarrow==21.0.0 (fetch stage only)"
+    },
+    "historic_viewer_comparison": {
+      "rows_equal_to_pinned_parquet": true,
+      "viewer_sha256": "5b2e253196463d00ed220c5669a9f068e2d9c672ed1c994eac9c941d03046176",
+      "note": "Historical verification only; viewer endpoint and saved pages are not used for reproduction."
+    }
+  },
+  "vega_group_passport": {
+    "url": "https://drive.google.com/file/d/12TPOnUZIgwpFIEDDRoydAmVaW8NDkSkX/view",
+    "local_copies_not_tracked": true,
+    "needed_for_reproduction": false
+  }
+}

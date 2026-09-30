@@ -1,22 +1,16 @@
 #!/usr/bin/env python3
-"""Independent offline audit; stdlib only. Never imports the reference project.
+"""Independent offline audit; stdlib only. Never imports reference code.
 
-Optional --fetch-hf fetches public read-only HF metadata/rows via curl with TLS
-verification. The HF viewer endpoint is not revision-pinned: before/after head
-checks record that caveat; the separately saved source Parquet is pinned.
+Run make fetch first to obtain hash-verified sources, including a canonical
+JSON conversion of the revision-pinned HF Parquet. No network calls occur here.
 """
-import argparse
 import collections
-import concurrent.futures
 import csv
-import datetime
 import hashlib
 import json
 import math
 from pathlib import Path
 import statistics
-import subprocess
-import urllib.parse
 
 ROOT = Path(__file__).resolve().parent
 REPO = ROOT.parent / "vendor" / "reference"
@@ -29,35 +23,12 @@ def read_csv(path):
         return list(csv.DictReader(handle))
 
 
-def fetch_hf():
-    base = "https://huggingface.co/api/datasets/2084Collective/kalshibench-v2"
-    def get(url):
-        return json.loads(subprocess.check_output(["curl", "--fail", "--silent", "--show-error", "--location", url]))
-    before = get(base)
-    def chunk(offset):
-        params = urllib.parse.urlencode({"dataset": "2084Collective/kalshibench-v2", "config": "default", "split": "train", "offset": offset, "length": 100})
-        data = get("https://datasets-server.huggingface.co/rows?" + params)
-        (ROOT / f"hf_rows_{offset:04d}.json").write_text(json.dumps(data, ensure_ascii=False, indent=2))
-        return data
-    first = chunk(0)
-    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
-        chunks = [first] + list(pool.map(chunk, range(100, first["num_rows_total"], 100)))
-    after = get(base)
-    assert before["sha"] == after["sha"], "HF revision changed during collection"
-    indexed = sorted((r for data in chunks for r in data["rows"]), key=lambda r: r["row_idx"])
-    assert [r["row_idx"] for r in indexed] == list(range(first["num_rows_total"]))
-    assert not any(data["partial"] for data in chunks)
-    assert not any(r.get("truncated_cells") for r in indexed)
-    payload = {"retrieved_utc": datetime.datetime.now(datetime.timezone.utc).isoformat(), "metadata_sha_before_after": before["sha"], "viewer_revision_pinned": False, "features": first["features"], "rows": [r["row"] for r in indexed]}
-    (ROOT / "hf_rows_all.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2))
-
-
 def digest(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
 def reference_commit():
-    """Verify the vendored files against recorded upstream provenance."""
+    """Verify fetched files against the retained upstream provenance manifest."""
     provenance = json.loads((REPO.parent / "reference_source.json").read_text())
     for name, expected in provenance["sha256"].items():
         if digest(REPO / name) != expected:
@@ -140,21 +111,42 @@ def calibration(rows, prefix):
     for conf, correct in pairs:
         bins[min(9, int(conf * 10))].append((conf, correct))
     details = [{"bin": b, "n": len(v), "mean_confidence": statistics.mean(c for c, _ in v), "accuracy": statistics.mean(int(ok) for _, ok in v)} for b, v in sorted(bins.items())]
-    return {"n": len(pairs), "mean_confidence": statistics.mean(c for c, _ in pairs), "accuracy": statistics.mean(int(ok) for _, ok in pairs), "decision_correctness_brier": statistics.mean((c-int(ok))**2 for c, ok in pairs), "ece_10_equal_width_bins": sum(d["n"]*abs(d["mean_confidence"]-d["accuracy"]) for d in details)/len(pairs), "bins": details}
+    return {"n": len(pairs), "mean_confidence": statistics.mean(c for c, _ in pairs), "accuracy": statistics.mean(int(ok) for _, ok in pairs), "decision_correctness_brier": statistics.mean((c-int(ok))**2 for c, ok in pairs), "ece_10_equal_width_bins": math.fsum(sorted(d["n"]*abs(d["mean_confidence"]-d["accuracy"]) for d in details))/len(pairs), "bins": details}
+
+
+def canonical_numbers(value):
+    """Discard insignificant platform-dependent floating point digits."""
+    if isinstance(value, float):
+        return round(value, 12)
+    if isinstance(value, dict):
+        return {key: canonical_numbers(item) for key, item in value.items()}
+    if isinstance(value, list):
+        return [canonical_numbers(item) for item in value]
+    return value
 
 
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--fetch-hf", action="store_true")
-    args = parser.parse_args()
-    if args.fetch_hf:
-        fetch_hf()
     dfile = REPO / "data/kalshibench_v2_evaluation_Filtered.csv"
     afile = REPO / "results/Final_Architecture_A_results.csv"
     bfile = REPO / "results/Final_Architecture_B_results.csv"
     data, a, b = map(read_csv, (dfile, afile, bfile))
-    upstream = json.loads((ROOT / "hf_rows_all.json").read_text())
-    report = {"generated_utc": datetime.datetime.now(datetime.timezone.utc).isoformat(), "method": "Independent standard-library recomputation of committed predictions; no model/retrieval rerun", "repository_commit": reference_commit(), "hf_revision": upstream["metadata_sha_before_after"], "hf_viewer_revision_pinned": upstream["viewer_revision_pinned"], "sha256": {str(f.relative_to(ROOT.parent)): digest(f) for f in (dfile, afile, bfile, ROOT/"kalshibench-v2.parquet", ROOT/"hf_rows_all.json")}, "evaluation_data": data_profile(data), "upstream_data": data_profile(upstream["rows"])}
+    provenance = json.loads((ROOT.parent / "sources_manifest.json").read_text())
+    hf = provenance["kalshibench"]
+    parquet = ROOT.parent / hf["path"]
+    derived = ROOT.parent / hf["derived_json"]["path"]
+    if digest(parquet) != hf["sha256"] or digest(derived) != hf["derived_json"]["sha256"]:
+        raise ValueError("HF source integrity mismatch; inspect files and run make fetch")
+    upstream = json.loads(derived.read_text())
+    report = {
+        "method": "Independent standard-library recomputation of saved predictions; no model/retrieval rerun",
+        "repository_commit": reference_commit(),
+        "hf_revision": hf["revision"],
+        "hf_revision_pinned": True,
+        "hf_rows_source": "Canonical JSON decoded from SHA-256-verified revision-pinned Parquet; no viewer endpoint",
+        "numeric_serialization": "Floats rounded to 12 decimal places; ECE uses sorted math.fsum",
+        "sha256": {str(f.relative_to(ROOT.parent)): digest(f) for f in (dfile, afile, bfile, parquet, derived)},
+        "evaluation_data": data_profile(data), "upstream_data": data_profile(upstream["rows"]),
+    }
     all_fields = list(data[0])
     upstream_keys = collections.Counter(row_key(r, all_fields) for r in upstream["rows"])
     subset_keys = collections.Counter(row_key(r, all_fields) for r in data)
@@ -223,8 +215,11 @@ def main():
         report["grouped_metrics"][tag] = {"groups": len(groups), "first_row_accuracy": statistics.mean(int(v[0]) for v in groups.values()), "macro_group_accuracy": statistics.mean(statistics.mean(map(int,v)) for v in groups.values()), "multi_groups": len(multis), "multi_all_correct": sum(all(v) for v in multis), "multi_all_wrong": sum(not any(v) for v in multis), "multi_mixed": sum(any(v) and not all(v) for v in multis)}
     report["latency_ms"] = {tag: {"observed":sum(bool(r["resolution_time_ms"]) for r in rows),"mean": statistics.mean(float(r["resolution_time_ms"]) for r in rows if r["resolution_time_ms"]), "median": statistics.median(float(r["resolution_time_ms"]) for r in rows if r["resolution_time_ms"])} for tag,rows in (("A",a),("B",b))}
     report["evidence_cache_files_committed"] = len(list((REPO/"cache/evidence").glob("*.json")))
+    report = canonical_numbers(report)
     (ROOT / "audit_results.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n")
-    print(json.dumps({key:report[key] for key in ("repository_commit","hf_revision","evaluation_data","subset_membership","result_alignment","metrics","paired","A_unanimous_high_confidence","grouped_metrics")},ensure_ascii=False,indent=2))
+    summary = json.dumps({key:report[key] for key in ("repository_commit","hf_revision","evaluation_data","subset_membership","result_alignment","metrics","paired","A_unanimous_high_confidence","grouped_metrics")},ensure_ascii=False,indent=2)
+    (ROOT / "audit_console_output.json").write_text(summary + "\n")
+    print(summary)
 
 
 if __name__ == "__main__":

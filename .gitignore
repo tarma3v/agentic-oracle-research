@@ -6,3 +6,14 @@ __pycache__/
 .env
 .env.local
 audit/reference-repo/
+.fetch-venv/
+.logs/
+# Downloaded third-party assets; use make fetch for pinned audit inputs.
+vendor/reference/
+audit/kalshibench-v2.parquet
+audit/hf_rows_*.json
+audit/hf_rows_pinned.json
+sources/vega-group-passport.pdf
+sources/passport*.png
+sources/passport.txt
+experiments/prepared/

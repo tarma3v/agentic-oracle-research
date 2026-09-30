@@ -8,25 +8,18 @@ Commit: f76754b5bcff1a1d7a50c2f1073a4b6d44bd985c
 Commit timestamp: 2026-07-21T21:42:31-05:00
 Hugging Face: https://huggingface.co/datasets/2084Collective/kalshibench-v2
 Revision: e70c1077093e12ca604429d7f7dc7562127e81f2
-Source Parquet was downloaded by revision; public viewer JSON is not revision-
-pinned. The audit verifies identical HF HEAD metadata before/after fetching all
-viewer pages. It checks complete row indices and no truncated cells. Parquet was
-archived but not parsed; equality of its contents with viewer JSON is not proven.
+The current audit reads canonical JSON derived directly from the SHA-checked
+Parquet at the pinned HF revision. All 1531 rows equal the original historical
+viewer download, but the viewer is no longer a reproduction dependency.
+Source downloads are ignored; provenance and hashes remain tracked.
 File SHA-256 values and schemas are in audit_results.json.
 
-Correction before publication (2026-09-30)
-An earlier text incorrectly stated that no evidence cache was committed, based
-on the cache/ ignore rule. The pinned Git tree actually contains 486 JSON packets
-(458 highlights__row_uid files and 28 legacy ID-named files). Tracked files remain
-tracked despite an ignore rule. The correction does not change headline accuracy.
-Independent counts and per-file SHA-256 values are in cache_coverage.json;
-reproduce them with python3 audit_cache_coverage.py from this audit directory.
-
-Reproduce offline
-python3 audit_public_artifacts.py
-Fetch current public viewer data first (read-only network; not paid API):
-python3 audit_public_artifacts.py --fetch-hf
-Run from any directory; paths resolve against the script location.
+Reproduce from the repository root
+make fetch       # pinned Git/HF files, SHA checks; pyarrow only for Parquet reading
+make reproduce   # offline stdlib audit, risk, error direction and prompt preparation
+Run timestamps go to ignored .logs/; tracked outputs are deterministic.
+The pinned Git tree contains 486 JSON evidence packets: 458 highlights__row_uid
+files and 28 legacy ID-named files. See cache_coverage.json for all hashes.
 
 Confirmed dataset facts
 Upstream: 1531 rows, 894 IDs, 637 IDs with exactly 2 rows and 257 singletons.
@@ -92,6 +85,26 @@ cache file and matching identity for both architectures. Final CSVs do not bind
 historical invocations to immutable evidence hashes, so complete equality of
 actually consumed evidence remains unverified. These are potential confounds; the
 audit does not establish which factor caused the performance gap.
+
+Error direction and the source-format confound
+A-majority FN/FP=159/44; B-round1=247/31; B-final=255/29. A has 486 YES
+labels, B has 488. Raw extra errors (+96 FN -15 FP=81) are not paired effects.
+On strict 1154 same-contract/label pairs, the gap is +91 FN -15 FP=76;
+unmatched rows account for the remaining 5. In the 100 shared cache candidates,
+A is correct83 vs B-round1 79 (8 vs4 exclusive correct; exact p=0.3876953125).
+All 999 sources in these100 packets have empty text and nonempty highlights.
+A's current formatter prefers highlights; B's uses text only. B would retain
+source titles, URLs and publication dates but no body excerpts on these packets.
+This is a code/artifact confound, NOT proof of historical invocation contents.
+Date-only and date-by-source-format prompt designs are prepared, not executed.
+
+Confidence selection at equal coverage563
+Eligible unanimous pool=978. Confidence>=.95 counts: GPT-column59, DeepSeek738,
+Llama732. Errors using original-CSV-order boundary ties: raw mean12, GPT10,
+DeepSeek29, Llama41. Possible error counts over all boundary tie choices are
+DeepSeek9-48, Llama0-50, GPT10, raw mean12. Bounds are sensitivity diagnostics,
+not oracle-accessible selection policies. Held-out calibration remains future work.
+See error_direction.json for complete confusion tables and matching methodology.
 
 Error, confidence and cost observations
 All final CSV model decisions are YES/NO, all *_error fields are empty, and saved

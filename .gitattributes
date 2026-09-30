@@ -1,5 +1,6 @@
-# Preserve downloaded research artifacts and their recorded hashes.
-vendor/reference/** -text
+# Preserve archived sources and byte-stable audit CSVs.
 sources/** -text
 *.csv -text
-*.parquet -text
+*.py text eol=lf
+*.json text eol=lf
+Makefile text eol=lf

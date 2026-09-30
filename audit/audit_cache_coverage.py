@@ -13,7 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 VENDORED = ROOT.parent / "vendor/reference"
-REPO = VENDORED if VENDORED.exists() else ROOT / "reference-repo"
+REPO = VENDORED
 
 
 def digest(path):
@@ -39,6 +39,8 @@ def expected_cache_key(row):
 
 
 def main():
+    from audit_public_artifacts import reference_commit
+    reference_commit()
     paths = sorted((REPO / "cache/evidence").glob("*.json"))
     if not paths:
         raise SystemExit("No evidence packets found in " + str(REPO))
@@ -114,7 +116,7 @@ def main():
         by_uid[tag] = grouped
     common = set(by_uid["A"]) & set(by_uid["B"])
     both_cache, same_cache_and_identity = 0, 0
-    for uid in common:
+    for uid in sorted(common):
         a_rows, b_rows = by_uid["A"][uid], by_uid["B"][uid]
         if all(expected_cache_key(row) in packets for row in a_rows + b_rows):
             both_cache += 1

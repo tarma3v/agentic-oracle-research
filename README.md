@@ -1,26 +1,24 @@
 # Agentic Oracle Resolver for Prediction Markets
 
-Материалы исследования для отбора в «Институт Вега»: обзор литературы, аудит референсной работы, гипотезы и первые эксперименты с данными.
+Аудит референсной работы, исследовательские гипотезы и подготовленные эксперименты для проекта «Института Вега».
 
-- [Досье](research_dossier.md) — исследовательский вопрос, литература и план.
-- [Notebook](first_steps.ipynb) — выполненные расчёты и график.
-- [Аудит](audit/audit_findings.txt) — проверка метрик и ограничений сравнения.
-- `data/kalshi/` — 100 рынков с раздельными входами и ответами.
-- `src/`, `results/` — скрипты, метрики и экономические расчёты.
-- `sources/`, `vendor/reference/` — источники и снимок кода автора с лицензией; происхождение и SHA-256 в `vendor/reference_source.json`.
+- [Досье](research_dossier.md) — выводы и план исследования; [литература](docs/literature.md).
+- [Notebook](first_steps.ipynb) — выполненные расчёты и графики.
+- [Направление ошибок](audit/error_direction.json), [основной аудит](audit/audit_results.json), [экономика и размеры выборки](results/risk_and_cost.json).
+- [Абляция](experiments/date_ablation_protocol.json) — явная дата и содержимое evidence; генератор 600/1200 запросов.
+- `data/kalshi/` — техническая выборка из 100 рынков, входы отдельно от labels.
 
-**Главная находка:** точность B до обсуждения — 76,62%, после — 76,11%. Разрыв с независимым ансамблем нельзя целиком считать эффектом debate.
+**Результат:** разрыв A–B возникает до debate и состоит преимущественно из ложных NO. Обнаружены различия промптов и форматирования evidence; причинный эффект ещё не установлен. Новые LLM-вызовы не выполнялись.
 
-## Запуск
+## Воспроизведение
 
-Python 3.10+, без платных API:
+Python 3.11, make, curl, venv; платные API и ключи не нужны.
 
 ```bash
-python3 audit/audit_public_artifacts.py
-python3 audit/audit_cache_coverage.py
-python3 src/risk_and_cost.py
+make fetch       # скачать закреплённые источники и проверить SHA-256
+make reproduce   # офлайн: аудит, риск, экономика, подготовка запросов
 ```
 
-Для пересоздания notebook: `pip install -r requirements-notebook.txt`, затем `python3 src/build_notebook.py`.
+Исходники автора и KalshiBench скачиваются локально, не входят в текущее дерево Git. Происхождение: [sources_manifest.json](sources_manifest.json), [reference_source.json](vendor/reference_source.json). Pyarrow используется только на этапе fetch; расчёты — stdlib. CI проверяет воспроизведение без изменения отслеживаемых результатов.
 
-Новые LLM-запуски не выполнялись. Выгрузка Kalshi — техническая проба, не репрезентативный benchmark; денежные параметры иллюстративны. Evidence cache референса сохранён частично; полная привязка к историческим ответам не подтверждена.
+Notebook: `python3 -m pip install -r requirements-notebook.txt`, затем `python3 src/build_notebook.py`. Параметры экономики иллюстративны; выборка Kalshi не является репрезентативным benchmark.

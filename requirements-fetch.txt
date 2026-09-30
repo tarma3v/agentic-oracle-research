@@ -1,0 +1,2 @@
+# Used only by make fetch to decode the pinned Parquet. Offline audits use stdlib.
+pyarrow==21.0.0

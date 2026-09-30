@@ -4,15 +4,61 @@
   "n_total": 1189,
   "n_accepted": 563,
   "n_errors_accepted": 12,
-  "coverage": 0.4735071488645921,
-  "selective_error_rate": 0.021314387211367674,
-  "one_sided_95pct_binomial_error_upper_bound_assuming_iid_fixed_gate": 0.03430550350120018,
+  "coverage": 0.473507148865,
+  "selective_error_rate": 0.021314387211,
+  "one_sided_95pct_binomial_error_upper_bound_assuming_iid_fixed_gate": 0.034305503501,
   "warning": "Post-hoc paper gate and correlated event rows: bound is illustrative, not a certified deployment guarantee.",
   "zero_error_required_independent_accepted_cases": {
     "0.05": 59,
+    "0.02": 149,
     "0.01": 299,
     "0.005": 598,
     "0.001": 2995
+  },
+  "required_independent_accepted_cases_by_risk_limit_and_observed_errors": {
+    "0.05": {
+      "0": 59,
+      "2": 124,
+      "5": 208
+    },
+    "0.02": {
+      "0": 149,
+      "2": 313,
+      "5": 523
+    },
+    "0.01": {
+      "0": 299,
+      "2": 628,
+      "5": 1049
+    },
+    "0.0066": {
+      "0": 453,
+      "2": 952,
+      "5": 1591
+    },
+    "0.005": {
+      "0": 598,
+      "2": 1258,
+      "5": 2100
+    },
+    "0.0026": {
+      "0": 1151,
+      "2": 2420,
+      "5": 4041
+    },
+    "0.001": {
+      "0": 2995,
+      "2": 6294,
+      "5": 10511
+    }
+  },
+  "sample_size_interpretation": {
+    "confidence_level_one_sided": 0.95,
+    "method": "Exact binomial inversion / one-sided Clopper-Pearson upper bound",
+    "inequality": "min n: sum_{j=0}^{k} choose(n,j) alpha^j (1-alpha)^(n-j) <= 0.05",
+    "unit": "independent accepted evaluation case, not every incoming or correlated market row",
+    "limitations": "Conditional on realized error count; fixed gate; no threshold search or multiple-look correction; not power for coverage uplift.",
+    "incoming_sample_conversion": "n_accepted / coverage is an expectation for planning, not a guarantee of enough accepted cases."
   },
   "cost_assumptions": {
     "ai_cost_per_incoming_question_usd": 0.05,
@@ -21,31 +67,85 @@
     "latency_and_disputes_included": false,
     "status": "illustrative assumptions, not measured market costs"
   },
-  "break_even_loss_usd": 229.6291666666667,
+  "break_even_loss_usd": 229.629166666667,
   "cost_scenarios": [
     {
       "loss_per_wrong_automatic_resolution_usd": 10,
-      "hybrid_cost_per_incoming_question_usd": 2.7833894028595454,
+      "hybrid_cost_per_incoming_question_usd": 2.78338940286,
       "human_only_cost_per_incoming_question_usd": 5.0,
-      "savings_per_incoming_question_usd": 2.2166105971404546
+      "savings_per_incoming_question_usd": 2.21661059714
     },
     {
       "loss_per_wrong_automatic_resolution_usd": 100,
-      "hybrid_cost_per_incoming_question_usd": 3.6917157275021024,
+      "hybrid_cost_per_incoming_question_usd": 3.691715727502,
       "human_only_cost_per_incoming_question_usd": 5.0,
-      "savings_per_incoming_question_usd": 1.3082842724978976
+      "savings_per_incoming_question_usd": 1.308284272498
     },
     {
       "loss_per_wrong_automatic_resolution_usd": 1000,
-      "hybrid_cost_per_incoming_question_usd": 12.77497897392767,
+      "hybrid_cost_per_incoming_question_usd": 12.774978973928,
       "human_only_cost_per_incoming_question_usd": 5.0,
-      "savings_per_incoming_question_usd": -7.77497897392767
+      "savings_per_incoming_question_usd": -7.774978973928
     },
     {
       "loss_per_wrong_automatic_resolution_usd": 10000,
-      "hybrid_cost_per_incoming_question_usd": 103.60761143818334,
+      "hybrid_cost_per_incoming_question_usd": 103.607611438183,
       "human_only_cost_per_incoming_question_usd": 5.0,
-      "savings_per_incoming_question_usd": -98.60761143818334
+      "savings_per_incoming_question_usd": -98.607611438183
     }
-  ]
+  ],
+  "uma_proposer_economics": {
+    "role": "Private expected profit of a proposer; separate from operator/human replacement cost and user settlement harm.",
+    "primary_sources": [
+      "https://docs.polymarket.com/concepts/resolution",
+      "https://github.com/Polymarket/uma-ctf-adapter"
+    ],
+    "documentation_checked_as_of": "2026-09-30",
+    "documented_context": "Polymarket documents a typical $750 pUSD bond, return plus a reward when correct and undisputed, and loss for an incorrect or premature proposal. The adapter stores reward per market.",
+    "reward_status": "$5 and $2 are sensitivity assumptions; no universal/current fixed proposal reward was verified. Read request-specific bond, currency and reward before any live evaluation.",
+    "profit_formula": "E[profit] = (1-epsilon)*R - epsilon*B - c",
+    "break_even_formula": "epsilon_star = (R-c)/(B+R), requiring R>c for positive tolerance",
+    "strong_assumptions": [
+      "Every wrong or premature proposal is rejected and loses the entire bond B.",
+      "Every correct proposal returns the bond and earns R; dispute windfalls and failures are ignored.",
+      "c is the all-in per-proposal cost, including any gas, inference, search, capital lockup and operations counted in the scenario.",
+      "The reward and bond are expressed in comparable USD-equivalent amounts; token/depeg risk is ignored.",
+      "Equating the reported dataset error rate with rejected-proposal probability is illustrative only and is not empirically established."
+    ],
+    "excluded_claim": "Proposer profit does not certify settlement accuracy, social welfare, or attacker resistance; bond is not the full loss per incorrect payout.",
+    "scenarios": [
+      {
+        "bond_usd_equivalent": 750.0,
+        "reward_usd_equivalent_assumed": 5.0,
+        "all_in_cost_per_proposal_usd_assumed": 0.0,
+        "break_even_error_rate_under_full_slashing_assumption": 0.006622516556,
+        "required_accepted_cases_zero_errors_at_95pct": 451,
+        "profit_per_proposal_at_reported_selective_risk_usd_illustrative": -11.092362344583
+      },
+      {
+        "bond_usd_equivalent": 750.0,
+        "reward_usd_equivalent_assumed": 5.0,
+        "all_in_cost_per_proposal_usd_assumed": 0.05,
+        "break_even_error_rate_under_full_slashing_assumption": 0.006556291391,
+        "required_accepted_cases_zero_errors_at_95pct": 456,
+        "profit_per_proposal_at_reported_selective_risk_usd_illustrative": -11.142362344583
+      },
+      {
+        "bond_usd_equivalent": 750.0,
+        "reward_usd_equivalent_assumed": 5.0,
+        "all_in_cost_per_proposal_usd_assumed": 3.0,
+        "break_even_error_rate_under_full_slashing_assumption": 0.002649006623,
+        "required_accepted_cases_zero_errors_at_95pct": 1130,
+        "profit_per_proposal_at_reported_selective_risk_usd_illustrative": -14.092362344583
+      },
+      {
+        "bond_usd_equivalent": 750.0,
+        "reward_usd_equivalent_assumed": 2.0,
+        "all_in_cost_per_proposal_usd_assumed": 0.05,
+        "break_even_error_rate_under_full_slashing_assumption": 0.002593085106,
+        "required_accepted_cases_zero_errors_at_95pct": 1154,
+        "profit_per_proposal_at_reported_selective_risk_usd_illustrative": -14.078419182948
+      }
+    ]
+  }
 }
